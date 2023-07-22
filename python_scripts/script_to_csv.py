@@ -27,7 +27,7 @@ def processTXT_to_CSV(chapterIndex,CHAPTER, chapter_fileName):
         txt_open = open(
             'python_scripts/script-txt-for-processing/'+chapter_fileName, 
             'r',
-            encoding='UTF-8'
+            encoding='UTF-16'
         )
         txt_lines = txt_open.readlines()
 

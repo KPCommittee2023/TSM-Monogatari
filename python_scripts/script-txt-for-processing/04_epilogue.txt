@@ -1,0 +1,382 @@
+Epilogue: A Prismatic Farewell
+
+[Music Room Basic All]
+[Outro BGM]
+
+Narration:
+After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It's the first official radio club meeting today, and you’re excited!
+
+You look at the notes you wrote on your phone to remember what you’re discussing with all the club members. It’s simple enough: assign roles to the club members and finalize the plan for future activities.
+
+Now you just need to wait for them to show up. They didn’t forget about you telling them earlier in the day to meet you at lunch, right? You hope not.
+
+Speaking of showing up, will Kyo even be here? You weren’t even able to tell him all the good news, because you haven’t seen him all day. Well, it’s on him for choosing to miss this momentous occasion.
+
+The door opens.
+
+[Atria1_happy, left]
+
+Atria:
+I’m here.
+
+[Skye_smile, center]
+
+Skye:
+And so am I!
+
+Player:
+Now, where the heck is Esme—
+
+[Esmeray_neutral, right]
+
+Esmeray:
+My bad. Had to shake off my fans, but I’m good now. 
+
+Skye:
+Pssh, okay, Mr. Famous.
+
+Player:
+You sure they’re not gonna follow you?
+
+Esmeray:
+I mean, more club members, am I right?
+
+Narration:
+The three of you stare at him.
+
+Esmeray [Amused]:
+Okay okay, I’m just kidding. I was a little late on finishing my classwork. I’ll be early next time.
+
+Player:
+I’ll hold you to that.
+
+Narration:
+Esmeray laughs.
+
+Player:
+Alright y’all, we got business to take care of. First, we gotta decide what our roles are.
+
+Skye:
+Well, it’s obvious what you’re gonna be. Club president! 
+
+Narration:
+You put your hands on your hips.
+
+Player:
+Yup! I’ll be doing more of the behind the scenes stuff. As for the other roles… 
+
+Skye:
+I’ve already decided.
+
+Player:
+Wait, I haven't even said what the other roles are yet.
+
+Skye:
+Well, you’re gonna need someone to write scripts, right? Then I’ll do it.
+
+Player:
+Sounds good. 
+
+Skye:
+I can also get the latest scoops on what’s going around at school. The janitor’s closet is quite handy for getting a hold of hot tea, you know.
+
+Player:
+Can you handle doing both?
+
+Skye:
+Hell yeah brother.
+
+Narration:
+You flash a smile. This is already going pretty smoothly.
+
+Player:
+Now, Esmeray…
+
+Esmeray [Neutral]:
+Hm?
+
+Player:
+You’ll be in charge of making little jingles before and after we’re done announcing and stuff. Oh, and I’m thinking we could add in music segments in our broadcasts too. 
+
+Esmeray:
+You got it.
+
+Narration:
+Esmeray takes out a small notebook. He starts writing and humming to himself.
+
+Player:
+And finally, Atria, you’ll be the one on the speakers! 
+
+Atria [Atria1_Nervous]:
+Um, are you sure? I’m not that loud and confident yet…
+
+Player:
+You don’t have to be the only speaker of course. We can do it together.
+
+Narration:
+Atria slowly regains her smile.
+
+Atria [Atria1_Happy]:
+That’d be easier for me. Thank you.
+
+Player:
+Alright, now we gotta think of our future plans for this club.
+
+Atria:
+Actually, is it okay if I suggest something?
+
+Player:
+Of course.
+
+Atria:
+It’s Back to School Night next week. The staff wants clubs to help out with the concessions. 
+
+Player:
+Then we should join! So, are we all free to help out with the concessions next week?
+
+Narration:
+The other three club members say yes.
+
+Player:
+Alright, we’re done then. 
+
+Narration:
+Happiness feels like it's going to burst out of your chest. It really feels like an actual club now. No wait, it’s not just a club. It feels like you have a friend group for real too. You wonder if everyone's down for a group hug before they leave.
+
+You open your arms wide.
+
+Player:
+I know this is out of nowhere but… Who’s down for a group hug?!
+
+Atria [Atria1_Nervous]:
+Huh?
+
+Skye [Skye_smile2]:
+Heh, sure, why not. Come on, get over here, Atria.
+
+Esmeray [Amused]:
+Wait, we’re actually doing this? Hold on a minute—
+
+CG of the Player hugging all the three club members together. 
+
+Player:
+Hehe, thanks y’all. 
+
+Narration:
+The lunch bell rings, and all of you part ways as you wave to each other. 
+
+[Scene ends]
+
+[School Hallway Night]
+
+Narration:
+It's Back To School Night. You go back and forth from your mom's car to carry water bottles to the venue. It takes just a few trips but the weight tires out your arms. Thank god that you're not in any of the sports clubs.
+
+As you rest on a nearby bench, you see something colorful faintly glowing bright on the ground. It looks like a poorly drawn hand doing a peace sign. The pain is real. Hands are the bane of every artist’s existence. 
+
+…Wait, this looks like the work of Kyo!
+
+This is the only sign you've seen of him in school all week. What the hell is he up to? 
+
+As you look onward, you see more graffiti symbols in the distance, scattered far apart in a way that beckons you to follow it.
+
+[School Rooftop Night]
+
+Narration:
+You follow the path until you arrive at the school's rooftop. 
+
+There he is, spray painting in the air as if there's a wall. 
+
+You call out to him.  
+
+Player:
+Kyo?
+
+[Kyo_FP_Shocked]
+
+Narration:
+Kyo turns around.
+
+Kyo:
+Oh shit, hi [Player]!
+
+Player:
+Where have you been? I haven't seen you in school all week.
+
+Kyo [Kyo_FP_Default]:
+Um, about that...
+
+Narration:
+He shakes his spray paint can but doesn't use it. He looks back and forth between the paint on the ground, the moon above, and you, as if he's contemplating his next move. He sighs.
+
+Kyo:
+You weren't supposed to come here. 
+
+Player:
+But you left a paint trail.
+
+Kyo:
+That wasn't really a trail. I didn't think you'd... Damn it, I was supposed to leave before you saw me.
+
+Player:
+Wait, you're leaving? What's going on?
+
+Kyo:
+You know what, fuck it. I'm not going yet. 'Cause I don't even know where to begin explaining everything.
+
+Narration:
+He's right. You have too many questions. 
+
+You remember the confused faces of the club members from last week.
+
+Player:
+Kyo, you're... real, right?
+
+Narration:
+Kyo busts out a quick laugh.
+
+Kyo:
+Nah you're just imagining me in your head. Wake up. It's been years since the accident—
+
+Player:
+Kyo, I'm serious. None of the club members see or hear you except me. They don't even know who you are. Why? Are you a ghost? Who and what even are you?
+
+Narration:
+Kyo lets out a deep sigh.
+
+Kyo:
+I don't actually go here. I used to, but it was a long time ago.
+
+Player:
+Why are you here then?
+
+[Kyo CG]
+
+Kyo:
+To help you make friends.
+
+Narration:
+Your eyes widen.
+
+Player:
+How'd you know I wanted to...?
+
+Kyo:
+You're the reason I opened up the radio club in the first place.
+
+Player:
+Huh?! Wait, then you were the only club member on purpose?
+
+Kyo:
+Haha, yup.
+
+Player:
+I'm still not over you forcing me to do free labor though.
+
+Kyo:
+It's better if you initiate these friendships on your own. I'm just here to make sure you stay on track. You're the lonely one here, not me.
+
+Narration:
+You roll your eyes. 
+
+Kyo:
+You're not even gonna thank me?! 
+
+Player:
+I still have more questions for you, funny man.
+
+Kyo:
+Okay, shoot.
+
+Player:
+If you've been a student here, why does no one remember you at all?
+
+Kyo:
+That's because I don't exist in your reality anymore. I live in another universe.
+
+Player:
+You're an alien?!
+
+Kyo:
+Okay no, but I know someone else who is. Anyways, I was isekai'd a while ago. But just recently, I've been blessed by the moon, so now I'm able to travel between your reality and mine.
+
+The problem is, I'm still learning how to use this power. So it's not perfect. It's kinda weird actually. Right now, I'm like in a world between yours and mine. I can't really see you, only the outline of you. 
+
+Narration:
+Kyo pauses for a bit as if he's thinking.
+
+Kyo:
+Give me a high five.
+
+Player:
+For what?
+
+Kyo:
+For being able to keep up with me. You know, since I speak so fast.
+
+Player:
+O...kay.
+
+Narration:
+When you go high five Kyo, your hand goes through his like air. You don't feel him at all.
+
+You stand there in silence, flabbergasted. A realization hits you.
+
+Player:
+So you're the one haunting this school!
+
+Kyo:
+Wait, what?
+
+Player:
+Dude, did you not know? The paranormal activity club has been obsessed with you for a long time now. They've been trying to contact you and everything. 
+
+Kyo:
+They can't see me, right?
+
+Player:
+That's not what I mean. But there's been ghost-like activity happening around school. I think you have something to do with it.
+
+Kyo:
+Shit, my bad. Didn't mean to.
+
+Player:
+If only they knew I was talking to a ghost the entire time. Wait, I don't think anybody heard you speak either. Not even the club members. Except me. What the hell?
+
+Kyo:
+You're the one I was assigned to help.
+
+Player:
+Assigned?
+
+Kyo:
+By the moon. Who also gave me my powers. Consider yourself lucky.
+
+Player:
+I was chosen? Wow...
+
+Kyo:
+But I'm running out of time. Now, I won't exist in this reality again. For real this time.
+
+Narration:
+The school bell rings. [School Bell SFX]
+
+Kyo:
+Go. Your friends are waiting for you.
+
+Narration:
+Kyo sets up his exit.
+
+Player:
+Wait! Before you go...
+
+Thank you. For everything.
+
+Narration:
+Kyo looks back one last time and smiles.
+
+[Fade out Kyo, use the Kyo_BG in his special scene folder]
+
+[Game end]
+
+[Go to credits]

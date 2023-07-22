@@ -1,9 +1,11 @@
 _DialogCode,_Chapter,_Name,_Comment,_Text
 CHAP1-0000100,Prologue-A-Colorful-Entrance,,,"Prologue: A Colorful Entrance
 "
-CHAP1-0000300,Prologue-A-Colorful-Entrance,,,"[School hallway day]
+CHAP1-0000300,Prologue-A-Colorful-Entrance,"[School hallway day]
+",,"[School hallway day]
 "
-CHAP1-0000400,Prologue-A-Colorful-Entrance,,,"[Intro Music]
+CHAP1-0000400,Prologue-A-Colorful-Entrance,"[Intro Music]
+",,"[Intro Music]
 "
 CHAP1-0000700,Prologue-A-Colorful-Entrance,"Narration:
 ",,"It's lunch break at school, but the atmosphere is livelier than usual. Oh right, it's Club Day today. You still can't decide which club you want to join this year. 
@@ -35,7 +37,7 @@ CHAP1-0002300,Prologue-A-Colorful-Entrance,"Narration:
 CHAP1-0002500,Prologue-A-Colorful-Entrance,"Narration:
 ",,"Wait, what's with that poster over there? 
 "
-CHAP1-0002700,Prologue-A-Colorful-Entrance,"Narration:
+CHAP1-0002700,Prologue-A-Colorful-Entrance,"[Radio club poster (wall poster). Allow toggle for zoom in to the [RadioClub.png] in Art folder.]
 ",,"[Radio club poster (wall poster). Allow toggle for zoom in to the [RadioClub.png] in Art folder.]
 "
 CHAP1-0002900,Prologue-A-Colorful-Entrance,"Narration:
@@ -44,13 +46,13 @@ CHAP1-0002900,Prologue-A-Colorful-Entrance,"Narration:
 CHAP1-0003100,Prologue-A-Colorful-Entrance,"Narration:
 ",,"You enter a nearby room with the radio club sign on its door. 
 "
-CHAP1-0003300,Prologue-A-Colorful-Entrance,"Narration:
+CHAP1-0003300,Prologue-A-Colorful-Entrance,"[Music_Room_Basic]
 ",,"[Music_Room_Basic]
 "
-CHAP1-0003500,Prologue-A-Colorful-Entrance,"Narration:
+CHAP1-0003500,Prologue-A-Colorful-Entrance,"[Kyo_BP_Default]
 ",,"[Kyo_BP_Default]
 "
-CHAP1-0003600,Prologue-A-Colorful-Entrance,"Narration:
+CHAP1-0003600,Prologue-A-Colorful-Entrance,"[Centered]
 ",,"[Centered]
 "
 CHAP1-0003800,Prologue-A-Colorful-Entrance,"Narration:
@@ -95,7 +97,7 @@ CHAP1-0007200,Prologue-A-Colorful-Entrance,"Kyo:
 CHAP1-0007500,Prologue-A-Colorful-Entrance,"Player:
 ",,"I'm [Player]. 
 "
-CHAP1-0007800,Prologue-A-Colorful-Entrance,"Kyo:
+CHAP1-0007800,Prologue-A-Colorful-Entrance,"[Player]. Alright, here's how the club works.
 ",,"[Player]. Alright, here's how the club works.
 "
 CHAP1-0008100,Prologue-A-Colorful-Entrance,"Player:
@@ -131,10 +133,10 @@ CHAP1-0010700,Prologue-A-Colorful-Entrance,"Narration:
 CHAP1-0011000,Prologue-A-Colorful-Entrance,"Kyo:
 ",,"Can I have some?
 "
-CHAP1-0011200,Prologue-A-Colorful-Entrance,"Kyo:
+CHAP1-0011200,Prologue-A-Colorful-Entrance,"[Proceed to two choices: <Sure, you can have a bit.> or <No, this is mine. Get your own.>
 ",,"[Proceed to two choices: <Sure, you can have a bit.> or <No, this is mine. Get your own.>
 "
-CHAP1-0011400,Prologue-A-Colorful-Entrance,"Kyo:
+CHAP1-0011400,Prologue-A-Colorful-Entrance,"[Choice 1: Sure, you can have a bit.]
 ",,"[Choice 1: Sure, you can have a bit.]
 "
 CHAP1-0011700,Prologue-A-Colorful-Entrance,"Kyo [FP_Bruh]:
@@ -143,13 +145,13 @@ CHAP1-0011700,Prologue-A-Colorful-Entrance,"Kyo [FP_Bruh]:
 CHAP1-0012000,Prologue-A-Colorful-Entrance,"Narration:
 ",,"The nerve of this guy...! 
 "
-CHAP1-0012200,Prologue-A-Colorful-Entrance,"Narration:
+CHAP1-0012200,Prologue-A-Colorful-Entrance,"[Scene reconverges here]
 ",,"[Scene reconverges here]
 "
-CHAP1-0012500,Prologue-A-Colorful-Entrance,"Narration:
+CHAP1-0012500,Prologue-A-Colorful-Entrance,"[Choice 2: No, this is mine. Get your own.]
 ",,"[Choice 2: No, this is mine. Get your own.]
 "
-CHAP1-0012700,Prologue-A-Colorful-Entrance,"Narration:
+CHAP1-0012700,Prologue-A-Colorful-Entrance,"[Kyo_FP_Bruh]
 ",,"[Kyo_FP_Bruh]
 "
 CHAP1-0013000,Prologue-A-Colorful-Entrance,"Narration:
@@ -158,7 +160,7 @@ CHAP1-0013000,Prologue-A-Colorful-Entrance,"Narration:
 CHAP1-0013200,Prologue-A-Colorful-Entrance,"Narration:
 ",,"What is up with this guy? Yet, you find his pouting face a little cute. Like a puntable cat. 
 "
-CHAP1-0013300,Prologue-A-Colorful-Entrance,"Narration:
+CHAP1-0013300,Prologue-A-Colorful-Entrance,"[Scene Reconverges Here]
 ",,"[Scene Reconverges Here]
 "
 CHAP1-0013600,Prologue-A-Colorful-Entrance,"Kyo [FP_Default]:
@@ -179,13 +181,13 @@ CHAP1-0014800,Prologue-A-Colorful-Entrance,"Narration:
 CHAP1-0015100,Prologue-A-Colorful-Entrance,"Kyo:
 ",,"Lunch's almost over. So, whaddya say, you wanna join the club or not?
 "
-CHAP1-0015300,Prologue-A-Colorful-Entrance,"Kyo:
+CHAP1-0015300,Prologue-A-Colorful-Entrance,"[Proceed to two choices: <Yes> or <No>]
 ",,"[Proceed to two choices: <Yes> or <No>]
 "
-CHAP1-0015500,Prologue-A-Colorful-Entrance,"Kyo:
+CHAP1-0015500,Prologue-A-Colorful-Entrance,"[Choice 1: Yes.]
 ",,"[Choice 1: Yes.]
 "
-CHAP1-0015700,Prologue-A-Colorful-Entrance,"Kyo:
+CHAP1-0015700,Prologue-A-Colorful-Entrance,"[Kyo_FP_Cheerful]
 ",,"[Kyo_FP_Cheerful]
 "
 CHAP1-0016000,Prologue-A-Colorful-Entrance,"Narration:
@@ -227,13 +229,13 @@ CHAP1-0019300,Prologue-A-Colorful-Entrance,"Narration:
 CHAP1-0019500,Prologue-A-Colorful-Entrance,"Narration:
 ",,"You go the opposite direction to your class. As you make your way there, you think about his request. It's a lot of work, but it's not like you have other plans or commitments this year. Eh, fuck it, you ball.
 "
-CHAP1-0019700,Prologue-A-Colorful-Entrance,"Narration:
+CHAP1-0019700,Prologue-A-Colorful-Entrance,"[Fade to black]
 ",,"[Fade to black]
 "
-CHAP1-0019800,Prologue-A-Colorful-Entrance,"Narration:
+CHAP1-0019800,Prologue-A-Colorful-Entrance,"[Proceed to Chapter 1]
 ",,"[Proceed to Chapter 1]
 "
-CHAP1-0020100,Prologue-A-Colorful-Entrance,"Narration:
+CHAP1-0020100,Prologue-A-Colorful-Entrance,"[Choice 2: No.]
 ",,"[Choice 2: No.]
 "
 CHAP1-0020400,Prologue-A-Colorful-Entrance,"Kyo [FP_Sad]:
@@ -275,17 +277,16 @@ CHAP1-0023700,Prologue-A-Colorful-Entrance,"Narration:
 CHAP1-0024000,Prologue-A-Colorful-Entrance,"Player:
 ",,"Don't wanna be late to class. See ya.
 "
-CHAP1-0024200,Prologue-A-Colorful-Entrance,"Player:
+CHAP1-0024200,Prologue-A-Colorful-Entrance,"[Kyo_BP_Sad]
 ",,"[Kyo_BP_Sad]
 "
 CHAP1-0024500,Prologue-A-Colorful-Entrance,"Narration:
 ",,"You feel a little guilty seeing his dejected expression as you leave the classroom. But it's too late now; you stick to your decision and go to your next class.
 "
-CHAP1-0024700,Prologue-A-Colorful-Entrance,"Narration:
+CHAP1-0024700,Prologue-A-Colorful-Entrance,"[Empty black screen.]
 ",,"[Empty black screen.]
 "
 CHAP1-0025000,Prologue-A-Colorful-Entrance,"Narration:
 ",,"The next day, you try to find Kyo in the radio club room. But the room is completely empty. You try asking people of Kyo’s whereabouts, but people don’t even know who he is. What the hell. That’s weird. Eh, whatever. Life continues to be lonely as usual.
 "
-CHAP1-0025200,Prologue-A-Colorful-Entrance,"Narration:
-",,[Game end - joke ending. Restart from beginning of game]
+CHAP1-0025200,Prologue-A-Colorful-Entrance,[Game end - joke ending. Restart from beginning of game],,[Game end - joke ending. Restart from beginning of game]

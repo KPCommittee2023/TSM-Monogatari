@@ -35,15 +35,15 @@ def processTXT_to_CSV(chapterIndex,CHAPTER, chapter_fileName):
             if single_line.strip() == '':
                 print(single_line)
             elif  re.match( '^.+[:]$' ,single_line):
-                # print(single_line)
-                # csv_writer.writerow({
-                #     '_DialogCode' : 'CHAP1-'+str("{:05n}".format(starting_DialogCode_n)),
-                #     '_Chapter' : CHAPTER,
-                #     '_Name' : '',
-                #     '_Comment' : '',
-                #     '_Text' : ''
-                # })
                 Name_temp = single_line
+            elif  re.match( '^[[].+$' ,single_line):
+                csv_writer.writerow({
+                    '_DialogCode' : 'CHAP1-'+str("{:05n}".format(starting_DialogCode_n))+'00',
+                    '_Chapter' : CHAPTER,
+                    '_Name' : single_line,
+                    '_Comment' : '',
+                    '_Text' : single_line
+                })
             else:
                 csv_writer.writerow({
                     '_DialogCode' : 'CHAP1-'+str("{:05n}".format(starting_DialogCode_n))+'00',

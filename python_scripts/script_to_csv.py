@@ -8,7 +8,8 @@ def processTXT_to_CSV(chapterIndex,CHAPTER, chapter_fileName):
     Name_temp = ''
 
     with open(
-        "python_scripts/script-csv-processed/MASTER-SCRIPT-"+ chapterIndex + CHAPTER + '-' + str(date.today()) + ".csv", 
+        "python_scripts/script-csv-processed/MASTER-SCRIPT-"+ 
+            chapterIndex + CHAPTER + '-' + str(date.today()) + ".csv", 
         "a", 
         newline = ""
     ) as csvfile:
@@ -56,7 +57,7 @@ def processTXT_to_CSV(chapterIndex,CHAPTER, chapter_fileName):
         
 
 processTXT_to_CSV(
-    chapterIndex= 'Chap0',
+    chapterIndex= 'Chapter_0-',
     chapter_fileName = '00_prologue.txt',
     CHAPTER = 'Prologue-A-Colorful-Entrance'
 )

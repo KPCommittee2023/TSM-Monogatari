@@ -38,7 +38,7 @@ def processTXT_to_CSV(chapterIndex,CHAPTER, chapter_fileName):
                 Name_temp = single_line
             elif  re.match( '^[[].+$' ,single_line):
                 csv_writer.writerow({
-                    '_DialogCode' : 'CHAP1-'+str("{:05n}".format(starting_DialogCode_n))+'00',
+                    '_DialogCode' : chapterIndex+str("{:05n}".format(starting_DialogCode_n))+'00',
                     '_Chapter' : CHAPTER,
                     '_Name' : single_line,
                     '_Comment' : '',
@@ -46,7 +46,7 @@ def processTXT_to_CSV(chapterIndex,CHAPTER, chapter_fileName):
                 })
             else:
                 csv_writer.writerow({
-                    '_DialogCode' : 'CHAP1-'+str("{:05n}".format(starting_DialogCode_n))+'00',
+                    '_DialogCode' : chapterIndex+str("{:05n}".format(starting_DialogCode_n))+'00',
                     '_Chapter' : CHAPTER,
                     '_Name' : Name_temp,
                     '_Comment' : '',
@@ -59,5 +59,29 @@ def processTXT_to_CSV(chapterIndex,CHAPTER, chapter_fileName):
 processTXT_to_CSV(
     chapterIndex= 'Chapter_0-',
     chapter_fileName = '00_prologue.txt',
+    CHAPTER = 'Prologue-A-Colorful-Entrance'
+)
+
+processTXT_to_CSV(
+    chapterIndex= 'Chapter_1-',
+    chapter_fileName = '01.txt',
+    CHAPTER = 'The-Conditioned-Puppet'
+)
+
+processTXT_to_CSV(
+    chapterIndex= 'Chapter_2-',
+    chapter_fileName = '02.txt',
+    CHAPTER = 'Shrewd-Dreamer'
+)
+
+processTXT_to_CSV(
+    chapterIndex= 'Chapter_3-',
+    chapter_fileName = '03.txt',
+    CHAPTER = 'The-Moon-Prince'
+)
+
+processTXT_to_CSV(
+    chapterIndex= 'Chapter_epi-',
+    chapter_fileName = '04_epilogue.txt',
     CHAPTER = 'Prologue-A-Colorful-Entrance'
 )

@@ -4,20 +4,20 @@ Epilogue: A Prismatic Farewell
 [Outro BGM]
 
 Narration:
-After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It's the first official radio club meeting today, and you’re excited!
+After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It's the first official radio club meeting today, and you're excited!
 
-You look at the notes you wrote on your phone to remember what you’re discussing with all the club members. It’s simple enough: assign roles to the club members and finalize the plan for future activities.
+You look at the notes you wrote on your phone to remember what you're discussing with all the club members. It's simple enough: assign roles to the club members and finalize the plan for future activities.
 
-Now you just need to wait for them to show up. They didn’t forget about you telling them earlier in the day to meet you at lunch, right? You hope not.
+Now you just need to wait for them to show up. They didn't forget about you telling them earlier in the day to meet you at lunch, right? You hope not.
 
-Speaking of showing up, will Kyo even be here? You weren’t even able to tell him all the good news, because you haven’t seen him all day. Well, it’s on him for choosing to miss this momentous occasion.
+Speaking of showing up, will Kyo even be here? You weren't even able to tell him all the good news, because you haven't seen him all day. Well, it's on him for choosing to miss this momentous occasion.
 
 The door opens.
 
 [Atria1_happy, left]
 
 Atria:
-I’m here.
+I'm here.
 
 [Skye_smile, center]
 
@@ -30,13 +30,13 @@ Now, where the heck is Esme—
 [Esmeray_neutral, right]
 
 Esmeray:
-My bad. Had to shake off my fans, but I’m good now. 
+My bad. Had to shake off my fans, but I'm good now. 
 
 Skye:
 Pssh, okay, Mr. Famous.
 
 Player:
-You sure they’re not gonna follow you?
+You sure they're not gonna follow you?
 
 Esmeray:
 I mean, more club members, am I right?
@@ -45,40 +45,40 @@ Narration:
 The three of you stare at him.
 
 Esmeray [Amused]:
-Okay okay, I’m just kidding. I was a little late on finishing my classwork. I’ll be early next time.
+Okay okay, I'm just kidding. I was a little late on finishing my classwork. I'll be early next time.
 
 Player:
-I’ll hold you to that.
+I'll hold you to that.
 
 Narration:
 Esmeray laughs.
 
 Player:
-Alright y’all, we got business to take care of. First, we gotta decide what our roles are.
+Alright y'all, we got business to take care of. First, we gotta decide what our roles are.
 
 Skye:
-Well, it’s obvious what you’re gonna be. Club president! 
+Well, it's obvious what you're gonna be. Club president! 
 
 Narration:
 You put your hands on your hips.
 
 Player:
-Yup! I’ll be doing more of the behind the scenes stuff. As for the other roles… 
+Yup! I'll be doing more of the behind the scenes stuff. As for the other roles… 
 
 Skye:
-I’ve already decided.
+I've already decided.
 
 Player:
 Wait, I haven't even said what the other roles are yet.
 
 Skye:
-Well, you’re gonna need someone to write scripts, right? Then I’ll do it.
+Well, you're gonna need someone to write scripts, right? Then I'll do it.
 
 Player:
 Sounds good. 
 
 Skye:
-I can also get the latest scoops on what’s going around at school. The janitor’s closet is quite handy for getting a hold of hot tea, you know.
+I can also get the latest scoops on what's going around at school. The janitor's closet is quite handy for getting a hold of hot tea, you know.
 
 Player:
 Can you handle doing both?
@@ -96,7 +96,7 @@ Esmeray [Neutral]:
 Hm?
 
 Player:
-You’ll be in charge of making little jingles before and after we’re done announcing and stuff. Oh, and I’m thinking we could add in music segments in our broadcasts too. 
+You'll be in charge of making little jingles before and after we're done announcing and stuff. Oh, and I'm thinking we could add in music segments in our broadcasts too. 
 
 Esmeray:
 You got it.
@@ -105,19 +105,19 @@ Narration:
 Esmeray takes out a small notebook. He starts writing and humming to himself.
 
 Player:
-And finally, Atria, you’ll be the one on the speakers! 
+And finally, Atria, you'll be the one on the speakers! 
 
 Atria [Atria1_Nervous]:
-Um, are you sure? I’m not that loud and confident yet…
+Um, are you sure? I'm not that loud and confident yet…
 
 Player:
-You don’t have to be the only speaker of course. We can do it together.
+You don't have to be the only speaker of course. We can do it together.
 
 Narration:
 Atria slowly regains her smile.
 
 Atria [Atria1_Happy]:
-That’d be easier for me. Thank you.
+That'd be easier for me. Thank you.
 
 Player:
 Alright, now we gotta think of our future plans for this club.
@@ -129,7 +129,7 @@ Player:
 Of course.
 
 Atria:
-It’s Back to School Night next week. The staff wants clubs to help out with the concessions. 
+It's Back to School Night next week. The staff wants clubs to help out with the concessions. 
 
 Player:
 Then we should join! So, are we all free to help out with the concessions next week?
@@ -138,15 +138,15 @@ Narration:
 The other three club members say yes.
 
 Player:
-Alright, we’re done then. 
+Alright, we're done then. 
 
 Narration:
-Happiness feels like it's going to burst out of your chest. It really feels like an actual club now. No wait, it’s not just a club. It feels like you have a friend group for real too. You wonder if everyone's down for a group hug before they leave.
+Happiness feels like it's going to burst out of your chest. It really feels like an actual club now. No wait, it's not just a club. It feels like you have a friend group for real too. You wonder if everyone's down for a group hug before they leave.
 
 You open your arms wide.
 
 Player:
-I know this is out of nowhere but… Who’s down for a group hug?!
+I know this is out of nowhere but… Who's down for a group hug?!
 
 Atria [Atria1_Nervous]:
 Huh?
@@ -155,12 +155,12 @@ Skye [Skye_smile2]:
 Heh, sure, why not. Come on, get over here, Atria.
 
 Esmeray [Amused]:
-Wait, we’re actually doing this? Hold on a minute—
+Wait, we're actually doing this? Hold on a minute—
 
 CG of the Player hugging all the three club members together. 
 
 Player:
-Hehe, thanks y’all. 
+Hehe, thanks y'all. 
 
 Narration:
 The lunch bell rings, and all of you part ways as you wave to each other. 
@@ -172,7 +172,7 @@ The lunch bell rings, and all of you part ways as you wave to each other.
 Narration:
 It's Back To School Night. You go back and forth from your mom's car to carry water bottles to the venue. It takes just a few trips but the weight tires out your arms. Thank god that you're not in any of the sports clubs.
 
-As you rest on a nearby bench, you see something colorful faintly glowing bright on the ground. It looks like a poorly drawn hand doing a peace sign. The pain is real. Hands are the bane of every artist’s existence. 
+As you rest on a nearby bench, you see something colorful faintly glowing bright on the ground. It looks like a poorly drawn hand doing a peace sign. The pain is real. Hands are the bane of every artist's existence. 
 
 …Wait, this looks like the work of Kyo!
 

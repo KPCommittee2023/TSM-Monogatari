@@ -37,9 +37,9 @@ You enter a nearby room with the radio club sign on its door.
 
 There's only one student here. Yet you can tell that you're in the right place. Her appearance is just as colorful as the poster, and the graffiti besides her only emphasizes that.
 
-The microphone on the other side of the room looks too high for her to reach. That’s a bit weird.
+The microphone on the other side of the room looks too high for her to reach. That's a bit weird.
 
-It looks like the girl’s still on her phone. You decide to get her attention.
+It looks like the girl's still on her phone. You decide to get her attention.
 
 Player:
 Hi, I wanna join the radio club.
@@ -57,7 +57,7 @@ The student's voice then drops a few octaves lower than you expect her to have.
 You fucking scared the shit out of me! My god. 
 
 Narration:
-Well, you now know two things. One, this girl is actually a guy. Two, this dude’s language is as colorful as his hair. What a bombastic impression you’ve left on each other. It only goes uphill from here.
+Well, you now know two things. One, this girl is actually a guy. Two, this dude's language is as colorful as his hair. What a bombastic impression you've left on each other. It only goes uphill from here.
 
 Player:
 Sorry, I just walked in. Is this the wrong room? I think I'm in the wrong ro—
@@ -133,13 +133,13 @@ What is up with this guy? Yet, you find his pouting face a little cute. Like a p
 [Scene Reconverges Here]
 
 Kyo [FP_Default]:
-Anyways, since this club requires confident people, I'd say you're a pretty good candidate so far. Most people don’t have the balls to approach me.
+Anyways, since this club requires confident people, I'd say you're a pretty good candidate so far. Most people don't have the balls to approach me.
 
 Narration:
 You look up and down at Kyo incredulously.
 
 Player:
-Really? You’re not even tall enough to reach the mic over there.
+Really? You're not even tall enough to reach the mic over there.
 
 Kyo:
 Hey hey, shut up. Shut the fuck up.
@@ -247,6 +247,6 @@ You feel a little guilty seeing his dejected expression as you leave the classro
 [Empty black screen.]
 
 Narration:
-The next day, you try to find Kyo in the radio club room. But the room is completely empty. You try asking people of Kyo’s whereabouts, but people don’t even know who he is. What the hell. That’s weird. Eh, whatever. Life continues to be lonely as usual.
+The next day, you try to find Kyo in the radio club room. But the room is completely empty. You try asking people of Kyo's whereabouts, but people don't even know who he is. What the hell. That's weird. Eh, whatever. Life continues to be lonely as usual.
 
 [Game end - joke ending. Restart from beginning of game]

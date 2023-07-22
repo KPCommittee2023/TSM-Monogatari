@@ -66,7 +66,7 @@ C-Can I help you?
 [Skye Default Sprite, normal brightness]
 
 Narration:
-The girl that meets you as the door opens has a cold look firmly set on her face, flinty eyes glaring at you imperiously. Had she not stuttered, her attempt at intimidation might’ve actually worked… well, probably.
+The girl that meets you as the door opens has a cold look firmly set on her face, flinty eyes glaring at you imperiously. Had she not stuttered, her attempt at intimidation might've actually worked… well, probably.
 
 A slight flush climbs her face at her stumble, but she stubbornly continues to try and fake disinterest. She was failing miserably but you could say she was attempting it with an almost admirable persistence.
 
@@ -74,7 +74,7 @@ Player:
 Uhhh… I heard you talking, and… was wondering what you were doing in the closet…?
 
 Narration:
-The flush on the girl’s face only grew, her flusteredness leaking into her words, making her ramble slightly.
+The flush on the girl's face only grew, her flusteredness leaking into her words, making her ramble slightly.
 
 Girl in the Closet:
 Well if you must know, I was conducting a very important meeting with my friends. The closet just happens to be a very convenient place for us to do so without any disturbance or without inadvertently disturbing anyone else.
@@ -86,7 +86,7 @@ You look back at Kyo in confusion, receiving an equally confused look from the b
 
 You turn back to the girl who in turn looks at you strangely, darting her eyes towards Kyo questioningly.
 
-You shrug off the girl’s still strange choice of meeting location and lack of other people to have a meeting with. Not that you could really judge people on their social choices. After all, most would probably call you crazy for befriending Kyo…
+You shrug off the girl's still strange choice of meeting location and lack of other people to have a meeting with. Not that you could really judge people on their social choices. After all, most would probably call you crazy for befriending Kyo…
 
 Player:
 I heard you narrating? I think? You speak really well.
@@ -101,7 +101,7 @@ Narration:
 A shy expression flickers on her face before she extends her hand towards you in a handshake.
 
 Girl no Longer in Closet:
-My name's Skye, Skye Oriana, what’s your name?
+My name's Skye, Skye Oriana, what's your name?
 
 Player:
 I'm Player. Nice to meet you. 
@@ -111,7 +111,7 @@ You take her hand with a smile, receiving a small smile back.
 
 Kyo coughs behind you, reminding you that you were in school this early for a reason. At this rate, class would start before you could finish your duties for the radio club.
 
-[Proceed to two choices: <Don’t invite her to the radio club> or <Invite her to the radio club>]
+[Proceed to two choices: <Don't invite her to the radio club> or <Invite her to the radio club>]
 
 [Choice 1: Don't invite her to the radio club]
 
@@ -125,7 +125,7 @@ Kyo:
 You thinking of inviting her?
 
 Narration:
-Surprised at Kyo’s sudden interest, you look at him questioningly.
+Surprised at Kyo's sudden interest, you look at him questioningly.
 
 Player:
 Think it's a good idea? We don't really know her…
@@ -180,7 +180,7 @@ Player and Kyo:
 …
 
 Narration:
-Skye continues talking to nothing. You’re starting to get concerned that staying in the chemical and dust filled janitor’s closet is having a more detrimental effect on her than one would expect.
+Skye continues talking to nothing. You're starting to get concerned that staying in the chemical and dust filled janitor's closet is having a more detrimental effect on her than one would expect.
 
 Player:
 Uhhh… Skye?
@@ -189,10 +189,10 @@ Narration:
 Skye only hums at you, looking like she was only half listening to you as she continues to nod at the thin air near her.
 
 Player:
-Who’re you talkin’ to?
+Who're you talkin' to?
 
 Narration:
-Skye answers your question distractedly, still seeming completely engrossed at whatever it is she’s listening to.
+Skye answers your question distractedly, still seeming completely engrossed at whatever it is she's listening to.
 
 Skye:
 I'm talking to my friends, of course.
@@ -210,7 +210,7 @@ Player:
 Shut up.
 
 Narration: 
-You hiss at Kyo, throwing a smack to the short boy’s shoulder that is immediately dodged with an indignant yelp. You frantically turn back to Skye, hoping she didn’t hear Kyo’s expected but poorly timed smacktalk.
+You hiss at Kyo, throwing a smack to the short boy's shoulder that is immediately dodged with an indignant yelp. You frantically turn back to Skye, hoping she didn't hear Kyo's expected but poorly timed smacktalk.
 
 Skye, unfortunately, did seem to notice your antics and blinks at you once more, bewildered.
 
@@ -220,7 +220,7 @@ He's like this with everyone, don't worry about what he says. In fact, a general
 [Kyo Sprite becomes not the focus of scene, Skye Sprite centred]
 [Skye_Smile2]
 
-Kyo’s exclamation of annoyance is drowned out by Skye’s reaction. She doesn't react negatively to Kyo’s ribbing. Instead, a bright smile suddenly breaks out on her face.
+Kyo's exclamation of annoyance is drowned out by Skye's reaction. She doesn't react negatively to Kyo's ribbing. Instead, a bright smile suddenly breaks out on her face.
 
 Skye:
 It's nice to know someone like me! A person who knows the pros to our more unusual friends…
@@ -260,21 +260,21 @@ Player:
 Well… she was interesting.
 
 Kyo:
-I mean, she’s a little weird, but so was the other one, and you…
+I mean, she's a little weird, but so was the other one, and you…
 
 Narration:
-Kyo’s words prompts an eye roll from you, breaking you from your reverie at Skye’s abrupt getaway. The two of you finally start to make your way to the clubroom again, the strange encounter still fresh on your minds.
+Kyo's words prompts an eye roll from you, breaking you from your reverie at Skye's abrupt getaway. The two of you finally start to make your way to the clubroom again, the strange encounter still fresh on your minds.
 
 Player:
-I think she’ll be a good addition to the team, and she’s nice, she and Atria will probably get along great.
+I think she'll be a good addition to the team, and she's nice, she and Atria will probably get along great.
 
 Kyo:
-Sure, if you can get her to join. Still haven’t gotten to that part, remember?
+Sure, if you can get her to join. Still haven't gotten to that part, remember?
 
 Narration:
-You wince at Kyo’s reminder, but as you remember her look of wonder when you first asked her the question, you don’t think it’ll be very difficult to convince her.
+You wince at Kyo's reminder, but as you remember her look of wonder when you first asked her the question, you don't think it'll be very difficult to convince her.
 
-She was happy to be invited, she may have some reservations but you have a feeling that everything’ll  turn out just fine. You shrug off Kyo’s pessimism, shooting the shorter boy an eyeroll as the two of you enter the clubroom to deal with your duties for the day.
+She was happy to be invited, she may have some reservations but you have a feeling that everything'll  turn out just fine. You shrug off Kyo's pessimism, shooting the shorter boy an eyeroll as the two of you enter the clubroom to deal with your duties for the day.
 
 [Scene Change]
 
@@ -286,38 +286,38 @@ Narration:
 Narration:
 ** RING ** [Bell SFX]
 
-You eagerly leave your class for your break – your early start to the day didn’t leave you much time for breakfast, and the little you did eat didn’t sustain you ‘til lunch. You’ve been starving all day and your stomach has been trying to make itself known.
+You eagerly leave your class for your break – your early start to the day didn't leave you much time for breakfast, and the little you did eat didn't sustain you ‘til lunch. You've been starving all day and your stomach has been trying to make itself known.
 
-Encouraged by its angry rumblings, you make your way to the school store. Hopefully you weren’t too late to grab something. No one should have to handle the angry yowling that you know your stomach would continue to make if the beast wasn’t fed.
+Encouraged by its angry rumblings, you make your way to the school store. Hopefully you weren't too late to grab something. No one should have to handle the angry yowling that you know your stomach would continue to make if the beast wasn't fed.
 
-You hum thoughtfully as you think about what you’re going to buy when the sounds of particularly loud discussion catches your attention.
+You hum thoughtfully as you think about what you're going to buy when the sounds of particularly loud discussion catches your attention.
 
 Student A:
-–just admit it, you were the one who sprayed that ugly thing on the back of the classroom, didn’t you. Everyone knows it was you.
+–just admit it, you were the one who sprayed that ugly thing on the back of the classroom, didn't you. Everyone knows it was you.
 
 [Skye_Default Centered]
 
 Narration:
-You notice a group of four gathered in a quiet corner. You aren’t sure what’s going on, but you recognize Skye standing with her back against the wall.
+You notice a group of four gathered in a quiet corner. You aren't sure what's going on, but you recognize Skye standing with her back against the wall.
 
-The three others surround her, blocking her from any sort of way out. The interaction doesn’t seem like it's going well. You quietly duck behind a nearby wall, wondering what’s going on.
+The three others surround her, blocking her from any sort of way out. The interaction doesn't seem like it's going well. You quietly duck behind a nearby wall, wondering what's going on.
 
 Skye sighs heavily, annoyance clear in her tone and expression.
 
 Skye:
-Why would I graffiti the classroom? You’re accusing me out of nowhere. Again.
+Why would I graffiti the classroom? You're accusing me out of nowhere. Again.
 
 Narration:
 Skye's exasperated answer seems to only spur them on, with another member stepping up to batter at her unwavering stance.
 
 Student B:
-Who else would’ve done it? You’ve always been attention seeking. Just the other day you were talking to thin air again! God, you’re annoying on a good day but now you’re actually destroying public property? Can you get any worse?
+Who else would've done it? You've always been attention seeking. Just the other day you were talking to thin air again! God, you're annoying on a good day but now you're actually destroying public property? Can you get any worse?
 
 Narration:
 Skye scoffs at their accusations, squinting at her classmates incredulously.
 
 Skye:
-No one knows who did it. The classroom doors are locked every night and they’re only opened in the mornings, minutes before class starts. I wasn’t even the first person to arrive today. Your accusations have no merit and exactly zero people have come to tell me their thoughts of otherwise besides you three. This is the third time you’ve accused me of shit I didn’t do and it’s honestly getting out of hand. You–
+No one knows who did it. The classroom doors are locked every night and they're only opened in the mornings, minutes before class starts. I wasn't even the first person to arrive today. Your accusations have no merit and exactly zero people have come to tell me their thoughts of otherwise besides you three. This is the third time you've accused me of shit I didn't do and it's honestly getting out of hand. You–
 
 Student C:
 Oh my god, can you just stop talking? No one wants to hear you yap all day! It's enough that you run your mouth in class all the time!
@@ -335,12 +335,12 @@ Student D:
 You sure do know how to talk, you think people like you interrupting the class every time to spout whatever bullshit opinion you have? Everyone's tired of you.
 
 Student B:
-Yeah, I mean come on, even Sensei had to take you to the side the other day. You might be a teacher’s pet but even they know you’re a lunatic.
+Yeah, I mean come on, even Sensei had to take you to the side the other day. You might be a teacher's pet but even they know you're a lunatic.
 
 [Skye_Sad]
 
 Narration:
-Skye’s bored expression finally cracks, vulnerability seeping through. She looks away, shifting uncomfortably before glaring back at the person speaking.
+Skye's bored expression finally cracks, vulnerability seeping through. She looks away, shifting uncomfortably before glaring back at the person speaking.
 
 Skye:
 Sensei appreciates my contributions to the class, and they said so themself. They just wish that I give a chance to the rest of the class to express their opinions as well and I concurred. You three should stop talking about things that you don't understand.
@@ -456,13 +456,13 @@ The school bell finally signals the end of the school day.
 
 You rush out as soon as you can, the afternoon incident still hanging heavily in your mind, completely distracting you for the latter part of your school day.
 
-You make your way to the clubroom hoping that Skye would keep her word of visiting, at least just so that you could talk to her. You didn’t like that she had left upset at lunch.
+You make your way to the clubroom hoping that Skye would keep her word of visiting, at least just so that you could talk to her. You didn't like that she had left upset at lunch.
 
 [Background Change: Radio Clubroom Basic + Printer + Mic]
 
 [Kyo_FP_Default]
 
-You enter the clubroom to see that Kyo has already made himself comfortable. Game console in hand, his feet casually settled on the clubroom’s table, and his chair perched precariously on its back legs.
+You enter the clubroom to see that Kyo has already made himself comfortable. Game console in hand, his feet casually settled on the clubroom's table, and his chair perched precariously on its back legs.
 
 Player:
 Do you ever leave this room? Why are you here already, classes just ended.
@@ -485,7 +485,7 @@ Player:
 I met up with Skye during lunch break. Some people were bothering her, and she really wasn't having a good time.
 
 Narration:
-Kyo’s eyebrows rise further at the mention of your new acquaintance, not expecting you to meet her so soon after your meeting this morning.
+Kyo's eyebrows rise further at the mention of your new acquaintance, not expecting you to meet her so soon after your meeting this morning.
 
 Kyo:
 Yeah?
@@ -499,7 +499,7 @@ Narration:
 Out of the corner of your eye, you notice Kyo freezing in his seat. He plops the precariously tilting furniture back down to a more proper position. You finally look up, raising your brow at his sudden tension.
 
 Player:
-People’ve been spreading rumours about ghosts around lately too, graffiti appearing and disappearing out of nowhere, weird noises, weird light, stuff like that.
+People've been spreading rumours about ghosts around lately too, graffiti appearing and disappearing out of nowhere, weird noises, weird light, stuff like that.
 
 Narration:
 Kyo continues to tense as you proceed describing the supernatural rumours going around your school. A smirk grows on your face as you stand up from your seat.
@@ -517,7 +517,7 @@ Narration:
 Your eyes widen, surprised at his abrupt need to leave and concerned that you had gone too far with your teasing.
 
 Player:
-Whoa, you don’t have to leave. We don’t have to talk about ghosts if you don’t want to.
+Whoa, you don't have to leave. We don't have to talk about ghosts if you don't want to.
 
 [Kyo_FP_Default]
 
@@ -537,22 +537,22 @@ Kyo:
 You think my caustic ass'll help convince her to join?
 
 Narration:
-You wince slightly, remembering Kyo impulsively ribbing Skye just this morning. She didn’t seem to take offence, but maybe exposing her too much to Kyo's sharp tongue too early would be ill-advised.
+You wince slightly, remembering Kyo impulsively ribbing Skye just this morning. She didn't seem to take offence, but maybe exposing her too much to Kyo's sharp tongue too early would be ill-advised.
  
 Player:
-Don’t you wanna stick around to at least greet her?
+Don't you wanna stick around to at least greet her?
 
 Kyo:
-When’s she coming? Does she even know where the clubroom is?
+When's she coming? Does she even know where the clubroom is?
 
 Narration:
 Silence envelops the room as his question settles, before you groan in frustration, bringing your hand up to cover your face. Kyo's laughter rings throughout the room, the contemptuous little gremlin finding pleasure in your misery.
 
 Player:
-I forgot to tell her that we’re using the music room this morning…
+I forgot to tell her that we're using the music room this morning…
 
 Kyo:
-You better go find her then, I’m dealing with my shit first.
+You better go find her then, I'm dealing with my shit first.
 
 Narration:
 Kyo shrugs, casually slipping out of the room and leaving you alone with your thoughts.
@@ -569,7 +569,7 @@ You make your way to the door, opening it before noticing something in the corne
 
 You snap your head in surprise, chasing the glimpse of bright neon shapes before it disappears behind the blink of your eyelids.
 
-You stare at where you thought you saw… whatever it was you thought you saw, furrowing your brows at the wall. You could’ve sworn–
+You stare at where you thought you saw… whatever it was you thought you saw, furrowing your brows at the wall. You could've sworn–
 
 ???:
 Player!
@@ -580,7 +580,7 @@ A voice calls out to you from the hallway right outside the door you just opened
 [Skye_Default]
 
 Player:
-Skye! You’re here?
+Skye! You're here?
 
 Narration:
 You shout her name in surprise, opening the clubroom door further to allow the dark haired girl to step inside. She looks around the room, raising her brow curiously.
@@ -589,7 +589,7 @@ Skye:
 Of course, I did promise I would come.
 
 Player:
-How’d you find the clubroom? I forgot to tell you where it was this morning…
+How'd you find the clubroom? I forgot to tell you where it was this morning…
 
 Narration:
 Skye waves off your question, turning to look at you curiously.
@@ -607,7 +607,7 @@ Narration:
 You look back at the wall, pursing your lips thoughtfully before shaking your head.
 
 Player:
-Was nothing, probably just tired. I’m glad you came by! I wasn’t sure if you would, uhh, after…
+Was nothing, probably just tired. I'm glad you came by! I wasn't sure if you would, uhh, after…
 
 Narration:
 You trail off a little, cursing yourself for bringing up the grim situation from the afternoon. You thought you were getting better at not putting your foot in your mouth, yet here you are, swallowing your whole fucking shoe.
@@ -615,7 +615,7 @@ You trail off a little, cursing yourself for bringing up the grim situation from
 A short silence comes after the words awkwardly dry up in your mouth, making you sweat bullets. Skye picks up on the conversation, moving deeper inside the room and casually settling herself on one of the chairs.
 
 Skye:
-The graffiti’s gone.
+The graffiti's gone.
 
 Player:
 What?
@@ -626,33 +626,33 @@ You blink bewilderedly. Skye shrugs, casually leaning her head on her arm settle
 Skye:
 The class left for gym class a little bit after lunch and by the time we came back, poof, it just…disappeared. 
 
-The teachers figured it was a temporary prank someone was pulling. They’re still looking for the culprit, but nothing points to it being anyone in class, considering that we were all accounted for at gym…
+The teachers figured it was a temporary prank someone was pulling. They're still looking for the culprit, but nothing points to it being anyone in class, considering that we were all accounted for at gym…
 
 Player:
 And… those guys that were bothering you?
 
 Skye:
-Well they didn’t apologise, but they did look pretty pissed that it was pretty clearly not me.
+Well they didn't apologise, but they did look pretty pissed that it was pretty clearly not me.
 
 Narration:
 Skye shrugs faux casually. It's difficult to figure out what she's thinking. She seems a little bit more closed off than she was this morning.
 
 Skye:
-Anyway, you don’t have to worry about those idiots, they’re way more of a nuisance then they are actually troubling. My class is filled with a lot of kind and friendly people, so their voices get drowned out most of the time.
+Anyway, you don't have to worry about those idiots, they're way more of a nuisance then they are actually troubling. My class is filled with a lot of kind and friendly people, so their voices get drowned out most of the time.
 
 Narration:
 Skye smiles at you reassuringly, looking up from her previously contemplative pose.
 
 Skye:
-Now, why don’t we discuss your club? It’s what you invited me here for right?
+Now, why don't we discuss your club? It's what you invited me here for right?
 
 Player:
 Yeah… about joining…
 
 Skye:
-Still not too sure that’d be necessary.
+Still not too sure that'd be necessary.
 
-If all you need is another voice to help in broadcasting, or even if you need some journalist help to find some news, I’ll be happy to help out on a more occasional, freelance basis. As long as I’m given some credit for the work, of course.
+If all you need is another voice to help in broadcasting, or even if you need some journalist help to find some news, I'll be happy to help out on a more occasional, freelance basis. As long as I'm given some credit for the work, of course.
 
 Narration:
 You scratch your head in confusion. If Skye was willing to help the club, why not just join and get the benefit of having an after school sanctioned activity? You open your mouth to ask when the sound of the clubroom door opening catches both of your attention.
@@ -665,7 +665,7 @@ Good evening!
 [Atria1_Timid]
 
 Narration:
-Atria’s eyes widen as she notices Skye’s presence in the room, her surprised expression quickly turning to a bashful smile. Atria shuffles quietly into the room, clearly apprehensive but still trying her best to be welcoming.
+Atria's eyes widen as she notices Skye's presence in the room, her surprised expression quickly turning to a bashful smile. Atria shuffles quietly into the room, clearly apprehensive but still trying her best to be welcoming.
 
 Atria:
 Oh! H-hello, do we have a new recruit?
@@ -677,38 +677,38 @@ Narration:
 Atria looks at you questioningly, moving closer to the table and placing her things on it. She fidgets awkwardly with her things before looking up at Skye, smiling uncertainly towards the taller girl.
 
 Atria:
-I’m Atria. Umm, i-it’s nice to meet you. I’m a… a new member of the club too.
+I'm Atria. Umm, i-it's nice to meet you. I'm a… a new member of the club too.
 
 Skye:
-S-Skye. I– well, I haven’t really– I’m not too sure about joining really…
+S-Skye. I– well, I haven't really– I'm not too sure about joining really…
 
 Narration:
-Atria’s stumbling responses were sort of expected, but Skye’s stuttering prompts a raised eyebrow from you, confused at her sudden inarticulateness. Noticing your expression, she huffs indignantly, hissing her next words quietly at you.
+Atria's stumbling responses were sort of expected, but Skye's stuttering prompts a raised eyebrow from you, confused at her sudden inarticulateness. Noticing your expression, she huffs indignantly, hissing her next words quietly at you.
 
 Skye:
 Seeing new faces makes me anxious sometimes! You and your friend definitely caught me off guard this morning…
 
 Player:
-Oh yeah, you met Kyo this morning. Sorry he couldn’t be here, he stepped out just now.
+Oh yeah, you met Kyo this morning. Sorry he couldn't be here, he stepped out just now.
 
 Skye:
-Oh. That’s fine, I didn’t bring any of my friends here either. Communication isn’t easy when other parties can’t easily talk to or even see one another.
+Oh. That's fine, I didn't bring any of my friends here either. Communication isn't easy when other parties can't easily talk to or even see one another.
 
 Narration:
-You laugh awkwardly remembering Skye’s…friends. It might be a little awkward, navigating Skye’s…eccentricities, but you feel like it would work out… you might have to invest in a sturdier poker face soon though.
+You laugh awkwardly remembering Skye's…friends. It might be a little awkward, navigating Skye's…eccentricities, but you feel like it would work out… you might have to invest in a sturdier poker face soon though.
 
 Atria tilts her head in confusion, unaware of all that happened that day.
 
 Skye flushes brightly, before turning back to the now confused but still shyly smiling Atria. She coughs awkwardly, bringing the discussion back to focus.
 
 Skye:
-Anyway, like I said, I’m not sure if joining the club would be beneficial for everyone involved. I’d be happy to help y'all out in general though, you seem like really nice people, mhm.
+Anyway, like I said, I'm not sure if joining the club would be beneficial for everyone involved. I'd be happy to help y'all out in general though, you seem like really nice people, mhm.
 
 Atria:
-O-Oh, that’s too bad. I’m sure you’d be a great new member.
+O-Oh, that's too bad. I'm sure you'd be a great new member.
 
 Player:
-I agree, that’s kinda why I invited you in the first place. I’m happy that you’re willing to help us generally, but honestly, I’d like you to stick around. I think we’d all get along great.
+I agree, that's kinda why I invited you in the first place. I'm happy that you're willing to help us generally, but honestly, I'd like you to stick around. I think we'd all get along great.
 
 [Skye_Sad] 
 
@@ -718,7 +718,7 @@ Skye seems to flinch at your words, her previous light-hearted expression disapp
 Your eyebrows furrow with worry, you share a glance with Atria, who was now frowning as well.
 
 Player:
-Can I ask why you… don’t want to join us? You did mention you hadn’t signed up for any other club yet, and you don’t seem to be against the idea in general.
+Can I ask why you… don't want to join us? You did mention you hadn't signed up for any other club yet, and you don't seem to be against the idea in general.
 
 Skye:
 I-I'm a very busy woman. I can't just start up a new club out of nowhere! After all, who would conduct my campaigns, and…
@@ -727,10 +727,10 @@ Narration:
 Skye doesn't sound convincing, even to herself. She slumps in her chair, sighing tiredly, running her hand through her hair nervously.
 
 Skye:
-I-It’d just be easier for all of us. You wouldn’t have to deal with me too regularly, and we get to go our own ways.
+I-It'd just be easier for all of us. You wouldn't have to deal with me too regularly, and we get to go our own ways.
 
 Narration:
-A short silence comes after her words. You’re shocked that the cheerful girl from this morning had given you such a self-depreciating answer. Atria, having no basis for the girl's personality, shyly answers, noticing the tense mood.
+A short silence comes after her words. You're shocked that the cheerful girl from this morning had given you such a self-depreciating answer. Atria, having no basis for the girl's personality, shyly answers, noticing the tense mood.
 
 Atria:
 I understand, I never really got on with people very easily either.
@@ -741,9 +741,9 @@ Atria smiles awkwardly, trying to reassure the clearly struggling Skye.
 You appreciate her support in this situation. It helps ground you a little, having someone else's perspective on this. Skye shakes her head, dismissing the notion.
 
 Skye:
-No no, you’re both really nice, I tend to not work well with others. People tend to be really uncomfortable around me, and even if you didn’t mind tolerating me, I’ll just bring the mood down. Clubwork and community stuff like this never really suited me.
+No no, you're both really nice, I tend to not work well with others. People tend to be really uncomfortable around me, and even if you didn't mind tolerating me, I'll just bring the mood down. Clubwork and community stuff like this never really suited me.
 
-[Move Atria’s sprite aside, out of focus, Skye in the centre in focus]
+[Move Atria's sprite aside, out of focus, Skye in the centre in focus]
 [Atria1_Sad Sprite] 
 
 Narration:
@@ -769,7 +769,7 @@ That's not what I'm saying at all! I'm just telling you it's not gonna work out!
 Maybe it is about those guys, but didn't you hear them? I talk weird, I talk too much, I'm annoying, people can't see Pio-chan and the others and they hate it when I talk to 'em. This stuff isn't just a them thing! 
 
 Narration:
-Skye’s arguments, having reached a fever pitch, suddenly tapers off. She looks to your side where Atria is before blowing out a huge sigh, agitation slowly bleeding out of her. 
+Skye's arguments, having reached a fever pitch, suddenly tapers off. She looks to your side where Atria is before blowing out a huge sigh, agitation slowly bleeding out of her. 
 
 [Atria2_Timid]
 
@@ -783,12 +783,12 @@ Skye:
 Things are just way simpler if I'm not around most other people. I'm easier to digest in small doses, so you'll get tired of me too, sooner or later. I'm better off spending time with my friends anyway, and I can't do that with other people around. They look at me like I'm crazy.
 
 Narration:
-Her joke dies an awkward death. You’re not ready to meet her eyes and you aren’t really sure what to say.
+Her joke dies an awkward death. You're not ready to meet her eyes and you aren't really sure what to say.
 
-You want to apologise for getting so worked up and for butting in where your opinions may not be wanted, but you don’t like that she thinks so badly of herself.
+You want to apologise for getting so worked up and for butting in where your opinions may not be wanted, but you don't like that she thinks so badly of herself.
 
 Skye:
-I think we’re all a bit tense right now, maybe this wasn’t such a good idea. I-I’m just gonna go.
+I think we're all a bit tense right now, maybe this wasn't such a good idea. I-I'm just gonna go.
 
 Narration:
 You whip your head back to her, eyes widening.  You open your mouth to call out and clear things up, but a voice stops you from doing so.
@@ -799,10 +799,10 @@ Atria:
 W-wait!
 
 Narration:
-Atria quickly gets up from her chair, grabbing Skye’s hand to prevent her from leaving. The timid girl holds the limb, trembling, lips pursed tightly as tears prick her eyes.
+Atria quickly gets up from her chair, grabbing Skye's hand to prevent her from leaving. The timid girl holds the limb, trembling, lips pursed tightly as tears prick her eyes.
 
 Atria:
-Player’s just worried about you. I-I am too. It’s not right that people’ve made you think that you don’t get to have friends, j-just because you’re a little different.
+Player's just worried about you. I-I am too. It's not right that people've made you think that you don't get to have friends, j-just because you're a little different.
 
 Narration:
 Atria smiles uncertainly down at their clasped palms, tears still pricking her vision. 
@@ -811,7 +811,7 @@ Atria:
 I know the feeling…
 
 Narration:
-Skye’s eyes widened in surprise at the girl’s sudden willfulness. Yours were too at this point. You knew she had some spunk to her from the way she stood up to her former friends, but you weren’t expecting this from her.
+Skye's eyes widened in surprise at the girl's sudden willfulness. Yours were too at this point. You knew she had some spunk to her from the way she stood up to her former friends, but you weren't expecting this from her.
 
 Atria:
 You know what I think?
@@ -819,40 +819,40 @@ You know what I think?
 [Atria2_Nervous Sprite]
 
 Narration:
-Atria speaks up once more, looking up at Skye’s eyes. Her smile quirks, awkwardly but genuinely, trying to reassure the taller girl.
+Atria speaks up once more, looking up at Skye's eyes. Her smile quirks, awkwardly but genuinely, trying to reassure the taller girl.
 
 Atria:
-You’ve probably gone through a lot of things that've caused you pain. I’ve had to work on my own things recently and I get that it is so… so scary to trust other people after everything.
+You've probably gone through a lot of things that've caused you pain. I've had to work on my own things recently and I get that it is so… so scary to trust other people after everything.
 
 Narration:
 The blonde circles the table to move closer to the bespectacled girl, before pulling at their clasped hands, bringing the two closer together. Her eyes shine brightly with unshed tears.
 
 Atria:
-But, maybe you’d like some help with it? I think we both could use some practice with this friend thing. Why don’t we try this out together?
+But, maybe you'd like some help with it? I think we both could use some practice with this friend thing. Why don't we try this out together?
 
 [Skye_Smile1]
 [Atria1_Happy]
 
 Narration:
-Skye’s eyes are still wide with disbelief, unprepared for the whirlwind of a girl that had just swept her off her feet. A small smile cracks onto her face, still uncertain but now filled with a familiar lost wonder.
+Skye's eyes are still wide with disbelief, unprepared for the whirlwind of a girl that had just swept her off her feet. A small smile cracks onto her face, still uncertain but now filled with a familiar lost wonder.
 
 Skye:
 O-okay.
 
 Narration:
-At this point, you aren’t sure if you should stay in the room. It feels like you’re interrupting something even as the two finally separate, still looking at one another. You finally clear your throat, breaking the two’s reverie, returning their gaze towards you.
+At this point, you aren't sure if you should stay in the room. It feels like you're interrupting something even as the two finally separate, still looking at one another. You finally clear your throat, breaking the two's reverie, returning their gaze towards you.
 
 Player:
-Skye, I’m sorry for how I acted. Atria was right, I was worried, but I should’ve been more sensitive. I… shouldn’t have made it about myself.
+Skye, I'm sorry for how I acted. Atria was right, I was worried, but I should've been more sensitive. I… shouldn't have made it about myself.
 
 Narration:
 Skye smiles at you for the apology, moving towards you and extending an arm for you to grab. You gratefully take it, grasping onto her palm to shake. Her mouth quirks up in a rueful smirk.
 
 Skye:
-I was getting too in my head, I think. I’m happy that you cared enough to try and snap me out of it.
+I was getting too in my head, I think. I'm happy that you cared enough to try and snap me out of it.
 
 Narration:
-You smile at each other, relieved that your fight hadn’t caused irreparable damage to your new friendship. You think about the reason you fought in the first place.
+You smile at each other, relieved that your fight hadn't caused irreparable damage to your new friendship. You think about the reason you fought in the first place.
 
 [Proceed to two choices: <Don't invite her to the radio club> or <Invite her to the radio club>]
 
@@ -864,10 +864,10 @@ You aren't sure how appropriate it would be to bring up the subject again after 
 To your surprise, a voice pipes up from beside Skye, finally approaching closer after your apologies were finished.
 
 Atria [Atria2_Happy]:
-Skye? Would you maybe consider joining us? Maybe even if it’s later on?
+Skye? Would you maybe consider joining us? Maybe even if it's later on?
 
 Narration:
-You’re surprised once again by the girl’s boldness. Looks like she was the braver one out of the two of you. You smile at Skye, emboldened by your friend to ask again.
+You're surprised once again by the girl's boldness. Looks like she was the braver one out of the two of you. You smile at Skye, emboldened by your friend to ask again.
 
 [Scene reconverges here]
 
@@ -875,18 +875,18 @@ You’re surprised once again by the girl’s boldness. Looks like she was the b
 	[Scene reconverges here]
 
 Player:
-Would you consider it? Joining us at the club? We’d love to have you.
+Would you consider it? Joining us at the club? We'd love to have you.
 
 Narration:
-You aren’t sure if the invite would be taken well, but Skye smiles softly at the two of you. She nods her head, one of her hands coming up to rest on her waist as the next words come out of her mouth.
+You aren't sure if the invite would be taken well, but Skye smiles softly at the two of you. She nods her head, one of her hands coming up to rest on her waist as the next words come out of her mouth.
 
 Skye [Skye_Smile2]:
 Well, you two do look like you could use some help. Where do you think we should start?
 
 Narration:
-Atria smiles softly as she takes Skye’s hand in hers once more, dragging her to sit on the table as they start discussing ideas for the radio club, what they would prepare for the first broadcast, what news was popular in the school.
+Atria smiles softly as she takes Skye's hand in hers once more, dragging her to sit on the table as they start discussing ideas for the radio club, what they would prepare for the first broadcast, what news was popular in the school.
 
-Whatever it is, it seems like they're having fun. You can hear Skye snorting with laughter, Atria’s quieter giggles interspersed a little more rarely in the conversation. 
+Whatever it is, it seems like they're having fun. You can hear Skye snorting with laughter, Atria's quieter giggles interspersed a little more rarely in the conversation. 
 
 You smile at them as you move to settle on the table.
 
@@ -896,7 +896,7 @@ Kyo slips into the room in the middle of all the excitement, quietly sneaking in
 
 You move to greet him – and maybe grill him for missing yet another certified moment with your new club members – when Kyo motions for you to stop.
 
-He moves his hands in a shushing motion, gesturing for you to be quiet. The two girls continue their excited discussion, completely unaware of Kyo’s entrance.
+He moves his hands in a shushing motion, gesturing for you to be quiet. The two girls continue their excited discussion, completely unaware of Kyo's entrance.
 
 You nod your head at the blue haired boy, returning to look once more at your new friends fondly. You definitely don't want to interrupt their bonding either.
 

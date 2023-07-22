@@ -33,7 +33,7 @@ def processTXT_to_CSV(chapterIndex,CHAPTER, chapter_fileName):
 
         for single_line in txt_lines:
             if single_line.strip() == '':
-                print(single_line)
+                pass                
             elif  re.match( '^.+[:]$' ,single_line):
                 Name_temp = single_line
             elif  re.match( '^[[].+$' ,single_line):

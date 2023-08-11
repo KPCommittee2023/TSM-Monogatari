@@ -126,7 +126,7 @@ monogatari.characters ({
 	'character_object_student': {
 		name: 'Student',
 		color: '#2F2F30'
-	},
+	}
 });
 
 monogatari.script ({

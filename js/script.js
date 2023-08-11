@@ -78,7 +78,55 @@ monogatari.characters ({
 	'y': {
 		name: 'Yui',
 		color: '#5bcaff'
-	}
+	},
+	'character_object_player': {
+		name: '',
+		color: '#2E72C1'
+	},
+	'character_object_kyo': {
+		name: 'Kyo',
+		color: '#005766'
+	},
+	'character_object_atria': {
+		name: 'Atria',
+		color: '#912756'
+	},
+	'character_object_girl_a': {
+		name: 'Girl A',
+		color: '#2F2F30'
+	},
+	'character_object_girl_b': {
+		name: 'Girl B',
+		color: '#2F2F30'
+	},
+	'character_object_skye': {
+		name: 'Skye',
+		color: '#890F0F'
+	},
+	'character_object_student_a': {
+		name: 'Student A',
+		color: '#2F2F30'
+	},
+	'character_object_student_b': {
+		name: 'Student B',
+		color: '#2F2F30'
+	},
+	'character_object_student_c': {
+		name: 'Student C',
+		color: '#2F2F30'
+	},
+	'character_object_student_d': {
+		name: 'Student D',
+		color: '#2F2F30'
+	},
+	'character_object_esmeray': {
+		name: 'Esmeray',
+		color: '#274554'
+	},
+	'character_object_student': {
+		name: 'Student',
+		color: '#2F2F30'
+	},
 });
 
 monogatari.script ({

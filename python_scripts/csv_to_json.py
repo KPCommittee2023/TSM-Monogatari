@@ -15,12 +15,12 @@ def processCSV_to_JSON(fileName):
         csvFile = csv.reader(file)
         for row in csvFile:
             print(row)
-            json_file_write.write(' \' ')
-            json_file_write.write(row[2].replace('[', '').replace(']', ''))
+            json_file_write.write(' \" ')
+            json_file_write.write(row[2].replace('[', '').replace(']', '').replace(':', '').replace('\n', ' '))
             json_file_write.write(' ')
-            json_file_write.write(row[4].replace('[', '').replace(']', ''))
-            json_file_write.write(' \' ')
-            json_file_write.writelines(",")
+            json_file_write.write(row[4].replace('[', '').replace(']', '').replace('\'', '\\\'').replace('\n', ' ')[:-1])
+            json_file_write.write(' \" ')
+            json_file_write.writelines(",\n\n")
 
 
 processCSV_to_JSON(

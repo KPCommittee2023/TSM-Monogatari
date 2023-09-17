@@ -25,7 +25,7 @@ def processTXT_to_CSV(chapterIndex,CHAPTER, chapter_fileName):
         csv_writer.writeheader()
 
         txt_open = open(
-            'python_scripts/script-txt-for-processing/'+chapter_fileName, 
+            'python_scripts/Sep17/script-txt-for-processing/'+chapter_fileName, 
             'r',
             encoding='utf_8'
         )

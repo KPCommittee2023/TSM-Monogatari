@@ -8,7 +8,7 @@ def processTXT_to_CSV(chapterIndex,CHAPTER, chapter_fileName):
     Name_temp = ''
 
     with open(
-        "python_scripts/script-csv-processed/MASTER-SCRIPT-"+ 
+        "python_scripts/Sep17/script-csv-processed/MASTER-SCRIPT-"+ 
             chapterIndex + CHAPTER + '-' + str(date.today()) + ".csv", 
         "a", 
         newline = ""

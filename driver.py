@@ -7,14 +7,19 @@ from datetime import date
 
 if __name__ == "__main__":
     start_path = "python_scripts"
-    txt_file_directory_path = (
-        start_path + "MASTERSCRIPT-txt-for-processing(dont_rename)"
-    )
+    txt_file_directory_path = start_path + "MASTERSCRIPT-txt-for-processing(dont_rename)"
     csv_file_directory_path = start_path + "MASTERSCRIPT-csv-processed(dont_rename)"
 
     print("\nreading TXT files...\n")
 
     for root, dirs, files in os.walk(txt_file_directory_path):
+    
+        level = root.replace(start_path, "").count(os.sep)
+        indent = " " * 4 * level
+        print("{}{}/".format(indent, os.path.basename(root)))
+        sub_indent = " " * 4 * (level + 1)
+        for f in files:
+            print('{}{}'.format(sub_indent, f))
         # if "ARCHIVED" in root:
         #     pass
         # elif "txt" in root:
@@ -45,14 +50,14 @@ if __name__ == "__main__":
         #     pass
         pass
 
-    print(
-        "\nTXT files reading complete...\n",
-        "\nfiles read: ",
-        "\n\ttxt_file_names read:\n\t\t",
-        "\n\t\t".join(txt_file_names),
-        # '\n\tcsv_file_names read:\n\t\t',
-        # '\n\t\t'.join(csv_file_names)
-    )
+    # print(
+    #     "\nTXT files reading complete...\n",
+    #     "\nfiles read: ",
+    #     "\n\ttxt_file_names read:\n\t\t",
+    #     "\n\t\t".join(txt_file_names),
+    #     # '\n\tcsv_file_names read:\n\t\t',
+    #     # '\n\t\t'.join(csv_file_names)
+    # )
 
     print("\n\n\n======== processing txt files ==========\n\n\n")
 
@@ -67,6 +72,38 @@ if __name__ == "__main__":
 
     print("\n\n\n==================\n\n\n")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# function definitions
 
 def read_txt_write_to_csv(chapterIndex, CHAPTER, chapter_fileName):
     starting_DialogCode_n = 1

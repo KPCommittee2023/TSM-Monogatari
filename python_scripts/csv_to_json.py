@@ -2,13 +2,13 @@ import csv, re
 from datetime import date
 
 
-def processCSV_to_JSON(fileName):
+def processCSV_to_JSON(filename):
     json_file_write = open(
-        "python_scripts/Sep17/processed-JSON/" + fileName + ".json", "w"
+        "python_scripts/Sep17/processed-JSON/" + filename + ".json", "w"
     )
 
     with open(
-        "python_scripts/Sep17/script-csv-processed/" + fileName + ".csv",
+        "python_scripts/Sep17/script-csv-processed/" + filename + ".csv",
         "r",
         # encoding="utf_8",
     ) as file:
@@ -23,8 +23,6 @@ def processCSV_to_JSON(fileName):
             json_file_write.writelines(",\n\n")
 
 
-processCSV_to_JSON(
-    fileName="MASTER-SCRIPT-Chapter_0-Prologue-A-Colorful-Entrance-2023-09-17"
-)
-
-#
+# processCSV_to_JSON(
+#     fileName="MASTER-SCRIPT-Chapter_0-Prologue-A-Colorful-Entrance-2023-09-17"
+# )

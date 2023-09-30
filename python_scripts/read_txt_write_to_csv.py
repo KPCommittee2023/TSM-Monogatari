@@ -53,32 +53,3 @@ def processTXT_to_CSV(chapterIndex, CHAPTER, chapter_fileName):
                 })
             starting_DialogCode_n += 1
 
-# processTXT_to_CSV(
-#     chapterIndex= 'Chapter_0-',
-#     chapter_fileName = 'Chapter_0_Prologue_Waxing_Iridescent.txt',
-#     CHAPTER = 'Prologue-A-Colorful-Entrance'
-# )
-#
-# processTXT_to_CSV(
-#     chapterIndex= 'Chapter_1-',
-#     chapter_fileName = 'Chapter_1_Healing_the_Conditioned_Puppet.txt',
-#     CHAPTER = 'The-Conditioned-Puppet'
-# )
-#
-# processTXT_to_CSV(
-#     chapterIndex= 'Chapter_2-',
-#     chapter_fileName = 'Chapter_2_Befriending_the_Shrewd_Dreamer.txt',
-#     CHAPTER = 'Shrewd-Dreamer'
-# )
-#
-# processTXT_to_CSV(
-#     chapterIndex= 'Chapter_3-',
-#     chapter_fileName = 'Chapter_3_Confronting_the_Moon_Prince.txt',
-#     CHAPTER = 'The-Moon-Prince'
-# )
-#
-# processTXT_to_CSV(
-#     chapterIndex= 'Chapter_epi-',
-#     chapter_fileName = 'Chapter_E_Epilogue_Waning_Iridescent.txt',
-#     CHAPTER = 'Epilogue-A-Prismatic-Farewell'
-# )

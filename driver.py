@@ -22,7 +22,7 @@ if __name__ == "__main__":
         sub_indent = " " * 4 * (level + 1)
         for f in files:
             print('{}{}'.format(sub_indent, f))
-            txt_files_list.append(start_path+'/'+f)
+            txt_files_list.append(txt_file_directory_path+'/'+f)
         # if "ARCHIVED" in root:
         #     pass
         # elif "txt" in root:

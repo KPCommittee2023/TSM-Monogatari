@@ -1,5 +1,6 @@
 import os
 import csv, re
+from csv_to_json_RULES import do_differently_given_code
 
 # function definitions
 
@@ -147,24 +148,27 @@ def read_csv_return_txt_format(filename, dir_path):
         csvFile = csv.reader(file)
         for row in csvFile:
             # beginning of csv-json rules
+            if do_differently_given_code(row[0]):
+                txt_file_write.write(do_differently_given_code(row[0]))
+            else:
 
-            
+
             # end of csv-json parsing rules
-            txt_file_write.write(' " ')
-            txt_file_write.write(
-                row[2]
-                .replace("[", "")
-                .replace("]", "")
-                .replace(":", "")
-                .replace("\n", " ")
-            )
-            txt_file_write.write(" ")
-            txt_file_write.write(
-                row[4]
-                .replace("[", "")
-                .replace("]", "")
-                .replace("'", "\\'")
-                .replace("\n", " ")[:-1]
-            )
-            txt_file_write.write(' " ')
-            txt_file_write.writelines(",\n\n")
+                txt_file_write.write(' " ')
+                txt_file_write.write(
+                    row[2]
+                    .replace("[", "")
+                    .replace("]", "")
+                    .replace(":", "")
+                    .replace("\n", " ")
+                )
+                txt_file_write.write(" ")
+                txt_file_write.write(
+                    row[4]
+                    .replace("[", "")
+                    .replace("]", "")
+                    .replace("'", "\\'")
+                    .replace("\n", " ")[:-1]
+                )
+                txt_file_write.write(' " ')
+                txt_file_write.writelines(",\n\n")

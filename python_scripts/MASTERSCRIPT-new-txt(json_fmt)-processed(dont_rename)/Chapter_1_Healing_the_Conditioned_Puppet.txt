@@ -1,7 +1,5 @@
  " _Name _Tex " ,
 
- "  Chapter 1: Healing the Conditioned Puppet " ,
-
  " School Rooftop Day  School Rooftop Day " ,
 
  " Atria's BGM  Atria\'s BGM " ,

@@ -7,7 +7,7 @@ if __name__ == "__main__":
     start_path = "python_scripts"
     txt_file_directory_path = start_path + "/MASTERSCRIPT-txt-for-processing(dont_rename)"
     csv_file_directory_path = start_path + "/MASTERSCRIPT-csv-processed(dont_rename)"
-    new_txt_file_directory_path = start_path + "/MASTERSCRIPT-new-txt-processed(dont_rename)"
+    new_txt_file_directory_path = start_path + "/MASTERSCRIPT-new-txt(json_fmt)-processed(dont_rename)"
     txt_files_list = []
     csv_files_list = []
     new_txt_files_list = []

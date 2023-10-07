@@ -79,7 +79,7 @@ def read_txt_write_to_csv0(chapterIndex, CHAPTER, chapter_fileName):
         + chapterIndex
         + CHAPTER
         + "-"
-        + str(date.today())
+        # + str(date.today())
         + ".csv",
         "a",
         newline="",

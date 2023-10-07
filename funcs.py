@@ -11,7 +11,8 @@ def read_txt_write_to_csv(txt_file_name):
     txt_lines = txt_open.readlines()
 
     for single_line in txt_lines:
-        print(single_line)
+        # print(single_line)
+        pass
 
 
 def read_txt_write_to_csv0(chapterIndex, CHAPTER, chapter_fileName):
@@ -28,8 +29,8 @@ def read_txt_write_to_csv0(chapterIndex, CHAPTER, chapter_fileName):
         "a",
         newline="",
     ) as csvfile:
-        fieldnames = ["_DialogCode", "_Chapter", "_Name", "_Comment", "_Text"]
-        csv_writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        fieldnames = ["_DialogCode", "_Chapter", "_Name", "_Comment", "_Text"]  # creates csv columns
+        csv_writer = csv.DictWriter(csvfile, fieldnames=fieldnames)  # creates an object that writes to the csv file
 
         csv_writer.writeheader()
 
@@ -37,8 +38,8 @@ def read_txt_write_to_csv0(chapterIndex, CHAPTER, chapter_fileName):
             "python_scripts/Sep17/script-txt-for-processing/" + chapter_fileName,
             "r",
             encoding="utf_8",
-        )
-        txt_lines = txt_open.readlines()
+        )           # in charge of reading the txt file... 
+        txt_lines = txt_open.readlines() # ...line by line
 
         for single_line in txt_lines:
             if single_line.strip() == "":

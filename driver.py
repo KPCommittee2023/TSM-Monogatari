@@ -4,6 +4,7 @@ from datetime import date
 import csv, re
 from datetime import date
 from funcs import read_txt_write_to_csv
+from funcs import read_csv_return_json_format
 
 
 if __name__ == "__main__":

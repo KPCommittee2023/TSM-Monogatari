@@ -13,6 +13,7 @@ def read_txt_write_to_csv(txt_file_name):
     for single_line in txt_lines:
         # print(single_line)
         pass
+        # TO DO : implement the function to be taken   ((chapterIndex, CHAPTER, chapter_fileName)))paramters, passed from driver.py, and genreate csv files
 
 
 def read_txt_write_to_csv0(chapterIndex, CHAPTER, chapter_fileName):
@@ -88,6 +89,9 @@ def read_txt_write_to_csv0(chapterIndex, CHAPTER, chapter_fileName):
 
 
 def read_csv_return_json_format(filename):
+     # TO DO : implement the function to be taken   ((chapterIndex, CHAPTER, chapter_fileName)))paramters, passed from driver.py, and genreate csv files
+    # referece this function in drvier.py
+
     json_file_write = open(
         "python_scripts/Sep17/processed-JSON/" + filename + ".json", "w"
     )

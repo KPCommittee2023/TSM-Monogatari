@@ -24,40 +24,15 @@ if __name__ == "__main__":
         for f in files:
             print('{}{}'.format(sub_indent, f))
             txt_files_list.append(txt_file_directory_path+'/'+f)
-        # if "ARCHIVED" in root:
-        #     pass
-        # elif "txt" in root:
-        #     level = root.replace(start_path, "").count(os.sep)
-        #     indent = " " * 4 * level
-        #     print("{}{}/".format(indent, os.path.basename(root)))
-        #     sub_indent = " " * 4 * (level + 1)
-        #     for f in files:
-        #         # print('{}{}'.format(sub_indent, f))
-        #         txt_file_names.append(f)
 
-        # elif 'csv' in root:
-        #     level = root.replace(start_path, '').count(os.sep)
-        #     indent = ' ' * 4 * level
-        #     print('{}{}/'.format(indent, os.path.basename(root)))
-        #     sub_indent = ' ' * 4 * (level + 1)
-        #     for f in files:
-        #         print('{}{}'.format(sub_indent, f))
-        #         csv_file_names.append(f)
-
-        # else:
-        #     # level = root.replace(start_path, '').count(os.sep)
-        #     # indent = ' ' * 4 * level
-        #     # print('{}{}/'.format(indent, os.path.basename(root)))
-        #     # sub_indent = ' ' * 4 * (level + 1)
-        #     # for f in files:
-        #     #     print('{}{}'.format(sub_indent, f))
-        #     pass 
         pass
 
     print(txt_files_list)
 
     for txt_file in txt_files_list:
         read_txt_write_to_csv(txt_file)
+
+# up till here does not need editing Oct 6th, 926pm cst
     
     
     print("\n\n\n======== processing txt files ==========\n\n\n")

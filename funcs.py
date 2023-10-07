@@ -127,6 +127,7 @@ def read_txt_write_to_csv0(chapterIndex, CHAPTER, chapter_fileName):
             starting_DialogCode_n += 1
 
 def read_csv_return_txt_format(filename, dir_path):
+    # parsing csv to json for script.js to read. Oct 7
 
     csv_file_basename = os.path.basename(filename)
     file_basename = csv_file_basename.replace("csv", "txt")
@@ -145,6 +146,10 @@ def read_csv_return_txt_format(filename, dir_path):
     ) as file:
         csvFile = csv.reader(file)
         for row in csvFile:
+            # beginning of csv-json rules
+
+            
+            # end of csv-json parsing rules
             txt_file_write.write(' " ')
             txt_file_write.write(
                 row[2]

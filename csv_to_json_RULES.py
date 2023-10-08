@@ -4,6 +4,7 @@ def do_differently_given_code(row_in_csv):
     
     # sample rule here
     if dialog_code == 'Chapter_1-0000100':
+        print('rule for', dialog_code)
         # return ' // \n' # cannot return empty str. '' is falsy value in python
         pass
 
@@ -12,8 +13,7 @@ def do_differently_given_code(row_in_csv):
     #     return ' // \n' 
 
 
-    elif False:
-        pass
+
     else:
         return False
 

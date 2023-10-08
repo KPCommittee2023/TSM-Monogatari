@@ -12,7 +12,7 @@ def read_txt_write_to_csv(txt_file_name, csv_file_directory_path):
     txt_file_basename = os.path.basename(txt_file_name)
     file_basename = txt_file_basename.replace("txt", "csv")
     split_basename = (file_basename.split(".")[0]).split("_")
-    chapterIndex = "Chapter_" + split_basename[1] + "-"
+    chapterIndex = "Chapter_" + split_basename[1] + "_"
     chapter_name_list = split_basename[2:]
     CHAPTER = '-'.join(chapter_name_list)
 
@@ -144,8 +144,8 @@ def read_csv_return_txt_format(csv_filename, dir_path):
         csvFile = csv.reader(file)
         for row in csvFile:
             # beginning of csv-json rules
-            if do_differently_given_code(row[0]):
-                txt_file_write.write(do_differently_given_code(row[0]))
+            if do_differently_given_code(row):
+                txt_file_write.write(do_differently_given_code(row))
             else:
 
 

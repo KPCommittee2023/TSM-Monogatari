@@ -13,8 +13,31 @@ def do_differently_given_code(row_in_csv):
         pass
 
 
+    if 'Kyo' in char_name:        
+        char_name = 'character_object_kyo'
+    elif 'Atria' in char_name: 
+        char_name = 'character_object_atria'
+    elif 'Girl A' in char_name :
+        char_name = 'character_object_girl_a'
+    elif 'Girl b' in char_name :
+        char_name = 'character_object_girl_b'
+    elif 'Skye:' in char_name :
+        char_name = 'character_object_skye'
+    elif 'Student A' in char_name :
+        char_name = 'character_object_student_a'
+    elif 'Student B' in char_name :
+        char_name = 'character_object_student_b'
+    elif 'Student C' in char_name :
+        char_name = 'character_object_student_c'
+    elif 'Student D' in char_name :
+        char_name = 'character_object_student_d'
+    elif 'Esmeray' in char_name :
+        char_name = 'character_object_esmeray'
+    elif 'Student:' in char_name :
+        char_name = 'character_object_student'
 
-    elif dialog_code == 'Chapter_3_0002400' \
+
+    if dialog_code == 'Chapter_3_0002400' \
         or dialog_code ==  'Chapter_3_0002600' \
         or dialog_code ==  'Chapter_3_0049700' :
         print('\n\t\trule for', dialog_code, '\n\n')

@@ -163,7 +163,8 @@ def read_csv_return_txt_format(csv_filename, dir_path):
                     row[4]
                     .replace("[", "")
                     .replace("]", "")
-                    .replace("'", "\\'")
+                    .replace("'", "\\'") \
+                    .replace("\"", "\\\"") \
                     .replace("\n", " ")[:-1]
                 )
                 txt_file_write.write(" <br><br> _Dialog Code:  ")

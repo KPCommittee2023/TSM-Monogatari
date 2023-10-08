@@ -2,9 +2,8 @@
 
  "  Chapter_0_0000100 Prologue: Waxing Iridescent " ,
 
- " School hallway day  Chapter_0_0000300 School hallway day " ,
-
- " Intro Music  Chapter_0_0000400 Intro Music " ,
+"show scene generic_classroom_bg",
+  " Intro Music  Chapter_0_0000400 Intro Music " ,
 
  " Narration  <br><br> It\'s lunch break at school, but the atmosphere is livelier than usual. Oh right, it\'s Club Day today. You still can\'t decide which club you want to join this year.  <br><br> _Dialog Code:  Chapter_0_0000700 " ,
  " Narration  <br><br> You stop walking the hallways to look at the board of various club posters. Oh man, you\'ve never joined one before, so the amount of options overwhelm you a little. You think of just joining multiple clubs at a time, but you quickly brush off that thought. Clubs are supposed to be a good break from the humdrum of academics. Don\'t get ahead of yourself. <br><br> _Dialog Code:  Chapter_0_0000900 " ,

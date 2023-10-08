@@ -7,7 +7,6 @@ def do_differently_given_code(row_in_csv):
     line_text = row_in_csv[4]
     
 
-
     if 'Player' in char_name:        
         return False
     elif 'Narration' in char_name:        
@@ -35,6 +34,12 @@ def do_differently_given_code(row_in_csv):
         char_name = 'character_object_esmeray'
     elif 'Student:' in char_name :
         char_name = 'character_object_student'
+
+
+    if dialog_code == 'Chapter_0_0000300':
+        return '\"show scene generic_classroom_bg\",\n '
+
+
 
     output_to_json = ''
     output_to_json+=' " '

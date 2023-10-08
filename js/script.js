@@ -48,24 +48,45 @@ monogatari.assets("videos", {});
 // Define the images used in the game.
 monogatari.assets("images", {});
 
+// Define the images used in the game.
+monogatari.assets("special_scenes", {
+  
+  
+});
+
 // Define the backgrounds for each scene.
 monogatari.assets("scenes", {
-  
-  'music_GUITAR' : 'Music_Room_BG_assets/music_GUITAR.png', 
-  'music_LAPTOP' : 'Music_Room_BG_assets/music_LAPTOP.png', 
-  'music_MIC' : 'Music_Room_BG_assets/music_MIC.png', 
-  'music_PRINTER' : 'Music_Room_BG_assets/music_PRINTER.png', 
-  'music_room_basic' : 'Music_Room_BG_assets/music_room_basic.png', 
-  'music_room_basic_ALL' : 'Music_Room_BG_assets/music_room_basic_ALL.png', 
-  'music_room_PLUSHIE' : 'Music_Room_BG_assets/music_room_PLUSHIE.png',
-  
-  'Rooftop_bg_day' : 'Rooftop/Rooftop_bg_day.jpeg', 
-  'Rooftop_bg_night' : 'Rooftop/Rooftop_bg_night.jpeg',
 
-  'school_hallway_daylight': 'assets/scenes/School_Hallway/school_hallway_(daylight).png', 
-  'school_hallway_evening': 'assets/scenes/School_Hallway/school_hallway_(evening).png',
 
-  'generic_classroom_bg' : 'generic_classroom_bg_daylight.png',
+  'Atria_CG' : 'special_scenes/Final/Atria_CG.jpg', 
+  'Esmeray_CG' : 'special_scenes/Final/Esmeray_CG.png',
+  
+  'kyo_bg' : 'special_scenes/Final/Kyo_CG/kyo-bg.png', 
+  'kyo_cg' : 'special_scenes/Final/Kyo_CG/kyo-cg.png', 
+  'kyo_cg2' : 'special_scenes/Final/Kyo_CG/kyo-cg2.png', 
+  'kyo_sparkle' : 'special_scenes/Final/Kyo_CG/kyo-sparkle.png',
+  
+  'Tak_berjudul85_20230701211359' : 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211359.png', 
+  'Tak_berjudul85_20230701211403' : 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211403.png', 
+  'Tak_berjudul85_20230701211407' : 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211407.png', 
+  'Tak_berjudul85_20230701211442' : 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211442.png',
+  
+  
+  'music_GUITAR' : 'Backgrounds/Final/Music_Room_BG_assets/music_GUITAR.png', 
+  'music_LAPTOP' : 'Backgrounds/Final/Music_Room_BG_assets/music_LAPTOP.png', 
+  'music_MIC' : 'Backgrounds/Final/Music_Room_BG_assets/music_MIC.png', 
+  'music_PRINTER' : 'Backgrounds/Final/Music_Room_BG_assets/music_PRINTER.png', 
+  'music_room_basic' : 'Backgrounds/Final/Music_Room_BG_assets/music_room_basic.png', 
+  'music_room_basic_ALL' : 'Backgrounds/Final/Music_Room_BG_assets/music_room_basic_ALL.png', 
+  'music_room_PLUSHIE' : 'Backgrounds/Final/Music_Room_BG_assets/music_room_PLUSHIE.png',
+  
+  'Rooftop_bg_day' : 'Backgrounds/Final/Rooftop/Rooftop_bg_day.jpeg', 
+  'Rooftop_bg_night' : 'Backgrounds/Final/Rooftop/Rooftop_bg_night.jpeg',
+
+  'school_hallway_daylight' : 'Backgrounds/Final/assets/scenes/School_Hallway/school_hallway_(daylight).png', 
+  'school_hallway_evening' : 'Backgrounds/Final/assets/scenes/School_Hallway/school_hallway_(evening).png',
+
+  'generic_classroom_bg' : 'Backgrounds/Final/generic_classroom_bg_daylight.png',
 
 });
 
@@ -157,6 +178,56 @@ monogatari.characters({
 monogatari.script({
   // The game starts here.
 	'Start': [
+
+'show scene Atria_CG',
+'test speical scene Atria_CG',
+'show scene Esmeray_CG',
+'test speical scene Esmeray_CG',
+'show scene kyo_bg',
+'test speical scene kyo_bg',
+'show scene kyo_cg',
+'test speical scene kyo_cg',
+'show scene kyo_cg2',
+'test speical scene kyo_cg2',
+'show scene kyo_sparkle',
+'test speical scene kyo_sparkle',
+'show scene Tak_berjudul85_20230701211359',
+'test speical scene Tak_berjudul85_20230701211359',
+'show scene Tak_berjudul85_20230701211403',
+'test speical scene Tak_berjudul85_20230701211403',
+'show scene Tak_berjudul85_20230701211407',
+'test speical scene Tak_berjudul85_20230701211407',
+'show scene Tak_berjudul85_20230701211442',
+'test speical scene Tak_berjudul85_20230701211442',
+
+
+"show scene music_GUITAR",
+'test scene : music_GUITAR',
+"show scene music_LAPTOP",
+'test scene : music_LAPTOP',
+"show scene music_MIC",
+'test scene : music_MIC',
+"show scene music_PRINTER",
+'test scene : music_PRINTER',
+"show scene music_room_basic",
+'test scene : music_room_basic',
+"show scene music_room_basic_ALL",
+'test scene : music_room_basic_ALL',
+"show scene music_room_PLUSHIE",
+'test scene : music_room_PLUSHIE',
+"show scene Rooftop_bg_day",
+'test scene : Rooftop_bg_day',
+"show scene Rooftop_bg_night",
+'test scene : Rooftop_bg_night',
+"show scene school_hallway_daylight",
+'test scene : school_hallway_daylight',
+"show scene school_hallway_evening",
+'test scene : school_hallway_evening',
+"show scene generic_classroom_bg",
+'test scene : generic_classroom_bg',
+
+
+
 		{
 			'Choice': {
 				'Dialog': 'Jump to certain chapter? \

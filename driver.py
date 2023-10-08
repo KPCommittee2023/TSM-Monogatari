@@ -107,10 +107,6 @@ if __name__ == "__main__":
         elif 'start-of-CHAPTER-0-mark' in script_js_lines[line_index] :
             if 'end-of-CHAPTER-0-mark' in script_js_lines[line_index+1] :
                 print('end-of-CHAPTER-0-mark REACHED... RESETING')
-                # for single_line in chap_0_lines:
-                #     script_js_lines.insert(line_index+1, single_line)
-                #     total_n_lines += 1
-                #     line_index += 1
                 line_index += 1
             else:
                 script_js_lines.pop(line_index+1)
@@ -119,10 +115,6 @@ if __name__ == "__main__":
         elif 'start-of-CHAPTER-1-mark' in script_js_lines[line_index] :
             if 'end-of-CHAPTER-1-mark' in script_js_lines[line_index+1] :
                 print('end-of-CHAPTER-1-mark REACHED... RESETING')
-                # for single_line in chap_1_lines:
-                #     script_js_lines.insert(line_index+1, single_line)
-                #     total_n_lines += 1
-                #     line_index += 1
                 line_index += 1
             else:
                 script_js_lines.pop(line_index+1)
@@ -131,10 +123,6 @@ if __name__ == "__main__":
         elif 'start-of-CHAPTER-2-mark' in script_js_lines[line_index] :
             if 'end-of-CHAPTER-2-mark' in script_js_lines[line_index+1] :
                 print('end-of-CHAPTER-2-mark REACHED... RESETING')
-                # for single_line in chap_2_lines:
-                #     script_js_lines.insert(line_index+1, single_line)
-                #     total_n_lines += 1
-                #     line_index += 1
                 line_index += 1
             else:
                 script_js_lines.pop(line_index+1)
@@ -143,10 +131,6 @@ if __name__ == "__main__":
         elif 'start-of-CHAPTER-3-mark' in script_js_lines[line_index] :
             if  'end-of-CHAPTER-3-mark' in script_js_lines[line_index+1] :
                 print('end-of-CHAPTER-3-mark REACHED... RESETING')
-                # for single_line in chap_3_lines:
-                #     script_js_lines.insert(line_index+1, single_line)
-                #     total_n_lines += 1
-                #     line_index += 1
                 line_index += 1
             else:
                 script_js_lines.pop(line_index+1)
@@ -155,10 +139,6 @@ if __name__ == "__main__":
         elif 'start-of-CHAPTER-E-mark' in script_js_lines[line_index] :
             if  'end-of-CHAPTER-E-mark' in script_js_lines[line_index+1] :
                 print('end-of-CHAPTER-E-mark REACHED... RESETING')
-                # for single_line in chap_E_lines:
-                #     script_js_lines.insert(line_index+1, single_line)
-                #     total_n_lines += 1
-                #     line_index += 1
                 line_index += 1
             else:
                 script_js_lines.pop(line_index+1)

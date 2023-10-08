@@ -12,7 +12,7 @@ def read_txt_write_to_csv(txt_file_name, csv_file_directory_path):
     txt_file_basename = os.path.basename(txt_file_name)
     file_basename = txt_file_basename.replace("txt", "csv")
     split_basename = (file_basename.split(".")[0]).split("_")
-    chapterIndex = "Chapter_" + split_basename[1] + "-"
+    chapterIndex = "Chapter_" + split_basename[1] + "_"
     chapter_name_list = split_basename[2:]
     CHAPTER = '-'.join(chapter_name_list)
 
@@ -70,67 +70,63 @@ def read_txt_write_to_csv(txt_file_name, csv_file_directory_path):
                 )
             starting_DialogCode_n += 1
        
-def read_txt_write_to_csv0(chapterIndex, CHAPTER, chapter_fileName):
-    starting_DialogCode_n = 1
-    name_temp = ""
+# def read_txt_write_to_csv0(chapterIndex, CHAPTER, chapter_fileName):
+#     starting_DialogCode_n = 1
+#     name_temp = ""
+#     with open(
+#         "python_scripts/Sep17/script-csv-processed/MASTER-SCRIPT-"
+#         + chapterIndex
+#         + CHAPTER
+#         + "-"
+#         # + str(date.today())
+#         + ".csv",
+#         "a",
+#         newline="",
+#     ) as csvfile:
+#         fieldnames = ["_DialogCode", "_Chapter", "_Name", "_Comment", "_Text"]  # creates csv columns
+#         csv_writer = csv.DictWriter(csvfile, fieldnames=fieldnames)  # creates an object that writes to the csv file
+#         csv_writer.writeheader()
+#         txt_open = open(
+#             "python_scripts/Sep17/script-txt-for-processing/" + chapter_fileName,
+#             "r",
+#             encoding="utf_8",
+#         )           # in charge of reading the txt file... 
+#         txt_lines = txt_open.readlines() # ...line by line
+#         for single_line in txt_lines:
+#             if single_line.strip() == "":
+#                 pass
+#             elif re.match("^.+[:]$", single_line):
+#                 name_temp = single_line
+#             elif re.match("^[[].+$", single_line):
+#                 csv_writer.writerow(
+#                     {
+#                         "_DialogCode": chapterIndex
+#                         + str("{:05n}".format(starting_DialogCode_n))
+#                         + "00",
+#                         "_Chapter": CHAPTER,
+#                         "_Name": single_line,
+#                         "_Comment": "",
+#                         "_Text": single_line,
+#                     }
+#                 )
+#             else:
+#                 csv_writer.writerow(
+#                     {
+#                         "_DialogCode": chapterIndex
+#                         + str("{:05n}".format(starting_DialogCode_n))
+#                         + "00",
+#                         "_Chapter": CHAPTER,
+#                         "_Name": name_temp,
+#                         "_Comment": "",
+#                         "_Text": single_line,
+#                     }
+#                 )
+#             starting_DialogCode_n += 1
 
-    with open(
-        "python_scripts/Sep17/script-csv-processed/MASTER-SCRIPT-"
-        + chapterIndex
-        + CHAPTER
-        + "-"
-        # + str(date.today())
-        + ".csv",
-        "a",
-        newline="",
-    ) as csvfile:
-        fieldnames = ["_DialogCode", "_Chapter", "_Name", "_Comment", "_Text"]  # creates csv columns
-        csv_writer = csv.DictWriter(csvfile, fieldnames=fieldnames)  # creates an object that writes to the csv file
-
-        csv_writer.writeheader()
-
-        txt_open = open(
-            "python_scripts/Sep17/script-txt-for-processing/" + chapter_fileName,
-            "r",
-            encoding="utf_8",
-        )           # in charge of reading the txt file... 
-        txt_lines = txt_open.readlines() # ...line by line
-
-        for single_line in txt_lines:
-            if single_line.strip() == "":
-                pass
-            elif re.match("^.+[:]$", single_line):
-                name_temp = single_line
-            elif re.match("^[[].+$", single_line):
-                csv_writer.writerow(
-                    {
-                        "_DialogCode": chapterIndex
-                        + str("{:05n}".format(starting_DialogCode_n))
-                        + "00",
-                        "_Chapter": CHAPTER,
-                        "_Name": single_line,
-                        "_Comment": "",
-                        "_Text": single_line,
-                    }
-                )
-            else:
-                csv_writer.writerow(
-                    {
-                        "_DialogCode": chapterIndex
-                        + str("{:05n}".format(starting_DialogCode_n))
-                        + "00",
-                        "_Chapter": CHAPTER,
-                        "_Name": name_temp,
-                        "_Comment": "",
-                        "_Text": single_line,
-                    }
-                )
-            starting_DialogCode_n += 1
-
-def read_csv_return_txt_format(filename, dir_path):
+def read_csv_return_txt_format(csv_filename, dir_path):
     # parsing csv to json for script.js to read. Oct 7
 
-    csv_file_basename = os.path.basename(filename)
+    csv_file_basename = os.path.basename(csv_filename)
     file_basename = csv_file_basename.replace("csv", "txt")
     
     # create the csv dir if it doesn't already exist
@@ -142,14 +138,14 @@ def read_csv_return_txt_format(filename, dir_path):
     )
 
     with open(
-        filename,
+        csv_filename,
         "r",
     ) as file:
         csvFile = csv.reader(file)
         for row in csvFile:
             # beginning of csv-json rules
-            if do_differently_given_code(row[0]):
-                txt_file_write.write(do_differently_given_code(row[0]))
+            if do_differently_given_code(row):
+                txt_file_write.write(do_differently_given_code(row))
             else:
 
 
@@ -162,7 +158,7 @@ def read_csv_return_txt_format(filename, dir_path):
                     .replace(":", "")
                     .replace("\n", " ")
                 )
-                txt_file_write.write(" ")
+                txt_file_write.write(" <br><br> ")
                 txt_file_write.write(
                     row[4]
                     .replace("[", "")
@@ -170,5 +166,7 @@ def read_csv_return_txt_format(filename, dir_path):
                     .replace("'", "\\'")
                     .replace("\n", " ")[:-1]
                 )
+                txt_file_write.write(" <br><br> _Dialog Code:  ")
+                txt_file_write.write(row[0])    # del this line in actual release
                 txt_file_write.write(' " ')
-                txt_file_write.writelines(",\n\n")
+                txt_file_write.writelines(",\n")

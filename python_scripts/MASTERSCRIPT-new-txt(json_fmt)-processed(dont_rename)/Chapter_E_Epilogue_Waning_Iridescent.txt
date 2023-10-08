@@ -1,304 +1,152 @@
- " _Name _Tex " ,
-
- "  Epilogue: Waning Iridescent  " ,
-
- " Music Room Basic All  Music Room Basic All " ,
-
- " Outro BGM  Outro BGM " ,
-
- " Narration  After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It\'s the first official radio club meeting today, and you’re excited!  " ,
-
- " Narration  You look at the notes you wrote on your phone to remember what you’re discussing with all the club members. It’s simple enough: assign roles to the club members and finalize the plan for future activities. " ,
-
- " Narration  Now you just need to wait for them to show up. They didn’t forget about you telling them earlier in the day to meet you at lunch, right? You hope not. " ,
-
- " Narration  Speaking of showing up, will Kyo even be here? You weren’t even able to tell him all the good news, because you haven’t seen him all day. Well, it’s on him for choosing to miss this momentous occasion. " ,
-
- " Narration  The door opens. " ,
-
- " Atria1_happy, left  Atria1_happy, left " ,
-
- " Atria  I’m here. " ,
-
- " Skye_smile, center  Skye_smile, center " ,
-
- " Skye  And so am I! " ,
-
- " Player  Now, where the heck is Esme— " ,
-
- " Esmeray_neutral, right  Esmeray_neutral, right " ,
-
- " Esmeray  My bad. Had to shake off my fans, but I’m good now.  " ,
-
- " Skye  Pssh, okay, Mr. Famous. " ,
-
- " Player  You sure they’re not gonna follow you? " ,
-
- " Esmeray  I mean, more club members, am I right? " ,
-
- " Narration  The three of you stare at him. " ,
-
- " Esmeray Amused  Okay, okay, I’m just kidding. I was a little late finishing my classwork. I’ll be early next time. " ,
-
- " Player  I’ll hold you to that. " ,
-
- " Narration  Esmeray laughs. " ,
-
- " Player  Alright y’all, we got business to take care of. First, we gotta decide what our roles are. " ,
-
- " Skye  Well, it’s obvious what you’re gonna be. Club president!  " ,
-
- " Narration  You put your hands on your hips. " ,
-
- " Player  Yup! I’ll be doing more of the behind-the-scenes stuff. As for the other roles…  " ,
-
- " Skye  I’ve already decided. " ,
-
- " Player  Wait, I haven\'t even said what the other roles are yet. " ,
-
- " Skye  Well, you’re gonna need someone to write scripts, right? Then I’ll do it. " ,
-
- " Player  Sounds good.  " ,
-
- " Skye  I can also get the latest scoops on what’s going around at school. The janitor’s closet is quite handy for getting a hold of hot tea, you know. " ,
-
- " Player  Can you handle doing both? " ,
-
- " Skye  Hell yeah, brother. " ,
-
- " Narration  You flash a smile. This is already going pretty smoothly. " ,
-
- " Player  Now, Esmeray… " ,
-
- " Esmeray Neutral  Hm? " ,
-
- " Player  You’ll be in charge of making little jingles before and after we’re done announcing and stuff. Oh, and I’m thinking we could add music segments in our broadcasts too.  " ,
-
- " Esmeray  You got it. " ,
-
- " Narration  Esmeray takes out a small notebook. He starts writing and humming to himself. " ,
-
- " Player  And finally, Atria, you’ll be the one on the speakers!  " ,
-
- " Atria Atria1_Nervous  Um, are you sure? I’m not that loud and confident yet… " ,
-
- " Player  You don’t have to be the only speaker of course. We can do it together. " ,
-
- " Narration  Atria slowly regains her smile. " ,
-
- " Atria Atria1_Happy  That’d be easier for me. Thank you. " ,
-
- " Player  Alright, now we gotta think of our future plans for this club. " ,
-
- " Atria  Actually, is it okay if I suggest something? " ,
-
- " Player  Of course. " ,
-
- " Atria  It’s Back to School Night next week. The staff wants clubs to help out with the concessions.  " ,
-
- " Player  Then we should join! So, are we all free to help out with the concessions next week? " ,
-
- " Narration  The other three club members say yes. " ,
-
- " Player  Alright, we’re done then.  " ,
-
- " Narration  Happiness feels like it\'s going to burst out of your chest. It really feels like an actual club now. No wait, it’s not just a club. It feels like you have a friend group for real too. You wonder if everyone\'s down for a group hug before they leave. " ,
-
- " Narration  You open your arms wide. " ,
-
- " Player  I know this is out of nowhere but… Who’s down for a group hug?! " ,
-
- " Atria Atria1_Nervous  Huh? " ,
-
- " Skye Skye_smile2  Heh, sure, why not. Come on, get over here, Atria. " ,
-
- " Esmeray Amused  Wait, we’re actually doing this? Hold on a minute— " ,
-
- " Group hug CG   Group hug CG  " ,
-
- " Player  Hehe, thanks y’all. If only Kyo was here to join in the hug too. He’s the one who started the club, after all. " ,
-
- " Group hug CG ends.  Group hug CG ends. " ,
-
- " Narration  All of the club members back up and stare at you in confusion. " ,
-
- " Esmeray Neutral  Who’s Kyo? " ,
-
- " Player  Kyo. You know, the radio club president before I took over his role? Bright blue hair like cotton candy. Very munchable. It’s hard to miss.  " ,
-
- " Atria Atria1_Timid  I’ve never heard of him. " ,
-
- " Player  But you all met him before! You all talked to him and everything. Are you all messing with me? " ,
-
- " Skye Skye_smile  Oh, I get it. He’s the friend you were talking to before.  " ,
-
- " Player  Yeah!  " ,
-
- " Skye Skye_default  Like the ones I used to talk to inside the locker, right? " ,
-
- " Player  Yeah, yeah! Wait, no! What the hell, do you guys genuinely not know?  " ,
-
- " Narration  You don’t get much of a response. " ,
-
- " Player  Never mind, forget it. I’m imagining things, hehe. " ,
-
- " Narration  The lunch bell rings, and all of you part ways as you wave to each other. Your smile then fades. What do they mean, they don’t know who Kyo is? You walk to your next class with a resting bitch face to mask your casual existential crisis.  " ,
-
- " Scene ends  Scene ends " ,
-
- " School Hallway Night  School Hallway Night " ,
-
- " Narration  It\'s Back To School Night. You go back and forth from your mom\'s car to carry water bottles to the venue. It takes just a few trips but the weight tires out your arms. Thank god that you\'re not in any of the sports clubs. " ,
-
- " Narration  As you rest on a nearby bench, you see something colorful faintly glowing bright on the ground. It looks like a poorly drawn hand doing a peace sign. The pain is real. Hands are the bane of every artist’s existence.  " ,
-
- " Narration  …Wait, this looks like the work of Kyo! " ,
-
- " Narration  As quickly as you notice the symbol, it disappears. " ,
-
- " Narration  That is the only sign you\'ve seen of him in school all week. What the hell is he up to?  " ,
-
- " Narration  Looking up ahead, you see more graffiti symbols in the distance, scattered far apart in a way that beckons you to follow them. When you try to get near the symbols, they disappear as well. Oh boy, do you have some questions to ask him when you see him. " ,
-
- " School Rooftop Night  School Rooftop Night " ,
-
- " Narration  You follow the path until you arrive at the school\'s rooftop.  " ,
-
- " Narration  There he is, spray painting symbols on the ground all around him in a circle. They vanish into thin air. " ,
-
- " Narration  You call out to him.   " ,
-
- " Player  Kyo? " ,
-
- " Kyo_FP_Shocked  Kyo_FP_Shocked " ,
-
- " Narration  Kyo turns around.  " ,
-
- " Kyo  Oh shit, hi Player! " ,
-
- " Player  Where have you been? I haven\'t seen you in school all week. " ,
-
- " Kyo Kyo_FP_Default  Um, about that... " ,
-
- " Narration  He shakes his spray paint can but doesn\'t use it. He looks back and forth between his spray can, the moon above, and you as if he\'s contemplating his next move. He sighs. " ,
-
- " Kyo  You weren\'t supposed to come here.  " ,
-
- " Player  But you left a paint trail. " ,
-
- " Kyo  That wasn\'t really a trail. I didn\'t think you\'d... Damn it, I was supposed to leave before you saw me. " ,
-
- " Player  Wait, you\'re leaving? What\'s going on? " ,
-
- " Kyo  You know what, fuck it. I\'m not going yet. \'Cause I don\'t even know where to begin explaining everything. " ,
-
- " Narration  He\'s right. You have too many questions.  " ,
-
- " Narration  You remember the confused faces of the club members from last week. " ,
-
- " Player  Kyo, you\'re... real, right? " ,
-
- " Narration  Kyo busts out a quick laugh. " ,
-
- " Kyo  Nah you\'re just imagining me in your head. Wake up. It\'s been years since the accident— " ,
-
- " Player  Kyo, I\'m serious. None of the club members see or hear you except me. They don\'t even know who you are. Why? Are you a ghost? Who and what even are you? " ,
-
- " Narration  Kyo lets out a deep sigh. " ,
-
- " Kyo  I don\'t actually go here. I used to, but it was a long time ago. " ,
-
- " Player  Why are you here then? " ,
-
- " Kyo CG  Kyo CG " ,
-
- " Kyo  To help you make friends. " ,
-
- " Narration  Your eyes widen. " ,
-
- " Player  How\'d you know I wanted to...? " ,
-
- " Kyo  You\'re the reason I opened up the radio club in the first place.  " ,
-
- " Player  Huh?! Wait, then you were the only club member on purpose? " ,
-
- " Kyo  Haha, yup. " ,
-
- " Player  I\'m still not over you forcing me to do free labor though. " ,
-
- " Kyo  It\'s better if you initiate these friendships on your own. I\'m just here to make sure you stay on track. You\'re the lonely one here, not me. " ,
-
- " Narration  You roll your eyes.  " ,
-
- " Kyo  You\'re not even gonna thank me?!  " ,
-
- " Player  I still have more questions for you, funny man. " ,
-
- " Kyo  Okay, shoot. " ,
-
- " Player  If you\'ve been a student here, why does no one remember you at all? " ,
-
- " Kyo  That\'s because I don\'t exist in your reality anymore. I live in another universe. " ,
-
- " Player  You\'re an alien?! " ,
-
- " Kyo  Okay no, but I know someone else who is. Anyways, I was isekai\'d a while ago. But just recently, I\'ve been blessed by the moon, so now I\'m able to travel between your reality and mine. " ,
-
- " Kyo  The problem is, I\'m still learning how to use this power. So it\'s not perfect. It\'s kinda weird actually. Right now, I\'m like in a world between yours and mine. I can\'t really see you, only the outline of you.  " ,
-
- " Narration  Kyo pauses for a bit as if he\'s thinking. " ,
-
- " Kyo  Give me a high-five. " ,
-
- " Player  For what? " ,
-
- " Kyo  For being able to keep up with me. You know, since I speak so fast. " ,
-
- " Player  O...kay. " ,
-
- " Narration  When you go high-five Kyo, your hand goes through his like air. You don\'t feel him at all. " ,
-
- " Narration  You stand there in silence, flabbergasted. A realization hits you. " ,
-
- " Player  So you\'re the one haunting this school! " ,
-
- " Kyo  Wait, what? " ,
-
- " Player  Dude, did you not know? The paranormal activity club has been obsessed with you for a long time now. They\'ve been trying to contact you and everything.  " ,
-
- " Kyo  They can\'t see me, right? " ,
-
- " Player  That\'s not what I mean. But there\'s been ghost-like activity happening around school. I think you have something to do with it. " ,
-
- " Kyo  Shit, my bad. Didn\'t mean to. " ,
-
- " Player  If only they knew I was talking to a ghost the entire time. Wait, I don\'t think anybody heard you speak either. Not even the club members. Except me. What the hell? " ,
-
- " Kyo  You\'re the one I was assigned to help. " ,
-
- " Player  Assigned? " ,
-
- " Kyo  By the moon. Who also gave me my powers. I think that’s why you’re also the only person who can see and hear me. Consider yourself lucky.  " ,
-
- " Player  I was chosen? Wow... " ,
-
- " Kyo  But I\'m running out of time. Now, I won\'t exist in this reality again. For real this time. " ,
-
- " Narration  The school bell rings. School Bell SFX " ,
-
- " Kyo  Go. Your friends are waiting for you. " ,
-
- " Narration  Kyo sets up his exit. " ,
-
- " Player  Wait! Before you go... " ,
-
- " Player  Thank you. For everything. " ,
-
- " Narration  Kyo looks back one last time and smiles. " ,
-
- " Fade out Kyo, use the Kyo_BG in his special scene folder  Fade out Kyo, use the Kyo_BG in his special scene folder " ,
-
- " Game end  Game end " ,
-
- " Go to credits  Go to credits " ,
-
+ " _Name <br><br> _Tex <br><br> _Dialog Code:  _DialogCode " ,
+ "  <br><br> Epilogue: Waning Iridescent  <br><br> _Dialog Code:  Chapter_E_0000100 " ,
+ " Music Room Basic All  <br><br> Music Room Basic All <br><br> _Dialog Code:  Chapter_E_0000300 " ,
+ " Outro BGM  <br><br> Outro BGM <br><br> _Dialog Code:  Chapter_E_0000400 " ,
+ " Narration  <br><br> After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It\'s the first official radio club meeting today, and you’re excited!  <br><br> _Dialog Code:  Chapter_E_0000700 " ,
+ " Narration  <br><br> You look at the notes you wrote on your phone to remember what you’re discussing with all the club members. It’s simple enough: assign roles to the club members and finalize the plan for future activities. <br><br> _Dialog Code:  Chapter_E_0000900 " ,
+ " Narration  <br><br> Now you just need to wait for them to show up. They didn’t forget about you telling them earlier in the day to meet you at lunch, right? You hope not. <br><br> _Dialog Code:  Chapter_E_0001100 " ,
+ " Narration  <br><br> Speaking of showing up, will Kyo even be here? You weren’t even able to tell him all the good news, because you haven’t seen him all day. Well, it’s on him for choosing to miss this momentous occasion. <br><br> _Dialog Code:  Chapter_E_0001300 " ,
+ " Narration  <br><br> The door opens. <br><br> _Dialog Code:  Chapter_E_0001500 " ,
+ " Atria1_happy, left  <br><br> Atria1_happy, left <br><br> _Dialog Code:  Chapter_E_0001700 " ,
+ " Atria  <br><br> I’m here. <br><br> _Dialog Code:  Chapter_E_0002000 " ,
+ " Skye_smile, center  <br><br> Skye_smile, center <br><br> _Dialog Code:  Chapter_E_0002200 " ,
+ " Skye  <br><br> And so am I! <br><br> _Dialog Code:  Chapter_E_0002500 " ,
+ " Player  <br><br> Now, where the heck is Esme— <br><br> _Dialog Code:  Chapter_E_0002800 " ,
+ " Esmeray_neutral, right  <br><br> Esmeray_neutral, right <br><br> _Dialog Code:  Chapter_E_0003000 " ,
+ " Esmeray  <br><br> My bad. Had to shake off my fans, but I’m good now.  <br><br> _Dialog Code:  Chapter_E_0003300 " ,
+ " Skye  <br><br> Pssh, okay, Mr. Famous. <br><br> _Dialog Code:  Chapter_E_0003600 " ,
+ " Player  <br><br> You sure they’re not gonna follow you? <br><br> _Dialog Code:  Chapter_E_0003900 " ,
+ " Esmeray  <br><br> I mean, more club members, am I right? <br><br> _Dialog Code:  Chapter_E_0004200 " ,
+ " Narration  <br><br> The three of you stare at him. <br><br> _Dialog Code:  Chapter_E_0004500 " ,
+ " Esmeray Amused  <br><br> Okay, okay, I’m just kidding. I was a little late finishing my classwork. I’ll be early next time. <br><br> _Dialog Code:  Chapter_E_0004800 " ,
+ " Player  <br><br> I’ll hold you to that. <br><br> _Dialog Code:  Chapter_E_0005100 " ,
+ " Narration  <br><br> Esmeray laughs. <br><br> _Dialog Code:  Chapter_E_0005400 " ,
+ " Player  <br><br> Alright y’all, we got business to take care of. First, we gotta decide what our roles are. <br><br> _Dialog Code:  Chapter_E_0005700 " ,
+ " Skye  <br><br> Well, it’s obvious what you’re gonna be. Club president!  <br><br> _Dialog Code:  Chapter_E_0006000 " ,
+ " Narration  <br><br> You put your hands on your hips. <br><br> _Dialog Code:  Chapter_E_0006300 " ,
+ " Player  <br><br> Yup! I’ll be doing more of the behind-the-scenes stuff. As for the other roles…  <br><br> _Dialog Code:  Chapter_E_0006600 " ,
+ " Skye  <br><br> I’ve already decided. <br><br> _Dialog Code:  Chapter_E_0006900 " ,
+ " Player  <br><br> Wait, I haven\'t even said what the other roles are yet. <br><br> _Dialog Code:  Chapter_E_0007200 " ,
+ " Skye  <br><br> Well, you’re gonna need someone to write scripts, right? Then I’ll do it. <br><br> _Dialog Code:  Chapter_E_0007500 " ,
+ " Player  <br><br> Sounds good.  <br><br> _Dialog Code:  Chapter_E_0007800 " ,
+ " Skye  <br><br> I can also get the latest scoops on what’s going around at school. The janitor’s closet is quite handy for getting a hold of hot tea, you know. <br><br> _Dialog Code:  Chapter_E_0008100 " ,
+ " Player  <br><br> Can you handle doing both? <br><br> _Dialog Code:  Chapter_E_0008400 " ,
+ " Skye  <br><br> Hell yeah, brother. <br><br> _Dialog Code:  Chapter_E_0008700 " ,
+ " Narration  <br><br> You flash a smile. This is already going pretty smoothly. <br><br> _Dialog Code:  Chapter_E_0009000 " ,
+ " Player  <br><br> Now, Esmeray… <br><br> _Dialog Code:  Chapter_E_0009300 " ,
+ " Esmeray Neutral  <br><br> Hm? <br><br> _Dialog Code:  Chapter_E_0009600 " ,
+ " Player  <br><br> You’ll be in charge of making little jingles before and after we’re done announcing and stuff. Oh, and I’m thinking we could add music segments in our broadcasts too.  <br><br> _Dialog Code:  Chapter_E_0009900 " ,
+ " Esmeray  <br><br> You got it. <br><br> _Dialog Code:  Chapter_E_0010200 " ,
+ " Narration  <br><br> Esmeray takes out a small notebook. He starts writing and humming to himself. <br><br> _Dialog Code:  Chapter_E_0010500 " ,
+ " Player  <br><br> And finally, Atria, you’ll be the one on the speakers!  <br><br> _Dialog Code:  Chapter_E_0010800 " ,
+ " Atria Atria1_Nervous  <br><br> Um, are you sure? I’m not that loud and confident yet… <br><br> _Dialog Code:  Chapter_E_0011100 " ,
+ " Player  <br><br> You don’t have to be the only speaker of course. We can do it together. <br><br> _Dialog Code:  Chapter_E_0011400 " ,
+ " Narration  <br><br> Atria slowly regains her smile. <br><br> _Dialog Code:  Chapter_E_0011700 " ,
+ " Atria Atria1_Happy  <br><br> That’d be easier for me. Thank you. <br><br> _Dialog Code:  Chapter_E_0012000 " ,
+ " Player  <br><br> Alright, now we gotta think of our future plans for this club. <br><br> _Dialog Code:  Chapter_E_0012300 " ,
+ " Atria  <br><br> Actually, is it okay if I suggest something? <br><br> _Dialog Code:  Chapter_E_0012600 " ,
+ " Player  <br><br> Of course. <br><br> _Dialog Code:  Chapter_E_0012900 " ,
+ " Atria  <br><br> It’s Back to School Night next week. The staff wants clubs to help out with the concessions.  <br><br> _Dialog Code:  Chapter_E_0013200 " ,
+ " Player  <br><br> Then we should join! So, are we all free to help out with the concessions next week? <br><br> _Dialog Code:  Chapter_E_0013500 " ,
+ " Narration  <br><br> The other three club members say yes. <br><br> _Dialog Code:  Chapter_E_0013800 " ,
+ " Player  <br><br> Alright, we’re done then.  <br><br> _Dialog Code:  Chapter_E_0014100 " ,
+ " Narration  <br><br> Happiness feels like it\'s going to burst out of your chest. It really feels like an actual club now. No wait, it’s not just a club. It feels like you have a friend group for real too. You wonder if everyone\'s down for a group hug before they leave. <br><br> _Dialog Code:  Chapter_E_0014400 " ,
+ " Narration  <br><br> You open your arms wide. <br><br> _Dialog Code:  Chapter_E_0014600 " ,
+ " Player  <br><br> I know this is out of nowhere but… Who’s down for a group hug?! <br><br> _Dialog Code:  Chapter_E_0014900 " ,
+ " Atria Atria1_Nervous  <br><br> Huh? <br><br> _Dialog Code:  Chapter_E_0015200 " ,
+ " Skye Skye_smile2  <br><br> Heh, sure, why not. Come on, get over here, Atria. <br><br> _Dialog Code:  Chapter_E_0015500 " ,
+ " Esmeray Amused  <br><br> Wait, we’re actually doing this? Hold on a minute— <br><br> _Dialog Code:  Chapter_E_0015800 " ,
+ " Group hug CG   <br><br> Group hug CG  <br><br> _Dialog Code:  Chapter_E_0016000 " ,
+ " Player  <br><br> Hehe, thanks y’all. If only Kyo was here to join in the hug too. He’s the one who started the club, after all. <br><br> _Dialog Code:  Chapter_E_0016300 " ,
+ " Group hug CG ends.  <br><br> Group hug CG ends. <br><br> _Dialog Code:  Chapter_E_0016500 " ,
+ " Narration  <br><br> All of the club members back up and stare at you in confusion. <br><br> _Dialog Code:  Chapter_E_0016800 " ,
+ " Esmeray Neutral  <br><br> Who’s Kyo? <br><br> _Dialog Code:  Chapter_E_0017100 " ,
+ " Player  <br><br> Kyo. You know, the radio club president before I took over his role? Bright blue hair like cotton candy. Very munchable. It’s hard to miss.  <br><br> _Dialog Code:  Chapter_E_0017400 " ,
+ " Atria Atria1_Timid  <br><br> I’ve never heard of him. <br><br> _Dialog Code:  Chapter_E_0017700 " ,
+ " Player  <br><br> But you all met him before! You all talked to him and everything. Are you all messing with me? <br><br> _Dialog Code:  Chapter_E_0018000 " ,
+ " Skye Skye_smile  <br><br> Oh, I get it. He’s the friend you were talking to before.  <br><br> _Dialog Code:  Chapter_E_0018300 " ,
+ " Player  <br><br> Yeah!  <br><br> _Dialog Code:  Chapter_E_0018600 " ,
+ " Skye Skye_default  <br><br> Like the ones I used to talk to inside the locker, right? <br><br> _Dialog Code:  Chapter_E_0018900 " ,
+ " Player  <br><br> Yeah, yeah! Wait, no! What the hell, do you guys genuinely not know?  <br><br> _Dialog Code:  Chapter_E_0019200 " ,
+ " Narration  <br><br> You don’t get much of a response. <br><br> _Dialog Code:  Chapter_E_0019500 " ,
+ " Player  <br><br> Never mind, forget it. I’m imagining things, hehe. <br><br> _Dialog Code:  Chapter_E_0019800 " ,
+ " Narration  <br><br> The lunch bell rings, and all of you part ways as you wave to each other. Your smile then fades. What do they mean, they don’t know who Kyo is? You walk to your next class with a resting bitch face to mask your casual existential crisis.  <br><br> _Dialog Code:  Chapter_E_0020100 " ,
+ " Scene ends  <br><br> Scene ends <br><br> _Dialog Code:  Chapter_E_0020300 " ,
+ " School Hallway Night  <br><br> School Hallway Night <br><br> _Dialog Code:  Chapter_E_0020500 " ,
+ " Narration  <br><br> It\'s Back To School Night. You go back and forth from your mom\'s car to carry water bottles to the venue. It takes just a few trips but the weight tires out your arms. Thank god that you\'re not in any of the sports clubs. <br><br> _Dialog Code:  Chapter_E_0020800 " ,
+ " Narration  <br><br> As you rest on a nearby bench, you see something colorful faintly glowing bright on the ground. It looks like a poorly drawn hand doing a peace sign. The pain is real. Hands are the bane of every artist’s existence.  <br><br> _Dialog Code:  Chapter_E_0021000 " ,
+ " Narration  <br><br> …Wait, this looks like the work of Kyo! <br><br> _Dialog Code:  Chapter_E_0021200 " ,
+ " Narration  <br><br> As quickly as you notice the symbol, it disappears. <br><br> _Dialog Code:  Chapter_E_0021400 " ,
+ " Narration  <br><br> That is the only sign you\'ve seen of him in school all week. What the hell is he up to?  <br><br> _Dialog Code:  Chapter_E_0021600 " ,
+ " Narration  <br><br> Looking up ahead, you see more graffiti symbols in the distance, scattered far apart in a way that beckons you to follow them. When you try to get near the symbols, they disappear as well. Oh boy, do you have some questions to ask him when you see him. <br><br> _Dialog Code:  Chapter_E_0021800 " ,
+ " School Rooftop Night  <br><br> School Rooftop Night <br><br> _Dialog Code:  Chapter_E_0022000 " ,
+ " Narration  <br><br> You follow the path until you arrive at the school\'s rooftop.  <br><br> _Dialog Code:  Chapter_E_0022300 " ,
+ " Narration  <br><br> There he is, spray painting symbols on the ground all around him in a circle. They vanish into thin air. <br><br> _Dialog Code:  Chapter_E_0022500 " ,
+ " Narration  <br><br> You call out to him.   <br><br> _Dialog Code:  Chapter_E_0022700 " ,
+ " Player  <br><br> Kyo? <br><br> _Dialog Code:  Chapter_E_0023000 " ,
+ " Kyo_FP_Shocked  <br><br> Kyo_FP_Shocked <br><br> _Dialog Code:  Chapter_E_0023200 " ,
+ " Narration  <br><br> Kyo turns around.  <br><br> _Dialog Code:  Chapter_E_0023500 " ,
+ " Kyo  <br><br> Oh shit, hi Player! <br><br> _Dialog Code:  Chapter_E_0023800 " ,
+ " Player  <br><br> Where have you been? I haven\'t seen you in school all week. <br><br> _Dialog Code:  Chapter_E_0024100 " ,
+ " Kyo Kyo_FP_Default  <br><br> Um, about that... <br><br> _Dialog Code:  Chapter_E_0024400 " ,
+ " Narration  <br><br> He shakes his spray paint can but doesn\'t use it. He looks back and forth between his spray can, the moon above, and you as if he\'s contemplating his next move. He sighs. <br><br> _Dialog Code:  Chapter_E_0024700 " ,
+ " Kyo  <br><br> You weren\'t supposed to come here.  <br><br> _Dialog Code:  Chapter_E_0025000 " ,
+ " Player  <br><br> But you left a paint trail. <br><br> _Dialog Code:  Chapter_E_0025300 " ,
+ " Kyo  <br><br> That wasn\'t really a trail. I didn\'t think you\'d... Damn it, I was supposed to leave before you saw me. <br><br> _Dialog Code:  Chapter_E_0025600 " ,
+ " Player  <br><br> Wait, you\'re leaving? What\'s going on? <br><br> _Dialog Code:  Chapter_E_0025900 " ,
+ " Kyo  <br><br> You know what, fuck it. I\'m not going yet. \'Cause I don\'t even know where to begin explaining everything. <br><br> _Dialog Code:  Chapter_E_0026200 " ,
+ " Narration  <br><br> He\'s right. You have too many questions.  <br><br> _Dialog Code:  Chapter_E_0026500 " ,
+ " Narration  <br><br> You remember the confused faces of the club members from last week. <br><br> _Dialog Code:  Chapter_E_0026700 " ,
+ " Player  <br><br> Kyo, you\'re... real, right? <br><br> _Dialog Code:  Chapter_E_0027000 " ,
+ " Narration  <br><br> Kyo busts out a quick laugh. <br><br> _Dialog Code:  Chapter_E_0027300 " ,
+ " Kyo  <br><br> Nah you\'re just imagining me in your head. Wake up. It\'s been years since the accident— <br><br> _Dialog Code:  Chapter_E_0027600 " ,
+ " Player  <br><br> Kyo, I\'m serious. None of the club members see or hear you except me. They don\'t even know who you are. Why? Are you a ghost? Who and what even are you? <br><br> _Dialog Code:  Chapter_E_0027900 " ,
+ " Narration  <br><br> Kyo lets out a deep sigh. <br><br> _Dialog Code:  Chapter_E_0028200 " ,
+ " Kyo  <br><br> I don\'t actually go here. I used to, but it was a long time ago. <br><br> _Dialog Code:  Chapter_E_0028500 " ,
+ " Player  <br><br> Why are you here then? <br><br> _Dialog Code:  Chapter_E_0028800 " ,
+ " Kyo CG  <br><br> Kyo CG <br><br> _Dialog Code:  Chapter_E_0029000 " ,
+ " Kyo  <br><br> To help you make friends. <br><br> _Dialog Code:  Chapter_E_0029300 " ,
+ " Narration  <br><br> Your eyes widen. <br><br> _Dialog Code:  Chapter_E_0029600 " ,
+ " Player  <br><br> How\'d you know I wanted to...? <br><br> _Dialog Code:  Chapter_E_0029900 " ,
+ " Kyo  <br><br> You\'re the reason I opened up the radio club in the first place.  <br><br> _Dialog Code:  Chapter_E_0030200 " ,
+ " Player  <br><br> Huh?! Wait, then you were the only club member on purpose? <br><br> _Dialog Code:  Chapter_E_0030500 " ,
+ " Kyo  <br><br> Haha, yup. <br><br> _Dialog Code:  Chapter_E_0030800 " ,
+ " Player  <br><br> I\'m still not over you forcing me to do free labor though. <br><br> _Dialog Code:  Chapter_E_0031100 " ,
+ " Kyo  <br><br> It\'s better if you initiate these friendships on your own. I\'m just here to make sure you stay on track. You\'re the lonely one here, not me. <br><br> _Dialog Code:  Chapter_E_0031400 " ,
+ " Narration  <br><br> You roll your eyes.  <br><br> _Dialog Code:  Chapter_E_0031700 " ,
+ " Kyo  <br><br> You\'re not even gonna thank me?!  <br><br> _Dialog Code:  Chapter_E_0032000 " ,
+ " Player  <br><br> I still have more questions for you, funny man. <br><br> _Dialog Code:  Chapter_E_0032300 " ,
+ " Kyo  <br><br> Okay, shoot. <br><br> _Dialog Code:  Chapter_E_0032600 " ,
+ " Player  <br><br> If you\'ve been a student here, why does no one remember you at all? <br><br> _Dialog Code:  Chapter_E_0032900 " ,
+ " Kyo  <br><br> That\'s because I don\'t exist in your reality anymore. I live in another universe. <br><br> _Dialog Code:  Chapter_E_0033200 " ,
+ " Player  <br><br> You\'re an alien?! <br><br> _Dialog Code:  Chapter_E_0033500 " ,
+ " Kyo  <br><br> Okay no, but I know someone else who is. Anyways, I was isekai\'d a while ago. But just recently, I\'ve been blessed by the moon, so now I\'m able to travel between your reality and mine. <br><br> _Dialog Code:  Chapter_E_0033800 " ,
+ " Kyo  <br><br> The problem is, I\'m still learning how to use this power. So it\'s not perfect. It\'s kinda weird actually. Right now, I\'m like in a world between yours and mine. I can\'t really see you, only the outline of you.  <br><br> _Dialog Code:  Chapter_E_0034000 " ,
+ " Narration  <br><br> Kyo pauses for a bit as if he\'s thinking. <br><br> _Dialog Code:  Chapter_E_0034300 " ,
+ " Kyo  <br><br> Give me a high-five. <br><br> _Dialog Code:  Chapter_E_0034600 " ,
+ " Player  <br><br> For what? <br><br> _Dialog Code:  Chapter_E_0034900 " ,
+ " Kyo  <br><br> For being able to keep up with me. You know, since I speak so fast. <br><br> _Dialog Code:  Chapter_E_0035200 " ,
+ " Player  <br><br> O...kay. <br><br> _Dialog Code:  Chapter_E_0035500 " ,
+ " Narration  <br><br> When you go high-five Kyo, your hand goes through his like air. You don\'t feel him at all. <br><br> _Dialog Code:  Chapter_E_0035800 " ,
+ " Narration  <br><br> You stand there in silence, flabbergasted. A realization hits you. <br><br> _Dialog Code:  Chapter_E_0036000 " ,
+ " Player  <br><br> So you\'re the one haunting this school! <br><br> _Dialog Code:  Chapter_E_0036300 " ,
+ " Kyo  <br><br> Wait, what? <br><br> _Dialog Code:  Chapter_E_0036600 " ,
+ " Player  <br><br> Dude, did you not know? The paranormal activity club has been obsessed with you for a long time now. They\'ve been trying to contact you and everything.  <br><br> _Dialog Code:  Chapter_E_0036900 " ,
+ " Kyo  <br><br> They can\'t see me, right? <br><br> _Dialog Code:  Chapter_E_0037200 " ,
+ " Player  <br><br> That\'s not what I mean. But there\'s been ghost-like activity happening around school. I think you have something to do with it. <br><br> _Dialog Code:  Chapter_E_0037500 " ,
+ " Kyo  <br><br> Shit, my bad. Didn\'t mean to. <br><br> _Dialog Code:  Chapter_E_0037800 " ,
+ " Player  <br><br> If only they knew I was talking to a ghost the entire time. Wait, I don\'t think anybody heard you speak either. Not even the club members. Except me. What the hell? <br><br> _Dialog Code:  Chapter_E_0038100 " ,
+ " Kyo  <br><br> You\'re the one I was assigned to help. <br><br> _Dialog Code:  Chapter_E_0038400 " ,
+ " Player  <br><br> Assigned? <br><br> _Dialog Code:  Chapter_E_0038700 " ,
+ " Kyo  <br><br> By the moon. Who also gave me my powers. I think that’s why you’re also the only person who can see and hear me. Consider yourself lucky.  <br><br> _Dialog Code:  Chapter_E_0039000 " ,
+ " Player  <br><br> I was chosen? Wow... <br><br> _Dialog Code:  Chapter_E_0039300 " ,
+ " Kyo  <br><br> But I\'m running out of time. Now, I won\'t exist in this reality again. For real this time. <br><br> _Dialog Code:  Chapter_E_0039600 " ,
+ " Narration  <br><br> The school bell rings. School Bell SFX <br><br> _Dialog Code:  Chapter_E_0039900 " ,
+ " Kyo  <br><br> Go. Your friends are waiting for you. <br><br> _Dialog Code:  Chapter_E_0040200 " ,
+ " Narration  <br><br> Kyo sets up his exit. <br><br> _Dialog Code:  Chapter_E_0040500 " ,
+ " Player  <br><br> Wait! Before you go... <br><br> _Dialog Code:  Chapter_E_0040800 " ,
+ " Player  <br><br> Thank you. For everything. <br><br> _Dialog Code:  Chapter_E_0041000 " ,
+ " Narration  <br><br> Kyo looks back one last time and smiles. <br><br> _Dialog Code:  Chapter_E_0041300 " ,
+ " Fade out Kyo, use the Kyo_BG in his special scene folder  <br><br> Fade out Kyo, use the Kyo_BG in his special scene folder <br><br> _Dialog Code:  Chapter_E_0041500 " ,
+ " Game end  <br><br> Game end <br><br> _Dialog Code:  Chapter_E_0041700 " ,
+ " Go to credits  <br><br> Go to credits <br><br> _Dialog Code:  Chapter_E_0041900 " ,

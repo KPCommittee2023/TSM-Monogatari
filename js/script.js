@@ -48,10 +48,11 @@ monogatari.assets("videos", {});
 // Define the images used in the game.
 monogatari.assets("images", {});
 
-// Define the images used in the game.
-monogatari.assets("special_scenes", {
-  
-  
+monogatari.component ('main-screen').template (() => {
+  return `
+      <h1>My Awesome Game</h1>
+      <main-menu></main-menu>
+  `;
 });
 
 // Define the backgrounds for each scene.

@@ -50,6 +50,7 @@ if __name__ == "__main__":
 
     print("\nreading new TXT files...\n")
 
+# dont cmt out the following part. appending to txt
     for root, dirs, files in os.walk(new_txt_file_directory_path):
         level = root.replace(start_path, "").count(os.sep)
         indent = " " * 4 * level
@@ -63,3 +64,7 @@ if __name__ == "__main__":
 
     print("\n\n\n==================\n\n\n")
 
+
+    scriptJS_file_write = open(
+        "js/script.js", "w"
+    )

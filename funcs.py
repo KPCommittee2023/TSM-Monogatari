@@ -127,10 +127,10 @@ def read_txt_write_to_csv0(chapterIndex, CHAPTER, chapter_fileName):
                 )
             starting_DialogCode_n += 1
 
-def read_csv_return_txt_format(filename, dir_path):
+def read_csv_return_txt_format(csv_filename, dir_path):
     # parsing csv to json for script.js to read. Oct 7
 
-    csv_file_basename = os.path.basename(filename)
+    csv_file_basename = os.path.basename(csv_filename)
     file_basename = csv_file_basename.replace("csv", "txt")
     
     # create the csv dir if it doesn't already exist
@@ -142,7 +142,7 @@ def read_csv_return_txt_format(filename, dir_path):
     )
 
     with open(
-        filename,
+        csv_filename,
         "r",
     ) as file:
         csvFile = csv.reader(file)

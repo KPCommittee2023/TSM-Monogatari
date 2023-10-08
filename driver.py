@@ -260,3 +260,4 @@ if __name__ == "__main__":
     )
     script_js_write.writelines(new_script_js_lines)   
 
+    print('=======  injection completed  =======')

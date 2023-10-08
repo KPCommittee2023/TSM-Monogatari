@@ -69,27 +69,71 @@ if __name__ == "__main__":
     with open(
         "js/script.js",
         "r",
-    ) as script_js_read, open(
+    ) as script_js_read:
+        script_js_lines = script_js_read.readlines()
+
+    total_n_lines = len(script_js_lines)
+    line_index = 0
+    while script_js_lines[line_index]:
+        print(script_js_lines[line_index])
+
+        if not script_js_lines[line_index]:
+            break
+
+        if line_index == total_n_lines-1:
+            break
+
+        elif 'start-of-CHAPTER-0-mark' in script_js_lines[line_index] :
+            if 'end-of-CHAPTER-0-mark' in script_js_lines[line_index+1] :
+                print('end-of-CHAPTER-0-mark')
+                line_index += 1
+            else:
+                script_js_lines.pop(line_index+1)
+                total_n_lines -= 1
+
+        elif 'start-of-CHAPTER-1-mark' in script_js_lines[line_index] :
+            if 'end-of-CHAPTER-1-mark' in script_js_lines[line_index+1] :
+                print('end-of-CHAPTER-1-mark')
+                line_index += 1
+            else:
+                script_js_lines.pop(line_index+1)
+                total_n_lines -= 1
+
+        elif 'start-of-CHAPTER-2-mark' in script_js_lines[line_index] :
+            if 'end-of-CHAPTER-2-mark' in script_js_lines[line_index+1] :
+                print('end-of-CHAPTER-2-mark')
+                line_index += 1
+            else:
+                script_js_lines.pop(line_index+1)
+                total_n_lines -= 1
+
+        elif 'start-of-CHAPTER-3-mark' in script_js_lines[line_index] :
+            if  'end-of-CHAPTER-3-mark' in script_js_lines[line_index+1] :
+                print('end-of-CHAPTER-3-mark')
+                line_index += 1
+            else:
+                script_js_lines.pop(line_index+1)
+                total_n_lines -= 1
+
+        elif 'start-of-CHAPTER-E-mark' in script_js_lines[line_index] :
+            if  'end-of-CHAPTER-E-mark' in script_js_lines[line_index+1] :
+                print('end-of-CHAPTER-E-mark')
+                line_index += 1
+            else:
+                script_js_lines.pop(line_index+1)
+                total_n_lines -= 1
+
+        else:
+            pass
+        
+        line_index += 1
+
+
+
+
+    script_js_write = open(
         "js/script.js",
         "w",
-    ) as script_js_write:
-        for script_js_single_line in script_js_read:
-            print(script_js_single_line)
-            if 'end-of-CHAPTER-0-mark' in script_js_single_line :
-                print('end-of-CHAPTER-0-mark')
-            
-            elif 'end-of-CHAPTER-1-mark' in script_js_single_line :
-                print('end-of-CHAPTER-1-mark')
-            
-            elif 'end-of-CHAPTER-2-mark' in script_js_single_line :
-                print('end-of-CHAPTER-2-mark')
-            
-            
-            elif 'end-of-CHAPTER-3-mark' in script_js_single_line :
-                print('end-of-CHAPTER-3-mark')
-            
-            elif 'end-of-CHAPTER-E-mark' in script_js_single_line :
-                print('end-of-CHAPTER-E-mark')
-            
-            else:
-                pass
+    )
+    script_js_write.writelines(script_js_lines)   
+

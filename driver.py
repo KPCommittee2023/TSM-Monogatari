@@ -190,7 +190,6 @@ if __name__ == "__main__":
             if 'end-of-CHAPTER-0-mark' in new_script_js_lines[line_index+1] :
                 print('end-of-CHAPTER-0-mark ... INJECTING')
                 for single_line in chap_0_lines:
-                    print(single_line)
                     new_script_js_lines.insert(line_index+1, single_line)
                     total_n_lines += 1
                     line_index += 1

@@ -158,9 +158,7 @@ def read_csv_return_txt_format(csv_filename, dir_path):
                     .replace(":", "")
                     .replace("\n", " ")
                 )
-                txt_file_write.write(" ")
-                txt_file_write.write(row[0])    # del this line in actual release
-                txt_file_write.write(" ")
+                txt_file_write.write(" <br><br> ")
                 txt_file_write.write(
                     row[4]
                     .replace("[", "")
@@ -168,5 +166,7 @@ def read_csv_return_txt_format(csv_filename, dir_path):
                     .replace("'", "\\'")
                     .replace("\n", " ")[:-1]
                 )
+                txt_file_write.write(" <br><br> _Dialog Code:  ")
+                txt_file_write.write(row[0])    # del this line in actual release
                 txt_file_write.write(' " ')
-                txt_file_write.writelines(",\n\n")
+                txt_file_write.writelines(",\n")

@@ -1,304 +1,304 @@
  " _Name _DialogCode _Tex " ,
 
- "  Chapter_E-0000100 Epilogue: Waning Iridescent  " ,
+ "  Chapter_E_0000100 Epilogue: Waning Iridescent  " ,
 
- " Music Room Basic All  Chapter_E-0000300 Music Room Basic All " ,
+ " Music Room Basic All  Chapter_E_0000300 Music Room Basic All " ,
 
- " Outro BGM  Chapter_E-0000400 Outro BGM " ,
+ " Outro BGM  Chapter_E_0000400 Outro BGM " ,
 
- " Narration  Chapter_E-0000700 After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It\'s the first official radio club meeting today, and you’re excited!  " ,
+ " Narration  Chapter_E_0000700 After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It\'s the first official radio club meeting today, and you’re excited!  " ,
 
- " Narration  Chapter_E-0000900 You look at the notes you wrote on your phone to remember what you’re discussing with all the club members. It’s simple enough: assign roles to the club members and finalize the plan for future activities. " ,
+ " Narration  Chapter_E_0000900 You look at the notes you wrote on your phone to remember what you’re discussing with all the club members. It’s simple enough: assign roles to the club members and finalize the plan for future activities. " ,
 
- " Narration  Chapter_E-0001100 Now you just need to wait for them to show up. They didn’t forget about you telling them earlier in the day to meet you at lunch, right? You hope not. " ,
+ " Narration  Chapter_E_0001100 Now you just need to wait for them to show up. They didn’t forget about you telling them earlier in the day to meet you at lunch, right? You hope not. " ,
 
- " Narration  Chapter_E-0001300 Speaking of showing up, will Kyo even be here? You weren’t even able to tell him all the good news, because you haven’t seen him all day. Well, it’s on him for choosing to miss this momentous occasion. " ,
+ " Narration  Chapter_E_0001300 Speaking of showing up, will Kyo even be here? You weren’t even able to tell him all the good news, because you haven’t seen him all day. Well, it’s on him for choosing to miss this momentous occasion. " ,
 
- " Narration  Chapter_E-0001500 The door opens. " ,
+ " Narration  Chapter_E_0001500 The door opens. " ,
 
- " Atria1_happy, left  Chapter_E-0001700 Atria1_happy, left " ,
+ " Atria1_happy, left  Chapter_E_0001700 Atria1_happy, left " ,
 
- " Atria  Chapter_E-0002000 I’m here. " ,
+ " Atria  Chapter_E_0002000 I’m here. " ,
 
- " Skye_smile, center  Chapter_E-0002200 Skye_smile, center " ,
+ " Skye_smile, center  Chapter_E_0002200 Skye_smile, center " ,
 
- " Skye  Chapter_E-0002500 And so am I! " ,
+ " Skye  Chapter_E_0002500 And so am I! " ,
 
- " Player  Chapter_E-0002800 Now, where the heck is Esme— " ,
+ " Player  Chapter_E_0002800 Now, where the heck is Esme— " ,
 
- " Esmeray_neutral, right  Chapter_E-0003000 Esmeray_neutral, right " ,
+ " Esmeray_neutral, right  Chapter_E_0003000 Esmeray_neutral, right " ,
 
- " Esmeray  Chapter_E-0003300 My bad. Had to shake off my fans, but I’m good now.  " ,
+ " Esmeray  Chapter_E_0003300 My bad. Had to shake off my fans, but I’m good now.  " ,
 
- " Skye  Chapter_E-0003600 Pssh, okay, Mr. Famous. " ,
+ " Skye  Chapter_E_0003600 Pssh, okay, Mr. Famous. " ,
 
- " Player  Chapter_E-0003900 You sure they’re not gonna follow you? " ,
+ " Player  Chapter_E_0003900 You sure they’re not gonna follow you? " ,
 
- " Esmeray  Chapter_E-0004200 I mean, more club members, am I right? " ,
+ " Esmeray  Chapter_E_0004200 I mean, more club members, am I right? " ,
 
- " Narration  Chapter_E-0004500 The three of you stare at him. " ,
+ " Narration  Chapter_E_0004500 The three of you stare at him. " ,
 
- " Esmeray Amused  Chapter_E-0004800 Okay, okay, I’m just kidding. I was a little late finishing my classwork. I’ll be early next time. " ,
+ " Esmeray Amused  Chapter_E_0004800 Okay, okay, I’m just kidding. I was a little late finishing my classwork. I’ll be early next time. " ,
 
- " Player  Chapter_E-0005100 I’ll hold you to that. " ,
+ " Player  Chapter_E_0005100 I’ll hold you to that. " ,
 
- " Narration  Chapter_E-0005400 Esmeray laughs. " ,
+ " Narration  Chapter_E_0005400 Esmeray laughs. " ,
 
- " Player  Chapter_E-0005700 Alright y’all, we got business to take care of. First, we gotta decide what our roles are. " ,
+ " Player  Chapter_E_0005700 Alright y’all, we got business to take care of. First, we gotta decide what our roles are. " ,
 
- " Skye  Chapter_E-0006000 Well, it’s obvious what you’re gonna be. Club president!  " ,
+ " Skye  Chapter_E_0006000 Well, it’s obvious what you’re gonna be. Club president!  " ,
 
- " Narration  Chapter_E-0006300 You put your hands on your hips. " ,
+ " Narration  Chapter_E_0006300 You put your hands on your hips. " ,
 
- " Player  Chapter_E-0006600 Yup! I’ll be doing more of the behind-the-scenes stuff. As for the other roles…  " ,
+ " Player  Chapter_E_0006600 Yup! I’ll be doing more of the behind-the-scenes stuff. As for the other roles…  " ,
 
- " Skye  Chapter_E-0006900 I’ve already decided. " ,
+ " Skye  Chapter_E_0006900 I’ve already decided. " ,
 
- " Player  Chapter_E-0007200 Wait, I haven\'t even said what the other roles are yet. " ,
+ " Player  Chapter_E_0007200 Wait, I haven\'t even said what the other roles are yet. " ,
 
- " Skye  Chapter_E-0007500 Well, you’re gonna need someone to write scripts, right? Then I’ll do it. " ,
+ " Skye  Chapter_E_0007500 Well, you’re gonna need someone to write scripts, right? Then I’ll do it. " ,
 
- " Player  Chapter_E-0007800 Sounds good.  " ,
+ " Player  Chapter_E_0007800 Sounds good.  " ,
 
- " Skye  Chapter_E-0008100 I can also get the latest scoops on what’s going around at school. The janitor’s closet is quite handy for getting a hold of hot tea, you know. " ,
+ " Skye  Chapter_E_0008100 I can also get the latest scoops on what’s going around at school. The janitor’s closet is quite handy for getting a hold of hot tea, you know. " ,
 
- " Player  Chapter_E-0008400 Can you handle doing both? " ,
+ " Player  Chapter_E_0008400 Can you handle doing both? " ,
 
- " Skye  Chapter_E-0008700 Hell yeah, brother. " ,
+ " Skye  Chapter_E_0008700 Hell yeah, brother. " ,
 
- " Narration  Chapter_E-0009000 You flash a smile. This is already going pretty smoothly. " ,
+ " Narration  Chapter_E_0009000 You flash a smile. This is already going pretty smoothly. " ,
 
- " Player  Chapter_E-0009300 Now, Esmeray… " ,
+ " Player  Chapter_E_0009300 Now, Esmeray… " ,
 
- " Esmeray Neutral  Chapter_E-0009600 Hm? " ,
+ " Esmeray Neutral  Chapter_E_0009600 Hm? " ,
 
- " Player  Chapter_E-0009900 You’ll be in charge of making little jingles before and after we’re done announcing and stuff. Oh, and I’m thinking we could add music segments in our broadcasts too.  " ,
+ " Player  Chapter_E_0009900 You’ll be in charge of making little jingles before and after we’re done announcing and stuff. Oh, and I’m thinking we could add music segments in our broadcasts too.  " ,
 
- " Esmeray  Chapter_E-0010200 You got it. " ,
+ " Esmeray  Chapter_E_0010200 You got it. " ,
 
- " Narration  Chapter_E-0010500 Esmeray takes out a small notebook. He starts writing and humming to himself. " ,
+ " Narration  Chapter_E_0010500 Esmeray takes out a small notebook. He starts writing and humming to himself. " ,
 
- " Player  Chapter_E-0010800 And finally, Atria, you’ll be the one on the speakers!  " ,
+ " Player  Chapter_E_0010800 And finally, Atria, you’ll be the one on the speakers!  " ,
 
- " Atria Atria1_Nervous  Chapter_E-0011100 Um, are you sure? I’m not that loud and confident yet… " ,
+ " Atria Atria1_Nervous  Chapter_E_0011100 Um, are you sure? I’m not that loud and confident yet… " ,
 
- " Player  Chapter_E-0011400 You don’t have to be the only speaker of course. We can do it together. " ,
+ " Player  Chapter_E_0011400 You don’t have to be the only speaker of course. We can do it together. " ,
 
- " Narration  Chapter_E-0011700 Atria slowly regains her smile. " ,
+ " Narration  Chapter_E_0011700 Atria slowly regains her smile. " ,
 
- " Atria Atria1_Happy  Chapter_E-0012000 That’d be easier for me. Thank you. " ,
+ " Atria Atria1_Happy  Chapter_E_0012000 That’d be easier for me. Thank you. " ,
 
- " Player  Chapter_E-0012300 Alright, now we gotta think of our future plans for this club. " ,
+ " Player  Chapter_E_0012300 Alright, now we gotta think of our future plans for this club. " ,
 
- " Atria  Chapter_E-0012600 Actually, is it okay if I suggest something? " ,
+ " Atria  Chapter_E_0012600 Actually, is it okay if I suggest something? " ,
 
- " Player  Chapter_E-0012900 Of course. " ,
+ " Player  Chapter_E_0012900 Of course. " ,
 
- " Atria  Chapter_E-0013200 It’s Back to School Night next week. The staff wants clubs to help out with the concessions.  " ,
+ " Atria  Chapter_E_0013200 It’s Back to School Night next week. The staff wants clubs to help out with the concessions.  " ,
 
- " Player  Chapter_E-0013500 Then we should join! So, are we all free to help out with the concessions next week? " ,
+ " Player  Chapter_E_0013500 Then we should join! So, are we all free to help out with the concessions next week? " ,
 
- " Narration  Chapter_E-0013800 The other three club members say yes. " ,
+ " Narration  Chapter_E_0013800 The other three club members say yes. " ,
 
- " Player  Chapter_E-0014100 Alright, we’re done then.  " ,
+ " Player  Chapter_E_0014100 Alright, we’re done then.  " ,
 
- " Narration  Chapter_E-0014400 Happiness feels like it\'s going to burst out of your chest. It really feels like an actual club now. No wait, it’s not just a club. It feels like you have a friend group for real too. You wonder if everyone\'s down for a group hug before they leave. " ,
+ " Narration  Chapter_E_0014400 Happiness feels like it\'s going to burst out of your chest. It really feels like an actual club now. No wait, it’s not just a club. It feels like you have a friend group for real too. You wonder if everyone\'s down for a group hug before they leave. " ,
 
- " Narration  Chapter_E-0014600 You open your arms wide. " ,
+ " Narration  Chapter_E_0014600 You open your arms wide. " ,
 
- " Player  Chapter_E-0014900 I know this is out of nowhere but… Who’s down for a group hug?! " ,
+ " Player  Chapter_E_0014900 I know this is out of nowhere but… Who’s down for a group hug?! " ,
 
- " Atria Atria1_Nervous  Chapter_E-0015200 Huh? " ,
+ " Atria Atria1_Nervous  Chapter_E_0015200 Huh? " ,
 
- " Skye Skye_smile2  Chapter_E-0015500 Heh, sure, why not. Come on, get over here, Atria. " ,
+ " Skye Skye_smile2  Chapter_E_0015500 Heh, sure, why not. Come on, get over here, Atria. " ,
 
- " Esmeray Amused  Chapter_E-0015800 Wait, we’re actually doing this? Hold on a minute— " ,
+ " Esmeray Amused  Chapter_E_0015800 Wait, we’re actually doing this? Hold on a minute— " ,
 
- " Group hug CG   Chapter_E-0016000 Group hug CG  " ,
+ " Group hug CG   Chapter_E_0016000 Group hug CG  " ,
 
- " Player  Chapter_E-0016300 Hehe, thanks y’all. If only Kyo was here to join in the hug too. He’s the one who started the club, after all. " ,
+ " Player  Chapter_E_0016300 Hehe, thanks y’all. If only Kyo was here to join in the hug too. He’s the one who started the club, after all. " ,
 
- " Group hug CG ends.  Chapter_E-0016500 Group hug CG ends. " ,
+ " Group hug CG ends.  Chapter_E_0016500 Group hug CG ends. " ,
 
- " Narration  Chapter_E-0016800 All of the club members back up and stare at you in confusion. " ,
+ " Narration  Chapter_E_0016800 All of the club members back up and stare at you in confusion. " ,
 
- " Esmeray Neutral  Chapter_E-0017100 Who’s Kyo? " ,
+ " Esmeray Neutral  Chapter_E_0017100 Who’s Kyo? " ,
 
- " Player  Chapter_E-0017400 Kyo. You know, the radio club president before I took over his role? Bright blue hair like cotton candy. Very munchable. It’s hard to miss.  " ,
+ " Player  Chapter_E_0017400 Kyo. You know, the radio club president before I took over his role? Bright blue hair like cotton candy. Very munchable. It’s hard to miss.  " ,
 
- " Atria Atria1_Timid  Chapter_E-0017700 I’ve never heard of him. " ,
+ " Atria Atria1_Timid  Chapter_E_0017700 I’ve never heard of him. " ,
 
- " Player  Chapter_E-0018000 But you all met him before! You all talked to him and everything. Are you all messing with me? " ,
+ " Player  Chapter_E_0018000 But you all met him before! You all talked to him and everything. Are you all messing with me? " ,
 
- " Skye Skye_smile  Chapter_E-0018300 Oh, I get it. He’s the friend you were talking to before.  " ,
+ " Skye Skye_smile  Chapter_E_0018300 Oh, I get it. He’s the friend you were talking to before.  " ,
 
- " Player  Chapter_E-0018600 Yeah!  " ,
+ " Player  Chapter_E_0018600 Yeah!  " ,
 
- " Skye Skye_default  Chapter_E-0018900 Like the ones I used to talk to inside the locker, right? " ,
+ " Skye Skye_default  Chapter_E_0018900 Like the ones I used to talk to inside the locker, right? " ,
 
- " Player  Chapter_E-0019200 Yeah, yeah! Wait, no! What the hell, do you guys genuinely not know?  " ,
+ " Player  Chapter_E_0019200 Yeah, yeah! Wait, no! What the hell, do you guys genuinely not know?  " ,
 
- " Narration  Chapter_E-0019500 You don’t get much of a response. " ,
+ " Narration  Chapter_E_0019500 You don’t get much of a response. " ,
 
- " Player  Chapter_E-0019800 Never mind, forget it. I’m imagining things, hehe. " ,
+ " Player  Chapter_E_0019800 Never mind, forget it. I’m imagining things, hehe. " ,
 
- " Narration  Chapter_E-0020100 The lunch bell rings, and all of you part ways as you wave to each other. Your smile then fades. What do they mean, they don’t know who Kyo is? You walk to your next class with a resting bitch face to mask your casual existential crisis.  " ,
+ " Narration  Chapter_E_0020100 The lunch bell rings, and all of you part ways as you wave to each other. Your smile then fades. What do they mean, they don’t know who Kyo is? You walk to your next class with a resting bitch face to mask your casual existential crisis.  " ,
 
- " Scene ends  Chapter_E-0020300 Scene ends " ,
+ " Scene ends  Chapter_E_0020300 Scene ends " ,
 
- " School Hallway Night  Chapter_E-0020500 School Hallway Night " ,
+ " School Hallway Night  Chapter_E_0020500 School Hallway Night " ,
 
- " Narration  Chapter_E-0020800 It\'s Back To School Night. You go back and forth from your mom\'s car to carry water bottles to the venue. It takes just a few trips but the weight tires out your arms. Thank god that you\'re not in any of the sports clubs. " ,
+ " Narration  Chapter_E_0020800 It\'s Back To School Night. You go back and forth from your mom\'s car to carry water bottles to the venue. It takes just a few trips but the weight tires out your arms. Thank god that you\'re not in any of the sports clubs. " ,
 
- " Narration  Chapter_E-0021000 As you rest on a nearby bench, you see something colorful faintly glowing bright on the ground. It looks like a poorly drawn hand doing a peace sign. The pain is real. Hands are the bane of every artist’s existence.  " ,
+ " Narration  Chapter_E_0021000 As you rest on a nearby bench, you see something colorful faintly glowing bright on the ground. It looks like a poorly drawn hand doing a peace sign. The pain is real. Hands are the bane of every artist’s existence.  " ,
 
- " Narration  Chapter_E-0021200 …Wait, this looks like the work of Kyo! " ,
+ " Narration  Chapter_E_0021200 …Wait, this looks like the work of Kyo! " ,
 
- " Narration  Chapter_E-0021400 As quickly as you notice the symbol, it disappears. " ,
+ " Narration  Chapter_E_0021400 As quickly as you notice the symbol, it disappears. " ,
 
- " Narration  Chapter_E-0021600 That is the only sign you\'ve seen of him in school all week. What the hell is he up to?  " ,
+ " Narration  Chapter_E_0021600 That is the only sign you\'ve seen of him in school all week. What the hell is he up to?  " ,
 
- " Narration  Chapter_E-0021800 Looking up ahead, you see more graffiti symbols in the distance, scattered far apart in a way that beckons you to follow them. When you try to get near the symbols, they disappear as well. Oh boy, do you have some questions to ask him when you see him. " ,
+ " Narration  Chapter_E_0021800 Looking up ahead, you see more graffiti symbols in the distance, scattered far apart in a way that beckons you to follow them. When you try to get near the symbols, they disappear as well. Oh boy, do you have some questions to ask him when you see him. " ,
 
- " School Rooftop Night  Chapter_E-0022000 School Rooftop Night " ,
+ " School Rooftop Night  Chapter_E_0022000 School Rooftop Night " ,
 
- " Narration  Chapter_E-0022300 You follow the path until you arrive at the school\'s rooftop.  " ,
+ " Narration  Chapter_E_0022300 You follow the path until you arrive at the school\'s rooftop.  " ,
 
- " Narration  Chapter_E-0022500 There he is, spray painting symbols on the ground all around him in a circle. They vanish into thin air. " ,
+ " Narration  Chapter_E_0022500 There he is, spray painting symbols on the ground all around him in a circle. They vanish into thin air. " ,
 
- " Narration  Chapter_E-0022700 You call out to him.   " ,
+ " Narration  Chapter_E_0022700 You call out to him.   " ,
 
- " Player  Chapter_E-0023000 Kyo? " ,
+ " Player  Chapter_E_0023000 Kyo? " ,
 
- " Kyo_FP_Shocked  Chapter_E-0023200 Kyo_FP_Shocked " ,
+ " Kyo_FP_Shocked  Chapter_E_0023200 Kyo_FP_Shocked " ,
 
- " Narration  Chapter_E-0023500 Kyo turns around.  " ,
+ " Narration  Chapter_E_0023500 Kyo turns around.  " ,
 
- " Kyo  Chapter_E-0023800 Oh shit, hi Player! " ,
+ " Kyo  Chapter_E_0023800 Oh shit, hi Player! " ,
 
- " Player  Chapter_E-0024100 Where have you been? I haven\'t seen you in school all week. " ,
+ " Player  Chapter_E_0024100 Where have you been? I haven\'t seen you in school all week. " ,
 
- " Kyo Kyo_FP_Default  Chapter_E-0024400 Um, about that... " ,
+ " Kyo Kyo_FP_Default  Chapter_E_0024400 Um, about that... " ,
 
- " Narration  Chapter_E-0024700 He shakes his spray paint can but doesn\'t use it. He looks back and forth between his spray can, the moon above, and you as if he\'s contemplating his next move. He sighs. " ,
+ " Narration  Chapter_E_0024700 He shakes his spray paint can but doesn\'t use it. He looks back and forth between his spray can, the moon above, and you as if he\'s contemplating his next move. He sighs. " ,
 
- " Kyo  Chapter_E-0025000 You weren\'t supposed to come here.  " ,
+ " Kyo  Chapter_E_0025000 You weren\'t supposed to come here.  " ,
 
- " Player  Chapter_E-0025300 But you left a paint trail. " ,
+ " Player  Chapter_E_0025300 But you left a paint trail. " ,
 
- " Kyo  Chapter_E-0025600 That wasn\'t really a trail. I didn\'t think you\'d... Damn it, I was supposed to leave before you saw me. " ,
+ " Kyo  Chapter_E_0025600 That wasn\'t really a trail. I didn\'t think you\'d... Damn it, I was supposed to leave before you saw me. " ,
 
- " Player  Chapter_E-0025900 Wait, you\'re leaving? What\'s going on? " ,
+ " Player  Chapter_E_0025900 Wait, you\'re leaving? What\'s going on? " ,
 
- " Kyo  Chapter_E-0026200 You know what, fuck it. I\'m not going yet. \'Cause I don\'t even know where to begin explaining everything. " ,
+ " Kyo  Chapter_E_0026200 You know what, fuck it. I\'m not going yet. \'Cause I don\'t even know where to begin explaining everything. " ,
 
- " Narration  Chapter_E-0026500 He\'s right. You have too many questions.  " ,
+ " Narration  Chapter_E_0026500 He\'s right. You have too many questions.  " ,
 
- " Narration  Chapter_E-0026700 You remember the confused faces of the club members from last week. " ,
+ " Narration  Chapter_E_0026700 You remember the confused faces of the club members from last week. " ,
 
- " Player  Chapter_E-0027000 Kyo, you\'re... real, right? " ,
+ " Player  Chapter_E_0027000 Kyo, you\'re... real, right? " ,
 
- " Narration  Chapter_E-0027300 Kyo busts out a quick laugh. " ,
+ " Narration  Chapter_E_0027300 Kyo busts out a quick laugh. " ,
 
- " Kyo  Chapter_E-0027600 Nah you\'re just imagining me in your head. Wake up. It\'s been years since the accident— " ,
+ " Kyo  Chapter_E_0027600 Nah you\'re just imagining me in your head. Wake up. It\'s been years since the accident— " ,
 
- " Player  Chapter_E-0027900 Kyo, I\'m serious. None of the club members see or hear you except me. They don\'t even know who you are. Why? Are you a ghost? Who and what even are you? " ,
+ " Player  Chapter_E_0027900 Kyo, I\'m serious. None of the club members see or hear you except me. They don\'t even know who you are. Why? Are you a ghost? Who and what even are you? " ,
 
- " Narration  Chapter_E-0028200 Kyo lets out a deep sigh. " ,
+ " Narration  Chapter_E_0028200 Kyo lets out a deep sigh. " ,
 
- " Kyo  Chapter_E-0028500 I don\'t actually go here. I used to, but it was a long time ago. " ,
+ " Kyo  Chapter_E_0028500 I don\'t actually go here. I used to, but it was a long time ago. " ,
 
- " Player  Chapter_E-0028800 Why are you here then? " ,
+ " Player  Chapter_E_0028800 Why are you here then? " ,
 
- " Kyo CG  Chapter_E-0029000 Kyo CG " ,
+ " Kyo CG  Chapter_E_0029000 Kyo CG " ,
 
- " Kyo  Chapter_E-0029300 To help you make friends. " ,
+ " Kyo  Chapter_E_0029300 To help you make friends. " ,
 
- " Narration  Chapter_E-0029600 Your eyes widen. " ,
+ " Narration  Chapter_E_0029600 Your eyes widen. " ,
 
- " Player  Chapter_E-0029900 How\'d you know I wanted to...? " ,
+ " Player  Chapter_E_0029900 How\'d you know I wanted to...? " ,
 
- " Kyo  Chapter_E-0030200 You\'re the reason I opened up the radio club in the first place.  " ,
+ " Kyo  Chapter_E_0030200 You\'re the reason I opened up the radio club in the first place.  " ,
 
- " Player  Chapter_E-0030500 Huh?! Wait, then you were the only club member on purpose? " ,
+ " Player  Chapter_E_0030500 Huh?! Wait, then you were the only club member on purpose? " ,
 
- " Kyo  Chapter_E-0030800 Haha, yup. " ,
+ " Kyo  Chapter_E_0030800 Haha, yup. " ,
 
- " Player  Chapter_E-0031100 I\'m still not over you forcing me to do free labor though. " ,
+ " Player  Chapter_E_0031100 I\'m still not over you forcing me to do free labor though. " ,
 
- " Kyo  Chapter_E-0031400 It\'s better if you initiate these friendships on your own. I\'m just here to make sure you stay on track. You\'re the lonely one here, not me. " ,
+ " Kyo  Chapter_E_0031400 It\'s better if you initiate these friendships on your own. I\'m just here to make sure you stay on track. You\'re the lonely one here, not me. " ,
 
- " Narration  Chapter_E-0031700 You roll your eyes.  " ,
+ " Narration  Chapter_E_0031700 You roll your eyes.  " ,
 
- " Kyo  Chapter_E-0032000 You\'re not even gonna thank me?!  " ,
+ " Kyo  Chapter_E_0032000 You\'re not even gonna thank me?!  " ,
 
- " Player  Chapter_E-0032300 I still have more questions for you, funny man. " ,
+ " Player  Chapter_E_0032300 I still have more questions for you, funny man. " ,
 
- " Kyo  Chapter_E-0032600 Okay, shoot. " ,
+ " Kyo  Chapter_E_0032600 Okay, shoot. " ,
 
- " Player  Chapter_E-0032900 If you\'ve been a student here, why does no one remember you at all? " ,
+ " Player  Chapter_E_0032900 If you\'ve been a student here, why does no one remember you at all? " ,
 
- " Kyo  Chapter_E-0033200 That\'s because I don\'t exist in your reality anymore. I live in another universe. " ,
+ " Kyo  Chapter_E_0033200 That\'s because I don\'t exist in your reality anymore. I live in another universe. " ,
 
- " Player  Chapter_E-0033500 You\'re an alien?! " ,
+ " Player  Chapter_E_0033500 You\'re an alien?! " ,
 
- " Kyo  Chapter_E-0033800 Okay no, but I know someone else who is. Anyways, I was isekai\'d a while ago. But just recently, I\'ve been blessed by the moon, so now I\'m able to travel between your reality and mine. " ,
+ " Kyo  Chapter_E_0033800 Okay no, but I know someone else who is. Anyways, I was isekai\'d a while ago. But just recently, I\'ve been blessed by the moon, so now I\'m able to travel between your reality and mine. " ,
 
- " Kyo  Chapter_E-0034000 The problem is, I\'m still learning how to use this power. So it\'s not perfect. It\'s kinda weird actually. Right now, I\'m like in a world between yours and mine. I can\'t really see you, only the outline of you.  " ,
+ " Kyo  Chapter_E_0034000 The problem is, I\'m still learning how to use this power. So it\'s not perfect. It\'s kinda weird actually. Right now, I\'m like in a world between yours and mine. I can\'t really see you, only the outline of you.  " ,
 
- " Narration  Chapter_E-0034300 Kyo pauses for a bit as if he\'s thinking. " ,
+ " Narration  Chapter_E_0034300 Kyo pauses for a bit as if he\'s thinking. " ,
 
- " Kyo  Chapter_E-0034600 Give me a high-five. " ,
+ " Kyo  Chapter_E_0034600 Give me a high-five. " ,
 
- " Player  Chapter_E-0034900 For what? " ,
+ " Player  Chapter_E_0034900 For what? " ,
 
- " Kyo  Chapter_E-0035200 For being able to keep up with me. You know, since I speak so fast. " ,
+ " Kyo  Chapter_E_0035200 For being able to keep up with me. You know, since I speak so fast. " ,
 
- " Player  Chapter_E-0035500 O...kay. " ,
+ " Player  Chapter_E_0035500 O...kay. " ,
 
- " Narration  Chapter_E-0035800 When you go high-five Kyo, your hand goes through his like air. You don\'t feel him at all. " ,
+ " Narration  Chapter_E_0035800 When you go high-five Kyo, your hand goes through his like air. You don\'t feel him at all. " ,
 
- " Narration  Chapter_E-0036000 You stand there in silence, flabbergasted. A realization hits you. " ,
+ " Narration  Chapter_E_0036000 You stand there in silence, flabbergasted. A realization hits you. " ,
 
- " Player  Chapter_E-0036300 So you\'re the one haunting this school! " ,
+ " Player  Chapter_E_0036300 So you\'re the one haunting this school! " ,
 
- " Kyo  Chapter_E-0036600 Wait, what? " ,
+ " Kyo  Chapter_E_0036600 Wait, what? " ,
 
- " Player  Chapter_E-0036900 Dude, did you not know? The paranormal activity club has been obsessed with you for a long time now. They\'ve been trying to contact you and everything.  " ,
+ " Player  Chapter_E_0036900 Dude, did you not know? The paranormal activity club has been obsessed with you for a long time now. They\'ve been trying to contact you and everything.  " ,
 
- " Kyo  Chapter_E-0037200 They can\'t see me, right? " ,
+ " Kyo  Chapter_E_0037200 They can\'t see me, right? " ,
 
- " Player  Chapter_E-0037500 That\'s not what I mean. But there\'s been ghost-like activity happening around school. I think you have something to do with it. " ,
+ " Player  Chapter_E_0037500 That\'s not what I mean. But there\'s been ghost-like activity happening around school. I think you have something to do with it. " ,
 
- " Kyo  Chapter_E-0037800 Shit, my bad. Didn\'t mean to. " ,
+ " Kyo  Chapter_E_0037800 Shit, my bad. Didn\'t mean to. " ,
 
- " Player  Chapter_E-0038100 If only they knew I was talking to a ghost the entire time. Wait, I don\'t think anybody heard you speak either. Not even the club members. Except me. What the hell? " ,
+ " Player  Chapter_E_0038100 If only they knew I was talking to a ghost the entire time. Wait, I don\'t think anybody heard you speak either. Not even the club members. Except me. What the hell? " ,
 
- " Kyo  Chapter_E-0038400 You\'re the one I was assigned to help. " ,
+ " Kyo  Chapter_E_0038400 You\'re the one I was assigned to help. " ,
 
- " Player  Chapter_E-0038700 Assigned? " ,
+ " Player  Chapter_E_0038700 Assigned? " ,
 
- " Kyo  Chapter_E-0039000 By the moon. Who also gave me my powers. I think that’s why you’re also the only person who can see and hear me. Consider yourself lucky.  " ,
+ " Kyo  Chapter_E_0039000 By the moon. Who also gave me my powers. I think that’s why you’re also the only person who can see and hear me. Consider yourself lucky.  " ,
 
- " Player  Chapter_E-0039300 I was chosen? Wow... " ,
+ " Player  Chapter_E_0039300 I was chosen? Wow... " ,
 
- " Kyo  Chapter_E-0039600 But I\'m running out of time. Now, I won\'t exist in this reality again. For real this time. " ,
+ " Kyo  Chapter_E_0039600 But I\'m running out of time. Now, I won\'t exist in this reality again. For real this time. " ,
 
- " Narration  Chapter_E-0039900 The school bell rings. School Bell SFX " ,
+ " Narration  Chapter_E_0039900 The school bell rings. School Bell SFX " ,
 
- " Kyo  Chapter_E-0040200 Go. Your friends are waiting for you. " ,
+ " Kyo  Chapter_E_0040200 Go. Your friends are waiting for you. " ,
 
- " Narration  Chapter_E-0040500 Kyo sets up his exit. " ,
+ " Narration  Chapter_E_0040500 Kyo sets up his exit. " ,
 
- " Player  Chapter_E-0040800 Wait! Before you go... " ,
+ " Player  Chapter_E_0040800 Wait! Before you go... " ,
 
- " Player  Chapter_E-0041000 Thank you. For everything. " ,
+ " Player  Chapter_E_0041000 Thank you. For everything. " ,
 
- " Narration  Chapter_E-0041300 Kyo looks back one last time and smiles. " ,
+ " Narration  Chapter_E_0041300 Kyo looks back one last time and smiles. " ,
 
- " Fade out Kyo, use the Kyo_BG in his special scene folder  Chapter_E-0041500 Fade out Kyo, use the Kyo_BG in his special scene folder " ,
+ " Fade out Kyo, use the Kyo_BG in his special scene folder  Chapter_E_0041500 Fade out Kyo, use the Kyo_BG in his special scene folder " ,
 
- " Game end  Chapter_E-0041700 Game end " ,
+ " Game end  Chapter_E_0041700 Game end " ,
 
- " Go to credits  Chapter_E-0041900 Go to credits " ,
+ " Go to credits  Chapter_E_0041900 Go to credits " ,
 

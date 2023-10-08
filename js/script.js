@@ -150,8 +150,6 @@ monogatari.script({
 	'CHAPTER_0': [
 		'chap 0,',
 		// start-of-CHAPTER-0-mark
- " _Name _DialogCode _Tex " ,
-
  "  Chapter_0-0000100 Prologue: Waxing Iridescent " ,
 
  " School hallway day  Chapter_0-0000300 School hallway day " ,
@@ -355,8 +353,6 @@ monogatari.script({
     'CHAPTER_1': [
 		'chap 1',
 		// start-of-CHAPTER-1-mark
- " _Name _DialogCode _Tex " ,
-
  // 
  " School Rooftop Day  Chapter_1-0000300 School Rooftop Day " ,
 
@@ -1025,8 +1021,6 @@ monogatari.script({
     'CHAPTER_2': [
 		'chap 2',
 		// start-of-CHAPTER-2-mark
- " _Name _DialogCode _Tex " ,
-
  "  Chapter_2-0000100 Chapter 2: Befriending the Shrewd Dreamer " ,
 
  " Background School Hallway  Chapter_2-0000300 Background: School Hallway " ,
@@ -1726,8 +1720,6 @@ monogatari.script({
     'CHAPTER_3': [
 		'chap 3',
 		// start-of-CHAPTER-3-mark
- " _Name _DialogCode _Tex " ,
-
  "  Chapter_3-0000100 Chapter 3: Confronting the Moon Prince " ,
 
  " Radio Club Basic + Printer + Mic + Laptop  Chapter_3-0000300 Radio Club Basic + Printer + Mic + Laptop " ,
@@ -2549,8 +2541,6 @@ monogatari.script({
     'CHAPTER_E': [
 		'chap E',
 		// start-of-CHAPTER-E-mark
- " _Name _DialogCode _Tex " ,
-
  "  Chapter_E-0000100 Epilogue: Waning Iridescent  " ,
 
  " Music Room Basic All  Chapter_E-0000300 Music Room Basic All " ,

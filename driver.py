@@ -62,9 +62,14 @@ if __name__ == "__main__":
 
         pass
 
-    print("\n\n\n==================\n\n\n")
+    print("\n\n\n======== write to json log file complete==========\n\n\n")
 
 
-    scriptJS_file_write = open(
+    scriptJS_file_writeIO = open(
         "js/script.js", "w"
     )
+    
+    scriptJS_file_lines = scriptJS_file_writeIO.readlines()
+
+    for line in scriptJS_file_lines:
+        print(line)

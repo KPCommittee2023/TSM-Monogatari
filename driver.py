@@ -65,11 +65,31 @@ if __name__ == "__main__":
     print("\n\n\n======== write to json log file complete==========\n\n\n")
 
 
-    scriptJS_file_writeIO = open(
-        "js/script.js", "w"
-    )
     
-    scriptJS_file_lines = scriptJS_file_writeIO.readlines()
-
-    for line in scriptJS_file_lines:
-        print(line)
+    with open(
+        "js/script.js",
+        "r",
+    ) as script_js_read, open(
+        "js/script.js",
+        "w",
+    ) as script_js_write:
+        for script_js_single_line in script_js_read:
+            print(script_js_single_line)
+            if 'end-of-CHAPTER-0-mark' in script_js_single_line :
+                print('end-of-CHAPTER-0-mark')
+            
+            elif 'end-of-CHAPTER-1-mark' in script_js_single_line :
+                print('end-of-CHAPTER-1-mark')
+            
+            elif 'end-of-CHAPTER-2-mark' in script_js_single_line :
+                print('end-of-CHAPTER-2-mark')
+            
+            
+            elif 'end-of-CHAPTER-3-mark' in script_js_single_line :
+                print('end-of-CHAPTER-3-mark')
+            
+            elif 'end-of-CHAPTER-E-mark' in script_js_single_line :
+                print('end-of-CHAPTER-E-mark')
+            
+            else:
+                pass

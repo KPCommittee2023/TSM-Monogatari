@@ -149,41 +149,41 @@ monogatari.script({
 	
 	'CHAPTER_0': [
 		'chap 0,',
-		// start of CHAPTER-0-mark
+		// start-of-CHAPTER-0-mark
 		
-		// end of CHAPTER-0-mark
+		// end-of-CHAPTER-0-mark
         'jump CHAPTER_1',
 	],
 	
     'CHAPTER_1': [
 		'chap 1',
-		// start of CHAPTER-1-mark
+		// start-of-CHAPTER-1-mark
 		
-		// end of CHAPTER-1-mark
+		// end-of-CHAPTER-1-mark
 		'jump CHAPTER_2',
 	],
 	
     'CHAPTER_2': [
 		'chap 2',
-		// start of CHAPTER-2-mark
+		// start-of-CHAPTER-2-mark
 		
-		// end of CHAPTER-2-mark
+		// end-of-CHAPTER-2-mark
         'jump CHAPTER_3'
 	],
 	
     'CHAPTER_3': [
 		'chap 3',
-		// start of CHAPTER-3-mark
+		// start-of-CHAPTER-3-mark
 		
-		// end of CHAPTER-3-mark
+		// end-of-CHAPTER-3-mark
         'jump CHAPTER_E'
 	],
 	
     'CHAPTER_E': [
 		'chap E',
-		// start of CHAPTER-E-mark
+		// start-of-CHAPTER-E-mark
 		
-		// end of CHAPTER-E-mark
+		// end-of-CHAPTER-E-mark
         'end'
 	],
 });

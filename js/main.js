@@ -26,7 +26,23 @@
 const { $_ready, $_ } = Monogatari;
 
 // 1. Outside the $_ready function:
+monogatari.component ('main-screen').template (() => {
+	return `
+		<h1>Two side of the moon</h1>
+		<main-menu></main-menu>
+		`;
+	});
+	
 
+// BEGIN: make the buttons at main-menu(landing page)
+
+// END: make the buttons at main-menu(landing page)
+  
+
+// BEGIN: make the buttons at settings-screen
+
+// END: make the buttons at settings-screen
+  
 
 $_ready (() => {
 	// 2. Inside the $_ready function:

@@ -1751,9 +1751,9 @@ monogatari.script({
 
  " Narration  Chapter_3_0002200 Some of the people in the crowd have signs in their hands. " ,
 
- " Narration  Chapter_3_0002400 "We love you, Esmeray!" says the one in the hands of an enthusiastically cheering girl. " ,
+ " Narration  Chapter_3_0002400 \"We love you, Esmeray!\" says the one in the hands of an enthusiastically cheering girl. " ,
 
- " Narration  Chapter_3_0002600 "The Prince of the Dark Moon, and my heart <3" says another in the hands of a tall, totally smitten boy. " ,
+ " Narration  Chapter_3_0002600 \"The Prince of the Dark Moon, and my heart <3\" says another in the hands of a tall, totally smitten boy. " ,
 
  " Narration  Chapter_3_0002800 The person in the center winks at the two of them, a lax smile on his face as he does so. " ,
 
@@ -2201,7 +2201,7 @@ monogatari.script({
 
  " Player  Chapter_3_0049400 I’ll be blunt. I just think you would make a good addition to the club. " ,
 
- " Narration Esmeray Unamused  Chapter_3_0049700 Esmeray raises his eyebrow at you in disbelief, and his eyes look at you as if asking you, "Seriously?" " ,
+ " Narration Esmeray Unamused  Chapter_3_0049700 Esmeray raises his eyebrow at you in disbelief, and his eyes look at you as if asking you, \"Seriously?\" " ,
 
  " Player  Chapter_3_0050000 Not only are you very talented in music – which would be helpful to use whenever we do broadcasts – but I think your presence alone would be good publicity for the club. " ,
 

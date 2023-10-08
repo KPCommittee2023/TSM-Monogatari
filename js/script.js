@@ -109,60 +109,121 @@ monogatari.characters({
 
 monogatari.script({
   // The game starts here.
-  Start: [
+
+	'Start': [
+
+		{
+			'Choice': {
+				
+				'Dialog': 'Jump to certain chapter? \
+				<br>\
+				 (This for developer to use. Delete in actual relesase.)\
+				<br>\
+				 (top of script.js)',
+
+
+				'CHAPTER_0': {
+					'Text': 'CHAPTER_0',
+					'Do': 'jump CHAPTER_0'
+				},
+				'CHAPTER_1': {
+					'Text': 'CHAPTER_1',
+					'Do': 'jump CHAPTER_1'
+				},
+				'CHAPTER_2': {
+					'Text': 'CHAPTER_2',
+					'Do': 'jump CHAPTER_2'
+				},
+				'CHAPTER_3': {
+					'Text': 'CHAPTER_3',
+					'Do': 'jump CHAPTER_3'
+				},
+				'CHAPTER_E': {
+					'Text': 'CHAPTER_E',
+					'Do': 'jump CHAPTER_E'
+				},
+				'end': {
+					'Text': 'end',
+					'Do': 'jump end'
+				}
+			}
+		},
+
+		'jump CHAPTER_0'
+	],
+
+
 
 	// start of CHAPTER 0
-
-
+	'CHAPTER_0': [
+        'Hi there!',
+		'chap 0,',
+        'jump CHAPTER_1',
+    ],
+	
 	// end of CHAPTER 0
-
-
-
-
-
-
-
+	
+	
+	
+	
+	
+	
 	// start of CHAPTER 1
+    'CHAPTER_1': [
+		'chap 1',
+		'jump CHAPTER_2',
+    ],
 	
 	
 	// end of CHAPTER 1
-
-
-
-
-
-
-
-
+	
+	
+	
+	
+	
+	
+	
+	
 	// start of CHAPTER 2
 	
+    'CHAPTER_2': [
+		'chap 2',
+        'jump CHAPTER_3'
+    ],
 	
 	// end of CHAPTER 2
-
-
-
-
-
-
-
 	
-
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	// start of CHAPTER 3
 	
+    'CHAPTER_3': [
+		'chap 3',
+        'jump CHAPTER_E'
+    ],
 	
 	// end of CHAPTER 3
-
-
-
-
-
-
+	
+	
+	
+	
+	
+	
 	// start of CHAPTER E
-
-
+	
+    'CHAPTER_E': [
+        'chap E',
+        'end'
+    ],
+	
 	// end of CHAPTER E
 
 
-  ],
 });

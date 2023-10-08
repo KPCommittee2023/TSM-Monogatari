@@ -150,10 +150,6 @@ monogatari.script({
 	'CHAPTER_0': [
 		'chap 0,',
 		// start-of-CHAPTER-0-mark
- "  Chapter_0-0000100 Prologue: Waxing Iridescent " ,
-
- " School hallway day  Chapter_0-0000300 School hallway day " ,
-
  " Intro Music  Chapter_0-0000400 Intro Music " ,
 
  " Narration  Chapter_0-0000700 It\'s lunch break at school, but the atmosphere is livelier than usual. Oh right, it\'s Club Day today. You still can\'t decide which club you want to join this year.  " ,
@@ -353,10 +349,6 @@ monogatari.script({
     'CHAPTER_1': [
 		'chap 1',
 		// start-of-CHAPTER-1-mark
- // 
- " School Rooftop Day  Chapter_1-0000300 School Rooftop Day " ,
-
- " Atria's BGM  Chapter_1-0000400 Atria\'s BGM " ,
 
  " Narration  Chapter_1-0000700 … " ,
 
@@ -1021,10 +1013,6 @@ monogatari.script({
     'CHAPTER_2': [
 		'chap 2',
 		// start-of-CHAPTER-2-mark
- "  Chapter_2-0000100 Chapter 2: Befriending the Shrewd Dreamer " ,
-
- " Background School Hallway  Chapter_2-0000300 Background: School Hallway " ,
-
  " Skye's BGM  Chapter_2-0000400 Skye\'s BGM " ,
 
  " Player and Kyo Kyo_FP_Default  Chapter_2-0000700 Yawn… " ,
@@ -1720,10 +1708,6 @@ monogatari.script({
     'CHAPTER_3': [
 		'chap 3',
 		// start-of-CHAPTER-3-mark
- "  Chapter_3-0000100 Chapter 3: Confronting the Moon Prince " ,
-
- " Radio Club Basic + Printer + Mic + Laptop  Chapter_3-0000300 Radio Club Basic + Printer + Mic + Laptop " ,
-
  " Esmeray's BGM  Chapter_3-0000400 Esmeray\'s BGM " ,
 
  " Narration  Chapter_3-0000700 It’s been a couple of days since Skye joined the group. " ,
@@ -2541,10 +2525,6 @@ monogatari.script({
     'CHAPTER_E': [
 		'chap E',
 		// start-of-CHAPTER-E-mark
- "  Chapter_E-0000100 Epilogue: Waning Iridescent  " ,
-
- " Music Room Basic All  Chapter_E-0000300 Music Room Basic All " ,
-
  " Outro BGM  Chapter_E-0000400 Outro BGM " ,
 
  " Narration  Chapter_E-0000700 After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It\'s the first official radio club meeting today, and you’re excited!  " ,

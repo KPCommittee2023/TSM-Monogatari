@@ -1,7 +1,7 @@
 import os
 from funcs import read_txt_write_to_csv
 from funcs import read_csv_return_txt_format
-
+import time
 
 if __name__ == "__main__":
     start_path = "python_scripts"
@@ -71,22 +71,6 @@ if __name__ == "__main__":
     )
 
 
-    # hard coded...
-    chap_0_read = open(new_txt_files_list[0],'r')
-    chap_0_lines= chap_0_read.readlines()
-    chap_1_read = open(new_txt_files_list[1],'r')
-    chap_1_lines= chap_1_read.readlines()
-    chap_2_read = open(new_txt_files_list[2],'r')
-    chap_2_lines= chap_2_read.readlines()
-    chap_3_read = open(new_txt_files_list[3],'r')
-    chap_3_lines= chap_3_read.readlines()
-    chap_E_read = open(new_txt_files_list[4],'r')
-    chap_E_lines= chap_E_read.readlines()
-    print(len(chap_0_lines))
-    print(len(chap_1_lines))
-    print(len(chap_2_lines))
-    print(len(chap_3_lines))
-    print(len(chap_E_lines))
     
     with open(
         "js/script.js",
@@ -145,89 +129,115 @@ if __name__ == "__main__":
                 total_n_lines -= 1
 
         else:
+            line_index += 1
             pass
         
-        line_index += 1
+    
+    script_js_read.close()
+    time.sleep(2)
 
+    # hard coded...
+    # chap_0_read = open(new_txt_files_list[0],'r')
+    # chap_0_lines= chap_0_read.readlines()
+    # chap_1_read = open(new_txt_files_list[1],'r')
+    # chap_1_lines= chap_1_read.readlines()
+    # chap_2_read = open(new_txt_files_list[2],'r')
+    # chap_2_lines= chap_2_read.readlines()
+    # chap_3_read = open(new_txt_files_list[3],'r')
+    # chap_3_lines= chap_3_read.readlines()
+    # chap_E_read = open(new_txt_files_list[4],'r')
+    # chap_E_lines= chap_E_read.readlines()
+    # print(len(chap_0_lines))
+    # print(len(chap_1_lines))
+    # print(len(chap_2_lines))
+    # print(len(chap_3_lines))
+    # print(len(chap_E_lines))
+    time.sleep(2)
 
-    total_n_lines = len(script_js_lines)
-    line_index = 0
-    while script_js_lines[line_index]:
+    # script_js_read = open(
+    #     "js/script.js",
+    #     "r",
+    # ) 
+    # script_js_lines = script_js_read.readlines()
+    # total_n_lines = len(script_js_lines)
+    # line_index = 0
+    # while script_js_lines[line_index]:
 
-        if not script_js_lines[line_index]:
-            break
+    #     if not script_js_lines[line_index]:
+    #         break
 
-        if line_index == total_n_lines-1:
-            break
+    #     if line_index == total_n_lines-1:
+    #         break
 
-        elif 'start-of-CHAPTER-0-mark' in script_js_lines[line_index] :
-            if 'end-of-CHAPTER-0-mark' in script_js_lines[line_index+1] :
-                print('end-of-CHAPTER-0-mark ... INJECTING')
-                for single_line in chap_0_lines:
-                    script_js_lines.insert(line_index+1, single_line)
-                    total_n_lines += 1
-                    line_index += 1
-                line_index += 1
-            else:
-                script_js_lines.pop(line_index+1)
-                total_n_lines -= 1
+    #     elif 'start-of-CHAPTER-0-mark' in script_js_lines[line_index] :
+    #         if 'end-of-CHAPTER-0-mark' in script_js_lines[line_index+1] :
+    #             print('end-of-CHAPTER-0-mark ... INJECTING')
+    #             for single_line in chap_0_lines:
+    #                 print(single_line)
+    #                 script_js_lines.insert(line_index+1, single_line)
+    #                 total_n_lines += 1
+    #                 line_index += 1
+    #             line_index += 1
+    #         else:
+    #             script_js_lines.pop(line_index+1)
+    #             total_n_lines -= 1
 
-        elif 'start-of-CHAPTER-1-mark' in script_js_lines[line_index] :
-            if 'end-of-CHAPTER-1-mark' in script_js_lines[line_index+1] :
-                print('end-of-CHAPTER-1-mark ... INJECTING')
-                for single_line in chap_1_lines:
-                    script_js_lines.insert(line_index+1, single_line)
-                    total_n_lines += 1
-                    line_index += 1
-                line_index += 1
-            else:
-                script_js_lines.pop(line_index+1)
-                total_n_lines -= 1
+    #     elif 'start-of-CHAPTER-1-mark' in script_js_lines[line_index] :
+    #         if 'end-of-CHAPTER-1-mark' in script_js_lines[line_index+1] :
+    #             print('end-of-CHAPTER-1-mark ... INJECTING')
+    #             for single_line in chap_1_lines:
+    #                 script_js_lines.insert(line_index+1, single_line)
+    #                 total_n_lines += 1
+    #                 line_index += 1
+    #             line_index += 1
+    #         else:
+    #             script_js_lines.pop(line_index+1)
+    #             total_n_lines -= 1
 
-        elif 'start-of-CHAPTER-2-mark' in script_js_lines[line_index] :
-            if 'end-of-CHAPTER-2-mark' in script_js_lines[line_index+1] :
-                print('end-of-CHAPTER-2-mark ... INJECTING')
-                for single_line in chap_2_lines:
-                    script_js_lines.insert(line_index+1, single_line)
-                    total_n_lines += 1
-                    line_index += 1
-                line_index += 1
-            else:
-                script_js_lines.pop(line_index+1)
-                total_n_lines -= 1
+    #     elif 'start-of-CHAPTER-2-mark' in script_js_lines[line_index] :
+    #         if 'end-of-CHAPTER-2-mark' in script_js_lines[line_index+1] :
+    #             print('end-of-CHAPTER-2-mark ... INJECTING')
+    #             for single_line in chap_2_lines:
+    #                 script_js_lines.insert(line_index+1, single_line)
+    #                 total_n_lines += 1
+    #                 line_index += 1
+    #             line_index += 1
+    #         else:
+    #             script_js_lines.pop(line_index+1)
+    #             total_n_lines -= 1
 
-        elif 'start-of-CHAPTER-3-mark' in script_js_lines[line_index] :
-            if  'end-of-CHAPTER-3-mark' in script_js_lines[line_index+1] :
-                print('end-of-CHAPTER-3-mark ... INJECTING')
-                for single_line in chap_3_lines:
-                    script_js_lines.insert(line_index+1, single_line)
-                    total_n_lines += 1
-                    line_index += 1
-                line_index += 1
-            else:
-                script_js_lines.pop(line_index+1)
-                total_n_lines -= 1
+    #     elif 'start-of-CHAPTER-3-mark' in script_js_lines[line_index] :
+    #         if  'end-of-CHAPTER-3-mark' in script_js_lines[line_index+1] :
+    #             print('end-of-CHAPTER-3-mark ... INJECTING')
+    #             for single_line in chap_3_lines:
+    #                 script_js_lines.insert(line_index+1, single_line)
+    #                 total_n_lines += 1
+    #                 line_index += 1
+    #             line_index += 1
+    #         else:
+    #             script_js_lines.pop(line_index+1)
+    #             total_n_lines -= 1
 
-        elif 'start-of-CHAPTER-E-mark' in script_js_lines[line_index] :
-            if  'end-of-CHAPTER-E-mark' in script_js_lines[line_index+1] :
-                print('end-of-CHAPTER-E-mark ... INJECTING')
-                for single_line in chap_E_lines:
-                    script_js_lines.insert(line_index+1, single_line)
-                    total_n_lines += 1
-                    line_index += 1
-                line_index += 1
-            else:
-                script_js_lines.pop(line_index+1)
-                total_n_lines -= 1
+    #     elif 'start-of-CHAPTER-E-mark' in script_js_lines[line_index] :
+    #         if  'end-of-CHAPTER-E-mark' in script_js_lines[line_index+1] :
+    #             print('end-of-CHAPTER-E-mark ... INJECTING')
+    #             for single_line in chap_E_lines:
+    #                 script_js_lines.insert(line_index+1, single_line)
+    #                 total_n_lines += 1
+    #                 line_index += 1
+    #             line_index += 1
+    #         else:
+    #             script_js_lines.pop(line_index+1)
+    #             total_n_lines -= 1
 
-        else:
-            pass
+    #     else:
+    #         pass
         
-        line_index += 1
+    #     line_index += 1
 
 
 
-
+    print(script_js_lines)
     script_js_write = open(
         "js/script.js",
         "w",

@@ -1,663 +1,663 @@
- " _Name _Tex " ,
+ " _Name _DialogCode _Tex " ,
 
  // 
- " School Rooftop Day  School Rooftop Day " ,
+ " School Rooftop Day  Chapter_1-0000300 School Rooftop Day " ,
 
- " Atria's BGM  Atria\'s BGM " ,
+ " Atria's BGM  Chapter_1-0000400 Atria\'s BGM " ,
 
- " Narration  … " ,
+ " Narration  Chapter_1-0000700 … " ,
 
- " Narration  The fresh air really is relaxing when there\'s so much going on. Having to recruit members for a radio club of all things, and so suddenly too… as if that isn’t crazy enough, the amount of drama at the school has been…irritating, to say the least. " ,
+ " Narration  Chapter_1-0000900 The fresh air really is relaxing when there\'s so much going on. Having to recruit members for a radio club of all things, and so suddenly too… as if that isn’t crazy enough, the amount of drama at the school has been…irritating, to say the least. " ,
 
- " Narration  Hell, it’s insane. …Those damn rumors that the school is haunted are… unnerving, to say the least. " ,
+ " Narration  Chapter_1-0001100 Hell, it’s insane. …Those damn rumors that the school is haunted are… unnerving, to say the least. " ,
 
- " Player  …People are so desperate to just get a reaction out of people, huh… at this point I don’t doubt this school’s going to digress into chaos. " ,
+ " Player  Chapter_1-0001400 …People are so desperate to just get a reaction out of people, huh… at this point I don’t doubt this school’s going to digress into chaos. " ,
 
- " Kyo Kyo_FP_Smiling  Chaos? I call it fun! " ,
+ " Kyo Kyo_FP_Smiling  Chapter_1-0001700 Chaos? I call it fun! " ,
 
- " Player  WHAT TH– " ,
+ " Player  Chapter_1-0002000 WHAT TH– " ,
 
- " Kyo  Have you found any recruits yet? " ,
+ " Kyo  Chapter_1-0002300 Have you found any recruits yet? " ,
 
- " Player  …Warn me next time before sneaking up on me, will you?? " ,
+ " Player  Chapter_1-0002600 …Warn me next time before sneaking up on me, will you?? " ,
 
- " Kyo Kyo_FP_Cheerful  No thanks. " ,
+ " Kyo Kyo_FP_Cheerful  Chapter_1-0002900 No thanks. " ,
 
- " Narration  Kyo leans forward, his hands on his hips. His expression screams nothing but smug mockery, plainly amused at your annoyance. " ,
+ " Narration  Chapter_1-0003200 Kyo leans forward, his hands on his hips. His expression screams nothing but smug mockery, plainly amused at your annoyance. " ,
 
- " Kyo  Now, you’ve found someone, right? Surely it can\'t be so hard to evaluate who here is a good candidate. Not when there are very few people who stand out amongst the rest. " ,
+ " Kyo  Chapter_1-0003500 Now, you’ve found someone, right? Surely it can\'t be so hard to evaluate who here is a good candidate. Not when there are very few people who stand out amongst the rest. " ,
 
- " Narration  He speaks as if he already has certain people in mind. If so, why is he so insistent on you recruiting members as opposed to him? " ,
+ " Narration  Chapter_1-0003800 He speaks as if he already has certain people in mind. If so, why is he so insistent on you recruiting members as opposed to him? " ,
 
- " Player  No, Kyo, it has quite literally only been a couple hours. " ,
+ " Player  Chapter_1-0004100 No, Kyo, it has quite literally only been a couple hours. " ,
 
- " Kyo Kyo_FP_Bruh  Mhm… from the way you’re acting now, I’ve most likely put too much faith in you… I guarantee you’re just too introverted to go up and ask someone to join. " ,
+ " Kyo Kyo_FP_Bruh  Chapter_1-0004400 Mhm… from the way you’re acting now, I’ve most likely put too much faith in you… I guarantee you’re just too introverted to go up and ask someone to join. " ,
 
- " Player  …Actually, I genuinely haven’t seen anyone who looks suitable. A radio club requires someone who is willing to… well, talk. Right? " ,
+ " Player  Chapter_1-0004700 …Actually, I genuinely haven’t seen anyone who looks suitable. A radio club requires someone who is willing to… well, talk. Right? " ,
 
- " Kyo  Right… " ,
+ " Kyo  Chapter_1-0005000 Right… " ,
 
- " Kyo  You sure you\'re not just scared to interact with people? " ,
+ " Kyo  Chapter_1-0005200 You sure you\'re not just scared to interact with people? " ,
 
- " Player  Shut up. " ,
+ " Player  Chapter_1-0005500 Shut up. " ,
 
- " Narration  Jeez. For someone he just met, Kyo sure has some nerve. " ,
+ " Narration  Chapter_1-0005800 Jeez. For someone he just met, Kyo sure has some nerve. " ,
 
- " Player  I hate to break it to you, Mr. know-it-all, but I have yet to see anybody who seems talkative. If anything, I’m the most extroverted person here. " ,
+ " Player  Chapter_1-0006100 I hate to break it to you, Mr. know-it-all, but I have yet to see anybody who seems talkative. If anything, I’m the most extroverted person here. " ,
 
- " Narration Kyo_FP_Cheerful  Kyo just shoots you a cocky grin, rolling his eyes playfully.  " ,
+ " Narration Kyo_FP_Cheerful  Chapter_1-0006400 Kyo just shoots you a cocky grin, rolling his eyes playfully.  " ,
 
- " Kyo  Mhm, very believable. Just be a bit more observant, will you? It really can’t be that difficult to find someone. " ,
+ " Kyo  Chapter_1-0006700 Mhm, very believable. Just be a bit more observant, will you? It really can’t be that difficult to find someone. " ,
 
- " Player  But- " ,
+ " Player  Chapter_1-0007000 But- " ,
 
- " Kyo  Yeah, yeah. I get it. Your short attention span won\'t allow you to tune into one person for more than 15 seconds. " ,
+ " Kyo  Chapter_1-0007300 Yeah, yeah. I get it. Your short attention span won\'t allow you to tune into one person for more than 15 seconds. " ,
 
- " Narration  You scowl at his remark, but your reaction only further enables him to keep poking at you. You didn’t really mind his banter, but at the very least you wish you could have the ability to snap back. " ,
+ " Narration  Chapter_1-0007600 You scowl at his remark, but your reaction only further enables him to keep poking at you. You didn’t really mind his banter, but at the very least you wish you could have the ability to snap back. " ,
 
- " Player  What do you want me to do? Just sit and observe as someone goes about their day?? Just stand menacingly in some corner and watch them? " ,
+ " Player  Chapter_1-0007900 What do you want me to do? Just sit and observe as someone goes about their day?? Just stand menacingly in some corner and watch them? " ,
 
- " Kyo Kyo_SP_Default  No need to make it sound so creepy. Listen, you gotta do what you gotta do. Just don’t make it too obvious.  " ,
+ " Kyo Kyo_SP_Default  Chapter_1-0008200 No need to make it sound so creepy. Listen, you gotta do what you gotta do. Just don’t make it too obvious.  " ,
 
- " Kyo Kyo_SP_Default  Though, from what I’ve seen, I’m starting to even question whether you’re capable of that much. " ,
+ " Kyo Kyo_SP_Default  Chapter_1-0008400 Though, from what I’ve seen, I’m starting to even question whether you’re capable of that much. " ,
 
- " Proceed to two choices <Let it slide> or <Try proving him wrong>  Proceed to two choices: <Let it slide> or <Try proving him wrong> " ,
+ " Proceed to two choices <Let it slide> or <Try proving him wrong>  Chapter_1-0008500 Proceed to two choices: <Let it slide> or <Try proving him wrong> " ,
 
- " Choice 1 Let it slide  Choice 1: Let it slide " ,
+ " Choice 1 Let it slide  Chapter_1-0008700 Choice 1: Let it slide " ,
 
- " Narration  Kyo snickers, tilting his head momentarily as if discreetly pointing somewhere.  " ,
+ " Narration  Chapter_1-0009000 Kyo snickers, tilting his head momentarily as if discreetly pointing somewhere.  " ,
 
- " Kyo  I bet you anything if you actually listen you’ll find someone immediately. " ,
+ " Kyo  Chapter_1-0009300 I bet you anything if you actually listen you’ll find someone immediately. " ,
 
- " Narration  Your eyes follow the direction of his nudge. " ,
+ " Narration  Chapter_1-0009600 Your eyes follow the direction of his nudge. " ,
 
- " Scene reconverges here  Scene reconverges here " ,
+ " Scene reconverges here  Chapter_1-0009800 Scene reconverges here " ,
 
- " Choice 2 Try proving him wrong  Choice 2: Try proving him wrong " ,
+ " Choice 2 Try proving him wrong  Chapter_1-0010100 Choice 2: Try proving him wrong " ,
 
- " Narration  You glance around, searching for someone you can listen in on to make your point. " ,
+ " Narration  Chapter_1-0010400 You glance around, searching for someone you can listen in on to make your point. " ,
 
- " Narration  Your ears pick up on some commotion, and your attention drifts. " ,
+ " Narration  Chapter_1-0010600 Your ears pick up on some commotion, and your attention drifts. " ,
 
- " Narration  		Scene reconverges here " ,
+ " Narration  Chapter_1-0010700 		Scene reconverges here " ,
 
- " Remove Kyo  Remove Kyo " ,
+ " Remove Kyo  Chapter_1-0010900 Remove Kyo " ,
 
- " Atria1_Happy. Darken by 50%, centered  Atria1_Happy. Darken by 50%, centered " ,
+ " Atria1_Happy. Darken by 50%, centered  Chapter_1-0011000 Atria1_Happy. Darken by 50%, centered " ,
 
- " Narration  At that moment, you see a group of girls across the courtyard. They all seem rather silent–bored, even– but one of them in particular stands out to you. " ,
+ " Narration  Chapter_1-0011300 At that moment, you see a group of girls across the courtyard. They all seem rather silent–bored, even– but one of them in particular stands out to you. " ,
 
- " ???  Anyways! About the person I was talking about earlier, the one that I frequently watch. They did this one stream recently, it was a collaboration with some of my favorite streamers! When I saw the waiting room for it, I got really excited! " ,
+ " ???  Chapter_1-0011600 Anyways! About the person I was talking about earlier, the one that I frequently watch. They did this one stream recently, it was a collaboration with some of my favorite streamers! When I saw the waiting room for it, I got really excited! " ,
 
- " ???  I sent it to you guys a while back, though I’m not sure if you saw it? Neither of you responded… Do you think there\'s a possibility we could watch it together sometime? " ,
+ " ???  Chapter_1-0011900 I sent it to you guys a while back, though I’m not sure if you saw it? Neither of you responded… Do you think there\'s a possibility we could watch it together sometime? " ,
 
- " Narration  The two other girls look at each other before faking a smile towards her direction. " ,
+ " Narration  Chapter_1-0012200 The two other girls look at each other before faking a smile towards her direction. " ,
 
- " Girl A  ...You’re ranting about these streamers every two seconds, you expect us to know which one you are talking about? " ,
+ " Girl A  Chapter_1-0012500 ...You’re ranting about these streamers every two seconds, you expect us to know which one you are talking about? " ,
 
- " ??? Atria1_Nervous  Oh– …Yeah. Sorry. I guess sometimes I just say stuff without really thinking. " ,
+ " ??? Atria1_Nervous  Chapter_1-0012800 Oh– …Yeah. Sorry. I guess sometimes I just say stuff without really thinking. " ,
 
- " ??? Atria2_Happy  The one with… let’s see, I\'m trying to think of a way to describe this to someone who doesn’t watch them. They have… blue hair. It’s short, around shoulder length. Does that ring a bell? " ,
+ " ??? Atria2_Happy  Chapter_1-0013100 The one with… let’s see, I\'m trying to think of a way to describe this to someone who doesn’t watch them. They have… blue hair. It’s short, around shoulder length. Does that ring a bell? " ,
 
- " Narration  Wait… " ,
+ " Narration  Chapter_1-0013400 Wait… " ,
 
- " Narration  Short… blue hair…? That\'s… " ,
+ " Narration  Chapter_1-0013600 Short… blue hair…? That\'s… " ,
 
- " Narration  Kind of silly. " ,
+ " Narration  Chapter_1-0013800 Kind of silly. " ,
 
- " ???  I understand if you guys don’t remember! I know I can speak a bit quickly at times. " ,
+ " ???  Chapter_1-0014100 I understand if you guys don’t remember! I know I can speak a bit quickly at times. " ,
 
- " ???  Oh! Yeah, the one I was talking about yesterday! Surely you remember th– " ,
+ " ???  Chapter_1-0014300 Oh! Yeah, the one I was talking about yesterday! Surely you remember th– " ,
 
- " Girl A  Hello? Earth to Atria? Atria Aiyashi? " ,
+ " Girl A  Chapter_1-0014600 Hello? Earth to Atria? Atria Aiyashi? " ,
 
- " Girl A  You know, the Atria that thinks before she goes on meaningless tangents? We’re tired of you constantly bothering us about stuff we aren’t interested in. " ,
+ " Girl A  Chapter_1-0014800 You know, the Atria that thinks before she goes on meaningless tangents? We’re tired of you constantly bothering us about stuff we aren’t interested in. " ,
 
- " Atria2_Nervous  Atria2_Nervous " ,
+ " Atria2_Nervous  Chapter_1-0015000 Atria2_Nervous " ,
 
- " Narration  The small yellow haired girl, supposedly named Atria, tenses at the others’ remark. She had been rambling excitedly about her interests just a moment ago and yet… her tone suddenly falters. " ,
+ " Narration  Chapter_1-0015300 The small yellow haired girl, supposedly named Atria, tenses at the others’ remark. She had been rambling excitedly about her interests just a moment ago and yet… her tone suddenly falters. " ,
 
- " Atria  ...A-Ah.. was I too much?.. " ,
+ " Atria  Chapter_1-0015600 ...A-Ah.. was I too much?.. " ,
 
- " Girl B  Atria, you can’t keep forgetting we raised you to be silent. " ,
+ " Girl B  Chapter_1-0015900 Atria, you can’t keep forgetting we raised you to be silent. " ,
 
- " Atria  I’m sorry… I didn’t mean to do anything… " ,
+ " Atria  Chapter_1-0016200 I’m sorry… I didn’t mean to do anything… " ,
 
- " Girl B  It\'s the same answer every single time. No matter how much we remind you, you go back to your annoying little ‘hyperfixations’. " ,
+ " Girl B  Chapter_1-0016500 It\'s the same answer every single time. No matter how much we remind you, you go back to your annoying little ‘hyperfixations’. " ,
 
- " Girl B  Surely you can try a bit harder? You’ve been like this for years now. Is there really something stopping you from just… realizing we don’t care? " ,
+ " Girl B  Chapter_1-0016700 Surely you can try a bit harder? You’ve been like this for years now. Is there really something stopping you from just… realizing we don’t care? " ,
 
- " Girl B  Take your silly little blue guy and talk about him to yourself, yeah? " ,
+ " Girl B  Chapter_1-0016900 Take your silly little blue guy and talk about him to yourself, yeah? " ,
 
- " Atria Atria1_Nervous  Genuinely, I didn’t mean to do anything… " ,
+ " Atria Atria1_Nervous  Chapter_1-0017200 Genuinely, I didn’t mean to do anything… " ,
 
- " Girl B  Do you want us to help you or not? " ,
+ " Girl B  Chapter_1-0017500 Do you want us to help you or not? " ,
 
- " Atria  I’m sorry, okay? " ,
+ " Atria  Chapter_1-0017800 I’m sorry, okay? " ,
 
- " Girl B  We at least had some sort of faith in you. We thought we could change you to stop you from constantly babbling on…but you haven’t even made any ounce of progress. " ,
+ " Girl B  Chapter_1-0018100 We at least had some sort of faith in you. We thought we could change you to stop you from constantly babbling on…but you haven’t even made any ounce of progress. " ,
 
- " Girl A  The only reason we even tolerate you is because we feel bad. " ,
+ " Girl A  Chapter_1-0018400 The only reason we even tolerate you is because we feel bad. " ,
 
- " Atria1_Sad  Atria1_Sad " ,
+ " Atria1_Sad  Chapter_1-0018600 Atria1_Sad " ,
 
- " Narration  Atria opens her mouth, as if to speak, but no sound escapes " ,
+ " Narration  Chapter_1-0018900 Atria opens her mouth, as if to speak, but no sound escapes " ,
 
- " Narration  her. " ,
+ " Narration  Chapter_1-0019000 her. " ,
 
- " Narration  Her voice is caught, suffocated by the others words and the fear of the repercussions of standing up for herself. Her body language speaks volumes, clearly burdened by the weight of the expectations placed upon her. " ,
+ " Narration  Chapter_1-0019200 Her voice is caught, suffocated by the others words and the fear of the repercussions of standing up for herself. Her body language speaks volumes, clearly burdened by the weight of the expectations placed upon her. " ,
 
- " Narration  In a shaky, pitiful murmur, she chokes out a rebuttal. " ,
+ " Narration  Chapter_1-0019400 In a shaky, pitiful murmur, she chokes out a rebuttal. " ,
 
- " Atria  I-I said I’m sorry, okay? " ,
+ " Atria  Chapter_1-0019700 I-I said I’m sorry, okay? " ,
 
- " Narration  Atria seems to regret speaking up halfway through her argument, audible desperation in her wavering voice. However, it was simply idiotic to think that the two standing next to her would back down so easily. " ,
+ " Narration  Chapter_1-0020000 Atria seems to regret speaking up halfway through her argument, audible desperation in her wavering voice. However, it was simply idiotic to think that the two standing next to her would back down so easily. " ,
 
- " Girl B  You really can’t do anything right, can you? " ,
+ " Girl B  Chapter_1-0020300 You really can’t do anything right, can you? " ,
 
- " Narration  The girl at her side clicks her tongue, smiling manipulatively. " ,
+ " Narration  Chapter_1-0020600 The girl at her side clicks her tongue, smiling manipulatively. " ,
 
- " Girl B  We’re nice enough to give you advice, and you can’t even shut up and take it? You’re lucky we even waste our effort on you.  " ,
+ " Girl B  Chapter_1-0020900 We’re nice enough to give you advice, and you can’t even shut up and take it? You’re lucky we even waste our effort on you.  " ,
 
- " Girl B  What happened to the promise you made us? That you’d do what we ask of you? Do you really want a repeat of what happened last time? " ,
+ " Girl B  Chapter_1-0021100 What happened to the promise you made us? That you’d do what we ask of you? Do you really want a repeat of what happened last time? " ,
 
- " Narration  The third individual reaches upwards, placing a hand on Atria’s shoulder ‘comfortingly’.  " ,
+ " Narration  Chapter_1-0021400 The third individual reaches upwards, placing a hand on Atria’s shoulder ‘comfortingly’.  " ,
 
- " Atria2_Sad. Make sprite jump in surprise  Atria2_Sad. Make sprite jump in surprise " ,
+ " Atria2_Sad. Make sprite jump in surprise  Chapter_1-0021600 Atria2_Sad. Make sprite jump in surprise " ,
 
- " Narration  This only causes Atria to flinch and instinctively put her hands " ,
+ " Narration  Chapter_1-0021800 This only causes Atria to flinch and instinctively put her hands " ,
 
- " Narration  up in defense. " ,
+ " Narration  Chapter_1-0021900 up in defense. " ,
 
- " Girl A  ...We’ll take that reaction as a no. " ,
+ " Girl A  Chapter_1-0022200 ...We’ll take that reaction as a no. " ,
 
- " Girl A  Remember, we\'re your only friends. We\'re really just trying to " ,
+ " Girl A  Chapter_1-0022500 Remember, we\'re your only friends. We\'re really just trying to " ,
 
- " Girl A  do you a favor. " ,
+ " Girl A  Chapter_1-0022600 do you a favor. " ,
 
- " Atria  … " ,
+ " Atria  Chapter_1-0022900 … " ,
 
- " Narration  There is a hesitation that lasts for what seems like an eternity, as Atria’s expression fades. Her emotion is lacking in comparison to mere seconds ago. It seems forced, for sure, yet it\'s clear she’s putting significant effort into holding this mask. " ,
+ " Narration  Chapter_1-0023200 There is a hesitation that lasts for what seems like an eternity, as Atria’s expression fades. Her emotion is lacking in comparison to mere seconds ago. It seems forced, for sure, yet it\'s clear she’s putting significant effort into holding this mask. " ,
 
- " Atria Atria2_Timid  …Yeah, thank you for reminding me. " ,
+ " Atria Atria2_Timid  Chapter_1-0023500 …Yeah, thank you for reminding me. " ,
 
- " Narration  She lowers her gaze, attempting with all her will to keep a strong, emotionless veil. This would have been manageable for the time being, but the two others don’t even respond to her submission. " ,
+ " Narration  Chapter_1-0023800 She lowers her gaze, attempting with all her will to keep a strong, emotionless veil. This would have been manageable for the time being, but the two others don’t even respond to her submission. " ,
 
- " Narration  They just… stare.  " ,
+ " Narration  Chapter_1-0024000 They just… stare.  " ,
 
- " Narration  Stare as she attempts to keep her composure. " ,
+ " Narration  Chapter_1-0024200 Stare as she attempts to keep her composure. " ,
 
- " Atria  … " ,
+ " Atria  Chapter_1-0024500 … " ,
 
- " Atria  … " ,
+ " Atria  Chapter_1-0024800 … " ,
 
- " Atria2_Sad – only shown momentarily before she disappears  Atria2_Sad – only shown momentarily before she disappears " ,
+ " Atria2_Sad – only shown momentarily before she disappears  Chapter_1-0025000 Atria2_Sad – only shown momentarily before she disappears " ,
 
- " Footstep SFX  Footstep SFX " ,
+ " Footstep SFX  Chapter_1-0025100 Footstep SFX " ,
 
- " Kyo FP_Shocked, centered  … " ,
+ " Kyo FP_Shocked, centered  Chapter_1-0025400 … " ,
 
- " Kyo  Das crazy. " ,
+ " Kyo  Chapter_1-0025700 Das crazy. " ,
 
- " Player  …That\'s really all you have to say? " ,
+ " Player  Chapter_1-0026000 …That\'s really all you have to say? " ,
 
- " Kyo_FP_Smiling  Kyo_FP_Smiling " ,
+ " Kyo_FP_Smiling  Chapter_1-0026200 Kyo_FP_Smiling " ,
 
- " Narration  Kyo looks at you with an obvious smugness, outwardly unphased by… whatever had just happened between those three.  " ,
+ " Narration  Chapter_1-0026500 Kyo looks at you with an obvious smugness, outwardly unphased by… whatever had just happened between those three.  " ,
 
- " Kyo  I told you if you actually took the time to tune into a conversation, it wouldn’t be so hard to find someone. " ,
+ " Kyo  Chapter_1-0026800 I told you if you actually took the time to tune into a conversation, it wouldn’t be so hard to find someone. " ,
 
- " Player  What, do you want me to go get her and ask her to join a radio club after that? " ,
+ " Player  Chapter_1-0027100 What, do you want me to go get her and ask her to join a radio club after that? " ,
 
- " Narration  His eyes flicker, looking at the school door where Atria had run off to, then back at you. " ,
+ " Narration  Chapter_1-0027400 His eyes flicker, looking at the school door where Atria had run off to, then back at you. " ,
 
- " Narration  Back… and forth… and back… and– " ,
+ " Narration  Chapter_1-0027600 Back… and forth… and back… and– " ,
 
- " Kyo  So… are you gonna just sit there? Seriously? " ,
+ " Kyo  Chapter_1-0027900 So… are you gonna just sit there? Seriously? " ,
 
- " Player  Wh– " ,
+ " Player  Chapter_1-0028200 Wh– " ,
 
- " Kyo  Are you even gonna do something? Or nah? " ,
+ " Kyo  Chapter_1-0028500 Are you even gonna do something? Or nah? " ,
 
- " Narration  Kyo looks at you, like he wants you to go run after her. It’s… oddly ominous. Like he just wants an excuse to make you speak with Atria. …Does he know her or something? Is that what this was all about?? " ,
+ " Narration  Chapter_1-0028800 Kyo looks at you, like he wants you to go run after her. It’s… oddly ominous. Like he just wants an excuse to make you speak with Atria. …Does he know her or something? Is that what this was all about?? " ,
 
- " Proceed to two choices <Ignore the whole incident> or <Go search for Atria>  Proceed to two choices: <Ignore the whole incident> or <Go search for Atria> " ,
+ " Proceed to two choices <Ignore the whole incident> or <Go search for Atria>  Chapter_1-0029000 Proceed to two choices: <Ignore the whole incident> or <Go search for Atria> " ,
 
- " Choice 1 Ignore the whole incident  Choice 1: Ignore the whole incident " ,
+ " Choice 1 Ignore the whole incident  Chapter_1-0029200 Choice 1: Ignore the whole incident " ,
 
- " Player  I really don’t think I should interfere… " ,
+ " Player  Chapter_1-0029500 I really don’t think I should interfere… " ,
 
- " Kyo_FP_Bruh  Kyo_FP_Bruh " ,
+ " Kyo_FP_Bruh  Chapter_1-0029700 Kyo_FP_Bruh " ,
 
- " Narration  Kyo stares at you with a tinge of concern. " ,
+ " Narration  Chapter_1-0030000 Kyo stares at you with a tinge of concern. " ,
 
- " Kyo  …Don’t you think she would be a good candidate for the radio club? …Can’t you just… tell? " ,
+ " Kyo  Chapter_1-0030300 …Don’t you think she would be a good candidate for the radio club? …Can’t you just… tell? " ,
 
- " Narration  He clearly knows more than he\'s letting on… his consistently unsettling statements are starting to stand out more and more… " ,
+ " Narration  Chapter_1-0030600 He clearly knows more than he\'s letting on… his consistently unsettling statements are starting to stand out more and more… " ,
 
- " Narration  Eh, surely it\'s nothing. There\'s no way this guy can do anything, anyways. " ,
+ " Narration  Chapter_1-0030800 Eh, surely it\'s nothing. There\'s no way this guy can do anything, anyways. " ,
 
- " Player  What is she, the ‘chosen one’ or something? " ,
+ " Player  Chapter_1-0031100 What is she, the ‘chosen one’ or something? " ,
 
- " Narration  You joke, rolling your eyes. " ,
+ " Narration  Chapter_1-0031400 You joke, rolling your eyes. " ,
 
- " Scene reconverges here  Scene reconverges here " ,
+ " Scene reconverges here  Chapter_1-0031600 Scene reconverges here " ,
 
- " Choice 2 Go search for Atria  Choice 2: Go search for Atria " ,
+ " Choice 2 Go search for Atria  Chapter_1-0031800 Choice 2: Go search for Atria " ,
 
- " Scene reconverges here  Scene reconverges here " ,
+ " Scene reconverges here  Chapter_1-0031900 Scene reconverges here " ,
 
- " Player  Fine, fine. Let’s go find her, alright? " ,
+ " Player  Chapter_1-0032200 Fine, fine. Let’s go find her, alright? " ,
 
- " Kyo Kyo_FP_Bruh  ...Actually, I think you should go on your own. I… will only get " ,
+ " Kyo Kyo_FP_Bruh  Chapter_1-0032500 ...Actually, I think you should go on your own. I… will only get " ,
 
- " Kyo Kyo_FP_Bruh  in the way. " ,
+ " Kyo Kyo_FP_Bruh  Chapter_1-0032600 in the way. " ,
 
- " Narration  He speaks in an eerie tone, as if he’s admitting to something. " ,
+ " Narration  Chapter_1-0032900 He speaks in an eerie tone, as if he’s admitting to something. " ,
 
- " Narration  What on earth is up with him? " ,
+ " Narration  Chapter_1-0033000 What on earth is up with him? " ,
 
- " Player  …Okay? So… you just want me to convince her to join? " ,
+ " Player  Chapter_1-0033300 …Okay? So… you just want me to convince her to join? " ,
 
- " Player  Wait, what do you mean by ‘get in the way’??  " ,
+ " Player  Chapter_1-0033500 Wait, what do you mean by ‘get in the way’??  " ,
 
- " Player  … " ,
+ " Player  Chapter_1-0033700 … " ,
 
- " Player  Actually, nevermind. I can see it. " ,
+ " Player  Chapter_1-0033900 Actually, nevermind. I can see it. " ,
 
- " Kyo sprite is removed  Kyo sprite is removed " ,
+ " Kyo sprite is removed  Chapter_1-0034100 Kyo sprite is removed " ,
 
- " Narration  You look at the school building momentarily, sighing. It’s an irritating reality, but the longer you wait, the harder it will be to find her. " ,
+ " Narration  Chapter_1-0034400 You look at the school building momentarily, sighing. It’s an irritating reality, but the longer you wait, the harder it will be to find her. " ,
 
- " Player  I guess I’ll see you later then- " ,
+ " Player  Chapter_1-0034700 I guess I’ll see you later then- " ,
 
- " Narration  You look back to where Kyo had stood just a moment ago, your eyes only meeting blank space. " ,
+ " Narration  Chapter_1-0035000 You look back to where Kyo had stood just a moment ago, your eyes only meeting blank space. " ,
 
- " Player  Huh? " ,
+ " Player  Chapter_1-0035300 Huh? " ,
 
- " Narration  …He never fails to do something strange, does he? " ,
+ " Narration  Chapter_1-0035600 …He never fails to do something strange, does he? " ,
 
- " Narration  You figure you should just get moving. " ,
+ " Narration  Chapter_1-0035800 You figure you should just get moving. " ,
 
- " Transition to School Classroom Day  Transition to School Classroom Day " ,
+ " Transition to School Classroom Day  Chapter_1-0036100 Transition to School Classroom Day " ,
 
- " Narration  … " ,
+ " Narration  Chapter_1-0036400 … " ,
 
- " Narration  Alright then, she has to be somewhere around here. " ,
+ " Narration  Chapter_1-0036600 Alright then, she has to be somewhere around here. " ,
 
- " Player  Atria? Hello? " ,
+ " Player  Chapter_1-0036900 Atria? Hello? " ,
 
- " Narration  …  " ,
+ " Narration  Chapter_1-0037200 …  " ,
 
- " Narration  Silence. " ,
+ " Narration  Chapter_1-0037400 Silence. " ,
 
- " Player  Atria? Don’t worry… I’m not gonna yell. " ,
+ " Player  Chapter_1-0037700 Atria? Don’t worry… I’m not gonna yell. " ,
 
- " Atria1_Sad  Atria1_Sad " ,
+ " Atria1_Sad  Chapter_1-0037900 Atria1_Sad " ,
 
- " Centered  Centered " ,
+ " Centered  Chapter_1-0038000 Centered " ,
 
- " Narration  You glance around, scanning the room, your eyes spotting a fragile figure hunched in the corner. The eye contact causes her body to tense, as if she were expecting judgment, or ridicule. " ,
+ " Narration  Chapter_1-0038300 You glance around, scanning the room, your eyes spotting a fragile figure hunched in the corner. The eye contact causes her body to tense, as if she were expecting judgment, or ridicule. " ,
 
- " Atria  …W-why do you… know my name…? " ,
+ " Atria  Chapter_1-0038600 …W-why do you… know my name…? " ,
 
- " Narration  Atria speaks between quiet sobs, her voice strained with emotion. She’s vulnerable, her guard shattered from the weight of her own struggles. " ,
+ " Narration  Chapter_1-0038900 Atria speaks between quiet sobs, her voice strained with emotion. She’s vulnerable, her guard shattered from the weight of her own struggles. " ,
 
- " Player  I… overheard your conversation earlier. " ,
+ " Player  Chapter_1-0039200 I… overheard your conversation earlier. " ,
 
- " Narration  You take a few steps towards her, careful not to invade her space. Despite your carefulness, she pushes herself against the walls, making herself appear as small and insignificant as possible. " ,
+ " Narration  Chapter_1-0039500 You take a few steps towards her, careful not to invade her space. Despite your carefulness, she pushes herself against the walls, making herself appear as small and insignificant as possible. " ,
 
- " Atria  D-did they send you here… to deal with me…? " ,
+ " Atria  Chapter_1-0039800 D-did they send you here… to deal with me…? " ,
 
- " Narration  Her voice drips with anticipation. Anticipation to be met with some sort of pain, whether it be emotional or physical. " ,
+ " Narration  Chapter_1-0040100 Her voice drips with anticipation. Anticipation to be met with some sort of pain, whether it be emotional or physical. " ,
 
- " Player  No– it’s nothing of the sort. My name is Player… It… must be really exhausting having to listen to their torment. " ,
+ " Player  Chapter_1-0040400 No– it’s nothing of the sort. My name is Player… It… must be really exhausting having to listen to their torment. " ,
 
- " Player  Do they constantly tell you things like that? " ,
+ " Player  Chapter_1-0040600 Do they constantly tell you things like that? " ,
 
- " Atria  I-… " ,
+ " Atria  Chapter_1-0040900 I-… " ,
 
- " Narration  Atria hesitates, unsure whether she should even respond to such a question. " ,
+ " Narration  Chapter_1-0041200 Atria hesitates, unsure whether she should even respond to such a question. " ,
 
- " Atria  They… they just want what’s best for me. They’ve been my friends for a long time.	 " ,
+ " Atria  Chapter_1-0041500 They… they just want what’s best for me. They’ve been my friends for a long time.	 " ,
 
- " Narration  … " ,
+ " Narration  Chapter_1-0041800 … " ,
 
- " Narration  If you were to disregard the scene that had taken place earlier, her self-assured words would seem genuine.  " ,
+ " Narration  Chapter_1-0042000 If you were to disregard the scene that had taken place earlier, her self-assured words would seem genuine.  " ,
 
- " Narration  She\'s noticeably frustrated, like she\'s trying to convince you to believe in her words. Has she really been tricked into thinking she\'s at fault? To the point she would stand up for those so-called ‘friends’? " ,
+ " Narration  Chapter_1-0042200 She\'s noticeably frustrated, like she\'s trying to convince you to believe in her words. Has she really been tricked into thinking she\'s at fault? To the point she would stand up for those so-called ‘friends’? " ,
 
- " Player  How long, exactly, have they been your friends? " ,
+ " Player  Chapter_1-0042500 How long, exactly, have they been your friends? " ,
 
- " Narration  Your tone is soft, encouraging her to open up. Even so, her eyes dart around, desperately seeking for anywhere to look except your own gaze. " ,
+ " Narration  Chapter_1-0042800 Your tone is soft, encouraging her to open up. Even so, her eyes dart around, desperately seeking for anywhere to look except your own gaze. " ,
 
- " Atria  …As long as I remember. Really, I’m serious… they’re just " ,
+ " Atria  Chapter_1-0043100 …As long as I remember. Really, I’m serious… they’re just " ,
 
- " Atria  trying to deal with me. " ,
+ " Atria  Chapter_1-0043200 trying to deal with me. " ,
 
- " Player  Don’t you think they are being a bit… ah, harsh? " ,
+ " Player  Chapter_1-0043500 Don’t you think they are being a bit… ah, harsh? " ,
 
- " Atria2_Sad  Atria2_Sad " ,
+ " Atria2_Sad  Chapter_1-0043700 Atria2_Sad " ,
 
- " Narration  You observe Atria closely, noticing the conflict within her as she struggles with her loyalty to her ‘friends’ and their effect on her emotional stability. She seems torn, caught between the conflicting beliefs instilled by her ‘friends’ and the flickers of doubt emerging within her. " ,
+ " Narration  Chapter_1-0044000 You observe Atria closely, noticing the conflict within her as she struggles with her loyalty to her ‘friends’ and their effect on her emotional stability. She seems torn, caught between the conflicting beliefs instilled by her ‘friends’ and the flickers of doubt emerging within her. " ,
 
- " Narration  She speaks, her voice laced with a forced conviction. " ,
+ " Narration  Chapter_1-0044200 She speaks, her voice laced with a forced conviction. " ,
 
- " Atria  It\'s… fine. I’m used to it. " ,
+ " Atria  Chapter_1-0044500 It\'s… fine. I’m used to it. " ,
 
- " Narration  …Used to it? " ,
+ " Narration  Chapter_1-0044800 …Used to it? " ,
 
- " Narration  You struggle for a good moment, before a realization hits you; her perception of reality has been shaped by years of… whatever they had done to her. " ,
+ " Narration  Chapter_1-0045000 You struggle for a good moment, before a realization hits you; her perception of reality has been shaped by years of… whatever they had done to her. " ,
 
- " Narration  Comforting and giving advice wasn’t exactly your strong suit... " ,
+ " Narration  Chapter_1-0045200 Comforting and giving advice wasn’t exactly your strong suit... " ,
 
- " Player  Atria… that\'s not normal. " ,
+ " Player  Chapter_1-0045500 Atria… that\'s not normal. " ,
 
- " Atria Atria2_Timid  Huh? " ,
+ " Atria Atria2_Timid  Chapter_1-0045800 Huh? " ,
 
- " Narration  She takes a few seconds to herself, a mix of confusion and curiosity seeping through her expression. You take the silence as an opportunity to explain and clear up any possible questions. " ,
+ " Narration  Chapter_1-0046100 She takes a few seconds to herself, a mix of confusion and curiosity seeping through her expression. You take the silence as an opportunity to explain and clear up any possible questions. " ,
 
- " Player  What I mean is, friends are meant to encourage your hobbies, and allow you to open up about yourself. What I saw back there wasn’t healthy… nor acceptable. " ,
+ " Player  Chapter_1-0046400 What I mean is, friends are meant to encourage your hobbies, and allow you to open up about yourself. What I saw back there wasn’t healthy… nor acceptable. " ,
 
- " Narration  You speak with a confident tone, pushing aside your own uncertainties on how to navigate such a sensitive conversation. The more you speak, however, the more confusion crosses Atrias face. " ,
+ " Narration  Chapter_1-0046700 You speak with a confident tone, pushing aside your own uncertainties on how to navigate such a sensitive conversation. The more you speak, however, the more confusion crosses Atrias face. " ,
 
- " Atria  But… that\'s how it’s always been. It\'s been like that for as " ,
+ " Atria  Chapter_1-0047000 But… that\'s how it’s always been. It\'s been like that for as " ,
 
- " Atria  long as I remember. " ,
+ " Atria  Chapter_1-0047100 long as I remember. " ,
 
- " Narration  The confusion of the whole situation only proved the depth of her conditioning. " ,
+ " Narration  Chapter_1-0047400 The confusion of the whole situation only proved the depth of her conditioning. " ,
 
- " Narration  The dynamics you had witnessed between her and her so-called ‘friends’ seem to be ingrained in her entire understanding of relationships. It blurs the line of what she depicts as acceptable or not.  " ,
+ " Narration  Chapter_1-0047600 The dynamics you had witnessed between her and her so-called ‘friends’ seem to be ingrained in her entire understanding of relationships. It blurs the line of what she depicts as acceptable or not.  " ,
 
- " Player  Do you mind explaining to me what your friends have been like towards you? Perhaps I can get a better insight on what exactly is going on. " ,
+ " Player  Chapter_1-0047900 Do you mind explaining to me what your friends have been like towards you? Perhaps I can get a better insight on what exactly is going on. " ,
 
- " Player  I… understand if you don’t want to share. Though it really could help me evaluate who’s in the wrong. " ,
+ " Player  Chapter_1-0048100 I… understand if you don’t want to share. Though it really could help me evaluate who’s in the wrong. " ,
 
- " Atria Atria1_Timid  …I would, but… they don’t really like me talking to other " ,
+ " Atria Atria1_Timid  Chapter_1-0048400 …I would, but… they don’t really like me talking to other " ,
 
- " Atria Atria1_Timid  people… " ,
+ " Atria Atria1_Timid  Chapter_1-0048500 people… " ,
 
- " Atria Atria1_Timid  …But… the way you are talking to me completely contradicts the things that they have said would happen if I did… " ,
+ " Atria Atria1_Timid  Chapter_1-0048700 …But… the way you are talking to me completely contradicts the things that they have said would happen if I did… " ,
 
- " Narration  Atria mumbles, taking in a deep breath as she contemplates whether or not she should open up. " ,
+ " Narration  Chapter_1-0049000 Atria mumbles, taking in a deep breath as she contemplates whether or not she should open up. " ,
 
- " Atria  …Alright, just– please don’t tell them I said anything. Nobody… has ever, er… offered this to me, so… I’m not really sure how they would react if they found out. " ,
+ " Atria  Chapter_1-0049300 …Alright, just– please don’t tell them I said anything. Nobody… has ever, er… offered this to me, so… I’m not really sure how they would react if they found out. " ,
 
- " Narration  You nod, reassuring her. " ,
+ " Narration  Chapter_1-0049600 You nod, reassuring her. " ,
 
- " Player  I wouldn’t dream of it. " ,
+ " Player  Chapter_1-0049900 I wouldn’t dream of it. " ,
 
- " Narration  Atria visibly relaxes, her tense posture softening slightly as she starts to consider sharing her experiences. It\'s a step into the unknown for her.  " ,
+ " Narration  Chapter_1-0050200 Atria visibly relaxes, her tense posture softening slightly as she starts to consider sharing her experiences. It\'s a step into the unknown for her.  " ,
 
- " Atria  Okay, just… give me a moment.  " ,
+ " Atria  Chapter_1-0050500 Okay, just… give me a moment.  " ,
 
- " Narration  She takes a deep breath, steadying herself as she gathers the courage to break the chains of silence that have bound her for so long. " ,
+ " Narration  Chapter_1-0050800 She takes a deep breath, steadying herself as she gathers the courage to break the chains of silence that have bound her for so long. " ,
 
- " Atria1_Nervous  Atria1_Nervous " ,
+ " Atria1_Nervous  Chapter_1-0051000 Atria1_Nervous " ,
 
- " Narration  A weak smile forms as she reminisces. " ,
+ " Narration  Chapter_1-0051200 A weak smile forms as she reminisces. " ,
 
- " Atria  I met them in 2nd grade, and they were the first people in my life that would actually call me a friend. …They never really liked me hanging out with others. So, since then, I’ve just kind of stuck with them. " ,
+ " Atria  Chapter_1-0051500 I met them in 2nd grade, and they were the first people in my life that would actually call me a friend. …They never really liked me hanging out with others. So, since then, I’ve just kind of stuck with them. " ,
 
- " Atria  They helped me, and they still help me to this day. The least I can do for them is follow a couple orders here and there. …I don’t exactly know what would happen if I didn’t do as they asked, anyways. There\'s no use putting up too much of a fight. " ,
+ " Atria  Chapter_1-0051700 They helped me, and they still help me to this day. The least I can do for them is follow a couple orders here and there. …I don’t exactly know what would happen if I didn’t do as they asked, anyways. There\'s no use putting up too much of a fight. " ,
 
- " Narration  A small, breathless laugh leaves her, but it seems rather simulated. " ,
+ " Narration  Chapter_1-0052000 A small, breathless laugh leaves her, but it seems rather simulated. " ,
 
- " Atria  They remind me when I speak too much, and push me to improve myself. They put up with me, even now, after years of not being able to keep to myself. " ,
+ " Atria  Chapter_1-0052300 They remind me when I speak too much, and push me to improve myself. They put up with me, even now, after years of not being able to keep to myself. " ,
 
- " Atria1_Timid  Atria1_Timid " ,
+ " Atria1_Timid  Chapter_1-0052500 Atria1_Timid " ,
 
- " Narration  Atria’s expression fades as she takes a moment to think about what she had just said. Quietly, she repeats her words to herself. " ,
+ " Narration  Chapter_1-0052800 Atria’s expression fades as she takes a moment to think about what she had just said. Quietly, she repeats her words to herself. " ,
 
- " Atria  …Years. " ,
+ " Atria  Chapter_1-0053100 …Years. " ,
 
- " Atria  I’m… lucky they even stick around. " ,
+ " Atria  Chapter_1-0053400 I’m… lucky they even stick around. " ,
 
- " Narration  Her words are solemn, yet she accepts this idea as the truth with no troubles. You shake your head. " ,
+ " Narration  Chapter_1-0053700 Her words are solemn, yet she accepts this idea as the truth with no troubles. You shake your head. " ,
 
- " Player  I… I can’t know exactly what your life has been like, but from what I saw back there, they… really don’t seem like they are doing this for your sake.  " ,
+ " Player  Chapter_1-0054000 I… I can’t know exactly what your life has been like, but from what I saw back there, they… really don’t seem like they are doing this for your sake.  " ,
 
- " Player  I can understand it\'s difficult to accept this, especially since you haven’t been exposed to kinder relationships. " ,
+ " Player  Chapter_1-0054200 I can understand it\'s difficult to accept this, especially since you haven’t been exposed to kinder relationships. " ,
 
- " Player  However, isolating you from others and demanding obedience is not a healthy dynamic. You have individuality, and it shouldn’t be suppressed. " ,
+ " Player  Chapter_1-0054400 However, isolating you from others and demanding obedience is not a healthy dynamic. You have individuality, and it shouldn’t be suppressed. " ,
 
- " Narration  You emphasize the qualities of healthy relationships, hoping your words impact her twisted definition of a friend. " ,
+ " Narration  Chapter_1-0054700 You emphasize the qualities of healthy relationships, hoping your words impact her twisted definition of a friend. " ,
 
- " Atria2_Timid  Atria2_Timid " ,
+ " Atria2_Timid  Chapter_1-0054900 Atria2_Timid " ,
 
- " Narration  She looks up in thought, finding it difficult to grasp the foreign concept that her ‘friends’ actions may not align with true friendship. " ,
+ " Narration  Chapter_1-0055100 She looks up in thought, finding it difficult to grasp the foreign concept that her ‘friends’ actions may not align with true friendship. " ,
 
- " Atria  But… they\'ve always said it\'s for my own good. That their guidance and control are necessary to make me better. Isn’t… that how friends are supposed to be? " ,
+ " Atria  Chapter_1-0055400 But… they\'ve always said it\'s for my own good. That their guidance and control are necessary to make me better. Isn’t… that how friends are supposed to be? " ,
 
- " Narration  You look at her questioningly, wondering how exactly you could explain this to her when her thought process had been so warped and muddled. " ,
+ " Narration  Chapter_1-0055700 You look at her questioningly, wondering how exactly you could explain this to her when her thought process had been so warped and muddled. " ,
 
- " Player  …Here, imagine this; a friendship where you are allowed to express yourself freely, and your thoughts and feelings are valued.  " ,
+ " Player  Chapter_1-0056000 …Here, imagine this; a friendship where you are allowed to express yourself freely, and your thoughts and feelings are valued.  " ,
 
- " Narration  Atria\'s eyes widen, fascinated in the allure of this alternate reality. " ,
+ " Narration  Chapter_1-0056300 Atria\'s eyes widen, fascinated in the allure of this alternate reality. " ,
 
- " Atria1_Timid  Atria1_Timid " ,
+ " Atria1_Timid  Chapter_1-0056500 Atria1_Timid " ,
 
- " Atria  …Are you sure… that’s really possible? " ,
+ " Atria  Chapter_1-0056800 …Are you sure… that’s really possible? " ,
 
- " Narration  You nod, offering her your hand. She reluctantly takes it, standing. " ,
+ " Narration  Chapter_1-0057100 You nod, offering her your hand. She reluctantly takes it, standing. " ,
 
- " Player  ...I understand if you don’t believe me, but hey, why not try it out? " ,
+ " Player  Chapter_1-0057400 ...I understand if you don’t believe me, but hey, why not try it out? " ,
 
- " Atria Atria2_Timid  … " ,
+ " Atria Atria2_Timid  Chapter_1-0057700 … " ,
 
- " Atria Atria2_Timid  …I-I’m scared… " ,
+ " Atria Atria2_Timid  Chapter_1-0057900 …I-I’m scared… " ,
 
- " Atria Atria2_Timid  …What are they going to think? " ,
+ " Atria Atria2_Timid  Chapter_1-0058100 …What are they going to think? " ,
 
- " Narration  You look at her with solemn eyes, acknowledging the severity of her situation. " ,
+ " Narration  Chapter_1-0058400 You look at her with solemn eyes, acknowledging the severity of her situation. " ,
 
- " Proceed to two choices <Tell her to confront them?> or <Tell her to take her time>  Proceed to two choices: <Tell her to confront them?> or <Tell her to take her time> " ,
+ " Proceed to two choices <Tell her to confront them?> or <Tell her to take her time>  Chapter_1-0058600 Proceed to two choices: <Tell her to confront them?> or <Tell her to take her time> " ,
 
- " Choice 1 Tell her to confront them  Choice 1: Tell her to confront them " ,
+ " Choice 1 Tell her to confront them  Chapter_1-0058800 Choice 1: Tell her to confront them " ,
 
- " Player  Atria, I understand your attachment to them, but a lot of their actions that you’ve explained to me don’t seem right in any way.. " ,
+ " Player  Chapter_1-0059100 Atria, I understand your attachment to them, but a lot of their actions that you’ve explained to me don’t seem right in any way.. " ,
 
- " Player  If you think they are causing you hurt, the best thing to do is confront them as soon as possible. " ,
+ " Player  Chapter_1-0059300 If you think they are causing you hurt, the best thing to do is confront them as soon as possible. " ,
 
- " Player  If they disregard your feelings after you do so, they aren’t worth your time. Let alone your pain. " ,
+ " Player  Chapter_1-0059500 If they disregard your feelings after you do so, they aren’t worth your time. Let alone your pain. " ,
 
- " Player  I know it may be hard, but sometimes cutting people out of your life is the best decision. It can be the difference between differing sides of your mental stability. " ,
+ " Player  Chapter_1-0059700 I know it may be hard, but sometimes cutting people out of your life is the best decision. It can be the difference between differing sides of your mental stability. " ,
 
- " Narration  Atrias eyes widen at this, fearing the mere idea of confrontation. " ,
+ " Narration  Chapter_1-0060000 Atrias eyes widen at this, fearing the mere idea of confrontation. " ,
 
- " Atria  …But what if they respond negatively…? " ,
+ " Atria  Chapter_1-0060300 …But what if they respond negatively…? " ,
 
- " Atria2_Sad  Atria2_Sad " ,
+ " Atria2_Sad  Chapter_1-0060500 Atria2_Sad " ,
 
- " Atria  What if they… " ,
+ " Atria  Chapter_1-0060800 What if they… " ,
 
- " Narration  She flinches, seemingly reimagining older events. Taking a deep breath, she composes herself. It was a blatant lie, a response that seems like a natural reflex to recalling such things. " ,
+ " Narration  Chapter_1-0061100 She flinches, seemingly reimagining older events. Taking a deep breath, she composes herself. It was a blatant lie, a response that seems like a natural reflex to recalling such things. " ,
 
- " Atria1_Timid  Atria1_Timid " ,
+ " Atria1_Timid  Chapter_1-0061300 Atria1_Timid " ,
 
- " Atria  …I… don’t think that’s a good idea. " ,
+ " Atria  Chapter_1-0061600 …I… don’t think that’s a good idea. " ,
 
- " Scene reconverges here  Scene reconverges here " ,
+ " Scene reconverges here  Chapter_1-0061800 Scene reconverges here " ,
 
- " Choice 2 Tell her to take her time  Choice 2: Tell her to take her time " ,
+ " Choice 2 Tell her to take her time  Chapter_1-0062000 Choice 2: Tell her to take her time " ,
 
- " Player  Don’t worry too much about it. I’ll help you through this, and you can take as much time as you need. " ,
+ " Player  Chapter_1-0062300 Don’t worry too much about it. I’ll help you through this, and you can take as much time as you need. " ,
 
- " Player  It\'s a large step to take, and it can take a lot. I encourage you to take your time. " ,
+ " Player  Chapter_1-0062500 It\'s a large step to take, and it can take a lot. I encourage you to take your time. " ,
 
- " Player  …Just, think about what\'s best for you. Consider the idea of friends that allow you to just be yourself. " ,
+ " Player  Chapter_1-0062700 …Just, think about what\'s best for you. Consider the idea of friends that allow you to just be yourself. " ,
 
- " Narration  Slowly, Atria nods in agreement. " ,
+ " Narration  Chapter_1-0063000 Slowly, Atria nods in agreement. " ,
 
- " Atria1_Timid  Atria1_Timid " ,
+ " Atria1_Timid  Chapter_1-0063200 Atria1_Timid " ,
 
- " Atria  I… I don’t really know… I’ve known them for so long… " ,
+ " Atria  Chapter_1-0063500 I… I don’t really know… I’ve known them for so long… " ,
 
- " Scene reconverges here  Scene reconverges here " ,
+ " Scene reconverges here  Chapter_1-0063600 Scene reconverges here " ,
 
- " Atria  But… " ,
+ " Atria  Chapter_1-0063900 But… " ,
 
- " Atria1_Nervous  Atria1_Nervous " ,
+ " Atria1_Nervous  Chapter_1-0064100 Atria1_Nervous " ,
 
- " Atria  I can try. " ,
+ " Atria  Chapter_1-0064300 I can try. " ,
 
- " Narration  You smile at her efforts. " ,
+ " Narration  Chapter_1-0064600 You smile at her efforts. " ,
 
- " Player  I’ll be here whenever you need me, okay? " ,
+ " Player  Chapter_1-0064900 I’ll be here whenever you need me, okay? " ,
 
- " Player  Well… of course I’m not always here but- My point is, if you need help, don’t worry about asking for it. " ,
+ " Player  Chapter_1-0065100 Well… of course I’m not always here but- My point is, if you need help, don’t worry about asking for it. " ,
 
- " Atria2_Nervous  Atria2_Nervous " ,
+ " Atria2_Nervous  Chapter_1-0065300 Atria2_Nervous " ,
 
- " Narration  Atria nods, which you take as a cue to leave. " ,
+ " Narration  Chapter_1-0065600 Atria nods, which you take as a cue to leave. " ,
 
- " Narration  … " ,
+ " Narration  Chapter_1-0065800 … " ,
 
- " Narration  But upon turning around… " ,
+ " Narration  Chapter_1-0066000 But upon turning around… " ,
 
- " Atria sprite is removed  Atria sprite is removed " ,
+ " Atria sprite is removed  Chapter_1-0066200 Atria sprite is removed " ,
 
- " Kyo_FP_Bruh - Appears before dialogue box  Kyo_FP_Bruh - Appears before dialogue box " ,
+ " Kyo_FP_Bruh - Appears before dialogue box  Chapter_1-0066400 Kyo_FP_Bruh - Appears before dialogue box " ,
 
- " Player  K– " ,
+ " Player  Chapter_1-0066700 K– " ,
 
- " Player  Holy BONKERS will you stop doing that– " ,
+ " Player  Chapter_1-0066900 Holy BONKERS will you stop doing that– " ,
 
- " Kyo  Oh, come on. I’m not that scary. " ,
+ " Kyo  Chapter_1-0067200 Oh, come on. I’m not that scary. " ,
 
- " Kyo  Anyways, will you stop forgetting why you even talked to her in the first place?? " ,
+ " Kyo  Chapter_1-0067400 Anyways, will you stop forgetting why you even talked to her in the first place?? " ,
 
- " Narration  Oh, right. The radio club. " ,
+ " Narration  Chapter_1-0067700 Oh, right. The radio club. " ,
 
- " Player  Well– you’re here now, so why don’t you do it? " ,
+ " Player  Chapter_1-0068000 Well– you’re here now, so why don’t you do it? " ,
 
- " Kyo  ...She’s waaay more likely to listen to you, you’re the one that was persuading her to do a load of other things. " ,
+ " Kyo  Chapter_1-0068300 ...She’s waaay more likely to listen to you, you’re the one that was persuading her to do a load of other things. " ,
 
- " Player  Sounds like an excuse to me. You’re pretty good at " ,
+ " Player  Chapter_1-0068600 Sounds like an excuse to me. You’re pretty good at " ,
 
- " Player  blabbering, you two could get along. " ,
+ " Player  Chapter_1-0068700 blabbering, you two could get along. " ,
 
- " Narration  Kyo reaches his hand out to push you back towards Atria, but stops mid-way, pulling his hand back, and letting out a long sigh before gesturing to her. " ,
+ " Narration  Chapter_1-0069000 Kyo reaches his hand out to push you back towards Atria, but stops mid-way, pulling his hand back, and letting out a long sigh before gesturing to her. " ,
 
- " Kyo Kyo_FP_Default  Go on. " ,
+ " Kyo Kyo_FP_Default  Chapter_1-0069300 Go on. " ,
 
- " Atria2_Nervous  Atria2_Nervous " ,
+ " Atria2_Nervous  Chapter_1-0069500 Atria2_Nervous " ,
 
- " Kyo left, Atria right  Kyo left, Atria right " ,
+ " Kyo left, Atria right  Chapter_1-0069600 Kyo left, Atria right " ,
 
- " Player  …Sorry about that. " ,
+ " Player  Chapter_1-0069900 …Sorry about that. " ,
 
- " Narration  Atria looks towards you with blatant confusion. " ,
+ " Narration  Chapter_1-0070200 Atria looks towards you with blatant confusion. " ,
 
- " Player  I was just wondering if you’re interested in clubs at all? It’ll be a perfect opportunity to get yourself out there and make new friends. " ,
+ " Player  Chapter_1-0070500 I was just wondering if you’re interested in clubs at all? It’ll be a perfect opportunity to get yourself out there and make new friends. " ,
 
- " Player  I was hoping to recruit you to the radio club. There, you’ll be able to go on tangents without being judged. I think you’ll fit the role perfectly, and hey, you could maybe help recruit some new members too…? " ,
+ " Player  Chapter_1-0070700 I was hoping to recruit you to the radio club. There, you’ll be able to go on tangents without being judged. I think you’ll fit the role perfectly, and hey, you could maybe help recruit some new members too…? " ,
 
- " Atria2_Timid  Atria2_Timid " ,
+ " Atria2_Timid  Chapter_1-0070900 Atria2_Timid " ,
 
- " Atria  Ah… you’re sure I won’t come off as annoying? Y’know… talking and such? " ,
+ " Atria  Chapter_1-0071200 Ah… you’re sure I won’t come off as annoying? Y’know… talking and such? " ,
 
- " Player  Of course not. The entire point of a radio club is to speak into a microphone. You can even take it for a little test run, if you’d like. " ,
+ " Player  Chapter_1-0071500 Of course not. The entire point of a radio club is to speak into a microphone. You can even take it for a little test run, if you’d like. " ,
 
- " Atria  ... " ,
+ " Atria  Chapter_1-0071800 ... " ,
 
- " Atria  W-well… I suppose it’s the least I can do… you’ve kind of helped me consider possibilities I would have never even imagined otherwise… " ,
+ " Atria  Chapter_1-0072000 W-well… I suppose it’s the least I can do… you’ve kind of helped me consider possibilities I would have never even imagined otherwise… " ,
 
- " Narration  There’s a brief pause before Atria clings to your sleeve, allowing you to lead the way. " ,
+ " Narration  Chapter_1-0072300 There’s a brief pause before Atria clings to your sleeve, allowing you to lead the way. " ,
 
- " Sprites are removed - momentarily for background transition  Sprites are removed - momentarily for background transition " ,
+ " Sprites are removed - momentarily for background transition  Chapter_1-0072500 Sprites are removed - momentarily for background transition " ,
 
- " Music_Room_Basic + Music_Printer  Music_Room_Basic + Music_Printer " ,
+ " Music_Room_Basic + Music_Printer  Chapter_1-0072700 Music_Room_Basic + Music_Printer " ,
 
- " Kyo_SP_Default  Kyo_SP_Default " ,
+ " Kyo_SP_Default  Chapter_1-0072900 Kyo_SP_Default " ,
 
- " Atria1_Timid  Atria1_Timid " ,
+ " Atria1_Timid  Chapter_1-0073000 Atria1_Timid " ,
 
- " Kyo left, Atria right  Kyo left, Atria right " ,
+ " Kyo left, Atria right  Chapter_1-0073100 Kyo left, Atria right " ,
 
- " Player  Here’s the club room! Cozy, isn’t it? " ,
+ " Player  Chapter_1-0073400 Here’s the club room! Cozy, isn’t it? " ,
 
- " Kyo_FP_Smiling  Kyo_FP_Smiling " ,
+ " Kyo_FP_Smiling  Chapter_1-0073600 Kyo_FP_Smiling " ,
 
- " Narration  Kyo speaks, his tone strung with an obvious sarcasm. " ,
+ " Narration  Chapter_1-0073900 Kyo speaks, his tone strung with an obvious sarcasm. " ,
 
- " Kyo  Wooow… 32/10 persuasive skills. " ,
+ " Kyo  Chapter_1-0074200 Wooow… 32/10 persuasive skills. " ,
 
- " Kyo  Narration:  " ,
+ " Kyo  Chapter_1-0074400 Narration:  " ,
 
- " Kyo  You just shoot a glare at him before sighing and moving on. " ,
+ " Kyo  Chapter_1-0074500 You just shoot a glare at him before sighing and moving on. " ,
 
- " Player  Well, how about you step up to the microphone and try it out? Sound good? " ,
+ " Player  Chapter_1-0074800 Well, how about you step up to the microphone and try it out? Sound good? " ,
 
- " Narration  Atria reluctantly approaches the microphone at the back of the studio, looking at you for approval before switching it on, tapping its end unsurely.  " ,
+ " Narration  Chapter_1-0075100 Atria reluctantly approaches the microphone at the back of the studio, looking at you for approval before switching it on, tapping its end unsurely.  " ,
 
- " Narration  She has to lower it a bit in order to reach it properly… heh, that would make two short people in the club. " ,
+ " Narration  Chapter_1-0075300 She has to lower it a bit in order to reach it properly… heh, that would make two short people in the club. " ,
 
- " Atria  ...Ah… what should I say? " ,
+ " Atria  Chapter_1-0075600 ...Ah… what should I say? " ,
 
- " Player  Hmm.. " ,
+ " Player  Chapter_1-0075900 Hmm.. " ,
 
- " Narration  You look at Kyo for an answer, but you only receive a shrug in response. " ,
+ " Narration  Chapter_1-0076200 You look at Kyo for an answer, but you only receive a shrug in response. " ,
 
- " Player  ...I guess whatever you feel like. It’s just a test, so, how about something you’re passionate about? " ,
+ " Player  Chapter_1-0076500 ...I guess whatever you feel like. It’s just a test, so, how about something you’re passionate about? " ,
 
- " Kyo  Yeah, that works. Just whatever is easy to talk about. " ,
+ " Kyo  Chapter_1-0076800 Yeah, that works. Just whatever is easy to talk about. " ,
 
- " Kyo sprite is removed  Kyo sprite is removed " ,
+ " Kyo sprite is removed  Chapter_1-0077000 Kyo sprite is removed " ,
 
- " Atria2_Timid  Atria2_Timid " ,
+ " Atria2_Timid  Chapter_1-0077100 Atria2_Timid " ,
 
- " Centered  Centered " ,
+ " Centered  Chapter_1-0077200 Centered " ,
 
- " Narration  Atria approaches the mic, a bit tense. She starts off very reluctant, stuttering over her sentences. " ,
+ " Narration  Chapter_1-0077500 Atria approaches the mic, a bit tense. She starts off very reluctant, stuttering over her sentences. " ,
 
- " Atria  ...Hello, I-I’m Atria… um.. " ,
+ " Atria  Chapter_1-0077800 ...Hello, I-I’m Atria… um.. " ,
 
- " Atria  ... " ,
+ " Atria  Chapter_1-0078000 ... " ,
 
- " Atria  ... " ,
+ " Atria  Chapter_1-0078200 ... " ,
 
- " Player  Hey, it\'s alright. Just say whatever comes naturally, it doesn’t have to be thought out like some perfect script. " ,
+ " Player  Chapter_1-0078500 Hey, it\'s alright. Just say whatever comes naturally, it doesn’t have to be thought out like some perfect script. " ,
 
- " Narration  Her eyes shift towards your direction, and she takes a deep breath before continuing. " ,
+ " Narration  Chapter_1-0078800 Her eyes shift towards your direction, and she takes a deep breath before continuing. " ,
 
- " Atria2_Nervous  Atria2_Nervous " ,
+ " Atria2_Nervous  Chapter_1-0079000 Atria2_Nervous " ,
 
- " Narration  Slowly, her body relaxes a little, as she lets go of her worries for a fleeting moment. It takes a little longer for her to grow comfortable with purposely being so outspoken like this. " ,
+ " Narration  Chapter_1-0079300 Slowly, her body relaxes a little, as she lets go of her worries for a fleeting moment. It takes a little longer for her to grow comfortable with purposely being so outspoken like this. " ,
 
- " Atria sprite is removed  Atria sprite is removed " ,
+ " Atria sprite is removed  Chapter_1-0079500 Atria sprite is removed " ,
 
- " Black screen  Black screen " ,
+ " Black screen  Chapter_1-0079700 Black screen " ,
 
- " Narration  She continues speaking, slowly but surely becoming more confident as she speaks her mind, whatever small bits of information or passion that come to her. " ,
+ " Narration  Chapter_1-0079900 She continues speaking, slowly but surely becoming more confident as she speaks her mind, whatever small bits of information or passion that come to her. " ,
 
- " Narration  Some time passes, and not long later, she begins speaking like she had been waiting for this opportunity for years. " ,
+ " Narration  Chapter_1-0080100 Some time passes, and not long later, she begins speaking like she had been waiting for this opportunity for years. " ,
 
- " Atrias club room CG  Atrias club room CG " ,
+ " Atrias club room CG  Chapter_1-0080300 Atrias club room CG " ,
 
- " Narration  Her face lights up with the most genuine smile you have seen from her since the two of you met. You and Kyo give each other accomplished glances, allowing her to ramble without being ridiculed for what seems like the first time in her life. " ,
+ " Narration  Chapter_1-0080500 Her face lights up with the most genuine smile you have seen from her since the two of you met. You and Kyo give each other accomplished glances, allowing her to ramble without being ridiculed for what seems like the first time in her life. " ,
 
- " Narration  She seems like an entirely different person, babbling about whatever comes to her mind, in a world of her own. " ,
+ " Narration  Chapter_1-0080700 She seems like an entirely different person, babbling about whatever comes to her mind, in a world of her own. " ,
 
- " Narration  Even a few giddy sounding giggles manage to leave Atria. It was clear as day that she found enjoyment in this. " ,
+ " Narration  Chapter_1-0080900 Even a few giddy sounding giggles manage to leave Atria. It was clear as day that she found enjoyment in this. " ,
 
- " Narration  Though after a fleeting moment, she stops, making eye contact as if just remembering there are people listening to her. Her eyes widen slightly, but a small smile remains on her expression. " ,
+ " Narration  Chapter_1-0081100 Though after a fleeting moment, she stops, making eye contact as if just remembering there are people listening to her. Her eyes widen slightly, but a small smile remains on her expression. " ,
 
- " Atria  ...Are you sure this is okay?.. Not suppressing the urge to talk… it feels so different. " ,
+ " Atria  Chapter_1-0081400 ...Are you sure this is okay?.. Not suppressing the urge to talk… it feels so different. " ,
 
- " Kyo  ... " ,
+ " Kyo  Chapter_1-0081700 ... " ,
 
- " Kyo  ...Damn she’s traumatized. " ,
+ " Kyo  Chapter_1-0081900 ...Damn she’s traumatized. " ,
 
- " Narration  You try to nudge Kyo, as this was most definitely *not* the time, but he ducks away. " ,
+ " Narration  Chapter_1-0082200 You try to nudge Kyo, as this was most definitely *not* the time, but he ducks away. " ,
 
- " Player  Of course it’s alright. So, what do you say? Why don’t you try making some friends by helping start up a club? " ,
+ " Player  Chapter_1-0082500 Of course it’s alright. So, what do you say? Why don’t you try making some friends by helping start up a club? " ,
 
- " Atria  ...I– " ,
+ " Atria  Chapter_1-0082800 ...I– " ,
 
- " Narration  Atria ponders this suggestion, taking a while to push away any troubles with her ‘friends’. " ,
+ " Narration  Chapter_1-0083100 Atria ponders this suggestion, taking a while to push away any troubles with her ‘friends’. " ,
 
- " Narration  She shakes her head, clearing her mind before nodding with a newfound assurance. " ,
+ " Narration  Chapter_1-0083300 She shakes her head, clearing her mind before nodding with a newfound assurance. " ,
 
- " Atria  I think I’d like that. " ,
+ " Atria  Chapter_1-0083600 I think I’d like that. " ,
 

@@ -134,7 +134,21 @@ if __name__ == "__main__":
         
     
     script_js_read.close()
+    
+    
     time.sleep(2)
+
+    
+    script_js_write = open(
+        "js/script.js",
+        "w",
+    )
+    script_js_write.writelines(script_js_lines)   
+    script_js_write.close()
+
+
+    time.sleep(2)
+
 
     # hard coded...
     chap_0_read = open(new_txt_files_list[0],'r')

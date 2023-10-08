@@ -150,197 +150,203 @@ monogatari.script({
 	'CHAPTER_0': [
 		'chap 0,',
 		// start-of-CHAPTER-0-mark
- " Intro Music  Chapter_0-0000400 Intro Music " ,
+ " _Name _DialogCode _Tex " ,
 
- " Narration  Chapter_0-0000700 It\'s lunch break at school, but the atmosphere is livelier than usual. Oh right, it\'s Club Day today. You still can\'t decide which club you want to join this year.  " ,
+ "  Chapter_0_0000100 Prologue: Waxing Iridescent " ,
 
- " Narration  Chapter_0-0000900 You stop walking the hallways to look at the board of various club posters. Oh man, you\'ve never joined one before, so the amount of options overwhelm you a little. You think of just joining multiple clubs at a time, but you quickly brush off that thought. Clubs are supposed to be a good break from the humdrum of academics. Don\'t get ahead of yourself. " ,
+ " School hallway day  Chapter_0_0000300 School hallway day " ,
 
- " Narration  Chapter_0-0001100 There\'s an art club poster. That\'s a hard no. The most artistic you\'ve ever been was when you colored the sky a solid green and the ground magenta. Only because the other crayons were missing. And that was in a coloring book. Not fun at all. " ,
+ " Intro Music  Chapter_0_0000400 Intro Music " ,
 
- " Narration  Chapter_0-0001300 There are also a few posters advertising different sports clubs. No thanks. P.E. class already tires you out daily. There\'s no way you have the endurance to do that kind of stuff in your precious free time.  " ,
+ " Narration  Chapter_0_0000700 It\'s lunch break at school, but the atmosphere is livelier than usual. Oh right, it\'s Club Day today. You still can\'t decide which club you want to join this year.  " ,
 
- " Narration  Chapter_0-0001500 Oh god, there\'s also the paranormal activity club. No way. Nope. You don\'t take the supernatural as seriously as its club members do. You know this because earlier at brunch today, the club advertised by telling ghost stories that were, in their own words, “real, not clickbait.” " ,
+ " Narration  Chapter_0_0000900 You stop walking the hallways to look at the board of various club posters. Oh man, you\'ve never joined one before, so the amount of options overwhelm you a little. You think of just joining multiple clubs at a time, but you quickly brush off that thought. Clubs are supposed to be a good break from the humdrum of academics. Don\'t get ahead of yourself. " ,
 
- " Narration  Chapter_0-0001700 One of them even said, “In fact, there\'s a ghost in this school right now, giving bad luck to people who are about to do presentations!” Nonsense. You\'re a junior and you are damn sure that there were no ghosts the entire time you attended school. " ,
+ " Narration  Chapter_0_0001100 There\'s an art club poster. That\'s a hard no. The most artistic you\'ve ever been was when you colored the sky a solid green and the ground magenta. Only because the other crayons were missing. And that was in a coloring book. Not fun at all. " ,
 
- " Narration  Chapter_0-0001900 It would be fine if the club was interested in ghosts just for fun, but their fervent attitude says otherwise. You shudder at the thought of even talking to them.  " ,
+ " Narration  Chapter_0_0001300 There are also a few posters advertising different sports clubs. No thanks. P.E. class already tires you out daily. There\'s no way you have the endurance to do that kind of stuff in your precious free time.  " ,
 
- " Narration  Chapter_0-0002100 Ooh, a debate club poster. You don\'t consider yourself a chatterbox, but it\'s always fascinating to listen to other people\'s perspectives and find ways to decimate their arguments. It\'s basically a fun way to talk shit to others. Well, for the most part, save for some annoyingly serious people... " ,
+ " Narration  Chapter_0_0001500 Oh god, there\'s also the paranormal activity club. No way. Nope. You don\'t take the supernatural as seriously as its club members do. You know this because earlier at brunch today, the club advertised by telling ghost stories that were, in their own words, “real, not clickbait.” " ,
 
- " Narration  Chapter_0-0002300 Damn, besides the debate club, it looks like you don\'t have many good options here. " ,
+ " Narration  Chapter_0_0001700 One of them even said, “In fact, there\'s a ghost in this school right now, giving bad luck to people who are about to do presentations!” Nonsense. You\'re a junior and you are damn sure that there were no ghosts the entire time you attended school. " ,
 
- " Narration  Chapter_0-0002500 Wait, what\'s with that poster over there?  " ,
+ " Narration  Chapter_0_0001900 It would be fine if the club was interested in ghosts just for fun, but their fervent attitude says otherwise. You shudder at the thought of even talking to them.  " ,
 
- " Radio club poster (wall poster). Allow toggle for zoom in to the RadioClub.png in Art folder.  Chapter_0-0002700 Radio club poster (wall poster). Allow toggle for zoom in to the RadioClub.png in Art folder. " ,
+ " Narration  Chapter_0_0002100 Ooh, a debate club poster. You don\'t consider yourself a chatterbox, but it\'s always fascinating to listen to other people\'s perspectives and find ways to decimate their arguments. It\'s basically a fun way to talk shit to others. Well, for the most part, save for some annoyingly serious people... " ,
 
- " Narration  Chapter_0-0002900 It advertises... a radio club? Interesting. Teachers love to praise your diction and confidence in your class presentations. This could be worth a try.  " ,
+ " Narration  Chapter_0_0002300 Damn, besides the debate club, it looks like you don\'t have many good options here. " ,
 
- " Narration  Chapter_0-0003100 You enter a nearby room with the radio club sign on its door.  " ,
+ " Narration  Chapter_0_0002500 Wait, what\'s with that poster over there?  " ,
 
- " Music_Room_Basic  Chapter_0-0003300 Music_Room_Basic " ,
+ " Radio club poster (wall poster). Allow toggle for zoom in to the RadioClub.png in Art folder.  Chapter_0_0002700 Radio club poster (wall poster). Allow toggle for zoom in to the RadioClub.png in Art folder. " ,
 
- " Kyo_BP_Default  Chapter_0-0003500 Kyo_BP_Default " ,
+ " Narration  Chapter_0_0002900 It advertises... a radio club? Interesting. Teachers love to praise your diction and confidence in your class presentations. This could be worth a try.  " ,
 
- " Centered  Chapter_0-0003600 Centered " ,
+ " Narration  Chapter_0_0003100 You enter a nearby room with the radio club sign on its door.  " ,
 
- " Narration  Chapter_0-0003800 There\'s only one student here. Yet, you can tell that you\'re in the right place. Her appearance is just as colorful as the poster, and the graffiti beside her only emphasizes that. " ,
+ " Music_Room_Basic  Chapter_0_0003300 Music_Room_Basic " ,
 
- " Narration  Chapter_0-0004000 The microphone on the other side of the room looks too high for her to reach. That’s a bit weird. " ,
+ " Kyo_BP_Default  Chapter_0_0003500 Kyo_BP_Default " ,
 
- " Narration  Chapter_0-0004200 It looks like the girl’s still on her phone. You decide to get her attention. " ,
+ " Centered  Chapter_0_0003600 Centered " ,
 
- " Player  Chapter_0-0004500 Hi, I wanna join the radio club. " ,
+ " Narration  Chapter_0_0003800 There\'s only one student here. Yet, you can tell that you\'re in the right place. Her appearance is just as colorful as the poster, and the graffiti beside her only emphasizes that. " ,
 
- " Narration  Chapter_0-0004800 She puts her phone away and turns around. " ,
+ " Narration  Chapter_0_0004000 The microphone on the other side of the room looks too high for her to reach. That’s a bit weird. " ,
 
- " ??? Kyo_FP_Shocked  Chapter_0-0005100 AAAAAAAAAAAAAAAAAAAAH!!! " ,
+ " Narration  Chapter_0_0004200 It looks like the girl’s still on her phone. You decide to get her attention. " ,
 
- " Narration  Chapter_0-0005400 The student\'s voice then drops a few octaves lower than you expect her to have. " ,
+ " Player  Chapter_0_0004500 Hi, I wanna join the radio club. " ,
 
- " ??? Kyo_FP_Bruh  Chapter_0-0005700 You fucking scared the shit out of me! My god.  " ,
+ " Narration  Chapter_0_0004800 She puts her phone away and turns around. " ,
 
- " Narration  Chapter_0-0006000 Well, you now know two things. One, this girl is actually a guy. Two, this dude’s language is as colorful as his hair. What a bombastic impression you’ve left on each other. It only goes uphill from here. " ,
+ " ??? Kyo_FP_Shocked  Chapter_0_0005100 AAAAAAAAAAAAAAAAAAAAH!!! " ,
 
- " Player  Chapter_0-0006300 Sorry, I just walked in. Is this the wrong room? I think I\'m in the wrong ro— " ,
+ " Narration  Chapter_0_0005400 The student\'s voice then drops a few octaves lower than you expect her to have. " ,
 
- " Kyo FP_Default  Chapter_0-0006600 No no, wait. I made sure that the door had a sign on it. You\'re here for the radio club, right? " ,
+ " ??? Kyo_FP_Bruh  Chapter_0_0005700 You fucking scared the shit out of me! My god.  " ,
 
- " Player  Chapter_0-0006900 Yeah, that\'s kinda what I said before you started freaking out.  " ,
+ " Narration  Chapter_0_0006000 Well, you now know two things. One, this girl is actually a guy. Two, this dude’s language is as colorful as his hair. What a bombastic impression you’ve left on each other. It only goes uphill from here. " ,
 
- " Kyo  Chapter_0-0007200 Okay, okay, my bad. I literally didn\'t hear you walk in. Anyways, hi, I\'m Kyo Kaneko. What\'s your name? " ,
+ " Player  Chapter_0_0006300 Sorry, I just walked in. Is this the wrong room? I think I\'m in the wrong ro— " ,
 
- " Player  Chapter_0-0007500 I\'m Player.  " ,
+ " Kyo FP_Default  Chapter_0_0006600 No no, wait. I made sure that the door had a sign on it. You\'re here for the radio club, right? " ,
 
- " Player. Alright, here's how the club works.  Chapter_0-0007800 Player. Alright, here\'s how the club works. " ,
+ " Player  Chapter_0_0006900 Yeah, that\'s kinda what I said before you started freaking out.  " ,
 
- " Player  Chapter_0-0008100 Wait, you\'re not gonna be writing anything on the board or something like that? " ,
+ " Kyo  Chapter_0_0007200 Okay, okay, my bad. I literally didn\'t hear you walk in. Anyways, hi, I\'m Kyo Kaneko. What\'s your name? " ,
 
- " Kyo  Chapter_0-0008400 Nah. It\'s not that complicated.  " ,
+ " Player  Chapter_0_0007500 I\'m Player.  " ,
 
- " Narration  Chapter_0-0008700 Is that his way of saying that he\'s not prepared? " ,
+ " Player. Alright, here's how the club works.  Chapter_0_0007800 Player. Alright, here\'s how the club works. " ,
 
- " Kyo  Chapter_0-0009000 For now, this club mainly does school announcements, but I plan to make it so that we also do podcasting too.  " ,
+ " Player  Chapter_0_0008100 Wait, you\'re not gonna be writing anything on the board or something like that? " ,
 
- " Narration  Chapter_0-0009300 You reach into your backpack. " ,
+ " Kyo  Chapter_0_0008400 Nah. It\'s not that complicated.  " ,
 
- " Narration  Chapter_0-0009500 Kyo looks at you in confusion. " ,
+ " Narration  Chapter_0_0008700 Is that his way of saying that he\'s not prepared? " ,
 
- " Player  Chapter_0-0009800 Oh don\'t mind me, I\'m just gonna eat my lunch. " ,
+ " Kyo  Chapter_0_0009000 For now, this club mainly does school announcements, but I plan to make it so that we also do podcasting too.  " ,
 
- " Kyo  Chapter_0-0010100 Ooh, what are you having? " ,
+ " Narration  Chapter_0_0009300 You reach into your backpack. " ,
 
- " Player  Chapter_0-0010400 Butter croissants. " ,
+ " Narration  Chapter_0_0009500 Kyo looks at you in confusion. " ,
 
- " Narration  Chapter_0-0010700 Kyo stares at your bread a little longer than you want him to. " ,
+ " Player  Chapter_0_0009800 Oh don\'t mind me, I\'m just gonna eat my lunch. " ,
 
- " Kyo  Chapter_0-0011000 Can I have some? " ,
+ " Kyo  Chapter_0_0010100 Ooh, what are you having? " ,
 
- " Proceed to two choices <Sure, you can have a bit.> or <No, this is mine. Get your own.>  Chapter_0-0011200 Proceed to two choices: <Sure, you can have a bit.> or <No, this is mine. Get your own.> " ,
+ " Player  Chapter_0_0010400 Butter croissants. " ,
 
- " Choice 1 Sure, you can have a bit.  Chapter_0-0011400 Choice 1: Sure, you can have a bit. " ,
+ " Narration  Chapter_0_0010700 Kyo stares at your bread a little longer than you want him to. " ,
 
- " Kyo FP_Bruh  Chapter_0-0011700 Actually, never mind. There are probably some RAAAAAAAANCID germs in there. I don\'t want any of that. I refuuuuuuuuuuse. " ,
+ " Kyo  Chapter_0_0011000 Can I have some? " ,
 
- " Narration  Chapter_0-0012000 The nerve of this guy...!  " ,
+ " Proceed to two choices <Sure, you can have a bit.> or <No, this is mine. Get your own.>  Chapter_0_0011200 Proceed to two choices: <Sure, you can have a bit.> or <No, this is mine. Get your own.> " ,
 
- " Scene reconverges here  Chapter_0-0012200 Scene reconverges here " ,
+ " Choice 1 Sure, you can have a bit.  Chapter_0_0011400 Choice 1: Sure, you can have a bit. " ,
 
- " Choice 2 No, this is mine. Get your own.  Chapter_0-0012500 Choice 2: No, this is mine. Get your own. " ,
+ " Kyo FP_Bruh  Chapter_0_0011700 Actually, never mind. There are probably some RAAAAAAAANCID germs in there. I don\'t want any of that. I refuuuuuuuuuuse. " ,
 
- " Kyo_FP_Bruh  Chapter_0-0012700 Kyo_FP_Bruh " ,
+ " Narration  Chapter_0_0012000 The nerve of this guy...!  " ,
 
- " Narration  Chapter_0-0013000 Kyo whines and pouts. " ,
+ " Scene reconverges here  Chapter_0_0012200 Scene reconverges here " ,
 
- " Narration  Chapter_0-0013200 What is up with this guy? Yet, you find his pouting face a little cute. Like a puntable cat.  " ,
+ " Choice 2 No, this is mine. Get your own.  Chapter_0_0012500 Choice 2: No, this is mine. Get your own. " ,
 
- " Scene Reconverges Here  Chapter_0-0013300 Scene Reconverges Here " ,
+ " Kyo_FP_Bruh  Chapter_0_0012700 Kyo_FP_Bruh " ,
 
- " Kyo FP_Default  Chapter_0-0013600 Anyways, since this club requires confident people, I\'d say you\'re a pretty good candidate so far. Most people don’t have the balls to approach me. " ,
+ " Narration  Chapter_0_0013000 Kyo whines and pouts. " ,
 
- " Narration  Chapter_0-0013900 You look up and down at Kyo incredulously. " ,
+ " Narration  Chapter_0_0013200 What is up with this guy? Yet, you find his pouting face a little cute. Like a puntable cat.  " ,
 
- " Player  Chapter_0-0014200 Really? You’re not even tall enough to reach the mic over there. " ,
+ " Scene Reconverges Here  Chapter_0_0013300 Scene Reconverges Here " ,
 
- " Kyo  Chapter_0-0014500 Hey hey, shut up. Shut the fuck up. " ,
+ " Kyo FP_Default  Chapter_0_0013600 Anyways, since this club requires confident people, I\'d say you\'re a pretty good candidate so far. Most people don’t have the balls to approach me. " ,
 
- " Narration  Chapter_0-0014800 Kyo looks up at the classroom clock. " ,
+ " Narration  Chapter_0_0013900 You look up and down at Kyo incredulously. " ,
 
- " Kyo  Chapter_0-0015100 Lunch\'s almost over. So, whaddya say, you wanna join the club or not? " ,
+ " Player  Chapter_0_0014200 Really? You’re not even tall enough to reach the mic over there. " ,
 
- " Proceed to two choices <Yes> or <No>  Chapter_0-0015300 Proceed to two choices: <Yes> or <No> " ,
+ " Kyo  Chapter_0_0014500 Hey hey, shut up. Shut the fuck up. " ,
 
- " Choice 1 Yes.  Chapter_0-0015500 Choice 1: Yes. " ,
+ " Narration  Chapter_0_0014800 Kyo looks up at the classroom clock. " ,
 
- " Kyo_FP_Cheerful  Chapter_0-0015700 Kyo_FP_Cheerful " ,
+ " Kyo  Chapter_0_0015100 Lunch\'s almost over. So, whaddya say, you wanna join the club or not? " ,
 
- " Narration  Chapter_0-0016000 Kyo claps his hands. " ,
+ " Proceed to two choices <Yes> or <No>  Chapter_0_0015300 Proceed to two choices: <Yes> or <No> " ,
 
- " Kyo  Chapter_0-0016300 Yeah, let\'s go! Finally, there\'s a second member. " ,
+ " Choice 1 Yes.  Chapter_0_0015500 Choice 1: Yes. " ,
 
- " Player  Chapter_0-0016600 Wait, nobody else is in this club yet?  " ,
+ " Kyo_FP_Cheerful  Chapter_0_0015700 Kyo_FP_Cheerful " ,
 
- " Kyo  Chapter_0-0016900 Oh shit, I forgot to tell you. Yeah, you\'re the only one who joined so far. But here\'s where you come in. " ,
+ " Narration  Chapter_0_0016000 Kyo claps his hands. " ,
 
- " Kyo  Chapter_0-0017200 To officially register the club, I\'m gonna need you to recruit 3 more people by the end of the month. You can do it, you\'re charismatic enough. " ,
+ " Kyo  Chapter_0_0016300 Yeah, let\'s go! Finally, there\'s a second member. " ,
 
- " Player  Chapter_0-0017500 Hold on, I didn\'t agree to do free labor. Why don\'t you do it yourself— " ,
+ " Player  Chapter_0_0016600 Wait, nobody else is in this club yet?  " ,
 
- " Narration  Chapter_0-0017800 The lunch bell rings. " ,
+ " Kyo  Chapter_0_0016900 Oh shit, I forgot to tell you. Yeah, you\'re the only one who joined so far. But here\'s where you come in. " ,
 
- " Kyo  Chapter_0-0018100 Too late, gotta go. " ,
+ " Kyo  Chapter_0_0017200 To officially register the club, I\'m gonna need you to recruit 3 more people by the end of the month. You can do it, you\'re charismatic enough. " ,
 
- " Player  Chapter_0-0018400 Hey, wait! " ,
+ " Player  Chapter_0_0017500 Hold on, I didn\'t agree to do free labor. Why don\'t you do it yourself— " ,
 
- " Narration  Chapter_0-0018700 You catch a glimpse of Kyo grinning as he bolts past you and out the door. He sings as he escapes into the hallways, cracking his voice. " ,
+ " Narration  Chapter_0_0017800 The lunch bell rings. " ,
 
- " Kyo  Chapter_0-0019000 Running through the halls so fast, something something dash— " ,
+ " Kyo  Chapter_0_0018100 Too late, gotta go. " ,
 
- " Narration  Chapter_0-0019300 And just like that, he makes a left and disappears. The nerve of this dude to leave you hanging like that. . .  " ,
+ " Player  Chapter_0_0018400 Hey, wait! " ,
 
- " Narration  Chapter_0-0019500 You go in the opposite direction to your class. As you make your way there, you think about his request. It\'s a lot of work, but it\'s not like you have other plans or commitments this year. Eh, fuck it, you ball. " ,
+ " Narration  Chapter_0_0018700 You catch a glimpse of Kyo grinning as he bolts past you and out the door. He sings as he escapes into the hallways, cracking his voice. " ,
 
- " Fade to black  Chapter_0-0019700 Fade to black " ,
+ " Kyo  Chapter_0_0019000 Running through the halls so fast, something something dash— " ,
 
- " Proceed to Chapter 1  Chapter_0-0019800 Proceed to Chapter 1 " ,
+ " Narration  Chapter_0_0019300 And just like that, he makes a left and disappears. The nerve of this dude to leave you hanging like that. . .  " ,
 
- " Choice 2 No.  Chapter_0-0020100 Choice 2: No. " ,
+ " Narration  Chapter_0_0019500 You go in the opposite direction to your class. As you make your way there, you think about his request. It\'s a lot of work, but it\'s not like you have other plans or commitments this year. Eh, fuck it, you ball. " ,
 
- " Kyo FP_Sad  Chapter_0-0020400 Oh, why not?  " ,
+ " Fade to black  Chapter_0_0019700 Fade to black " ,
 
- " Player  Chapter_0-0020700 Oh, don\'t take this the wrong way. It\'s just that I wanna consider my other options.  " ,
+ " Proceed to Chapter 1  Chapter_0_0019800 Proceed to Chapter 1 " ,
 
- " Kyo  Chapter_0-0021000 Like what? " ,
+ " Choice 2 No.  Chapter_0_0020100 Choice 2: No. " ,
 
- " Player  Chapter_0-0021300 Hm? Isn\'t it normal to do that?  " ,
+ " Kyo FP_Sad  Chapter_0_0020400 Oh, why not?  " ,
 
- " Kyo  Chapter_0-0021600 What other clubs were you thinking of joining? Because this club can do better than all of them. " ,
+ " Player  Chapter_0_0020700 Oh, don\'t take this the wrong way. It\'s just that I wanna consider my other options.  " ,
 
- " Narration  Chapter_0-0021900 Where did this sudden pushiness and big ego come from?  " ,
+ " Kyo  Chapter_0_0021000 Like what? " ,
 
- " Player  Chapter_0-0022200 I was thinking of joining the debate club— " ,
+ " Player  Chapter_0_0021300 Hm? Isn\'t it normal to do that?  " ,
 
- " Kyo FP_Bruh  Chapter_0-0022500 Bro, I am right here. I am THE debate master. I\'m not all business all the time you know. I can do other things outside of club meetings.  " ,
+ " Kyo  Chapter_0_0021600 What other clubs were you thinking of joining? Because this club can do better than all of them. " ,
 
- " Player  Chapter_0-0022800 Okay, but I have to ask. You\'re cool and all, but are you the only club member?  " ,
+ " Narration  Chapter_0_0021900 Where did this sudden pushiness and big ego come from?  " ,
 
- " Kyo  Chapter_0-0023100 Yes, but I\'m gonna get more soon— " ,
+ " Player  Chapter_0_0022200 I was thinking of joining the debate club— " ,
 
- " Player  Chapter_0-0023400 Look, I\'ll go check out other clubs later this week. If I don\'t like any of them, I\'ll come back here. Okay? " ,
+ " Kyo FP_Bruh  Chapter_0_0022500 Bro, I am right here. I am THE debate master. I\'m not all business all the time you know. I can do other things outside of club meetings.  " ,
 
- " Narration  Chapter_0-0023700 The lunch bell rings. " ,
+ " Player  Chapter_0_0022800 Okay, but I have to ask. You\'re cool and all, but are you the only club member?  " ,
 
- " Player  Chapter_0-0024000 Don\'t wanna be late to class. See ya. " ,
+ " Kyo  Chapter_0_0023100 Yes, but I\'m gonna get more soon— " ,
 
- " Kyo_BP_Sad  Chapter_0-0024200 Kyo_BP_Sad " ,
+ " Player  Chapter_0_0023400 Look, I\'ll go check out other clubs later this week. If I don\'t like any of them, I\'ll come back here. Okay? " ,
 
- " Narration  Chapter_0-0024500 You feel a little guilty seeing his dejected expression as you leave the classroom. But it\'s too late now; you stick to your decision and go to your next class. " ,
+ " Narration  Chapter_0_0023700 The lunch bell rings. " ,
 
- " Empty black screen.  Chapter_0-0024700 Empty black screen. " ,
+ " Player  Chapter_0_0024000 Don\'t wanna be late to class. See ya. " ,
 
- " Narration  Chapter_0-0025000 The next day, you try to find Kyo in the radio club room. But the room is empty. You try asking people about Kyo’s whereabouts, but people don’t even know who he is. What the hell. That’s weird. Eh, whatever. Life continues to be lonely as usual. " ,
+ " Kyo_BP_Sad  Chapter_0_0024200 Kyo_BP_Sad " ,
 
- " Game end - joke ending. Restart from beginning of game  Chapter_0-0025200 Game end - joke ending. Restart from beginning of game " ,
+ " Narration  Chapter_0_0024500 You feel a little guilty seeing his dejected expression as you leave the classroom. But it\'s too late now; you stick to your decision and go to your next class. " ,
+
+ " Empty black screen.  Chapter_0_0024700 Empty black screen. " ,
+
+ " Narration  Chapter_0_0025000 The next day, you try to find Kyo in the radio club room. But the room is empty. You try asking people about Kyo’s whereabouts, but people don’t even know who he is. What the hell. That’s weird. Eh, whatever. Life continues to be lonely as usual. " ,
+
+ " Game end - joke ending. Restart from beginning of game  Chapter_0_0025200 Game end - joke ending. Restart from beginning of game " ,
 
 		// end-of-CHAPTER-0-mark
         'jump CHAPTER_1',
@@ -349,662 +355,669 @@ monogatari.script({
     'CHAPTER_1': [
 		'chap 1',
 		// start-of-CHAPTER-1-mark
+ " _Name _DialogCode _Tex " ,
 
- " Narration  Chapter_1-0000700 … " ,
+ "  Chapter_1_0000100 Chapter 1: Healing the Conditioned Puppet " ,
 
- " Narration  Chapter_1-0000900 The fresh air really is relaxing when there\'s so much going on. Having to recruit members for a radio club of all things, and so suddenly too… as if that isn’t crazy enough, the amount of drama at the school has been…irritating, to say the least. " ,
+ " School Rooftop Day  Chapter_1_0000300 School Rooftop Day " ,
 
- " Narration  Chapter_1-0001100 Hell, it’s insane. …Those damn rumors that the school is haunted are… unnerving, to say the least. " ,
+ " Atria's BGM  Chapter_1_0000400 Atria\'s BGM " ,
 
- " Player  Chapter_1-0001400 …People are so desperate to just get a reaction out of people, huh… at this point I don’t doubt this school’s going to digress into chaos. " ,
+ " Narration  Chapter_1_0000700 … " ,
 
- " Kyo Kyo_FP_Smiling  Chapter_1-0001700 Chaos? I call it fun! " ,
+ " Narration  Chapter_1_0000900 The fresh air really is relaxing when there\'s so much going on. Having to recruit members for a radio club of all things, and so suddenly too… as if that isn’t crazy enough, the amount of drama at the school has been…irritating, to say the least. " ,
 
- " Player  Chapter_1-0002000 WHAT TH– " ,
+ " Narration  Chapter_1_0001100 Hell, it’s insane. …Those damn rumors that the school is haunted are… unnerving, to say the least. " ,
 
- " Kyo  Chapter_1-0002300 Have you found any recruits yet? " ,
+ " Player  Chapter_1_0001400 …People are so desperate to just get a reaction out of people, huh… at this point I don’t doubt this school’s going to digress into chaos. " ,
 
- " Player  Chapter_1-0002600 …Warn me next time before sneaking up on me, will you?? " ,
+ " Kyo Kyo_FP_Smiling  Chapter_1_0001700 Chaos? I call it fun! " ,
 
- " Kyo Kyo_FP_Cheerful  Chapter_1-0002900 No thanks. " ,
+ " Player  Chapter_1_0002000 WHAT TH– " ,
 
- " Narration  Chapter_1-0003200 Kyo leans forward, his hands on his hips. His expression screams nothing but smug mockery, plainly amused at your annoyance. " ,
+ " Kyo  Chapter_1_0002300 Have you found any recruits yet? " ,
 
- " Kyo  Chapter_1-0003500 Now, you’ve found someone, right? Surely it can\'t be so hard to evaluate who here is a good candidate. Not when there are very few people who stand out amongst the rest. " ,
+ " Player  Chapter_1_0002600 …Warn me next time before sneaking up on me, will you?? " ,
 
- " Narration  Chapter_1-0003800 He speaks as if he already has certain people in mind. If so, why is he so insistent on you recruiting members as opposed to him? " ,
+ " Kyo Kyo_FP_Cheerful  Chapter_1_0002900 No thanks. " ,
 
- " Player  Chapter_1-0004100 No, Kyo, it has quite literally only been a couple hours. " ,
+ " Narration  Chapter_1_0003200 Kyo leans forward, his hands on his hips. His expression screams nothing but smug mockery, plainly amused at your annoyance. " ,
 
- " Kyo Kyo_FP_Bruh  Chapter_1-0004400 Mhm… from the way you’re acting now, I’ve most likely put too much faith in you… I guarantee you’re just too introverted to go up and ask someone to join. " ,
+ " Kyo  Chapter_1_0003500 Now, you’ve found someone, right? Surely it can\'t be so hard to evaluate who here is a good candidate. Not when there are very few people who stand out amongst the rest. " ,
 
- " Player  Chapter_1-0004700 …Actually, I genuinely haven’t seen anyone who looks suitable. A radio club requires someone who is willing to… well, talk. Right? " ,
+ " Narration  Chapter_1_0003800 He speaks as if he already has certain people in mind. If so, why is he so insistent on you recruiting members as opposed to him? " ,
 
- " Kyo  Chapter_1-0005000 Right… " ,
+ " Player  Chapter_1_0004100 No, Kyo, it has quite literally only been a couple hours. " ,
 
- " Kyo  Chapter_1-0005200 You sure you\'re not just scared to interact with people? " ,
+ " Kyo Kyo_FP_Bruh  Chapter_1_0004400 Mhm… from the way you’re acting now, I’ve most likely put too much faith in you… I guarantee you’re just too introverted to go up and ask someone to join. " ,
 
- " Player  Chapter_1-0005500 Shut up. " ,
+ " Player  Chapter_1_0004700 …Actually, I genuinely haven’t seen anyone who looks suitable. A radio club requires someone who is willing to… well, talk. Right? " ,
 
- " Narration  Chapter_1-0005800 Jeez. For someone he just met, Kyo sure has some nerve. " ,
+ " Kyo  Chapter_1_0005000 Right… " ,
 
- " Player  Chapter_1-0006100 I hate to break it to you, Mr. know-it-all, but I have yet to see anybody who seems talkative. If anything, I’m the most extroverted person here. " ,
+ " Kyo  Chapter_1_0005200 You sure you\'re not just scared to interact with people? " ,
 
- " Narration Kyo_FP_Cheerful  Chapter_1-0006400 Kyo just shoots you a cocky grin, rolling his eyes playfully.  " ,
+ " Player  Chapter_1_0005500 Shut up. " ,
 
- " Kyo  Chapter_1-0006700 Mhm, very believable. Just be a bit more observant, will you? It really can’t be that difficult to find someone. " ,
+ " Narration  Chapter_1_0005800 Jeez. For someone he just met, Kyo sure has some nerve. " ,
 
- " Player  Chapter_1-0007000 But- " ,
+ " Player  Chapter_1_0006100 I hate to break it to you, Mr. know-it-all, but I have yet to see anybody who seems talkative. If anything, I’m the most extroverted person here. " ,
 
- " Kyo  Chapter_1-0007300 Yeah, yeah. I get it. Your short attention span won\'t allow you to tune into one person for more than 15 seconds. " ,
+ " Narration Kyo_FP_Cheerful  Chapter_1_0006400 Kyo just shoots you a cocky grin, rolling his eyes playfully.  " ,
 
- " Narration  Chapter_1-0007600 You scowl at his remark, but your reaction only further enables him to keep poking at you. You didn’t really mind his banter, but at the very least you wish you could have the ability to snap back. " ,
+ " Kyo  Chapter_1_0006700 Mhm, very believable. Just be a bit more observant, will you? It really can’t be that difficult to find someone. " ,
 
- " Player  Chapter_1-0007900 What do you want me to do? Just sit and observe as someone goes about their day?? Just stand menacingly in some corner and watch them? " ,
+ " Player  Chapter_1_0007000 But- " ,
 
- " Kyo Kyo_SP_Default  Chapter_1-0008200 No need to make it sound so creepy. Listen, you gotta do what you gotta do. Just don’t make it too obvious.  " ,
+ " Kyo  Chapter_1_0007300 Yeah, yeah. I get it. Your short attention span won\'t allow you to tune into one person for more than 15 seconds. " ,
 
- " Kyo Kyo_SP_Default  Chapter_1-0008400 Though, from what I’ve seen, I’m starting to even question whether you’re capable of that much. " ,
+ " Narration  Chapter_1_0007600 You scowl at his remark, but your reaction only further enables him to keep poking at you. You didn’t really mind his banter, but at the very least you wish you could have the ability to snap back. " ,
 
- " Proceed to two choices <Let it slide> or <Try proving him wrong>  Chapter_1-0008500 Proceed to two choices: <Let it slide> or <Try proving him wrong> " ,
+ " Player  Chapter_1_0007900 What do you want me to do? Just sit and observe as someone goes about their day?? Just stand menacingly in some corner and watch them? " ,
 
- " Choice 1 Let it slide  Chapter_1-0008700 Choice 1: Let it slide " ,
+ " Kyo Kyo_SP_Default  Chapter_1_0008200 No need to make it sound so creepy. Listen, you gotta do what you gotta do. Just don’t make it too obvious.  " ,
 
- " Narration  Chapter_1-0009000 Kyo snickers, tilting his head momentarily as if discreetly pointing somewhere.  " ,
+ " Kyo Kyo_SP_Default  Chapter_1_0008400 Though, from what I’ve seen, I’m starting to even question whether you’re capable of that much. " ,
 
- " Kyo  Chapter_1-0009300 I bet you anything if you actually listen you’ll find someone immediately. " ,
+ " Proceed to two choices <Let it slide> or <Try proving him wrong>  Chapter_1_0008500 Proceed to two choices: <Let it slide> or <Try proving him wrong> " ,
 
- " Narration  Chapter_1-0009600 Your eyes follow the direction of his nudge. " ,
+ " Choice 1 Let it slide  Chapter_1_0008700 Choice 1: Let it slide " ,
 
- " Scene reconverges here  Chapter_1-0009800 Scene reconverges here " ,
+ " Narration  Chapter_1_0009000 Kyo snickers, tilting his head momentarily as if discreetly pointing somewhere.  " ,
 
- " Choice 2 Try proving him wrong  Chapter_1-0010100 Choice 2: Try proving him wrong " ,
+ " Kyo  Chapter_1_0009300 I bet you anything if you actually listen you’ll find someone immediately. " ,
 
- " Narration  Chapter_1-0010400 You glance around, searching for someone you can listen in on to make your point. " ,
+ " Narration  Chapter_1_0009600 Your eyes follow the direction of his nudge. " ,
 
- " Narration  Chapter_1-0010600 Your ears pick up on some commotion, and your attention drifts. " ,
+ " Scene reconverges here  Chapter_1_0009800 Scene reconverges here " ,
 
- " Narration  Chapter_1-0010700 		Scene reconverges here " ,
+ " Choice 2 Try proving him wrong  Chapter_1_0010100 Choice 2: Try proving him wrong " ,
 
- " Remove Kyo  Chapter_1-0010900 Remove Kyo " ,
+ " Narration  Chapter_1_0010400 You glance around, searching for someone you can listen in on to make your point. " ,
 
- " Atria1_Happy. Darken by 50%, centered  Chapter_1-0011000 Atria1_Happy. Darken by 50%, centered " ,
+ " Narration  Chapter_1_0010600 Your ears pick up on some commotion, and your attention drifts. " ,
 
- " Narration  Chapter_1-0011300 At that moment, you see a group of girls across the courtyard. They all seem rather silent–bored, even– but one of them in particular stands out to you. " ,
+ " Narration  Chapter_1_0010700 		Scene reconverges here " ,
 
- " ???  Chapter_1-0011600 Anyways! About the person I was talking about earlier, the one that I frequently watch. They did this one stream recently, it was a collaboration with some of my favorite streamers! When I saw the waiting room for it, I got really excited! " ,
+ " Remove Kyo  Chapter_1_0010900 Remove Kyo " ,
 
- " ???  Chapter_1-0011900 I sent it to you guys a while back, though I’m not sure if you saw it? Neither of you responded… Do you think there\'s a possibility we could watch it together sometime? " ,
+ " Atria1_Happy. Darken by 50%, centered  Chapter_1_0011000 Atria1_Happy. Darken by 50%, centered " ,
 
- " Narration  Chapter_1-0012200 The two other girls look at each other before faking a smile towards her direction. " ,
+ " Narration  Chapter_1_0011300 At that moment, you see a group of girls across the courtyard. They all seem rather silent–bored, even– but one of them in particular stands out to you. " ,
 
- " Girl A  Chapter_1-0012500 ...You’re ranting about these streamers every two seconds, you expect us to know which one you are talking about? " ,
+ " ???  Chapter_1_0011600 Anyways! About the person I was talking about earlier, the one that I frequently watch. They did this one stream recently, it was a collaboration with some of my favorite streamers! When I saw the waiting room for it, I got really excited! " ,
 
- " ??? Atria1_Nervous  Chapter_1-0012800 Oh– …Yeah. Sorry. I guess sometimes I just say stuff without really thinking. " ,
+ " ???  Chapter_1_0011900 I sent it to you guys a while back, though I’m not sure if you saw it? Neither of you responded… Do you think there\'s a possibility we could watch it together sometime? " ,
 
- " ??? Atria2_Happy  Chapter_1-0013100 The one with… let’s see, I\'m trying to think of a way to describe this to someone who doesn’t watch them. They have… blue hair. It’s short, around shoulder length. Does that ring a bell? " ,
+ " Narration  Chapter_1_0012200 The two other girls look at each other before faking a smile towards her direction. " ,
 
- " Narration  Chapter_1-0013400 Wait… " ,
+ " Girl A  Chapter_1_0012500 ...You’re ranting about these streamers every two seconds, you expect us to know which one you are talking about? " ,
 
- " Narration  Chapter_1-0013600 Short… blue hair…? That\'s… " ,
+ " ??? Atria1_Nervous  Chapter_1_0012800 Oh– …Yeah. Sorry. I guess sometimes I just say stuff without really thinking. " ,
 
- " Narration  Chapter_1-0013800 Kind of silly. " ,
+ " ??? Atria2_Happy  Chapter_1_0013100 The one with… let’s see, I\'m trying to think of a way to describe this to someone who doesn’t watch them. They have… blue hair. It’s short, around shoulder length. Does that ring a bell? " ,
 
- " ???  Chapter_1-0014100 I understand if you guys don’t remember! I know I can speak a bit quickly at times. " ,
+ " Narration  Chapter_1_0013400 Wait… " ,
 
- " ???  Chapter_1-0014300 Oh! Yeah, the one I was talking about yesterday! Surely you remember th– " ,
+ " Narration  Chapter_1_0013600 Short… blue hair…? That\'s… " ,
 
- " Girl A  Chapter_1-0014600 Hello? Earth to Atria? Atria Aiyashi? " ,
+ " Narration  Chapter_1_0013800 Kind of silly. " ,
 
- " Girl A  Chapter_1-0014800 You know, the Atria that thinks before she goes on meaningless tangents? We’re tired of you constantly bothering us about stuff we aren’t interested in. " ,
+ " ???  Chapter_1_0014100 I understand if you guys don’t remember! I know I can speak a bit quickly at times. " ,
 
- " Atria2_Nervous  Chapter_1-0015000 Atria2_Nervous " ,
+ " ???  Chapter_1_0014300 Oh! Yeah, the one I was talking about yesterday! Surely you remember th– " ,
 
- " Narration  Chapter_1-0015300 The small yellow haired girl, supposedly named Atria, tenses at the others’ remark. She had been rambling excitedly about her interests just a moment ago and yet… her tone suddenly falters. " ,
+ " Girl A  Chapter_1_0014600 Hello? Earth to Atria? Atria Aiyashi? " ,
 
- " Atria  Chapter_1-0015600 ...A-Ah.. was I too much?.. " ,
+ " Girl A  Chapter_1_0014800 You know, the Atria that thinks before she goes on meaningless tangents? We’re tired of you constantly bothering us about stuff we aren’t interested in. " ,
 
- " Girl B  Chapter_1-0015900 Atria, you can’t keep forgetting we raised you to be silent. " ,
+ " Atria2_Nervous  Chapter_1_0015000 Atria2_Nervous " ,
 
- " Atria  Chapter_1-0016200 I’m sorry… I didn’t mean to do anything… " ,
+ " Narration  Chapter_1_0015300 The small yellow haired girl, supposedly named Atria, tenses at the others’ remark. She had been rambling excitedly about her interests just a moment ago and yet… her tone suddenly falters. " ,
 
- " Girl B  Chapter_1-0016500 It\'s the same answer every single time. No matter how much we remind you, you go back to your annoying little ‘hyperfixations’. " ,
+ " Atria  Chapter_1_0015600 ...A-Ah.. was I too much?.. " ,
 
- " Girl B  Chapter_1-0016700 Surely you can try a bit harder? You’ve been like this for years now. Is there really something stopping you from just… realizing we don’t care? " ,
+ " Girl B  Chapter_1_0015900 Atria, you can’t keep forgetting we raised you to be silent. " ,
 
- " Girl B  Chapter_1-0016900 Take your silly little blue guy and talk about him to yourself, yeah? " ,
+ " Atria  Chapter_1_0016200 I’m sorry… I didn’t mean to do anything… " ,
 
- " Atria Atria1_Nervous  Chapter_1-0017200 Genuinely, I didn’t mean to do anything… " ,
+ " Girl B  Chapter_1_0016500 It\'s the same answer every single time. No matter how much we remind you, you go back to your annoying little ‘hyperfixations’. " ,
 
- " Girl B  Chapter_1-0017500 Do you want us to help you or not? " ,
+ " Girl B  Chapter_1_0016700 Surely you can try a bit harder? You’ve been like this for years now. Is there really something stopping you from just… realizing we don’t care? " ,
 
- " Atria  Chapter_1-0017800 I’m sorry, okay? " ,
+ " Girl B  Chapter_1_0016900 Take your silly little blue guy and talk about him to yourself, yeah? " ,
 
- " Girl B  Chapter_1-0018100 We at least had some sort of faith in you. We thought we could change you to stop you from constantly babbling on…but you haven’t even made any ounce of progress. " ,
+ " Atria Atria1_Nervous  Chapter_1_0017200 Genuinely, I didn’t mean to do anything… " ,
 
- " Girl A  Chapter_1-0018400 The only reason we even tolerate you is because we feel bad. " ,
+ " Girl B  Chapter_1_0017500 Do you want us to help you or not? " ,
 
- " Atria1_Sad  Chapter_1-0018600 Atria1_Sad " ,
+ " Atria  Chapter_1_0017800 I’m sorry, okay? " ,
 
- " Narration  Chapter_1-0018900 Atria opens her mouth, as if to speak, but no sound escapes " ,
+ " Girl B  Chapter_1_0018100 We at least had some sort of faith in you. We thought we could change you to stop you from constantly babbling on…but you haven’t even made any ounce of progress. " ,
 
- " Narration  Chapter_1-0019000 her. " ,
+ " Girl A  Chapter_1_0018400 The only reason we even tolerate you is because we feel bad. " ,
 
- " Narration  Chapter_1-0019200 Her voice is caught, suffocated by the others words and the fear of the repercussions of standing up for herself. Her body language speaks volumes, clearly burdened by the weight of the expectations placed upon her. " ,
+ " Atria1_Sad  Chapter_1_0018600 Atria1_Sad " ,
 
- " Narration  Chapter_1-0019400 In a shaky, pitiful murmur, she chokes out a rebuttal. " ,
+ " Narration  Chapter_1_0018900 Atria opens her mouth, as if to speak, but no sound escapes " ,
 
- " Atria  Chapter_1-0019700 I-I said I’m sorry, okay? " ,
+ " Narration  Chapter_1_0019000 her. " ,
 
- " Narration  Chapter_1-0020000 Atria seems to regret speaking up halfway through her argument, audible desperation in her wavering voice. However, it was simply idiotic to think that the two standing next to her would back down so easily. " ,
+ " Narration  Chapter_1_0019200 Her voice is caught, suffocated by the others words and the fear of the repercussions of standing up for herself. Her body language speaks volumes, clearly burdened by the weight of the expectations placed upon her. " ,
 
- " Girl B  Chapter_1-0020300 You really can’t do anything right, can you? " ,
+ " Narration  Chapter_1_0019400 In a shaky, pitiful murmur, she chokes out a rebuttal. " ,
 
- " Narration  Chapter_1-0020600 The girl at her side clicks her tongue, smiling manipulatively. " ,
+ " Atria  Chapter_1_0019700 I-I said I’m sorry, okay? " ,
 
- " Girl B  Chapter_1-0020900 We’re nice enough to give you advice, and you can’t even shut up and take it? You’re lucky we even waste our effort on you.  " ,
+ " Narration  Chapter_1_0020000 Atria seems to regret speaking up halfway through her argument, audible desperation in her wavering voice. However, it was simply idiotic to think that the two standing next to her would back down so easily. " ,
 
- " Girl B  Chapter_1-0021100 What happened to the promise you made us? That you’d do what we ask of you? Do you really want a repeat of what happened last time? " ,
+ " Girl B  Chapter_1_0020300 You really can’t do anything right, can you? " ,
 
- " Narration  Chapter_1-0021400 The third individual reaches upwards, placing a hand on Atria’s shoulder ‘comfortingly’.  " ,
+ " Narration  Chapter_1_0020600 The girl at her side clicks her tongue, smiling manipulatively. " ,
 
- " Atria2_Sad. Make sprite jump in surprise  Chapter_1-0021600 Atria2_Sad. Make sprite jump in surprise " ,
+ " Girl B  Chapter_1_0020900 We’re nice enough to give you advice, and you can’t even shut up and take it? You’re lucky we even waste our effort on you.  " ,
 
- " Narration  Chapter_1-0021800 This only causes Atria to flinch and instinctively put her hands " ,
+ " Girl B  Chapter_1_0021100 What happened to the promise you made us? That you’d do what we ask of you? Do you really want a repeat of what happened last time? " ,
 
- " Narration  Chapter_1-0021900 up in defense. " ,
+ " Narration  Chapter_1_0021400 The third individual reaches upwards, placing a hand on Atria’s shoulder ‘comfortingly’.  " ,
 
- " Girl A  Chapter_1-0022200 ...We’ll take that reaction as a no. " ,
+ " Atria2_Sad. Make sprite jump in surprise  Chapter_1_0021600 Atria2_Sad. Make sprite jump in surprise " ,
 
- " Girl A  Chapter_1-0022500 Remember, we\'re your only friends. We\'re really just trying to " ,
+ " Narration  Chapter_1_0021800 This only causes Atria to flinch and instinctively put her hands " ,
 
- " Girl A  Chapter_1-0022600 do you a favor. " ,
+ " Narration  Chapter_1_0021900 up in defense. " ,
 
- " Atria  Chapter_1-0022900 … " ,
+ " Girl A  Chapter_1_0022200 ...We’ll take that reaction as a no. " ,
 
- " Narration  Chapter_1-0023200 There is a hesitation that lasts for what seems like an eternity, as Atria’s expression fades. Her emotion is lacking in comparison to mere seconds ago. It seems forced, for sure, yet it\'s clear she’s putting significant effort into holding this mask. " ,
+ " Girl A  Chapter_1_0022500 Remember, we\'re your only friends. We\'re really just trying to " ,
 
- " Atria Atria2_Timid  Chapter_1-0023500 …Yeah, thank you for reminding me. " ,
+ " Girl A  Chapter_1_0022600 do you a favor. " ,
 
- " Narration  Chapter_1-0023800 She lowers her gaze, attempting with all her will to keep a strong, emotionless veil. This would have been manageable for the time being, but the two others don’t even respond to her submission. " ,
+ " Atria  Chapter_1_0022900 … " ,
 
- " Narration  Chapter_1-0024000 They just… stare.  " ,
+ " Narration  Chapter_1_0023200 There is a hesitation that lasts for what seems like an eternity, as Atria’s expression fades. Her emotion is lacking in comparison to mere seconds ago. It seems forced, for sure, yet it\'s clear she’s putting significant effort into holding this mask. " ,
 
- " Narration  Chapter_1-0024200 Stare as she attempts to keep her composure. " ,
+ " Atria Atria2_Timid  Chapter_1_0023500 …Yeah, thank you for reminding me. " ,
 
- " Atria  Chapter_1-0024500 … " ,
+ " Narration  Chapter_1_0023800 She lowers her gaze, attempting with all her will to keep a strong, emotionless veil. This would have been manageable for the time being, but the two others don’t even respond to her submission. " ,
 
- " Atria  Chapter_1-0024800 … " ,
+ " Narration  Chapter_1_0024000 They just… stare.  " ,
 
- " Atria2_Sad – only shown momentarily before she disappears  Chapter_1-0025000 Atria2_Sad – only shown momentarily before she disappears " ,
+ " Narration  Chapter_1_0024200 Stare as she attempts to keep her composure. " ,
 
- " Footstep SFX  Chapter_1-0025100 Footstep SFX " ,
+ " Atria  Chapter_1_0024500 … " ,
 
- " Kyo FP_Shocked, centered  Chapter_1-0025400 … " ,
+ " Atria  Chapter_1_0024800 … " ,
 
- " Kyo  Chapter_1-0025700 Das crazy. " ,
+ " Atria2_Sad – only shown momentarily before she disappears  Chapter_1_0025000 Atria2_Sad – only shown momentarily before she disappears " ,
 
- " Player  Chapter_1-0026000 …That\'s really all you have to say? " ,
+ " Footstep SFX  Chapter_1_0025100 Footstep SFX " ,
 
- " Kyo_FP_Smiling  Chapter_1-0026200 Kyo_FP_Smiling " ,
+ " Kyo FP_Shocked, centered  Chapter_1_0025400 … " ,
 
- " Narration  Chapter_1-0026500 Kyo looks at you with an obvious smugness, outwardly unphased by… whatever had just happened between those three.  " ,
+ " Kyo  Chapter_1_0025700 Das crazy. " ,
 
- " Kyo  Chapter_1-0026800 I told you if you actually took the time to tune into a conversation, it wouldn’t be so hard to find someone. " ,
+ " Player  Chapter_1_0026000 …That\'s really all you have to say? " ,
 
- " Player  Chapter_1-0027100 What, do you want me to go get her and ask her to join a radio club after that? " ,
+ " Kyo_FP_Smiling  Chapter_1_0026200 Kyo_FP_Smiling " ,
 
- " Narration  Chapter_1-0027400 His eyes flicker, looking at the school door where Atria had run off to, then back at you. " ,
+ " Narration  Chapter_1_0026500 Kyo looks at you with an obvious smugness, outwardly unphased by… whatever had just happened between those three.  " ,
 
- " Narration  Chapter_1-0027600 Back… and forth… and back… and– " ,
+ " Kyo  Chapter_1_0026800 I told you if you actually took the time to tune into a conversation, it wouldn’t be so hard to find someone. " ,
 
- " Kyo  Chapter_1-0027900 So… are you gonna just sit there? Seriously? " ,
+ " Player  Chapter_1_0027100 What, do you want me to go get her and ask her to join a radio club after that? " ,
 
- " Player  Chapter_1-0028200 Wh– " ,
+ " Narration  Chapter_1_0027400 His eyes flicker, looking at the school door where Atria had run off to, then back at you. " ,
 
- " Kyo  Chapter_1-0028500 Are you even gonna do something? Or nah? " ,
+ " Narration  Chapter_1_0027600 Back… and forth… and back… and– " ,
 
- " Narration  Chapter_1-0028800 Kyo looks at you, like he wants you to go run after her. It’s… oddly ominous. Like he just wants an excuse to make you speak with Atria. …Does he know her or something? Is that what this was all about?? " ,
+ " Kyo  Chapter_1_0027900 So… are you gonna just sit there? Seriously? " ,
 
- " Proceed to two choices <Ignore the whole incident> or <Go search for Atria>  Chapter_1-0029000 Proceed to two choices: <Ignore the whole incident> or <Go search for Atria> " ,
+ " Player  Chapter_1_0028200 Wh– " ,
 
- " Choice 1 Ignore the whole incident  Chapter_1-0029200 Choice 1: Ignore the whole incident " ,
+ " Kyo  Chapter_1_0028500 Are you even gonna do something? Or nah? " ,
 
- " Player  Chapter_1-0029500 I really don’t think I should interfere… " ,
+ " Narration  Chapter_1_0028800 Kyo looks at you, like he wants you to go run after her. It’s… oddly ominous. Like he just wants an excuse to make you speak with Atria. …Does he know her or something? Is that what this was all about?? " ,
 
- " Kyo_FP_Bruh  Chapter_1-0029700 Kyo_FP_Bruh " ,
+ " Proceed to two choices <Ignore the whole incident> or <Go search for Atria>  Chapter_1_0029000 Proceed to two choices: <Ignore the whole incident> or <Go search for Atria> " ,
 
- " Narration  Chapter_1-0030000 Kyo stares at you with a tinge of concern. " ,
+ " Choice 1 Ignore the whole incident  Chapter_1_0029200 Choice 1: Ignore the whole incident " ,
 
- " Kyo  Chapter_1-0030300 …Don’t you think she would be a good candidate for the radio club? …Can’t you just… tell? " ,
+ " Player  Chapter_1_0029500 I really don’t think I should interfere… " ,
 
- " Narration  Chapter_1-0030600 He clearly knows more than he\'s letting on… his consistently unsettling statements are starting to stand out more and more… " ,
+ " Kyo_FP_Bruh  Chapter_1_0029700 Kyo_FP_Bruh " ,
 
- " Narration  Chapter_1-0030800 Eh, surely it\'s nothing. There\'s no way this guy can do anything, anyways. " ,
+ " Narration  Chapter_1_0030000 Kyo stares at you with a tinge of concern. " ,
 
- " Player  Chapter_1-0031100 What is she, the ‘chosen one’ or something? " ,
+ " Kyo  Chapter_1_0030300 …Don’t you think she would be a good candidate for the radio club? …Can’t you just… tell? " ,
 
- " Narration  Chapter_1-0031400 You joke, rolling your eyes. " ,
+ " Narration  Chapter_1_0030600 He clearly knows more than he\'s letting on… his consistently unsettling statements are starting to stand out more and more… " ,
 
- " Scene reconverges here  Chapter_1-0031600 Scene reconverges here " ,
+ " Narration  Chapter_1_0030800 Eh, surely it\'s nothing. There\'s no way this guy can do anything, anyways. " ,
 
- " Choice 2 Go search for Atria  Chapter_1-0031800 Choice 2: Go search for Atria " ,
+ " Player  Chapter_1_0031100 What is she, the ‘chosen one’ or something? " ,
 
- " Scene reconverges here  Chapter_1-0031900 Scene reconverges here " ,
+ " Narration  Chapter_1_0031400 You joke, rolling your eyes. " ,
 
- " Player  Chapter_1-0032200 Fine, fine. Let’s go find her, alright? " ,
+ " Scene reconverges here  Chapter_1_0031600 Scene reconverges here " ,
 
- " Kyo Kyo_FP_Bruh  Chapter_1-0032500 ...Actually, I think you should go on your own. I… will only get " ,
+ " Choice 2 Go search for Atria  Chapter_1_0031800 Choice 2: Go search for Atria " ,
 
- " Kyo Kyo_FP_Bruh  Chapter_1-0032600 in the way. " ,
+ " Scene reconverges here  Chapter_1_0031900 Scene reconverges here " ,
 
- " Narration  Chapter_1-0032900 He speaks in an eerie tone, as if he’s admitting to something. " ,
+ " Player  Chapter_1_0032200 Fine, fine. Let’s go find her, alright? " ,
 
- " Narration  Chapter_1-0033000 What on earth is up with him? " ,
+ " Kyo Kyo_FP_Bruh  Chapter_1_0032500 ...Actually, I think you should go on your own. I… will only get " ,
 
- " Player  Chapter_1-0033300 …Okay? So… you just want me to convince her to join? " ,
+ " Kyo Kyo_FP_Bruh  Chapter_1_0032600 in the way. " ,
 
- " Player  Chapter_1-0033500 Wait, what do you mean by ‘get in the way’??  " ,
+ " Narration  Chapter_1_0032900 He speaks in an eerie tone, as if he’s admitting to something. " ,
 
- " Player  Chapter_1-0033700 … " ,
+ " Narration  Chapter_1_0033000 What on earth is up with him? " ,
 
- " Player  Chapter_1-0033900 Actually, nevermind. I can see it. " ,
+ " Player  Chapter_1_0033300 …Okay? So… you just want me to convince her to join? " ,
 
- " Kyo sprite is removed  Chapter_1-0034100 Kyo sprite is removed " ,
+ " Player  Chapter_1_0033500 Wait, what do you mean by ‘get in the way’??  " ,
 
- " Narration  Chapter_1-0034400 You look at the school building momentarily, sighing. It’s an irritating reality, but the longer you wait, the harder it will be to find her. " ,
+ " Player  Chapter_1_0033700 … " ,
 
- " Player  Chapter_1-0034700 I guess I’ll see you later then- " ,
+ " Player  Chapter_1_0033900 Actually, nevermind. I can see it. " ,
 
- " Narration  Chapter_1-0035000 You look back to where Kyo had stood just a moment ago, your eyes only meeting blank space. " ,
+ " Kyo sprite is removed  Chapter_1_0034100 Kyo sprite is removed " ,
 
- " Player  Chapter_1-0035300 Huh? " ,
+ " Narration  Chapter_1_0034400 You look at the school building momentarily, sighing. It’s an irritating reality, but the longer you wait, the harder it will be to find her. " ,
 
- " Narration  Chapter_1-0035600 …He never fails to do something strange, does he? " ,
+ " Player  Chapter_1_0034700 I guess I’ll see you later then- " ,
 
- " Narration  Chapter_1-0035800 You figure you should just get moving. " ,
+ " Narration  Chapter_1_0035000 You look back to where Kyo had stood just a moment ago, your eyes only meeting blank space. " ,
 
- " Transition to School Classroom Day  Chapter_1-0036100 Transition to School Classroom Day " ,
+ " Player  Chapter_1_0035300 Huh? " ,
 
- " Narration  Chapter_1-0036400 … " ,
+ " Narration  Chapter_1_0035600 …He never fails to do something strange, does he? " ,
 
- " Narration  Chapter_1-0036600 Alright then, she has to be somewhere around here. " ,
+ " Narration  Chapter_1_0035800 You figure you should just get moving. " ,
 
- " Player  Chapter_1-0036900 Atria? Hello? " ,
+ " Transition to School Classroom Day  Chapter_1_0036100 Transition to School Classroom Day " ,
 
- " Narration  Chapter_1-0037200 …  " ,
+ " Narration  Chapter_1_0036400 … " ,
 
- " Narration  Chapter_1-0037400 Silence. " ,
+ " Narration  Chapter_1_0036600 Alright then, she has to be somewhere around here. " ,
 
- " Player  Chapter_1-0037700 Atria? Don’t worry… I’m not gonna yell. " ,
+ " Player  Chapter_1_0036900 Atria? Hello? " ,
 
- " Atria1_Sad  Chapter_1-0037900 Atria1_Sad " ,
+ " Narration  Chapter_1_0037200 …  " ,
 
- " Centered  Chapter_1-0038000 Centered " ,
+ " Narration  Chapter_1_0037400 Silence. " ,
 
- " Narration  Chapter_1-0038300 You glance around, scanning the room, your eyes spotting a fragile figure hunched in the corner. The eye contact causes her body to tense, as if she were expecting judgment, or ridicule. " ,
+ " Player  Chapter_1_0037700 Atria? Don’t worry… I’m not gonna yell. " ,
 
- " Atria  Chapter_1-0038600 …W-why do you… know my name…? " ,
+ " Atria1_Sad  Chapter_1_0037900 Atria1_Sad " ,
 
- " Narration  Chapter_1-0038900 Atria speaks between quiet sobs, her voice strained with emotion. She’s vulnerable, her guard shattered from the weight of her own struggles. " ,
+ " Centered  Chapter_1_0038000 Centered " ,
 
- " Player  Chapter_1-0039200 I… overheard your conversation earlier. " ,
+ " Narration  Chapter_1_0038300 You glance around, scanning the room, your eyes spotting a fragile figure hunched in the corner. The eye contact causes her body to tense, as if she were expecting judgment, or ridicule. " ,
 
- " Narration  Chapter_1-0039500 You take a few steps towards her, careful not to invade her space. Despite your carefulness, she pushes herself against the walls, making herself appear as small and insignificant as possible. " ,
+ " Atria  Chapter_1_0038600 …W-why do you… know my name…? " ,
 
- " Atria  Chapter_1-0039800 D-did they send you here… to deal with me…? " ,
+ " Narration  Chapter_1_0038900 Atria speaks between quiet sobs, her voice strained with emotion. She’s vulnerable, her guard shattered from the weight of her own struggles. " ,
 
- " Narration  Chapter_1-0040100 Her voice drips with anticipation. Anticipation to be met with some sort of pain, whether it be emotional or physical. " ,
+ " Player  Chapter_1_0039200 I… overheard your conversation earlier. " ,
 
- " Player  Chapter_1-0040400 No– it’s nothing of the sort. My name is Player… It… must be really exhausting having to listen to their torment. " ,
+ " Narration  Chapter_1_0039500 You take a few steps towards her, careful not to invade her space. Despite your carefulness, she pushes herself against the walls, making herself appear as small and insignificant as possible. " ,
 
- " Player  Chapter_1-0040600 Do they constantly tell you things like that? " ,
+ " Atria  Chapter_1_0039800 D-did they send you here… to deal with me…? " ,
 
- " Atria  Chapter_1-0040900 I-… " ,
+ " Narration  Chapter_1_0040100 Her voice drips with anticipation. Anticipation to be met with some sort of pain, whether it be emotional or physical. " ,
 
- " Narration  Chapter_1-0041200 Atria hesitates, unsure whether she should even respond to such a question. " ,
+ " Player  Chapter_1_0040400 No– it’s nothing of the sort. My name is Player… It… must be really exhausting having to listen to their torment. " ,
 
- " Atria  Chapter_1-0041500 They… they just want what’s best for me. They’ve been my friends for a long time.	 " ,
+ " Player  Chapter_1_0040600 Do they constantly tell you things like that? " ,
 
- " Narration  Chapter_1-0041800 … " ,
+ " Atria  Chapter_1_0040900 I-… " ,
 
- " Narration  Chapter_1-0042000 If you were to disregard the scene that had taken place earlier, her self-assured words would seem genuine.  " ,
+ " Narration  Chapter_1_0041200 Atria hesitates, unsure whether she should even respond to such a question. " ,
 
- " Narration  Chapter_1-0042200 She\'s noticeably frustrated, like she\'s trying to convince you to believe in her words. Has she really been tricked into thinking she\'s at fault? To the point she would stand up for those so-called ‘friends’? " ,
+ " Atria  Chapter_1_0041500 They… they just want what’s best for me. They’ve been my friends for a long time.	 " ,
 
- " Player  Chapter_1-0042500 How long, exactly, have they been your friends? " ,
+ " Narration  Chapter_1_0041800 … " ,
 
- " Narration  Chapter_1-0042800 Your tone is soft, encouraging her to open up. Even so, her eyes dart around, desperately seeking for anywhere to look except your own gaze. " ,
+ " Narration  Chapter_1_0042000 If you were to disregard the scene that had taken place earlier, her self-assured words would seem genuine.  " ,
 
- " Atria  Chapter_1-0043100 …As long as I remember. Really, I’m serious… they’re just " ,
+ " Narration  Chapter_1_0042200 She\'s noticeably frustrated, like she\'s trying to convince you to believe in her words. Has she really been tricked into thinking she\'s at fault? To the point she would stand up for those so-called ‘friends’? " ,
 
- " Atria  Chapter_1-0043200 trying to deal with me. " ,
+ " Player  Chapter_1_0042500 How long, exactly, have they been your friends? " ,
 
- " Player  Chapter_1-0043500 Don’t you think they are being a bit… ah, harsh? " ,
+ " Narration  Chapter_1_0042800 Your tone is soft, encouraging her to open up. Even so, her eyes dart around, desperately seeking for anywhere to look except your own gaze. " ,
 
- " Atria2_Sad  Chapter_1-0043700 Atria2_Sad " ,
+ " Atria  Chapter_1_0043100 …As long as I remember. Really, I’m serious… they’re just " ,
 
- " Narration  Chapter_1-0044000 You observe Atria closely, noticing the conflict within her as she struggles with her loyalty to her ‘friends’ and their effect on her emotional stability. She seems torn, caught between the conflicting beliefs instilled by her ‘friends’ and the flickers of doubt emerging within her. " ,
+ " Atria  Chapter_1_0043200 trying to deal with me. " ,
 
- " Narration  Chapter_1-0044200 She speaks, her voice laced with a forced conviction. " ,
+ " Player  Chapter_1_0043500 Don’t you think they are being a bit… ah, harsh? " ,
 
- " Atria  Chapter_1-0044500 It\'s… fine. I’m used to it. " ,
+ " Atria2_Sad  Chapter_1_0043700 Atria2_Sad " ,
 
- " Narration  Chapter_1-0044800 …Used to it? " ,
+ " Narration  Chapter_1_0044000 You observe Atria closely, noticing the conflict within her as she struggles with her loyalty to her ‘friends’ and their effect on her emotional stability. She seems torn, caught between the conflicting beliefs instilled by her ‘friends’ and the flickers of doubt emerging within her. " ,
 
- " Narration  Chapter_1-0045000 You struggle for a good moment, before a realization hits you; her perception of reality has been shaped by years of… whatever they had done to her. " ,
+ " Narration  Chapter_1_0044200 She speaks, her voice laced with a forced conviction. " ,
 
- " Narration  Chapter_1-0045200 Comforting and giving advice wasn’t exactly your strong suit... " ,
+ " Atria  Chapter_1_0044500 It\'s… fine. I’m used to it. " ,
 
- " Player  Chapter_1-0045500 Atria… that\'s not normal. " ,
+ " Narration  Chapter_1_0044800 …Used to it? " ,
 
- " Atria Atria2_Timid  Chapter_1-0045800 Huh? " ,
+ " Narration  Chapter_1_0045000 You struggle for a good moment, before a realization hits you; her perception of reality has been shaped by years of… whatever they had done to her. " ,
 
- " Narration  Chapter_1-0046100 She takes a few seconds to herself, a mix of confusion and curiosity seeping through her expression. You take the silence as an opportunity to explain and clear up any possible questions. " ,
+ " Narration  Chapter_1_0045200 Comforting and giving advice wasn’t exactly your strong suit... " ,
 
- " Player  Chapter_1-0046400 What I mean is, friends are meant to encourage your hobbies, and allow you to open up about yourself. What I saw back there wasn’t healthy… nor acceptable. " ,
+ " Player  Chapter_1_0045500 Atria… that\'s not normal. " ,
 
- " Narration  Chapter_1-0046700 You speak with a confident tone, pushing aside your own uncertainties on how to navigate such a sensitive conversation. The more you speak, however, the more confusion crosses Atrias face. " ,
+ " Atria Atria2_Timid  Chapter_1_0045800 Huh? " ,
 
- " Atria  Chapter_1-0047000 But… that\'s how it’s always been. It\'s been like that for as " ,
+ " Narration  Chapter_1_0046100 She takes a few seconds to herself, a mix of confusion and curiosity seeping through her expression. You take the silence as an opportunity to explain and clear up any possible questions. " ,
 
- " Atria  Chapter_1-0047100 long as I remember. " ,
+ " Player  Chapter_1_0046400 What I mean is, friends are meant to encourage your hobbies, and allow you to open up about yourself. What I saw back there wasn’t healthy… nor acceptable. " ,
 
- " Narration  Chapter_1-0047400 The confusion of the whole situation only proved the depth of her conditioning. " ,
+ " Narration  Chapter_1_0046700 You speak with a confident tone, pushing aside your own uncertainties on how to navigate such a sensitive conversation. The more you speak, however, the more confusion crosses Atrias face. " ,
 
- " Narration  Chapter_1-0047600 The dynamics you had witnessed between her and her so-called ‘friends’ seem to be ingrained in her entire understanding of relationships. It blurs the line of what she depicts as acceptable or not.  " ,
+ " Atria  Chapter_1_0047000 But… that\'s how it’s always been. It\'s been like that for as " ,
 
- " Player  Chapter_1-0047900 Do you mind explaining to me what your friends have been like towards you? Perhaps I can get a better insight on what exactly is going on. " ,
+ " Atria  Chapter_1_0047100 long as I remember. " ,
 
- " Player  Chapter_1-0048100 I… understand if you don’t want to share. Though it really could help me evaluate who’s in the wrong. " ,
+ " Narration  Chapter_1_0047400 The confusion of the whole situation only proved the depth of her conditioning. " ,
 
- " Atria Atria1_Timid  Chapter_1-0048400 …I would, but… they don’t really like me talking to other " ,
+ " Narration  Chapter_1_0047600 The dynamics you had witnessed between her and her so-called ‘friends’ seem to be ingrained in her entire understanding of relationships. It blurs the line of what she depicts as acceptable or not.  " ,
 
- " Atria Atria1_Timid  Chapter_1-0048500 people… " ,
+ " Player  Chapter_1_0047900 Do you mind explaining to me what your friends have been like towards you? Perhaps I can get a better insight on what exactly is going on. " ,
 
- " Atria Atria1_Timid  Chapter_1-0048700 …But… the way you are talking to me completely contradicts the things that they have said would happen if I did… " ,
+ " Player  Chapter_1_0048100 I… understand if you don’t want to share. Though it really could help me evaluate who’s in the wrong. " ,
 
- " Narration  Chapter_1-0049000 Atria mumbles, taking in a deep breath as she contemplates whether or not she should open up. " ,
+ " Atria Atria1_Timid  Chapter_1_0048400 …I would, but… they don’t really like me talking to other " ,
 
- " Atria  Chapter_1-0049300 …Alright, just– please don’t tell them I said anything. Nobody… has ever, er… offered this to me, so… I’m not really sure how they would react if they found out. " ,
+ " Atria Atria1_Timid  Chapter_1_0048500 people… " ,
 
- " Narration  Chapter_1-0049600 You nod, reassuring her. " ,
+ " Atria Atria1_Timid  Chapter_1_0048700 …But… the way you are talking to me completely contradicts the things that they have said would happen if I did… " ,
 
- " Player  Chapter_1-0049900 I wouldn’t dream of it. " ,
+ " Narration  Chapter_1_0049000 Atria mumbles, taking in a deep breath as she contemplates whether or not she should open up. " ,
 
- " Narration  Chapter_1-0050200 Atria visibly relaxes, her tense posture softening slightly as she starts to consider sharing her experiences. It\'s a step into the unknown for her.  " ,
+ " Atria  Chapter_1_0049300 …Alright, just– please don’t tell them I said anything. Nobody… has ever, er… offered this to me, so… I’m not really sure how they would react if they found out. " ,
 
- " Atria  Chapter_1-0050500 Okay, just… give me a moment.  " ,
+ " Narration  Chapter_1_0049600 You nod, reassuring her. " ,
 
- " Narration  Chapter_1-0050800 She takes a deep breath, steadying herself as she gathers the courage to break the chains of silence that have bound her for so long. " ,
+ " Player  Chapter_1_0049900 I wouldn’t dream of it. " ,
 
- " Atria1_Nervous  Chapter_1-0051000 Atria1_Nervous " ,
+ " Narration  Chapter_1_0050200 Atria visibly relaxes, her tense posture softening slightly as she starts to consider sharing her experiences. It\'s a step into the unknown for her.  " ,
 
- " Narration  Chapter_1-0051200 A weak smile forms as she reminisces. " ,
+ " Atria  Chapter_1_0050500 Okay, just… give me a moment.  " ,
 
- " Atria  Chapter_1-0051500 I met them in 2nd grade, and they were the first people in my life that would actually call me a friend. …They never really liked me hanging out with others. So, since then, I’ve just kind of stuck with them. " ,
+ " Narration  Chapter_1_0050800 She takes a deep breath, steadying herself as she gathers the courage to break the chains of silence that have bound her for so long. " ,
 
- " Atria  Chapter_1-0051700 They helped me, and they still help me to this day. The least I can do for them is follow a couple orders here and there. …I don’t exactly know what would happen if I didn’t do as they asked, anyways. There\'s no use putting up too much of a fight. " ,
+ " Atria1_Nervous  Chapter_1_0051000 Atria1_Nervous " ,
 
- " Narration  Chapter_1-0052000 A small, breathless laugh leaves her, but it seems rather simulated. " ,
+ " Narration  Chapter_1_0051200 A weak smile forms as she reminisces. " ,
 
- " Atria  Chapter_1-0052300 They remind me when I speak too much, and push me to improve myself. They put up with me, even now, after years of not being able to keep to myself. " ,
+ " Atria  Chapter_1_0051500 I met them in 2nd grade, and they were the first people in my life that would actually call me a friend. …They never really liked me hanging out with others. So, since then, I’ve just kind of stuck with them. " ,
 
- " Atria1_Timid  Chapter_1-0052500 Atria1_Timid " ,
+ " Atria  Chapter_1_0051700 They helped me, and they still help me to this day. The least I can do for them is follow a couple orders here and there. …I don’t exactly know what would happen if I didn’t do as they asked, anyways. There\'s no use putting up too much of a fight. " ,
 
- " Narration  Chapter_1-0052800 Atria’s expression fades as she takes a moment to think about what she had just said. Quietly, she repeats her words to herself. " ,
+ " Narration  Chapter_1_0052000 A small, breathless laugh leaves her, but it seems rather simulated. " ,
 
- " Atria  Chapter_1-0053100 …Years. " ,
+ " Atria  Chapter_1_0052300 They remind me when I speak too much, and push me to improve myself. They put up with me, even now, after years of not being able to keep to myself. " ,
 
- " Atria  Chapter_1-0053400 I’m… lucky they even stick around. " ,
+ " Atria1_Timid  Chapter_1_0052500 Atria1_Timid " ,
 
- " Narration  Chapter_1-0053700 Her words are solemn, yet she accepts this idea as the truth with no troubles. You shake your head. " ,
+ " Narration  Chapter_1_0052800 Atria’s expression fades as she takes a moment to think about what she had just said. Quietly, she repeats her words to herself. " ,
 
- " Player  Chapter_1-0054000 I… I can’t know exactly what your life has been like, but from what I saw back there, they… really don’t seem like they are doing this for your sake.  " ,
+ " Atria  Chapter_1_0053100 …Years. " ,
 
- " Player  Chapter_1-0054200 I can understand it\'s difficult to accept this, especially since you haven’t been exposed to kinder relationships. " ,
+ " Atria  Chapter_1_0053400 I’m… lucky they even stick around. " ,
 
- " Player  Chapter_1-0054400 However, isolating you from others and demanding obedience is not a healthy dynamic. You have individuality, and it shouldn’t be suppressed. " ,
+ " Narration  Chapter_1_0053700 Her words are solemn, yet she accepts this idea as the truth with no troubles. You shake your head. " ,
 
- " Narration  Chapter_1-0054700 You emphasize the qualities of healthy relationships, hoping your words impact her twisted definition of a friend. " ,
+ " Player  Chapter_1_0054000 I… I can’t know exactly what your life has been like, but from what I saw back there, they… really don’t seem like they are doing this for your sake.  " ,
 
- " Atria2_Timid  Chapter_1-0054900 Atria2_Timid " ,
+ " Player  Chapter_1_0054200 I can understand it\'s difficult to accept this, especially since you haven’t been exposed to kinder relationships. " ,
 
- " Narration  Chapter_1-0055100 She looks up in thought, finding it difficult to grasp the foreign concept that her ‘friends’ actions may not align with true friendship. " ,
+ " Player  Chapter_1_0054400 However, isolating you from others and demanding obedience is not a healthy dynamic. You have individuality, and it shouldn’t be suppressed. " ,
 
- " Atria  Chapter_1-0055400 But… they\'ve always said it\'s for my own good. That their guidance and control are necessary to make me better. Isn’t… that how friends are supposed to be? " ,
+ " Narration  Chapter_1_0054700 You emphasize the qualities of healthy relationships, hoping your words impact her twisted definition of a friend. " ,
 
- " Narration  Chapter_1-0055700 You look at her questioningly, wondering how exactly you could explain this to her when her thought process had been so warped and muddled. " ,
+ " Atria2_Timid  Chapter_1_0054900 Atria2_Timid " ,
 
- " Player  Chapter_1-0056000 …Here, imagine this; a friendship where you are allowed to express yourself freely, and your thoughts and feelings are valued.  " ,
+ " Narration  Chapter_1_0055100 She looks up in thought, finding it difficult to grasp the foreign concept that her ‘friends’ actions may not align with true friendship. " ,
 
- " Narration  Chapter_1-0056300 Atria\'s eyes widen, fascinated in the allure of this alternate reality. " ,
+ " Atria  Chapter_1_0055400 But… they\'ve always said it\'s for my own good. That their guidance and control are necessary to make me better. Isn’t… that how friends are supposed to be? " ,
 
- " Atria1_Timid  Chapter_1-0056500 Atria1_Timid " ,
+ " Narration  Chapter_1_0055700 You look at her questioningly, wondering how exactly you could explain this to her when her thought process had been so warped and muddled. " ,
 
- " Atria  Chapter_1-0056800 …Are you sure… that’s really possible? " ,
+ " Player  Chapter_1_0056000 …Here, imagine this; a friendship where you are allowed to express yourself freely, and your thoughts and feelings are valued.  " ,
 
- " Narration  Chapter_1-0057100 You nod, offering her your hand. She reluctantly takes it, standing. " ,
+ " Narration  Chapter_1_0056300 Atria\'s eyes widen, fascinated in the allure of this alternate reality. " ,
 
- " Player  Chapter_1-0057400 ...I understand if you don’t believe me, but hey, why not try it out? " ,
+ " Atria1_Timid  Chapter_1_0056500 Atria1_Timid " ,
 
- " Atria Atria2_Timid  Chapter_1-0057700 … " ,
+ " Atria  Chapter_1_0056800 …Are you sure… that’s really possible? " ,
 
- " Atria Atria2_Timid  Chapter_1-0057900 …I-I’m scared… " ,
+ " Narration  Chapter_1_0057100 You nod, offering her your hand. She reluctantly takes it, standing. " ,
 
- " Atria Atria2_Timid  Chapter_1-0058100 …What are they going to think? " ,
+ " Player  Chapter_1_0057400 ...I understand if you don’t believe me, but hey, why not try it out? " ,
 
- " Narration  Chapter_1-0058400 You look at her with solemn eyes, acknowledging the severity of her situation. " ,
+ " Atria Atria2_Timid  Chapter_1_0057700 … " ,
 
- " Proceed to two choices <Tell her to confront them?> or <Tell her to take her time>  Chapter_1-0058600 Proceed to two choices: <Tell her to confront them?> or <Tell her to take her time> " ,
+ " Atria Atria2_Timid  Chapter_1_0057900 …I-I’m scared… " ,
 
- " Choice 1 Tell her to confront them  Chapter_1-0058800 Choice 1: Tell her to confront them " ,
+ " Atria Atria2_Timid  Chapter_1_0058100 …What are they going to think? " ,
 
- " Player  Chapter_1-0059100 Atria, I understand your attachment to them, but a lot of their actions that you’ve explained to me don’t seem right in any way.. " ,
+ " Narration  Chapter_1_0058400 You look at her with solemn eyes, acknowledging the severity of her situation. " ,
 
- " Player  Chapter_1-0059300 If you think they are causing you hurt, the best thing to do is confront them as soon as possible. " ,
+ " Proceed to two choices <Tell her to confront them?> or <Tell her to take her time>  Chapter_1_0058600 Proceed to two choices: <Tell her to confront them?> or <Tell her to take her time> " ,
 
- " Player  Chapter_1-0059500 If they disregard your feelings after you do so, they aren’t worth your time. Let alone your pain. " ,
+ " Choice 1 Tell her to confront them  Chapter_1_0058800 Choice 1: Tell her to confront them " ,
 
- " Player  Chapter_1-0059700 I know it may be hard, but sometimes cutting people out of your life is the best decision. It can be the difference between differing sides of your mental stability. " ,
+ " Player  Chapter_1_0059100 Atria, I understand your attachment to them, but a lot of their actions that you’ve explained to me don’t seem right in any way.. " ,
 
- " Narration  Chapter_1-0060000 Atrias eyes widen at this, fearing the mere idea of confrontation. " ,
+ " Player  Chapter_1_0059300 If you think they are causing you hurt, the best thing to do is confront them as soon as possible. " ,
 
- " Atria  Chapter_1-0060300 …But what if they respond negatively…? " ,
+ " Player  Chapter_1_0059500 If they disregard your feelings after you do so, they aren’t worth your time. Let alone your pain. " ,
 
- " Atria2_Sad  Chapter_1-0060500 Atria2_Sad " ,
+ " Player  Chapter_1_0059700 I know it may be hard, but sometimes cutting people out of your life is the best decision. It can be the difference between differing sides of your mental stability. " ,
 
- " Atria  Chapter_1-0060800 What if they… " ,
+ " Narration  Chapter_1_0060000 Atrias eyes widen at this, fearing the mere idea of confrontation. " ,
 
- " Narration  Chapter_1-0061100 She flinches, seemingly reimagining older events. Taking a deep breath, she composes herself. It was a blatant lie, a response that seems like a natural reflex to recalling such things. " ,
+ " Atria  Chapter_1_0060300 …But what if they respond negatively…? " ,
 
- " Atria1_Timid  Chapter_1-0061300 Atria1_Timid " ,
+ " Atria2_Sad  Chapter_1_0060500 Atria2_Sad " ,
 
- " Atria  Chapter_1-0061600 …I… don’t think that’s a good idea. " ,
+ " Atria  Chapter_1_0060800 What if they… " ,
 
- " Scene reconverges here  Chapter_1-0061800 Scene reconverges here " ,
+ " Narration  Chapter_1_0061100 She flinches, seemingly reimagining older events. Taking a deep breath, she composes herself. It was a blatant lie, a response that seems like a natural reflex to recalling such things. " ,
 
- " Choice 2 Tell her to take her time  Chapter_1-0062000 Choice 2: Tell her to take her time " ,
+ " Atria1_Timid  Chapter_1_0061300 Atria1_Timid " ,
 
- " Player  Chapter_1-0062300 Don’t worry too much about it. I’ll help you through this, and you can take as much time as you need. " ,
+ " Atria  Chapter_1_0061600 …I… don’t think that’s a good idea. " ,
 
- " Player  Chapter_1-0062500 It\'s a large step to take, and it can take a lot. I encourage you to take your time. " ,
+ " Scene reconverges here  Chapter_1_0061800 Scene reconverges here " ,
 
- " Player  Chapter_1-0062700 …Just, think about what\'s best for you. Consider the idea of friends that allow you to just be yourself. " ,
+ " Choice 2 Tell her to take her time  Chapter_1_0062000 Choice 2: Tell her to take her time " ,
 
- " Narration  Chapter_1-0063000 Slowly, Atria nods in agreement. " ,
+ " Player  Chapter_1_0062300 Don’t worry too much about it. I’ll help you through this, and you can take as much time as you need. " ,
 
- " Atria1_Timid  Chapter_1-0063200 Atria1_Timid " ,
+ " Player  Chapter_1_0062500 It\'s a large step to take, and it can take a lot. I encourage you to take your time. " ,
 
- " Atria  Chapter_1-0063500 I… I don’t really know… I’ve known them for so long… " ,
+ " Player  Chapter_1_0062700 …Just, think about what\'s best for you. Consider the idea of friends that allow you to just be yourself. " ,
 
- " Scene reconverges here  Chapter_1-0063600 Scene reconverges here " ,
+ " Narration  Chapter_1_0063000 Slowly, Atria nods in agreement. " ,
 
- " Atria  Chapter_1-0063900 But… " ,
+ " Atria1_Timid  Chapter_1_0063200 Atria1_Timid " ,
 
- " Atria1_Nervous  Chapter_1-0064100 Atria1_Nervous " ,
+ " Atria  Chapter_1_0063500 I… I don’t really know… I’ve known them for so long… " ,
 
- " Atria  Chapter_1-0064300 I can try. " ,
+ " Scene reconverges here  Chapter_1_0063600 Scene reconverges here " ,
 
- " Narration  Chapter_1-0064600 You smile at her efforts. " ,
+ " Atria  Chapter_1_0063900 But… " ,
 
- " Player  Chapter_1-0064900 I’ll be here whenever you need me, okay? " ,
+ " Atria1_Nervous  Chapter_1_0064100 Atria1_Nervous " ,
 
- " Player  Chapter_1-0065100 Well… of course I’m not always here but- My point is, if you need help, don’t worry about asking for it. " ,
+ " Atria  Chapter_1_0064300 I can try. " ,
 
- " Atria2_Nervous  Chapter_1-0065300 Atria2_Nervous " ,
+ " Narration  Chapter_1_0064600 You smile at her efforts. " ,
 
- " Narration  Chapter_1-0065600 Atria nods, which you take as a cue to leave. " ,
+ " Player  Chapter_1_0064900 I’ll be here whenever you need me, okay? " ,
 
- " Narration  Chapter_1-0065800 … " ,
+ " Player  Chapter_1_0065100 Well… of course I’m not always here but- My point is, if you need help, don’t worry about asking for it. " ,
 
- " Narration  Chapter_1-0066000 But upon turning around… " ,
+ " Atria2_Nervous  Chapter_1_0065300 Atria2_Nervous " ,
 
- " Atria sprite is removed  Chapter_1-0066200 Atria sprite is removed " ,
+ " Narration  Chapter_1_0065600 Atria nods, which you take as a cue to leave. " ,
 
- " Kyo_FP_Bruh - Appears before dialogue box  Chapter_1-0066400 Kyo_FP_Bruh - Appears before dialogue box " ,
+ " Narration  Chapter_1_0065800 … " ,
 
- " Player  Chapter_1-0066700 K– " ,
+ " Narration  Chapter_1_0066000 But upon turning around… " ,
 
- " Player  Chapter_1-0066900 Holy BONKERS will you stop doing that– " ,
+ " Atria sprite is removed  Chapter_1_0066200 Atria sprite is removed " ,
 
- " Kyo  Chapter_1-0067200 Oh, come on. I’m not that scary. " ,
+ " Kyo_FP_Bruh - Appears before dialogue box  Chapter_1_0066400 Kyo_FP_Bruh - Appears before dialogue box " ,
 
- " Kyo  Chapter_1-0067400 Anyways, will you stop forgetting why you even talked to her in the first place?? " ,
+ " Player  Chapter_1_0066700 K– " ,
 
- " Narration  Chapter_1-0067700 Oh, right. The radio club. " ,
+ " Player  Chapter_1_0066900 Holy BONKERS will you stop doing that– " ,
 
- " Player  Chapter_1-0068000 Well– you’re here now, so why don’t you do it? " ,
+ " Kyo  Chapter_1_0067200 Oh, come on. I’m not that scary. " ,
 
- " Kyo  Chapter_1-0068300 ...She’s waaay more likely to listen to you, you’re the one that was persuading her to do a load of other things. " ,
+ " Kyo  Chapter_1_0067400 Anyways, will you stop forgetting why you even talked to her in the first place?? " ,
 
- " Player  Chapter_1-0068600 Sounds like an excuse to me. You’re pretty good at " ,
+ " Narration  Chapter_1_0067700 Oh, right. The radio club. " ,
 
- " Player  Chapter_1-0068700 blabbering, you two could get along. " ,
+ " Player  Chapter_1_0068000 Well– you’re here now, so why don’t you do it? " ,
 
- " Narration  Chapter_1-0069000 Kyo reaches his hand out to push you back towards Atria, but stops mid-way, pulling his hand back, and letting out a long sigh before gesturing to her. " ,
+ " Kyo  Chapter_1_0068300 ...She’s waaay more likely to listen to you, you’re the one that was persuading her to do a load of other things. " ,
 
- " Kyo Kyo_FP_Default  Chapter_1-0069300 Go on. " ,
+ " Player  Chapter_1_0068600 Sounds like an excuse to me. You’re pretty good at " ,
 
- " Atria2_Nervous  Chapter_1-0069500 Atria2_Nervous " ,
+ " Player  Chapter_1_0068700 blabbering, you two could get along. " ,
 
- " Kyo left, Atria right  Chapter_1-0069600 Kyo left, Atria right " ,
+ " Narration  Chapter_1_0069000 Kyo reaches his hand out to push you back towards Atria, but stops mid-way, pulling his hand back, and letting out a long sigh before gesturing to her. " ,
 
- " Player  Chapter_1-0069900 …Sorry about that. " ,
+ " Kyo Kyo_FP_Default  Chapter_1_0069300 Go on. " ,
 
- " Narration  Chapter_1-0070200 Atria looks towards you with blatant confusion. " ,
+ " Atria2_Nervous  Chapter_1_0069500 Atria2_Nervous " ,
 
- " Player  Chapter_1-0070500 I was just wondering if you’re interested in clubs at all? It’ll be a perfect opportunity to get yourself out there and make new friends. " ,
+ " Kyo left, Atria right  Chapter_1_0069600 Kyo left, Atria right " ,
 
- " Player  Chapter_1-0070700 I was hoping to recruit you to the radio club. There, you’ll be able to go on tangents without being judged. I think you’ll fit the role perfectly, and hey, you could maybe help recruit some new members too…? " ,
+ " Player  Chapter_1_0069900 …Sorry about that. " ,
 
- " Atria2_Timid  Chapter_1-0070900 Atria2_Timid " ,
+ " Narration  Chapter_1_0070200 Atria looks towards you with blatant confusion. " ,
 
- " Atria  Chapter_1-0071200 Ah… you’re sure I won’t come off as annoying? Y’know… talking and such? " ,
+ " Player  Chapter_1_0070500 I was just wondering if you’re interested in clubs at all? It’ll be a perfect opportunity to get yourself out there and make new friends. " ,
 
- " Player  Chapter_1-0071500 Of course not. The entire point of a radio club is to speak into a microphone. You can even take it for a little test run, if you’d like. " ,
+ " Player  Chapter_1_0070700 I was hoping to recruit you to the radio club. There, you’ll be able to go on tangents without being judged. I think you’ll fit the role perfectly, and hey, you could maybe help recruit some new members too…? " ,
 
- " Atria  Chapter_1-0071800 ... " ,
+ " Atria2_Timid  Chapter_1_0070900 Atria2_Timid " ,
 
- " Atria  Chapter_1-0072000 W-well… I suppose it’s the least I can do… you’ve kind of helped me consider possibilities I would have never even imagined otherwise… " ,
+ " Atria  Chapter_1_0071200 Ah… you’re sure I won’t come off as annoying? Y’know… talking and such? " ,
 
- " Narration  Chapter_1-0072300 There’s a brief pause before Atria clings to your sleeve, allowing you to lead the way. " ,
+ " Player  Chapter_1_0071500 Of course not. The entire point of a radio club is to speak into a microphone. You can even take it for a little test run, if you’d like. " ,
 
- " Sprites are removed - momentarily for background transition  Chapter_1-0072500 Sprites are removed - momentarily for background transition " ,
+ " Atria  Chapter_1_0071800 ... " ,
 
- " Music_Room_Basic + Music_Printer  Chapter_1-0072700 Music_Room_Basic + Music_Printer " ,
+ " Atria  Chapter_1_0072000 W-well… I suppose it’s the least I can do… you’ve kind of helped me consider possibilities I would have never even imagined otherwise… " ,
 
- " Kyo_SP_Default  Chapter_1-0072900 Kyo_SP_Default " ,
+ " Narration  Chapter_1_0072300 There’s a brief pause before Atria clings to your sleeve, allowing you to lead the way. " ,
 
- " Atria1_Timid  Chapter_1-0073000 Atria1_Timid " ,
+ " Sprites are removed - momentarily for background transition  Chapter_1_0072500 Sprites are removed - momentarily for background transition " ,
 
- " Kyo left, Atria right  Chapter_1-0073100 Kyo left, Atria right " ,
+ " Music_Room_Basic + Music_Printer  Chapter_1_0072700 Music_Room_Basic + Music_Printer " ,
 
- " Player  Chapter_1-0073400 Here’s the club room! Cozy, isn’t it? " ,
+ " Kyo_SP_Default  Chapter_1_0072900 Kyo_SP_Default " ,
 
- " Kyo_FP_Smiling  Chapter_1-0073600 Kyo_FP_Smiling " ,
+ " Atria1_Timid  Chapter_1_0073000 Atria1_Timid " ,
 
- " Narration  Chapter_1-0073900 Kyo speaks, his tone strung with an obvious sarcasm. " ,
+ " Kyo left, Atria right  Chapter_1_0073100 Kyo left, Atria right " ,
 
- " Kyo  Chapter_1-0074200 Wooow… 32/10 persuasive skills. " ,
+ " Player  Chapter_1_0073400 Here’s the club room! Cozy, isn’t it? " ,
 
- " Kyo  Chapter_1-0074400 Narration:  " ,
+ " Kyo_FP_Smiling  Chapter_1_0073600 Kyo_FP_Smiling " ,
 
- " Kyo  Chapter_1-0074500 You just shoot a glare at him before sighing and moving on. " ,
+ " Narration  Chapter_1_0073900 Kyo speaks, his tone strung with an obvious sarcasm. " ,
 
- " Player  Chapter_1-0074800 Well, how about you step up to the microphone and try it out? Sound good? " ,
+ " Kyo  Chapter_1_0074200 Wooow… 32/10 persuasive skills. " ,
 
- " Narration  Chapter_1-0075100 Atria reluctantly approaches the microphone at the back of the studio, looking at you for approval before switching it on, tapping its end unsurely.  " ,
+ " Kyo  Chapter_1_0074400 Narration:  " ,
 
- " Narration  Chapter_1-0075300 She has to lower it a bit in order to reach it properly… heh, that would make two short people in the club. " ,
+ " Kyo  Chapter_1_0074500 You just shoot a glare at him before sighing and moving on. " ,
 
- " Atria  Chapter_1-0075600 ...Ah… what should I say? " ,
+ " Player  Chapter_1_0074800 Well, how about you step up to the microphone and try it out? Sound good? " ,
 
- " Player  Chapter_1-0075900 Hmm.. " ,
+ " Narration  Chapter_1_0075100 Atria reluctantly approaches the microphone at the back of the studio, looking at you for approval before switching it on, tapping its end unsurely.  " ,
 
- " Narration  Chapter_1-0076200 You look at Kyo for an answer, but you only receive a shrug in response. " ,
+ " Narration  Chapter_1_0075300 She has to lower it a bit in order to reach it properly… heh, that would make two short people in the club. " ,
 
- " Player  Chapter_1-0076500 ...I guess whatever you feel like. It’s just a test, so, how about something you’re passionate about? " ,
+ " Atria  Chapter_1_0075600 ...Ah… what should I say? " ,
 
- " Kyo  Chapter_1-0076800 Yeah, that works. Just whatever is easy to talk about. " ,
+ " Player  Chapter_1_0075900 Hmm.. " ,
 
- " Kyo sprite is removed  Chapter_1-0077000 Kyo sprite is removed " ,
+ " Narration  Chapter_1_0076200 You look at Kyo for an answer, but you only receive a shrug in response. " ,
 
- " Atria2_Timid  Chapter_1-0077100 Atria2_Timid " ,
+ " Player  Chapter_1_0076500 ...I guess whatever you feel like. It’s just a test, so, how about something you’re passionate about? " ,
 
- " Centered  Chapter_1-0077200 Centered " ,
+ " Kyo  Chapter_1_0076800 Yeah, that works. Just whatever is easy to talk about. " ,
 
- " Narration  Chapter_1-0077500 Atria approaches the mic, a bit tense. She starts off very reluctant, stuttering over her sentences. " ,
+ " Kyo sprite is removed  Chapter_1_0077000 Kyo sprite is removed " ,
 
- " Atria  Chapter_1-0077800 ...Hello, I-I’m Atria… um.. " ,
+ " Atria2_Timid  Chapter_1_0077100 Atria2_Timid " ,
 
- " Atria  Chapter_1-0078000 ... " ,
+ " Centered  Chapter_1_0077200 Centered " ,
 
- " Atria  Chapter_1-0078200 ... " ,
+ " Narration  Chapter_1_0077500 Atria approaches the mic, a bit tense. She starts off very reluctant, stuttering over her sentences. " ,
 
- " Player  Chapter_1-0078500 Hey, it\'s alright. Just say whatever comes naturally, it doesn’t have to be thought out like some perfect script. " ,
+ " Atria  Chapter_1_0077800 ...Hello, I-I’m Atria… um.. " ,
 
- " Narration  Chapter_1-0078800 Her eyes shift towards your direction, and she takes a deep breath before continuing. " ,
+ " Atria  Chapter_1_0078000 ... " ,
 
- " Atria2_Nervous  Chapter_1-0079000 Atria2_Nervous " ,
+ " Atria  Chapter_1_0078200 ... " ,
 
- " Narration  Chapter_1-0079300 Slowly, her body relaxes a little, as she lets go of her worries for a fleeting moment. It takes a little longer for her to grow comfortable with purposely being so outspoken like this. " ,
+ " Player  Chapter_1_0078500 Hey, it\'s alright. Just say whatever comes naturally, it doesn’t have to be thought out like some perfect script. " ,
 
- " Atria sprite is removed  Chapter_1-0079500 Atria sprite is removed " ,
+ " Narration  Chapter_1_0078800 Her eyes shift towards your direction, and she takes a deep breath before continuing. " ,
 
- " Black screen  Chapter_1-0079700 Black screen " ,
+ " Atria2_Nervous  Chapter_1_0079000 Atria2_Nervous " ,
 
- " Narration  Chapter_1-0079900 She continues speaking, slowly but surely becoming more confident as she speaks her mind, whatever small bits of information or passion that come to her. " ,
+ " Narration  Chapter_1_0079300 Slowly, her body relaxes a little, as she lets go of her worries for a fleeting moment. It takes a little longer for her to grow comfortable with purposely being so outspoken like this. " ,
 
- " Narration  Chapter_1-0080100 Some time passes, and not long later, she begins speaking like she had been waiting for this opportunity for years. " ,
+ " Atria sprite is removed  Chapter_1_0079500 Atria sprite is removed " ,
 
- " Atrias club room CG  Chapter_1-0080300 Atrias club room CG " ,
+ " Black screen  Chapter_1_0079700 Black screen " ,
 
- " Narration  Chapter_1-0080500 Her face lights up with the most genuine smile you have seen from her since the two of you met. You and Kyo give each other accomplished glances, allowing her to ramble without being ridiculed for what seems like the first time in her life. " ,
+ " Narration  Chapter_1_0079900 She continues speaking, slowly but surely becoming more confident as she speaks her mind, whatever small bits of information or passion that come to her. " ,
 
- " Narration  Chapter_1-0080700 She seems like an entirely different person, babbling about whatever comes to her mind, in a world of her own. " ,
+ " Narration  Chapter_1_0080100 Some time passes, and not long later, she begins speaking like she had been waiting for this opportunity for years. " ,
 
- " Narration  Chapter_1-0080900 Even a few giddy sounding giggles manage to leave Atria. It was clear as day that she found enjoyment in this. " ,
+ " Atrias club room CG  Chapter_1_0080300 Atrias club room CG " ,
 
- " Narration  Chapter_1-0081100 Though after a fleeting moment, she stops, making eye contact as if just remembering there are people listening to her. Her eyes widen slightly, but a small smile remains on her expression. " ,
+ " Narration  Chapter_1_0080500 Her face lights up with the most genuine smile you have seen from her since the two of you met. You and Kyo give each other accomplished glances, allowing her to ramble without being ridiculed for what seems like the first time in her life. " ,
 
- " Atria  Chapter_1-0081400 ...Are you sure this is okay?.. Not suppressing the urge to talk… it feels so different. " ,
+ " Narration  Chapter_1_0080700 She seems like an entirely different person, babbling about whatever comes to her mind, in a world of her own. " ,
 
- " Kyo  Chapter_1-0081700 ... " ,
+ " Narration  Chapter_1_0080900 Even a few giddy sounding giggles manage to leave Atria. It was clear as day that she found enjoyment in this. " ,
 
- " Kyo  Chapter_1-0081900 ...Damn she’s traumatized. " ,
+ " Narration  Chapter_1_0081100 Though after a fleeting moment, she stops, making eye contact as if just remembering there are people listening to her. Her eyes widen slightly, but a small smile remains on her expression. " ,
 
- " Narration  Chapter_1-0082200 You try to nudge Kyo, as this was most definitely *not* the time, but he ducks away. " ,
+ " Atria  Chapter_1_0081400 ...Are you sure this is okay?.. Not suppressing the urge to talk… it feels so different. " ,
 
- " Player  Chapter_1-0082500 Of course it’s alright. So, what do you say? Why don’t you try making some friends by helping start up a club? " ,
+ " Kyo  Chapter_1_0081700 ... " ,
 
- " Atria  Chapter_1-0082800 ...I– " ,
+ " Kyo  Chapter_1_0081900 ...Damn she’s traumatized. " ,
 
- " Narration  Chapter_1-0083100 Atria ponders this suggestion, taking a while to push away any troubles with her ‘friends’. " ,
+ " Narration  Chapter_1_0082200 You try to nudge Kyo, as this was most definitely *not* the time, but he ducks away. " ,
 
- " Narration  Chapter_1-0083300 She shakes her head, clearing her mind before nodding with a newfound assurance. " ,
+ " Player  Chapter_1_0082500 Of course it’s alright. So, what do you say? Why don’t you try making some friends by helping start up a club? " ,
 
- " Atria  Chapter_1-0083600 I think I’d like that. " ,
+ " Atria  Chapter_1_0082800 ...I– " ,
+
+ " Narration  Chapter_1_0083100 Atria ponders this suggestion, taking a while to push away any troubles with her ‘friends’. " ,
+
+ " Narration  Chapter_1_0083300 She shakes her head, clearing her mind before nodding with a newfound assurance. " ,
+
+ " Atria  Chapter_1_0083600 I think I’d like that. " ,
 
 		// end-of-CHAPTER-1-mark
 		'jump CHAPTER_2',
@@ -1013,693 +1026,699 @@ monogatari.script({
     'CHAPTER_2': [
 		'chap 2',
 		// start-of-CHAPTER-2-mark
- " Skye's BGM  Chapter_2-0000400 Skye\'s BGM " ,
+ " _Name _DialogCode _Tex " ,
 
- " Player and Kyo Kyo_FP_Default  Chapter_2-0000700 Yawn… " ,
+ "  Chapter_2_0000100 Chapter 2: Befriending the Shrewd Dreamer " ,
 
- " Narration  Chapter_2-0001000 You and Kyo sleepily make your way down through the quiet school corridor to the radio club room. Neither of you were fit to stand, let alone walk, but– " ,
+ " Background School Hallway  Chapter_2_0000300 Background: School Hallway " ,
 
- " Player  Chapter_2-0001300 Why are we here this early again? School hasn\'t even started yet… " ,
+ " Skye's BGM  Chapter_2_0000400 Skye\'s BGM " ,
 
- " Kyo  Chapter_2-0001600 I\'m not happy about this either, but someone needs to prep the club equipment. S\'not like we got a tonna members to figure this shit out yet. " ,
+ " Player and Kyo Kyo_FP_Default  Chapter_2_0000700 Yawn… " ,
 
- " Player  Chapter_2-0001900 We\'d have more members if you actually helped with recruitment y\'know. " ,
+ " Narration  Chapter_2_0001000 You and Kyo sleepily make your way down through the quiet school corridor to the radio club room. Neither of you were fit to stand, let alone walk, but– " ,
 
- " Kyo  Chapter_2-0002200 Hey, that\'s what you\'re for. I have very important club president things to deal with. " ,
+ " Player  Chapter_2_0001300 Why are we here this early again? School hasn\'t even started yet… " ,
 
- " Narration  Chapter_2-0002500 You grumble, but the both of you continue to make your way down the hall. Even if you lumbered the whole way like a zombie who had already lost its head, only the empty corridors and a snickering Kyo would witness such a scene. " ,
+ " Kyo  Chapter_2_0001600 I\'m not happy about this either, but someone needs to prep the club equipment. S\'not like we got a tonna members to figure this shit out yet. " ,
 
- " Kyo sprite moves to left.  Chapter_2-0002700 Kyo sprite moves to left. " ,
+ " Player  Chapter_2_0001900 We\'d have more members if you actually helped with recruitment y\'know. " ,
 
- " Skye_Smile at right, darkened  Chapter_2-0002800 Skye_Smile at right, darkened " ,
+ " Kyo  Chapter_2_0002200 Hey, that\'s what you\'re for. I have very important club president things to deal with. " ,
 
- " ???  Chapter_2-0003100 –so with some struggle, you are able to ingest the Baia Bamare figure that is now inside your stomach– " ,
+ " Narration  Chapter_2_0002500 You grumble, but the both of you continue to make your way down the hall. Even if you lumbered the whole way like a zombie who had already lost its head, only the empty corridors and a snickering Kyo would witness such a scene. " ,
 
- " Kyo_FP_Shocked  Chapter_2-0003300 Kyo_FP_Shocked " ,
+ " Kyo sprite moves to left.  Chapter_2_0002700 Kyo sprite moves to left. " ,
 
- " Narration  Chapter_2-0003600 A muffled but excited voice catches your attention, stopping you in your tracks. The odd words are inescapable even to your drowsy heads. " ,
+ " Skye_Smile at right, darkened  Chapter_2_0002800 Skye_Smile at right, darkened " ,
 
- " ???  Chapter_2-0003900 –Arkillia goes ahead and grabs the letter opener and puts it in their pocket… " ,
+ " ???  Chapter_2_0003100 –so with some struggle, you are able to ingest the Baia Bamare figure that is now inside your stomach– " ,
 
- " Player and Kyo  Chapter_2-0004200 … " ,
+ " Kyo_FP_Shocked  Chapter_2_0003300 Kyo_FP_Shocked " ,
 
- " Narration  Chapter_2-0004500 The voice continues to excitedly narrate, small mutters and giggles leaking from a small janitor\'s closet stuffed away in the corner of the school corridor.  " ,
+ " Narration  Chapter_2_0003600 A muffled but excited voice catches your attention, stopping you in your tracks. The odd words are inescapable even to your drowsy heads. " ,
 
- " Narration  Chapter_2-0004700 Both you and Kyo look at each other baffled. " ,
+ " ???  Chapter_2_0003900 –Arkillia goes ahead and grabs the letter opener and puts it in their pocket… " ,
 
- " Kyo sprite disappears  Chapter_2-0004900 Kyo sprite disappears " ,
+ " Player and Kyo  Chapter_2_0004200 … " ,
 
- " ???  Chapter_2-0005200 –You hear the doorknob turning. As the door swings open, Eliza reenters. Alright! Let\'s wrap things up here! She pops into her chair, reorganising her papers, unaware that you\'ve been searching through them– " ,
+ " Narration  Chapter_2_0004500 The voice continues to excitedly narrate, small mutters and giggles leaking from a small janitor\'s closet stuffed away in the corner of the school corridor.  " ,
 
- " Narration  Chapter_2-0005500 You approach the door, giving it a tentative knock that abruptly silences the voice. " ,
+ " Narration  Chapter_2_0004700 Both you and Kyo look at each other baffled. " ,
 
- " Player  Chapter_2-0005800 … " ,
+ " Kyo sprite disappears  Chapter_2_0004900 Kyo sprite disappears " ,
 
- " Narration  Chapter_2-0006100 You bring your hand forward to knock again when the door slowly creaks open. " ,
+ " ???  Chapter_2_0005200 –You hear the doorknob turning. As the door swings open, Eliza reenters. Alright! Let\'s wrap things up here! She pops into her chair, reorganising her papers, unaware that you\'ve been searching through them– " ,
 
- " Girl in the Closet  Chapter_2-0006400 C-Can I help you? " ,
+ " Narration  Chapter_2_0005500 You approach the door, giving it a tentative knock that abruptly silences the voice. " ,
 
- " Skye Default Sprite, normal brightness  Chapter_2-0006600 Skye Default Sprite, normal brightness " ,
+ " Player  Chapter_2_0005800 … " ,
 
- " Narration  Chapter_2-0006900 The girl that meets you as the door opens has a cold look firmly set on her face, flinty eyes glaring at you imperiously. Had she not stuttered, her attempt at intimidation might’ve actually worked… well, probably. " ,
+ " Narration  Chapter_2_0006100 You bring your hand forward to knock again when the door slowly creaks open. " ,
 
- " Narration  Chapter_2-0007100 A slight flush climbs her face at her stumble, but she stubbornly continues to try and fake disinterest. She’s failing miserably, but you could say she was attempting it with an almost admirable persistence. " ,
+ " Girl in the Closet  Chapter_2_0006400 C-Can I help you? " ,
 
- " Player  Chapter_2-0007400 Uhhh… I heard you talking, and… was wondering what you were doing in the closet…? " ,
+ " Skye Default Sprite, normal brightness  Chapter_2_0006600 Skye Default Sprite, normal brightness " ,
 
- " Narration  Chapter_2-0007700 The flush on the girl’s face only grew, her flusteredness leaking into her words, making her ramble slightly. " ,
+ " Narration  Chapter_2_0006900 The girl that meets you as the door opens has a cold look firmly set on her face, flinty eyes glaring at you imperiously. Had she not stuttered, her attempt at intimidation might’ve actually worked… well, probably. " ,
 
- " Girl in the Closet  Chapter_2-0008000 Well if you must know, I was conducting a very important meeting with my friends. The closet just happens to be a very convenient place for us to do so without any disturbance or without inadvertently disturbing anyone else. " ,
+ " Narration  Chapter_2_0007100 A slight flush climbs her face at her stumble, but she stubbornly continues to try and fake disinterest. She’s failing miserably, but you could say she was attempting it with an almost admirable persistence. " ,
 
- " Narration  Chapter_2-0008300 She pushes the closet door open further, stepping out into the hallway. She dusts her skirt off primly, not at all subtly looking away in embarrassment. The closet, left open as it was, shows no one else inside.  " ,
+ " Player  Chapter_2_0007400 Uhhh… I heard you talking, and… was wondering what you were doing in the closet…? " ,
 
- " Narration  Chapter_2-0008500 You look back at Kyo in confusion, receiving an equally confused look from the blue haired boy.  " ,
+ " Narration  Chapter_2_0007700 The flush on the girl’s face only grew, her flusteredness leaking into her words, making her ramble slightly. " ,
 
- " Narration  Chapter_2-0008700 You turn back to the girl who in turn looks at you strangely, darting her eyes towards Kyo questioningly. " ,
+ " Girl in the Closet  Chapter_2_0008000 Well if you must know, I was conducting a very important meeting with my friends. The closet just happens to be a very convenient place for us to do so without any disturbance or without inadvertently disturbing anyone else. " ,
 
- " Narration  Chapter_2-0008900 You shrug off the girl’s still strange choice of meeting location and lack of other people to have a meeting with. Not that you could really judge people on their social choices. After all, most would probably call you crazy for befriending Kyo… " ,
+ " Narration  Chapter_2_0008300 She pushes the closet door open further, stepping out into the hallway. She dusts her skirt off primly, not at all subtly looking away in embarrassment. The closet, left open as it was, shows no one else inside.  " ,
 
- " Player  Chapter_2-0009200 I heard you narrating? I think? You speak really well. " ,
+ " Narration  Chapter_2_0008500 You look back at Kyo in confusion, receiving an equally confused look from the blue haired boy.  " ,
 
- " Narration  Chapter_2-0009500 A surprised expression flickers through her face before her attempt at a cool expression slides back into place. Her expressiveness, still not hiding her feelings, allows a small bit of smug pride to shine through. " ,
+ " Narration  Chapter_2_0008700 You turn back to the girl who in turn looks at you strangely, darting her eyes towards Kyo questioningly. " ,
 
- " Girl no longer in Closet  Chapter_2-0009800 Of course! I love playing as my party\'s Game Master, and I work hard to make every game enjoyable. " ,
+ " Narration  Chapter_2_0008900 You shrug off the girl’s still strange choice of meeting location and lack of other people to have a meeting with. Not that you could really judge people on their social choices. After all, most would probably call you crazy for befriending Kyo… " ,
 
- " Narration  Chapter_2-0010100 A shy expression flickers on her face before she extends her hand towards you in a handshake. " ,
+ " Player  Chapter_2_0009200 I heard you narrating? I think? You speak really well. " ,
 
- " Girl no Longer in Closet  Chapter_2-0010400 My name\'s Skye, Skye Oriana, what’s your name? " ,
+ " Narration  Chapter_2_0009500 A surprised expression flickers through her face before her attempt at a cool expression slides back into place. Her expressiveness, still not hiding her feelings, allows a small bit of smug pride to shine through. " ,
 
- " Player  Chapter_2-0010700 I\'m Player. Nice to meet you.  " ,
+ " Girl no longer in Closet  Chapter_2_0009800 Of course! I love playing as my party\'s Game Master, and I work hard to make every game enjoyable. " ,
 
- " Narration  Chapter_2-0011000 You take her hand with a smile, receiving a small smile back. " ,
+ " Narration  Chapter_2_0010100 A shy expression flickers on her face before she extends her hand towards you in a handshake. " ,
 
- " Narration  Chapter_2-0011200 Kyo coughs behind you, reminding you that you were in school this early for a reason. At this rate, class would start before you could finish your duties for the radio club. " ,
+ " Girl no Longer in Closet  Chapter_2_0010400 My name\'s Skye, Skye Oriana, what’s your name? " ,
 
- " Proceed to two choices <Don’t invite her to the radio club> or <Invite her to the radio club>  Chapter_2-0011400 Proceed to two choices: <Don’t invite her to the radio club> or <Invite her to the radio club> " ,
+ " Player  Chapter_2_0010700 I\'m Player. Nice to meet you.  " ,
 
- " Choice 1 Don't invite her to the radio club  Chapter_2-0011600 Choice 1: Don\'t invite her to the radio club " ,
+ " Narration  Chapter_2_0011000 You take her hand with a smile, receiving a small smile back. " ,
 
- " Skye Sprite disappears  Chapter_2-0011800 Skye Sprite disappears " ,
+ " Narration  Chapter_2_0011200 Kyo coughs behind you, reminding you that you were in school this early for a reason. At this rate, class would start before you could finish your duties for the radio club. " ,
 
- " Kyo _FP_Default Appears  Chapter_2-0011900 Kyo _FP_Default Appears " ,
+ " Proceed to two choices <Don’t invite her to the radio club> or <Invite her to the radio club>  Chapter_2_0011400 Proceed to two choices: <Don’t invite her to the radio club> or <Invite her to the radio club> " ,
 
- " Narration  Chapter_2-0012200 You take a step back, standing side by side with Kyo once again. He looks at you with a raised brow, unsubtly gesturing towards Skye and muttering quietly. " ,
+ " Choice 1 Don't invite her to the radio club  Chapter_2_0011600 Choice 1: Don\'t invite her to the radio club " ,
 
- " Kyo  Chapter_2-0012500 You thinking of inviting her? " ,
+ " Skye Sprite disappears  Chapter_2_0011800 Skye Sprite disappears " ,
 
- " Narration  Chapter_2-0012800 Surprised at Kyo’s sudden interest, you look at him questioningly. " ,
+ " Kyo _FP_Default Appears  Chapter_2_0011900 Kyo _FP_Default Appears " ,
 
- " Player  Chapter_2-0013100 Think it\'s a good idea? We don\'t really know her… " ,
+ " Narration  Chapter_2_0012200 You take a step back, standing side by side with Kyo once again. He looks at you with a raised brow, unsubtly gesturing towards Skye and muttering quietly. " ,
 
- " Kyo  Chapter_2-0013400 Man, do you think we\'re in any position to be picky? Bet you\'re just too chicken to ask. " ,
+ " Kyo  Chapter_2_0012500 You thinking of inviting her? " ,
 
- " Kyo sprite disappears  Chapter_2-0013600 Kyo sprite disappears " ,
+ " Narration  Chapter_2_0012800 Surprised at Kyo’s sudden interest, you look at him questioningly. " ,
 
- " Skye Default Sprite Appears  Chapter_2-0013700 Skye Default Sprite Appears " ,
+ " Player  Chapter_2_0013100 Think it\'s a good idea? We don\'t really know her… " ,
 
- " Narration  Chapter_2-0014000 You roll your eyes at his obvious bait – he was the one pushing recruitment off onto you so it wasn\'t like he could talk.  " ,
+ " Kyo  Chapter_2_0013400 Man, do you think we\'re in any position to be picky? Bet you\'re just too chicken to ask. " ,
 
- " Narration  Chapter_2-0014200 With a grumble, you turn back to Skye, who blinks weirdly at you, looking strangely at the both of you muttering at each other. " ,
+ " Kyo sprite disappears  Chapter_2_0013600 Kyo sprite disappears " ,
 
- " Scene reconverges here  Chapter_2-0014400 Scene reconverges here " ,
+ " Skye Default Sprite Appears  Chapter_2_0013700 Skye Default Sprite Appears " ,
 
- " Choice 2 Invite her to the radio club  Chapter_2-0014600 Choice 2: Invite her to the radio club " ,
+ " Narration  Chapter_2_0014000 You roll your eyes at his obvious bait – he was the one pushing recruitment off onto you so it wasn\'t like he could talk.  " ,
 
- " Scene reconverges here  Chapter_2-0014700 Scene reconverges here " ,
+ " Narration  Chapter_2_0014200 With a grumble, you turn back to Skye, who blinks weirdly at you, looking strangely at the both of you muttering at each other. " ,
 
- " Player  Chapter_2-0015000 Hey, we\'re currently recruiting members for the radio club, do you… wanna join? " ,
+ " Scene reconverges here  Chapter_2_0014400 Scene reconverges here " ,
 
- " Skye_Smile  Chapter_2-0015200 Skye_Smile " ,
+ " Choice 2 Invite her to the radio club  Chapter_2_0014600 Choice 2: Invite her to the radio club " ,
 
- " Narration  Chapter_2-0015400 Skye\'s eyebrows shoot up in surprise, a small smile subconsciously spreading across her face. She looks at you in confused delight as you continue your invitation. " ,
+ " Scene reconverges here  Chapter_2_0014700 Scene reconverges here " ,
 
- " Player  Chapter_2-0015700 We don\'t have a lot of members but we\'re pretty sure we can get more people to sign up. I think you\'d be a perfect fit for a broadcaster. You think you\'d be up for it? " ,
+ " Player  Chapter_2_0015000 Hey, we\'re currently recruiting members for the radio club, do you… wanna join? " ,
 
- " Narration  Chapter_2-0016000 A lost look of wonder briefly crosses her eyes before quickly dimming. She looks to the side, her eyes contemplative. Skye hums consideringly before answering mildly. " ,
+ " Skye_Smile  Chapter_2_0015200 Skye_Smile " ,
 
- " Skye  Chapter_2-0016300 Well, I\'ll have to talk to my friends first, not sure I\'ll have the time considering all the things that I\'ve been needing to do lately. " ,
+ " Narration  Chapter_2_0015400 Skye\'s eyebrows shoot up in surprise, a small smile subconsciously spreading across her face. She looks at you in confused delight as you continue your invitation. " ,
 
- " Narration  Chapter_2-0016600 Skye makes a big gesture of turning to the side, suddenly starting to talk loudly and gesturing broadly as if conversing with a group of people. " ,
+ " Player  Chapter_2_0015700 We don\'t have a lot of members but we\'re pretty sure we can get more people to sign up. I think you\'d be a perfect fit for a broadcaster. You think you\'d be up for it? " ,
 
- " Skye  Chapter_2-0016900 Well, what do you guys think? " ,
+ " Narration  Chapter_2_0016000 A lost look of wonder briefly crosses her eyes before quickly dimming. She looks to the side, her eyes contemplative. Skye hums consideringly before answering mildly. " ,
 
- " Kyo_FP_Shocked sprite appears  Chapter_2-0017100 Kyo_FP_Shocked sprite appears " ,
+ " Skye  Chapter_2_0016300 Well, I\'ll have to talk to my friends first, not sure I\'ll have the time considering all the things that I\'ve been needing to do lately. " ,
 
- " Narration  Chapter_2-0017400 You and Kyo look at her bewilderedly as silence meets Skye\'s question, but Skye only continues talking to the air, nodding and humming, responding as if someone was talking back to her. " ,
+ " Narration  Chapter_2_0016600 Skye makes a big gesture of turning to the side, suddenly starting to talk loudly and gesturing broadly as if conversing with a group of people. " ,
 
- " Skye  Chapter_2-0017700 –you\'re right, I\'m not in any other clubs right now but what about our campaigns? We usually conduct them right after school, we– " ,
+ " Skye  Chapter_2_0016900 Well, what do you guys think? " ,
 
- " Player and Kyo  Chapter_2-0018000 … " ,
+ " Kyo_FP_Shocked sprite appears  Chapter_2_0017100 Kyo_FP_Shocked sprite appears " ,
 
- " Narration  Chapter_2-0018300 Skye continues talking to nothing. You’re starting to get concerned that staying in the chemical and dust filled janitor’s closet is having a more detrimental effect on her than one would expect. " ,
+ " Narration  Chapter_2_0017400 You and Kyo look at her bewilderedly as silence meets Skye\'s question, but Skye only continues talking to the air, nodding and humming, responding as if someone was talking back to her. " ,
 
- " Player  Chapter_2-0018600 Uhhh… Skye? " ,
+ " Skye  Chapter_2_0017700 –you\'re right, I\'m not in any other clubs right now but what about our campaigns? We usually conduct them right after school, we– " ,
 
- " Narration  Chapter_2-0018900 Skye only hums at you, looking like she was only half listening to you as she continues to nod at the thin air near her. " ,
+ " Player and Kyo  Chapter_2_0018000 … " ,
 
- " Player  Chapter_2-0019200 Who’re you talkin’ to? " ,
+ " Narration  Chapter_2_0018300 Skye continues talking to nothing. You’re starting to get concerned that staying in the chemical and dust filled janitor’s closet is having a more detrimental effect on her than one would expect. " ,
 
- " Narration  Chapter_2-0019500 Skye answers your question distractedly, still seeming completely engrossed at whatever it is she’s listening to. " ,
+ " Player  Chapter_2_0018600 Uhhh… Skye? " ,
 
- " Skye  Chapter_2-0019800 I\'m talking to my friends, of course. " ,
+ " Narration  Chapter_2_0018900 Skye only hums at you, looking like she was only half listening to you as she continues to nod at the thin air near her. " ,
 
- " Narration  Chapter_2-0020100 Skye gestures at the empty air beside her, only half listening to your question. " ,
+ " Player  Chapter_2_0019200 Who’re you talkin’ to? " ,
 
- " Player and Kyo Kyo_FP_Bruh  Chapter_2-0020400 … " ,
+ " Narration  Chapter_2_0019500 Skye answers your question distractedly, still seeming completely engrossed at whatever it is she’s listening to. " ,
 
- " Kyo  Chapter_2-0020700 Goddamn, she looks almost as crazy as you. " ,
+ " Skye  Chapter_2_0019800 I\'m talking to my friends, of course. " ,
 
- " Player  Chapter_2-0021000 Shut up. " ,
+ " Narration  Chapter_2_0020100 Skye gestures at the empty air beside her, only half listening to your question. " ,
 
- " Player  Chapter_2-0021200 Narration:  " ,
+ " Player and Kyo Kyo_FP_Bruh  Chapter_2_0020400 … " ,
 
- " Player  Chapter_2-0021300 You hiss at Kyo, throwing a smack to the short boy’s shoulder that he dodges with an indignant yelp. You frantically turn back to Skye, hoping she didn’t hear Kyo’s expected but poorly timed smacktalk. " ,
+ " Kyo  Chapter_2_0020700 Goddamn, she looks almost as crazy as you. " ,
 
- " Player  Chapter_2-0021500 Skye, unfortunately, did seem to notice your antics and blinks " ,
+ " Player  Chapter_2_0021000 Shut up. " ,
 
- " Player  Chapter_2-0021600 at you once more, bewildered. " ,
+ " Player  Chapter_2_0021200 Narration:  " ,
 
- " Player  Chapter_2-0021900 He\'s like this with everyone, don\'t worry about what he says. In fact, a general rule is that you probably should ignore most of what he says. " ,
+ " Player  Chapter_2_0021300 You hiss at Kyo, throwing a smack to the short boy’s shoulder that he dodges with an indignant yelp. You frantically turn back to Skye, hoping she didn’t hear Kyo’s expected but poorly timed smacktalk. " ,
 
- " Kyo Sprite becomes not the focus of scene, Skye Sprite centred  Chapter_2-0022100 Kyo Sprite becomes not the focus of scene, Skye Sprite centred " ,
+ " Player  Chapter_2_0021500 Skye, unfortunately, did seem to notice your antics and blinks " ,
 
- " Skye_Smile2  Chapter_2-0022200 Skye_Smile2 " ,
+ " Player  Chapter_2_0021600 at you once more, bewildered. " ,
 
- " Player  Chapter_2-0022400 Kyo’s exclamation of annoyance is drowned out by Skye’s reaction. She doesn\'t react negatively to Kyo’s ribbing. Instead, a bright smile suddenly breaks out on her face. " ,
+ " Player  Chapter_2_0021900 He\'s like this with everyone, don\'t worry about what he says. In fact, a general rule is that you probably should ignore most of what he says. " ,
 
- " Skye  Chapter_2-0022700 It\'s nice to know someone like me! A person who knows the " ,
+ " Kyo Sprite becomes not the focus of scene, Skye Sprite centred  Chapter_2_0022100 Kyo Sprite becomes not the focus of scene, Skye Sprite centred " ,
 
- " Skye  Chapter_2-0022800 pros to our more unusual friends… " ,
+ " Skye_Smile2  Chapter_2_0022200 Skye_Smile2 " ,
 
- " Player  Chapter_2-0023100 Huh? " ,
+ " Player  Chapter_2_0022400 Kyo’s exclamation of annoyance is drowned out by Skye’s reaction. She doesn\'t react negatively to Kyo’s ribbing. Instead, a bright smile suddenly breaks out on her face. " ,
 
- " Kyo  Chapter_2-0023400 The fuck, did she just call me unusual? " ,
+ " Skye  Chapter_2_0022700 It\'s nice to know someone like me! A person who knows the " ,
 
- " Narration  Chapter_2-0023700 Skye\'s expression only brightens further, her thick glasses not nearly covering her delight. " ,
+ " Skye  Chapter_2_0022800 pros to our more unusual friends… " ,
 
- " Skye  Chapter_2-0024000 You\'re pretty nice. " ,
+ " Player  Chapter_2_0023100 Huh? " ,
 
- " Narration  Chapter_2-0024300 She looks consideringly to the side again, her smile turning contemplative. " ,
+ " Kyo  Chapter_2_0023400 The fuck, did she just call me unusual? " ,
 
- " Skye  Chapter_2-0024600 I actually might consider visiting your club after all. After classes, of course. I\'m pretty sure I can help you with things even without joining the club! " ,
+ " Narration  Chapter_2_0023700 Skye\'s expression only brightens further, her thick glasses not nearly covering her delight. " ,
 
- " Narration  Chapter_2-0024900 She suddenly rushes to grab your hand, making you stumble back in surprise. She quickly gives the limb a firm, decisive shake, before backing away just as quickly. " ,
+ " Skye  Chapter_2_0024000 You\'re pretty nice. " ,
 
- " Skye  Chapter_2-0025200 I\'m looking at a very busy day ahead, so I\'ll be taking my leave now. It was nice to meet you, Player! " ,
+ " Narration  Chapter_2_0024300 She looks consideringly to the side again, her smile turning contemplative. " ,
 
- " Narration  Chapter_2-0025500 Skye cheerfully skips off down the school hallways, quickly disappearing through the corridors. " ,
+ " Skye  Chapter_2_0024600 I actually might consider visiting your club after all. After classes, of course. I\'m pretty sure I can help you with things even without joining the club! " ,
 
- " Skye Sprite disappears  Chapter_2-0025700 Skye Sprite disappears " ,
+ " Narration  Chapter_2_0024900 She suddenly rushes to grab your hand, making you stumble back in surprise. She quickly gives the limb a firm, decisive shake, before backing away just as quickly. " ,
 
- " Narration  Chapter_2-0025900 You and Kyo stand there in dazed shock, both at the odd ending to the conversation and at her quick exit. " ,
+ " Skye  Chapter_2_0025200 I\'m looking at a very busy day ahead, so I\'ll be taking my leave now. It was nice to meet you, Player! " ,
 
- " Player  Chapter_2-0026200 Well… she was interesting. " ,
+ " Narration  Chapter_2_0025500 Skye cheerfully skips off down the school hallways, quickly disappearing through the corridors. " ,
 
- " Kyo  Chapter_2-0026500 I mean, she’s a little weird, but so was the other one, and you… " ,
+ " Skye Sprite disappears  Chapter_2_0025700 Skye Sprite disappears " ,
 
- " Narration  Chapter_2-0026800 Kyo’s words prompts an eye roll from you, breaking you from the reverie that Skye’s abrupt getaway left you. The two of you finally start to make your way to the clubroom again, the strange encounter still fresh on your minds. " ,
+ " Narration  Chapter_2_0025900 You and Kyo stand there in dazed shock, both at the odd ending to the conversation and at her quick exit. " ,
 
- " Player  Chapter_2-0027100 I think she’ll be a good addition to the team, and she’s nice, she and Atria will probably get along great. " ,
+ " Player  Chapter_2_0026200 Well… she was interesting. " ,
 
- " Kyo  Chapter_2-0027400 Sure, if you can get her to join. Still haven’t gotten to that part, remember? " ,
+ " Kyo  Chapter_2_0026500 I mean, she’s a little weird, but so was the other one, and you… " ,
 
- " Narration  Chapter_2-0027700 You wince at Kyo’s reminder, but as you remember her look of wonder when you first asked her the question, you don’t think it’ll be very difficult to convince her. " ,
+ " Narration  Chapter_2_0026800 Kyo’s words prompts an eye roll from you, breaking you from the reverie that Skye’s abrupt getaway left you. The two of you finally start to make your way to the clubroom again, the strange encounter still fresh on your minds. " ,
 
- " Narration  Chapter_2-0027900 She was happy to be invited, she may have some reservations but you have a feeling that everything’ll  turn out just fine. You shrug off Kyo’s pessimism, shooting the shorter boy an eyeroll as the two of you enter the clubroom to deal with your duties for the day. " ,
+ " Player  Chapter_2_0027100 I think she’ll be a good addition to the team, and she’s nice, she and Atria will probably get along great. " ,
 
- " Scene Change  Chapter_2-0028100 Scene Change " ,
+ " Kyo  Chapter_2_0027400 Sure, if you can get her to join. Still haven’t gotten to that part, remember? " ,
 
- " Lunch Time  Chapter_2-0028400 Lunch Time " ,
+ " Narration  Chapter_2_0027700 You wince at Kyo’s reminder, but as you remember her look of wonder when you first asked her the question, you don’t think it’ll be very difficult to convince her. " ,
 
- " School Hallway  Chapter_2-0028600 School Hallway " ,
+ " Narration  Chapter_2_0027900 She was happy to be invited, she may have some reservations but you have a feeling that everything’ll  turn out just fine. You shrug off Kyo’s pessimism, shooting the shorter boy an eyeroll as the two of you enter the clubroom to deal with your duties for the day. " ,
 
- " Narration  Chapter_2-0028900 ** RING ** Bell SFX " ,
+ " Scene Change  Chapter_2_0028100 Scene Change " ,
 
- " Narration  Chapter_2-0029100 You eagerly leave your class for your break – your early start to the day didn’t leave you much time for breakfast, and the little you did eat didn’t sustain you ‘til lunch. You’ve been starving all day and your stomach has been trying to make itself known. " ,
+ " Lunch Time  Chapter_2_0028400 Lunch Time " ,
 
- " Narration  Chapter_2-0029300 Encouraged by its angry rumblings, you make your way to the school store. Hopefully you weren’t too late to grab something. No one should have to handle the angry yowling that you know your stomach would continue to make if the beast wasn’t fed. " ,
+ " School Hallway  Chapter_2_0028600 School Hallway " ,
 
- " Narration  Chapter_2-0029500 You hum thoughtfully as you think about what you’re going to buy when the sounds of particularly loud discussion catches your attention. " ,
+ " Narration  Chapter_2_0028900 ** RING ** Bell SFX " ,
 
- " Student A  Chapter_2-0029800 –just admit it, you were the one who sprayed that ugly thing on the back of the classroom, didn’t you. Everyone knows it was you. " ,
+ " Narration  Chapter_2_0029100 You eagerly leave your class for your break – your early start to the day didn’t leave you much time for breakfast, and the little you did eat didn’t sustain you ‘til lunch. You’ve been starving all day and your stomach has been trying to make itself known. " ,
 
- " Skye_Default Centered  Chapter_2-0030000 Skye_Default Centered " ,
+ " Narration  Chapter_2_0029300 Encouraged by its angry rumblings, you make your way to the school store. Hopefully you weren’t too late to grab something. No one should have to handle the angry yowling that you know your stomach would continue to make if the beast wasn’t fed. " ,
 
- " Narration  Chapter_2-0030300 You notice a group of four gathered in a quiet corner. You aren’t sure what’s going on, but you recognize Skye standing with her back against the wall. " ,
+ " Narration  Chapter_2_0029500 You hum thoughtfully as you think about what you’re going to buy when the sounds of particularly loud discussion catches your attention. " ,
 
- " Narration  Chapter_2-0030500 Three others were surrounding her, blocking her from any sort of way out. The interaction doesn’t seem like it\'s going well. You quietly duck behind a nearby wall, wondering what’s going on. " ,
+ " Student A  Chapter_2_0029800 –just admit it, you were the one who sprayed that ugly thing on the back of the classroom, didn’t you. Everyone knows it was you. " ,
 
- " Narration  Chapter_2-0030700 Skye sighs heavily, annoyance clear in her tone and expression. " ,
+ " Skye_Default Centered  Chapter_2_0030000 Skye_Default Centered " ,
 
- " Skye  Chapter_2-0031000 Why would I graffiti the classroom? You’re accusing me out of nowhere. Again. " ,
+ " Narration  Chapter_2_0030300 You notice a group of four gathered in a quiet corner. You aren’t sure what’s going on, but you recognize Skye standing with her back against the wall. " ,
 
- " Narration  Chapter_2-0031300 Skye\'s exasperated answer seems to only spur them on, with another member stepping up to batter at her unwavering stance. " ,
+ " Narration  Chapter_2_0030500 Three others were surrounding her, blocking her from any sort of way out. The interaction doesn’t seem like it\'s going well. You quietly duck behind a nearby wall, wondering what’s going on. " ,
 
- " Student B  Chapter_2-0031600 Who else would’ve done it? You’ve always been attention seeking. Just the other day you were talking to thin air again! God, you’re annoying on a good day but now you’re actually destroying public property? Can you get any worse? " ,
+ " Narration  Chapter_2_0030700 Skye sighs heavily, annoyance clear in her tone and expression. " ,
 
- " Narration  Chapter_2-0031900 Skye scoffs at their accusations, squinting at her classmates incredulously. " ,
+ " Skye  Chapter_2_0031000 Why would I graffiti the classroom? You’re accusing me out of nowhere. Again. " ,
 
- " Skye  Chapter_2-0032200 No one knows who did it. The classroom doors are locked every night and they’re only opened in the mornings, minutes before class starts. I wasn’t even the first person to arrive today. Your accusations have no merit and exactly zero people have come to tell me their thoughts of otherwise besides you three. This is the third time you’ve accused me of shit I didn’t do and it’s honestly getting out of hand. You– " ,
+ " Narration  Chapter_2_0031300 Skye\'s exasperated answer seems to only spur them on, with another member stepping up to batter at her unwavering stance. " ,
 
- " Student C  Chapter_2-0032500 Oh my god, can you just stop talking? No one wants to hear you yap all day! It\'s enough that you run your mouth in class all the time! " ,
+ " Student B  Chapter_2_0031600 Who else would’ve done it? You’ve always been attention seeking. Just the other day you were talking to thin air again! God, you’re annoying on a good day but now you’re actually destroying public property? Can you get any worse? " ,
 
- " Narration  Chapter_2-0032800 Rolling her eyes, Skye seems done with the whole interaction. She waves the person off, already moving to leave. " ,
+ " Narration  Chapter_2_0031900 Skye scoffs at their accusations, squinting at her classmates incredulously. " ,
 
- " Skye  Chapter_2-0033100 I\'m sorry that you\'re incapable of understanding anything higher than the most basic levels of communication, let me clear it up for you. I don\'t have time for your bs, get the fuck out of my way. " ,
+ " Skye  Chapter_2_0032200 No one knows who did it. The classroom doors are locked every night and they’re only opened in the mornings, minutes before class starts. I wasn’t even the first person to arrive today. Your accusations have no merit and exactly zero people have come to tell me their thoughts of otherwise besides you three. This is the third time you’ve accused me of shit I didn’t do and it’s honestly getting out of hand. You– " ,
 
- " Narration  Chapter_2-0033400 Skye attempts to sidestep her way out of the people surrounding her, but the increasingly angered trio move to block her way. " ,
+ " Student C  Chapter_2_0032500 Oh my god, can you just stop talking? No one wants to hear you yap all day! It\'s enough that you run your mouth in class all the time! " ,
 
- " Student D  Chapter_2-0033700 You sure do know how to talk, you think people like you interrupting the class every time to spout whatever bullshit opinion you have? Everyone\'s tired of you. " ,
+ " Narration  Chapter_2_0032800 Rolling her eyes, Skye seems done with the whole interaction. She waves the person off, already moving to leave. " ,
 
- " Student B  Chapter_2-0034000 Yeah, I mean come on, even Sensei had to take you to the side the other day. You might be a teacher’s pet but even they know you’re a lunatic. " ,
+ " Skye  Chapter_2_0033100 I\'m sorry that you\'re incapable of understanding anything higher than the most basic levels of communication, let me clear it up for you. I don\'t have time for your bs, get the fuck out of my way. " ,
 
- " Skye_Sad  Chapter_2-0034200 Skye_Sad " ,
+ " Narration  Chapter_2_0033400 Skye attempts to sidestep her way out of the people surrounding her, but the increasingly angered trio move to block her way. " ,
 
- " Narration  Chapter_2-0034500 Skye’s bored expression finally cracks, vulnerability seeping through. She looks away, shifting uncomfortably before glaring back at the person speaking. " ,
+ " Student D  Chapter_2_0033700 You sure do know how to talk, you think people like you interrupting the class every time to spout whatever bullshit opinion you have? Everyone\'s tired of you. " ,
 
- " Skye  Chapter_2-0034800 Sensei appreciates my contributions to the class, and they said so themself. They just wish that I give a chance to the rest of the class to express their opinions as well and I concurred. You three should stop talking about things that you don\'t understand. " ,
+ " Student B  Chapter_2_0034000 Yeah, I mean come on, even Sensei had to take you to the side the other day. You might be a teacher’s pet but even they know you’re a lunatic. " ,
 
- " Narration  Chapter_2-0035100 The atmosphere was slowly getting more tense. It might get bad for Skye if you don\'t intervene. " ,
+ " Skye_Sad  Chapter_2_0034200 Skye_Sad " ,
 
- " Proceed to two choices <Don't intervene> or <Intervene>  Chapter_2-0035300 Proceed to two choices: <Don\'t intervene> or <Intervene> " ,
+ " Narration  Chapter_2_0034500 Skye’s bored expression finally cracks, vulnerability seeping through. She looks away, shifting uncomfortably before glaring back at the person speaking. " ,
 
- " Choice 1 Don't Intervene  Chapter_2-0035500 Choice 1: Don\'t Intervene " ,
+ " Skye  Chapter_2_0034800 Sensei appreciates my contributions to the class, and they said so themself. They just wish that I give a chance to the rest of the class to express their opinions as well and I concurred. You three should stop talking about things that you don\'t understand. " ,
 
- " Narration  Chapter_2-0035800 You stay back a little longer. You\'re sure your schoolmates wouldn\'t resort to violence and you weren\'t sure Skye would appreciate a practical stranger stepping in on things they weren\'t fully informed on. " ,
+ " Narration  Chapter_2_0035100 The atmosphere was slowly getting more tense. It might get bad for Skye if you don\'t intervene. " ,
 
- " Student A  Chapter_2-0036100 You actually believe that crap. " ,
+ " Proceed to two choices <Don't intervene> or <Intervene>  Chapter_2_0035300 Proceed to two choices: <Don\'t intervene> or <Intervene> " ,
 
- " Narration  Chapter_2-0036400 One of the trio scoffs, a derisive sneer on their face. " ,
+ " Choice 1 Don't Intervene  Chapter_2_0035500 Choice 1: Don\'t Intervene " ,
 
- " Student A  Chapter_2-0036700 Sensei has to be nice to you – you get the best grades, so of course she sucks up to you. Nobody here actually likes you. " ,
+ " Narration  Chapter_2_0035800 You stay back a little longer. You\'re sure your schoolmates wouldn\'t resort to violence and you weren\'t sure Skye would appreciate a practical stranger stepping in on things they weren\'t fully informed on. " ,
 
- " Narration  Chapter_2-0037000 They move closer towards Skye, one of them bringing up a hand to give her a shove. Skye furrows her eyebrows, moving back to avoid the advancing group before her expression crumples when she realises there\'s no way for her to escape. " ,
+ " Student A  Chapter_2_0036100 You actually believe that crap. " ,
 
- " Narration  Chapter_2-0037200 You frantically step forward, unsure how everything escalated so quickly. There\'s no way you can leave Skye alone on this. " ,
+ " Narration  Chapter_2_0036400 One of the trio scoffs, a derisive sneer on their face. " ,
 
- " Scene reconverges here  Chapter_2-0037400 Scene reconverges here " ,
+ " Student A  Chapter_2_0036700 Sensei has to be nice to you – you get the best grades, so of course she sucks up to you. Nobody here actually likes you. " ,
 
- " Choice 2 Intervene  Chapter_2-0037600 Choice 2: Intervene " ,
+ " Narration  Chapter_2_0037000 They move closer towards Skye, one of them bringing up a hand to give her a shove. Skye furrows her eyebrows, moving back to avoid the advancing group before her expression crumples when she realises there\'s no way for her to escape. " ,
 
- " Narration  Chapter_2-0037700 	Scene reconverges here " ,
+ " Narration  Chapter_2_0037200 You frantically step forward, unsure how everything escalated so quickly. There\'s no way you can leave Skye alone on this. " ,
 
- " Player  Chapter_2-0038000 Hey, that\'s enough! " ,
+ " Scene reconverges here  Chapter_2_0037400 Scene reconverges here " ,
 
- " Narration  Chapter_2-0038300 You quickly make your way to the group. With them having parted in surprise at your exclamation, it\'s easy for you to take Skye by the hand, pulling her out of the circle that they surrounded her with. " ,
+ " Choice 2 Intervene  Chapter_2_0037600 Choice 2: Intervene " ,
 
- " Player  Chapter_2-0038600 I don\'t know who you three are, but ganging up on someone is seriously low. From the little I\'ve heard, you don\'t even have a leg to stand on. Accusing somebody for something you have no proof of is ridiculous and mocking someone for participating in class is pathetic. " ,
+ " Narration  Chapter_2_0037700 	Scene reconverges here " ,
 
- " Student C  Chapter_2-0038900 Who– " ,
+ " Player  Chapter_2_0038000 Hey, that\'s enough! " ,
 
- " Narration  Chapter_2-0039200 You interrupt whatever response they were about to make, not really willing to hear what these assholes have to say. " ,
+ " Narration  Chapter_2_0038300 You quickly make your way to the group. With them having parted in surprise at your exclamation, it\'s easy for you to take Skye by the hand, pulling her out of the circle that they surrounded her with. " ,
 
- " Player  Chapter_2-0039500 You three should really take up some self awareness, seems like it\'s in short fucking supply around here. " ,
+ " Player  Chapter_2_0038600 I don\'t know who you three are, but ganging up on someone is seriously low. From the little I\'ve heard, you don\'t even have a leg to stand on. Accusing somebody for something you have no proof of is ridiculous and mocking someone for participating in class is pathetic. " ,
 
- " Narration  Chapter_2-0039800 You quickly remove yourself from the situation while tugging a quiet Skye along behind you, moving to try and find a quiet place to give her some privacy. " ,
+ " Student C  Chapter_2_0038900 Who– " ,
 
- " Narration  Chapter_2-0040000 Skye stays quiet during the entire interaction. As you arrive at a quieter corner, you face her again, concerned. You don\'t know her very well, but from the little interaction you\'ve had with her, her silence seems uncharacteristic. " ,
+ " Narration  Chapter_2_0039200 You interrupt whatever response they were about to make, not really willing to hear what these assholes have to say. " ,
 
- " Player  Chapter_2-0040300 Skye, are you okay? I\'m sorry for eavesdropping but you looked like you needed help. " ,
+ " Player  Chapter_2_0039500 You three should really take up some self awareness, seems like it\'s in short fucking supply around here. " ,
 
- " Narration  Chapter_2-0040600 Skye looks away, her shoulders hunched, defences built all the way up. She looks clearly uncomfortable and not willing to talk about what had just happened. " ,
+ " Narration  Chapter_2_0039800 You quickly remove yourself from the situation while tugging a quiet Skye along behind you, moving to try and find a quiet place to give her some privacy. " ,
 
- " Skye  Chapter_2-0040900 I\'m fine… Thanks for getting me out of there, those three were getting way too cocky. " ,
+ " Narration  Chapter_2_0040000 Skye stays quiet during the entire interaction. As you arrive at a quieter corner, you face her again, concerned. You don\'t know her very well, but from the little interaction you\'ve had with her, her silence seems uncharacteristic. " ,
 
- " Player  Chapter_2-0041200 Would you like to report them to a teacher? I heard you mention that this wasn\'t the first time this has happened… " ,
+ " Player  Chapter_2_0040300 Skye, are you okay? I\'m sorry for eavesdropping but you looked like you needed help. " ,
 
- " Narration  Chapter_2-0041500 Skye shakes her head, dismissing the notion immediately. " ,
+ " Narration  Chapter_2_0040600 Skye looks away, her shoulders hunched, defences built all the way up. She looks clearly uncomfortable and not willing to talk about what had just happened. " ,
 
- " Skye  Chapter_2-0041800 No no, it\'s fine, they\'re not– they don\'t even bother me usually. " ,
+ " Skye  Chapter_2_0040900 I\'m fine… Thanks for getting me out of there, those three were getting way too cocky. " ,
 
- " Narration  Chapter_2-0042100 A heavy silence settles between the two of you. You\'re not really sure what to say; you don\'t think you really know Skye well enough to comfort her. " ,
+ " Player  Chapter_2_0041200 Would you like to report them to a teacher? I heard you mention that this wasn\'t the first time this has happened… " ,
 
- " Narration  Chapter_2-0042300 Skye suddenly starts talking again, finally looking at you directly. " ,
+ " Narration  Chapter_2_0041500 Skye shakes her head, dismissing the notion immediately. " ,
 
- " Skye  Chapter_2-0042600 People like the discussions that I bring up in class. They say that my insight helps them learn more about the subject we\'re learning about while simultaneously allowing them to not have to be called on unexpectedly when they\'re not willing to. I– " ,
+ " Skye  Chapter_2_0041800 No no, it\'s fine, they\'re not– they don\'t even bother me usually. " ,
 
- " Narration  Chapter_2-0042900 Skye cuts herself off before she finishes her sudden explanation, frustration leaking into her voice. A shuddering breath leaves her before she closes her mouth, pursing her lips. " ,
+ " Narration  Chapter_2_0042100 A heavy silence settles between the two of you. You\'re not really sure what to say; you don\'t think you really know Skye well enough to comfort her. " ,
 
- " Skye  Chapter_2-0043200 I– never mind, sorry for interrupting your break, I should really be getting back to class.  " ,
+ " Narration  Chapter_2_0042300 Skye suddenly starts talking again, finally looking at you directly. " ,
 
- " Player  Chapter_2-0043500 Skye– " ,
+ " Skye  Chapter_2_0042600 People like the discussions that I bring up in class. They say that my insight helps them learn more about the subject we\'re learning about while simultaneously allowing them to not have to be called on unexpectedly when they\'re not willing to. I– " ,
 
- " Skye Sprite disappears  Chapter_2-0043700 Skye Sprite disappears " ,
+ " Narration  Chapter_2_0042900 Skye cuts herself off before she finishes her sudden explanation, frustration leaking into her voice. A shuddering breath leaves her before she closes her mouth, pursing her lips. " ,
 
- " Narration  Chapter_2-0044000 Your attempt at talking to her fails as Skye ignores you, making another quick exit before you could really react. This time, you didn\'t feel as optimistic about your interactions as the first time you met her. " ,
+ " Skye  Chapter_2_0043200 I– never mind, sorry for interrupting your break, I should really be getting back to class.  " ,
 
- " Narration  Chapter_2-0044200 ** RING ** " ,
+ " Player  Chapter_2_0043500 Skye– " ,
 
- " Narration  Chapter_2-0044400 The bell rings, signifying the end of your break time. It\'s a good thing your stomach had long since curdled at the thought of food after the bitter situation you just experienced.  " ,
+ " Skye Sprite disappears  Chapter_2_0043700 Skye Sprite disappears " ,
 
- " Narration  Chapter_2-0044600 Your face scrunches in worry, but you hurry yourself to your classroom. There isn\'t much you can do. Maybe Skye needs some time to herself. " ,
+ " Narration  Chapter_2_0044000 Your attempt at talking to her fails as Skye ignores you, making another quick exit before you could really react. This time, you didn\'t feel as optimistic about your interactions as the first time you met her. " ,
 
- " Scene Change  Chapter_2-0044800 Scene Change " ,
+ " Narration  Chapter_2_0044200 ** RING ** " ,
 
- " After School  Chapter_2-0045100 After School " ,
+ " Narration  Chapter_2_0044400 The bell rings, signifying the end of your break time. It\'s a good thing your stomach had long since curdled at the thought of food after the bitter situation you just experienced.  " ,
 
- " School Hallway Day  Chapter_2-0045300 School Hallway Day " ,
+ " Narration  Chapter_2_0044600 Your face scrunches in worry, but you hurry yourself to your classroom. There isn\'t much you can do. Maybe Skye needs some time to herself. " ,
 
- " Narration  Chapter_2-0045500 *RING* School bell SFX " ,
+ " Scene Change  Chapter_2_0044800 Scene Change " ,
 
- " Narration  Chapter_2-0045700 The school bell finally signals the end of the school day.  " ,
+ " After School  Chapter_2_0045100 After School " ,
 
- " Narration  Chapter_2-0045900 You rush out as soon as you can, the afternoon incident still hanging heavily in your mind, completely distracting you for the latter part of your school day. " ,
+ " School Hallway Day  Chapter_2_0045300 School Hallway Day " ,
 
- " Narration  Chapter_2-0046100 You make your way to the clubroom hoping that Skye would keep her word of visiting, at least just so that you could talk to her. You didn’t like that she had left upset at lunch. " ,
+ " Narration  Chapter_2_0045500 *RING* School bell SFX " ,
 
- " Background Change Radio Clubroom Basic + Printer + Mic  Chapter_2-0046300 Background Change: Radio Clubroom Basic + Printer + Mic " ,
+ " Narration  Chapter_2_0045700 The school bell finally signals the end of the school day.  " ,
 
- " Kyo_FP_Default  Chapter_2-0046500 Kyo_FP_Default " ,
+ " Narration  Chapter_2_0045900 You rush out as soon as you can, the afternoon incident still hanging heavily in your mind, completely distracting you for the latter part of your school day. " ,
 
- " Narration  Chapter_2-0046700 You enter the clubroom to see that Kyo has already made himself comfortable. Game console in hand, his feet casually settled on the clubroom’s table, and his chair perched precariously on its back legs. " ,
+ " Narration  Chapter_2_0046100 You make your way to the clubroom hoping that Skye would keep her word of visiting, at least just so that you could talk to her. You didn’t like that she had left upset at lunch. " ,
 
- " Player  Chapter_2-0047000 Do you ever leave this room? Why are you here already, classes just ended. " ,
+ " Background Change Radio Clubroom Basic + Printer + Mic  Chapter_2_0046300 Background Change: Radio Clubroom Basic + Printer + Mic " ,
 
- " Kyo  Chapter_2-0047300 \'Ey, don\'t blame me for you being slow, running through the halls ain\'t nothin\'. " ,
+ " Kyo_FP_Default  Chapter_2_0046500 Kyo_FP_Default " ,
 
- " Narration  Chapter_2-0047600 You roll your eyes at the shorter boy, settling your bag on the table and slumping yourself on one of the chairs, heaving out a deep sigh. " ,
+ " Narration  Chapter_2_0046700 You enter the clubroom to see that Kyo has already made himself comfortable. Game console in hand, his feet casually settled on the clubroom’s table, and his chair perched precariously on its back legs. " ,
 
- " Narration  Chapter_2-0047800 Kyo looks up at your dramatics, raising an eyebrow at the long face you were pulling. " ,
+ " Player  Chapter_2_0047000 Do you ever leave this room? Why are you here already, classes just ended. " ,
 
- " Kyo  Chapter_2-0048100 ‘Sup? " ,
+ " Kyo  Chapter_2_0047300 \'Ey, don\'t blame me for you being slow, running through the halls ain\'t nothin\'. " ,
 
- " Narration  Chapter_2-0048400 You scratch your head, not looking up at him, not sure how you should answer the question. " ,
+ " Narration  Chapter_2_0047600 You roll your eyes at the shorter boy, settling your bag on the table and slumping yourself on one of the chairs, heaving out a deep sigh. " ,
 
- " Player  Chapter_2-0048700 I met up with Skye during lunch break. Some people were bothering her, and she really wasn\'t having a good time. " ,
+ " Narration  Chapter_2_0047800 Kyo looks up at your dramatics, raising an eyebrow at the long face you were pulling. " ,
 
- " Narration  Chapter_2-0049000 Kyo’s eyebrows rise further at the mention of your new acquaintance, not expecting you to meet her so soon after your meeting this morning. " ,
+ " Kyo  Chapter_2_0048100 ‘Sup? " ,
 
- " Kyo  Chapter_2-0049300 Yeah? " ,
+ " Narration  Chapter_2_0048400 You scratch your head, not looking up at him, not sure how you should answer the question. " ,
 
- " Player  Chapter_2-0049600 Yeah, they were talking about someone graffitiing their classroom? Something crazy like that, been hearing rumours about stuff like that happening all over school lately. " ,
+ " Player  Chapter_2_0048700 I met up with Skye during lunch break. Some people were bothering her, and she really wasn\'t having a good time. " ,
 
- " Kyo_FP_Shocked  Chapter_2-0049800 Kyo_FP_Shocked " ,
+ " Narration  Chapter_2_0049000 Kyo’s eyebrows rise further at the mention of your new acquaintance, not expecting you to meet her so soon after your meeting this morning. " ,
 
- " Narration  Chapter_2-0050100 Out of the corner of your eye, you notice Kyo freezing in his seat. He plops the precariously tilting furniture back down to a more proper position. You finally look up, raising your brow at his sudden tension. " ,
+ " Kyo  Chapter_2_0049300 Yeah? " ,
 
- " Player  Chapter_2-0050400 People’ve been spreading rumours about ghosts around lately too, graffiti appearing and disappearing out of nowhere, weird noises, weird light, stuff like that. " ,
+ " Player  Chapter_2_0049600 Yeah, they were talking about someone graffitiing their classroom? Something crazy like that, been hearing rumours about stuff like that happening all over school lately. " ,
 
- " Narration  Chapter_2-0050700 Kyo continues to tense as you proceed describing the supernatural rumours going around your school. A smirk grows on your face as you stand up from your seat. " ,
+ " Kyo_FP_Shocked  Chapter_2_0049800 Kyo_FP_Shocked " ,
 
- " Player  Chapter_2-0051000 You scared of ghosts, Kyo? " ,
+ " Narration  Chapter_2_0050100 Out of the corner of your eye, you notice Kyo freezing in his seat. He plops the precariously tilting furniture back down to a more proper position. You finally look up, raising your brow at his sudden tension. " ,
 
- " Narration  Chapter_2-0051300 You come up to the blue haired boy, swinging an arm up to his shoulders – a move he deftly avoids. He quickly stands up from his own seat. " ,
+ " Player  Chapter_2_0050400 People’ve been spreading rumours about ghosts around lately too, graffiti appearing and disappearing out of nowhere, weird noises, weird light, stuff like that. " ,
 
- " Kyo  Chapter_2-0051600 I\'m gonna slip out for a bit – got a couple of things I need to deal with for class tomorrow. " ,
+ " Narration  Chapter_2_0050700 Kyo continues to tense as you proceed describing the supernatural rumours going around your school. A smirk grows on your face as you stand up from your seat. " ,
 
- " Narration  Chapter_2-0051900 Your eyes widen, surprised at his abrupt need to leave and concerned that you had gone too far with your teasing. " ,
+ " Player  Chapter_2_0051000 You scared of ghosts, Kyo? " ,
 
- " Player  Chapter_2-0052200 Whoa, you don’t have to leave. We don’t have to talk about ghosts if you don’t want to. " ,
+ " Narration  Chapter_2_0051300 You come up to the blue haired boy, swinging an arm up to his shoulders – a move he deftly avoids. He quickly stands up from his own seat. " ,
 
- " Kyo_FP_Default  Chapter_2-0052400 Kyo_FP_Default " ,
+ " Kyo  Chapter_2_0051600 I\'m gonna slip out for a bit – got a couple of things I need to deal with for class tomorrow. " ,
 
- " Narration  Chapter_2-0052700 Kyo rolls his eyes, waving off your silent apology while moving to leave the room. " ,
+ " Narration  Chapter_2_0051900 Your eyes widen, surprised at his abrupt need to leave and concerned that you had gone too far with your teasing. " ,
 
- " Kyo  Chapter_2-0053000 What? No, I just remembered I got shit to do, hold down the fort for me will you? " ,
+ " Player  Chapter_2_0052200 Whoa, you don’t have to leave. We don’t have to talk about ghosts if you don’t want to. " ,
 
- " Player  Chapter_2-0053300 Aren\'t you gonna help me convince Skye to join the club? " ,
+ " Kyo_FP_Default  Chapter_2_0052400 Kyo_FP_Default " ,
 
- " Narration  Chapter_2-0053600 Kyo raises an eyebrow at you, stopping before opening the clubroom door, face set in a deadpan. " ,
+ " Narration  Chapter_2_0052700 Kyo rolls his eyes, waving off your silent apology while moving to leave the room. " ,
 
- " Kyo  Chapter_2-0053900 You think my caustic ass\'ll help convince her to join? " ,
+ " Kyo  Chapter_2_0053000 What? No, I just remembered I got shit to do, hold down the fort for me will you? " ,
 
- " Narration  Chapter_2-0054200 You wince slightly, remembering Kyo impulsively ribbing Skye just this morning. She didn’t seem to take offence, but maybe exposing her too much to Kyo\'s sharp tongue too early would be ill-advised. " ,
+ " Player  Chapter_2_0053300 Aren\'t you gonna help me convince Skye to join the club? " ,
 
- " Player  Chapter_2-0054500 Don’t you wanna stick around to at least greet her? " ,
+ " Narration  Chapter_2_0053600 Kyo raises an eyebrow at you, stopping before opening the clubroom door, face set in a deadpan. " ,
 
- " Kyo  Chapter_2-0054800 When’s she coming? Does she even know where the clubroom is? " ,
+ " Kyo  Chapter_2_0053900 You think my caustic ass\'ll help convince her to join? " ,
 
- " Narration  Chapter_2-0055100 Silence envelops the room as his question settles, before you groan in frustration, bringing your hand up to cover your face. Kyo\'s laughter rings throughout the room, the annoying gremlin finding pleasure in your misery. " ,
+ " Narration  Chapter_2_0054200 You wince slightly, remembering Kyo impulsively ribbing Skye just this morning. She didn’t seem to take offence, but maybe exposing her too much to Kyo\'s sharp tongue too early would be ill-advised. " ,
 
- " Player  Chapter_2-0055400 I forgot to tell her that we’re using the music room this morning… " ,
+ " Player  Chapter_2_0054500 Don’t you wanna stick around to at least greet her? " ,
 
- " Kyo  Chapter_2-0055700 You better go find her then, I’m dealing with my shit first. " ,
+ " Kyo  Chapter_2_0054800 When’s she coming? Does she even know where the clubroom is? " ,
 
- " Narration  Chapter_2-0056000 Kyo shrugs, casually slipping out of the room and leaving you alone with your thoughts. " ,
+ " Narration  Chapter_2_0055100 Silence envelops the room as his question settles, before you groan in frustration, bringing your hand up to cover your face. Kyo\'s laughter rings throughout the room, the annoying gremlin finding pleasure in your misery. " ,
 
- " Kyo Sprite Disappears  Chapter_2-0056200 Kyo Sprite Disappears " ,
+ " Player  Chapter_2_0055400 I forgot to tell her that we’re using the music room this morning… " ,
 
- " Player  Chapter_2-0056500 … " ,
+ " Kyo  Chapter_2_0055700 You better go find her then, I’m dealing with my shit first. " ,
 
- " Narration  Chapter_2-0056800 You sigh in exasperation, finally standing up to go and find Skye, wherever it is she could be.  " ,
+ " Narration  Chapter_2_0056000 Kyo shrugs, casually slipping out of the room and leaving you alone with your thoughts. " ,
 
- " Narration  Chapter_2-0057000 You make your way to the door, opening it before noticing something in the corner of your eye. " ,
+ " Kyo Sprite Disappears  Chapter_2_0056200 Kyo Sprite Disappears " ,
 
- " Narration  Chapter_2-0057200 You snap your head in surprise, chasing the glimpse of bright neon shapes before it disappears behind the blink of your eyelids. " ,
+ " Player  Chapter_2_0056500 … " ,
 
- " Narration  Chapter_2-0057400 You stare at where you thought you saw… whatever it was you thought you saw, furrowing your brows at the wall. You could’ve sworn– " ,
+ " Narration  Chapter_2_0056800 You sigh in exasperation, finally standing up to go and find Skye, wherever it is she could be.  " ,
 
- " ???  Chapter_2-0057700 Player! " ,
+ " Narration  Chapter_2_0057000 You make your way to the door, opening it before noticing something in the corner of your eye. " ,
 
- " Narration  Chapter_2-0058000 A voice calls out to you from the hallway right outside the door you just opened, snapping you out of your thoughts. " ,
+ " Narration  Chapter_2_0057200 You snap your head in surprise, chasing the glimpse of bright neon shapes before it disappears behind the blink of your eyelids. " ,
 
- " Skye_Default  Chapter_2-0058200 Skye_Default " ,
+ " Narration  Chapter_2_0057400 You stare at where you thought you saw… whatever it was you thought you saw, furrowing your brows at the wall. You could’ve sworn– " ,
 
- " Player  Chapter_2-0058500 Skye! You’re here? " ,
+ " ???  Chapter_2_0057700 Player! " ,
 
- " Narration  Chapter_2-0058800 You blurt out her name in surprise, instinctively opening the clubroom door further and stepping back to allow the dark haired girl to step inside. She looks around the room, raising her brow curiously. " ,
+ " Narration  Chapter_2_0058000 A voice calls out to you from the hallway right outside the door you just opened, snapping you out of your thoughts. " ,
 
- " Skye  Chapter_2-0059100 Of course, I did promise I would come. " ,
+ " Skye_Default  Chapter_2_0058200 Skye_Default " ,
 
- " Player  Chapter_2-0059400 How’d you find the clubroom? I forgot to tell you where it was this morning… " ,
+ " Player  Chapter_2_0058500 Skye! You’re here? " ,
 
- " Narration  Chapter_2-0059700 Skye waves off your question, turning to look at you curiously. " ,
+ " Narration  Chapter_2_0058800 You blurt out her name in surprise, instinctively opening the clubroom door further and stepping back to allow the dark haired girl to step inside. She looks around the room, raising her brow curiously. " ,
 
- " Skye  Chapter_2-0060000 The clubrooms are almost always on the first floor. I was just walking around to look when I saw you at the door… Were you looking at something? " ,
+ " Skye  Chapter_2_0059100 Of course, I did promise I would come. " ,
 
- " Player  Chapter_2-0060300 Huh? " ,
+ " Player  Chapter_2_0059400 How’d you find the clubroom? I forgot to tell you where it was this morning… " ,
 
- " Skye  Chapter_2-0060600 You looked a little out of it. I saw you for quite a little bit before calling you. " ,
+ " Narration  Chapter_2_0059700 Skye waves off your question, turning to look at you curiously. " ,
 
- " Narration  Chapter_2-0060900 You look back at the wall, pursing your lips thoughtfully before shaking your head. " ,
+ " Skye  Chapter_2_0060000 The clubrooms are almost always on the first floor. I was just walking around to look when I saw you at the door… Were you looking at something? " ,
 
- " Player  Chapter_2-0061200 Was nothing, probably just tired. I’m glad you came by! I wasn’t sure if you would, uhh, after… " ,
+ " Player  Chapter_2_0060300 Huh? " ,
 
- " Narration  Chapter_2-0061500 You trail off a little, cursing yourself for bringing up the grim situation from the afternoon. You thought you were getting better at not putting your foot in your mouth, yet here you are, swallowing your whole fucking shoe. " ,
+ " Skye  Chapter_2_0060600 You looked a little out of it. I saw you for quite a little bit before calling you. " ,
 
- " Narration  Chapter_2-0061700 A short silence comes after the words awkwardly dry up in your mouth, making you sweat bullets. Skye picks up on the conversation, moving deeper inside the room and casually settling herself on one of the chairs. " ,
+ " Narration  Chapter_2_0060900 You look back at the wall, pursing your lips thoughtfully before shaking your head. " ,
 
- " Skye  Chapter_2-0062000 The graffiti’s gone. " ,
+ " Player  Chapter_2_0061200 Was nothing, probably just tired. I’m glad you came by! I wasn’t sure if you would, uhh, after… " ,
 
- " Player  Chapter_2-0062300 What? " ,
+ " Narration  Chapter_2_0061500 You trail off a little, cursing yourself for bringing up the grim situation from the afternoon. You thought you were getting better at not putting your foot in your mouth, yet here you are, swallowing your whole fucking shoe. " ,
 
- " Narration  Chapter_2-0062600 You blink bewilderedly. Skye shrugs, casually leaning her head on her arm settled on the table. " ,
+ " Narration  Chapter_2_0061700 A short silence comes after the words awkwardly dry up in your mouth, making you sweat bullets. Skye picks up on the conversation, moving deeper inside the room and casually settling herself on one of the chairs. " ,
 
- " Skye  Chapter_2-0062900 The class left for gym class a little bit after lunch and by the time we came back, poof, it just…disappeared.  " ,
+ " Skye  Chapter_2_0062000 The graffiti’s gone. " ,
 
- " Skye  Chapter_2-0063100 The teachers figured it was a temporary prank someone was pulling. They’re still looking for the culprit, but nothing points to it being anyone in class, considering that we were all accounted for at gym… " ,
+ " Player  Chapter_2_0062300 What? " ,
 
- " Player  Chapter_2-0063400 And… those guys that were bothering you? " ,
+ " Narration  Chapter_2_0062600 You blink bewilderedly. Skye shrugs, casually leaning her head on her arm settled on the table. " ,
 
- " Skye  Chapter_2-0063700 Well they didn’t apologise, but they did look pretty pissed that it was pretty clearly not me. " ,
+ " Skye  Chapter_2_0062900 The class left for gym class a little bit after lunch and by the time we came back, poof, it just…disappeared.  " ,
 
- " Narration  Chapter_2-0064000 Skye shrugs faux casually. It\'s difficult to figure out what she\'s thinking. She seems a little bit more closed off than she was this morning. " ,
+ " Skye  Chapter_2_0063100 The teachers figured it was a temporary prank someone was pulling. They’re still looking for the culprit, but nothing points to it being anyone in class, considering that we were all accounted for at gym… " ,
 
- " Skye  Chapter_2-0064300 Anyway, you don’t have to worry about those idiots, they’re way more of a nuisance then they are actually troubling. My class is filled with a lot of kind and friendly people, so their voices get drowned out most of the time. " ,
+ " Player  Chapter_2_0063400 And… those guys that were bothering you? " ,
 
- " Narration  Chapter_2-0064600 Skye smiles at you reassuringly, looking up from her previously contemplative pose. " ,
+ " Skye  Chapter_2_0063700 Well they didn’t apologise, but they did look pretty pissed that it was pretty clearly not me. " ,
 
- " Skye  Chapter_2-0064900 Now, why don’t we discuss your club? It’s what you invited me here for right? " ,
+ " Narration  Chapter_2_0064000 Skye shrugs faux casually. It\'s difficult to figure out what she\'s thinking. She seems a little bit more closed off than she was this morning. " ,
 
- " Player  Chapter_2-0065200 Yeah… about joining… " ,
+ " Skye  Chapter_2_0064300 Anyway, you don’t have to worry about those idiots, they’re way more of a nuisance then they are actually troubling. My class is filled with a lot of kind and friendly people, so their voices get drowned out most of the time. " ,
 
- " Skye  Chapter_2-0065500 Still not too sure that’d be necessary. " ,
+ " Narration  Chapter_2_0064600 Skye smiles at you reassuringly, looking up from her previously contemplative pose. " ,
 
- " Skye  Chapter_2-0065700 If all you need is another voice to help in broadcasting, or even if you need some journalist help to find some news, I’ll be happy to help out on a more occasional, freelance basis. As long as I’m given some credit for the work, of course. " ,
+ " Skye  Chapter_2_0064900 Now, why don’t we discuss your club? It’s what you invited me here for right? " ,
 
- " Narration  Chapter_2-0066000 You scratch your head in confusion. If Skye was willing to help the club, why not just join and get the benefit of having an after school sanctioned activity? You open your mouth to ask when the sound of the clubroom door opening catches both of your attention. " ,
+ " Player  Chapter_2_0065200 Yeah… about joining… " ,
 
- " Atria1_Happy appears  Chapter_2-0066200 Atria1_Happy appears " ,
+ " Skye  Chapter_2_0065500 Still not too sure that’d be necessary. " ,
 
- " Atria  Chapter_2-0066500 Good evening! " ,
+ " Skye  Chapter_2_0065700 If all you need is another voice to help in broadcasting, or even if you need some journalist help to find some news, I’ll be happy to help out on a more occasional, freelance basis. As long as I’m given some credit for the work, of course. " ,
 
- " Atria1_Timid  Chapter_2-0066700 Atria1_Timid " ,
+ " Narration  Chapter_2_0066000 You scratch your head in confusion. If Skye was willing to help the club, why not just join and get the benefit of having an after school sanctioned activity? You open your mouth to ask when the sound of the clubroom door opening catches both of your attention. " ,
 
- " Narration  Chapter_2-0067000 Atria’s eyes widen as she notices Skye’s presence in the room, her surprised expression quickly turning to a bashful smile. Atria shuffles quietly into the room, clearly apprehensive but still trying her best to be welcoming. " ,
+ " Atria1_Happy appears  Chapter_2_0066200 Atria1_Happy appears " ,
 
- " Atria  Chapter_2-0067300 Oh! H-hello, do we have a new recruit? " ,
+ " Atria  Chapter_2_0066500 Good evening! " ,
 
- " Player  Chapter_2-0067600 Umm, not necessarily… " ,
+ " Atria1_Timid  Chapter_2_0066700 Atria1_Timid " ,
 
- " Narration  Chapter_2-0067900 Atria looks at you questioningly, moving closer to the table and placing her things on it. She fidgets awkwardly with her things before looking up at Skye, smiling uncertainly towards the taller girl. " ,
+ " Narration  Chapter_2_0067000 Atria’s eyes widen as she notices Skye’s presence in the room, her surprised expression quickly turning to a bashful smile. Atria shuffles quietly into the room, clearly apprehensive but still trying her best to be welcoming. " ,
 
- " Atria  Chapter_2-0068200 I’m Atria. Umm, i-it’s nice to meet you. I’m a… a new member " ,
+ " Atria  Chapter_2_0067300 Oh! H-hello, do we have a new recruit? " ,
 
- " Atria  Chapter_2-0068300 of the club too. " ,
+ " Player  Chapter_2_0067600 Umm, not necessarily… " ,
 
- " Skye  Chapter_2-0068600 S-Skye. I– well, I haven’t really– I’m not too sure about joining " ,
+ " Narration  Chapter_2_0067900 Atria looks at you questioningly, moving closer to the table and placing her things on it. She fidgets awkwardly with her things before looking up at Skye, smiling uncertainly towards the taller girl. " ,
 
- " Skye  Chapter_2-0068700 really… " ,
+ " Atria  Chapter_2_0068200 I’m Atria. Umm, i-it’s nice to meet you. I’m a… a new member " ,
 
- " Narration  Chapter_2-0069000 Atria’s stumbling responses were sort of expected, but Skye’s stuttering prompts a raised eyebrow from you, confused at her sudden inarticulateness. Noticing your expression, she huffs indignantly, hissing her next words quietly at you. " ,
+ " Atria  Chapter_2_0068300 of the club too. " ,
 
- " Skye  Chapter_2-0069300 Seeing new faces makes me anxious sometimes! You and your friend definitely caught me off guard this morning… " ,
+ " Skye  Chapter_2_0068600 S-Skye. I– well, I haven’t really– I’m not too sure about joining " ,
 
- " Player  Chapter_2-0069600 Oh yeah, you met Kyo this morning. Sorry he couldn’t be here, he stepped out just now. " ,
+ " Skye  Chapter_2_0068700 really… " ,
 
- " Skye  Chapter_2-0069900 Oh. That’s fine, I didn’t bring any of my friends here either. Communication isn’t easy when other parties can’t easily talk to or even see one another. " ,
+ " Narration  Chapter_2_0069000 Atria’s stumbling responses were sort of expected, but Skye’s stuttering prompts a raised eyebrow from you, confused at her sudden inarticulateness. Noticing your expression, she huffs indignantly, hissing her next words quietly at you. " ,
 
- " Narration  Chapter_2-0070200 You laugh awkwardly remembering Skye’s…friends. It might be a little awkward, navigating Skye’s…eccentricities, but you feel like it would work out… you might have to invest in a sturdier poker face soon though. " ,
+ " Skye  Chapter_2_0069300 Seeing new faces makes me anxious sometimes! You and your friend definitely caught me off guard this morning… " ,
 
- " Narration  Chapter_2-0070400 Atria tilts her head in confusion, unaware of all that happened that day. " ,
+ " Player  Chapter_2_0069600 Oh yeah, you met Kyo this morning. Sorry he couldn’t be here, he stepped out just now. " ,
 
- " Narration  Chapter_2-0070600 Skye flushes brightly, before turning back to the now confused but still shyly smiling Atria. She coughs awkwardly, bringing the discussion back to focus. " ,
+ " Skye  Chapter_2_0069900 Oh. That’s fine, I didn’t bring any of my friends here either. Communication isn’t easy when other parties can’t easily talk to or even see one another. " ,
 
- " Skye  Chapter_2-0070900 Anyway, like I said, I’m not sure if joining the club would be beneficial for everyone involved. I’d be happy to help y\'all out in general though, you seem like really nice people, mhm. " ,
+ " Narration  Chapter_2_0070200 You laugh awkwardly remembering Skye’s…friends. It might be a little awkward, navigating Skye’s…eccentricities, but you feel like it would work out… you might have to invest in a sturdier poker face soon though. " ,
 
- " Atria  Chapter_2-0071200 O-Oh, that’s too bad. I’m sure you’d be a great new member. " ,
+ " Narration  Chapter_2_0070400 Atria tilts her head in confusion, unaware of all that happened that day. " ,
 
- " Player  Chapter_2-0071500 I agree, that’s kinda why I invited you in the first place. I’m happy that you’re willing to help us generally, but honestly, I’d like you to stick around. I think we’d all get along great. " ,
+ " Narration  Chapter_2_0070600 Skye flushes brightly, before turning back to the now confused but still shyly smiling Atria. She coughs awkwardly, bringing the discussion back to focus. " ,
 
- " Skye_Sad   Chapter_2-0071700 Skye_Sad  " ,
+ " Skye  Chapter_2_0070900 Anyway, like I said, I’m not sure if joining the club would be beneficial for everyone involved. I’d be happy to help y\'all out in general though, you seem like really nice people, mhm. " ,
 
- " Narration  Chapter_2-0072000 Skye seems to flinch at your words, her previous light-hearted expression disappearing in an instant. She looks away from you and Atria, clearly uncomfortable.  " ,
+ " Atria  Chapter_2_0071200 O-Oh, that’s too bad. I’m sure you’d be a great new member. " ,
 
- " Narration  Chapter_2-0072200 Your eyebrows furrow with worry, you share a glance with Atria, who is now frowning as well. " ,
+ " Player  Chapter_2_0071500 I agree, that’s kinda why I invited you in the first place. I’m happy that you’re willing to help us generally, but honestly, I’d like you to stick around. I think we’d all get along great. " ,
 
- " Player  Chapter_2-0072500 Can I ask why you… don’t want to join us? You did mention you hadn’t signed up for any other club yet, and you don’t seem to be against the idea in general. " ,
+ " Skye_Sad   Chapter_2_0071700 Skye_Sad  " ,
 
- " Skye  Chapter_2-0072800 I-I\'m a very busy woman. I can\'t just start up a new club out of nowhere! After all, who would conduct my campaigns, and… " ,
+ " Narration  Chapter_2_0072000 Skye seems to flinch at your words, her previous light-hearted expression disappearing in an instant. She looks away from you and Atria, clearly uncomfortable.  " ,
 
- " Narration  Chapter_2-0073100 Skye doesn\'t sound convincing, even to herself. She slumps in her chair, sighing tiredly, running her hand through her hair nervously. " ,
+ " Narration  Chapter_2_0072200 Your eyebrows furrow with worry, you share a glance with Atria, who is now frowning as well. " ,
 
- " Skye  Chapter_2-0073400 I-It’d just be easier for all of us. You wouldn’t have to deal with me too regularly, and we get to go our own ways. " ,
+ " Player  Chapter_2_0072500 Can I ask why you… don’t want to join us? You did mention you hadn’t signed up for any other club yet, and you don’t seem to be against the idea in general. " ,
 
- " Narration  Chapter_2-0073700 A short silence comes after her words. You’re shocked that the cheerful girl from this morning had given you such a self-depreciating answer. Atria, having no basis for the girl\'s personality, shyly answers, noticing the tense mood. " ,
+ " Skye  Chapter_2_0072800 I-I\'m a very busy woman. I can\'t just start up a new club out of nowhere! After all, who would conduct my campaigns, and… " ,
 
- " Atria  Chapter_2-0074000 I understand, I never really got on with people very easily " ,
+ " Narration  Chapter_2_0073100 Skye doesn\'t sound convincing, even to herself. She slumps in her chair, sighing tiredly, running her hand through her hair nervously. " ,
 
- " Atria  Chapter_2-0074100 either. " ,
+ " Skye  Chapter_2_0073400 I-It’d just be easier for all of us. You wouldn’t have to deal with me too regularly, and we get to go our own ways. " ,
 
- " Narration  Chapter_2-0074400 Atria smiles awkwardly, trying to reassure the clearly struggling Skye. " ,
+ " Narration  Chapter_2_0073700 A short silence comes after her words. You’re shocked that the cheerful girl from this morning had given you such a self-depreciating answer. Atria, having no basis for the girl\'s personality, shyly answers, noticing the tense mood. " ,
 
- " Narration  Chapter_2-0074600 You appreciate her support in this situation. It helps ground you a little, having someone else\'s perspective on this. Skye shakes her head, dismissing the notion. " ,
+ " Atria  Chapter_2_0074000 I understand, I never really got on with people very easily " ,
 
- " Skye  Chapter_2-0074900 No no, you’re both really nice, I tend to not work well with others. People tend to be really uncomfortable around me, and even if you didn’t mind tolerating me, I’ll just bring the mood down. Clubwork and community stuff like this never really suited me. " ,
+ " Atria  Chapter_2_0074100 either. " ,
 
- " Atria1_Sad Sprite   Chapter_2-0075100 Atria1_Sad Sprite  " ,
+ " Narration  Chapter_2_0074400 Atria smiles awkwardly, trying to reassure the clearly struggling Skye. " ,
 
- " Narration  Chapter_2-0075400 Your face scrunches at hearing the familiar narrative from this afternoon, discomfort growing at hearing Skye parroting her aggressors. " ,
+ " Narration  Chapter_2_0074600 You appreciate her support in this situation. It helps ground you a little, having someone else\'s perspective on this. Skye shakes her head, dismissing the notion. " ,
 
- " Player  Chapter_2-0075700 Is this about what those people said on break? If it is, I think we should be able to find out on our own whether or not we get along. I know we just met this morning, but I think you\'re pretty great. " ,
+ " Skye  Chapter_2_0074900 No no, you’re both really nice, I tend to not work well with others. People tend to be really uncomfortable around me, and even if you didn’t mind tolerating me, I’ll just bring the mood down. Clubwork and community stuff like this never really suited me. " ,
 
- " Skye  Chapter_2-0076000 You don\'t get it, everyone gets tired of me eventually. This isn\'t about what those idiots think, it\'s just a fact. I like to keep whatever amicable acquaintances I have and I do that by keeping some distance. " ,
+ " Atria1_Sad Sprite   Chapter_2_0075100 Atria1_Sad Sprite  " ,
 
- " Narration  Chapter_2-0076300 Her voice is wrought with agitation and yours, unfortunately, rises in return. Your discomfort turns to upset at the thought of your possible friend thinking so poorly of herself, and by extension, of everyone else around her. " ,
+ " Narration  Chapter_2_0075400 Your face scrunches at hearing the familiar narrative from this afternoon, discomfort growing at hearing Skye parroting her aggressors. " ,
 
- " Player  Chapter_2-0076600 I think you\'re being a little unfair here. I\'d be more comfortable with your decision if you just weren\'t sure of the club itself, or if you\'re not comfortable with interacting too closely with what would be veritable strangers. " ,
+ " Player  Chapter_2_0075700 Is this about what those people said on break? If it is, I think we should be able to find out on our own whether or not we get along. I know we just met this morning, but I think you\'re pretty great. " ,
 
- " Player  Chapter_2-0076800 But, what\'s happening is that you\'re refusing to give us any credit! You\'re so sure we\'re like those assholes that you won\'t give us a chance to even form our own opinions! " ,
+ " Skye  Chapter_2_0076000 You don\'t get it, everyone gets tired of me eventually. This isn\'t about what those idiots think, it\'s just a fact. I like to keep whatever amicable acquaintances I have and I do that by keeping some distance. " ,
 
- " Skye  Chapter_2-0077100 That\'s not what I\'m saying at all! I\'m just telling you it\'s not gonna work out! " ,
+ " Narration  Chapter_2_0076300 Her voice is wrought with agitation and yours, unfortunately, rises in return. Your discomfort turns to upset at the thought of your possible friend thinking so poorly of herself, and by extension, of everyone else around her. " ,
 
- " Skye  Chapter_2-0077300 Maybe it is about those guys, but didn\'t you hear them? I talk weird, I talk too much, I\'m annoying, people can\'t see Pio-chan and the others and they hate it when I talk to \'em. This stuff isn\'t just a them thing!  " ,
+ " Player  Chapter_2_0076600 I think you\'re being a little unfair here. I\'d be more comfortable with your decision if you just weren\'t sure of the club itself, or if you\'re not comfortable with interacting too closely with what would be veritable strangers. " ,
 
- " Narration  Chapter_2-0077600 Skye’s arguments, having reached a fever pitch, suddenly tapers off. She looks to your side where Atria is before blowing out a huge sigh, agitation slowly bleeding out of her.  " ,
+ " Player  Chapter_2_0076800 But, what\'s happening is that you\'re refusing to give us any credit! You\'re so sure we\'re like those assholes that you won\'t give us a chance to even form our own opinions! " ,
 
- " Atria2_Timid  Chapter_2-0077800 Atria2_Timid " ,
+ " Skye  Chapter_2_0077100 That\'s not what I\'m saying at all! I\'m just telling you it\'s not gonna work out! " ,
 
- " Narration  Chapter_2-0078000 You turn to look at Atria, who looks almost frozen in panic. The blonde was not at all prepared to see her possible new friends fighting, especially so close after her own falling out with her previous awful friends not that long ago. " ,
+ " Skye  Chapter_2_0077300 Maybe it is about those guys, but didn\'t you hear them? I talk weird, I talk too much, I\'m annoying, people can\'t see Pio-chan and the others and they hate it when I talk to \'em. This stuff isn\'t just a them thing!  " ,
 
- " Narration  Chapter_2-0078200 Skye looks away, still perturbed by your argument but no longer so fired up, leaving her sounding just… painfully tired. " ,
+ " Narration  Chapter_2_0077600 Skye’s arguments, having reached a fever pitch, suddenly tapers off. She looks to your side where Atria is before blowing out a huge sigh, agitation slowly bleeding out of her.  " ,
 
- " Skye_Default  Chapter_2-0078400 Skye_Default " ,
+ " Atria2_Timid  Chapter_2_0077800 Atria2_Timid " ,
 
- " Skye  Chapter_2-0078700 Things are just way simpler if I\'m not around most other people. I\'m easier to digest in small doses, so you\'ll get tired of me too, sooner or later. I\'m better off spending time with my friends anyway, and I can\'t do that with other people around. They look at me like I\'m crazy. " ,
+ " Narration  Chapter_2_0078000 You turn to look at Atria, who looks almost frozen in panic. The blonde was not at all prepared to see her possible new friends fighting, especially so close after her own falling out with her previous awful friends not that long ago. " ,
 
- " Narration  Chapter_2-0079000 Her joke dies an awkward death. You’re not ready to meet her eyes and you aren’t really sure what to say. " ,
+ " Narration  Chapter_2_0078200 Skye looks away, still perturbed by your argument but no longer so fired up, leaving her sounding just… painfully tired. " ,
 
- " Narration  Chapter_2-0079200 You want to apologise for getting so worked up and for butting in where your opinions may not be wanted, but you don’t like that she thinks so badly of herself. " ,
+ " Skye_Default  Chapter_2_0078400 Skye_Default " ,
 
- " Skye  Chapter_2-0079500 I think we’re all a bit tense right now, maybe this wasn’t such a good idea. I-I’m just gonna go. " ,
+ " Skye  Chapter_2_0078700 Things are just way simpler if I\'m not around most other people. I\'m easier to digest in small doses, so you\'ll get tired of me too, sooner or later. I\'m better off spending time with my friends anyway, and I can\'t do that with other people around. They look at me like I\'m crazy. " ,
 
- " Narration  Chapter_2-0079800 You whip your head back to her, eyes widening.  You open your mouth to call out and clear things up, but a voice stops you from doing so. " ,
+ " Narration  Chapter_2_0079000 Her joke dies an awkward death. You’re not ready to meet her eyes and you aren’t really sure what to say. " ,
 
- " Atria2_Sad  Chapter_2-0080000 Atria2_Sad " ,
+ " Narration  Chapter_2_0079200 You want to apologise for getting so worked up and for butting in where your opinions may not be wanted, but you don’t like that she thinks so badly of herself. " ,
 
- " Atria  Chapter_2-0080300 W-wait! " ,
+ " Skye  Chapter_2_0079500 I think we’re all a bit tense right now, maybe this wasn’t such a good idea. I-I’m just gonna go. " ,
 
- " Narration  Chapter_2-0080600 Atria quickly gets up from her chair, grabbing Skye’s hand to prevent her from leaving. The timid girl holds the limb, trembling, lips pursed tightly as tears prick her eyes. " ,
+ " Narration  Chapter_2_0079800 You whip your head back to her, eyes widening.  You open your mouth to call out and clear things up, but a voice stops you from doing so. " ,
 
- " Atria  Chapter_2-0080900 Player’s just worried about you. I-I am too. It’s not right that people’ve made you think that you don’t get to have friends, j-just because you’re a little different. " ,
+ " Atria2_Sad  Chapter_2_0080000 Atria2_Sad " ,
 
- " Narration  Chapter_2-0081200 Atria smiles uncertainly down at their clasped palms, tears still pricking her vision.  " ,
+ " Atria  Chapter_2_0080300 W-wait! " ,
 
- " Atria  Chapter_2-0081500 I know the feeling… " ,
+ " Narration  Chapter_2_0080600 Atria quickly gets up from her chair, grabbing Skye’s hand to prevent her from leaving. The timid girl holds the limb, trembling, lips pursed tightly as tears prick her eyes. " ,
 
- " Narration  Chapter_2-0081800 Skye’s eyes widened in surprise at the girl’s sudden willfulness. Yours were too at this point. You knew she had some spunk to her from the way she stood up to her former friends, but you weren’t expecting this from her. " ,
+ " Atria  Chapter_2_0080900 Player’s just worried about you. I-I am too. It’s not right that people’ve made you think that you don’t get to have friends, j-just because you’re a little different. " ,
 
- " Atria  Chapter_2-0082100 You know what I think? " ,
+ " Narration  Chapter_2_0081200 Atria smiles uncertainly down at their clasped palms, tears still pricking her vision.  " ,
 
- " Atria2_Nervous Sprite  Chapter_2-0082300 Atria2_Nervous Sprite " ,
+ " Atria  Chapter_2_0081500 I know the feeling… " ,
 
- " Narration  Chapter_2-0082600 Atria speaks up once more, looking up at Skye’s eyes. Her smile quirks, awkwardly but genuinely, trying to reassure the taller girl. " ,
+ " Narration  Chapter_2_0081800 Skye’s eyes widened in surprise at the girl’s sudden willfulness. Yours were too at this point. You knew she had some spunk to her from the way she stood up to her former friends, but you weren’t expecting this from her. " ,
 
- " Atria  Chapter_2-0082900 You’ve probably gone through a lot of things that\'ve caused you pain. I’ve had to work on my own things recently and I get that it is so… so scary to trust other people after everything. " ,
+ " Atria  Chapter_2_0082100 You know what I think? " ,
 
- " Narration  Chapter_2-0083200 The blonde circles the table to move closer to the bespectacled girl, before pulling at their clasped hands, bringing the two closer together. Her eyes shine brightly with unshed tears. " ,
+ " Atria2_Nervous Sprite  Chapter_2_0082300 Atria2_Nervous Sprite " ,
 
- " Atria  Chapter_2-0083500 But, maybe you’d like some help with it? I think we both could use some practice with this friend thing. Why don’t we try this out together? " ,
+ " Narration  Chapter_2_0082600 Atria speaks up once more, looking up at Skye’s eyes. Her smile quirks, awkwardly but genuinely, trying to reassure the taller girl. " ,
 
- " Skye_Smile1  Chapter_2-0083700 Skye_Smile1 " ,
+ " Atria  Chapter_2_0082900 You’ve probably gone through a lot of things that\'ve caused you pain. I’ve had to work on my own things recently and I get that it is so… so scary to trust other people after everything. " ,
 
- " Atria1_Happy  Chapter_2-0083800 Atria1_Happy " ,
+ " Narration  Chapter_2_0083200 The blonde circles the table to move closer to the bespectacled girl, before pulling at their clasped hands, bringing the two closer together. Her eyes shine brightly with unshed tears. " ,
 
- " Narration  Chapter_2-0084100 Skye’s eyes are still wide with disbelief, unprepared for the whirlwind of a girl that had just swept her off her feet. A small smile cracks onto her face, still uncertain but now filled with a familiar lost wonder. " ,
+ " Atria  Chapter_2_0083500 But, maybe you’d like some help with it? I think we both could use some practice with this friend thing. Why don’t we try this out together? " ,
 
- " Skye  Chapter_2-0084400 O-okay. " ,
+ " Skye_Smile1  Chapter_2_0083700 Skye_Smile1 " ,
 
- " Narration  Chapter_2-0084700 At this point, you aren’t sure if you should stay in the room. It feels like you’re interrupting something even as the two finally separate, still looking at one another. You finally clear your throat, breaking the two’s reverie, returning their gaze towards you. " ,
+ " Atria1_Happy  Chapter_2_0083800 Atria1_Happy " ,
 
- " Player  Chapter_2-0085000 Skye, I’m sorry for how I acted. Atria was right, I was worried, but I should’ve been more sensitive. I… shouldn’t have made it about myself. " ,
+ " Narration  Chapter_2_0084100 Skye’s eyes are still wide with disbelief, unprepared for the whirlwind of a girl that had just swept her off her feet. A small smile cracks onto her face, still uncertain but now filled with a familiar lost wonder. " ,
 
- " Narration  Chapter_2-0085300 Skye smiles at you for the apology, moving towards you and extending an arm for you to grab. You gratefully take it, grasping onto her palm to shake. Her mouth quirks up in a rueful smirk. " ,
+ " Skye  Chapter_2_0084400 O-okay. " ,
 
- " Skye  Chapter_2-0085600 I was getting too in my head, I think. I’m happy that you cared enough to try and snap me out of it. " ,
+ " Narration  Chapter_2_0084700 At this point, you aren’t sure if you should stay in the room. It feels like you’re interrupting something even as the two finally separate, still looking at one another. You finally clear your throat, breaking the two’s reverie, returning their gaze towards you. " ,
 
- " Narration  Chapter_2-0085900 You smile at each other, relieved that your fight hadn’t caused irreparable damage to your new friendship. You think about the reason you fought in the first place. " ,
+ " Player  Chapter_2_0085000 Skye, I’m sorry for how I acted. Atria was right, I was worried, but I should’ve been more sensitive. I… shouldn’t have made it about myself. " ,
 
- " Proceed to two choices <Don't invite her to the radio club> or <Invite her to the radio club>  Chapter_2-0086100 Proceed to two choices: <Don\'t invite her to the radio club> or <Invite her to the radio club> " ,
+ " Narration  Chapter_2_0085300 Skye smiles at you for the apology, moving towards you and extending an arm for you to grab. You gratefully take it, grasping onto her palm to shake. Her mouth quirks up in a rueful smirk. " ,
 
- " Choice 1 Don't invite her to the radio club  Chapter_2-0086300 Choice 1: Don\'t invite her to the radio club " ,
+ " Skye  Chapter_2_0085600 I was getting too in my head, I think. I’m happy that you cared enough to try and snap me out of it. " ,
 
- " Narration  Chapter_2-0086600 You aren\'t sure how appropriate it would be to bring up the subject again after such a charged exchange, especially considering that the tension was one started by you. You stay quiet, releasing your hold on her hand.  " ,
+ " Narration  Chapter_2_0085900 You smile at each other, relieved that your fight hadn’t caused irreparable damage to your new friendship. You think about the reason you fought in the first place. " ,
 
- " Narration  Chapter_2-0086800 To your surprise, a voice pipes up from beside Skye, finally approaching closer after your apologies were finished. " ,
+ " Proceed to two choices <Don't invite her to the radio club> or <Invite her to the radio club>  Chapter_2_0086100 Proceed to two choices: <Don\'t invite her to the radio club> or <Invite her to the radio club> " ,
 
- " Atria Atria2_Happy  Chapter_2-0087100 Skye? Would you maybe consider joining us? Maybe even if it’s later on? " ,
+ " Choice 1 Don't invite her to the radio club  Chapter_2_0086300 Choice 1: Don\'t invite her to the radio club " ,
 
- " Narration  Chapter_2-0087400 You’re surprised once again by the girl’s boldness. Looks like she was the braver one out of the two of you. You smile at Skye, emboldened by your friend to ask again. " ,
+ " Narration  Chapter_2_0086600 You aren\'t sure how appropriate it would be to bring up the subject again after such a charged exchange, especially considering that the tension was one started by you. You stay quiet, releasing your hold on her hand.  " ,
 
- " Scene reconverges here  Chapter_2-0087600 Scene reconverges here " ,
+ " Narration  Chapter_2_0086800 To your surprise, a voice pipes up from beside Skye, finally approaching closer after your apologies were finished. " ,
 
- " Choice 2 Invite her to the radio club  Chapter_2-0087800 Choice 2: Invite her to the radio club " ,
+ " Atria Atria2_Happy  Chapter_2_0087100 Skye? Would you maybe consider joining us? Maybe even if it’s later on? " ,
 
- " Narration  Chapter_2-0087900 	Scene reconverges here " ,
+ " Narration  Chapter_2_0087400 You’re surprised once again by the girl’s boldness. Looks like she was the braver one out of the two of you. You smile at Skye, emboldened by your friend to ask again. " ,
 
- " Player  Chapter_2-0088200 Would you consider it? Joining us at the club? We’d love to have you. " ,
+ " Scene reconverges here  Chapter_2_0087600 Scene reconverges here " ,
 
- " Narration  Chapter_2-0088500 You aren’t sure if the invite would be taken well, but Skye smiles softly at the two of you. She nods her head, one of her hands coming up to rest on her waist as the next words come out of her mouth. " ,
+ " Choice 2 Invite her to the radio club  Chapter_2_0087800 Choice 2: Invite her to the radio club " ,
 
- " Skye Skye_Smile2  Chapter_2-0088800 Well, you two do look like you could use some help. Where do you think we should start? " ,
+ " Narration  Chapter_2_0087900 	Scene reconverges here " ,
 
- " Narration  Chapter_2-0089100 Atria smiles softly as she takes Skye’s hand in hers once more, dragging her to sit on the table as they start discussing ideas for the radio club, what they would prepare for the first broadcast, what news was popular in the school. " ,
+ " Player  Chapter_2_0088200 Would you consider it? Joining us at the club? We’d love to have you. " ,
 
- " Narration  Chapter_2-0089300 Whatever it is, it seems like they\'re having fun. You can hear Skye snorting with laughter, Atria’s quieter giggles interspersed a little more rarely in the conversation.  " ,
+ " Narration  Chapter_2_0088500 You aren’t sure if the invite would be taken well, but Skye smiles softly at the two of you. She nods her head, one of her hands coming up to rest on her waist as the next words come out of her mouth. " ,
 
- " Narration  Chapter_2-0089500 You smile at them as you move to settle on the table. " ,
+ " Skye Skye_Smile2  Chapter_2_0088800 Well, you two do look like you could use some help. Where do you think we should start? " ,
 
- " Skye CG  Chapter_2-0089700 Skye CG " ,
+ " Narration  Chapter_2_0089100 Atria smiles softly as she takes Skye’s hand in hers once more, dragging her to sit on the table as they start discussing ideas for the radio club, what they would prepare for the first broadcast, what news was popular in the school. " ,
 
- " Narration  Chapter_2-0089900 Kyo slips into the room in the middle of all the excitement, quietly sneaking into the corner of the room, settling for looking at what was going on. " ,
+ " Narration  Chapter_2_0089300 Whatever it is, it seems like they\'re having fun. You can hear Skye snorting with laughter, Atria’s quieter giggles interspersed a little more rarely in the conversation.  " ,
 
- " Narration  Chapter_2-0090100 You move to greet him – and maybe grill him for missing yet another certified moment with your new club members – when Kyo motions for you to stop. " ,
+ " Narration  Chapter_2_0089500 You smile at them as you move to settle on the table. " ,
 
- " Narration  Chapter_2-0090300 He moves his hands in a shushing motion, gesturing for you to be quiet. The two girls continue their excited discussion, completely unaware of Kyo’s entrance. " ,
+ " Skye CG  Chapter_2_0089700 Skye CG " ,
 
- " Narration  Chapter_2-0090500 You nod your head at the blue haired boy, returning to look once more at your new friends fondly. You definitely don\'t want to interrupt their bonding either. " ,
+ " Narration  Chapter_2_0089900 Kyo slips into the room in the middle of all the excitement, quietly sneaking into the corner of the room, settling for looking at what was going on. " ,
 
- " Narration  Chapter_2-0090700 You\'ll have time for more proper introductions later. " ,
+ " Narration  Chapter_2_0090100 You move to greet him – and maybe grill him for missing yet another certified moment with your new club members – when Kyo motions for you to stop. " ,
+
+ " Narration  Chapter_2_0090300 He moves his hands in a shushing motion, gesturing for you to be quiet. The two girls continue their excited discussion, completely unaware of Kyo’s entrance. " ,
+
+ " Narration  Chapter_2_0090500 You nod your head at the blue haired boy, returning to look once more at your new friends fondly. You definitely don\'t want to interrupt their bonding either. " ,
+
+ " Narration  Chapter_2_0090700 You\'ll have time for more proper introductions later. " ,
 
 		// end-of-CHAPTER-2-mark
         'jump CHAPTER_3'
@@ -1708,815 +1727,821 @@ monogatari.script({
     'CHAPTER_3': [
 		'chap 3',
 		// start-of-CHAPTER-3-mark
- " Esmeray's BGM  Chapter_3-0000400 Esmeray\'s BGM " ,
+ " _Name _DialogCode _Tex " ,
 
- " Narration  Chapter_3-0000700 It’s been a couple of days since Skye joined the group. " ,
+ "  Chapter_3_0000100 Chapter 3: Confronting the Moon Prince " ,
 
- " Narration  Chapter_3-0000900 The Radio Club is now livelier than ever, much to Kyo’s playful dismay, as you, Atria, and Skye chat loudly and often in the club room. " ,
+ " Radio Club Basic + Printer + Mic + Laptop  Chapter_3_0000300 Radio Club Basic + Printer + Mic + Laptop " ,
 
- " Narration  Chapter_3-0001100 Now, all you need is one more member to make the club official. But who? " ,
+ " Esmeray's BGM  Chapter_3_0000400 Esmeray\'s BGM " ,
 
- " Transition to School Hallway Day  Chapter_3-0001300 Transition to School Hallway Day " ,
+ " Narration  Chapter_3_0000700 It’s been a couple of days since Skye joined the group. " ,
 
- " Narration  Chapter_3-0001600 As you’re deep in thought and walking down the hallways of ILUNA Academy, you snap to attention when you hear loud giggles, flirts, and cheers coming from a crowd in front of you. " ,
+ " Narration  Chapter_3_0000900 The Radio Club is now livelier than ever, much to Kyo’s playful dismay, as you, Atria, and Skye chat loudly and often in the club room. " ,
 
- " Esmeray (Amused) Appears on Screen, labeled as ???  Chapter_3-0001800 Esmeray (Amused) Appears on Screen, labeled as ??? " ,
+ " Narration  Chapter_3_0001100 Now, all you need is one more member to make the club official. But who? " ,
 
- " Narration  Chapter_3-0002000 In the center of the crowd is a tall dude with dark turquoise hair, lots of black and shiny bling, and pretty turquoise-gold eyes. " ,
+ " Transition to School Hallway Day  Chapter_3_0001300 Transition to School Hallway Day " ,
 
- " Narration  Chapter_3-0002200 Some of the people in the crowd have signs in their hands. " ,
+ " Narration  Chapter_3_0001600 As you’re deep in thought and walking down the hallways of ILUNA Academy, you snap to attention when you hear loud giggles, flirts, and cheers coming from a crowd in front of you. " ,
 
- " Narration  Chapter_3-0002400 "We love you, Esmeray!" says the one in the hands of an enthusiastically cheering girl. " ,
+ " Esmeray (Amused) Appears on Screen, labeled as ???  Chapter_3_0001800 Esmeray (Amused) Appears on Screen, labeled as ??? " ,
 
- " Narration  Chapter_3-0002600 "The Prince of the Dark Moon, and my heart <3" says another in the hands of a tall, totally smitten boy. " ,
+ " Narration  Chapter_3_0002000 In the center of the crowd is a tall dude with dark turquoise hair, lots of black and shiny bling, and pretty turquoise-gold eyes. " ,
 
- " Narration  Chapter_3-0002800 The person in the center winks at the two of them, a lax smile on his face as he does so. " ,
+ " Narration  Chapter_3_0002200 Some of the people in the crowd have signs in their hands. " ,
 
- " Narration  Chapter_3-0003000 The two start squealing before the girl faints in the boy’s arms, making him drop his sign. " ,
+ " Narration  Chapter_3_0002400 "We love you, Esmeray!" says the one in the hands of an enthusiastically cheering girl. " ,
 
- " Player  Chapter_3-0003300 That must be the popular guy of the school I heard about. Esmeray Regulus, I think? " ,
+ " Narration  Chapter_3_0002600 "The Prince of the Dark Moon, and my heart <3" says another in the hands of a tall, totally smitten boy. " ,
 
- " Narration  Chapter_3-0003600 You don’t really pay too much attention to the crowd. If anything, it’s a little annoying. " ,
+ " Narration  Chapter_3_0002800 The person in the center winks at the two of them, a lax smile on his face as he does so. " ,
 
- " Narration  Chapter_3-0003800 The bell rings, meaning most students will be late to their class if they don’t get going, including yourself. " ,
+ " Narration  Chapter_3_0003000 The two start squealing before the girl faints in the boy’s arms, making him drop his sign. " ,
 
- " Student  Chapter_3-0004100 	See you later, Esmeray! " ,
+ " Player  Chapter_3_0003300 That must be the popular guy of the school I heard about. Esmeray Regulus, I think? " ,
 
- " Narration  Chapter_3-0004400 You walk past the crowd, hearing Esmeray laugh at the random person and wave at them. " ,
+ " Narration  Chapter_3_0003600 You don’t really pay too much attention to the crowd. If anything, it’s a little annoying. " ,
 
- " Narration  Chapter_3-0004600 	You slow down your pace. Something about that laugh is weird. " ,
+ " Narration  Chapter_3_0003800 The bell rings, meaning most students will be late to their class if they don’t get going, including yourself. " ,
 
- " Narration  Chapter_3-0004800 	You turn around, looking closely at Esmeray. " ,
+ " Student  Chapter_3_0004100 	See you later, Esmeray! " ,
 
- " Narration  Chapter_3-0005000 Sure enough, although Esmeray’s face is smiling, his eyes look empty. " ,
+ " Narration  Chapter_3_0004400 You walk past the crowd, hearing Esmeray laugh at the random person and wave at them. " ,
 
- " Narration  Chapter_3-0005200 You move so that you\'re partially hidden by a nearby trash can, continuing to observe Esmeray. " ,
+ " Narration  Chapter_3_0004600 	You slow down your pace. Something about that laugh is weird. " ,
 
- " Esmeray Unamused  Chapter_3-0005400 Esmeray Unamused " ,
+ " Narration  Chapter_3_0004800 	You turn around, looking closely at Esmeray. " ,
 
- " Narration  Chapter_3-0005600 Once the crowd is gone, you see Esmeray’s smile fall, and his entire face becomes cold. He then starts trudging to his class. " ,
+ " Narration  Chapter_3_0005000 Sure enough, although Esmeray’s face is smiling, his eyes look empty. " ,
 
- " Narration  Chapter_3-0005800 Your eyes widen at what you\'ve just seen, but your thoughts will have to wait. You’re late to class! " ,
+ " Narration  Chapter_3_0005200 You move so that you\'re partially hidden by a nearby trash can, continuing to observe Esmeray. " ,
 
- " Transition to Hallway BG  Chapter_3-0006000 Transition to Hallway BG " ,
+ " Esmeray Unamused  Chapter_3_0005400 Esmeray Unamused " ,
 
- " No Sprites  Chapter_3-0006100 No Sprites " ,
+ " Narration  Chapter_3_0005600 Once the crowd is gone, you see Esmeray’s smile fall, and his entire face becomes cold. He then starts trudging to his class. " ,
 
- " Narration  Chapter_3-0006400 The day is finally over, and you\'re heading to the Radio Club. You need to strategize with Kyo on how to gain your last member. " ,
+ " Narration  Chapter_3_0005800 Your eyes widen at what you\'ve just seen, but your thoughts will have to wait. You’re late to class! " ,
 
- " Narration  Chapter_3-0006600 On your way there, you hear the faint sounds of guitar chords accompanied by a muffled voice. " ,
+ " Transition to Hallway BG  Chapter_3_0006000 Transition to Hallway BG " ,
 
- " Player  Chapter_3-0006900 I shouldn’t peek… I’m a little busy… " ,
+ " No Sprites  Chapter_3_0006100 No Sprites " ,
 
- " Narration  Chapter_3-0007200 But your curiosity is winning today. " ,
+ " Narration  Chapter_3_0006400 The day is finally over, and you\'re heading to the Radio Club. You need to strategize with Kyo on how to gain your last member. " ,
 
- " Narration  Chapter_3-0007400 Quietly, you walk towards the source of the noise. " ,
+ " Narration  Chapter_3_0006600 On your way there, you hear the faint sounds of guitar chords accompanied by a muffled voice. " ,
 
- " Narration  Chapter_3-0007600 As you get closer, the guitar chord sounds morph into a soft melody, and with it the muffled voice is now distinct and clear. " ,
+ " Player  Chapter_3_0006900 I shouldn’t peek… I’m a little busy… " ,
 
- " Narration  Chapter_3-0007800 The voice leads you to the entrance of an empty classroom, door slightly ajar, enough to hear the song. " ,
+ " Narration  Chapter_3_0007200 But your curiosity is winning today. " ,
 
- " Narration  Chapter_3-0008000 The lovely tenor voice makes you almost breathless. You have to see who’s making that song. " ,
+ " Narration  Chapter_3_0007400 Quietly, you walk towards the source of the noise. " ,
 
- " Narration  Chapter_3-0008200 You creep up closer to the crack of the door and carefully pull it wider. Your eyes open in shock. " ,
+ " Narration  Chapter_3_0007600 As you get closer, the guitar chord sounds morph into a soft melody, and with it the muffled voice is now distinct and clear. " ,
 
- " Esmeray CG  Chapter_3-0008400 Esmeray CG " ,
+ " Narration  Chapter_3_0007800 The voice leads you to the entrance of an empty classroom, door slightly ajar, enough to hear the song. " ,
 
- " Esmeray  Chapter_3-0008700 	Don’t need the plastic smiles all up in my face " ,
+ " Narration  Chapter_3_0008000 The lovely tenor voice makes you almost breathless. You have to see who’s making that song. " ,
 
- " Esmeray  Chapter_3-0008800 	Just wanna be a moonchild and stay in outer space~ " ,
+ " Narration  Chapter_3_0008200 You creep up closer to the crack of the door and carefully pull it wider. Your eyes open in shock. " ,
 
- " Esmeray  Chapter_3-0009000 	Don’t wanna keep on going on like this " ,
+ " Esmeray CG  Chapter_3_0008400 Esmeray CG " ,
 
- " Esmeray  Chapter_3-0009100 	These people all really like to miss " ,
+ " Esmeray  Chapter_3_0008700 	Don’t need the plastic smiles all up in my face " ,
 
- " Esmeray  Chapter_3-0009200 	The fact that I don’t care… " ,
+ " Esmeray  Chapter_3_0008800 	Just wanna be a moonchild and stay in outer space~ " ,
 
- " Esmeray  Chapter_3-0009300 	A fact that they can’t bear… " ,
+ " Esmeray  Chapter_3_0009000 	Don’t wanna keep on going on like this " ,
 
- " Esmeray  Chapter_3-0009500 	… " ,
+ " Esmeray  Chapter_3_0009100 	These people all really like to miss " ,
 
- " Esmeray  Chapter_3-0009700 	…Someday I will travel far " ,
+ " Esmeray  Chapter_3_0009200 	The fact that I don’t care… " ,
 
- " Esmeray  Chapter_3-0009800 	Riding on a shooting star " ,
+ " Esmeray  Chapter_3_0009300 	A fact that they can’t bear… " ,
 
- " Esmeray  Chapter_3-0009900 	Leaving won’t give me a scar " ,
+ " Esmeray  Chapter_3_0009500 	… " ,
 
- " Esmeray  Chapter_3-0010000 Cause all I need is me and my guitar~! " ,
+ " Esmeray  Chapter_3_0009700 	…Someday I will travel far " ,
 
- " END CG  Chapter_3-0010200 END CG " ,
+ " Esmeray  Chapter_3_0009800 	Riding on a shooting star " ,
 
- " Esmeray Genuine  Chapter_3-0010400 Esmeray Genuine " ,
+ " Esmeray  Chapter_3_0009900 	Leaving won’t give me a scar " ,
 
- " Generic Classroom background  Chapter_3-0010500 Generic Classroom background " ,
+ " Esmeray  Chapter_3_0010000 Cause all I need is me and my guitar~! " ,
 
- " Narration  Chapter_3-0010800 	You’re in awe, to say the least. " ,
+ " END CG  Chapter_3_0010200 END CG " ,
 
- " Narration  Chapter_3-0011000 Who would’ve thought that the school’s resident popular guy is also a musical talent? " ,
+ " Esmeray Genuine  Chapter_3_0010400 Esmeray Genuine " ,
 
- " Player  Chapter_3-0011300 	…How amazing would it be if he joined the Radio Club? " ,
+ " Generic Classroom background  Chapter_3_0010500 Generic Classroom background " ,
 
- " Player  Chapter_3-0011500 …Yeah! Wouldn’t he be a good person to arrange music to broadcast? His voice is perfect! " ,
+ " Narration  Chapter_3_0010800 	You’re in awe, to say the least. " ,
 
- " Player  Chapter_3-0011700 … " ,
+ " Narration  Chapter_3_0011000 Who would’ve thought that the school’s resident popular guy is also a musical talent? " ,
 
- " Player  Chapter_3-0011900 Should I try to invite him? " ,
+ " Player  Chapter_3_0011300 	…How amazing would it be if he joined the Radio Club? " ,
 
- " Proceed to two choices <Knock and try to invite Esmeray> or <Don't knock and invite Esmeray>  Chapter_3-0012100 Proceed to two choices: <Knock and try to invite Esmeray> or <Don\'t knock and invite Esmeray> " ,
+ " Player  Chapter_3_0011500 …Yeah! Wouldn’t he be a good person to arrange music to broadcast? His voice is perfect! " ,
 
- " Choice 1 Knock and try to invite Esmeray to the Club  Chapter_3-0012300 Choice 1: Knock and try to invite Esmeray to the Club " ,
+ " Player  Chapter_3_0011700 … " ,
 
- " Narration  Chapter_3-0012600 You take a deep breath and knock quietly before walking into the classroom. " ,
+ " Player  Chapter_3_0011900 Should I try to invite him? " ,
 
- " Esmeray Unamused  Chapter_3-0012800 Esmeray Unamused " ,
+ " Proceed to two choices <Knock and try to invite Esmeray> or <Don't knock and invite Esmeray>  Chapter_3_0012100 Proceed to two choices: <Knock and try to invite Esmeray> or <Don\'t knock and invite Esmeray> " ,
 
- " Narration  Chapter_3-0013000 Esmeray immediately stops playing, his face loses its smile, and he turns to you with a cold face. " ,
+ " Choice 1 Knock and try to invite Esmeray to the Club  Chapter_3_0012300 Choice 1: Knock and try to invite Esmeray to the Club " ,
 
- " Scene reconverges here  Chapter_3-0013200 Scene reconverges here " ,
+ " Narration  Chapter_3_0012600 You take a deep breath and knock quietly before walking into the classroom. " ,
 
- " Choice 2 Don’t Knock and invite Esmeray  Chapter_3-0013400 Choice 2: Don’t Knock and invite Esmeray " ,
+ " Esmeray Unamused  Chapter_3_0012800 Esmeray Unamused " ,
 
- " Narration  Chapter_3-0013700 You hesitate in asking Esmeray to join. " ,
+ " Narration  Chapter_3_0013000 Esmeray immediately stops playing, his face loses its smile, and he turns to you with a cold face. " ,
 
- " Narration  Chapter_3-0013900 He’s very high profile! Why would he want to join a club that no one knows about? " ,
+ " Scene reconverges here  Chapter_3_0013200 Scene reconverges here " ,
 
- " Narration  Chapter_3-0014100 While you were deliberating, you accidentally shuffle in place, bumping into the classroom’s door. " ,
+ " Choice 2 Don’t Knock and invite Esmeray  Chapter_3_0013400 Choice 2: Don’t Knock and invite Esmeray " ,
 
- " Narration  Chapter_3-0014300 *CREAK* Door creak SFX " ,
+ " Narration  Chapter_3_0013700 You hesitate in asking Esmeray to join. " ,
 
- " Esmeray Unamused  Chapter_3-0014500 Esmeray Unamused " ,
+ " Narration  Chapter_3_0013900 He’s very high profile! Why would he want to join a club that no one knows about? " ,
 
- " Narration  Chapter_3-0014700 Quickly, Esmeray stops playing, his face loses its smile, and he turns to the door with a cold face. " ,
+ " Narration  Chapter_3_0014100 While you were deliberating, you accidentally shuffle in place, bumping into the classroom’s door. " ,
 
- " Narration  Chapter_3-0014900 You laugh awkwardly, before slowly entering the room. " ,
+ " Narration  Chapter_3_0014300 *CREAK* Door creak SFX " ,
 
- " Scene reconverges here  Chapter_3-0015000 Scene reconverges here " ,
+ " Esmeray Unamused  Chapter_3_0014500 Esmeray Unamused " ,
 
- " Player  Chapter_3-0015300 	…Hey! That’s some amazing playing, you’re really talented! " ,
+ " Narration  Chapter_3_0014700 Quickly, Esmeray stops playing, his face loses its smile, and he turns to the door with a cold face. " ,
 
- " Player  Chapter_3-0015500 Esmeray:  " ,
+ " Narration  Chapter_3_0014900 You laugh awkwardly, before slowly entering the room. " ,
 
- " Player  Chapter_3-0015600 … " ,
+ " Scene reconverges here  Chapter_3_0015000 Scene reconverges here " ,
 
- " Player  Chapter_3-0015900 So, I, uh, I’m part of the Radio Club, and we’re currently recruiting members. I think you’d be an amazing fit for it! " ,
+ " Player  Chapter_3_0015300 	…Hey! That’s some amazing playing, you’re really talented! " ,
 
- " Player  Chapter_3-0016100 So, what do you say? Would you like to join the Radio Club? " ,
+ " Player  Chapter_3_0015500 Esmeray:  " ,
 
- " Esmeray Angry  Chapter_3-0016400 	…Hah! As if I’d join your club.  " ,
+ " Player  Chapter_3_0015600 … " ,
 
- " Esmeray Angry  Chapter_3-0016600 Nah, if it’s full of eavesdroppers like you, then hell, I definitely don’t want to be in any part of it. " ,
+ " Player  Chapter_3_0015900 So, I, uh, I’m part of the Radio Club, and we’re currently recruiting members. I think you’d be an amazing fit for it! " ,
 
- " Esmeray sprite disappears  Chapter_3-0016800 Esmeray sprite disappears " ,
+ " Player  Chapter_3_0016100 So, what do you say? Would you like to join the Radio Club? " ,
 
- " Narration  Chapter_3-0017100 Esmeray walks out, leaving you speechless and watching his shrinking figure as he walks down the hallway. " ,
+ " Esmeray Angry  Chapter_3_0016400 	…Hah! As if I’d join your club.  " ,
 
- " Narration  Chapter_3-0017300 Gone was the smile from before. " ,
+ " Esmeray Angry  Chapter_3_0016600 Nah, if it’s full of eavesdroppers like you, then hell, I definitely don’t want to be in any part of it. " ,
 
- " Proceed to next scene  Chapter_3-0017500 Proceed to next scene " ,
+ " Esmeray sprite disappears  Chapter_3_0016800 Esmeray sprite disappears " ,
 
- " School Hallway Day  Chapter_3-0017700 School Hallway Day " ,
+ " Narration  Chapter_3_0017100 Esmeray walks out, leaving you speechless and watching his shrinking figure as he walks down the hallway. " ,
 
- " Esmeray Neutral  Chapter_3-0017800 Esmeray Neutral " ,
+ " Narration  Chapter_3_0017300 Gone was the smile from before. " ,
 
- " Narration  Chapter_3-0018100 The next day, you spot Esmeray in the hallway on the way to the Radio Club. Luckily, he was alone. " ,
+ " Proceed to next scene  Chapter_3_0017500 Proceed to next scene " ,
 
- " Narration  Chapter_3-0018300 Although he rejected you last time, you won’t give up! " ,
+ " School Hallway Day  Chapter_3_0017700 School Hallway Day " ,
 
- " Narration  Chapter_3-0018500 You know that with his talent in music, he would definitely be a great addition to the club. " ,
+ " Esmeray Neutral  Chapter_3_0017800 Esmeray Neutral " ,
 
- " Narration  Chapter_3-0018700 He is a hidden gem! Not only could he use his talent in music to compose soundtracks for the club, but his voice also fits that of a charming broadcaster perfectly. " ,
+ " Narration  Chapter_3_0018100 The next day, you spot Esmeray in the hallway on the way to the Radio Club. Luckily, he was alone. " ,
 
- " Narration  Chapter_3-0018900 And, who knows? He could be as good a friend as Atria, Skye, or Kyo. " ,
+ " Narration  Chapter_3_0018300 Although he rejected you last time, you won’t give up! " ,
 
- " Narration  Chapter_3-0019100 With conviction, you decide that this moment in the hallway would be a good time to try and get him to join the Radio Club. " ,
+ " Narration  Chapter_3_0018500 You know that with his talent in music, he would definitely be a great addition to the club. " ,
 
- " Narration  Chapter_3-0019300 You try to get his attention and wave at him. " ,
+ " Narration  Chapter_3_0018700 He is a hidden gem! Not only could he use his talent in music to compose soundtracks for the club, but his voice also fits that of a charming broadcaster perfectly. " ,
 
- " Player  Chapter_3-0019600 Esmeray! " ,
+ " Narration  Chapter_3_0018900 And, who knows? He could be as good a friend as Atria, Skye, or Kyo. " ,
 
- " Player  Chapter_3-0019800 Esmeray Unamused:  " ,
+ " Narration  Chapter_3_0019100 With conviction, you decide that this moment in the hallway would be a good time to try and get him to join the Radio Club. " ,
 
- " Player  Chapter_3-0019900 … " ,
+ " Narration  Chapter_3_0019300 You try to get his attention and wave at him. " ,
 
- " Footstep SFX  Chapter_3-0020100 Footstep SFX " ,
+ " Player  Chapter_3_0019600 Esmeray! " ,
 
- " Esmeray sprite disappears  Chapter_3-0020200 Esmeray sprite disappears " ,
+ " Player  Chapter_3_0019800 Esmeray Unamused:  " ,
 
- " Hallway BG  Chapter_3-0020300 Hallway BG " ,
+ " Player  Chapter_3_0019900 … " ,
 
- " Narration  Chapter_3-0020600 You sigh, thinking you’ll try again. " ,
+ " Footstep SFX  Chapter_3_0020100 Footstep SFX " ,
 
- " Narration  Chapter_3-0020800 You wish Kyo was with you, but you couldn’t find him anywhere, and you don’t have his phone number. " ,
+ " Esmeray sprite disappears  Chapter_3_0020200 Esmeray sprite disappears " ,
 
- " Narration  Chapter_3-0021000 It’s at times like this where frustration is high that you wish you could contact him, but this frustration is overtaken by your realization that really you haven’t seen him much these past couple of days. " ,
+ " Hallway BG  Chapter_3_0020300 Hallway BG " ,
 
- " Narration  Chapter_3-0021200 Where is he? " ,
+ " Narration  Chapter_3_0020600 You sigh, thinking you’ll try again. " ,
 
- " Narration  Chapter_3-0021500 *BLACK SCREEN TRANSITION* " ,
+ " Narration  Chapter_3_0020800 You wish Kyo was with you, but you couldn’t find him anywhere, and you don’t have his phone number. " ,
 
- " Transition to School Hallway Day  Chapter_3-0021600 Transition to School Hallway Day " ,
+ " Narration  Chapter_3_0021000 It’s at times like this where frustration is high that you wish you could contact him, but this frustration is overtaken by your realization that really you haven’t seen him much these past couple of days. " ,
 
- " Esmeray Neutral  Chapter_3-0021700 Esmeray Neutral " ,
+ " Narration  Chapter_3_0021200 Where is he? " ,
 
- " Narration  Chapter_3-0022000 After gym class, as you walk to the restroom, you find Esmeray walking out from the unisex restroom door. " ,
+ " Narration  Chapter_3_0021500 *BLACK SCREEN TRANSITION* " ,
 
- " Narration  Chapter_3-0022200 You try waving at him again, but before you can get within a 10 foot radius of his location, he swiftly walks away in the other direction. " ,
+ " Transition to School Hallway Day  Chapter_3_0021600 Transition to School Hallway Day " ,
 
- " Esmeray Sprite Disappears  Chapter_3-0022400 Esmeray Sprite Disappears " ,
+ " Esmeray Neutral  Chapter_3_0021700 Esmeray Neutral " ,
 
- " Narration  Chapter_3-0022600 Groaning, you just go into the restroom. " ,
+ " Narration  Chapter_3_0022000 After gym class, as you walk to the restroom, you find Esmeray walking out from the unisex restroom door. " ,
 
- " Narration  Chapter_3-0022800 *BLACK SCREEN TRANSITION* " ,
+ " Narration  Chapter_3_0022200 You try waving at him again, but before you can get within a 10 foot radius of his location, he swiftly walks away in the other direction. " ,
 
- " Transition to School Hallway Day  Chapter_3-0022900 Transition to School Hallway Day " ,
+ " Esmeray Sprite Disappears  Chapter_3_0022400 Esmeray Sprite Disappears " ,
 
- " Narration  Chapter_3-0023200 A couple days have passed since you first tried to get Esmeray into the Radio Club, each day being met with more glares and avoidance from Esmeray. " ,
+ " Narration  Chapter_3_0022600 Groaning, you just go into the restroom. " ,
 
- " Narration  Chapter_3-0023400 Kyo, on the few days you would see him, just made fun of you. Whenever you got irritated and asked him where he had been, he’d change the subject or say he had things going on at home. " ,
+ " Narration  Chapter_3_0022800 *BLACK SCREEN TRANSITION* " ,
 
- " Narration  Chapter_3-0023600 You would just huff in response and walk with him to the Radio Club classroom. " ,
+ " Transition to School Hallway Day  Chapter_3_0022900 Transition to School Hallway Day " ,
 
- " Narration  Chapter_3-0023800 As if receiving Kyo’s lack of help wasn’t enough, you also dealt with more people trying to accuse Skye of the increasing incidences of vandalism going on, as well as Atria’s old friends lurking around and glaring at your club. " ,
+ " Narration  Chapter_3_0023200 A couple days have passed since you first tried to get Esmeray into the Radio Club, each day being met with more glares and avoidance from Esmeray. " ,
 
- " Skye_Default and Atria2_Nervous  Chapter_3-0024000 Skye_Default and Atria2_Nervous " ,
+ " Narration  Chapter_3_0023400 Kyo, on the few days you would see him, just made fun of you. Whenever you got irritated and asked him where he had been, he’d change the subject or say he had things going on at home. " ,
 
- " Skye  Chapter_3-0024300 Tch, they’re just jealous they don’t have what we have, right y\'all? " ,
+ " Narration  Chapter_3_0023600 You would just huff in response and walk with him to the Radio Club classroom. " ,
 
- " Narration  Chapter_3-0024600 Skye gestures to you, Atria, and the air next to her while walking down the halls. " ,
+ " Narration  Chapter_3_0023800 As if receiving Kyo’s lack of help wasn’t enough, you also dealt with more people trying to accuse Skye of the increasing incidences of vandalism going on, as well as Atria’s old friends lurking around and glaring at your club. " ,
 
- " Narration  Chapter_3-0024800 	Atria looks around. " ,
+ " Skye_Default and Atria2_Nervous  Chapter_3_0024000 Skye_Default and Atria2_Nervous " ,
 
- " Narration  Chapter_3-0025000 Although they’re a lot less intimidated of their “friends” than before, they\'re still cautious while walking down the halls with you, Kyo, and Skye. " ,
+ " Skye  Chapter_3_0024300 Tch, they’re just jealous they don’t have what we have, right y\'all? " ,
 
- " Narration  Chapter_3-0025200 Speaking of Kyo, he’s not here, AGAIN. He did tell you that he had a lot of work going on lately, but if the Radio Club’s one of his major commitments, how important must those other things be? " ,
+ " Narration  Chapter_3_0024600 Skye gestures to you, Atria, and the air next to her while walking down the halls. " ,
 
- " Atria  Chapter_3-0025500 	W-Well, it seems like we’re close to the club room! By the " ,
+ " Narration  Chapter_3_0024800 	Atria looks around. " ,
 
- " Atria  Chapter_3-0025600 way, w-were we able to register officially yet? " ,
+ " Narration  Chapter_3_0025000 Although they’re a lot less intimidated of their “friends” than before, they\'re still cautious while walking down the halls with you, Kyo, and Skye. " ,
 
- " Player  Chapter_3-0025900 We still need one more member, I think. That’s what Kyo told me, anyways. " ,
+ " Narration  Chapter_3_0025200 Speaking of Kyo, he’s not here, AGAIN. He did tell you that he had a lot of work going on lately, but if the Radio Club’s one of his major commitments, how important must those other things be? " ,
 
- " Skye  Chapter_3-0026200 Mm mm, I see. How’s he, by the way? He seems to not be around lately. " ,
+ " Atria  Chapter_3_0025500 	W-Well, it seems like we’re close to the club room! By the " ,
 
- " Player  Chapter_3-0026500 	*Sigh* I don’t know, Skye… " ,
+ " Atria  Chapter_3_0025600 way, w-were we able to register officially yet? " ,
 
- " Narration  Chapter_3-0026800 There is silence between you three, until Atria clears their throat. " ,
+ " Player  Chapter_3_0025900 We still need one more member, I think. That’s what Kyo told me, anyways. " ,
 
- " Atria Atria2_Timid  Chapter_3-0027100 	So, who… who are we trying to recruit? " ,
+ " Skye  Chapter_3_0026200 Mm mm, I see. How’s he, by the way? He seems to not be around lately. " ,
 
- " Narration  Chapter_3-0027400 	Skye and Atria turn to you, curiosity shining on their faces. " ,
+ " Player  Chapter_3_0026500 	*Sigh* I don’t know, Skye… " ,
 
- " Narration  Chapter_3-0027600 	You sheepishly grin at them. " ,
+ " Narration  Chapter_3_0026800 There is silence between you three, until Atria clears their throat. " ,
 
- " Player  Chapter_3-0027900 	Uh… have you heard of Esmeray Regulus? " ,
+ " Atria Atria2_Timid  Chapter_3_0027100 	So, who… who are we trying to recruit? " ,
 
- " Narration  Chapter_3-0028200 	Atria’s and Skye’s eyes widen in shock. " ,
+ " Narration  Chapter_3_0027400 	Skye and Atria turn to you, curiosity shining on their faces. " ,
 
- " Atria and Skye  Chapter_3-0028500 	WHAT?! " ,
+ " Narration  Chapter_3_0027600 	You sheepishly grin at them. " ,
 
- " Atria Atria2_Nervous  Chapter_3-0028800 T-That really, r-really high profile person?! The so-called charming f-boy of the school who’s so handsome no one really cares if he flirts with everyone?! " ,
+ " Player  Chapter_3_0027900 	Uh… have you heard of Esmeray Regulus? " ,
 
- " Skye  Chapter_3-0029100 	Why would he want to join us? Can we even trust him? " ,
+ " Narration  Chapter_3_0028200 	Atria’s and Skye’s eyes widen in shock. " ,
 
- " Player  Chapter_3-0029400 	Hold on, y’all. I haven’t brought him in yet. I\'m just thinking " ,
+ " Atria and Skye  Chapter_3_0028500 	WHAT?! " ,
 
- " Player  Chapter_3-0029500 about bringing him. " ,
+ " Atria Atria2_Nervous  Chapter_3_0028800 T-That really, r-really high profile person?! The so-called charming f-boy of the school who’s so handsome no one really cares if he flirts with everyone?! " ,
 
- " Player  Chapter_3-0029700 	There are some reasons… " ,
+ " Skye  Chapter_3_0029100 	Why would he want to join us? Can we even trust him? " ,
 
- " Narration  Chapter_3-0030000 	You pause. " ,
+ " Player  Chapter_3_0029400 	Hold on, y’all. I haven’t brought him in yet. I\'m just thinking " ,
 
- " Narration  Chapter_3-0030200 	You don’t know if it’s okay to share with them about Esmeray " ,
+ " Player  Chapter_3_0029500 about bringing him. " ,
 
- " Narration  Chapter_3-0030300 being a musical talent yet. " ,
+ " Player  Chapter_3_0029700 	There are some reasons… " ,
 
- " Narration  Chapter_3-0030500 	It\'d be best to get his consent first. " ,
+ " Narration  Chapter_3_0030000 	You pause. " ,
 
- " Player  Chapter_3-0030800 A-Anyways, I think he would fit right in. If– I mean, when I bring him in, you’ll see why. Can you trust me? " ,
+ " Narration  Chapter_3_0030200 	You don’t know if it’s okay to share with them about Esmeray " ,
 
- " Narration  Chapter_3-0031100 	With some hesitation, they both nod at you. " ,
+ " Narration  Chapter_3_0030300 being a musical talent yet. " ,
 
- " Narration  Chapter_3-0031300 	Atria has a wary smile on their face, while Skye pushes up " ,
+ " Narration  Chapter_3_0030500 	It\'d be best to get his consent first. " ,
 
- " Narration  Chapter_3-0031400 her glasses. " ,
+ " Player  Chapter_3_0030800 A-Anyways, I think he would fit right in. If– I mean, when I bring him in, you’ll see why. Can you trust me? " ,
 
- " Narration  Chapter_3-0031600 	You smile, happy to have them as your friends. " ,
+ " Narration  Chapter_3_0031100 	With some hesitation, they both nod at you. " ,
 
- " Player  Chapter_3-0031900 	Thanks, y’all. " ,
+ " Narration  Chapter_3_0031300 	Atria has a wary smile on their face, while Skye pushes up " ,
 
- " Player  Chapter_3-0032100 *BLACK SCREEN TRANSITION* " ,
+ " Narration  Chapter_3_0031400 her glasses. " ,
 
- " School Hallway Day  Chapter_3-0032200 School Hallway Day " ,
+ " Narration  Chapter_3_0031600 	You smile, happy to have them as your friends. " ,
 
- " Narration  Chapter_3-0032500 Although you said that you would bring Esmeray to them, it’s proving to be harder than you thought. " ,
+ " Player  Chapter_3_0031900 	Thanks, y’all. " ,
 
- " Narration  Chapter_3-0032700 It’s been a couple of days since you told Atria and Skye to trust you. You were at the point of giving up on pursuing Esmeray, and going back to Atria and Skye in defeat. " ,
+ " Player  Chapter_3_0032100 *BLACK SCREEN TRANSITION* " ,
 
- " Narration  Chapter_3-0032900 Before you do so, you decide to trudge up the steps that lead to the rooftop, hoping to just have a quiet lunch. " ,
+ " School Hallway Day  Chapter_3_0032200 School Hallway Day " ,
 
- " Narration  Chapter_3-0033100 As you get closer to the door of the rooftop, you hear the sound of familiar singing. " ,
+ " Narration  Chapter_3_0032500 Although you said that you would bring Esmeray to them, it’s proving to be harder than you thought. " ,
 
- " Narration  Chapter_3-0033300 When you get to the slightly open door (Again?? You think to yourself.), you stop and peek through the crack, only to see Esmeray sitting on a bench as he sways to the melody he is singing. " ,
+ " Narration  Chapter_3_0032700 It’s been a couple of days since you told Atria and Skye to trust you. You were at the point of giving up on pursuing Esmeray, and going back to Atria and Skye in defeat. " ,
 
- " Transition to Rooftop Day  Chapter_3-0033500 Transition to Rooftop Day " ,
+ " Narration  Chapter_3_0032900 Before you do so, you decide to trudge up the steps that lead to the rooftop, hoping to just have a quiet lunch. " ,
 
- " Esmeray Genuine  Chapter_3-0033600 Esmeray Genuine " ,
+ " Narration  Chapter_3_0033100 As you get closer to the door of the rooftop, you hear the sound of familiar singing. " ,
 
- " Esmeray  Chapter_3-0033900 What if I could fly to the blue sugar sky? " ,
+ " Narration  Chapter_3_0033300 When you get to the slightly open door (Again?? You think to yourself.), you stop and peek through the crack, only to see Esmeray sitting on a bench as he sways to the melody he is singing. " ,
 
- " Esmeray  Chapter_3-0034000 Wouldn’t that be sweet " ,
+ " Transition to Rooftop Day  Chapter_3_0033500 Transition to Rooftop Day " ,
 
- " Esmeray  Chapter_3-0034100 … " ,
+ " Esmeray Genuine  Chapter_3_0033600 Esmeray Genuine " ,
 
- " Esmeray  Chapter_3-0034200 Don’t wanna deal with a lie " ,
+ " Esmeray  Chapter_3_0033900 What if I could fly to the blue sugar sky? " ,
 
- " Esmeray  Chapter_3-0034300 Just wanna move to the rhythm of the beat " ,
+ " Esmeray  Chapter_3_0034000 Wouldn’t that be sweet " ,
 
- " Esmeray  Chapter_3-0034500 If only they could see… " ,
+ " Esmeray  Chapter_3_0034100 … " ,
 
- " Esmeray  Chapter_3-0034600 I just wanna go far " ,
+ " Esmeray  Chapter_3_0034200 Don’t wanna deal with a lie " ,
 
- " Esmeray  Chapter_3-0034700 That could be my remedy " ,
+ " Esmeray  Chapter_3_0034300 Just wanna move to the rhythm of the beat " ,
 
- " Esmeray  Chapter_3-0034800 … " ,
+ " Esmeray  Chapter_3_0034500 If only they could see… " ,
 
- " Esmeray  Chapter_3-0034900 But all I got is me and my guitar… " ,
+ " Esmeray  Chapter_3_0034600 I just wanna go far " ,
 
- " Narration  Chapter_3-0035200 	Esmeray continues to sing and hum, while you start to think. " ,
+ " Esmeray  Chapter_3_0034700 That could be my remedy " ,
 
- " Narration  Chapter_3-0035400 How long has it been since you started trying to get him to join the club? " ,
+ " Esmeray  Chapter_3_0034800 … " ,
 
- " Narration  Chapter_3-0035600 	If you go to him now, would it make a difference? " ,
+ " Esmeray  Chapter_3_0034900 But all I got is me and my guitar… " ,
 
- " Player  Chapter_3-0035900 	Should I… have one more go? " ,
+ " Narration  Chapter_3_0035200 	Esmeray continues to sing and hum, while you start to think. " ,
 
- " Proceed to three choices <Invite Esmeray to the club> or <Hesitate> or <Turn around and go back down the stairs>  Chapter_3-0036100 Proceed to three choices: <Invite Esmeray to the club> or <Hesitate> or <Turn around and go back down the stairs> " ,
+ " Narration  Chapter_3_0035400 How long has it been since you started trying to get him to join the club? " ,
 
- " Choice 1 Invite Esmeray to the Club  Chapter_3-0036300 Choice 1: Invite Esmeray to the Club " ,
+ " Narration  Chapter_3_0035600 	If you go to him now, would it make a difference? " ,
 
- " Narration  Chapter_3-0036600 You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. " ,
+ " Player  Chapter_3_0035900 	Should I… have one more go? " ,
 
- " Narration  Chapter_3-0036800 But, you also remember the friends you made along the way, and the benefits of having Esmeray in the club. " ,
+ " Proceed to three choices <Invite Esmeray to the club> or <Hesitate> or <Turn around and go back down the stairs>  Chapter_3_0036100 Proceed to three choices: <Invite Esmeray to the club> or <Hesitate> or <Turn around and go back down the stairs> " ,
 
- " Narration  Chapter_3-0037000 Like last time, you take a deep breath before pushing open the door to the rooftop boldly. " ,
+ " Choice 1 Invite Esmeray to the Club  Chapter_3_0036300 Choice 1: Invite Esmeray to the Club " ,
 
- " Narration  Chapter_3-0037200 *CREAK* Door creak SFX " ,
+ " Narration  Chapter_3_0036600 You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. " ,
 
- " Esmeray Neutral  Chapter_3-0037400 Esmeray Neutral " ,
+ " Narration  Chapter_3_0036800 But, you also remember the friends you made along the way, and the benefits of having Esmeray in the club. " ,
 
- " Narration  Chapter_3-0037600 Esmeray stops singing and turns to the door, only to make eye contact with you. " ,
+ " Narration  Chapter_3_0037000 Like last time, you take a deep breath before pushing open the door to the rooftop boldly. " ,
 
- " Esmeray Unamused  Chapter_3-0037800 Esmeray Unamused " ,
+ " Narration  Chapter_3_0037200 *CREAK* Door creak SFX " ,
 
- " Narration  Chapter_3-0038000 He immediately stops smiling. There\'s a long pause as Esmeray stares at you long and hard. " ,
+ " Esmeray Neutral  Chapter_3_0037400 Esmeray Neutral " ,
 
- " Narration  Chapter_3-0038200 But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him. " ,
+ " Narration  Chapter_3_0037600 Esmeray stops singing and turns to the door, only to make eye contact with you. " ,
 
- " Narration  Chapter_3-0038400 Your eyes widen, but you don’t want to let go of this opportunity, and go and sit next to him. " ,
+ " Esmeray Unamused  Chapter_3_0037800 Esmeray Unamused " ,
 
- " Scene reconverges here  Chapter_3-0038600 Scene reconverges here " ,
+ " Narration  Chapter_3_0038000 He immediately stops smiling. There\'s a long pause as Esmeray stares at you long and hard. " ,
 
- " Choice 2 Hesitate  Chapter_3-0038800 Choice 2: Hesitate " ,
+ " Narration  Chapter_3_0038200 But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him. " ,
 
- " Narration  Chapter_3-0039000 You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. " ,
+ " Narration  Chapter_3_0038400 Your eyes widen, but you don’t want to let go of this opportunity, and go and sit next to him. " ,
 
- " Narration  Chapter_3-0039200 What would be the difference now? " ,
+ " Scene reconverges here  Chapter_3_0038600 Scene reconverges here " ,
 
- " Narration  Chapter_3-0039400 Sure, you pestered him the last couple of days so maybe he’ll consider it. " ,
+ " Choice 2 Hesitate  Chapter_3_0038800 Choice 2: Hesitate " ,
 
- " Narration  Chapter_3-0039600 But what if he doesn’t? " ,
+ " Narration  Chapter_3_0039000 You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. " ,
 
- " Narration  Chapter_3-0039800 While deliberating and waving your arms around, trying to make a plan, your thoughts distract you so much to the point that you accidentally hit the door wide open. " ,
+ " Narration  Chapter_3_0039200 What would be the difference now? " ,
 
- " Narration  Chapter_3-0040000 *CREAK* Door creak SFX " ,
+ " Narration  Chapter_3_0039400 Sure, you pestered him the last couple of days so maybe he’ll consider it. " ,
 
- " Esmeray Neutral  Chapter_3-0040200 Esmeray Neutral " ,
+ " Narration  Chapter_3_0039600 But what if he doesn’t? " ,
 
- " Narration  Chapter_3-0040400 Esmeray stops singing and turns to the door, only to make eye contact with you. " ,
+ " Narration  Chapter_3_0039800 While deliberating and waving your arms around, trying to make a plan, your thoughts distract you so much to the point that you accidentally hit the door wide open. " ,
 
- " Esmeray Unamused  Chapter_3-0040600 Esmeray Unamused " ,
+ " Narration  Chapter_3_0040000 *CREAK* Door creak SFX " ,
 
- " Narration  Chapter_3-0040800 He immediately stops smiling. There\'s a long pause. You can hardly breathe as Esmeray stares at you long and hard. " ,
+ " Esmeray Neutral  Chapter_3_0040200 Esmeray Neutral " ,
 
- " Narration  Chapter_3-0041000 But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him. " ,
+ " Narration  Chapter_3_0040400 Esmeray stops singing and turns to the door, only to make eye contact with you. " ,
 
- " Narration  Chapter_3-0041200 Your eyes widen, but you don’t want to let go of this opportunity, and go and sit next to him. " ,
+ " Esmeray Unamused  Chapter_3_0040600 Esmeray Unamused " ,
 
- " Scene reconverges here  Chapter_3-0041400 Scene reconverges here " ,
+ " Narration  Chapter_3_0040800 He immediately stops smiling. There\'s a long pause. You can hardly breathe as Esmeray stares at you long and hard. " ,
 
- " Choice 3 Turn around and Go Back Down the Stairs  Chapter_3-0041600 Choice 3: Turn around and Go Back Down the Stairs " ,
+ " Narration  Chapter_3_0041000 But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him. " ,
 
- " Narration  Chapter_3-0041900 You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. " ,
+ " Narration  Chapter_3_0041200 Your eyes widen, but you don’t want to let go of this opportunity, and go and sit next to him. " ,
 
- " Narration  Chapter_3-0042100 You remember how tiring it was to have the courage to face Esmeray and invite him over and over, only for him to brush you off. " ,
+ " Scene reconverges here  Chapter_3_0041400 Scene reconverges here " ,
 
- " Narration  Chapter_3-0042300 Maybe this was the time to finally give up. " ,
+ " Choice 3 Turn around and Go Back Down the Stairs  Chapter_3_0041600 Choice 3: Turn around and Go Back Down the Stairs " ,
 
- " Narration  Chapter_3-0042500 Thinking so, you turn around, getting ready to go down the stairs again. " ,
+ " Narration  Chapter_3_0041900 You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. " ,
 
- " Narration  Chapter_3-0042700 ...Unfortunately for you, you turn so quickly that your elbow slams into the door, making it creak loudly as it swings wide open. " ,
+ " Narration  Chapter_3_0042100 You remember how tiring it was to have the courage to face Esmeray and invite him over and over, only for him to brush you off. " ,
 
- " Narration  Chapter_3-0042900 *CREAK* Door creak SFX " ,
+ " Narration  Chapter_3_0042300 Maybe this was the time to finally give up. " ,
 
- " Esmeray Neutral  Chapter_3-0043100 Esmeray Neutral " ,
+ " Narration  Chapter_3_0042500 Thinking so, you turn around, getting ready to go down the stairs again. " ,
 
- " Narration  Chapter_3-0043300 Esmeray stops singing and turns to the door, only to make eye contact with you. " ,
+ " Narration  Chapter_3_0042700 ...Unfortunately for you, you turn so quickly that your elbow slams into the door, making it creak loudly as it swings wide open. " ,
 
- " Esmeray Unamused  Chapter_3-0043500 Esmeray Unamused " ,
+ " Narration  Chapter_3_0042900 *CREAK* Door creak SFX " ,
 
- " Narration  Chapter_3-0043700 He immediately stops smiling. There\'s a long pause. You can hardly breathe as Esmeray stares at you long and hard. " ,
+ " Esmeray Neutral  Chapter_3_0043100 Esmeray Neutral " ,
 
- " Player  Chapter_3-0044000 	Is he gonna push me away again?... " ,
+ " Narration  Chapter_3_0043300 Esmeray stops singing and turns to the door, only to make eye contact with you. " ,
 
- " Narration  Chapter_3-0044300 But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him. " ,
+ " Esmeray Unamused  Chapter_3_0043500 Esmeray Unamused " ,
 
- " Narration  Chapter_3-0044500 Your eyes widen, but you don’t want to let go of this opportunity, and go and sit next to him. " ,
+ " Narration  Chapter_3_0043700 He immediately stops smiling. There\'s a long pause. You can hardly breathe as Esmeray stares at you long and hard. " ,
 
- " Scene reconverges here  Chapter_3-0044600 Scene reconverges here " ,
+ " Player  Chapter_3_0044000 	Is he gonna push me away again?... " ,
 
- " Player  Chapter_3-0044900  …Hi, Esmeray. " ,
+ " Narration  Chapter_3_0044300 But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him. " ,
 
- " Esmeray Neutral  Chapter_3-0045100 Esmeray Neutral " ,
+ " Narration  Chapter_3_0044500 Your eyes widen, but you don’t want to let go of this opportunity, and go and sit next to him. " ,
 
- " Narration  Chapter_3-0045400 Esmeray nods, looking down at the lunch in his lap and shifting the food around with the fork absentmindedly. " ,
+ " Scene reconverges here  Chapter_3_0044600 Scene reconverges here " ,
 
- " Player  Chapter_3-0045700 … " ,
+ " Player  Chapter_3_0044900  …Hi, Esmeray. " ,
 
- " Esmeray  Chapter_3-0046000 … " ,
+ " Esmeray Neutral  Chapter_3_0045100 Esmeray Neutral " ,
 
- " Esmeray  Chapter_3-0046200 Player:  " ,
+ " Narration  Chapter_3_0045400 Esmeray nods, looking down at the lunch in his lap and shifting the food around with the fork absentmindedly. " ,
 
- " Esmeray  Chapter_3-0046300 So– " ,
+ " Player  Chapter_3_0045700 … " ,
 
- " Esmeray  Chapter_3-0046500 Esmeray:  " ,
+ " Esmeray  Chapter_3_0046000 … " ,
 
- " Esmeray  Chapter_3-0046600 Why me? " ,
+ " Esmeray  Chapter_3_0046200 Player:  " ,
 
- " Narration  Chapter_3-0046900 You pause as Esmeray looks at you with a blank face. " ,
+ " Esmeray  Chapter_3_0046300 So– " ,
 
- " Narration  Chapter_3-0047100 Player:  " ,
+ " Esmeray  Chapter_3_0046500 Esmeray:  " ,
 
- " Narration  Chapter_3-0047200 Excuse me? " ,
+ " Esmeray  Chapter_3_0046600 Why me? " ,
 
- " Narration  Chapter_3-0047400 Esmeray:  " ,
+ " Narration  Chapter_3_0046900 You pause as Esmeray looks at you with a blank face. " ,
 
- " Narration  Chapter_3-0047500 Why me? Don’t you have, like, other friends? What about those multicolored-haired weirdos– I mean, friends in your club already? " ,
+ " Narration  Chapter_3_0047100 Player:  " ,
 
- " Narration  Chapter_3-0047800 He pauses. " ,
+ " Narration  Chapter_3_0047200 Excuse me? " ,
 
- " Narration  Chapter_3-0048000 You side-eye Esmeray. " ,
+ " Narration  Chapter_3_0047400 Esmeray:  " ,
 
- " Narration  Chapter_3-0048200 He looks blankly back at you. " ,
+ " Narration  Chapter_3_0047500 Why me? Don’t you have, like, other friends? What about those multicolored-haired weirdos– I mean, friends in your club already? " ,
 
- " Player  Chapter_3-0048500 	I heard that. " ,
+ " Narration  Chapter_3_0047800 He pauses. " ,
 
- " Esmeray  Chapter_3-0048800 	Nah, you didn’t. " ,
+ " Narration  Chapter_3_0048000 You side-eye Esmeray. " ,
 
- " Narration  Chapter_3-0049100 You playfully glare at him before turning to your own lunch and shifting in your seat. " ,
+ " Narration  Chapter_3_0048200 He looks blankly back at you. " ,
 
- " Player  Chapter_3-0049400 I’ll be blunt. I just think you would make a good addition to the club. " ,
+ " Player  Chapter_3_0048500 	I heard that. " ,
 
- " Narration Esmeray Unamused  Chapter_3-0049700 Esmeray raises his eyebrow at you in disbelief, and his eyes look at you as if asking you, "Seriously?" " ,
+ " Esmeray  Chapter_3_0048800 	Nah, you didn’t. " ,
 
- " Player  Chapter_3-0050000 Not only are you very talented in music – which would be helpful to use whenever we do broadcasts – but I think your presence alone would be good publicity for the club. " ,
+ " Narration  Chapter_3_0049100 You playfully glare at him before turning to your own lunch and shifting in your seat. " ,
 
- " Narration  Chapter_3-0050300 	Esmeray scoffs at this, but continues to listen regardless. " ,
+ " Player  Chapter_3_0049400 I’ll be blunt. I just think you would make a good addition to the club. " ,
 
- " Player  Chapter_3-0050600 And also, I would like to be friends with you. You seem interesting, and nicer than you show. Although, you need to fix that playboy personality of yours. " ,
+ " Narration Esmeray Unamused  Chapter_3_0049700 Esmeray raises his eyebrow at you in disbelief, and his eyes look at you as if asking you, "Seriously?" " ,
 
- " Esmeray Amused  Chapter_3-0050900 	Pfft– " ,
+ " Player  Chapter_3_0050000 Not only are you very talented in music – which would be helpful to use whenever we do broadcasts – but I think your presence alone would be good publicity for the club. " ,
 
- " Narration  Chapter_3-0051200 You quickly turn to Esmeray in disbelief, only to find his face contorted into a laughing, genuine smile. " ,
+ " Narration  Chapter_3_0050300 	Esmeray scoffs at this, but continues to listen regardless. " ,
 
- " Esmeray  Chapter_3-0051500 	Playboy? Me? Nah, das crazy, what do you mean? " ,
+ " Player  Chapter_3_0050600 And also, I would like to be friends with you. You seem interesting, and nicer than you show. Although, you need to fix that playboy personality of yours. " ,
 
- " Esmeray  Chapter_3-0051700 Like, I thought that’s how you’re supposed to act when you want to make friends? " ,
+ " Esmeray Amused  Chapter_3_0050900 	Pfft– " ,
 
- " Narration  Chapter_3-0052000 	Now it’s your turn to laugh. " ,
+ " Narration  Chapter_3_0051200 You quickly turn to Esmeray in disbelief, only to find his face contorted into a laughing, genuine smile. " ,
 
- " Player  Chapter_3-0052300 Hah, what? Really? You really thought the best way to socialize with people was to rizz them up? HAHA, that’s HILARIOUS! " ,
+ " Esmeray  Chapter_3_0051500 	Playboy? Me? Nah, das crazy, what do you mean? " ,
 
- " Esmeray Teeth Smile  Chapter_3-0052600 Wh-WHAT?! NO! I was NOT– rizzing ANYONE! You’re just weird to interpret it that way! " ,
+ " Esmeray  Chapter_3_0051700 Like, I thought that’s how you’re supposed to act when you want to make friends? " ,
 
- " Narration  Chapter_3-0052900 	You two continue to laugh and talk more on the rooftop. " ,
+ " Narration  Chapter_3_0052000 	Now it’s your turn to laugh. " ,
 
- " Narration  Chapter_3-0053100 After you finish laughing, you look past the iron fence of the rooftop and at the sky. " ,
+ " Player  Chapter_3_0052300 Hah, what? Really? You really thought the best way to socialize with people was to rizz them up? HAHA, that’s HILARIOUS! " ,
 
- " Esmeray Genuine  Chapter_3-0053300 Esmeray Genuine " ,
+ " Esmeray Teeth Smile  Chapter_3_0052600 Wh-WHAT?! NO! I was NOT– rizzing ANYONE! You’re just weird to interpret it that way! " ,
 
- " Player  Chapter_3-0053600 The sky does look like blue sugar. " ,
+ " Narration  Chapter_3_0052900 	You two continue to laugh and talk more on the rooftop. " ,
 
- " Narration Esmeray Neutral  Chapter_3-0053900 	Esmeray’s eyes widen, and he whips his head towards you. " ,
+ " Narration  Chapter_3_0053100 After you finish laughing, you look past the iron fence of the rooftop and at the sky. " ,
 
- " Esmeray  Chapter_3-0054200 H-Huh? " ,
+ " Esmeray Genuine  Chapter_3_0053300 Esmeray Genuine " ,
 
- " Player  Chapter_3-0054500 I overheard you singing earlier, and also before… " ,
+ " Player  Chapter_3_0053600 The sky does look like blue sugar. " ,
 
- " Player  Chapter_3-0054700 …Wanna talk about it?  " ,
+ " Narration Esmeray Neutral  Chapter_3_0053900 	Esmeray’s eyes widen, and he whips his head towards you. " ,
 
- " Player  Chapter_3-0054900 I-I mean, you don’t have to, of course! " ,
+ " Esmeray  Chapter_3_0054200 H-Huh? " ,
 
- " Player  Chapter_3-0055100 I was just thinking, I mean, we are friends now, so… " ,
+ " Player  Chapter_3_0054500 I overheard you singing earlier, and also before… " ,
 
- " Player  Chapter_3-0055300 B-But of course, you don’t have to, a-and if you want to then feel free to take all the time you need, and stuff… " ,
+ " Player  Chapter_3_0054700 …Wanna talk about it?  " ,
 
- " Player  Chapter_3-0055500 Esmeray:  " ,
+ " Player  Chapter_3_0054900 I-I mean, you don’t have to, of course! " ,
 
- " Player  Chapter_3-0055600 	… " ,
+ " Player  Chapter_3_0055100 I was just thinking, I mean, we are friends now, so… " ,
 
- " Player  Chapter_3-0055800 	… " ,
+ " Player  Chapter_3_0055300 B-But of course, you don’t have to, a-and if you want to then feel free to take all the time you need, and stuff… " ,
 
- " Player  Chapter_3-0056000 F…friends? " ,
+ " Player  Chapter_3_0055500 Esmeray:  " ,
 
- " Player  Chapter_3-0056200 … " ,
+ " Player  Chapter_3_0055600 	… " ,
 
- " Player  Chapter_3-0056400 Okay, I do want to say this to someone, at least… " ,
+ " Player  Chapter_3_0055800 	… " ,
 
- " Narration  Chapter_3-0056700 You patiently wait for him to keep talking. " ,
+ " Player  Chapter_3_0056000 F…friends? " ,
 
- " Narration  Chapter_3-0056900 After a couple moments of silence, Esmeray clears his throat. " ,
+ " Player  Chapter_3_0056200 … " ,
 
- " Esmeray  Chapter_3-0057200 Ahem… When…… when I was in elementary school, I had a lot of people who thought I was like an alien because I was shorter than the average height and had weird looking ears. " ,
+ " Player  Chapter_3_0056400 Okay, I do want to say this to someone, at least… " ,
 
- " Esmeray  Chapter_3-0057400 	And s-so, in middle school, I decided to change things up a bit. " ,
+ " Narration  Chapter_3_0056700 You patiently wait for him to keep talking. " ,
 
- " Esmeray  Chapter_3-0057600 Grew my hair out, changed my style, learned how to accessorize. " ,
+ " Narration  Chapter_3_0056900 After a couple moments of silence, Esmeray clears his throat. " ,
 
- " Esmeray  Chapter_3-0057800 I learned about social cues, read some comics, watched some movies where the main character undergoes a transformation and suddenly they know how to talk to people, and how to get them to like them. " ,
+ " Esmeray  Chapter_3_0057200 Ahem… When…… when I was in elementary school, I had a lot of people who thought I was like an alien because I was shorter than the average height and had weird looking ears. " ,
 
- " Esmeray  Chapter_3-0058000 	So, I tried some of the lines from the movies and comics out. " ,
+ " Esmeray  Chapter_3_0057400 	And s-so, in middle school, I decided to change things up a bit. " ,
 
- " Esmeray  Chapter_3-0058200 	A-And it worked! People… They started to like me. " ,
+ " Esmeray  Chapter_3_0057600 Grew my hair out, changed my style, learned how to accessorize. " ,
 
- " Esmeray  Chapter_3-0058400 My growth spurt helped me out too – I stood out from the crowd, in a good way. " ,
+ " Esmeray  Chapter_3_0057800 I learned about social cues, read some comics, watched some movies where the main character undergoes a transformation and suddenly they know how to talk to people, and how to get them to like them. " ,
 
- " Esmeray  Chapter_3-0058600 All of a sudden, people stopped calling me names like alien boy, weirdo, and bozo, and they called me things like a prince, a cool guy. " ,
+ " Esmeray  Chapter_3_0058000 	So, I tried some of the lines from the movies and comics out. " ,
 
- " Esmeray  Chapter_3-0058800 	… " ,
+ " Esmeray  Chapter_3_0058200 	A-And it worked! People… They started to like me. " ,
 
- " Esmeray  Chapter_3-0059000 	And I liked it, my changes. " ,
+ " Esmeray  Chapter_3_0058400 My growth spurt helped me out too – I stood out from the crowd, in a good way. " ,
 
- " Esmeray  Chapter_3-0059200 	And I thought it would stay that way, but… " ,
+ " Esmeray  Chapter_3_0058600 All of a sudden, people stopped calling me names like alien boy, weirdo, and bozo, and they called me things like a prince, a cool guy. " ,
 
- " Player  Chapter_3-0059500 	… " ,
+ " Esmeray  Chapter_3_0058800 	… " ,
 
- " Esmeray  Chapter_3-0059800 	So, I started going out with some people. " ,
+ " Esmeray  Chapter_3_0059000 	And I liked it, my changes. " ,
 
- " Esmeray  Chapter_3-0060000 At first, it was crazy to me: people actually liked me, I was actually someone attractive to them. My ways of communication were working, and stuff.  " ,
+ " Esmeray  Chapter_3_0059200 	And I thought it would stay that way, but… " ,
 
- " Esmeray  Chapter_3-0060200 	Like, whoa, intimate connection? Me? " ,
+ " Player  Chapter_3_0059500 	… " ,
 
- " Esmeray  Chapter_3-0060400 And it was okay, but like, some people ended up ending our relationship because I wasn’t who they thought I was. " ,
+ " Esmeray  Chapter_3_0059800 	So, I started going out with some people. " ,
 
- " Esmeray  Chapter_3-0060600 	I mean, who wanted a dinosaur-loving, closeted " ,
+ " Esmeray  Chapter_3_0060000 At first, it was crazy to me: people actually liked me, I was actually someone attractive to them. My ways of communication were working, and stuff.  " ,
 
- " Esmeray  Chapter_3-0060700 emo-musician guy? " ,
+ " Esmeray  Chapter_3_0060200 	Like, whoa, intimate connection? Me? " ,
 
- " Esmeray  Chapter_3-0060900 	But others gave me hope! " ,
+ " Esmeray  Chapter_3_0060400 And it was okay, but like, some people ended up ending our relationship because I wasn’t who they thought I was. " ,
 
- " Esmeray  Chapter_3-0061100 There was a guy I went out with, and he really appreciated me. I felt seen, and loved, genuinely. For the first time in a while. " ,
+ " Esmeray  Chapter_3_0060600 	I mean, who wanted a dinosaur-loving, closeted " ,
 
- " Esmeray  Chapter_3-0061300 We ended up breaking it off because he said his parents were strict. " ,
+ " Esmeray  Chapter_3_0060700 emo-musician guy? " ,
 
- " Esmeray  Chapter_3-0061500 	Or at least, that’s what he said to my face. " ,
+ " Esmeray  Chapter_3_0060900 	But others gave me hope! " ,
 
- " Esmeray  Chapter_3-0061700 	… " ,
+ " Esmeray  Chapter_3_0061100 There was a guy I went out with, and he really appreciated me. I felt seen, and loved, genuinely. For the first time in a while. " ,
 
- " Player  Chapter_3-0062000 	… " ,
+ " Esmeray  Chapter_3_0061300 We ended up breaking it off because he said his parents were strict. " ,
 
- " Esmeray Angry  Chapter_3-0062300 …Turns out he was making fun of me to his friends the entire time we were dating. I found out because this girl I knew showed me a video of him talking to her and their other friends. " ,
+ " Esmeray  Chapter_3_0061500 	Or at least, that’s what he said to my face. " ,
 
- " Esmeray Angry  Chapter_3-0062500 I was heartbroken, angry… I mean, how could he blatantly lie to me like that and still be okay? Why… Why was I left with all the negatives? " ,
+ " Esmeray  Chapter_3_0061700 	… " ,
 
- " Narration  Chapter_3-0062800 You begin to pat Esmeray on the back, seeing him so sad and agitated. He calms down, thanking you quietly. " ,
+ " Player  Chapter_3_0062000 	… " ,
 
- " Esmeray Neutral  Chapter_3-0063100 *inhale* Anyways, that girl and I ended up getting close because she told me about how she left the friend group and she was there for me. " ,
+ " Esmeray Angry  Chapter_3_0062300 …Turns out he was making fun of me to his friends the entire time we were dating. I found out because this girl I knew showed me a video of him talking to her and their other friends. " ,
 
- " Esmeray Neutral  Chapter_3-0063300 I healed, and then I thought that maybe she was the one, ya know? " ,
+ " Esmeray Angry  Chapter_3_0062500 I was heartbroken, angry… I mean, how could he blatantly lie to me like that and still be okay? Why… Why was I left with all the negatives? " ,
 
- " Esmeray Angry  Chapter_3-0063600 	But then, it went to shit. " ,
+ " Narration  Chapter_3_0062800 You begin to pat Esmeray on the back, seeing him so sad and agitated. He calms down, thanking you quietly. " ,
 
- " Esmeray Angry  Chapter_3-0063800 This girl, she was really toxic. As in she didn’t let me see other people, but she could see a lot of others? " ,
+ " Esmeray Neutral  Chapter_3_0063100 *inhale* Anyways, that girl and I ended up getting close because she told me about how she left the friend group and she was there for me. " ,
 
- " Esmeray Angry  Chapter_3-0064000 And she gaslit me often, made me emotionally dependent on her, and my mental health tanked. " ,
+ " Esmeray Neutral  Chapter_3_0063300 I healed, and then I thought that maybe she was the one, ya know? " ,
 
- " Esmeray Angry  Chapter_3-0064200 I felt choked, and scared, and honestly, I was really disappointed: in her, myself, and just the humans around me for being so… inhumane. " ,
+ " Esmeray Angry  Chapter_3_0063600 	But then, it went to shit. " ,
 
- " Esmeray Unamused  Chapter_3-0064500 I just… wanted to breathe again. So, I left her, left the school I was at, and transferred here. Blocked everyone I knew, and I hoped that I could start anew. " ,
+ " Esmeray Angry  Chapter_3_0063800 This girl, she was really toxic. As in she didn’t let me see other people, but she could see a lot of others? " ,
 
- " Esmeray Neutral 1  Chapter_3-0064800 And I think I did, at least. No one seems to hate me here – just a lot of admiration. …But you never know. " ,
+ " Esmeray Angry  Chapter_3_0064000 And she gaslit me often, made me emotionally dependent on her, and my mental health tanked. " ,
 
- " Esmeray Neutral 1  Chapter_3-0065000 So I wanted to hide everything: never get close to anyone here, never tell anyone my story… but you… " ,
+ " Esmeray Angry  Chapter_3_0064200 I felt choked, and scared, and honestly, I was really disappointed: in her, myself, and just the humans around me for being so… inhumane. " ,
 
- " Esmeray Genuine  Chapter_3-0065300 	You… actually seem to care for me… " ,
+ " Esmeray Unamused  Chapter_3_0064500 I just… wanted to breathe again. So, I left her, left the school I was at, and transferred here. Blocked everyone I knew, and I hoped that I could start anew. " ,
 
- " Esmeray Genuine  Chapter_3-0065500 	…Thanks, for listening… " ,
+ " Esmeray Neutral 1  Chapter_3_0064800 And I think I did, at least. No one seems to hate me here – just a lot of admiration. …But you never know. " ,
 
- " Narration  Chapter_3-0065800 Looks like you were right: Esmeray didn’t really have genuine friends of his own, so you decided it was time to change that. " ,
+ " Esmeray Neutral 1  Chapter_3_0065000 So I wanted to hide everything: never get close to anyone here, never tell anyone my story… but you… " ,
 
- " Narration  Chapter_3-0066000 	You make direct eye contact with Esmeray. " ,
+ " Esmeray Genuine  Chapter_3_0065300 	You… actually seem to care for me… " ,
 
- " Esmeray Unamused  Chapter_3-0066300 W-What? Are you gonna accuse me of being too edgy now, or something? " ,
+ " Esmeray Genuine  Chapter_3_0065500 	…Thanks, for listening… " ,
 
- " Player  Chapter_3-0066600 	Nah. I just wanted to invite you again to the Radio Club. " ,
+ " Narration  Chapter_3_0065800 Looks like you were right: Esmeray didn’t really have genuine friends of his own, so you decided it was time to change that. " ,
 
- " Player  Chapter_3-0066800 I promise we’re all nice people, and I guarantee that we’re not like those people from your past.  " ,
+ " Narration  Chapter_3_0066000 	You make direct eye contact with Esmeray. " ,
 
- " Player  Chapter_3-0067000 You can leave if you don’t feel like staying with us, no strings attached. I think it would be amazing if you join us.  " ,
+ " Esmeray Unamused  Chapter_3_0066300 W-What? Are you gonna accuse me of being too edgy now, or something? " ,
 
- " Player  Chapter_3-0067200 Wanna give it a try? " ,
+ " Player  Chapter_3_0066600 	Nah. I just wanted to invite you again to the Radio Club. " ,
 
- " Narration  Chapter_3-0067500 You hold out your hand, ready to receive a handshake in agreement from Esmeray. " ,
+ " Player  Chapter_3_0066800 I promise we’re all nice people, and I guarantee that we’re not like those people from your past.  " ,
 
- " Narration  Chapter_3-0067700 Esmeray stares at your hand, before his own twitches and lifts up to shake it. " ,
+ " Player  Chapter_3_0067000 You can leave if you don’t feel like staying with us, no strings attached. I think it would be amazing if you join us.  " ,
 
- " Narration  Chapter_3-0067900 Your face breaks out into a large smile. The mood immediately becomes more lighthearted. " ,
+ " Player  Chapter_3_0067200 Wanna give it a try? " ,
 
- " Player  Chapter_3-0068200 	Great! Welcome aboard, Esme! " ,
+ " Narration  Chapter_3_0067500 You hold out your hand, ready to receive a handshake in agreement from Esmeray. " ,
 
- " Esmeray Smile  Chapter_3-0068500 	…W-wait, Esme? I did NOT agree to this, what the f– " ,
+ " Narration  Chapter_3_0067700 Esmeray stares at your hand, before his own twitches and lifts up to shake it. " ,
 
- " Narration Esmeray Teeth Smile  Chapter_3-0068800 While laughing at him, you give him a set day and time for him to come to the Radio Club, as he continues to protest against your silly, stupid nickname. " ,
+ " Narration  Chapter_3_0067900 Your face breaks out into a large smile. The mood immediately becomes more lighthearted. " ,
 
- " Proceed to next scene  Chapter_3-0069000 Proceed to next scene " ,
+ " Player  Chapter_3_0068200 	Great! Welcome aboard, Esme! " ,
 
- " Music Room Basic + Printer + Mic + Laptop  Chapter_3-0069200 Music Room Basic + Printer + Mic + Laptop " ,
+ " Esmeray Smile  Chapter_3_0068500 	…W-wait, Esme? I did NOT agree to this, what the f– " ,
 
- " Kyo_FP_Bruh, Atria2_Nervous, and Skye_Default  Chapter_3-0069300 Kyo_FP_Bruh, Atria2_Nervous, and Skye_Default " ,
+ " Narration Esmeray Teeth Smile  Chapter_3_0068800 While laughing at him, you give him a set day and time for him to come to the Radio Club, as he continues to protest against your silly, stupid nickname. " ,
 
- " Narration  Chapter_3-0069600 Today’s finally the day. " ,
+ " Proceed to next scene  Chapter_3_0069000 Proceed to next scene " ,
 
- " Narration  Chapter_3-0069800 You take a deep breath, anxiously looking at the door, trying to spot the familiar shade of dark turquoise hair. " ,
+ " Music Room Basic + Printer + Mic + Laptop  Chapter_3_0069200 Music Room Basic + Printer + Mic + Laptop " ,
 
- " Narration  Chapter_3-0070000 Atria and Skye are just as nervous: Atria is fiddling with their star clips while Skye pushes up her glasses, the light reflecting off of them and covering her eyes. " ,
+ " Kyo_FP_Bruh, Atria2_Nervous, and Skye_Default  Chapter_3_0069300 Kyo_FP_Bruh, Atria2_Nervous, and Skye_Default " ,
 
- " Narration  Chapter_3-0070200 In the corner stands Kyo, looking at the clock’s second hand as it moves in its consistent rhythm. " ,
+ " Narration  Chapter_3_0069600 Today’s finally the day. " ,
 
- " Narration  Chapter_3-0070400 *tick tick tick tick…* " ,
+ " Narration  Chapter_3_0069800 You take a deep breath, anxiously looking at the door, trying to spot the familiar shade of dark turquoise hair. " ,
 
- " Narration  Chapter_3-0070600 Kyo sighs. " ,
+ " Narration  Chapter_3_0070000 Atria and Skye are just as nervous: Atria is fiddling with their star clips while Skye pushes up her glasses, the light reflecting off of them and covering her eyes. " ,
 
- " Kyo  Chapter_3-0070900 	When’s this guy gonna be here? " ,
+ " Narration  Chapter_3_0070200 In the corner stands Kyo, looking at the clock’s second hand as it moves in its consistent rhythm. " ,
 
- " Player  Chapter_3-0071200 	He’ll be here soon, y’all. Don’t worry. " ,
+ " Narration  Chapter_3_0070400 *tick tick tick tick…* " ,
 
- " Narration  Chapter_3-0071500 Atria and Skye turn to look at you with relieved faces, the tense silence of the room finally broken. " ,
+ " Narration  Chapter_3_0070600 Kyo sighs. " ,
 
- " Skye  Chapter_3-0071800 	W-We’re not worried! Y-you are! " ,
+ " Kyo  Chapter_3_0070900 	When’s this guy gonna be here? " ,
 
- " Narration  Chapter_3-0072100 	You laugh at Skye’s poor excuse. " ,
+ " Player  Chapter_3_0071200 	He’ll be here soon, y’all. Don’t worry. " ,
 
- " Player  Chapter_3-0072400 	Haha, yeah, I am. " ,
+ " Narration  Chapter_3_0071500 Atria and Skye turn to look at you with relieved faces, the tense silence of the room finally broken. " ,
 
- " Narration  Chapter_3-0072700 Before you can elaborate, you hear footsteps approaching the door. " ,
+ " Skye  Chapter_3_0071800 	W-We’re not worried! Y-you are! " ,
 
- " Narration  Chapter_3-0072900 	All heads in the room turn to the door. " ,
+ " Narration  Chapter_3_0072100 	You laugh at Skye’s poor excuse. " ,
 
- " Narration  Chapter_3-0073100 	There it is: that dark turquoise hair. " ,
+ " Player  Chapter_3_0072400 	Haha, yeah, I am. " ,
 
- " Remove all sprites  Chapter_3-0073300 Remove all sprites " ,
+ " Narration  Chapter_3_0072700 Before you can elaborate, you hear footsteps approaching the door. " ,
 
- " Esmeray Neutral (Centered)  Chapter_3-0073400 Esmeray Neutral (Centered) " ,
+ " Narration  Chapter_3_0072900 	All heads in the room turn to the door. " ,
 
- " Narration  Chapter_3-0073600 In walks Esmeray, his face blank, scanning the room before his eyes land on you. " ,
+ " Narration  Chapter_3_0073100 	There it is: that dark turquoise hair. " ,
 
- " Narration  Chapter_3-0073800 Immediately, you stand up and go to his side, before making jazz hands in his direction while facing the rest of your group. " ,
+ " Remove all sprites  Chapter_3_0073300 Remove all sprites " ,
 
- " Proceed to two choices <Introduce Esmeray> or <Wait for Esmeray to introduce themselves>  Chapter_3-0074000 Proceed to two choices: <Introduce Esmeray> or <Wait for Esmeray to introduce themselves> " ,
+ " Esmeray Neutral (Centered)  Chapter_3_0073400 Esmeray Neutral (Centered) " ,
 
- " Choice 1 Introduce Esmeray  Chapter_3-0074200 Choice 1: Introduce Esmeray " ,
+ " Narration  Chapter_3_0073600 In walks Esmeray, his face blank, scanning the room before his eyes land on you. " ,
 
- " Scene reconverges here  Chapter_3-0074400 Scene reconverges here " ,
+ " Narration  Chapter_3_0073800 Immediately, you stand up and go to his side, before making jazz hands in his direction while facing the rest of your group. " ,
 
- " Choice 2 Wait for Esmeray to introduce themselves  Chapter_3-0074600 Choice 2: Wait for Esmeray to introduce themselves " ,
+ " Proceed to two choices <Introduce Esmeray> or <Wait for Esmeray to introduce themselves>  Chapter_3_0074000 Proceed to two choices: <Introduce Esmeray> or <Wait for Esmeray to introduce themselves> " ,
 
- " Narration  Chapter_3-0074900 You want to let Esmeray introduce himself, and do jazz hands to start it off. " ,
+ " Choice 1 Introduce Esmeray  Chapter_3_0074200 Choice 1: Introduce Esmeray " ,
 
- " Narration  Chapter_3-0075100 Really, you’re just doing jazz hands in awkward silence… " ,
+ " Scene reconverges here  Chapter_3_0074400 Scene reconverges here " ,
 
- " Narration  Chapter_3-0075300 … " ,
+ " Choice 2 Wait for Esmeray to introduce themselves  Chapter_3_0074600 Choice 2: Wait for Esmeray to introduce themselves " ,
 
- " Narration  Chapter_3-0075500 ...What are you doing right now? Lol. " ,
+ " Narration  Chapter_3_0074900 You want to let Esmeray introduce himself, and do jazz hands to start it off. " ,
 
- " Narration  Chapter_3-0075700 You cough awkwardly at the silence before slowly putting your hands down. " ,
+ " Narration  Chapter_3_0075100 Really, you’re just doing jazz hands in awkward silence… " ,
 
- " Narration  Chapter_3-0075900 You clear your throat again, desperate to get out of this situation. " ,
+ " Narration  Chapter_3_0075300 … " ,
 
- " Scene reconverges here  Chapter_3-0076000 Scene reconverges here " ,
+ " Narration  Chapter_3_0075500 ...What are you doing right now? Lol. " ,
 
- " Player  Chapter_3-0076300 Here he is! Y’all, I want you to meet Esme– I mean Esmeray, our school’s lovely playboy and the composer of our music for the Radio Club! Esmeray, meet the club! " ,
+ " Narration  Chapter_3_0075700 You cough awkwardly at the silence before slowly putting your hands down. " ,
 
- " Move Esmeray to right  Chapter_3-0076500 Move Esmeray to right " ,
+ " Narration  Chapter_3_0075900 You clear your throat again, desperate to get out of this situation. " ,
 
- " Atria1_Happy and Skye_Smile on left  Chapter_3-0076600 Atria1_Happy and Skye_Smile on left " ,
+ " Scene reconverges here  Chapter_3_0076000 Scene reconverges here " ,
 
- " Narration  Chapter_3-0076900 Atria waves shyly, while Skye pushes up her glasses further and gives a cool nod directed to Esmeray. " ,
+ " Player  Chapter_3_0076300 Here he is! Y’all, I want you to meet Esme– I mean Esmeray, our school’s lovely playboy and the composer of our music for the Radio Club! Esmeray, meet the club! " ,
 
- " Remove Atria and Skye  Chapter_3-0077100 Remove Atria and Skye " ,
+ " Move Esmeray to right  Chapter_3_0076500 Move Esmeray to right " ,
 
- " Kyo_FP_Neutral on right  Chapter_3-0077200 Kyo_FP_Neutral on right " ,
+ " Atria1_Happy and Skye_Smile on left  Chapter_3_0076600 Atria1_Happy and Skye_Smile on left " ,
 
- " Narration  Chapter_3-0077500 Kyo scans Esmeray up and down before looking at the chalkboard in the classroom, eyeing the UFO and smiling fondly. " ,
+ " Narration  Chapter_3_0076900 Atria waves shyly, while Skye pushes up her glasses further and gives a cool nod directed to Esmeray. " ,
 
- " Remove Kyo  Chapter_3-0077700 Remove Kyo " ,
+ " Remove Atria and Skye  Chapter_3_0077100 Remove Atria and Skye " ,
 
- " Esmeray Genuine  Chapter_3-0077800 Esmeray Genuine " ,
+ " Kyo_FP_Neutral on right  Chapter_3_0077200 Kyo_FP_Neutral on right " ,
 
- " Narration  Chapter_3-0078100 	Esmeray raises his hand in greeting. " ,
+ " Narration  Chapter_3_0077500 Kyo scans Esmeray up and down before looking at the chalkboard in the classroom, eyeing the UFO and smiling fondly. " ,
 
- " Esmeray  Chapter_3-0078400 	Yo. Esmeray, he/they. " ,
+ " Remove Kyo  Chapter_3_0077700 Remove Kyo " ,
 
- " Narration  Chapter_3-0078700 	The room goes quiet again. " ,
+ " Esmeray Genuine  Chapter_3_0077800 Esmeray Genuine " ,
 
- " Narration  Chapter_3-0078900 You\'re really sick of trying to be an extrovert in these awkward situations. " ,
+ " Narration  Chapter_3_0078100 	Esmeray raises his hand in greeting. " ,
 
- " Narration  Chapter_3-0079100 Before you can say another word, however, Atria suddenly stands up. " ,
+ " Esmeray  Chapter_3_0078400 	Yo. Esmeray, he/they. " ,
 
- " Move Esmeray to right  Chapter_3-0079300 Move Esmeray to right " ,
+ " Narration  Chapter_3_0078700 	The room goes quiet again. " ,
 
- " Atria2_Happy and Skye_Smile2 on left  Chapter_3-0079400 Atria2_Happy and Skye_Smile2 on left " ,
+ " Narration  Chapter_3_0078900 You\'re really sick of trying to be an extrovert in these awkward situations. " ,
 
- " Atria  Chapter_3-0079700 	*Ahem* " ,
+ " Narration  Chapter_3_0079100 Before you can say another word, however, Atria suddenly stands up. " ,
 
- " Atria  Chapter_3-0079900 	W-WELCOME, ESMERAY, TO THE RADIO CLUB! I-I’M ATRIA, THEY/SHE. " ,
+ " Move Esmeray to right  Chapter_3_0079300 Move Esmeray to right " ,
 
- " Skye  Chapter_3-0080200 I-I’M SKYE, SHE/THEY, AND THESE ARE MY OTHER FRIENDS AND MEMBERS OF THE CLUB. T-TREAT THEM WELL, D-DUDE! " ,
+ " Atria2_Happy and Skye_Smile2 on left  Chapter_3_0079400 Atria2_Happy and Skye_Smile2 on left " ,
 
- " Narration  Chapter_3-0080500 	Skye gestures to the air next to her. " ,
+ " Atria  Chapter_3_0079700 	*Ahem* " ,
 
- " Narration  Chapter_3-0080700 Esmeray looks at the air, then at you, with a confused expression. " ,
+ " Atria  Chapter_3_0079900 	W-WELCOME, ESMERAY, TO THE RADIO CLUB! I-I’M ATRIA, THEY/SHE. " ,
 
- " Narration  Chapter_3-0080900 	He looks back at the air, and slowly nods in greeting. " ,
+ " Skye  Chapter_3_0080200 I-I’M SKYE, SHE/THEY, AND THESE ARE MY OTHER FRIENDS AND MEMBERS OF THE CLUB. T-TREAT THEM WELL, D-DUDE! " ,
 
- " Narration  Chapter_3-0081100 	Skye’s face brightens up. " ,
+ " Narration  Chapter_3_0080500 	Skye gestures to the air next to her. " ,
 
- " Atria  Chapter_3-0081400 N-Now that we’re all introduced, we will now start the induction ceremony. Player said that you would be a great ally to our cause to save humanity as we know it. " ,
+ " Narration  Chapter_3_0080700 Esmeray looks at the air, then at you, with a confused expression. " ,
 
- " Remove Atria and Skye  Chapter_3-0081600 Remove Atria and Skye " ,
+ " Narration  Chapter_3_0080900 	He looks back at the air, and slowly nods in greeting. " ,
 
- " Kyo_FP_Cheerful  Chapter_3-0081700 Kyo_FP_Cheerful " ,
+ " Narration  Chapter_3_0081100 	Skye’s face brightens up. " ,
 
- " Kyo  Chapter_3-0082000 Lmao, you said that, Player? You\'re a weirdo too, hahaha. " ,
+ " Atria  Chapter_3_0081400 N-Now that we’re all introduced, we will now start the induction ceremony. Player said that you would be a great ally to our cause to save humanity as we know it. " ,
 
- " Player  Chapter_3-0082300 What? I-I didn’t say that, I think?? I– " ,
+ " Remove Atria and Skye  Chapter_3_0081600 Remove Atria and Skye " ,
 
- " Remove Kyo  Chapter_3-0082500 Remove Kyo " ,
+ " Kyo_FP_Cheerful  Chapter_3_0081700 Kyo_FP_Cheerful " ,
 
- " Atria2_Happy and Skye_Smile2 on left  Chapter_3-0082600 Atria2_Happy and Skye_Smile2 on left " ,
+ " Kyo  Chapter_3_0082000 Lmao, you said that, Player? You\'re a weirdo too, hahaha. " ,
 
- " Narration  Chapter_3-0082900 You’re cut off by Atria, who is too busy immersing in their role right now. " ,
+ " Player  Chapter_3_0082300 What? I-I didn’t say that, I think?? I– " ,
 
- " Narration  Chapter_3-0083100 Atria:  " ,
+ " Remove Kyo  Chapter_3_0082500 Remove Kyo " ,
 
- " Narration  Chapter_3-0083200 Therefore, we have to ask you… " ,
+ " Atria2_Happy and Skye_Smile2 on left  Chapter_3_0082600 Atria2_Happy and Skye_Smile2 on left " ,
 
- " Skye  Chapter_3-0083500 Esmeray, do you solemnly swear to  promise to uphold the values of honor, truth, and transparency between fellow members? To join the club and fight the dark souls of corruption of the students through the power of voice and music? To not rest, until humanity is purified of evil, deceit, and misinformation? " ,
+ " Narration  Chapter_3_0082900 You’re cut off by Atria, who is too busy immersing in their role right now. " ,
 
- " Narration  Chapter_3-0083800 	The room becomes silent again after the two of them speak up. " ,
+ " Narration  Chapter_3_0083100 Atria:  " ,
 
- " Narration  Chapter_3-0084000 You sweatdrop, looking at Esmeray cautiously while trying not to burst out laughing. " ,
+ " Narration  Chapter_3_0083200 Therefore, we have to ask you… " ,
 
- " Remove Atria and Skye  Chapter_3-0084200 Remove Atria and Skye " ,
+ " Skye  Chapter_3_0083500 Esmeray, do you solemnly swear to  promise to uphold the values of honor, truth, and transparency between fellow members? To join the club and fight the dark souls of corruption of the students through the power of voice and music? To not rest, until humanity is purified of evil, deceit, and misinformation? " ,
 
- " Esmeray Neutral (centered)  Chapter_3-0084300 Esmeray Neutral (centered) " ,
+ " Narration  Chapter_3_0083800 	The room becomes silent again after the two of them speak up. " ,
 
- " Narration  Chapter_3-0084600 	Esmeray’s face is blank, eyeing the two in front of him. " ,
+ " Narration  Chapter_3_0084000 You sweatdrop, looking at Esmeray cautiously while trying not to burst out laughing. " ,
 
- " Narration  Chapter_3-0084800 Suddenly, he lets out a low chuckle, which gradually becomes louder until he’s almost cackling. " ,
+ " Remove Atria and Skye  Chapter_3_0084200 Remove Atria and Skye " ,
 
- " Esmeray Amused  Chapter_3-0085100 	…Pft. " ,
+ " Esmeray Neutral (centered)  Chapter_3_0084300 Esmeray Neutral (centered) " ,
 
- " Esmeray Amused  Chapter_3-0085300 	…PuhahaA… PftahaHAHA! " ,
+ " Narration  Chapter_3_0084600 	Esmeray’s face is blank, eyeing the two in front of him. " ,
 
- " Esmeray Teeth Smile  Chapter_3-0085600 	AHAhaAHahaha! " ,
+ " Narration  Chapter_3_0084800 Suddenly, he lets out a low chuckle, which gradually becomes louder until he’s almost cackling. " ,
 
- " Esmeray Teeth Smile  Chapter_3-0085800 	…Pft. " ,
+ " Esmeray Amused  Chapter_3_0085100 	…Pft. " ,
 
- " Esmeray Smile 1  Chapter_3-0086100 	… " ,
+ " Esmeray Amused  Chapter_3_0085300 	…PuhahaA… PftahaHAHA! " ,
 
- " Esmeray Smile 1  Chapter_3-0086300 S-Sure, I’ll join the club and fight the dark souls of corruption of the students through the power of the club or whatever. This’ll be fun. " ,
+ " Esmeray Teeth Smile  Chapter_3_0085600 	AHAhaAHahaha! " ,
 
- " Esmeray Teeth Smile  Chapter_3-0086500 Esmeray Teeth Smile " ,
+ " Esmeray Teeth Smile  Chapter_3_0085800 	…Pft. " ,
 
- " Narration  Chapter_3-0086800 On Esmeray’s face is a wide, genuine smile as he continues to laugh. " ,
+ " Esmeray Smile 1  Chapter_3_0086100 	… " ,
 
- " Narration  Chapter_3-0087000 Atria and Skye are in shock, while Kyo starts to laugh along with Esmeray. " ,
+ " Esmeray Smile 1  Chapter_3_0086300 S-Sure, I’ll join the club and fight the dark souls of corruption of the students through the power of the club or whatever. This’ll be fun. " ,
 
- " Move Esmeray to right  Chapter_3-0087200 Move Esmeray to right " ,
+ " Esmeray Teeth Smile  Chapter_3_0086500 Esmeray Teeth Smile " ,
 
- " Skye_Smile2 and Atria2_Smile on left  Chapter_3-0087300 Skye_Smile2 and Atria2_Smile on left " ,
+ " Narration  Chapter_3_0086800 On Esmeray’s face is a wide, genuine smile as he continues to laugh. " ,
 
- " Skye  Chapter_3-0087600 H-Hey! It’s true, the dark souls exist and need to be taken down! " ,
+ " Narration  Chapter_3_0087000 Atria and Skye are in shock, while Kyo starts to laugh along with Esmeray. " ,
 
- " Narration  Chapter_3-0087900 	As she talks, Skye motions a punch into her palm. " ,
+ " Move Esmeray to right  Chapter_3_0087200 Move Esmeray to right " ,
 
- " Atria  Chapter_3-0088200 Y-Yeah! Don’t underestimate our drive to help the poor students of ILUNA Academy! " ,
+ " Skye_Smile2 and Atria2_Smile on left  Chapter_3_0087300 Skye_Smile2 and Atria2_Smile on left " ,
 
- " Narration  Chapter_3-0088500 	Esmeray just nods, as if he is in total agreement. " ,
+ " Skye  Chapter_3_0087600 H-Hey! It’s true, the dark souls exist and need to be taken down! " ,
 
- " Narration  Chapter_3-0088700 Atria and Skye continue to talk loudly, and eventually the three of them start to converse about their interests and such. " ,
+ " Narration  Chapter_3_0087900 	As she talks, Skye motions a punch into her palm. " ,
 
- " Narration  Chapter_3-0088900 You watch the scene fondly. Finally, the club is complete! " ,
+ " Atria  Chapter_3_0088200 Y-Yeah! Don’t underestimate our drive to help the poor students of ILUNA Academy! " ,
+
+ " Narration  Chapter_3_0088500 	Esmeray just nods, as if he is in total agreement. " ,
+
+ " Narration  Chapter_3_0088700 Atria and Skye continue to talk loudly, and eventually the three of them start to converse about their interests and such. " ,
+
+ " Narration  Chapter_3_0088900 You watch the scene fondly. Finally, the club is complete! " ,
 
 		// end-of-CHAPTER-3-mark
         'jump CHAPTER_E'
@@ -2525,303 +2550,309 @@ monogatari.script({
     'CHAPTER_E': [
 		'chap E',
 		// start-of-CHAPTER-E-mark
- " Outro BGM  Chapter_E-0000400 Outro BGM " ,
+ " _Name _DialogCode _Tex " ,
 
- " Narration  Chapter_E-0000700 After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It\'s the first official radio club meeting today, and you’re excited!  " ,
+ "  Chapter_E_0000100 Epilogue: Waning Iridescent  " ,
 
- " Narration  Chapter_E-0000900 You look at the notes you wrote on your phone to remember what you’re discussing with all the club members. It’s simple enough: assign roles to the club members and finalize the plan for future activities. " ,
+ " Music Room Basic All  Chapter_E_0000300 Music Room Basic All " ,
 
- " Narration  Chapter_E-0001100 Now you just need to wait for them to show up. They didn’t forget about you telling them earlier in the day to meet you at lunch, right? You hope not. " ,
+ " Outro BGM  Chapter_E_0000400 Outro BGM " ,
 
- " Narration  Chapter_E-0001300 Speaking of showing up, will Kyo even be here? You weren’t even able to tell him all the good news, because you haven’t seen him all day. Well, it’s on him for choosing to miss this momentous occasion. " ,
+ " Narration  Chapter_E_0000700 After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It\'s the first official radio club meeting today, and you’re excited!  " ,
 
- " Narration  Chapter_E-0001500 The door opens. " ,
+ " Narration  Chapter_E_0000900 You look at the notes you wrote on your phone to remember what you’re discussing with all the club members. It’s simple enough: assign roles to the club members and finalize the plan for future activities. " ,
 
- " Atria1_happy, left  Chapter_E-0001700 Atria1_happy, left " ,
+ " Narration  Chapter_E_0001100 Now you just need to wait for them to show up. They didn’t forget about you telling them earlier in the day to meet you at lunch, right? You hope not. " ,
 
- " Atria  Chapter_E-0002000 I’m here. " ,
+ " Narration  Chapter_E_0001300 Speaking of showing up, will Kyo even be here? You weren’t even able to tell him all the good news, because you haven’t seen him all day. Well, it’s on him for choosing to miss this momentous occasion. " ,
 
- " Skye_smile, center  Chapter_E-0002200 Skye_smile, center " ,
+ " Narration  Chapter_E_0001500 The door opens. " ,
 
- " Skye  Chapter_E-0002500 And so am I! " ,
+ " Atria1_happy, left  Chapter_E_0001700 Atria1_happy, left " ,
 
- " Player  Chapter_E-0002800 Now, where the heck is Esme— " ,
+ " Atria  Chapter_E_0002000 I’m here. " ,
 
- " Esmeray_neutral, right  Chapter_E-0003000 Esmeray_neutral, right " ,
+ " Skye_smile, center  Chapter_E_0002200 Skye_smile, center " ,
 
- " Esmeray  Chapter_E-0003300 My bad. Had to shake off my fans, but I’m good now.  " ,
+ " Skye  Chapter_E_0002500 And so am I! " ,
 
- " Skye  Chapter_E-0003600 Pssh, okay, Mr. Famous. " ,
+ " Player  Chapter_E_0002800 Now, where the heck is Esme— " ,
 
- " Player  Chapter_E-0003900 You sure they’re not gonna follow you? " ,
+ " Esmeray_neutral, right  Chapter_E_0003000 Esmeray_neutral, right " ,
 
- " Esmeray  Chapter_E-0004200 I mean, more club members, am I right? " ,
+ " Esmeray  Chapter_E_0003300 My bad. Had to shake off my fans, but I’m good now.  " ,
 
- " Narration  Chapter_E-0004500 The three of you stare at him. " ,
+ " Skye  Chapter_E_0003600 Pssh, okay, Mr. Famous. " ,
 
- " Esmeray Amused  Chapter_E-0004800 Okay, okay, I’m just kidding. I was a little late finishing my classwork. I’ll be early next time. " ,
+ " Player  Chapter_E_0003900 You sure they’re not gonna follow you? " ,
 
- " Player  Chapter_E-0005100 I’ll hold you to that. " ,
+ " Esmeray  Chapter_E_0004200 I mean, more club members, am I right? " ,
 
- " Narration  Chapter_E-0005400 Esmeray laughs. " ,
+ " Narration  Chapter_E_0004500 The three of you stare at him. " ,
 
- " Player  Chapter_E-0005700 Alright y’all, we got business to take care of. First, we gotta decide what our roles are. " ,
+ " Esmeray Amused  Chapter_E_0004800 Okay, okay, I’m just kidding. I was a little late finishing my classwork. I’ll be early next time. " ,
 
- " Skye  Chapter_E-0006000 Well, it’s obvious what you’re gonna be. Club president!  " ,
+ " Player  Chapter_E_0005100 I’ll hold you to that. " ,
 
- " Narration  Chapter_E-0006300 You put your hands on your hips. " ,
+ " Narration  Chapter_E_0005400 Esmeray laughs. " ,
 
- " Player  Chapter_E-0006600 Yup! I’ll be doing more of the behind-the-scenes stuff. As for the other roles…  " ,
+ " Player  Chapter_E_0005700 Alright y’all, we got business to take care of. First, we gotta decide what our roles are. " ,
 
- " Skye  Chapter_E-0006900 I’ve already decided. " ,
+ " Skye  Chapter_E_0006000 Well, it’s obvious what you’re gonna be. Club president!  " ,
 
- " Player  Chapter_E-0007200 Wait, I haven\'t even said what the other roles are yet. " ,
+ " Narration  Chapter_E_0006300 You put your hands on your hips. " ,
 
- " Skye  Chapter_E-0007500 Well, you’re gonna need someone to write scripts, right? Then I’ll do it. " ,
+ " Player  Chapter_E_0006600 Yup! I’ll be doing more of the behind-the-scenes stuff. As for the other roles…  " ,
 
- " Player  Chapter_E-0007800 Sounds good.  " ,
+ " Skye  Chapter_E_0006900 I’ve already decided. " ,
 
- " Skye  Chapter_E-0008100 I can also get the latest scoops on what’s going around at school. The janitor’s closet is quite handy for getting a hold of hot tea, you know. " ,
+ " Player  Chapter_E_0007200 Wait, I haven\'t even said what the other roles are yet. " ,
 
- " Player  Chapter_E-0008400 Can you handle doing both? " ,
+ " Skye  Chapter_E_0007500 Well, you’re gonna need someone to write scripts, right? Then I’ll do it. " ,
 
- " Skye  Chapter_E-0008700 Hell yeah, brother. " ,
+ " Player  Chapter_E_0007800 Sounds good.  " ,
 
- " Narration  Chapter_E-0009000 You flash a smile. This is already going pretty smoothly. " ,
+ " Skye  Chapter_E_0008100 I can also get the latest scoops on what’s going around at school. The janitor’s closet is quite handy for getting a hold of hot tea, you know. " ,
 
- " Player  Chapter_E-0009300 Now, Esmeray… " ,
+ " Player  Chapter_E_0008400 Can you handle doing both? " ,
 
- " Esmeray Neutral  Chapter_E-0009600 Hm? " ,
+ " Skye  Chapter_E_0008700 Hell yeah, brother. " ,
 
- " Player  Chapter_E-0009900 You’ll be in charge of making little jingles before and after we’re done announcing and stuff. Oh, and I’m thinking we could add music segments in our broadcasts too.  " ,
+ " Narration  Chapter_E_0009000 You flash a smile. This is already going pretty smoothly. " ,
 
- " Esmeray  Chapter_E-0010200 You got it. " ,
+ " Player  Chapter_E_0009300 Now, Esmeray… " ,
 
- " Narration  Chapter_E-0010500 Esmeray takes out a small notebook. He starts writing and humming to himself. " ,
+ " Esmeray Neutral  Chapter_E_0009600 Hm? " ,
 
- " Player  Chapter_E-0010800 And finally, Atria, you’ll be the one on the speakers!  " ,
+ " Player  Chapter_E_0009900 You’ll be in charge of making little jingles before and after we’re done announcing and stuff. Oh, and I’m thinking we could add music segments in our broadcasts too.  " ,
 
- " Atria Atria1_Nervous  Chapter_E-0011100 Um, are you sure? I’m not that loud and confident yet… " ,
+ " Esmeray  Chapter_E_0010200 You got it. " ,
 
- " Player  Chapter_E-0011400 You don’t have to be the only speaker of course. We can do it together. " ,
+ " Narration  Chapter_E_0010500 Esmeray takes out a small notebook. He starts writing and humming to himself. " ,
 
- " Narration  Chapter_E-0011700 Atria slowly regains her smile. " ,
+ " Player  Chapter_E_0010800 And finally, Atria, you’ll be the one on the speakers!  " ,
 
- " Atria Atria1_Happy  Chapter_E-0012000 That’d be easier for me. Thank you. " ,
+ " Atria Atria1_Nervous  Chapter_E_0011100 Um, are you sure? I’m not that loud and confident yet… " ,
 
- " Player  Chapter_E-0012300 Alright, now we gotta think of our future plans for this club. " ,
+ " Player  Chapter_E_0011400 You don’t have to be the only speaker of course. We can do it together. " ,
 
- " Atria  Chapter_E-0012600 Actually, is it okay if I suggest something? " ,
+ " Narration  Chapter_E_0011700 Atria slowly regains her smile. " ,
 
- " Player  Chapter_E-0012900 Of course. " ,
+ " Atria Atria1_Happy  Chapter_E_0012000 That’d be easier for me. Thank you. " ,
 
- " Atria  Chapter_E-0013200 It’s Back to School Night next week. The staff wants clubs to help out with the concessions.  " ,
+ " Player  Chapter_E_0012300 Alright, now we gotta think of our future plans for this club. " ,
 
- " Player  Chapter_E-0013500 Then we should join! So, are we all free to help out with the concessions next week? " ,
+ " Atria  Chapter_E_0012600 Actually, is it okay if I suggest something? " ,
 
- " Narration  Chapter_E-0013800 The other three club members say yes. " ,
+ " Player  Chapter_E_0012900 Of course. " ,
 
- " Player  Chapter_E-0014100 Alright, we’re done then.  " ,
+ " Atria  Chapter_E_0013200 It’s Back to School Night next week. The staff wants clubs to help out with the concessions.  " ,
 
- " Narration  Chapter_E-0014400 Happiness feels like it\'s going to burst out of your chest. It really feels like an actual club now. No wait, it’s not just a club. It feels like you have a friend group for real too. You wonder if everyone\'s down for a group hug before they leave. " ,
+ " Player  Chapter_E_0013500 Then we should join! So, are we all free to help out with the concessions next week? " ,
 
- " Narration  Chapter_E-0014600 You open your arms wide. " ,
+ " Narration  Chapter_E_0013800 The other three club members say yes. " ,
 
- " Player  Chapter_E-0014900 I know this is out of nowhere but… Who’s down for a group hug?! " ,
+ " Player  Chapter_E_0014100 Alright, we’re done then.  " ,
 
- " Atria Atria1_Nervous  Chapter_E-0015200 Huh? " ,
+ " Narration  Chapter_E_0014400 Happiness feels like it\'s going to burst out of your chest. It really feels like an actual club now. No wait, it’s not just a club. It feels like you have a friend group for real too. You wonder if everyone\'s down for a group hug before they leave. " ,
 
- " Skye Skye_smile2  Chapter_E-0015500 Heh, sure, why not. Come on, get over here, Atria. " ,
+ " Narration  Chapter_E_0014600 You open your arms wide. " ,
 
- " Esmeray Amused  Chapter_E-0015800 Wait, we’re actually doing this? Hold on a minute— " ,
+ " Player  Chapter_E_0014900 I know this is out of nowhere but… Who’s down for a group hug?! " ,
 
- " Group hug CG   Chapter_E-0016000 Group hug CG  " ,
+ " Atria Atria1_Nervous  Chapter_E_0015200 Huh? " ,
 
- " Player  Chapter_E-0016300 Hehe, thanks y’all. If only Kyo was here to join in the hug too. He’s the one who started the club, after all. " ,
+ " Skye Skye_smile2  Chapter_E_0015500 Heh, sure, why not. Come on, get over here, Atria. " ,
 
- " Group hug CG ends.  Chapter_E-0016500 Group hug CG ends. " ,
+ " Esmeray Amused  Chapter_E_0015800 Wait, we’re actually doing this? Hold on a minute— " ,
 
- " Narration  Chapter_E-0016800 All of the club members back up and stare at you in confusion. " ,
+ " Group hug CG   Chapter_E_0016000 Group hug CG  " ,
 
- " Esmeray Neutral  Chapter_E-0017100 Who’s Kyo? " ,
+ " Player  Chapter_E_0016300 Hehe, thanks y’all. If only Kyo was here to join in the hug too. He’s the one who started the club, after all. " ,
 
- " Player  Chapter_E-0017400 Kyo. You know, the radio club president before I took over his role? Bright blue hair like cotton candy. Very munchable. It’s hard to miss.  " ,
+ " Group hug CG ends.  Chapter_E_0016500 Group hug CG ends. " ,
 
- " Atria Atria1_Timid  Chapter_E-0017700 I’ve never heard of him. " ,
+ " Narration  Chapter_E_0016800 All of the club members back up and stare at you in confusion. " ,
 
- " Player  Chapter_E-0018000 But you all met him before! You all talked to him and everything. Are you all messing with me? " ,
+ " Esmeray Neutral  Chapter_E_0017100 Who’s Kyo? " ,
 
- " Skye Skye_smile  Chapter_E-0018300 Oh, I get it. He’s the friend you were talking to before.  " ,
+ " Player  Chapter_E_0017400 Kyo. You know, the radio club president before I took over his role? Bright blue hair like cotton candy. Very munchable. It’s hard to miss.  " ,
 
- " Player  Chapter_E-0018600 Yeah!  " ,
+ " Atria Atria1_Timid  Chapter_E_0017700 I’ve never heard of him. " ,
 
- " Skye Skye_default  Chapter_E-0018900 Like the ones I used to talk to inside the locker, right? " ,
+ " Player  Chapter_E_0018000 But you all met him before! You all talked to him and everything. Are you all messing with me? " ,
 
- " Player  Chapter_E-0019200 Yeah, yeah! Wait, no! What the hell, do you guys genuinely not know?  " ,
+ " Skye Skye_smile  Chapter_E_0018300 Oh, I get it. He’s the friend you were talking to before.  " ,
 
- " Narration  Chapter_E-0019500 You don’t get much of a response. " ,
+ " Player  Chapter_E_0018600 Yeah!  " ,
 
- " Player  Chapter_E-0019800 Never mind, forget it. I’m imagining things, hehe. " ,
+ " Skye Skye_default  Chapter_E_0018900 Like the ones I used to talk to inside the locker, right? " ,
 
- " Narration  Chapter_E-0020100 The lunch bell rings, and all of you part ways as you wave to each other. Your smile then fades. What do they mean, they don’t know who Kyo is? You walk to your next class with a resting bitch face to mask your casual existential crisis.  " ,
+ " Player  Chapter_E_0019200 Yeah, yeah! Wait, no! What the hell, do you guys genuinely not know?  " ,
 
- " Scene ends  Chapter_E-0020300 Scene ends " ,
+ " Narration  Chapter_E_0019500 You don’t get much of a response. " ,
 
- " School Hallway Night  Chapter_E-0020500 School Hallway Night " ,
+ " Player  Chapter_E_0019800 Never mind, forget it. I’m imagining things, hehe. " ,
 
- " Narration  Chapter_E-0020800 It\'s Back To School Night. You go back and forth from your mom\'s car to carry water bottles to the venue. It takes just a few trips but the weight tires out your arms. Thank god that you\'re not in any of the sports clubs. " ,
+ " Narration  Chapter_E_0020100 The lunch bell rings, and all of you part ways as you wave to each other. Your smile then fades. What do they mean, they don’t know who Kyo is? You walk to your next class with a resting bitch face to mask your casual existential crisis.  " ,
 
- " Narration  Chapter_E-0021000 As you rest on a nearby bench, you see something colorful faintly glowing bright on the ground. It looks like a poorly drawn hand doing a peace sign. The pain is real. Hands are the bane of every artist’s existence.  " ,
+ " Scene ends  Chapter_E_0020300 Scene ends " ,
 
- " Narration  Chapter_E-0021200 …Wait, this looks like the work of Kyo! " ,
+ " School Hallway Night  Chapter_E_0020500 School Hallway Night " ,
 
- " Narration  Chapter_E-0021400 As quickly as you notice the symbol, it disappears. " ,
+ " Narration  Chapter_E_0020800 It\'s Back To School Night. You go back and forth from your mom\'s car to carry water bottles to the venue. It takes just a few trips but the weight tires out your arms. Thank god that you\'re not in any of the sports clubs. " ,
 
- " Narration  Chapter_E-0021600 That is the only sign you\'ve seen of him in school all week. What the hell is he up to?  " ,
+ " Narration  Chapter_E_0021000 As you rest on a nearby bench, you see something colorful faintly glowing bright on the ground. It looks like a poorly drawn hand doing a peace sign. The pain is real. Hands are the bane of every artist’s existence.  " ,
 
- " Narration  Chapter_E-0021800 Looking up ahead, you see more graffiti symbols in the distance, scattered far apart in a way that beckons you to follow them. When you try to get near the symbols, they disappear as well. Oh boy, do you have some questions to ask him when you see him. " ,
+ " Narration  Chapter_E_0021200 …Wait, this looks like the work of Kyo! " ,
 
- " School Rooftop Night  Chapter_E-0022000 School Rooftop Night " ,
+ " Narration  Chapter_E_0021400 As quickly as you notice the symbol, it disappears. " ,
 
- " Narration  Chapter_E-0022300 You follow the path until you arrive at the school\'s rooftop.  " ,
+ " Narration  Chapter_E_0021600 That is the only sign you\'ve seen of him in school all week. What the hell is he up to?  " ,
 
- " Narration  Chapter_E-0022500 There he is, spray painting symbols on the ground all around him in a circle. They vanish into thin air. " ,
+ " Narration  Chapter_E_0021800 Looking up ahead, you see more graffiti symbols in the distance, scattered far apart in a way that beckons you to follow them. When you try to get near the symbols, they disappear as well. Oh boy, do you have some questions to ask him when you see him. " ,
 
- " Narration  Chapter_E-0022700 You call out to him.   " ,
+ " School Rooftop Night  Chapter_E_0022000 School Rooftop Night " ,
 
- " Player  Chapter_E-0023000 Kyo? " ,
+ " Narration  Chapter_E_0022300 You follow the path until you arrive at the school\'s rooftop.  " ,
 
- " Kyo_FP_Shocked  Chapter_E-0023200 Kyo_FP_Shocked " ,
+ " Narration  Chapter_E_0022500 There he is, spray painting symbols on the ground all around him in a circle. They vanish into thin air. " ,
 
- " Narration  Chapter_E-0023500 Kyo turns around.  " ,
+ " Narration  Chapter_E_0022700 You call out to him.   " ,
 
- " Kyo  Chapter_E-0023800 Oh shit, hi Player! " ,
+ " Player  Chapter_E_0023000 Kyo? " ,
 
- " Player  Chapter_E-0024100 Where have you been? I haven\'t seen you in school all week. " ,
+ " Kyo_FP_Shocked  Chapter_E_0023200 Kyo_FP_Shocked " ,
 
- " Kyo Kyo_FP_Default  Chapter_E-0024400 Um, about that... " ,
+ " Narration  Chapter_E_0023500 Kyo turns around.  " ,
 
- " Narration  Chapter_E-0024700 He shakes his spray paint can but doesn\'t use it. He looks back and forth between his spray can, the moon above, and you as if he\'s contemplating his next move. He sighs. " ,
+ " Kyo  Chapter_E_0023800 Oh shit, hi Player! " ,
 
- " Kyo  Chapter_E-0025000 You weren\'t supposed to come here.  " ,
+ " Player  Chapter_E_0024100 Where have you been? I haven\'t seen you in school all week. " ,
 
- " Player  Chapter_E-0025300 But you left a paint trail. " ,
+ " Kyo Kyo_FP_Default  Chapter_E_0024400 Um, about that... " ,
 
- " Kyo  Chapter_E-0025600 That wasn\'t really a trail. I didn\'t think you\'d... Damn it, I was supposed to leave before you saw me. " ,
+ " Narration  Chapter_E_0024700 He shakes his spray paint can but doesn\'t use it. He looks back and forth between his spray can, the moon above, and you as if he\'s contemplating his next move. He sighs. " ,
 
- " Player  Chapter_E-0025900 Wait, you\'re leaving? What\'s going on? " ,
+ " Kyo  Chapter_E_0025000 You weren\'t supposed to come here.  " ,
 
- " Kyo  Chapter_E-0026200 You know what, fuck it. I\'m not going yet. \'Cause I don\'t even know where to begin explaining everything. " ,
+ " Player  Chapter_E_0025300 But you left a paint trail. " ,
 
- " Narration  Chapter_E-0026500 He\'s right. You have too many questions.  " ,
+ " Kyo  Chapter_E_0025600 That wasn\'t really a trail. I didn\'t think you\'d... Damn it, I was supposed to leave before you saw me. " ,
 
- " Narration  Chapter_E-0026700 You remember the confused faces of the club members from last week. " ,
+ " Player  Chapter_E_0025900 Wait, you\'re leaving? What\'s going on? " ,
 
- " Player  Chapter_E-0027000 Kyo, you\'re... real, right? " ,
+ " Kyo  Chapter_E_0026200 You know what, fuck it. I\'m not going yet. \'Cause I don\'t even know where to begin explaining everything. " ,
 
- " Narration  Chapter_E-0027300 Kyo busts out a quick laugh. " ,
+ " Narration  Chapter_E_0026500 He\'s right. You have too many questions.  " ,
 
- " Kyo  Chapter_E-0027600 Nah you\'re just imagining me in your head. Wake up. It\'s been years since the accident— " ,
+ " Narration  Chapter_E_0026700 You remember the confused faces of the club members from last week. " ,
 
- " Player  Chapter_E-0027900 Kyo, I\'m serious. None of the club members see or hear you except me. They don\'t even know who you are. Why? Are you a ghost? Who and what even are you? " ,
+ " Player  Chapter_E_0027000 Kyo, you\'re... real, right? " ,
 
- " Narration  Chapter_E-0028200 Kyo lets out a deep sigh. " ,
+ " Narration  Chapter_E_0027300 Kyo busts out a quick laugh. " ,
 
- " Kyo  Chapter_E-0028500 I don\'t actually go here. I used to, but it was a long time ago. " ,
+ " Kyo  Chapter_E_0027600 Nah you\'re just imagining me in your head. Wake up. It\'s been years since the accident— " ,
 
- " Player  Chapter_E-0028800 Why are you here then? " ,
+ " Player  Chapter_E_0027900 Kyo, I\'m serious. None of the club members see or hear you except me. They don\'t even know who you are. Why? Are you a ghost? Who and what even are you? " ,
 
- " Kyo CG  Chapter_E-0029000 Kyo CG " ,
+ " Narration  Chapter_E_0028200 Kyo lets out a deep sigh. " ,
 
- " Kyo  Chapter_E-0029300 To help you make friends. " ,
+ " Kyo  Chapter_E_0028500 I don\'t actually go here. I used to, but it was a long time ago. " ,
 
- " Narration  Chapter_E-0029600 Your eyes widen. " ,
+ " Player  Chapter_E_0028800 Why are you here then? " ,
 
- " Player  Chapter_E-0029900 How\'d you know I wanted to...? " ,
+ " Kyo CG  Chapter_E_0029000 Kyo CG " ,
 
- " Kyo  Chapter_E-0030200 You\'re the reason I opened up the radio club in the first place.  " ,
+ " Kyo  Chapter_E_0029300 To help you make friends. " ,
 
- " Player  Chapter_E-0030500 Huh?! Wait, then you were the only club member on purpose? " ,
+ " Narration  Chapter_E_0029600 Your eyes widen. " ,
 
- " Kyo  Chapter_E-0030800 Haha, yup. " ,
+ " Player  Chapter_E_0029900 How\'d you know I wanted to...? " ,
 
- " Player  Chapter_E-0031100 I\'m still not over you forcing me to do free labor though. " ,
+ " Kyo  Chapter_E_0030200 You\'re the reason I opened up the radio club in the first place.  " ,
 
- " Kyo  Chapter_E-0031400 It\'s better if you initiate these friendships on your own. I\'m just here to make sure you stay on track. You\'re the lonely one here, not me. " ,
+ " Player  Chapter_E_0030500 Huh?! Wait, then you were the only club member on purpose? " ,
 
- " Narration  Chapter_E-0031700 You roll your eyes.  " ,
+ " Kyo  Chapter_E_0030800 Haha, yup. " ,
 
- " Kyo  Chapter_E-0032000 You\'re not even gonna thank me?!  " ,
+ " Player  Chapter_E_0031100 I\'m still not over you forcing me to do free labor though. " ,
 
- " Player  Chapter_E-0032300 I still have more questions for you, funny man. " ,
+ " Kyo  Chapter_E_0031400 It\'s better if you initiate these friendships on your own. I\'m just here to make sure you stay on track. You\'re the lonely one here, not me. " ,
 
- " Kyo  Chapter_E-0032600 Okay, shoot. " ,
+ " Narration  Chapter_E_0031700 You roll your eyes.  " ,
 
- " Player  Chapter_E-0032900 If you\'ve been a student here, why does no one remember you at all? " ,
+ " Kyo  Chapter_E_0032000 You\'re not even gonna thank me?!  " ,
 
- " Kyo  Chapter_E-0033200 That\'s because I don\'t exist in your reality anymore. I live in another universe. " ,
+ " Player  Chapter_E_0032300 I still have more questions for you, funny man. " ,
 
- " Player  Chapter_E-0033500 You\'re an alien?! " ,
+ " Kyo  Chapter_E_0032600 Okay, shoot. " ,
 
- " Kyo  Chapter_E-0033800 Okay no, but I know someone else who is. Anyways, I was isekai\'d a while ago. But just recently, I\'ve been blessed by the moon, so now I\'m able to travel between your reality and mine. " ,
+ " Player  Chapter_E_0032900 If you\'ve been a student here, why does no one remember you at all? " ,
 
- " Kyo  Chapter_E-0034000 The problem is, I\'m still learning how to use this power. So it\'s not perfect. It\'s kinda weird actually. Right now, I\'m like in a world between yours and mine. I can\'t really see you, only the outline of you.  " ,
+ " Kyo  Chapter_E_0033200 That\'s because I don\'t exist in your reality anymore. I live in another universe. " ,
 
- " Narration  Chapter_E-0034300 Kyo pauses for a bit as if he\'s thinking. " ,
+ " Player  Chapter_E_0033500 You\'re an alien?! " ,
 
- " Kyo  Chapter_E-0034600 Give me a high-five. " ,
+ " Kyo  Chapter_E_0033800 Okay no, but I know someone else who is. Anyways, I was isekai\'d a while ago. But just recently, I\'ve been blessed by the moon, so now I\'m able to travel between your reality and mine. " ,
 
- " Player  Chapter_E-0034900 For what? " ,
+ " Kyo  Chapter_E_0034000 The problem is, I\'m still learning how to use this power. So it\'s not perfect. It\'s kinda weird actually. Right now, I\'m like in a world between yours and mine. I can\'t really see you, only the outline of you.  " ,
 
- " Kyo  Chapter_E-0035200 For being able to keep up with me. You know, since I speak so fast. " ,
+ " Narration  Chapter_E_0034300 Kyo pauses for a bit as if he\'s thinking. " ,
 
- " Player  Chapter_E-0035500 O...kay. " ,
+ " Kyo  Chapter_E_0034600 Give me a high-five. " ,
 
- " Narration  Chapter_E-0035800 When you go high-five Kyo, your hand goes through his like air. You don\'t feel him at all. " ,
+ " Player  Chapter_E_0034900 For what? " ,
 
- " Narration  Chapter_E-0036000 You stand there in silence, flabbergasted. A realization hits you. " ,
+ " Kyo  Chapter_E_0035200 For being able to keep up with me. You know, since I speak so fast. " ,
 
- " Player  Chapter_E-0036300 So you\'re the one haunting this school! " ,
+ " Player  Chapter_E_0035500 O...kay. " ,
 
- " Kyo  Chapter_E-0036600 Wait, what? " ,
+ " Narration  Chapter_E_0035800 When you go high-five Kyo, your hand goes through his like air. You don\'t feel him at all. " ,
 
- " Player  Chapter_E-0036900 Dude, did you not know? The paranormal activity club has been obsessed with you for a long time now. They\'ve been trying to contact you and everything.  " ,
+ " Narration  Chapter_E_0036000 You stand there in silence, flabbergasted. A realization hits you. " ,
 
- " Kyo  Chapter_E-0037200 They can\'t see me, right? " ,
+ " Player  Chapter_E_0036300 So you\'re the one haunting this school! " ,
 
- " Player  Chapter_E-0037500 That\'s not what I mean. But there\'s been ghost-like activity happening around school. I think you have something to do with it. " ,
+ " Kyo  Chapter_E_0036600 Wait, what? " ,
 
- " Kyo  Chapter_E-0037800 Shit, my bad. Didn\'t mean to. " ,
+ " Player  Chapter_E_0036900 Dude, did you not know? The paranormal activity club has been obsessed with you for a long time now. They\'ve been trying to contact you and everything.  " ,
 
- " Player  Chapter_E-0038100 If only they knew I was talking to a ghost the entire time. Wait, I don\'t think anybody heard you speak either. Not even the club members. Except me. What the hell? " ,
+ " Kyo  Chapter_E_0037200 They can\'t see me, right? " ,
 
- " Kyo  Chapter_E-0038400 You\'re the one I was assigned to help. " ,
+ " Player  Chapter_E_0037500 That\'s not what I mean. But there\'s been ghost-like activity happening around school. I think you have something to do with it. " ,
 
- " Player  Chapter_E-0038700 Assigned? " ,
+ " Kyo  Chapter_E_0037800 Shit, my bad. Didn\'t mean to. " ,
 
- " Kyo  Chapter_E-0039000 By the moon. Who also gave me my powers. I think that’s why you’re also the only person who can see and hear me. Consider yourself lucky.  " ,
+ " Player  Chapter_E_0038100 If only they knew I was talking to a ghost the entire time. Wait, I don\'t think anybody heard you speak either. Not even the club members. Except me. What the hell? " ,
 
- " Player  Chapter_E-0039300 I was chosen? Wow... " ,
+ " Kyo  Chapter_E_0038400 You\'re the one I was assigned to help. " ,
 
- " Kyo  Chapter_E-0039600 But I\'m running out of time. Now, I won\'t exist in this reality again. For real this time. " ,
+ " Player  Chapter_E_0038700 Assigned? " ,
 
- " Narration  Chapter_E-0039900 The school bell rings. School Bell SFX " ,
+ " Kyo  Chapter_E_0039000 By the moon. Who also gave me my powers. I think that’s why you’re also the only person who can see and hear me. Consider yourself lucky.  " ,
 
- " Kyo  Chapter_E-0040200 Go. Your friends are waiting for you. " ,
+ " Player  Chapter_E_0039300 I was chosen? Wow... " ,
 
- " Narration  Chapter_E-0040500 Kyo sets up his exit. " ,
+ " Kyo  Chapter_E_0039600 But I\'m running out of time. Now, I won\'t exist in this reality again. For real this time. " ,
 
- " Player  Chapter_E-0040800 Wait! Before you go... " ,
+ " Narration  Chapter_E_0039900 The school bell rings. School Bell SFX " ,
 
- " Player  Chapter_E-0041000 Thank you. For everything. " ,
+ " Kyo  Chapter_E_0040200 Go. Your friends are waiting for you. " ,
 
- " Narration  Chapter_E-0041300 Kyo looks back one last time and smiles. " ,
+ " Narration  Chapter_E_0040500 Kyo sets up his exit. " ,
 
- " Fade out Kyo, use the Kyo_BG in his special scene folder  Chapter_E-0041500 Fade out Kyo, use the Kyo_BG in his special scene folder " ,
+ " Player  Chapter_E_0040800 Wait! Before you go... " ,
 
- " Game end  Chapter_E-0041700 Game end " ,
+ " Player  Chapter_E_0041000 Thank you. For everything. " ,
 
- " Go to credits  Chapter_E-0041900 Go to credits " ,
+ " Narration  Chapter_E_0041300 Kyo looks back one last time and smiles. " ,
+
+ " Fade out Kyo, use the Kyo_BG in his special scene folder  Chapter_E_0041500 Fade out Kyo, use the Kyo_BG in his special scene folder " ,
+
+ " Game end  Chapter_E_0041700 Game end " ,
+
+ " Go to credits  Chapter_E_0041900 Go to credits " ,
 
 		// end-of-CHAPTER-E-mark
         'end'

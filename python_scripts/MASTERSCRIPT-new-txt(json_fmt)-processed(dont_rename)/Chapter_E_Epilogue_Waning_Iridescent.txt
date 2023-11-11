@@ -6,111 +6,111 @@
 
  " Outro BGM  Chapter_E_0000400 Outro BGM " ,
 
- " Narration  <br><br> After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It\'s the first official radio club meeting today, and you’re excited!  <br><br> _Dialog Code:  Chapter_E_0000700 " ,
- " Narration  <br><br> You look at the notes you wrote on your phone to remember what you’re discussing with all the club members. It’s simple enough: assign roles to the club members and finalize the plan for future activities. <br><br> _Dialog Code:  Chapter_E_0000900 " ,
- " Narration  <br><br> Now you just need to wait for them to show up. They didn’t forget about you telling them earlier in the day to meet you at lunch, right? You hope not. <br><br> _Dialog Code:  Chapter_E_0001100 " ,
- " Narration  <br><br> Speaking of showing up, will Kyo even be here? You weren’t even able to tell him all the good news, because you haven’t seen him all day. Well, it’s on him for choosing to miss this momentous occasion. <br><br> _Dialog Code:  Chapter_E_0001300 " ,
+ " Narration  <br><br> After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It\'s the first official radio club meeting today, and you\'re excited!  <br><br> _Dialog Code:  Chapter_E_0000700 " ,
+ " Narration  <br><br> You look at the notes you wrote on your phone to remember what you\'re discussing with all the club members. It\'s simple enough: assign roles to the club members and finalize the plan for future activities. <br><br> _Dialog Code:  Chapter_E_0000900 " ,
+ " Narration  <br><br> Now you just need to wait for them to show up. They didn\'t forget about you telling them earlier in the day to meet you at lunch, right? You hope not. <br><br> _Dialog Code:  Chapter_E_0001100 " ,
+ " Narration  <br><br> Speaking of showing up, will Kyo even be here? You weren\'t even able to tell him all the good news, because you haven\'t seen him all day. Well, it\'s on him for choosing to miss this momentous occasion. <br><br> _Dialog Code:  Chapter_E_0001300 " ,
  " Narration  <br><br> The door opens. <br><br> _Dialog Code:  Chapter_E_0001500 " ,
  " character_object_atria Chapter_E_0001700 Atria1_happy, left " ,
 
- " character_object_atria Chapter_E_0002000 I’m here. " ,
+ " character_object_atria Chapter_E_0002000 I\'m here. " ,
 
  " Skye_smile, center  Chapter_E_0002200 Skye_smile, center " ,
 
  " character_object_skye Chapter_E_0002500 And so am I! " ,
 
- " Player  <br><br> Now, where the heck is Esme— <br><br> _Dialog Code:  Chapter_E_0002800 " ,
+ " Player  <br><br> Now, where the heck is Esme&mdash; <br><br> _Dialog Code:  Chapter_E_0002800 " ,
  " character_object_esmeray Chapter_E_0003000 Esmeray_neutral, right " ,
 
- " character_object_esmeray Chapter_E_0003300 My bad. Had to shake off my fans, but I’m good now.  " ,
+ " character_object_esmeray Chapter_E_0003300 My bad. Had to shake off my fans, but I\'m good now.  " ,
 
  " character_object_skye Chapter_E_0003600 Pssh, okay, Mr. Famous. " ,
 
- " Player  <br><br> You sure they’re not gonna follow you? <br><br> _Dialog Code:  Chapter_E_0003900 " ,
+ " Player  <br><br> You sure they\'re not gonna follow you? <br><br> _Dialog Code:  Chapter_E_0003900 " ,
  " character_object_esmeray Chapter_E_0004200 I mean, more club members, am I right? " ,
 
  " Narration  <br><br> The three of you stare at him. <br><br> _Dialog Code:  Chapter_E_0004500 " ,
- " character_object_esmeray Chapter_E_0004800 Okay, okay, I’m just kidding. I was a little late finishing my classwork. I’ll be early next time. " ,
+ " character_object_esmeray Chapter_E_0004800 Okay, okay, I\'m just kidding. I was a little late finishing my classwork. I\'ll be early next time. " ,
 
- " Player  <br><br> I’ll hold you to that. <br><br> _Dialog Code:  Chapter_E_0005100 " ,
+ " Player  <br><br> I\'ll hold you to that. <br><br> _Dialog Code:  Chapter_E_0005100 " ,
  " Narration  <br><br> Esmeray laughs. <br><br> _Dialog Code:  Chapter_E_0005400 " ,
- " Player  <br><br> Alright y’all, we got business to take care of. First, we gotta decide what our roles are. <br><br> _Dialog Code:  Chapter_E_0005700 " ,
- " character_object_skye Chapter_E_0006000 Well, it’s obvious what you’re gonna be. Club president!  " ,
+ " Player  <br><br> Alright y\'all, we got business to take care of. First, we gotta decide what our roles are. <br><br> _Dialog Code:  Chapter_E_0005700 " ,
+ " character_object_skye Chapter_E_0006000 Well, it\'s obvious what you\'re gonna be. Club president!  " ,
 
  " Narration  <br><br> You put your hands on your hips. <br><br> _Dialog Code:  Chapter_E_0006300 " ,
- " Player  <br><br> Yup! I’ll be doing more of the behind-the-scenes stuff. As for the other roles…  <br><br> _Dialog Code:  Chapter_E_0006600 " ,
- " character_object_skye Chapter_E_0006900 I’ve already decided. " ,
+ " Player  <br><br> Yup! I\'ll be doing more of the behind-the-scenes stuff. As for the other roles...  <br><br> _Dialog Code:  Chapter_E_0006600 " ,
+ " character_object_skye Chapter_E_0006900 I\'ve already decided. " ,
 
  " Player  <br><br> Wait, I haven\'t even said what the other roles are yet. <br><br> _Dialog Code:  Chapter_E_0007200 " ,
- " character_object_skye Chapter_E_0007500 Well, you’re gonna need someone to write scripts, right? Then I’ll do it. " ,
+ " character_object_skye Chapter_E_0007500 Well, you\'re gonna need someone to write scripts, right? Then I\'ll do it. " ,
 
  " Player  <br><br> Sounds good.  <br><br> _Dialog Code:  Chapter_E_0007800 " ,
- " character_object_skye Chapter_E_0008100 I can also get the latest scoops on what’s going around at school. The janitor’s closet is quite handy for getting a hold of hot tea, you know. " ,
+ " character_object_skye Chapter_E_0008100 I can also get the latest scoops on what\'s going around at school. The janitor\'s closet is quite handy for getting a hold of hot tea, you know. " ,
 
  " Player  <br><br> Can you handle doing both? <br><br> _Dialog Code:  Chapter_E_0008400 " ,
  " character_object_skye Chapter_E_0008700 Hell yeah, brother. " ,
 
  " Narration  <br><br> You flash a smile. This is already going pretty smoothly. <br><br> _Dialog Code:  Chapter_E_0009000 " ,
- " Player  <br><br> Now, Esmeray… <br><br> _Dialog Code:  Chapter_E_0009300 " ,
+ " Player  <br><br> Now, Esmeray... <br><br> _Dialog Code:  Chapter_E_0009300 " ,
  " character_object_esmeray Chapter_E_0009600 Hm? " ,
 
- " Player  <br><br> You’ll be in charge of making little jingles before and after we’re done announcing and stuff. Oh, and I’m thinking we could add music segments in our broadcasts too.  <br><br> _Dialog Code:  Chapter_E_0009900 " ,
+ " Player  <br><br> You\'ll be in charge of making little jingles before and after we\'re done announcing and stuff. Oh, and I\'m thinking we could add music segments in our broadcasts too.  <br><br> _Dialog Code:  Chapter_E_0009900 " ,
  " character_object_esmeray Chapter_E_0010200 You got it. " ,
 
  " Narration  <br><br> Esmeray takes out a small notebook. He starts writing and humming to himself. <br><br> _Dialog Code:  Chapter_E_0010500 " ,
- " Player  <br><br> And finally, Atria, you’ll be the one on the speakers!  <br><br> _Dialog Code:  Chapter_E_0010800 " ,
- " character_object_atria Chapter_E_0011100 Um, are you sure? I’m not that loud and confident yet… " ,
+ " Player  <br><br> And finally, Atria, you\'ll be the one on the speakers!  <br><br> _Dialog Code:  Chapter_E_0010800 " ,
+ " character_object_atria Chapter_E_0011100 Um, are you sure? I\'m not that loud and confident yet... " ,
 
- " Player  <br><br> You don’t have to be the only speaker of course. We can do it together. <br><br> _Dialog Code:  Chapter_E_0011400 " ,
+ " Player  <br><br> You don\'t have to be the only speaker of course. We can do it together. <br><br> _Dialog Code:  Chapter_E_0011400 " ,
  " Narration  <br><br> Atria slowly regains her smile. <br><br> _Dialog Code:  Chapter_E_0011700 " ,
- " character_object_atria Chapter_E_0012000 That’d be easier for me. Thank you. " ,
+ " character_object_atria Chapter_E_0012000 That\'d be easier for me. Thank you. " ,
 
  " Player  <br><br> Alright, now we gotta think of our future plans for this club. <br><br> _Dialog Code:  Chapter_E_0012300 " ,
  " character_object_atria Chapter_E_0012600 Actually, is it okay if I suggest something? " ,
 
  " Player  <br><br> Of course. <br><br> _Dialog Code:  Chapter_E_0012900 " ,
- " character_object_atria Chapter_E_0013200 It’s Back to School Night next week. The staff wants clubs to help out with the concessions.  " ,
+ " character_object_atria Chapter_E_0013200 It\'s Back to School Night next week. The staff wants clubs to help out with the concessions.  " ,
 
  " Player  <br><br> Then we should join! So, are we all free to help out with the concessions next week? <br><br> _Dialog Code:  Chapter_E_0013500 " ,
  " Narration  <br><br> The other three club members say yes. <br><br> _Dialog Code:  Chapter_E_0013800 " ,
- " Player  <br><br> Alright, we’re done then.  <br><br> _Dialog Code:  Chapter_E_0014100 " ,
- " Narration  <br><br> Happiness feels like it\'s going to burst out of your chest. It really feels like an actual club now. No wait, it’s not just a club. It feels like you have a friend group for real too. You wonder if everyone\'s down for a group hug before they leave. <br><br> _Dialog Code:  Chapter_E_0014400 " ,
+ " Player  <br><br> Alright, we\'re done then.  <br><br> _Dialog Code:  Chapter_E_0014100 " ,
+ " Narration  <br><br> Happiness feels like it\'s going to burst out of your chest. It really feels like an actual club now. No wait, it\'s not just a club. It feels like you have a friend group for real too. You wonder if everyone\'s down for a group hug before they leave. <br><br> _Dialog Code:  Chapter_E_0014400 " ,
  " Narration  <br><br> You open your arms wide. <br><br> _Dialog Code:  Chapter_E_0014600 " ,
- " Player  <br><br> I know this is out of nowhere but… Who’s down for a group hug?! <br><br> _Dialog Code:  Chapter_E_0014900 " ,
+ " Player  <br><br> I know this is out of nowhere but... Who\'s down for a group hug?! <br><br> _Dialog Code:  Chapter_E_0014900 " ,
  " character_object_atria Chapter_E_0015200 Huh? " ,
 
  " Skye Skye_smile2  Chapter_E_0015500 Heh, sure, why not. Come on, get over here, Atria. " ,
 
- " character_object_esmeray Chapter_E_0015800 Wait, we’re actually doing this? Hold on a minute— " ,
+ " character_object_esmeray Chapter_E_0015800 Wait, we\'re actually doing this? Hold on a minute&mdash; " ,
 
  " Group hug CG   Chapter_E_0016000 Group hug CG  " ,
 
- " Player  <br><br> Hehe, thanks y’all. If only Kyo was here to join in the hug too. He’s the one who started the club, after all. <br><br> _Dialog Code:  Chapter_E_0016300 " ,
+ " Player  <br><br> Hehe, thanks y\'all. If only Kyo was here to join in the hug too. He\'s the one who started the club, after all. <br><br> _Dialog Code:  Chapter_E_0016300 " ,
  " Group hug CG ends.  Chapter_E_0016500 Group hug CG ends. " ,
 
  " Narration  <br><br> All of the club members back up and stare at you in confusion. <br><br> _Dialog Code:  Chapter_E_0016800 " ,
- " character_object_esmeray Chapter_E_0017100 Who’s Kyo? " ,
+ " character_object_esmeray Chapter_E_0017100 Who\'s Kyo? " ,
 
- " Player  <br><br> Kyo. You know, the radio club president before I took over his role? Bright blue hair like cotton candy. Very munchable. It’s hard to miss.  <br><br> _Dialog Code:  Chapter_E_0017400 " ,
- " character_object_atria Chapter_E_0017700 I’ve never heard of him. " ,
+ " Player  <br><br> Kyo. You know, the radio club president before I took over his role? Bright blue hair like cotton candy. Very munchable. It\'s hard to miss.  <br><br> _Dialog Code:  Chapter_E_0017400 " ,
+ " character_object_atria Chapter_E_0017700 I\'ve never heard of him. " ,
 
  " Player  <br><br> But you all met him before! You all talked to him and everything. Are you all messing with me? <br><br> _Dialog Code:  Chapter_E_0018000 " ,
- " Skye Skye_smile  Chapter_E_0018300 Oh, I get it. He’s the friend you were talking to before.  " ,
+ " Skye Skye_smile  Chapter_E_0018300 Oh, I get it. He\'s the friend you were talking to before.  " ,
 
  " Player  <br><br> Yeah!  <br><br> _Dialog Code:  Chapter_E_0018600 " ,
  " Skye Skye_default  Chapter_E_0018900 Like the ones I used to talk to inside the locker, right? " ,
 
  " Player  <br><br> Yeah, yeah! Wait, no! What the hell, do you guys genuinely not know?  <br><br> _Dialog Code:  Chapter_E_0019200 " ,
- " Narration  <br><br> You don’t get much of a response. <br><br> _Dialog Code:  Chapter_E_0019500 " ,
- " Player  <br><br> Never mind, forget it. I’m imagining things, hehe. <br><br> _Dialog Code:  Chapter_E_0019800 " ,
- " Narration  <br><br> The lunch bell rings, and all of you part ways as you wave to each other. Your smile then fades. What do they mean, they don’t know who Kyo is? You walk to your next class with a resting bitch face to mask your casual existential crisis.  <br><br> _Dialog Code:  Chapter_E_0020100 " ,
+ " Narration  <br><br> You don\'t get much of a response. <br><br> _Dialog Code:  Chapter_E_0019500 " ,
+ " Player  <br><br> Never mind, forget it. I\'m imagining things, hehe. <br><br> _Dialog Code:  Chapter_E_0019800 " ,
+ " Narration  <br><br> The lunch bell rings, and all of you part ways as you wave to each other. Your smile then fades. What do they mean, they don\'t know who Kyo is? You walk to your next class with a resting bitch face to mask your casual existential crisis.  <br><br> _Dialog Code:  Chapter_E_0020100 " ,
  " Scene ends  Chapter_E_0020300 Scene ends " ,
 
  " School Hallway Night  Chapter_E_0020500 School Hallway Night " ,
 
  " Narration  <br><br> It\'s Back To School Night. You go back and forth from your mom\'s car to carry water bottles to the venue. It takes just a few trips but the weight tires out your arms. Thank god that you\'re not in any of the sports clubs. <br><br> _Dialog Code:  Chapter_E_0020800 " ,
- " Narration  <br><br> As you rest on a nearby bench, you see something colorful faintly glowing bright on the ground. It looks like a poorly drawn hand doing a peace sign. The pain is real. Hands are the bane of every artist’s existence.  <br><br> _Dialog Code:  Chapter_E_0021000 " ,
- " Narration  <br><br> …Wait, this looks like the work of Kyo! <br><br> _Dialog Code:  Chapter_E_0021200 " ,
+ " Narration  <br><br> As you rest on a nearby bench, you see something colorful faintly glowing bright on the ground. It looks like a poorly drawn hand doing a peace sign. The pain is real. Hands are the bane of every artist\'s existence.  <br><br> _Dialog Code:  Chapter_E_0021000 " ,
+ " Narration  <br><br> ...Wait, this looks like the work of Kyo! <br><br> _Dialog Code:  Chapter_E_0021200 " ,
  " Narration  <br><br> As quickly as you notice the symbol, it disappears. <br><br> _Dialog Code:  Chapter_E_0021400 " ,
  " Narration  <br><br> That is the only sign you\'ve seen of him in school all week. What the hell is he up to?  <br><br> _Dialog Code:  Chapter_E_0021600 " ,
  " Narration  <br><br> Looking up ahead, you see more graffiti symbols in the distance, scattered far apart in a way that beckons you to follow them. When you try to get near the symbols, they disappear as well. Oh boy, do you have some questions to ask him when you see him. <br><br> _Dialog Code:  Chapter_E_0021800 " ,
@@ -141,7 +141,7 @@
  " Narration  <br><br> You remember the confused faces of the club members from last week. <br><br> _Dialog Code:  Chapter_E_0026700 " ,
  " Player  <br><br> Kyo, you\'re... real, right? <br><br> _Dialog Code:  Chapter_E_0027000 " ,
  " Narration  <br><br> Kyo busts out a quick laugh. <br><br> _Dialog Code:  Chapter_E_0027300 " ,
- " character_object_kyo Chapter_E_0027600 Nah you\'re just imagining me in your head. Wake up. It\'s been years since the accident— " ,
+ " character_object_kyo Chapter_E_0027600 Nah you\'re just imagining me in your head. Wake up. It\'s been years since the accident&mdash; " ,
 
  " Player  <br><br> Kyo, I\'m serious. None of the club members see or hear you except me. They don\'t even know who you are. Why? Are you a ghost? Who and what even are you? <br><br> _Dialog Code:  Chapter_E_0027900 " ,
  " Narration  <br><br> Kyo lets out a deep sigh. <br><br> _Dialog Code:  Chapter_E_0028200 " ,
@@ -198,7 +198,7 @@
  " character_object_kyo Chapter_E_0038400 You\'re the one I was assigned to help. " ,
 
  " Player  <br><br> Assigned? <br><br> _Dialog Code:  Chapter_E_0038700 " ,
- " character_object_kyo Chapter_E_0039000 By the moon. Who also gave me my powers. I think that’s why you’re also the only person who can see and hear me. Consider yourself lucky.  " ,
+ " character_object_kyo Chapter_E_0039000 By the moon. Who also gave me my powers. I think that\'s why you\'re also the only person who can see and hear me. Consider yourself lucky.  " ,
 
  " Player  <br><br> I was chosen? Wow... <br><br> _Dialog Code:  Chapter_E_0039300 " ,
  " character_object_kyo Chapter_E_0039600 But I\'m running out of time. Now, I won\'t exist in this reality again. For real this time. " ,

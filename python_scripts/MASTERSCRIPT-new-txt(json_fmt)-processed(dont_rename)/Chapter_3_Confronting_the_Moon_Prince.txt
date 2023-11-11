@@ -6,12 +6,12 @@
 
  " character_object_esmeray Chapter_3_0000400 Esmeray\'s BGM " ,
 
- " Narration  <br><br> It’s been a couple of days since Skye joined the group. <br><br> _Dialog Code:  Chapter_3_0000700 " ,
- " Narration  <br><br> The Radio Club is now livelier than ever, much to Kyo’s playful dismay, as you, Atria, and Skye chat loudly and often in the club room. <br><br> _Dialog Code:  Chapter_3_0000900 " ,
+ " Narration  <br><br> It\'s been a couple of days since Skye joined the group. <br><br> _Dialog Code:  Chapter_3_0000700 " ,
+ " Narration  <br><br> The Radio Club is now livelier than ever, much to Kyo\'s playful dismay, as you, Atria, and Skye chat loudly and often in the club room. <br><br> _Dialog Code:  Chapter_3_0000900 " ,
  " Narration  <br><br> Now, all you need is one more member to make the club official. But who? <br><br> _Dialog Code:  Chapter_3_0001100 " ,
  " Transition to School Hallway Day  Chapter_3_0001300 Transition to School Hallway Day " ,
 
- " Narration  <br><br> As you’re deep in thought and walking down the hallways of ILUNA Academy, you snap to attention when you hear loud giggles, flirts, and cheers coming from a crowd in front of you. <br><br> _Dialog Code:  Chapter_3_0001600 " ,
+ " Narration  <br><br> As you\'re deep in thought and walking down the hallways of ILUNA Academy, you snap to attention when you hear loud giggles, flirts, and cheers coming from a crowd in front of you. <br><br> _Dialog Code:  Chapter_3_0001600 " ,
  " character_object_esmeray Chapter_3_0001800 Esmeray (Amused) Appears on Screen, labeled as ??? " ,
 
  " Narration  <br><br> In the center of the crowd is a tall dude with dark turquoise hair, lots of black and shiny bling, and pretty turquoise-gold eyes. <br><br> _Dialog Code:  Chapter_3_0002000 " ,
@@ -19,55 +19,55 @@
  " Narration  <br><br> \"We love you, Esmeray!\" says the one in the hands of an enthusiastically cheering girl. <br><br> _Dialog Code:  Chapter_3_0002400 " ,
  " Narration  <br><br> \"The Prince of the Dark Moon, and my heart <3\" says another in the hands of a tall, totally smitten boy. <br><br> _Dialog Code:  Chapter_3_0002600 " ,
  " Narration  <br><br> The person in the center winks at the two of them, a lax smile on his face as he does so. <br><br> _Dialog Code:  Chapter_3_0002800 " ,
- " Narration  <br><br> The two start squealing before the girl faints in the boy’s arms, making him drop his sign. <br><br> _Dialog Code:  Chapter_3_0003000 " ,
+ " Narration  <br><br> The two start squealing before the girl faints in the boy\'s arms, making him drop his sign. <br><br> _Dialog Code:  Chapter_3_0003000 " ,
  " Player  <br><br> That must be the popular guy of the school I heard about. Esmeray Regulus, I think? <br><br> _Dialog Code:  Chapter_3_0003300 " ,
- " Narration  <br><br> You don’t really pay too much attention to the crowd. If anything, it’s a little annoying. <br><br> _Dialog Code:  Chapter_3_0003600 " ,
- " Narration  <br><br> The bell rings, meaning most students will be late to their class if they don’t get going, including yourself. <br><br> _Dialog Code:  Chapter_3_0003800 " ,
+ " Narration  <br><br> You don\'t really pay too much attention to the crowd. If anything, it\'s a little annoying. <br><br> _Dialog Code:  Chapter_3_0003600 " ,
+ " Narration  <br><br> The bell rings, meaning most students will be late to their class if they don\'t get going, including yourself. <br><br> _Dialog Code:  Chapter_3_0003800 " ,
  " character_object_student Chapter_3_0004100 	See you later, Esmeray! " ,
 
  " Narration  <br><br> You walk past the crowd, hearing Esmeray laugh at the random person and wave at them. <br><br> _Dialog Code:  Chapter_3_0004400 " ,
  " Narration  <br><br> 	You slow down your pace. Something about that laugh is weird. <br><br> _Dialog Code:  Chapter_3_0004600 " ,
  " Narration  <br><br> 	You turn around, looking closely at Esmeray. <br><br> _Dialog Code:  Chapter_3_0004800 " ,
- " Narration  <br><br> Sure enough, although Esmeray’s face is smiling, his eyes look empty. <br><br> _Dialog Code:  Chapter_3_0005000 " ,
+ " Narration  <br><br> Sure enough, although Esmeray\'s face is smiling, his eyes look empty. <br><br> _Dialog Code:  Chapter_3_0005000 " ,
  " Narration  <br><br> You move so that you\'re partially hidden by a nearby trash can, continuing to observe Esmeray. <br><br> _Dialog Code:  Chapter_3_0005200 " ,
  " character_object_esmeray Chapter_3_0005400 Esmeray Unamused " ,
 
- " Narration  <br><br> Once the crowd is gone, you see Esmeray’s smile fall, and his entire face becomes cold. He then starts trudging to his class. <br><br> _Dialog Code:  Chapter_3_0005600 " ,
- " Narration  <br><br> Your eyes widen at what you\'ve just seen, but your thoughts will have to wait. You’re late to class! <br><br> _Dialog Code:  Chapter_3_0005800 " ,
+ " Narration  <br><br> Once the crowd is gone, you see Esmeray\'s smile fall, and his entire face becomes cold. He then starts trudging to his class. <br><br> _Dialog Code:  Chapter_3_0005600 " ,
+ " Narration  <br><br> Your eyes widen at what you\'ve just seen, but your thoughts will have to wait. You\'re late to class! <br><br> _Dialog Code:  Chapter_3_0005800 " ,
  " Transition to Hallway BG  Chapter_3_0006000 Transition to Hallway BG " ,
 
  " No Sprites  Chapter_3_0006100 No Sprites " ,
 
  " Narration  <br><br> The day is finally over, and you\'re heading to the Radio Club. You need to strategize with Kyo on how to gain your last member. <br><br> _Dialog Code:  Chapter_3_0006400 " ,
  " Narration  <br><br> On your way there, you hear the faint sounds of guitar chords accompanied by a muffled voice. <br><br> _Dialog Code:  Chapter_3_0006600 " ,
- " Player  <br><br> I shouldn’t peek… I’m a little busy… <br><br> _Dialog Code:  Chapter_3_0006900 " ,
+ " Player  <br><br> I shouldn\'t peek... I\'m a little busy... <br><br> _Dialog Code:  Chapter_3_0006900 " ,
  " Narration  <br><br> But your curiosity is winning today. <br><br> _Dialog Code:  Chapter_3_0007200 " ,
  " Narration  <br><br> Quietly, you walk towards the source of the noise. <br><br> _Dialog Code:  Chapter_3_0007400 " ,
  " Narration  <br><br> As you get closer, the guitar chord sounds morph into a soft melody, and with it the muffled voice is now distinct and clear. <br><br> _Dialog Code:  Chapter_3_0007600 " ,
  " Narration  <br><br> The voice leads you to the entrance of an empty classroom, door slightly ajar, enough to hear the song. <br><br> _Dialog Code:  Chapter_3_0007800 " ,
- " Narration  <br><br> The lovely tenor voice makes you almost breathless. You have to see who’s making that song. <br><br> _Dialog Code:  Chapter_3_0008000 " ,
+ " Narration  <br><br> The lovely tenor voice makes you almost breathless. You have to see who\'s making that song. <br><br> _Dialog Code:  Chapter_3_0008000 " ,
  " Narration  <br><br> You creep up closer to the crack of the door and carefully pull it wider. Your eyes open in shock. <br><br> _Dialog Code:  Chapter_3_0008200 " ,
  " character_object_esmeray Chapter_3_0008400 Esmeray CG " ,
 
- " character_object_esmeray Chapter_3_0008700 	Don’t need the plastic smiles all up in my face " ,
+ " character_object_esmeray Chapter_3_0008700 	Don\'t need the plastic smiles all up in my face " ,
 
  " character_object_esmeray Chapter_3_0008800 	Just wanna be a moonchild and stay in outer space~ " ,
 
- " character_object_esmeray Chapter_3_0009000 	Don’t wanna keep on going on like this " ,
+ " character_object_esmeray Chapter_3_0009000 	Don\'t wanna keep on going on like this " ,
 
  " character_object_esmeray Chapter_3_0009100 	These people all really like to miss " ,
 
- " character_object_esmeray Chapter_3_0009200 	The fact that I don’t care… " ,
+ " character_object_esmeray Chapter_3_0009200 	The fact that I don\'t care... " ,
 
- " character_object_esmeray Chapter_3_0009300 	A fact that they can’t bear… " ,
+ " character_object_esmeray Chapter_3_0009300 	A fact that they can\'t bear... " ,
 
- " character_object_esmeray Chapter_3_0009500 	… " ,
+ " character_object_esmeray Chapter_3_0009500 	... " ,
 
- " character_object_esmeray Chapter_3_0009700 	…Someday I will travel far " ,
+ " character_object_esmeray Chapter_3_0009700 	...Someday I will travel far " ,
 
  " character_object_esmeray Chapter_3_0009800 	Riding on a shooting star " ,
 
- " character_object_esmeray Chapter_3_0009900 	Leaving won’t give me a scar " ,
+ " character_object_esmeray Chapter_3_0009900 	Leaving won\'t give me a scar " ,
 
  " character_object_esmeray Chapter_3_0010000 Cause all I need is me and my guitar~! " ,
 
@@ -77,11 +77,11 @@
 
  " Generic Classroom background  Chapter_3_0010500 Generic Classroom background " ,
 
- " Narration  <br><br> 	You’re in awe, to say the least. <br><br> _Dialog Code:  Chapter_3_0010800 " ,
- " Narration  <br><br> Who would’ve thought that the school’s resident popular guy is also a musical talent? <br><br> _Dialog Code:  Chapter_3_0011000 " ,
- " Player  <br><br> 	…How amazing would it be if he joined the Radio Club? <br><br> _Dialog Code:  Chapter_3_0011300 " ,
- " Player  <br><br> …Yeah! Wouldn’t he be a good person to arrange music to broadcast? His voice is perfect! <br><br> _Dialog Code:  Chapter_3_0011500 " ,
- " Player  <br><br> … <br><br> _Dialog Code:  Chapter_3_0011700 " ,
+ " Narration  <br><br> 	You\'re in awe, to say the least. <br><br> _Dialog Code:  Chapter_3_0010800 " ,
+ " Narration  <br><br> Who would\'ve thought that the school\'s resident popular guy is also a musical talent? <br><br> _Dialog Code:  Chapter_3_0011000 " ,
+ " Player  <br><br> 	...How amazing would it be if he joined the Radio Club? <br><br> _Dialog Code:  Chapter_3_0011300 " ,
+ " Player  <br><br> ...Yeah! Wouldn\'t he be a good person to arrange music to broadcast? His voice is perfect! <br><br> _Dialog Code:  Chapter_3_0011500 " ,
+ " Player  <br><br> ... <br><br> _Dialog Code:  Chapter_3_0011700 " ,
  " Player  <br><br> Should I try to invite him? <br><br> _Dialog Code:  Chapter_3_0011900 " ,
  " character_object_esmeray Chapter_3_0012100 Proceed to two choices: <Knock and try to invite Esmeray> or <Don\'t knock and invite Esmeray> " ,
 
@@ -93,11 +93,11 @@
  " Narration  <br><br> Esmeray immediately stops playing, his face loses its smile, and he turns to you with a cold face. <br><br> _Dialog Code:  Chapter_3_0013000 " ,
  " Scene reconverges here  Chapter_3_0013200 Scene reconverges here " ,
 
- " character_object_esmeray Chapter_3_0013400 Choice 2: Don’t Knock and invite Esmeray " ,
+ " character_object_esmeray Chapter_3_0013400 Choice 2: Don\'t Knock and invite Esmeray " ,
 
  " Narration  <br><br> You hesitate in asking Esmeray to join. <br><br> _Dialog Code:  Chapter_3_0013700 " ,
- " Narration  <br><br> He’s very high profile! Why would he want to join a club that no one knows about? <br><br> _Dialog Code:  Chapter_3_0013900 " ,
- " Narration  <br><br> While you were deliberating, you accidentally shuffle in place, bumping into the classroom’s door. <br><br> _Dialog Code:  Chapter_3_0014100 " ,
+ " Narration  <br><br> He\'s very high profile! Why would he want to join a club that no one knows about? <br><br> _Dialog Code:  Chapter_3_0013900 " ,
+ " Narration  <br><br> While you were deliberating, you accidentally shuffle in place, bumping into the classroom\'s door. <br><br> _Dialog Code:  Chapter_3_0014100 " ,
  " Narration  <br><br> *CREAK* Door creak SFX <br><br> _Dialog Code:  Chapter_3_0014300 " ,
  " character_object_esmeray Chapter_3_0014500 Esmeray Unamused " ,
 
@@ -105,14 +105,14 @@
  " Narration  <br><br> You laugh awkwardly, before slowly entering the room. <br><br> _Dialog Code:  Chapter_3_0014900 " ,
  " Scene reconverges here  Chapter_3_0015000 Scene reconverges here " ,
 
- " Player  <br><br> 	…Hey! That’s some amazing playing, you’re really talented! <br><br> _Dialog Code:  Chapter_3_0015300 " ,
+ " Player  <br><br> 	...Hey! That\'s some amazing playing, you\'re really talented! <br><br> _Dialog Code:  Chapter_3_0015300 " ,
  " Player  <br><br> Esmeray:  <br><br> _Dialog Code:  Chapter_3_0015500 " ,
- " Player  <br><br> … <br><br> _Dialog Code:  Chapter_3_0015600 " ,
- " Player  <br><br> So, I, uh, I’m part of the Radio Club, and we’re currently recruiting members. I think you’d be an amazing fit for it! <br><br> _Dialog Code:  Chapter_3_0015900 " ,
+ " Player  <br><br> ... <br><br> _Dialog Code:  Chapter_3_0015600 " ,
+ " Player  <br><br> So, I, uh, I\'m part of the Radio Club, and we\'re currently recruiting members. I think you\'d be an amazing fit for it! <br><br> _Dialog Code:  Chapter_3_0015900 " ,
  " Player  <br><br> So, what do you say? Would you like to join the Radio Club? <br><br> _Dialog Code:  Chapter_3_0016100 " ,
- " character_object_esmeray Chapter_3_0016400 	…Hah! As if I’d join your club.  " ,
+ " character_object_esmeray Chapter_3_0016400 	...Hah! As if I\'d join your club.  " ,
 
- " character_object_esmeray Chapter_3_0016600 Nah, if it’s full of eavesdroppers like you, then hell, I definitely don’t want to be in any part of it. " ,
+ " character_object_esmeray Chapter_3_0016600 Nah, if it\'s full of eavesdroppers like you, then hell, I definitely don\'t want to be in any part of it. " ,
 
  " character_object_esmeray Chapter_3_0016800 Esmeray sprite disappears " ,
 
@@ -125,7 +125,7 @@
  " character_object_esmeray Chapter_3_0017800 Esmeray Neutral " ,
 
  " Narration  <br><br> The next day, you spot Esmeray in the hallway on the way to the Radio Club. Luckily, he was alone. <br><br> _Dialog Code:  Chapter_3_0018100 " ,
- " Narration  <br><br> Although he rejected you last time, you won’t give up! <br><br> _Dialog Code:  Chapter_3_0018300 " ,
+ " Narration  <br><br> Although he rejected you last time, you won\'t give up! <br><br> _Dialog Code:  Chapter_3_0018300 " ,
  " Narration  <br><br> You know that with his talent in music, he would definitely be a great addition to the club. <br><br> _Dialog Code:  Chapter_3_0018500 " ,
  " Narration  <br><br> He is a hidden gem! Not only could he use his talent in music to compose soundtracks for the club, but his voice also fits that of a charming broadcaster perfectly. <br><br> _Dialog Code:  Chapter_3_0018700 " ,
  " Narration  <br><br> And, who knows? He could be as good a friend as Atria, Skye, or Kyo. <br><br> _Dialog Code:  Chapter_3_0018900 " ,
@@ -133,16 +133,16 @@
  " Narration  <br><br> You try to get his attention and wave at him. <br><br> _Dialog Code:  Chapter_3_0019300 " ,
  " Player  <br><br> Esmeray! <br><br> _Dialog Code:  Chapter_3_0019600 " ,
  " Player  <br><br> Esmeray Unamused:  <br><br> _Dialog Code:  Chapter_3_0019800 " ,
- " Player  <br><br> … <br><br> _Dialog Code:  Chapter_3_0019900 " ,
+ " Player  <br><br> ... <br><br> _Dialog Code:  Chapter_3_0019900 " ,
  " Footstep SFX  Chapter_3_0020100 Footstep SFX " ,
 
  " character_object_esmeray Chapter_3_0020200 Esmeray sprite disappears " ,
 
  " Hallway BG  Chapter_3_0020300 Hallway BG " ,
 
- " Narration  <br><br> You sigh, thinking you’ll try again. <br><br> _Dialog Code:  Chapter_3_0020600 " ,
- " Narration  <br><br> You wish Kyo was with you, but you couldn’t find him anywhere, and you don’t have his phone number. <br><br> _Dialog Code:  Chapter_3_0020800 " ,
- " Narration  <br><br> It’s at times like this where frustration is high that you wish you could contact him, but this frustration is overtaken by your realization that really you haven’t seen him much these past couple of days. <br><br> _Dialog Code:  Chapter_3_0021000 " ,
+ " Narration  <br><br> You sigh, thinking you\'ll try again. <br><br> _Dialog Code:  Chapter_3_0020600 " ,
+ " Narration  <br><br> You wish Kyo was with you, but you couldn\'t find him anywhere, and you don\'t have his phone number. <br><br> _Dialog Code:  Chapter_3_0020800 " ,
+ " Narration  <br><br> It\'s at times like this where frustration is high that you wish you could contact him, but this frustration is overtaken by your realization that really you haven\'t seen him much these past couple of days. <br><br> _Dialog Code:  Chapter_3_0021000 " ,
  " Narration  <br><br> Where is he? <br><br> _Dialog Code:  Chapter_3_0021200 " ,
  " Narration  <br><br> *BLACK SCREEN TRANSITION* <br><br> _Dialog Code:  Chapter_3_0021500 " ,
  " Transition to School Hallway Day  Chapter_3_0021600 Transition to School Hallway Day " ,
@@ -158,56 +158,56 @@
  " Transition to School Hallway Day  Chapter_3_0022900 Transition to School Hallway Day " ,
 
  " Narration  <br><br> A couple days have passed since you first tried to get Esmeray into the Radio Club, each day being met with more glares and avoidance from Esmeray. <br><br> _Dialog Code:  Chapter_3_0023200 " ,
- " Narration  <br><br> Kyo, on the few days you would see him, just made fun of you. Whenever you got irritated and asked him where he had been, he’d change the subject or say he had things going on at home. <br><br> _Dialog Code:  Chapter_3_0023400 " ,
+ " Narration  <br><br> Kyo, on the few days you would see him, just made fun of you. Whenever you got irritated and asked him where he had been, he\'d change the subject or say he had things going on at home. <br><br> _Dialog Code:  Chapter_3_0023400 " ,
  " Narration  <br><br> You would just huff in response and walk with him to the Radio Club classroom. <br><br> _Dialog Code:  Chapter_3_0023600 " ,
- " Narration  <br><br> As if receiving Kyo’s lack of help wasn’t enough, you also dealt with more people trying to accuse Skye of the increasing incidences of vandalism going on, as well as Atria’s old friends lurking around and glaring at your club. <br><br> _Dialog Code:  Chapter_3_0023800 " ,
+ " Narration  <br><br> As if receiving Kyo\'s lack of help wasn\'t enough, you also dealt with more people trying to accuse Skye of the increasing incidences of vandalism going on, as well as Atria\'s old friends lurking around and glaring at your club. <br><br> _Dialog Code:  Chapter_3_0023800 " ,
  " character_object_atria Chapter_3_0024000 Skye_Default and Atria2_Nervous " ,
 
- " character_object_skye Chapter_3_0024300 Tch, they’re just jealous they don’t have what we have, right y\'all? " ,
+ " character_object_skye Chapter_3_0024300 Tch, they\'re just jealous they don\'t have what we have, right y\'all? " ,
 
  " Narration  <br><br> Skye gestures to you, Atria, and the air next to her while walking down the halls. <br><br> _Dialog Code:  Chapter_3_0024600 " ,
  " Narration  <br><br> 	Atria looks around. <br><br> _Dialog Code:  Chapter_3_0024800 " ,
- " Narration  <br><br> Although they’re a lot less intimidated of their “friends” than before, they\'re still cautious while walking down the halls with you, Kyo, and Skye. <br><br> _Dialog Code:  Chapter_3_0025000 " ,
- " Narration  <br><br> Speaking of Kyo, he’s not here, AGAIN. He did tell you that he had a lot of work going on lately, but if the Radio Club’s one of his major commitments, how important must those other things be? <br><br> _Dialog Code:  Chapter_3_0025200 " ,
- " character_object_atria Chapter_3_0025500 	W-Well, it seems like we’re close to the club room! By the " ,
+ " Narration  <br><br> Although they\'re a lot less intimidated of their \"friends\" than before, they\'re still cautious while walking down the halls with you, Kyo, and Skye. <br><br> _Dialog Code:  Chapter_3_0025000 " ,
+ " Narration  <br><br> Speaking of Kyo, he\'s not here, AGAIN. He did tell you that he had a lot of work going on lately, but if the Radio Club\'s one of his major commitments, how important must those other things be? <br><br> _Dialog Code:  Chapter_3_0025200 " ,
+ " character_object_atria Chapter_3_0025500 	W-Well, it seems like we\'re close to the club room! By the " ,
 
  " character_object_atria Chapter_3_0025600 way, w-were we able to register officially yet? " ,
 
- " Player  <br><br> We still need one more member, I think. That’s what Kyo told me, anyways. <br><br> _Dialog Code:  Chapter_3_0025900 " ,
- " character_object_skye Chapter_3_0026200 Mm mm, I see. How’s he, by the way? He seems to not be around lately. " ,
+ " Player  <br><br> We still need one more member, I think. That\'s what Kyo told me, anyways. <br><br> _Dialog Code:  Chapter_3_0025900 " ,
+ " character_object_skye Chapter_3_0026200 Mm mm, I see. How\'s he, by the way? He seems to not be around lately. " ,
 
- " Player  <br><br> 	*Sigh* I don’t know, Skye… <br><br> _Dialog Code:  Chapter_3_0026500 " ,
+ " Player  <br><br> 	*Sigh* I don\'t know, Skye... <br><br> _Dialog Code:  Chapter_3_0026500 " ,
  " Narration  <br><br> There is silence between you three, until Atria clears their throat. <br><br> _Dialog Code:  Chapter_3_0026800 " ,
- " character_object_atria Chapter_3_0027100 	So, who… who are we trying to recruit? " ,
+ " character_object_atria Chapter_3_0027100 	So, who... who are we trying to recruit? " ,
 
  " Narration  <br><br> 	Skye and Atria turn to you, curiosity shining on their faces. <br><br> _Dialog Code:  Chapter_3_0027400 " ,
  " Narration  <br><br> 	You sheepishly grin at them. <br><br> _Dialog Code:  Chapter_3_0027600 " ,
- " Player  <br><br> 	Uh… have you heard of Esmeray Regulus? <br><br> _Dialog Code:  Chapter_3_0027900 " ,
- " Narration  <br><br> 	Atria’s and Skye’s eyes widen in shock. <br><br> _Dialog Code:  Chapter_3_0028200 " ,
+ " Player  <br><br> 	Uh... have you heard of Esmeray Regulus? <br><br> _Dialog Code:  Chapter_3_0027900 " ,
+ " Narration  <br><br> 	Atria\'s and Skye\'s eyes widen in shock. <br><br> _Dialog Code:  Chapter_3_0028200 " ,
  " character_object_atria Chapter_3_0028500 	WHAT?! " ,
 
- " character_object_atria Chapter_3_0028800 T-That really, r-really high profile person?! The so-called charming f-boy of the school who’s so handsome no one really cares if he flirts with everyone?! " ,
+ " character_object_atria Chapter_3_0028800 T-That really, r-really high profile person?! The so-called charming f-boy of the school who\'s so handsome no one really cares if he flirts with everyone?! " ,
 
  " character_object_skye Chapter_3_0029100 	Why would he want to join us? Can we even trust him? " ,
 
- " Player  <br><br> 	Hold on, y’all. I haven’t brought him in yet. I\'m just thinking <br><br> _Dialog Code:  Chapter_3_0029400 " ,
+ " Player  <br><br> 	Hold on, y\'all. I haven\'t brought him in yet. I\'m just thinking <br><br> _Dialog Code:  Chapter_3_0029400 " ,
  " Player  <br><br> about bringing him. <br><br> _Dialog Code:  Chapter_3_0029500 " ,
- " Player  <br><br> 	There are some reasons… <br><br> _Dialog Code:  Chapter_3_0029700 " ,
+ " Player  <br><br> 	There are some reasons... <br><br> _Dialog Code:  Chapter_3_0029700 " ,
  " Narration  <br><br> 	You pause. <br><br> _Dialog Code:  Chapter_3_0030000 " ,
- " Narration  <br><br> 	You don’t know if it’s okay to share with them about Esmeray <br><br> _Dialog Code:  Chapter_3_0030200 " ,
+ " Narration  <br><br> 	You don\'t know if it\'s okay to share with them about Esmeray <br><br> _Dialog Code:  Chapter_3_0030200 " ,
  " Narration  <br><br> being a musical talent yet. <br><br> _Dialog Code:  Chapter_3_0030300 " ,
  " Narration  <br><br> 	It\'d be best to get his consent first. <br><br> _Dialog Code:  Chapter_3_0030500 " ,
- " Player  <br><br> A-Anyways, I think he would fit right in. If– I mean, when I bring him in, you’ll see why. Can you trust me? <br><br> _Dialog Code:  Chapter_3_0030800 " ,
+ " Player  <br><br> A-Anyways, I think he would fit right in. If&mdash; I mean, when I bring him in, you\'ll see why. Can you trust me? <br><br> _Dialog Code:  Chapter_3_0030800 " ,
  " Narration  <br><br> 	With some hesitation, they both nod at you. <br><br> _Dialog Code:  Chapter_3_0031100 " ,
  " Narration  <br><br> 	Atria has a wary smile on their face, while Skye pushes up <br><br> _Dialog Code:  Chapter_3_0031300 " ,
  " Narration  <br><br> her glasses. <br><br> _Dialog Code:  Chapter_3_0031400 " ,
  " Narration  <br><br> 	You smile, happy to have them as your friends. <br><br> _Dialog Code:  Chapter_3_0031600 " ,
- " Player  <br><br> 	Thanks, y’all. <br><br> _Dialog Code:  Chapter_3_0031900 " ,
+ " Player  <br><br> 	Thanks, y\'all. <br><br> _Dialog Code:  Chapter_3_0031900 " ,
  " Player  <br><br> *BLACK SCREEN TRANSITION* <br><br> _Dialog Code:  Chapter_3_0032100 " ,
  " School Hallway Day  Chapter_3_0032200 School Hallway Day " ,
 
- " Narration  <br><br> Although you said that you would bring Esmeray to them, it’s proving to be harder than you thought. <br><br> _Dialog Code:  Chapter_3_0032500 " ,
- " Narration  <br><br> It’s been a couple of days since you told Atria and Skye to trust you. You were at the point of giving up on pursuing Esmeray, and going back to Atria and Skye in defeat. <br><br> _Dialog Code:  Chapter_3_0032700 " ,
+ " Narration  <br><br> Although you said that you would bring Esmeray to them, it\'s proving to be harder than you thought. <br><br> _Dialog Code:  Chapter_3_0032500 " ,
+ " Narration  <br><br> It\'s been a couple of days since you told Atria and Skye to trust you. You were at the point of giving up on pursuing Esmeray, and going back to Atria and Skye in defeat. <br><br> _Dialog Code:  Chapter_3_0032700 " ,
  " Narration  <br><br> Before you do so, you decide to trudge up the steps that lead to the rooftop, hoping to just have a quiet lunch. <br><br> _Dialog Code:  Chapter_3_0032900 " ,
  " Narration  <br><br> As you get closer to the door of the rooftop, you hear the sound of familiar singing. <br><br> _Dialog Code:  Chapter_3_0033100 " ,
  " Narration  <br><br> When you get to the slightly open door (Again?? You think to yourself.), you stop and peek through the crack, only to see Esmeray sitting on a bench as he sways to the melody he is singing. <br><br> _Dialog Code:  Chapter_3_0033300 " ,
@@ -217,28 +217,28 @@
 
  " character_object_esmeray Chapter_3_0033900 What if I could fly to the blue sugar sky? " ,
 
- " character_object_esmeray Chapter_3_0034000 Wouldn’t that be sweet " ,
+ " character_object_esmeray Chapter_3_0034000 Wouldn\'t that be sweet " ,
 
- " character_object_esmeray Chapter_3_0034100 … " ,
+ " character_object_esmeray Chapter_3_0034100 ... " ,
 
- " character_object_esmeray Chapter_3_0034200 Don’t wanna deal with a lie " ,
+ " character_object_esmeray Chapter_3_0034200 Don\'t wanna deal with a lie " ,
 
  " character_object_esmeray Chapter_3_0034300 Just wanna move to the rhythm of the beat " ,
 
- " character_object_esmeray Chapter_3_0034500 If only they could see… " ,
+ " character_object_esmeray Chapter_3_0034500 If only they could see... " ,
 
  " character_object_esmeray Chapter_3_0034600 I just wanna go far " ,
 
  " character_object_esmeray Chapter_3_0034700 That could be my remedy " ,
 
- " character_object_esmeray Chapter_3_0034800 … " ,
+ " character_object_esmeray Chapter_3_0034800 ... " ,
 
- " character_object_esmeray Chapter_3_0034900 But all I got is me and my guitar… " ,
+ " character_object_esmeray Chapter_3_0034900 But all I got is me and my guitar... " ,
 
  " Narration  <br><br> 	Esmeray continues to sing and hum, while you start to think. <br><br> _Dialog Code:  Chapter_3_0035200 " ,
  " Narration  <br><br> How long has it been since you started trying to get him to join the club? <br><br> _Dialog Code:  Chapter_3_0035400 " ,
  " Narration  <br><br> 	If you go to him now, would it make a difference? <br><br> _Dialog Code:  Chapter_3_0035600 " ,
- " Player  <br><br> 	Should I… have one more go? <br><br> _Dialog Code:  Chapter_3_0035900 " ,
+ " Player  <br><br> 	Should I... have one more go? <br><br> _Dialog Code:  Chapter_3_0035900 " ,
  " character_object_esmeray Chapter_3_0036100 Proceed to three choices: <Invite Esmeray to the club> or <Hesitate> or <Turn around and go back down the stairs> " ,
 
  " character_object_esmeray Chapter_3_0036300 Choice 1: Invite Esmeray to the Club " ,
@@ -254,15 +254,15 @@
 
  " Narration  <br><br> He immediately stops smiling. There\'s a long pause as Esmeray stares at you long and hard. <br><br> _Dialog Code:  Chapter_3_0038000 " ,
  " Narration  <br><br> But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him. <br><br> _Dialog Code:  Chapter_3_0038200 " ,
- " Narration  <br><br> Your eyes widen, but you don’t want to let go of this opportunity, and go and sit next to him. <br><br> _Dialog Code:  Chapter_3_0038400 " ,
+ " Narration  <br><br> Your eyes widen, but you don\'t want to let go of this opportunity, and go and sit next to him. <br><br> _Dialog Code:  Chapter_3_0038400 " ,
  " Scene reconverges here  Chapter_3_0038600 Scene reconverges here " ,
 
  " Choice 2 Hesitate  Chapter_3_0038800 Choice 2: Hesitate " ,
 
  " Narration  <br><br> You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. <br><br> _Dialog Code:  Chapter_3_0039000 " ,
  " Narration  <br><br> What would be the difference now? <br><br> _Dialog Code:  Chapter_3_0039200 " ,
- " Narration  <br><br> Sure, you pestered him the last couple of days so maybe he’ll consider it. <br><br> _Dialog Code:  Chapter_3_0039400 " ,
- " Narration  <br><br> But what if he doesn’t? <br><br> _Dialog Code:  Chapter_3_0039600 " ,
+ " Narration  <br><br> Sure, you pestered him the last couple of days so maybe he\'ll consider it. <br><br> _Dialog Code:  Chapter_3_0039400 " ,
+ " Narration  <br><br> But what if he doesn\'t? <br><br> _Dialog Code:  Chapter_3_0039600 " ,
  " Narration  <br><br> While deliberating and waving your arms around, trying to make a plan, your thoughts distract you so much to the point that you accidentally hit the door wide open. <br><br> _Dialog Code:  Chapter_3_0039800 " ,
  " Narration  <br><br> *CREAK* Door creak SFX <br><br> _Dialog Code:  Chapter_3_0040000 " ,
  " character_object_esmeray Chapter_3_0040200 Esmeray Neutral " ,
@@ -272,7 +272,7 @@
 
  " Narration  <br><br> He immediately stops smiling. There\'s a long pause. You can hardly breathe as Esmeray stares at you long and hard. <br><br> _Dialog Code:  Chapter_3_0040800 " ,
  " Narration  <br><br> But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him. <br><br> _Dialog Code:  Chapter_3_0041000 " ,
- " Narration  <br><br> Your eyes widen, but you don’t want to let go of this opportunity, and go and sit next to him. <br><br> _Dialog Code:  Chapter_3_0041200 " ,
+ " Narration  <br><br> Your eyes widen, but you don\'t want to let go of this opportunity, and go and sit next to him. <br><br> _Dialog Code:  Chapter_3_0041200 " ,
  " Scene reconverges here  Chapter_3_0041400 Scene reconverges here " ,
 
  " Choice 3 Turn around and Go Back Down the Stairs  Chapter_3_0041600 Choice 3: Turn around and Go Back Down the Stairs " ,
@@ -291,19 +291,19 @@
  " Narration  <br><br> He immediately stops smiling. There\'s a long pause. You can hardly breathe as Esmeray stares at you long and hard. <br><br> _Dialog Code:  Chapter_3_0043700 " ,
  " Player  <br><br> 	Is he gonna push me away again?... <br><br> _Dialog Code:  Chapter_3_0044000 " ,
  " Narration  <br><br> But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him. <br><br> _Dialog Code:  Chapter_3_0044300 " ,
- " Narration  <br><br> Your eyes widen, but you don’t want to let go of this opportunity, and go and sit next to him. <br><br> _Dialog Code:  Chapter_3_0044500 " ,
+ " Narration  <br><br> Your eyes widen, but you don\'t want to let go of this opportunity, and go and sit next to him. <br><br> _Dialog Code:  Chapter_3_0044500 " ,
  " Scene reconverges here  Chapter_3_0044600 Scene reconverges here " ,
 
- " Player  <br><br>  …Hi, Esmeray. <br><br> _Dialog Code:  Chapter_3_0044900 " ,
+ " Player  <br><br>  ...Hi, Esmeray. <br><br> _Dialog Code:  Chapter_3_0044900 " ,
  " character_object_esmeray Chapter_3_0045100 Esmeray Neutral " ,
 
  " Narration  <br><br> Esmeray nods, looking down at the lunch in his lap and shifting the food around with the fork absentmindedly. <br><br> _Dialog Code:  Chapter_3_0045400 " ,
- " Player  <br><br> … <br><br> _Dialog Code:  Chapter_3_0045700 " ,
- " character_object_esmeray Chapter_3_0046000 … " ,
+ " Player  <br><br> ... <br><br> _Dialog Code:  Chapter_3_0045700 " ,
+ " character_object_esmeray Chapter_3_0046000 ... " ,
 
  " character_object_esmeray Chapter_3_0046200 Player:  " ,
 
- " character_object_esmeray Chapter_3_0046300 So– " ,
+ " character_object_esmeray Chapter_3_0046300 So&mdash; " ,
 
  " character_object_esmeray Chapter_3_0046500 Esmeray:  " ,
 
@@ -313,52 +313,52 @@
  " Narration  <br><br> Player:  <br><br> _Dialog Code:  Chapter_3_0047100 " ,
  " Narration  <br><br> Excuse me? <br><br> _Dialog Code:  Chapter_3_0047200 " ,
  " Narration  <br><br> Esmeray:  <br><br> _Dialog Code:  Chapter_3_0047400 " ,
- " Narration  <br><br> Why me? Don’t you have, like, other friends? What about those multicolored-haired weirdos– I mean, friends in your club already? <br><br> _Dialog Code:  Chapter_3_0047500 " ,
+ " Narration  <br><br> Why me? Don\'t you have, like, other friends? What about those multicolored-haired weirdos&mdash; I mean, friends in your club already? <br><br> _Dialog Code:  Chapter_3_0047500 " ,
  " Narration  <br><br> He pauses. <br><br> _Dialog Code:  Chapter_3_0047800 " ,
  " Narration  <br><br> You side-eye Esmeray. <br><br> _Dialog Code:  Chapter_3_0048000 " ,
  " Narration  <br><br> He looks blankly back at you. <br><br> _Dialog Code:  Chapter_3_0048200 " ,
  " Player  <br><br> 	I heard that. <br><br> _Dialog Code:  Chapter_3_0048500 " ,
- " character_object_esmeray Chapter_3_0048800 	Nah, you didn’t. " ,
+ " character_object_esmeray Chapter_3_0048800 	Nah, you didn\'t. " ,
 
  " Narration  <br><br> You playfully glare at him before turning to your own lunch and shifting in your seat. <br><br> _Dialog Code:  Chapter_3_0049100 " ,
- " Player  <br><br> I’ll be blunt. I just think you would make a good addition to the club. <br><br> _Dialog Code:  Chapter_3_0049400 " ,
+ " Player  <br><br> I\'ll be blunt. I just think you would make a good addition to the club. <br><br> _Dialog Code:  Chapter_3_0049400 " ,
  " Narration Esmeray Unamused  <br><br> Esmeray raises his eyebrow at you in disbelief, and his eyes look at you as if asking you, \"Seriously?\" <br><br> _Dialog Code:  Chapter_3_0049700 " ,
- " Player  <br><br> Not only are you very talented in music – which would be helpful to use whenever we do broadcasts – but I think your presence alone would be good publicity for the club. <br><br> _Dialog Code:  Chapter_3_0050000 " ,
+ " Player  <br><br> Not only are you very talented in music &mdash; which would be helpful to use whenever we do broadcasts &mdash; but I think your presence alone would be good publicity for the club. <br><br> _Dialog Code:  Chapter_3_0050000 " ,
  " Narration  <br><br> 	Esmeray scoffs at this, but continues to listen regardless. <br><br> _Dialog Code:  Chapter_3_0050300 " ,
  " Player  <br><br> And also, I would like to be friends with you. You seem interesting, and nicer than you show. Although, you need to fix that playboy personality of yours. <br><br> _Dialog Code:  Chapter_3_0050600 " ,
- " character_object_esmeray Chapter_3_0050900 	Pfft– " ,
+ " character_object_esmeray Chapter_3_0050900 	Pfft&mdash; " ,
 
  " Narration  <br><br> You quickly turn to Esmeray in disbelief, only to find his face contorted into a laughing, genuine smile. <br><br> _Dialog Code:  Chapter_3_0051200 " ,
  " character_object_esmeray Chapter_3_0051500 	Playboy? Me? Nah, das crazy, what do you mean? " ,
 
- " character_object_esmeray Chapter_3_0051700 Like, I thought that’s how you’re supposed to act when you want to make friends? " ,
+ " character_object_esmeray Chapter_3_0051700 Like, I thought that\'s how you\'re supposed to act when you want to make friends? " ,
 
- " Narration  <br><br> 	Now it’s your turn to laugh. <br><br> _Dialog Code:  Chapter_3_0052000 " ,
- " Player  <br><br> Hah, what? Really? You really thought the best way to socialize with people was to rizz them up? HAHA, that’s HILARIOUS! <br><br> _Dialog Code:  Chapter_3_0052300 " ,
- " character_object_esmeray Chapter_3_0052600 Wh-WHAT?! NO! I was NOT– rizzing ANYONE! You’re just weird to interpret it that way! " ,
+ " Narration  <br><br> 	Now it\'s your turn to laugh. <br><br> _Dialog Code:  Chapter_3_0052000 " ,
+ " Player  <br><br> Hah, what? Really? You really thought the best way to socialize with people was to rizz them up? HAHA, that\'s HILARIOUS! <br><br> _Dialog Code:  Chapter_3_0052300 " ,
+ " character_object_esmeray Chapter_3_0052600 Wh-WHAT?! NO! I was NOT&mdash; rizzing ANYONE! You\'re just weird to interpret it that way! " ,
 
  " Narration  <br><br> 	You two continue to laugh and talk more on the rooftop. <br><br> _Dialog Code:  Chapter_3_0052900 " ,
  " Narration  <br><br> After you finish laughing, you look past the iron fence of the rooftop and at the sky. <br><br> _Dialog Code:  Chapter_3_0053100 " ,
  " character_object_esmeray Chapter_3_0053300 Esmeray Genuine " ,
 
  " Player  <br><br> The sky does look like blue sugar. <br><br> _Dialog Code:  Chapter_3_0053600 " ,
- " Narration Esmeray Neutral  <br><br> 	Esmeray’s eyes widen, and he whips his head towards you. <br><br> _Dialog Code:  Chapter_3_0053900 " ,
+ " Narration Esmeray Neutral  <br><br> 	Esmeray\'s eyes widen, and he whips his head towards you. <br><br> _Dialog Code:  Chapter_3_0053900 " ,
  " character_object_esmeray Chapter_3_0054200 H-Huh? " ,
 
- " Player  <br><br> I overheard you singing earlier, and also before… <br><br> _Dialog Code:  Chapter_3_0054500 " ,
- " Player  <br><br> …Wanna talk about it?  <br><br> _Dialog Code:  Chapter_3_0054700 " ,
- " Player  <br><br> I-I mean, you don’t have to, of course! <br><br> _Dialog Code:  Chapter_3_0054900 " ,
- " Player  <br><br> I was just thinking, I mean, we are friends now, so… <br><br> _Dialog Code:  Chapter_3_0055100 " ,
- " Player  <br><br> B-But of course, you don’t have to, a-and if you want to then feel free to take all the time you need, and stuff… <br><br> _Dialog Code:  Chapter_3_0055300 " ,
+ " Player  <br><br> I overheard you singing earlier, and also before... <br><br> _Dialog Code:  Chapter_3_0054500 " ,
+ " Player  <br><br> ...Wanna talk about it?  <br><br> _Dialog Code:  Chapter_3_0054700 " ,
+ " Player  <br><br> I-I mean, you don\'t have to, of course! <br><br> _Dialog Code:  Chapter_3_0054900 " ,
+ " Player  <br><br> I was just thinking, I mean, we are friends now, so... <br><br> _Dialog Code:  Chapter_3_0055100 " ,
+ " Player  <br><br> B-But of course, you don\'t have to, a-and if you want to then feel free to take all the time you need, and stuff... <br><br> _Dialog Code:  Chapter_3_0055300 " ,
  " Player  <br><br> Esmeray:  <br><br> _Dialog Code:  Chapter_3_0055500 " ,
- " Player  <br><br> 	… <br><br> _Dialog Code:  Chapter_3_0055600 " ,
- " Player  <br><br> 	… <br><br> _Dialog Code:  Chapter_3_0055800 " ,
- " Player  <br><br> F…friends? <br><br> _Dialog Code:  Chapter_3_0056000 " ,
- " Player  <br><br> … <br><br> _Dialog Code:  Chapter_3_0056200 " ,
- " Player  <br><br> Okay, I do want to say this to someone, at least… <br><br> _Dialog Code:  Chapter_3_0056400 " ,
+ " Player  <br><br> 	... <br><br> _Dialog Code:  Chapter_3_0055600 " ,
+ " Player  <br><br> 	... <br><br> _Dialog Code:  Chapter_3_0055800 " ,
+ " Player  <br><br> F...friends? <br><br> _Dialog Code:  Chapter_3_0056000 " ,
+ " Player  <br><br> ... <br><br> _Dialog Code:  Chapter_3_0056200 " ,
+ " Player  <br><br> Okay, I do want to say this to someone, at least... <br><br> _Dialog Code:  Chapter_3_0056400 " ,
  " Narration  <br><br> You patiently wait for him to keep talking. <br><br> _Dialog Code:  Chapter_3_0056700 " ,
  " Narration  <br><br> After a couple moments of silence, Esmeray clears his throat. <br><br> _Dialog Code:  Chapter_3_0056900 " ,
- " character_object_esmeray Chapter_3_0057200 Ahem… When…… when I was in elementary school, I had a lot of people who thought I was like an alien because I was shorter than the average height and had weird looking ears. " ,
+ " character_object_esmeray Chapter_3_0057200 Ahem... When...... when I was in elementary school, I had a lot of people who thought I was like an alien because I was shorter than the average height and had weird looking ears. " ,
 
  " character_object_esmeray Chapter_3_0057400 	And s-so, in middle school, I decided to change things up a bit. " ,
 
@@ -368,26 +368,26 @@
 
  " character_object_esmeray Chapter_3_0058000 	So, I tried some of the lines from the movies and comics out. " ,
 
- " character_object_esmeray Chapter_3_0058200 	A-And it worked! People… They started to like me. " ,
+ " character_object_esmeray Chapter_3_0058200 	A-And it worked! People... They started to like me. " ,
 
- " character_object_esmeray Chapter_3_0058400 My growth spurt helped me out too – I stood out from the crowd, in a good way. " ,
+ " character_object_esmeray Chapter_3_0058400 My growth spurt helped me out too &mdash; I stood out from the crowd, in a good way. " ,
 
  " character_object_esmeray Chapter_3_0058600 All of a sudden, people stopped calling me names like alien boy, weirdo, and bozo, and they called me things like a prince, a cool guy. " ,
 
- " character_object_esmeray Chapter_3_0058800 	… " ,
+ " character_object_esmeray Chapter_3_0058800 	... " ,
 
  " character_object_esmeray Chapter_3_0059000 	And I liked it, my changes. " ,
 
- " character_object_esmeray Chapter_3_0059200 	And I thought it would stay that way, but… " ,
+ " character_object_esmeray Chapter_3_0059200 	And I thought it would stay that way, but... " ,
 
- " Player  <br><br> 	… <br><br> _Dialog Code:  Chapter_3_0059500 " ,
+ " Player  <br><br> 	... <br><br> _Dialog Code:  Chapter_3_0059500 " ,
  " character_object_esmeray Chapter_3_0059800 	So, I started going out with some people. " ,
 
  " character_object_esmeray Chapter_3_0060000 At first, it was crazy to me: people actually liked me, I was actually someone attractive to them. My ways of communication were working, and stuff.  " ,
 
  " character_object_esmeray Chapter_3_0060200 	Like, whoa, intimate connection? Me? " ,
 
- " character_object_esmeray Chapter_3_0060400 And it was okay, but like, some people ended up ending our relationship because I wasn’t who they thought I was. " ,
+ " character_object_esmeray Chapter_3_0060400 And it was okay, but like, some people ended up ending our relationship because I wasn\'t who they thought I was. " ,
 
  " character_object_esmeray Chapter_3_0060600 	I mean, who wanted a dinosaur-loving, closeted " ,
 
@@ -399,14 +399,14 @@
 
  " character_object_esmeray Chapter_3_0061300 We ended up breaking it off because he said his parents were strict. " ,
 
- " character_object_esmeray Chapter_3_0061500 	Or at least, that’s what he said to my face. " ,
+ " character_object_esmeray Chapter_3_0061500 	Or at least, that\'s what he said to my face. " ,
 
- " character_object_esmeray Chapter_3_0061700 	… " ,
+ " character_object_esmeray Chapter_3_0061700 	... " ,
 
- " Player  <br><br> 	… <br><br> _Dialog Code:  Chapter_3_0062000 " ,
- " character_object_esmeray Chapter_3_0062300 …Turns out he was making fun of me to his friends the entire time we were dating. I found out because this girl I knew showed me a video of him talking to her and their other friends. " ,
+ " Player  <br><br> 	... <br><br> _Dialog Code:  Chapter_3_0062000 " ,
+ " character_object_esmeray Chapter_3_0062300 ...Turns out he was making fun of me to his friends the entire time we were dating. I found out because this girl I knew showed me a video of him talking to her and their other friends. " ,
 
- " character_object_esmeray Chapter_3_0062500 I was heartbroken, angry… I mean, how could he blatantly lie to me like that and still be okay? Why… Why was I left with all the negatives? " ,
+ " character_object_esmeray Chapter_3_0062500 I was heartbroken, angry... I mean, how could he blatantly lie to me like that and still be okay? Why... Why was I left with all the negatives? " ,
 
  " Narration  <br><br> You begin to pat Esmeray on the back, seeing him so sad and agitated. He calms down, thanking you quietly. <br><br> _Dialog Code:  Chapter_3_0062800 " ,
  " character_object_esmeray Chapter_3_0063100 *inhale* Anyways, that girl and I ended up getting close because she told me about how she left the friend group and she was there for me. " ,
@@ -415,35 +415,35 @@
 
  " character_object_esmeray Chapter_3_0063600 	But then, it went to shit. " ,
 
- " character_object_esmeray Chapter_3_0063800 This girl, she was really toxic. As in she didn’t let me see other people, but she could see a lot of others? " ,
+ " character_object_esmeray Chapter_3_0063800 This girl, she was really toxic. As in she didn\'t let me see other people, but she could see a lot of others? " ,
 
  " character_object_esmeray Chapter_3_0064000 And she gaslit me often, made me emotionally dependent on her, and my mental health tanked. " ,
 
- " character_object_esmeray Chapter_3_0064200 I felt choked, and scared, and honestly, I was really disappointed: in her, myself, and just the humans around me for being so… inhumane. " ,
+ " character_object_esmeray Chapter_3_0064200 I felt choked, and scared, and honestly, I was really disappointed: in her, myself, and just the humans around me for being so... inhumane. " ,
 
- " character_object_esmeray Chapter_3_0064500 I just… wanted to breathe again. So, I left her, left the school I was at, and transferred here. Blocked everyone I knew, and I hoped that I could start anew. " ,
+ " character_object_esmeray Chapter_3_0064500 I just... wanted to breathe again. So, I left her, left the school I was at, and transferred here. Blocked everyone I knew, and I hoped that I could start anew. " ,
 
- " character_object_esmeray Chapter_3_0064800 And I think I did, at least. No one seems to hate me here – just a lot of admiration. …But you never know. " ,
+ " character_object_esmeray Chapter_3_0064800 And I think I did, at least. No one seems to hate me here &mdash; just a lot of admiration. ...But you never know. " ,
 
- " character_object_esmeray Chapter_3_0065000 So I wanted to hide everything: never get close to anyone here, never tell anyone my story… but you… " ,
+ " character_object_esmeray Chapter_3_0065000 So I wanted to hide everything: never get close to anyone here, never tell anyone my story... but you... " ,
 
- " character_object_esmeray Chapter_3_0065300 	You… actually seem to care for me… " ,
+ " character_object_esmeray Chapter_3_0065300 	You... actually seem to care for me... " ,
 
- " character_object_esmeray Chapter_3_0065500 	…Thanks, for listening… " ,
+ " character_object_esmeray Chapter_3_0065500 	...Thanks, for listening... " ,
 
- " Narration  <br><br> Looks like you were right: Esmeray didn’t really have genuine friends of his own, so you decided it was time to change that. <br><br> _Dialog Code:  Chapter_3_0065800 " ,
+ " Narration  <br><br> Looks like you were right: Esmeray didn\'t really have genuine friends of his own, so you decided it was time to change that. <br><br> _Dialog Code:  Chapter_3_0065800 " ,
  " Narration  <br><br> 	You make direct eye contact with Esmeray. <br><br> _Dialog Code:  Chapter_3_0066000 " ,
  " character_object_esmeray Chapter_3_0066300 W-What? Are you gonna accuse me of being too edgy now, or something? " ,
 
  " Player  <br><br> 	Nah. I just wanted to invite you again to the Radio Club. <br><br> _Dialog Code:  Chapter_3_0066600 " ,
- " Player  <br><br> I promise we’re all nice people, and I guarantee that we’re not like those people from your past.  <br><br> _Dialog Code:  Chapter_3_0066800 " ,
- " Player  <br><br> You can leave if you don’t feel like staying with us, no strings attached. I think it would be amazing if you join us.  <br><br> _Dialog Code:  Chapter_3_0067000 " ,
+ " Player  <br><br> I promise we\'re all nice people, and I guarantee that we\'re not like those people from your past.  <br><br> _Dialog Code:  Chapter_3_0066800 " ,
+ " Player  <br><br> You can leave if you don\'t feel like staying with us, no strings attached. I think it would be amazing if you join us.  <br><br> _Dialog Code:  Chapter_3_0067000 " ,
  " Player  <br><br> Wanna give it a try? <br><br> _Dialog Code:  Chapter_3_0067200 " ,
  " Narration  <br><br> You hold out your hand, ready to receive a handshake in agreement from Esmeray. <br><br> _Dialog Code:  Chapter_3_0067500 " ,
  " Narration  <br><br> Esmeray stares at your hand, before his own twitches and lifts up to shake it. <br><br> _Dialog Code:  Chapter_3_0067700 " ,
  " Narration  <br><br> Your face breaks out into a large smile. The mood immediately becomes more lighthearted. <br><br> _Dialog Code:  Chapter_3_0067900 " ,
  " Player  <br><br> 	Great! Welcome aboard, Esme! <br><br> _Dialog Code:  Chapter_3_0068200 " ,
- " character_object_esmeray Chapter_3_0068500 	…W-wait, Esme? I did NOT agree to this, what the f– " ,
+ " character_object_esmeray Chapter_3_0068500 	...W-wait, Esme? I did NOT agree to this, what the f&mdash; " ,
 
  " Narration Esmeray Teeth Smile  <br><br> While laughing at him, you give him a set day and time for him to come to the Radio Club, as he continues to protest against your silly, stupid nickname. <br><br> _Dialog Code:  Chapter_3_0068800 " ,
  " Proceed to next scene  Chapter_3_0069000 Proceed to next scene " ,
@@ -452,19 +452,19 @@
 
  " character_object_kyo Chapter_3_0069300 Kyo_FP_Bruh, Atria2_Nervous, and Skye_Default " ,
 
- " Narration  <br><br> Today’s finally the day. <br><br> _Dialog Code:  Chapter_3_0069600 " ,
+ " Narration  <br><br> Today\'s finally the day. <br><br> _Dialog Code:  Chapter_3_0069600 " ,
  " Narration  <br><br> You take a deep breath, anxiously looking at the door, trying to spot the familiar shade of dark turquoise hair. <br><br> _Dialog Code:  Chapter_3_0069800 " ,
  " Narration  <br><br> Atria and Skye are just as nervous: Atria is fiddling with their star clips while Skye pushes up her glasses, the light reflecting off of them and covering her eyes. <br><br> _Dialog Code:  Chapter_3_0070000 " ,
- " Narration  <br><br> In the corner stands Kyo, looking at the clock’s second hand as it moves in its consistent rhythm. <br><br> _Dialog Code:  Chapter_3_0070200 " ,
- " Narration  <br><br> *tick tick tick tick…* <br><br> _Dialog Code:  Chapter_3_0070400 " ,
+ " Narration  <br><br> In the corner stands Kyo, looking at the clock\'s second hand as it moves in its consistent rhythm. <br><br> _Dialog Code:  Chapter_3_0070200 " ,
+ " Narration  <br><br> *tick tick tick tick...* <br><br> _Dialog Code:  Chapter_3_0070400 " ,
  " Narration  <br><br> Kyo sighs. <br><br> _Dialog Code:  Chapter_3_0070600 " ,
- " character_object_kyo Chapter_3_0070900 	When’s this guy gonna be here? " ,
+ " character_object_kyo Chapter_3_0070900 	When\'s this guy gonna be here? " ,
 
- " Player  <br><br> 	He’ll be here soon, y’all. Don’t worry. <br><br> _Dialog Code:  Chapter_3_0071200 " ,
+ " Player  <br><br> 	He\'ll be here soon, y\'all. Don\'t worry. <br><br> _Dialog Code:  Chapter_3_0071200 " ,
  " Narration  <br><br> Atria and Skye turn to look at you with relieved faces, the tense silence of the room finally broken. <br><br> _Dialog Code:  Chapter_3_0071500 " ,
- " character_object_skye Chapter_3_0071800 	W-We’re not worried! Y-you are! " ,
+ " character_object_skye Chapter_3_0071800 	W-We\'re not worried! Y-you are! " ,
 
- " Narration  <br><br> 	You laugh at Skye’s poor excuse. <br><br> _Dialog Code:  Chapter_3_0072100 " ,
+ " Narration  <br><br> 	You laugh at Skye\'s poor excuse. <br><br> _Dialog Code:  Chapter_3_0072100 " ,
  " Player  <br><br> 	Haha, yeah, I am. <br><br> _Dialog Code:  Chapter_3_0072400 " ,
  " Narration  <br><br> Before you can elaborate, you hear footsteps approaching the door. <br><br> _Dialog Code:  Chapter_3_0072700 " ,
  " Narration  <br><br> 	All heads in the room turn to the door. <br><br> _Dialog Code:  Chapter_3_0072900 " ,
@@ -484,14 +484,14 @@
  " character_object_esmeray Chapter_3_0074600 Choice 2: Wait for Esmeray to introduce themselves " ,
 
  " Narration  <br><br> You want to let Esmeray introduce himself, and do jazz hands to start it off. <br><br> _Dialog Code:  Chapter_3_0074900 " ,
- " Narration  <br><br> Really, you’re just doing jazz hands in awkward silence… <br><br> _Dialog Code:  Chapter_3_0075100 " ,
- " Narration  <br><br> … <br><br> _Dialog Code:  Chapter_3_0075300 " ,
+ " Narration  <br><br> Really, you\'re just doing jazz hands in awkward silence... <br><br> _Dialog Code:  Chapter_3_0075100 " ,
+ " Narration  <br><br> ... <br><br> _Dialog Code:  Chapter_3_0075300 " ,
  " Narration  <br><br> ...What are you doing right now? Lol. <br><br> _Dialog Code:  Chapter_3_0075500 " ,
  " Narration  <br><br> You cough awkwardly at the silence before slowly putting your hands down. <br><br> _Dialog Code:  Chapter_3_0075700 " ,
  " Narration  <br><br> You clear your throat again, desperate to get out of this situation. <br><br> _Dialog Code:  Chapter_3_0075900 " ,
  " Scene reconverges here  Chapter_3_0076000 Scene reconverges here " ,
 
- " Player  <br><br> Here he is! Y’all, I want you to meet Esme– I mean Esmeray, our school’s lovely playboy and the composer of our music for the Radio Club! Esmeray, meet the club! <br><br> _Dialog Code:  Chapter_3_0076300 " ,
+ " Player  <br><br> Here he is! Y\'all, I want you to meet Esme&mdash; I mean Esmeray, our school\'s lovely playboy and the composer of our music for the Radio Club! Esmeray, meet the club! <br><br> _Dialog Code:  Chapter_3_0076300 " ,
  " character_object_esmeray Chapter_3_0076500 Move Esmeray to right " ,
 
  " character_object_atria Chapter_3_0076600 Atria1_Happy and Skye_Smile on left " ,
@@ -518,15 +518,15 @@
 
  " character_object_atria Chapter_3_0079700 	*Ahem* " ,
 
- " character_object_atria Chapter_3_0079900 	W-WELCOME, ESMERAY, TO THE RADIO CLUB! I-I’M ATRIA, THEY/SHE. " ,
+ " character_object_atria Chapter_3_0079900 	W-WELCOME, ESMERAY, TO THE RADIO CLUB! I-I\'M ATRIA, THEY/SHE. " ,
 
- " character_object_skye Chapter_3_0080200 I-I’M SKYE, SHE/THEY, AND THESE ARE MY OTHER FRIENDS AND MEMBERS OF THE CLUB. T-TREAT THEM WELL, D-DUDE! " ,
+ " character_object_skye Chapter_3_0080200 I-I\'M SKYE, SHE/THEY, AND THESE ARE MY OTHER FRIENDS AND MEMBERS OF THE CLUB. T-TREAT THEM WELL, D-DUDE! " ,
 
  " Narration  <br><br> 	Skye gestures to the air next to her. <br><br> _Dialog Code:  Chapter_3_0080500 " ,
  " Narration  <br><br> Esmeray looks at the air, then at you, with a confused expression. <br><br> _Dialog Code:  Chapter_3_0080700 " ,
  " Narration  <br><br> 	He looks back at the air, and slowly nods in greeting. <br><br> _Dialog Code:  Chapter_3_0080900 " ,
- " Narration  <br><br> 	Skye’s face brightens up. <br><br> _Dialog Code:  Chapter_3_0081100 " ,
- " character_object_atria Chapter_3_0081400 N-Now that we’re all introduced, we will now start the induction ceremony. Player said that you would be a great ally to our cause to save humanity as we know it. " ,
+ " Narration  <br><br> 	Skye\'s face brightens up. <br><br> _Dialog Code:  Chapter_3_0081100 " ,
+ " character_object_atria Chapter_3_0081400 N-Now that we\'re all introduced, we will now start the induction ceremony. Player said that you would be a great ally to our cause to save humanity as we know it. " ,
 
  " character_object_atria Chapter_3_0081600 Remove Atria and Skye " ,
 
@@ -534,14 +534,14 @@
 
  " character_object_kyo Chapter_3_0082000 Lmao, you said that, Player? You\'re a weirdo too, hahaha. " ,
 
- " Player  <br><br> What? I-I didn’t say that, I think?? I– <br><br> _Dialog Code:  Chapter_3_0082300 " ,
+ " Player  <br><br> What? I-I didn\'t say that, I think?? I&mdash; <br><br> _Dialog Code:  Chapter_3_0082300 " ,
  " character_object_kyo Chapter_3_0082500 Remove Kyo " ,
 
  " character_object_atria Chapter_3_0082600 Atria2_Happy and Skye_Smile2 on left " ,
 
- " Narration  <br><br> You’re cut off by Atria, who is too busy immersing in their role right now. <br><br> _Dialog Code:  Chapter_3_0082900 " ,
+ " Narration  <br><br> You\'re cut off by Atria, who is too busy immersing in their role right now. <br><br> _Dialog Code:  Chapter_3_0082900 " ,
  " Narration  <br><br> Atria:  <br><br> _Dialog Code:  Chapter_3_0083100 " ,
- " Narration  <br><br> Therefore, we have to ask you… <br><br> _Dialog Code:  Chapter_3_0083200 " ,
+ " Narration  <br><br> Therefore, we have to ask you... <br><br> _Dialog Code:  Chapter_3_0083200 " ,
  " character_object_skye Chapter_3_0083500 Esmeray, do you solemnly swear to  promise to uphold the values of honor, truth, and transparency between fellow members? To join the club and fight the dark souls of corruption of the students through the power of voice and music? To not rest, until humanity is purified of evil, deceit, and misinformation? " ,
 
  " Narration  <br><br> 	The room becomes silent again after the two of them speak up. <br><br> _Dialog Code:  Chapter_3_0083800 " ,
@@ -550,32 +550,32 @@
 
  " character_object_esmeray Chapter_3_0084300 Esmeray Neutral (centered) " ,
 
- " Narration  <br><br> 	Esmeray’s face is blank, eyeing the two in front of him. <br><br> _Dialog Code:  Chapter_3_0084600 " ,
- " Narration  <br><br> Suddenly, he lets out a low chuckle, which gradually becomes louder until he’s almost cackling. <br><br> _Dialog Code:  Chapter_3_0084800 " ,
- " character_object_esmeray Chapter_3_0085100 	…Pft. " ,
+ " Narration  <br><br> 	Esmeray\'s face is blank, eyeing the two in front of him. <br><br> _Dialog Code:  Chapter_3_0084600 " ,
+ " Narration  <br><br> Suddenly, he lets out a low chuckle, which gradually becomes louder until he\'s almost cackling. <br><br> _Dialog Code:  Chapter_3_0084800 " ,
+ " character_object_esmeray Chapter_3_0085100 	...Pft. " ,
 
- " character_object_esmeray Chapter_3_0085300 	…PuhahaA… PftahaHAHA! " ,
+ " character_object_esmeray Chapter_3_0085300 	...PuhahaA... PftahaHAHA! " ,
 
  " character_object_esmeray Chapter_3_0085600 	AHAhaAHahaha! " ,
 
- " character_object_esmeray Chapter_3_0085800 	…Pft. " ,
+ " character_object_esmeray Chapter_3_0085800 	...Pft. " ,
 
- " character_object_esmeray Chapter_3_0086100 	… " ,
+ " character_object_esmeray Chapter_3_0086100 	... " ,
 
- " character_object_esmeray Chapter_3_0086300 S-Sure, I’ll join the club and fight the dark souls of corruption of the students through the power of the club or whatever. This’ll be fun. " ,
+ " character_object_esmeray Chapter_3_0086300 S-Sure, I\'ll join the club and fight the dark souls of corruption of the students through the power of the club or whatever. This\'ll be fun. " ,
 
  " character_object_esmeray Chapter_3_0086500 Esmeray Teeth Smile " ,
 
- " Narration  <br><br> On Esmeray’s face is a wide, genuine smile as he continues to laugh. <br><br> _Dialog Code:  Chapter_3_0086800 " ,
+ " Narration  <br><br> On Esmeray\'s face is a wide, genuine smile as he continues to laugh. <br><br> _Dialog Code:  Chapter_3_0086800 " ,
  " Narration  <br><br> Atria and Skye are in shock, while Kyo starts to laugh along with Esmeray. <br><br> _Dialog Code:  Chapter_3_0087000 " ,
  " character_object_esmeray Chapter_3_0087200 Move Esmeray to right " ,
 
  " character_object_atria Chapter_3_0087300 Skye_Smile2 and Atria2_Smile on left " ,
 
- " character_object_skye Chapter_3_0087600 H-Hey! It’s true, the dark souls exist and need to be taken down! " ,
+ " character_object_skye Chapter_3_0087600 H-Hey! It\'s true, the dark souls exist and need to be taken down! " ,
 
  " Narration  <br><br> 	As she talks, Skye motions a punch into her palm. <br><br> _Dialog Code:  Chapter_3_0087900 " ,
- " character_object_atria Chapter_3_0088200 Y-Yeah! Don’t underestimate our drive to help the poor students of ILUNA Academy! " ,
+ " character_object_atria Chapter_3_0088200 Y-Yeah! Don\'t underestimate our drive to help the poor students of ILUNA Academy! " ,
 
  " Narration  <br><br> 	Esmeray just nods, as if he is in total agreement. <br><br> _Dialog Code:  Chapter_3_0088500 " ,
  " Narration  <br><br> Atria and Skye continue to talk loudly, and eventually the three of them start to converse about their interests and such. <br><br> _Dialog Code:  Chapter_3_0088700 " ,

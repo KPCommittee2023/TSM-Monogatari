@@ -18,7 +18,7 @@ def do_differently_given_code(row_in_csv):
         char_name = 'character_object_atria'
     elif 'Girl A' in char_name :
         char_name = 'character_object_girl_a'
-    elif 'Girl b' in char_name :
+    elif 'Girl B' in char_name :
         char_name = 'character_object_girl_b'
     elif 'Skye:' in char_name :
         char_name = 'character_object_skye'

@@ -87,27 +87,19 @@ monogatari.assets("scenes", {
 
 // Define the Characters
 monogatari.characters({
-  y: {
-    name: "Yui",
-    color: "#5bcaff",
-  },
-  character_object_player: {
-    name: "",
-    color: "#2E72C1",
-  },
   character_object_atria: {
     name: "Atria",
     color: "#912756",
     directory: 'Atria',
     sprites: {
-      atria1_happy: 'atria1_happy.png',
+      atria1_happy:   'atria1_happy.png',
       atria1_nervous: 'atria1_nervous.png',
-      atria1_sad: 'atria1_sad.png',
-      atria1_timid: 'atria1_timid.png',
-      atria2_happy: 'atria2_happy.png', 
+      atria1_sad:     'atria1_sad.png',
+      atria1_timid:   'atria1_timid.png',
+      atria2_happy:   'atria2_happy.png', 
       atria2_nervous: 'atria2_nervous.png', 
-      atria2_sad: 'atria2_sad.png', 
-      atria2_timid: 'atria2_timid.png',
+      atria2_sad:     'atria2_sad.png', 
+      atria2_timid:   'atria2_timid.png',
     }
   },
   character_object_esmeray: {
@@ -115,13 +107,13 @@ monogatari.characters({
     color: "#274554",
     directory: 'Esmeray',
     sprites: {
-      Esmeray_amused: "Esmeray_amused.PNG", 
-      Esmeray_angry: "Esmeray_angry.PNG", 
-      Esmeray_genuine: "Esmeray_genuine.PNG", 
-      Esmeray_neutral: "Esmeray_neutral.PNG", 
-      Esmeray_smile: "Esmeray_smile.PNG", 
-      Esmeray_teeth_smile: "Esmeray_teeth_smile.PNG", 
-      Esmeray_unamused: "Esmeray_unamused.PNG",
+      Esmeray_amused:     "Esmeray_amused.PNG", 
+      Esmeray_angry:      "Esmeray_angry.PNG", 
+      Esmeray_genuine:    "Esmeray_genuine.PNG", 
+      Esmeray_neutral:    "Esmeray_neutral.PNG", 
+      Esmeray_smile:      "Esmeray_smile.PNG", 
+      Esmeray_teeth_smile:"Esmeray_teeth_smile.PNG", 
+      Esmeray_unamused:   "Esmeray_unamused.PNG",
     }
   },
   character_object_kyo: {
@@ -147,10 +139,14 @@ monogatari.characters({
     directory: 'Skye',
     sprites: {
       fix_skye_default: "fix_skye_default.png", 
-      skye_sad : "skye_sad.png", 
-      skye_smile: "skye_smile.png", 
-      skye_smile2: "skye_smile2.png",
+      skye_sad :        "skye_sad.png", 
+      skye_smile:       "skye_smile.png", 
+      skye_smile2:      "skye_smile2.png",
     }
+  },
+  character_object_player: {
+    name: "",
+    color: "#2E72C1",
   },
   character_object_girl_a: {
     name: "Girl A",

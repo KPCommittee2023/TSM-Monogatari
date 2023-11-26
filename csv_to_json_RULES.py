@@ -31,48 +31,34 @@ def do_differently_given_code(row_in_csv):
         return '''
     {
         'Choice': {
-        
             'Chapter_0_Choice_1_Sure_you_can_have_a_bit' : {
                 'Text': 'Sure, you can have a bit.',
                 'Do': 'jump Chapter_0_Choice_1_Sure_you_can_have_a_bit',
             },
-
             'Choice_2_No_this_is_mine_Get_your_own' : {
                 'Text': 'No, this is mine. Get your own.',
                 'Do': 'jump Choice_2_No_this_is_mine_Get_your_own',
             },
-
         }
-    }, \n
-        
-    ],
+    },
+  ],
     
   'Chapter_0_Choice_1_Sure_you_can_have_a_bit': [
-
     " Choice 1 Sure, you can have a bit.  Chapter_0_0011400 Choice 1: Sure, you can have a bit. ",
-
     " character_object_kyo Chapter_0_0011700 Actually, never mind. There are probably some RAAAAAAAANCID germs in there. I don\'t want any of that. I refuuuuuuuuuuse. ",
-
     " Narration  <br><br> The nerve of this guy...!  <br><br> _Dialog Code:  Chapter_0_0012000 ",
     " Scene reconverges here  Chapter_0_0012200 Scene reconverges here ",
     "jump Chapter_0_after_choice_1"
   ],
   
   'Choice_2_No_this_is_mine_Get_your_own': [
-    
-    
     " Choice 2 No, this is mine. Get your own.  Chapter_0_0012500 Choice 2: No, this is mine. Get your own. ",
-    
     " character_object_kyo Chapter_0_0012700 Kyo_FP_Bruh ",
-    
     " Narration  <br><br> Kyo whines and pouts. <br><br> _Dialog Code:  Chapter_0_0013000 ",
     " Narration  <br><br> What is up with this guy? Yet, you find his pouting face a little cute. Like a puntable cat.  <br><br> _Dialog Code:  Chapter_0_0013200 ",
     " Scene Reconverges Here  Chapter_0_0013300 Scene Reconverges Here ",
-    
     "jump Chapter_0_after_choice_1"
   ],
-
-  
     
 'Chapter_0_after_choice_1': [
   

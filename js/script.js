@@ -601,7 +601,7 @@ monogatari.script({
      // Chapter_0_0024700 removed - covered in choice block above 
      // Chapter_0_0025000 removed - covered in choice block above 
      // Chapter_0_0025200 removed - covered in choice block above 
-                    		// end-of-CHAPTER-0-mark
+                         		// end-of-CHAPTER-0-mark
         'jump CHAPTER_1',
 	],
 	

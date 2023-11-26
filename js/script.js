@@ -241,116 +241,116 @@ monogatari.script({
 // "show scene Rooftop_bg_night",
 // 'test scene : Rooftop_bg_night',
 
-"show scene school_hallway_daylight",
-'test scene : school_hallway_daylight',
+// "show scene school_hallway_daylight",
+// 'test scene : school_hallway_daylight',
 
-"show scene school_hallway_evening",
-'test scene : school_hallway_evening',
+// "show scene school_hallway_evening",
+// 'test scene : school_hallway_evening',
 
-"show scene generic_classroom_bg",
-'test scene : generic_classroom_bg',
-
-
-
-
-
-'show character character_object_atria atria1_happy normal',
-'showing character character_object_atria atria1_happy normal',
-
-'show character character_object_atria atria1_nervous normal',
-'showing character character_object_atria atria1_nervous normal',
-
-'show character character_object_atria atria1_sad normal',
-'showing character character_object_atria atria1_sad normal',
-
-'show character character_object_atria atria1_timid normal',
-'showing character character_object_atria atria1_timid normal',
-
-
-'show character character_object_atria atria2_happy normal',
-'showing character character_object_atria atria2_happy normal',
-
-'show character character_object_atria atria2_nervous normal',
-'showing character character_object_atria atria2_nervous normal',
-
-'show character character_object_atria atria2_sad normal',
-'showing character character_object_atria atria2_sad normal',
-
-'show character character_object_atria atria2_timid normal',
-'showing character character_object_atria atria2_timid normal',
-
-
-
-
-'show character character_object_esmeray Esmeray_amused normal',
-'showing character character_object_esmeray Esmeray_amused normal',
-
-'show character character_object_esmeray Esmeray_angry normal',
-'showing character character_object_esmeray Esmeray_angry normal',
-
-'show character character_object_esmeray Esmeray_genuine normal',
-'showing character character_object_esmeray Esmeray_genuine normal',
-
-'show character character_object_esmeray Esmeray_neutral normal',
-'showing character character_object_esmeray Esmeray_neutral normal',
-
-'show character character_object_esmeray Esmeray_smile normal',
-'showing character character_object_esmeray Esmeray_smile normal',
-
-'show character character_object_esmeray Esmeray_teeth_smile normal',
-'showing character character_object_esmeray Esmeray_teeth_smile normal',
-
-'show character character_object_esmeray Esmeray_unamused normal',
-'showing character character_object_esmeray Esmeray_unamused normal',
-
-
-
-
-'show character character_object_kyo Kyo_BP_Default normal',
-'showing character character_object_kyo Kyo_BP_Default normal',
-
-'show character character_object_kyo Kyo_FP_Bruh normal',
-'showing character character_object_kyo Kyo_FP_Bruh normal',
-
-'show character character_object_kyo Kyo_FP_Cheerful normal',
-'showing character character_object_kyo Kyo_FP_Cheerful normal',
-
-'show character character_object_kyo Kyo_FP_Default normal',
-'showing character character_object_kyo Kyo_FP_Default normal',
-
-'show character character_object_kyo Kyo_FP_Sad normal',
-'showing character character_object_kyo Kyo_FP_Sad normal',
-
-'show character character_object_kyo Kyo_FP_Shocked normal',
-'showing character character_object_kyo Kyo_FP_Shocked normal',
-
-'show character character_object_kyo Kyo_FP_Smiling normal',
-'showing character character_object_kyo Kyo_FP_Smiling normal',
-
-'show character character_object_kyo Kyo_SP_Bruh normal',
-'showing character character_object_kyo Kyo_SP_Bruh normal',
-
-'show character character_object_kyo Kyo_SP_Default normal',
-'showing character character_object_kyo Kyo_SP_Default normal',
-
-'show character character_object_kyo Kyo_SP_Sad normal',
-'showing character character_object_kyo Kyo_SP_Sad normal',
+// "show scene generic_classroom_bg",
+// 'test scene : generic_classroom_bg',
 
 
 
 
 
-'show character character_object_skye fix_skye_default normal',
-'showing character character_object_skye fix_skye_default normal',
+// 'show character character_object_atria atria1_happy normal',
+// 'showing character character_object_atria atria1_happy normal',
 
-'show character character_object_skye skye_sad normal',
-'showing character character_object_skye skye_sad normal',
+// 'show character character_object_atria atria1_nervous normal',
+// 'showing character character_object_atria atria1_nervous normal',
 
-'show character character_object_skye skye_smile normal',
-'showing character character_object_skye skye_smile normal',
+// 'show character character_object_atria atria1_sad normal',
+// 'showing character character_object_atria atria1_sad normal',
 
-'show character character_object_skye skye_smile2 normal',
-'showing character character_object_skye skye_smile2 normal',
+// 'show character character_object_atria atria1_timid normal',
+// 'showing character character_object_atria atria1_timid normal',
+
+
+// 'show character character_object_atria atria2_happy normal',
+// 'showing character character_object_atria atria2_happy normal',
+
+// 'show character character_object_atria atria2_nervous normal',
+// 'showing character character_object_atria atria2_nervous normal',
+
+// 'show character character_object_atria atria2_sad normal',
+// 'showing character character_object_atria atria2_sad normal',
+
+// 'show character character_object_atria atria2_timid normal',
+// 'showing character character_object_atria atria2_timid normal',
+
+
+
+
+// 'show character character_object_esmeray Esmeray_amused normal',
+// 'showing character character_object_esmeray Esmeray_amused normal',
+
+// 'show character character_object_esmeray Esmeray_angry normal',
+// 'showing character character_object_esmeray Esmeray_angry normal',
+
+// 'show character character_object_esmeray Esmeray_genuine normal',
+// 'showing character character_object_esmeray Esmeray_genuine normal',
+
+// 'show character character_object_esmeray Esmeray_neutral normal',
+// 'showing character character_object_esmeray Esmeray_neutral normal',
+
+// 'show character character_object_esmeray Esmeray_smile normal',
+// 'showing character character_object_esmeray Esmeray_smile normal',
+
+// 'show character character_object_esmeray Esmeray_teeth_smile normal',
+// 'showing character character_object_esmeray Esmeray_teeth_smile normal',
+
+// 'show character character_object_esmeray Esmeray_unamused normal',
+// 'showing character character_object_esmeray Esmeray_unamused normal',
+
+
+
+
+// 'show character character_object_kyo Kyo_BP_Default normal',
+// 'showing character character_object_kyo Kyo_BP_Default normal',
+
+// 'show character character_object_kyo Kyo_FP_Bruh normal',
+// 'showing character character_object_kyo Kyo_FP_Bruh normal',
+
+// 'show character character_object_kyo Kyo_FP_Cheerful normal',
+// 'showing character character_object_kyo Kyo_FP_Cheerful normal',
+
+// 'show character character_object_kyo Kyo_FP_Default normal',
+// 'showing character character_object_kyo Kyo_FP_Default normal',
+
+// 'show character character_object_kyo Kyo_FP_Sad normal',
+// 'showing character character_object_kyo Kyo_FP_Sad normal',
+
+// 'show character character_object_kyo Kyo_FP_Shocked normal',
+// 'showing character character_object_kyo Kyo_FP_Shocked normal',
+
+// 'show character character_object_kyo Kyo_FP_Smiling normal',
+// 'showing character character_object_kyo Kyo_FP_Smiling normal',
+
+// 'show character character_object_kyo Kyo_SP_Bruh normal',
+// 'showing character character_object_kyo Kyo_SP_Bruh normal',
+
+// 'show character character_object_kyo Kyo_SP_Default normal',
+// 'showing character character_object_kyo Kyo_SP_Default normal',
+
+// 'show character character_object_kyo Kyo_SP_Sad normal',
+// 'showing character character_object_kyo Kyo_SP_Sad normal',
+
+
+
+
+
+// 'show character character_object_skye fix_skye_default normal',
+// 'showing character character_object_skye fix_skye_default normal',
+
+// 'show character character_object_skye skye_sad normal',
+// 'showing character character_object_skye skye_sad normal',
+
+// 'show character character_object_skye skye_smile normal',
+// 'showing character character_object_skye skye_smile normal',
+
+// 'show character character_object_skye skye_smile2 normal',
+// 'showing character character_object_skye skye_smile2 normal',
 
 
 

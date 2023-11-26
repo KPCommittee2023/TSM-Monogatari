@@ -45,22 +45,49 @@
 
  " character_object_kyo Chapter_1_0008400 Though, from what I’ve seen, I’m starting to even question whether you’re capable of that much. " ,
 
- " Proceed to two choices <Let it slide> or <Try proving him wrong>  Chapter_1_0008500 Proceed to two choices: <Let it slide> or <Try proving him wrong> " ,
 
- " Choice 1 Let it slide  Chapter_1_0008700 Choice 1: Let it slide " ,
+  // start hardcoded dialog_code == 'Chapter_1_0008500
+        {  
+        'Choice': {    
+            'Chapter_1_Choice_1_Let_it_slide' : {    
+                'Text': 'Let it slide',    
+                'Do': 'jump Chapter_1_Choice_1_Let_it_slide',    
+            },    
+            'Chapter_1_Choice_2_Try_proving_him_wrong' : {    
+                'Text': 'Try Proving him wrong',    
+                'Do': 'jump Chapter_1_Choice_2_Try_proving_him_wrong',    
+            },    
+        }    
+    },    
+  ],    
+    
+  'Chapter_1_Choice_1_Let_it_slide' : [    
+    " Narration  <br><br> Kyo snickers, tilting his head momentarily as if discreetly pointing somewhere.  <br><br> _Dialog Code:  Chapter_1_0009000 " ,
+     " character_object_kyo Chapter_1_0009300 I bet you anything if you actually listen you'll find someone immediately. " ,
+     " Narration  <br><br> Your eyes follow the direction of his nudge. <br><br> _Dialog Code:  Chapter_1_0009600 " ,
+     " Scene reconverges here  Chapter_1_0009800 Scene reconverges here " ,
+     "jump Chapter_1_after_choice_1",
+  ],    
+  'Chapter_1_Choice_2_Try_proving_him_wrong' : [    
+     " Narration  <br><br> You glance around, searching for someone you can listen in on to make your point. <br><br> _Dialog Code:  Chapter_1_0010400 " ,
+     " Narration  <br><br> Your ears pick up on some commotion, and your attention drifts. <br><br> _Dialog Code:  Chapter_1_0010600 " ,
+     " Narration  <br><br> 		Scene reconverges here <br><br> _Dialog Code:  Chapter_1_0010700 " ,
+     "jump Chapter_1_after_choice_1",
 
- " Narration  <br><br> Kyo snickers, tilting his head momentarily as if discreetly pointing somewhere.  <br><br> _Dialog Code:  Chapter_1_0009000 " ,
- " character_object_kyo Chapter_1_0009300 I bet you anything if you actually listen you’ll find someone immediately. " ,
+     ],
 
- " Narration  <br><br> Your eyes follow the direction of his nudge. <br><br> _Dialog Code:  Chapter_1_0009600 " ,
- " Scene reconverges here  Chapter_1_0009800 Scene reconverges here " ,
-
- " Choice 2 Try proving him wrong  Chapter_1_0010100 Choice 2: Try proving him wrong " ,
-
- " Narration  <br><br> You glance around, searching for someone you can listen in on to make your point. <br><br> _Dialog Code:  Chapter_1_0010400 " ,
- " Narration  <br><br> Your ears pick up on some commotion, and your attention drifts. <br><br> _Dialog Code:  Chapter_1_0010600 " ,
- " Narration  <br><br> 		Scene reconverges here <br><br> _Dialog Code:  Chapter_1_0010700 " ,
- " character_object_kyo Chapter_1_0010900 Remove Kyo " ,
+'Chapter_1_after_choice_1': [   
+    // end hardcoded dialog_code == 'Chapter_1_0008500
+// Chapter_1_0008700 removed - covered in choice block above 
+ // Chapter_1_0009000 removed - covered in choice block above 
+ // Chapter_1_0009300 removed - covered in choice block above 
+ // Chapter_1_0009600 removed - covered in choice block above 
+ // Chapter_1_0009800 removed - covered in choice block above 
+ // Chapter_1_0010100 removed - covered in choice block above 
+ // Chapter_1_0010400 removed - covered in choice block above 
+ // Chapter_1_0010600 removed - covered in choice block above 
+ // Chapter_1_0010700 removed - covered in choice block above 
+  " character_object_kyo Chapter_1_0010900 Remove Kyo " ,
 
  " character_object_atria Chapter_1_0011000 Atria1_Happy. Darken by 50%, centered " ,
 

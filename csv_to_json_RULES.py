@@ -131,7 +131,49 @@ def do_differently_given_code(row_in_csv):
     if 'Chapter_0_0015500' <= dialog_code    and   dialog_code <= 'Chapter_0_0025200'  : 
         # print( '\n\n\n\n removed   '+ dialog_code)
         return '// %s removed - covered in choice block above \n ' %dialog_code 
+
+
     
+    if dialog_code == 'Chapter_1_0008500':
+        return '''
+  // start hardcoded dialog_code == 'Chapter_1_0008500
+        {  
+        'Choice': {    
+            'Chapter_1_Choice_1_Let_it_slide' : {    
+                'Text': 'Let it slide',    
+                'Do': 'jump Chapter_1_Choice_1_Let_it_slide',    
+            },    
+            'Chapter_1_Choice_2_Try_proving_him_wrong' : {    
+                'Text': 'Try Proving him wrong',    
+                'Do': 'jump Chapter_1_Choice_2_Try_proving_him_wrong',    
+            },    
+        }    
+    },    
+  ],    
+    
+  'Chapter_1_Choice_1_Let_it_slide' : [    
+    " Narration  <br><br> Kyo snickers, tilting his head momentarily as if discreetly pointing somewhere.  <br><br> _Dialog Code:  Chapter_1_0009000 " ,
+     " character_object_kyo Chapter_1_0009300 I bet you anything if you actually listen you'll find someone immediately. " ,
+     " Narration  <br><br> Your eyes follow the direction of his nudge. <br><br> _Dialog Code:  Chapter_1_0009600 " ,
+     " Scene reconverges here  Chapter_1_0009800 Scene reconverges here " ,
+     "jump Chapter_1_after_choice_1",
+  ],    
+  'Chapter_1_Choice_2_Try_proving_him_wrong' : [    
+     " Narration  <br><br> You glance around, searching for someone you can listen in on to make your point. <br><br> _Dialog Code:  Chapter_1_0010400 " ,
+     " Narration  <br><br> Your ears pick up on some commotion, and your attention drifts. <br><br> _Dialog Code:  Chapter_1_0010600 " ,
+     " Narration  <br><br> 		Scene reconverges here <br><br> _Dialog Code:  Chapter_1_0010700 " ,
+     "jump Chapter_1_after_choice_1",
+
+     ],
+
+'Chapter_1_after_choice_1': [   
+    // end hardcoded dialog_code == 'Chapter_1_0008500
+'''
+    if 'Chapter_1_0008700' <= dialog_code    and   dialog_code <= 'Chapter_1_0010700'  : 
+        return '// %s removed - covered in choice block above \n ' %dialog_code 
+
+
+
 
 
     # end of choice rules 

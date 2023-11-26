@@ -36,14 +36,24 @@ def do_differently_given_code(row_in_csv):
         char_name = 'character_object_student'
 
 
-    # special rules here
+    # special sprites here
     if dialog_code == 'Chapter_0_0000300':
         return '\"show scene school_hallway_daylight\",\n '
-    if dialog_code == 'Chapter_0_0003300':
-        return '\"show scene music_room_basic\",\n '
+    if dialog_code == 'Chapter_0_0003300':  # no nothing?
+        return '\"show scene music_room_basic\",\n '  
+    if dialog_code == 'Chapter_0_0003500':
+        return '\"show character character_object_kyo Kyo_BP_Default centered\",\n '
+    if dialog_code == 'Chapter_0_0005100':
+        return '\"show character character_object_kyo Kyo_FP_Shocked normal\",\n '
+    if dialog_code == 'Chapter_0_0005700':
+        return '\"show character character_object_kyo Kyo_FP_Bruh normal\",\n '
+    if dialog_code == 'Chapter_0_0006600':
+        return '\"show character character_object_kyo FP_Default normal\",\n '
+    
+    
 
 
-    # end of special rules 
+    # end of sprites rules 
 
 
     output_to_json = ''

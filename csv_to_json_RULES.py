@@ -36,9 +36,14 @@ def do_differently_given_code(row_in_csv):
         char_name = 'character_object_student'
 
 
+    # special rules here
     if dialog_code == 'Chapter_0_0000300':
-        return '\"show scene generic_classroom_bg\",\n '
+        return '\"show scene school_hallway_daylight\",\n '
+    if dialog_code == 'Chapter_0_0003300':
+        return '\"show scene music_room_basic\",\n '
 
+
+    # end of special rules 
 
 
     output_to_json = ''

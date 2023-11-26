@@ -5,35 +5,7 @@ def do_differently_given_code(row_in_csv):
     char_name = row_in_csv[2]
     comment_msg = row_in_csv[3]
     line_text = row_in_csv[4]
-    
 
-    if 'Player' in char_name:        
-        return False
-    elif 'Narration' in char_name:        
-        return False
-    
-    elif 'Kyo' in char_name:        
-        char_name = 'character_object_kyo'
-    elif 'Atria' in char_name: 
-        char_name = 'character_object_atria'
-    elif 'Girl A' in char_name :
-        char_name = 'character_object_girl_a'
-    elif 'Girl b' in char_name :
-        char_name = 'character_object_girl_b'
-    elif 'Skye:' in char_name :
-        char_name = 'character_object_skye'
-    elif 'Student A' in char_name :
-        char_name = 'character_object_student_a'
-    elif 'Student B' in char_name :
-        char_name = 'character_object_student_b'
-    elif 'Student C' in char_name :
-        char_name = 'character_object_student_c'
-    elif 'Student D' in char_name :
-        char_name = 'character_object_student_d'
-    elif 'Esmeray' in char_name :
-        char_name = 'character_object_esmeray'
-    elif 'Student:' in char_name :
-        char_name = 'character_object_student'
 
 
     # sprites rules here
@@ -106,14 +78,46 @@ def do_differently_given_code(row_in_csv):
   
 
 '''
-    if dialog_code  > 'Chapter_0_0011200' and 'Chapter_0_0013300' > dialog_code  : 
-        print( '\n\n\n\n aksdjlhfdsakljfdsakldfhj'+ dialog_code)
-        return ' '
+    if 'Chapter_0_0011200' < dialog_code    and   dialog_code <= 'Chapter_0_0013300'  : 
+        # print( '\n\n\n\n removed   '+ dialog_code)
+        return '// %s removed - covered in choice block above \n ' %dialog_code 
     
     
 
 
     # end of choice rules 
+
+
+    
+
+    if 'Player' in char_name:        
+        return False
+    elif 'Narration' in char_name:        
+        return False
+    
+    elif 'Kyo' in char_name:        
+        char_name = 'character_object_kyo'
+    elif 'Atria' in char_name: 
+        char_name = 'character_object_atria'
+    elif 'Girl A' in char_name :
+        char_name = 'character_object_girl_a'
+    elif 'Girl b' in char_name :
+        char_name = 'character_object_girl_b'
+    elif 'Skye:' in char_name :
+        char_name = 'character_object_skye'
+    elif 'Student A' in char_name :
+        char_name = 'character_object_student_a'
+    elif 'Student B' in char_name :
+        char_name = 'character_object_student_b'
+    elif 'Student C' in char_name :
+        char_name = 'character_object_student_c'
+    elif 'Student D' in char_name :
+        char_name = 'character_object_student_d'
+    elif 'Esmeray' in char_name :
+        char_name = 'character_object_esmeray'
+    elif 'Student:' in char_name :
+        char_name = 'character_object_student'
+
 
 
     output_to_json = ''

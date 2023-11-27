@@ -227,8 +227,8 @@ def do_differently_given_code(row_in_csv):
         .replace("'", "\\'") \
         .replace("\"", "\\\"") \
         .replace("\n", " ")[:-1]
-    output_to_json+=' " '
-    output_to_json+=",\n\n"
+    output_to_json+=' "'
+    output_to_json+=",\n"
     
     # print('will output: \n', output_to_json)
     return output_to_json

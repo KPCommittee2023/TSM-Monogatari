@@ -169,5 +169,5 @@ def read_csv_return_txt_format(csv_filename, dir_path):
                 )
                 txt_file_write.write(" <br><br> _Dialog Code:  ")
                 txt_file_write.write(row[0])    # del this line in actual release
-                txt_file_write.write(' " ')
+                txt_file_write.write(' "')
                 txt_file_write.writelines(",\n")

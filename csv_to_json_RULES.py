@@ -142,9 +142,9 @@ def do_differently_given_code(row_in_csv):
        'Text': 'Let it slide',
        'Do': 'jump Chapter_1_Choice_1_Let_it_slide',
      },    
-    'Chapter_1_Choice_2_Try_proving_him_wrong': {
-      'Text': 'Try Proving him wrong',
-      'Do': 'jump Chapter_1_Choice_2_Try_proving_him_wrong',
+     'Chapter_1_Choice_2_Try_proving_him_wrong': {
+       'Text': 'Try Proving him wrong',
+       'Do': 'jump Chapter_1_Choice_2_Try_proving_him_wrong',
      },
    }
  },

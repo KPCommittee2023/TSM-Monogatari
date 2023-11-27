@@ -587,7 +587,7 @@ monogatari.script({
     // Chapter_0_0024700 removed - covered in choice block above 
     // Chapter_0_0025000 removed - covered in choice block above 
     // Chapter_0_0025200 removed - covered in choice block above 
-        // end-of-CHAPTER-0-mark
+            // end-of-CHAPTER-0-mark
     'jump CHAPTER_1',
   ],
 
@@ -634,9 +634,9 @@ monogatari.script({
           'Text': 'Let it slide',
           'Do': 'jump Chapter_1_Choice_1_Let_it_slide',
         },    
-       'Chapter_1_Choice_2_Try_proving_him_wrong': {
-         'Text': 'Try Proving him wrong',
-         'Do': 'jump Chapter_1_Choice_2_Try_proving_him_wrong',
+        'Chapter_1_Choice_2_Try_proving_him_wrong': {
+          'Text': 'Try Proving him wrong',
+          'Do': 'jump Chapter_1_Choice_2_Try_proving_him_wrong',
         },
       }
     },

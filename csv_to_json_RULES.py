@@ -681,7 +681,8 @@ def do_differently_given_code(row_in_csv):
         # return False
         char_name = 'character_object_player'
     elif 'Narration' in char_name:        
-        return False
+        # return False
+        char_name = 'character_object_narration'
     
     elif 'Kyo' in char_name:        
         char_name = 'character_object_kyo'
@@ -703,8 +704,8 @@ def do_differently_given_code(row_in_csv):
         char_name = 'character_object_student_d'
     elif 'Esmeray' in char_name :
         char_name = 'character_object_esmeray'
-    # elif 'Student:' in char_name :
-    #     char_name = 'character_object_student'
+    elif 'Student:' in char_name :
+        char_name = 'character_object_student'
 
 
 
@@ -715,15 +716,14 @@ def do_differently_given_code(row_in_csv):
         .replace("]", "") \
         .replace(":", "") \
         .replace("\n", "")
-    output_to_json+=" "
-    output_to_json+=dialog_code    # del this line in actual release
-    output_to_json+=" "
+    output_to_json+=" <br><br>"
     output_to_json+= line_text \
         .replace("[", "") \
         .replace("]", "") \
         .replace("'", "\\'") \
         .replace("\"", "\\\"") \
         .replace("\n", "")[:-1]
+    output_to_json+="  <br><br> _Dialog Code:  " + dialog_code    # del this line in actual release
     output_to_json+=' "'
     output_to_json+=",\n"
     

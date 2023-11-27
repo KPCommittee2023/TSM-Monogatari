@@ -9,12 +9,12 @@ def do_differently_given_code(row_in_csv):
 
 
     # sprites rules here
-    if dialog_code == 'Chapter_0_0000300': return '\"show scene school_hallway_daylight\", // rule based \n '
-    if dialog_code == 'Chapter_0_0003300': return '\"show scene music_room_basic\", // rule based \n '  
-    if dialog_code == 'Chapter_0_0003500': return '\"show character character_object_kyo Kyo_BP_Default centered\", // rule based \n '
-    if dialog_code == 'Chapter_0_0005100': return '\"show character character_object_kyo Kyo_FP_Shocked normal\", // rule based \n '
-    if dialog_code == 'Chapter_0_0005700': return '\"show character character_object_kyo Kyo_FP_Bruh normal\", // rule based \n '
-    if dialog_code == 'Chapter_0_0006600': return '\"show character character_object_kyo FP_Default normal\", // rule based \n '
+    if dialog_code == 'Chapter_0_0000300': return ' \"show scene school_hallway_daylight\", // rule based \n '
+    if dialog_code == 'Chapter_0_0003300': return ' \"show scene music_room_basic\", // rule based \n '  
+    if dialog_code == 'Chapter_0_0003500': return ' \"show character character_object_kyo Kyo_BP_Default centered\", // rule based \n '
+    if dialog_code == 'Chapter_0_0005100': return ' \"show character character_object_kyo Kyo_FP_Shocked normal\", // rule based \n '
+    if dialog_code == 'Chapter_0_0005700': return ' \"show character character_object_kyo Kyo_FP_Bruh normal\", // rule based \n '
+    if dialog_code == 'Chapter_0_0006600': return ' \"show character character_object_kyo FP_Default normal\", // rule based \n '
     
     
 

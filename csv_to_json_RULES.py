@@ -40,7 +40,7 @@ def do_differently_given_code(row_in_csv):
           'Text': 'No, this is mine. Get your own.',
           'Do': 'jump Chapter_0_Choice_2_No_this_is_mine_Get_your_own',
         },
-      }  
+      }
     },
   ],
   'Chapter_0_Choice_1_Sure_you_can_have_a_bit': [
@@ -250,7 +250,7 @@ def do_differently_given_code(row_in_csv):
         return '''
     // start hardcoded dialog_code == Chapter_1_0058600
     {
-    'Choice': {
+      'Choice': {
         'Chapter_1_Choice_3_ignore_the_whole_incident': {
           'Text': 'Tell her to confront them',
           'Do': 'jump Chapter_1_Choice_3_ignore_the_whole_incident',
@@ -399,7 +399,7 @@ def do_differently_given_code(row_in_csv):
     "jump Chapter_2_after_choice_2",
   ],
   'Chapter_2_after_choice_2': [
-  // end hardcoded dialog_code == 'Chapter_2_0035300
+    // end hardcoded dialog_code == 'Chapter_2_0035300
 '''
     if 'Chapter_2_0035500' <= dialog_code    and   dialog_code <= 'Chapter_2_0037700'  : 
         return '    // %s removed - covered in choice block above \n' %dialog_code 
@@ -418,13 +418,13 @@ def do_differently_given_code(row_in_csv):
 
     if dialog_code == 'Chapter_2_0086100':
         return '''
-      // start hardcoded dialog_code == Chapter_2_0086100
+    // start hardcoded dialog_code == Chapter_2_0086100
     {
-    'Choice': {
+      'Choice': {
         'Chapter_2_Choice_3_dont_invite_her_to_the_radio_club': {
           'Text': "Don\'t invite her to the radio club",
           'Do': 'jump Chapter_2_Choice_3_dont_invite_her_to_the_radio_club',
-        },    
+        },
         'Chapter_2_Choice_3_invite_her_to_the_radio_club': {
           'Text': 'Invite her to the radio club',
           'Do': 'jump Chapter_2_Choice_3_invite_her_to_the_radio_club',
@@ -448,7 +448,7 @@ def do_differently_given_code(row_in_csv):
     "jump Chapter_2_after_choice_3",
   ],
   'Chapter_2_after_choice_3': [
-  // end hardcoded dialog_code == 'Chapter_2_0086100
+    // end hardcoded dialog_code == 'Chapter_2_0086100
 '''
     if 'Chapter_2_0086300' <= dialog_code    and   dialog_code <= 'Chapter_2_0087900'  : 
         return '    // %s removed - covered in choice block above \n' %dialog_code 
@@ -531,11 +531,11 @@ def do_differently_given_code(row_in_csv):
         return '''
     // start hardcoded dialog_code == Chapter_3_0036100
     {
-    'Choice': {
+      'Choice': {
         'Chapter_3_Choice_2_invite_esmeray_to_the_club': {
           'Text': "Invite Esmeray to the Club ",
           'Do': 'jump Chapter_3_Choice_2_invite_esmeray_to_the_club',
-        },    
+        },
         'Chapter_3_Choice_2_hesitate': {
           'Text': "Hesitate",
           'Do': 'jump Chapter_3_Choice_2_hesitate',
@@ -599,7 +599,7 @@ def do_differently_given_code(row_in_csv):
     "jump Chapter_3_after_choice_2",
   ],
   'Chapter_3_after_choice_2': [
-  // end hardcoded dialog_code == 'Chapter_3_0036100
+    // end hardcoded dialog_code == 'Chapter_3_0036100
 '''
     if 'Chapter_3_0036300' <= dialog_code    and   dialog_code <= 'Chapter_3_0044600'  : 
         return '    // %s removed - covered in choice block above \n' %dialog_code 
@@ -622,11 +622,11 @@ def do_differently_given_code(row_in_csv):
         return '''
     // start hardcoded dialog_code == Chapter_3_0074000
     {
-    'Choice': {
+      'Choice': {
         'Chapter_3_Choice_3_introduct_Esmeray': {
           'Text': "Introduce Esmeray",
           'Do': 'jump Chapter_3_Choice_3_introduct_Esmeray',
-        },    
+        },
         'Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves': {
           'Text': "Wait for Esmeray to introduce themselves",
           'Do': 'jump Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves',
@@ -652,7 +652,7 @@ def do_differently_given_code(row_in_csv):
     "jump Chapter_3_after_choice_3",
   ],
   'Chapter_3_after_choice_3': [
-  // end hardcoded dialog_code == 'Chapter_3_0074000
+    // end hardcoded dialog_code == 'Chapter_3_0074000
 '''
     if 'Chapter_3_0074200' <= dialog_code    and   dialog_code <= 'Chapter_3_0076000'  : 
         return '    // %s removed - covered in choice block above \n' %dialog_code 

@@ -405,8 +405,8 @@ monogatari.script({
     // start-of-CHAPTER-0-mark
     "_Name <br><br>_Tex  <br><br> _Dialog Code:  _DialogCode ",
     " <br><br>Prologue: Waxing Iridescen  <br><br> _Dialog Code:  Chapter_0_0000100 ",
-   "show scene school_hallway_daylight", // rule based 
-     "Intro Music <br><br>Intro Musi  <br><br> _Dialog Code:  Chapter_0_0000400 ",
+    "show scene school_hallway_daylight", // rule based 
+    "Intro Music <br><br>Intro Musi  <br><br> _Dialog Code:  Chapter_0_0000400 ",
     "character_object_narration <br><br>It\'s lunch break at school, but the atmosphere is livelier than usual. Oh right, it\'s Club Day today. You still can\'t decide which club you want to join this year.  <br><br> _Dialog Code:  Chapter_0_0000700 ",
     "character_object_narration <br><br>You stop walking the hallways to look at the board of various club posters. Oh man, you\'ve never joined one before, so the amount of options overwhelm you a little. You think of just joining multiple clubs at a time, but you quickly brush off that thought. Clubs are supposed to be a good break from the humdrum of academics. Don\'t get ahead of yourself  <br><br> _Dialog Code:  Chapter_0_0000900 ",
     "character_object_narration <br><br>There\'s an art club poster. That\'s a hard no. The most artistic you\'ve ever been was when you colored the sky a solid green and the ground magenta. Only because the other crayons were missing. And that was in a coloring book. Not fun at all  <br><br> _Dialog Code:  Chapter_0_0001100 ",
@@ -420,21 +420,21 @@ monogatari.script({
     "Radio club poster (wall poster). Allow toggle for zoom in to the RadioClub.png in Art folder. <br><br>Radio club poster (wall poster). Allow toggle for zoom in to the RadioClub.png in Art folder  <br><br> _Dialog Code:  Chapter_0_0002700 ",
     "character_object_narration <br><br>It advertises... a radio club? Interesting. Teachers love to praise your diction and confidence in your class presentations. This could be worth a try.  <br><br> _Dialog Code:  Chapter_0_0002900 ",
     "character_object_narration <br><br>You enter a nearby room with the radio club sign on its door.  <br><br> _Dialog Code:  Chapter_0_0003100 ",
-   "show scene music_room_basic", // rule based 
+    "show scene music_room_basic", // rule based 
     "show character character_object_kyo Kyo_BP_Default centered", // rule based 
-     "Centered <br><br>Centere  <br><br> _Dialog Code:  Chapter_0_0003600 ",
+    "Centered <br><br>Centere  <br><br> _Dialog Code:  Chapter_0_0003600 ",
     "character_object_narration <br><br>There\'s only one student here. Yet, you can tell that you\'re in the right place. Her appearance is just as colorful as the poster, and the graffiti beside her only emphasizes that  <br><br> _Dialog Code:  Chapter_0_0003800 ",
     "character_object_narration <br><br>The microphone on the other side of the room looks too high for her to reach. That�s a bit weird  <br><br> _Dialog Code:  Chapter_0_0004000 ",
     "character_object_narration <br><br>It looks like the girl�s still on her phone. You decide to get her attention  <br><br> _Dialog Code:  Chapter_0_0004200 ",
     "character_object_player <br><br>Hi, I wanna join the radio club  <br><br> _Dialog Code:  Chapter_0_0004500 ",
     "character_object_narration <br><br>She puts her phone away and turns around  <br><br> _Dialog Code:  Chapter_0_0004800 ",
-   "show character character_object_kyo Kyo_FP_Shocked normal", // rule based 
-     "character_object_narration <br><br>The student\'s voice then drops a few octaves lower than you expect her to have  <br><br> _Dialog Code:  Chapter_0_0005400 ",
-   "show character character_object_kyo Kyo_FP_Bruh normal", // rule based 
-     "character_object_narration <br><br>Well, you now know two things. One, this girl is actually a guy. Two, this dude�s language is as colorful as his hair. What a bombastic impression you�ve left on each other. It only goes uphill from here  <br><br> _Dialog Code:  Chapter_0_0006000 ",
+    "show character character_object_kyo Kyo_FP_Shocked normal", // rule based 
+    "character_object_narration <br><br>The student\'s voice then drops a few octaves lower than you expect her to have  <br><br> _Dialog Code:  Chapter_0_0005400 ",
+    "show character character_object_kyo Kyo_FP_Bruh normal", // rule based 
+    "character_object_narration <br><br>Well, you now know two things. One, this girl is actually a guy. Two, this dude�s language is as colorful as his hair. What a bombastic impression you�ve left on each other. It only goes uphill from here  <br><br> _Dialog Code:  Chapter_0_0006000 ",
     "character_object_player <br><br>Sorry, I just walked in. Is this the wrong room? I think I\'m in the wrong ro  <br><br> _Dialog Code:  Chapter_0_0006300 ",
-   "show character character_object_kyo FP_Default normal", // rule based 
-     "character_object_player <br><br>Yeah, that\'s kinda what I said before you started freaking out.  <br><br> _Dialog Code:  Chapter_0_0006900 ",
+    "show character character_object_kyo FP_Default normal", // rule based 
+    "character_object_player <br><br>Yeah, that\'s kinda what I said before you started freaking out.  <br><br> _Dialog Code:  Chapter_0_0006900 ",
     "character_object_kyo <br><br>Okay, okay, my bad. I literally didn\'t hear you walk in. Anyways, hi, I\'m Kyo Kaneko. What\'s your name  <br><br> _Dialog Code:  Chapter_0_0007200 ",
     "character_object_player <br><br>I\'m Player.  <br><br> _Dialog Code:  Chapter_0_0007500 ",
     "character_object_player <br><br>Player. Alright, here\'s how the club works  <br><br> _Dialog Code:  Chapter_0_0007800 ",
@@ -449,7 +449,7 @@ monogatari.script({
     "character_object_player <br><br>Butter croissants  <br><br> _Dialog Code:  Chapter_0_0010400 ",
     "character_object_narration <br><br>Kyo stares at your bread a little longer than you want him to  <br><br> _Dialog Code:  Chapter_0_0010700 ",
     "character_object_kyo <br><br>Can I have some  <br><br> _Dialog Code:  Chapter_0_0011000 ",
-   
+
     // begin hardcoded dialog_code == 'Chapter_0_0011200
     {
       'Choice': {
@@ -461,29 +461,29 @@ monogatari.script({
           'Text': 'No, this is mine. Get your own.',
           'Do': 'jump Chapter_0_Choice_2_No_this_is_mine_Get_your_own',
         },
-      }  
+      }
     },
-   ],
-   'Chapter_0_Choice_1_Sure_you_can_have_a_bit': [
+  ],
+  'Chapter_0_Choice_1_Sure_you_can_have_a_bit': [
     "Choice 1 Sure, you can have a bit.  Chapter_0_0011400 Choice 1: Sure, you can have a bit. ",
     "character_object_kyo Chapter_0_0011700 Actually, never mind. There are probably some RAAAAAAAANCID germs in there. I don't want any of that. I refuuuuuuuuuuse. ",
     "Narration  <br><br> The nerve of this guy...!  <br><br> _Dialog Code:  Chapter_0_0012000 ",
     "Scene reconverges here  Chapter_0_0012200 Scene reconverges here ",
     "jump Chapter_0_after_choice_1",
-   ],
-   'Chapter_0_Choice_2_No_this_is_mine_Get_your_own': [
+  ],
+  'Chapter_0_Choice_2_No_this_is_mine_Get_your_own': [
     "Choice 2 No, this is mine. Get your own.  Chapter_0_0012500 Choice 2: No, this is mine. Get your own. ",
     "character_object_kyo Chapter_0_0012700 Kyo_FP_Bruh ",
     "Narration  <br><br> Kyo whines and pouts. <br><br> _Dialog Code:  Chapter_0_0013000 ",
-    "Narration  <br><br> What is up with this guy? Yet, you find his pouting face a little cute. Like a puntable cat.  <br><br> _Dialog Code:  Chapter_0_0013200 ",   
+    "Narration  <br><br> What is up with this guy? Yet, you find his pouting face a little cute. Like a puntable cat.  <br><br> _Dialog Code:  Chapter_0_0013200 ",
     "Scene Reconverges Here  Chapter_0_0013300 Scene Reconverges Here ",
     "jump Chapter_0_after_choice_1"
-   ],
-   
-   'Chapter_0_after_choice_1': [
+  ],
+
+  'Chapter_0_after_choice_1': [
     // end hardcoded dialog_code == 'Chapter_0_0011200
-   
-   // Chapter_0_0011400 removed - covered in choice block above 
+
+    // Chapter_0_0011400 removed - covered in choice block above 
     // Chapter_0_0011700 removed - covered in choice block above 
     // Chapter_0_0012000 removed - covered in choice block above 
     // Chapter_0_0012200 removed - covered in choice block above 
@@ -492,14 +492,14 @@ monogatari.script({
     // Chapter_0_0013000 removed - covered in choice block above 
     // Chapter_0_0013200 removed - covered in choice block above 
     // Chapter_0_0013300 removed - covered in choice block above 
-     "character_object_kyo <br><br>Anyways, since this club requires confident people, I\'d say you\'re a pretty good candidate so far. Most people don�t have the balls to approach me  <br><br> _Dialog Code:  Chapter_0_0013600 ",
+    "character_object_kyo <br><br>Anyways, since this club requires confident people, I\'d say you\'re a pretty good candidate so far. Most people don�t have the balls to approach me  <br><br> _Dialog Code:  Chapter_0_0013600 ",
     "character_object_narration <br><br>You look up and down at Kyo incredulously  <br><br> _Dialog Code:  Chapter_0_0013900 ",
     "character_object_player <br><br>Really? You�re not even tall enough to reach the mic over there  <br><br> _Dialog Code:  Chapter_0_0014200 ",
     "character_object_kyo <br><br>Hey hey, shut up. Shut the fuck up  <br><br> _Dialog Code:  Chapter_0_0014500 ",
     "character_object_narration <br><br>Kyo looks up at the classroom clock  <br><br> _Dialog Code:  Chapter_0_0014800 ",
     "character_object_kyo <br><br>Lunch\'s almost over. So, whaddya say, you wanna join the club or not  <br><br> _Dialog Code:  Chapter_0_0015100 ",
-   
-   // start hardcoded dialog_code == 'CXhapter_0_0015300
+
+    // start hardcoded dialog_code == 'CXhapter_0_0015300
     {
       'Choice': {
         'Chapter_0_Choice_2_Yes': {
@@ -512,9 +512,9 @@ monogatari.script({
         },
       }
     },
-   ],
-   
-   'Chapter_0_Choice_2_Yes': [
+  ],
+
+  'Chapter_0_Choice_2_Yes': [
     "Choice 1 Yes.  Chapter_0_0015500 Choice 1: Yes. ",
     "character_object_kyo Chapter_0_0015700 Kyo_FP_Cheerful ",
     "Narration  <br><br> Kyo claps his hands. <br><br> _Dialog Code:  Chapter_0_0016000 ",
@@ -533,8 +533,8 @@ monogatari.script({
     "Fade to black  Chapter_0_0019700 Fade to black ",
     "Proceed to Chapter 1  Chapter_0_0019800 Proceed to Chapter 1 ",
     "jump CHAPTER_1",
-   ],
-   'Chapter_0_Choice_2_No': [
+  ],
+  'Chapter_0_Choice_2_No': [
     "Choice 2 No.  Chapter_0_0020100 Choice 2: No. ",
     "character_object_kyo Chapter_0_0020400 Oh, why not?  ",
     "Player  <br><br> Oh, don't take this the wrong way. It's just that I wanna consider my other options.  <br><br> _Dialog Code:  Chapter_0_0020700 ",
@@ -555,7 +555,7 @@ monogatari.script({
     "Narration  <br><br> The next day, you try to find Kyo in the radio club room. But the room is empty. You try asking people about Kyo's whereabouts, but people don't even know who he is. What the hell. That's weird. Eh, whatever. Life continues to be lonely as usual. <br><br> _Dialog Code:  Chapter_0_0025000 ",
     "Game end - joke ending. Restart from beginning of game  Chapter_0_0025200 Game end - joke ending. Restart from beginning of game ",
     "jump END",
-   // Chapter_0_0015500 removed - covered in choice block above 
+    // Chapter_0_0015500 removed - covered in choice block above 
     // Chapter_0_0015700 removed - covered in choice block above 
     // Chapter_0_0016000 removed - covered in choice block above 
     // Chapter_0_0016300 removed - covered in choice block above 
@@ -591,7 +591,7 @@ monogatari.script({
     // Chapter_0_0024700 removed - covered in choice block above 
     // Chapter_0_0025000 removed - covered in choice block above 
     // Chapter_0_0025200 removed - covered in choice block above 
-                        // end-of-CHAPTER-0-mark
+    // end-of-CHAPTER-0-mark
     'jump CHAPTER_1',
   ],
 
@@ -630,38 +630,38 @@ monogatari.script({
     "character_object_player <br><br>What do you want me to do? Just sit and observe as someone goes about their day?? Just stand menacingly in some corner and watch them  <br><br> _Dialog Code:  Chapter_1_0007900 ",
     "character_object_kyo <br><br>No need to make it sound so creepy. Listen, you gotta do what you gotta do. Just don�t make it too obvious.  <br><br> _Dialog Code:  Chapter_1_0008200 ",
     "character_object_kyo <br><br>Though, from what I�ve seen, I�m starting to even question whether you�re capable of that much  <br><br> _Dialog Code:  Chapter_1_0008400 ",
-   
+
     // start hardcoded dialog_code == 'Chapter_1_0008500
     {
       'Choice': {
         'Chapter_1_Choice_1_Let_it_slide': {
           'Text': 'Let it slide',
           'Do': 'jump Chapter_1_Choice_1_Let_it_slide',
-        },    
+        },
         'Chapter_1_Choice_1_Try_proving_him_wrong': {
           'Text': 'Try Proving him wrong',
           'Do': 'jump Chapter_1_Choice_2_Try_proving_him_wrong',
         },
       }
     },
-   ],
-   
-   'Chapter_1_Choice_1_Let_it_slide': [
+  ],
+
+  'Chapter_1_Choice_1_Let_it_slide': [
     "Narration  <br><br> Kyo snickers, tilting his head momentarily as if discreetly pointing somewhere.  <br><br> _Dialog Code:  Chapter_1_0009000 ",
     "character_object_kyo Chapter_1_0009300 I bet you anything if you actually listen you'll find someone immediately. ",
     "Narration  <br><br> Your eyes follow the direction of his nudge. <br><br> _Dialog Code:  Chapter_1_0009600 ",
     "Scene reconverges here  Chapter_1_0009800 Scene reconverges here ",
     "jump Chapter_1_after_choice_1",
-   ],
-   'Chapter_1_Choice_2_Try_proving_him_wrong' : [
+  ],
+  'Chapter_1_Choice_2_Try_proving_him_wrong': [
     "Narration  <br><br> You glance around, searching for someone you can listen in on to make your point. <br><br> _Dialog Code:  Chapter_1_0010400 ",
     "Narration  <br><br> Your ears pick up on some commotion, and your attention drifts. <br><br> _Dialog Code:  Chapter_1_0010600 ",
     "Narration  <br><br> 		Scene reconverges here <br><br> _Dialog Code:  Chapter_1_0010700 ",
     "jump Chapter_1_after_choice_1",
-   ],
-   'Chapter_1_after_choice_1': [
+  ],
+  'Chapter_1_after_choice_1': [
     // end hardcoded dialog_code == 'Chapter_1_0008500
-   // Chapter_1_0008700 removed - covered in choice block above 
+    // Chapter_1_0008700 removed - covered in choice block above 
     // Chapter_1_0009000 removed - covered in choice block above 
     // Chapter_1_0009300 removed - covered in choice block above 
     // Chapter_1_0009600 removed - covered in choice block above 
@@ -670,7 +670,7 @@ monogatari.script({
     // Chapter_1_0010400 removed - covered in choice block above 
     // Chapter_1_0010600 removed - covered in choice block above 
     // Chapter_1_0010700 removed - covered in choice block above 
-     "character_object_kyo <br><br>Remove Ky  <br><br> _Dialog Code:  Chapter_1_0010900 ",
+    "character_object_kyo <br><br>Remove Ky  <br><br> _Dialog Code:  Chapter_1_0010900 ",
     "character_object_atria <br><br>Atria1_Happy. Darken by 50%, centere  <br><br> _Dialog Code:  Chapter_1_0011000 ",
     "character_object_narration <br><br>At that moment, you see a group of girls across the courtyard. They all seem rather silent�bored, even� but one of them in particular stands out to you  <br><br> _Dialog Code:  Chapter_1_0011300 ",
     "??? <br><br>Anyways! About the person I was talking about earlier, the one that I frequently watch. They did this one stream recently, it was a collaboration with some of my favorite streamers! When I saw the waiting room for it, I got really excited  <br><br> _Dialog Code:  Chapter_1_0011600 ",
@@ -740,23 +740,23 @@ monogatari.script({
     "character_object_player <br><br>Wh  <br><br> _Dialog Code:  Chapter_1_0028200 ",
     "character_object_kyo <br><br>Are you even gonna do something? Or nah  <br><br> _Dialog Code:  Chapter_1_0028500 ",
     "character_object_narration <br><br>Kyo looks at you, like he wants you to go run after her. It�s� oddly ominous. Like he just wants an excuse to make you speak with Atria. �Does he know her or something? Is that what this was all about?  <br><br> _Dialog Code:  Chapter_1_0028800 ",
-   
+
     // start hardcoded dialog_code == Chapter_1_0029000
     {
-     'Choice': {
+      'Choice': {
         'Chapter_1_Choice_2_ignore_the_whole_incident': {
           'Text': 'Ignore the whole incident',
           'Do': 'jump Chapter_1_Choice_2_ignore_the_whole_incident',
-        },    
+        },
         'Chapter_1_Choice_2_go_search_for_atria': {
           'Text': 'Go search for Atria',
           'Do': 'jump Chapter_1_Choice_2_go_search_for_atria',
         },
       }
     },
-   ],
-   
-   'Chapter_1_Choice_2_ignore_the_whole_incident': [
+  ],
+
+  'Chapter_1_Choice_2_ignore_the_whole_incident': [
     "Choice 1 Ignore the whole incident  Chapter_1_0029200 Choice 1: Ignore the whole incident ",
     "Player  <br><br> I really don't think I should interfere... <br><br> _Dialog Code:  Chapter_1_0029500 ",
     "character_object_kyo Chapter_1_0029700 Kyo_FP_Bruh ",
@@ -768,15 +768,15 @@ monogatari.script({
     "Narration  <br><br> You joke, rolling your eyes. <br><br> _Dialog Code:  Chapter_1_0031400 ",
     "Scene reconverges here  Chapter_1_0031600 Scene reconverges here ",
     "jump Chapter_1_after_choice_2",
-   ],
-   'Chapter_1_Choice_2_go_search_for_atria': [    
+  ],
+  'Chapter_1_Choice_2_go_search_for_atria': [
     "character_object_atria Chapter_1_0031800 Choice 2: Go search for Atria ",
     "Scene reconverges here  Chapter_1_0031900 Scene reconverges here ",
     "jump Chapter_1_after_choice_2",
-   ],
-   'Chapter_1_after_choice_2': [
+  ],
+  'Chapter_1_after_choice_2': [
     // end hardcoded dialog_code == 'Chapter_1_0029000
-   // Chapter_1_0029200 removed - covered in choice block above 
+    // Chapter_1_0029200 removed - covered in choice block above 
     // Chapter_1_0029500 removed - covered in choice block above 
     // Chapter_1_0029700 removed - covered in choice block above 
     // Chapter_1_0030000 removed - covered in choice block above 
@@ -788,7 +788,7 @@ monogatari.script({
     // Chapter_1_0031600 removed - covered in choice block above 
     // Chapter_1_0031800 removed - covered in choice block above 
     // Chapter_1_0031900 removed - covered in choice block above 
-     "character_object_player <br><br>Fine, fine. Let�s go find her, alright  <br><br> _Dialog Code:  Chapter_1_0032200 ",
+    "character_object_player <br><br>Fine, fine. Let�s go find her, alright  <br><br> _Dialog Code:  Chapter_1_0032200 ",
     "character_object_kyo <br><br>...Actually, I think you should go on your own. I� will only ge  <br><br> _Dialog Code:  Chapter_1_0032500 ",
     "character_object_kyo <br><br>in the way  <br><br> _Dialog Code:  Chapter_1_0032600 ",
     "character_object_narration <br><br>He speaks in an eerie tone, as if he�s admitting to something  <br><br> _Dialog Code:  Chapter_1_0032900 ",
@@ -890,23 +890,23 @@ monogatari.script({
     "character_object_atria <br><br>�I-I�m scared  <br><br> _Dialog Code:  Chapter_1_0057900 ",
     "character_object_atria <br><br>�What are they going to think  <br><br> _Dialog Code:  Chapter_1_0058100 ",
     "character_object_narration <br><br>You look at her with solemn eyes, acknowledging the severity of her situation  <br><br> _Dialog Code:  Chapter_1_0058400 ",
-   
+
     // start hardcoded dialog_code == Chapter_1_0058600
     {
-     'Choice': {
+      'Choice': {
         'Chapter_1_Choice_3_ignore_the_whole_incident': {
           'Text': 'Tell her to confront them',
           'Do': 'jump Chapter_1_Choice_3_ignore_the_whole_incident',
-        },    
+        },
         'Chapter_1_Choice_3_go_search_for_atria': {
           'Text': 'Tell her to take her time',
           'Do': 'jump Chapter_1_Choice_3_go_search_for_atria',
         },
       }
     },
-   ],
-   
-   'Chapter_1_Choice_3_ignore_the_whole_incident': [
+  ],
+
+  'Chapter_1_Choice_3_ignore_the_whole_incident': [
     "Choice 1 Tell her to confront them  Chapter_1_0058800 Choice 1: Tell her to confront them ",
     "Player  <br><br> Atria, I understand your attachment to them, but a lot of their actions that you've explained to me don't seem right in any way.. <br><br> _Dialog Code:  Chapter_1_0059100 ",
     "Player  <br><br> If you think they are causing you hurt, the best thing to do is confront them as soon as possible. <br><br> _Dialog Code:  Chapter_1_0059300 ",
@@ -921,8 +921,8 @@ monogatari.script({
     "character_object_atria Chapter_1_0061600 ...I... don't think that's a good idea. ",
     "Scene reconverges here  Chapter_1_0061800 Scene reconverges here ",
     "jump Chapter_1_after_choice_3",
-   ],
-   'Chapter_1_Choice_3_go_search_for_atria': [
+  ],
+  'Chapter_1_Choice_3_go_search_for_atria': [
     "Choice 2 Tell her to take her time  Chapter_1_0062000 Choice 2: Tell her to take her time ",
     "Player  <br><br> Don't worry too much about it. I'll help you through this, and you can take as much time as you need. <br><br> _Dialog Code:  Chapter_1_0062300 ",
     "Player  <br><br> It's a large step to take, and it can take a lot. I encourage you to take your time. <br><br> _Dialog Code:  Chapter_1_0062500 ",
@@ -932,10 +932,10 @@ monogatari.script({
     "character_object_atria Chapter_1_0063500 I... I don't really know... I've known them for so long...",
     "Scene reconverges here  Chapter_1_0063600 Scene reconverges here ",
     "jump Chapter_1_after_choice_3",
-   ],
-   'Chapter_1_after_choice_3': [
+  ],
+  'Chapter_1_after_choice_3': [
     // end hardcoded dialog_code == 'Chapter_1_0058600
-   // Chapter_1_0058800 removed - covered in choice block above 
+    // Chapter_1_0058800 removed - covered in choice block above 
     // Chapter_1_0059100 removed - covered in choice block above 
     // Chapter_1_0059300 removed - covered in choice block above 
     // Chapter_1_0059500 removed - covered in choice block above 
@@ -956,7 +956,7 @@ monogatari.script({
     // Chapter_1_0063200 removed - covered in choice block above 
     // Chapter_1_0063500 removed - covered in choice block above 
     // Chapter_1_0063600 removed - covered in choice block above 
-     "character_object_atria <br><br>But  <br><br> _Dialog Code:  Chapter_1_0063900 ",
+    "character_object_atria <br><br>But  <br><br> _Dialog Code:  Chapter_1_0063900 ",
     "character_object_atria <br><br>Atria1_Nervou  <br><br> _Dialog Code:  Chapter_1_0064100 ",
     "character_object_atria <br><br>I can try  <br><br> _Dialog Code:  Chapter_1_0064300 ",
     "character_object_narration <br><br>You smile at her efforts  <br><br> _Dialog Code:  Chapter_1_0064600 ",
@@ -1090,23 +1090,23 @@ monogatari.script({
     "character_object_player <br><br>I\'m Player. Nice to meet you.  <br><br> _Dialog Code:  Chapter_2_0010700 ",
     "character_object_narration <br><br>You take her hand with a smile, receiving a small smile back  <br><br> _Dialog Code:  Chapter_2_0011000 ",
     "character_object_narration <br><br>Kyo coughs behind you, reminding you that you were in school this early for a reason. At this rate, class would start before you could finish your duties for the radio club  <br><br> _Dialog Code:  Chapter_2_0011200 ",
-   
+
     // start hardcoded dialog_code == Chapter_2_0011400
     {
-     'Choice': {
+      'Choice': {
         'Chapter_2_Choice_1_dont_invite_her_to_the_radio_club': {
           'Text': "Don't invite her to the radio club",
           'Do': 'jump Chapter_2_Choice_1_dont_invite_her_to_the_radio_club',
-        },    
+        },
         'Chapter_2_Choice_1_invite_her_to_the_radio_club': {
           'Text': 'Invite her to the radio club',
           'Do': 'jump Chapter_2_Choice_1_invite_her_to_the_radio_club',
         },
       }
     },
-   ],
-   
-   'Chapter_2_Choice_1_dont_invite_her_to_the_radio_club': [
+  ],
+
+  'Chapter_2_Choice_1_dont_invite_her_to_the_radio_club': [
     "Choice 1 Don't invite her to the radio club  Chapter_2_0011600 Choice 1: Don't invite her to the radio club ",
     "Skye Sprite disappears  Chapter_2_0011800 Skye Sprite disappears ",
     "character_object_kyo Chapter_2_0011900 Kyo _FP_Default Appears ",
@@ -1121,15 +1121,15 @@ monogatari.script({
     "Narration  <br><br> With a grumble, you turn back to Skye, who blinks weirdly at you, looking strangely at the both of you muttering at each other. <br><br> _Dialog Code:  Chapter_2_0014200 ",
     "Scene reconverges here  Chapter_2_0014400 Scene reconverges here ",
     "jump Chapter_2_after_choice_1",
-   ],
-   'Chapter_2_Choice_1_invite_her_to_the_radio_club': [
+  ],
+  'Chapter_2_Choice_1_invite_her_to_the_radio_club': [
     "Choice 2 Invite her to the radio club  Chapter_2_0014600 Choice 2: Invite her to the radio club ",
     "Scene reconverges here  Chapter_2_0014700 Scene reconverges here ",
     "jump Chapter_2_after_choice_1",
-   ],
-   'Chapter_2_after_choice_1': [
+  ],
+  'Chapter_2_after_choice_1': [
     // end hardcoded dialog_code == 'Chapter_2_0011400
-   // Chapter_2_0011600 removed - covered in choice block above 
+    // Chapter_2_0011600 removed - covered in choice block above 
     // Chapter_2_0011800 removed - covered in choice block above 
     // Chapter_2_0011900 removed - covered in choice block above 
     // Chapter_2_0012200 removed - covered in choice block above 
@@ -1144,7 +1144,7 @@ monogatari.script({
     // Chapter_2_0014400 removed - covered in choice block above 
     // Chapter_2_0014600 removed - covered in choice block above 
     // Chapter_2_0014700 removed - covered in choice block above 
-     "character_object_player <br><br>Hey, we\'re currently recruiting members for the radio club, do you� wanna join  <br><br> _Dialog Code:  Chapter_2_0015000 ",
+    "character_object_player <br><br>Hey, we\'re currently recruiting members for the radio club, do you� wanna join  <br><br> _Dialog Code:  Chapter_2_0015000 ",
     "Skye_Smile <br><br>Skye_Smil  <br><br> _Dialog Code:  Chapter_2_0015200 ",
     "character_object_narration <br><br>Skye\'s eyebrows shoot up in surprise, a small smile subconsciously spreading across her face. She looks at you in confused delight as you continue your invitation  <br><br> _Dialog Code:  Chapter_2_0015400 ",
     "character_object_player <br><br>We don\'t have a lot of members but we\'re pretty sure we can get more people to sign up. I think you\'d be a perfect fit for a broadcaster. You think you\'d be up for it  <br><br> _Dialog Code:  Chapter_2_0015700 ",
@@ -1221,23 +1221,23 @@ monogatari.script({
     "character_object_narration <br><br>Skye�s bored expression finally cracks, vulnerability seeping through. She looks away, shifting uncomfortably before glaring back at the person speaking  <br><br> _Dialog Code:  Chapter_2_0034500 ",
     "character_object_skye <br><br>Sensei appreciates my contributions to the class, and they said so themself. They just wish that I give a chance to the rest of the class to express their opinions as well and I concurred. You three should stop talking about things that you don\'t understand  <br><br> _Dialog Code:  Chapter_2_0034800 ",
     "character_object_narration <br><br>The atmosphere was slowly getting more tense. It might get bad for Skye if you don\'t intervene  <br><br> _Dialog Code:  Chapter_2_0035100 ",
-   
+
     // start hardcoded dialog_code == Chapter_2_0035300
     {
-     'Choice': {
+      'Choice': {
         'Chapter_2_Choice_2_dont_intervene': {
           'Text': "Don't intervene",
           'Do': 'jump Chapter_2_Choice_2_dont_intervene',
-        },    
+        },
         'Chapter_2_Choice_2_intervene': {
           'Text': 'Intervene',
           'Do': 'jump Chapter_2_Choice_2_intervene',
         },
       }
     },
-   ],
-   
-   'Chapter_2_Choice_2_dont_intervene': [
+  ],
+
+  'Chapter_2_Choice_2_dont_intervene': [
     "Choice 1 Don't Intervene  Chapter_2_0035500 Choice 1: Don't Intervene ",
     "Narration  <br><br> You stay back a little longer. You're sure your schoolmates wouldn't resort to violence and you weren't sure Skye would appreciate a practical stranger stepping in on things they weren't fully informed on. <br><br> _Dialog Code:  Chapter_2_0035800 ",
     "character_object_student_a Chapter_2_0036100 You actually believe that crap. ",
@@ -1247,15 +1247,15 @@ monogatari.script({
     "Narration  <br><br> You frantically step forward, unsure how everything escalated so quickly. There's no way you can leave Skye alone on this. <br><br> _Dialog Code:  Chapter_2_0037200 ",
     "Scene reconverges here  Chapter_2_0037400 Scene reconverges here ",
     "jump Chapter_2_after_choice_2",
-   ],
-   'Chapter_2_Choice_2_intervene': [
+  ],
+  'Chapter_2_Choice_2_intervene': [
     "Choice 2 Intervene  Chapter_2_0037600 Choice 2: Intervene ",
     "Narration  <br><br> 	Scene reconverges here <br><br> _Dialog Code:  Chapter_2_0037700 ",
     "jump Chapter_2_after_choice_2",
-   ],
-   'Chapter_2_after_choice_2': [
+  ],
+  'Chapter_2_after_choice_2': [
     // end hardcoded dialog_code == 'Chapter_2_0035300
-   // Chapter_2_0035500 removed - covered in choice block above 
+    // Chapter_2_0035500 removed - covered in choice block above 
     // Chapter_2_0035800 removed - covered in choice block above 
     // Chapter_2_0036100 removed - covered in choice block above 
     // Chapter_2_0036400 removed - covered in choice block above 
@@ -1265,7 +1265,7 @@ monogatari.script({
     // Chapter_2_0037400 removed - covered in choice block above 
     // Chapter_2_0037600 removed - covered in choice block above 
     // Chapter_2_0037700 removed - covered in choice block above 
-     "character_object_player <br><br>Hey, that\'s enough  <br><br> _Dialog Code:  Chapter_2_0038000 ",
+    "character_object_player <br><br>Hey, that\'s enough  <br><br> _Dialog Code:  Chapter_2_0038000 ",
     "character_object_narration <br><br>You quickly make your way to the group. With them having parted in surprise at your exclamation, it\'s easy for you to take Skye by the hand, pulling her out of the circle that they surrounded her with  <br><br> _Dialog Code:  Chapter_2_0038300 ",
     "character_object_player <br><br>I don\'t know who you three are, but ganging up on someone is seriously low. From the little I\'ve heard, you don\'t even have a leg to stand on. Accusing somebody for something you have no proof of is ridiculous and mocking someone for participating in class is pathetic  <br><br> _Dialog Code:  Chapter_2_0038600 ",
     "character_object_student_c <br><br>Who  <br><br> _Dialog Code:  Chapter_2_0038900 ",
@@ -1443,23 +1443,23 @@ monogatari.script({
     "character_object_narration <br><br>Skye smiles at you for the apology, moving towards you and extending an arm for you to grab. You gratefully take it, grasping onto her palm to shake. Her mouth quirks up in a rueful smirk  <br><br> _Dialog Code:  Chapter_2_0085300 ",
     "character_object_skye <br><br>I was getting too in my head, I think. I�m happy that you cared enough to try and snap me out of it  <br><br> _Dialog Code:  Chapter_2_0085600 ",
     "character_object_narration <br><br>You smile at each other, relieved that your fight hadn�t caused irreparable damage to your new friendship. You think about the reason you fought in the first place  <br><br> _Dialog Code:  Chapter_2_0085900 ",
-   
+
     // start hardcoded dialog_code == Chapter_2_0086100
     {
-     'Choice': {
+      'Choice': {
         'Chapter_2_Choice_3_dont_invite_her_to_the_radio_club': {
           'Text': "Don't invite her to the radio club",
           'Do': 'jump Chapter_2_Choice_3_dont_invite_her_to_the_radio_club',
-        },    
+        },
         'Chapter_2_Choice_3_invite_her_to_the_radio_club': {
           'Text': 'Invite her to the radio club',
           'Do': 'jump Chapter_2_Choice_3_invite_her_to_the_radio_club',
         },
       }
     },
-   ],
-   
-   'Chapter_2_Choice_3_dont_invite_her_to_the_radio_club': [
+  ],
+
+  'Chapter_2_Choice_3_dont_invite_her_to_the_radio_club': [
     "Choice 1 Don't invite her to the radio club  Chapter_2_0086300 Choice 1: Don't invite her to the radio club ",
     "Narration  <br><br> You aren't sure how appropriate it would be to bring up the subject again after such a charged exchange, especially considering that the tension was one started by you. You stay quiet, releasing your hold on her hand.  <br><br> _Dialog Code:  Chapter_2_0086600 ",
     "Narration  <br><br> To your surprise, a voice pipes up from beside Skye, finally approaching closer after your apologies were finished. <br><br> _Dialog Code:  Chapter_2_0086800 ",
@@ -1467,15 +1467,15 @@ monogatari.script({
     "Narration  <br><br> You're surprised once again by the girl's boldness. Looks like she was the braver one out of the two of you. You smile at Skye, emboldened by your friend to ask again. <br><br> _Dialog Code:  Chapter_2_0087400 ",
     "Scene reconverges here  Chapter_2_0087600 Scene reconverges here ",
     "jump Chapter_2_after_choice_3",
-   ],
-   'Chapter_2_Choice_3_invite_her_to_the_radio_club': [
+  ],
+  'Chapter_2_Choice_3_invite_her_to_the_radio_club': [
     "Choice 2 Invite her to the radio club  Chapter_2_0087800 Choice 2: Invite her to the radio club ",
     "Narration  <br><br> 	Scene reconverges here <br><br> _Dialog Code:  Chapter_2_0087900 ",
     "jump Chapter_2_after_choice_3",
-   ],
-   'Chapter_2_after_choice_3': [
+  ],
+  'Chapter_2_after_choice_3': [
     // end hardcoded dialog_code == 'Chapter_2_0086100
-   // Chapter_2_0086300 removed - covered in choice block above 
+    // Chapter_2_0086300 removed - covered in choice block above 
     // Chapter_2_0086600 removed - covered in choice block above 
     // Chapter_2_0086800 removed - covered in choice block above 
     // Chapter_2_0087100 removed - covered in choice block above 
@@ -1483,7 +1483,7 @@ monogatari.script({
     // Chapter_2_0087600 removed - covered in choice block above 
     // Chapter_2_0087800 removed - covered in choice block above 
     // Chapter_2_0087900 removed - covered in choice block above 
-     "character_object_player <br><br>Would you consider it? Joining us at the club? We�d love to have you  <br><br> _Dialog Code:  Chapter_2_0088200 ",
+    "character_object_player <br><br>Would you consider it? Joining us at the club? We�d love to have you  <br><br> _Dialog Code:  Chapter_2_0088200 ",
     "character_object_narration <br><br>You aren�t sure if the invite would be taken well, but Skye smiles softly at the two of you. She nods her head, one of her hands coming up to rest on her waist as the next words come out of her mouth  <br><br> _Dialog Code:  Chapter_2_0088500 ",
     "Skye Skye_Smile2 <br><br>Well, you two do look like you could use some help. Where do you think we should start  <br><br> _Dialog Code:  Chapter_2_0088800 ",
     "character_object_narration <br><br>Atria smiles softly as she takes Skye�s hand in hers once more, dragging her to sit on the table as they start discussing ideas for the radio club, what they would prepare for the first broadcast, what news was popular in the school  <br><br> _Dialog Code:  Chapter_2_0089100 ",
@@ -1562,31 +1562,31 @@ monogatari.script({
     "character_object_player <br><br>�Yeah! Wouldn�t he be a good person to arrange music to broadcast? His voice is perfect  <br><br> _Dialog Code:  Chapter_3_0011500 ",
     "character_object_player <br><br>  <br><br> _Dialog Code:  Chapter_3_0011700 ",
     "character_object_player <br><br>Should I try to invite him  <br><br> _Dialog Code:  Chapter_3_0011900 ",
-   
+
     // start hardcoded dialog_code == Chapter_3_0012100
     {
-     'Choice': {
+      'Choice': {
         'Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club': {
           'Text': "Knock and try to invite Esmeray",
           'Do': 'jump Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club',
-        },    
+        },
         'Chapter_3_Choice_1_dont_knock_and_invite_esmeray': {
           'Text': "Don't knock and invite Esmeray",
           'Do': 'jump Chapter_3_Choice_1_dont_knock_and_invite_esmeray',
         },
       }
     },
-   ],
-   
-   'Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club': [
+  ],
+
+  'Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club': [
     "character_object_esmeray Chapter_3_0012300 Choice 1: Knock and try to invite Esmeray to the Club ",
     "Narration  <br><br> You take a deep breath and knock quietly before walking into the classroom. <br><br> _Dialog Code:  Chapter_3_0012600 ",
     "character_object_esmeray Chapter_3_0012800 Esmeray Unamused ",
     "Narration  <br><br> Esmeray immediately stops playing, his face loses its smile, and he turns to you with a cold face. <br><br> _Dialog Code:  Chapter_3_0013000 ",
     "Scene reconverges here  Chapter_3_0013200 Scene reconverges here ",
     "jump Chapter_3_after_choice_1",
-   ],
-   'Chapter_3_Choice_1_dont_knock_and_invite_esmeray': [
+  ],
+  'Chapter_3_Choice_1_dont_knock_and_invite_esmeray': [
     "character_object_esmeray Chapter_3_0013400 Choice 2: Don't Knock and invite Esmeray ",
     "Narration  <br><br> You hesitate in asking Esmeray to join. <br><br> _Dialog Code:  Chapter_3_0013700 ",
     "Narration  <br><br> He's very high profile! Why would he want to join a club that no one knows about? <br><br> _Dialog Code:  Chapter_3_0013900 ",
@@ -1597,10 +1597,10 @@ monogatari.script({
     "Narration  <br><br> You laugh awkwardly, before slowly entering the room. <br><br> _Dialog Code:  Chapter_3_0014900 ",
     "Scene reconverges here  Chapter_3_0015000 Scene reconverges here ",
     "jump Chapter_3_after_choice_1",
-   ],
-   'Chapter_3_after_choice_1': [
+  ],
+  'Chapter_3_after_choice_1': [
     // end hardcoded dialog_code == 'Chapter_3_0012100
-   // Chapter_3_0012300 removed - covered in choice block above 
+    // Chapter_3_0012300 removed - covered in choice block above 
     // Chapter_3_0012600 removed - covered in choice block above 
     // Chapter_3_0012800 removed - covered in choice block above 
     // Chapter_3_0013000 removed - covered in choice block above 
@@ -1614,7 +1614,7 @@ monogatari.script({
     // Chapter_3_0014700 removed - covered in choice block above 
     // Chapter_3_0014900 removed - covered in choice block above 
     // Chapter_3_0015000 removed - covered in choice block above 
-     "character_object_player <br><br>	�Hey! That�s some amazing playing, you�re really talented  <br><br> _Dialog Code:  Chapter_3_0015300 ",
+    "character_object_player <br><br>	�Hey! That�s some amazing playing, you�re really talented  <br><br> _Dialog Code:  Chapter_3_0015300 ",
     "character_object_player <br><br>Esmeray:  <br><br> _Dialog Code:  Chapter_3_0015500 ",
     "character_object_player <br><br>  <br><br> _Dialog Code:  Chapter_3_0015600 ",
     "character_object_player <br><br>So, I, uh, I�m part of the Radio Club, and we�re currently recruiting members. I think you�d be an amazing fit for it  <br><br> _Dialog Code:  Chapter_3_0015900 ",
@@ -1713,14 +1713,14 @@ monogatari.script({
     "character_object_narration <br><br>How long has it been since you started trying to get him to join the club  <br><br> _Dialog Code:  Chapter_3_0035400 ",
     "character_object_narration <br><br>	If you go to him now, would it make a difference  <br><br> _Dialog Code:  Chapter_3_0035600 ",
     "character_object_player <br><br>	Should I� have one more go  <br><br> _Dialog Code:  Chapter_3_0035900 ",
-   
+
     // start hardcoded dialog_code == Chapter_3_0036100
     {
-     'Choice': {
+      'Choice': {
         'Chapter_3_Choice_2_invite_esmeray_to_the_club': {
           'Text': "Invite Esmeray to the Club ",
           'Do': 'jump Chapter_3_Choice_2_invite_esmeray_to_the_club',
-        },    
+        },
         'Chapter_3_Choice_2_hesitate': {
           'Text': "Hesitate",
           'Do': 'jump Chapter_3_Choice_2_hesitate',
@@ -1731,9 +1731,9 @@ monogatari.script({
         },
       }
     },
-   ],
-   
-   'Chapter_3_Choice_2_invite_esmeray_to_the_club': [
+  ],
+
+  'Chapter_3_Choice_2_invite_esmeray_to_the_club': [
     "character_object_esmeray Chapter_3_0036300 Choice 1: Invite Esmeray to the Club ",
     "Narration  <br><br> You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. <br><br> _Dialog Code:  Chapter_3_0036600 ",
     "Narration  <br><br> But, you also remember the friends you made along the way, and the benefits of having Esmeray in the club. <br><br> _Dialog Code:  Chapter_3_0036800 ",
@@ -1747,8 +1747,8 @@ monogatari.script({
     "Narration  <br><br> Your eyes widen, but you don't want to let go of this opportunity, and go and sit next to him. <br><br> _Dialog Code:  Chapter_3_0038400 ",
     "Scene reconverges here  Chapter_3_0038600 Scene reconverges here ",
     "jump Chapter_3_after_choice_2",
-   ],
-   'Chapter_3_Choice_2_hesitate': [
+  ],
+  'Chapter_3_Choice_2_hesitate': [
     "Choice 2 Hesitate  Chapter_3_0038800 Choice 2: Hesitate ",
     "Narration  <br><br> You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. <br><br> _Dialog Code:  Chapter_3_0039000 ",
     "Narration  <br><br> What would be the difference now? <br><br> _Dialog Code:  Chapter_3_0039200 ",
@@ -1764,8 +1764,8 @@ monogatari.script({
     "Narration  <br><br> Your eyes widen, but you don't want to let go of this opportunity, and go and sit next to him. <br><br> _Dialog Code:  Chapter_3_0041200 ",
     "Scene reconverges here  Chapter_3_0041400 Scene reconverges here ",
     "jump Chapter_3_after_choice_2",
-   ],
-   'Chapter_3_Choice_2_turn_around_and_go_back_down_the_stairs': [
+  ],
+  'Chapter_3_Choice_2_turn_around_and_go_back_down_the_stairs': [
     "Choice 3 Turn around and Go Back Down the Stairs  Chapter_3_0041600 Choice 3: Turn around and Go Back Down the Stairs ",
     "Narration  <br><br> You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. <br><br> _Dialog Code:  Chapter_3_0041900 ",
     "Narration  <br><br> You remember how tiring it was to have the courage to face Esmeray and invite him over and over, only for him to brush you off. <br><br> _Dialog Code:  Chapter_3_0042100 ",
@@ -1782,10 +1782,10 @@ monogatari.script({
     "Narration  <br><br> Your eyes widen, but you don't want to let go of this opportunity, and go and sit next to him. <br><br> _Dialog Code:  Chapter_3_0044500 ",
     "Scene reconverges here  Chapter_3_0044600 Scene reconverges here ",
     "jump Chapter_3_after_choice_2",
-   ],
-   'Chapter_3_after_choice_2': [
+  ],
+  'Chapter_3_after_choice_2': [
     // end hardcoded dialog_code == 'Chapter_3_0036100
-   // Chapter_3_0036300 removed - covered in choice block above 
+    // Chapter_3_0036300 removed - covered in choice block above 
     // Chapter_3_0036600 removed - covered in choice block above 
     // Chapter_3_0036800 removed - covered in choice block above 
     // Chapter_3_0037000 removed - covered in choice block above 
@@ -1826,7 +1826,7 @@ monogatari.script({
     // Chapter_3_0044300 removed - covered in choice block above 
     // Chapter_3_0044500 removed - covered in choice block above 
     // Chapter_3_0044600 removed - covered in choice block above 
-     "character_object_player <br><br> �Hi, Esmeray  <br><br> _Dialog Code:  Chapter_3_0044900 ",
+    "character_object_player <br><br> �Hi, Esmeray  <br><br> _Dialog Code:  Chapter_3_0044900 ",
     "character_object_esmeray <br><br>Esmeray Neutra  <br><br> _Dialog Code:  Chapter_3_0045100 ",
     "character_object_narration <br><br>Esmeray nods, looking down at the lunch in his lap and shifting the food around with the fork absentmindedly  <br><br> _Dialog Code:  Chapter_3_0045400 ",
     "character_object_player <br><br>  <br><br> _Dialog Code:  Chapter_3_0045700 ",
@@ -1950,28 +1950,28 @@ monogatari.script({
     "character_object_esmeray <br><br>Esmeray Neutral (Centered  <br><br> _Dialog Code:  Chapter_3_0073400 ",
     "character_object_narration <br><br>In walks Esmeray, his face blank, scanning the room before his eyes land on you  <br><br> _Dialog Code:  Chapter_3_0073600 ",
     "character_object_narration <br><br>Immediately, you stand up and go to his side, before making jazz hands in his direction while facing the rest of your group  <br><br> _Dialog Code:  Chapter_3_0073800 ",
-   
+
     // start hardcoded dialog_code == Chapter_3_0074000
     {
-     'Choice': {
+      'Choice': {
         'Chapter_3_Choice_3_introduct_Esmeray': {
           'Text': "Introduce Esmeray",
           'Do': 'jump Chapter_3_Choice_3_introduct_Esmeray',
-        },    
+        },
         'Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves': {
           'Text': "Wait for Esmeray to introduce themselves",
           'Do': 'jump Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves',
         },
       }
     },
-   ],
-   
-   'Chapter_3_Choice_3_introduct_Esmeray': [
+  ],
+
+  'Chapter_3_Choice_3_introduct_Esmeray': [
     "character_object_esmeray Chapter_3_0074200 Choice 1: Introduce Esmeray ",
     "Scene reconverges here  Chapter_3_0074400 Scene reconverges here ",
     "jump Chapter_3_after_choice_3",
-   ],
-   'Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves': [
+  ],
+  'Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves': [
     "character_object_esmeray Chapter_3_0074600 Choice 2: Wait for Esmeray to introduce themselves ",
     "Narration  <br><br> You want to let Esmeray introduce himself, and do jazz hands to start it off. <br><br> _Dialog Code:  Chapter_3_0074900 ",
     "Narration  <br><br> Really, you're just doing jazz hands in awkward silence... <br><br> _Dialog Code:  Chapter_3_0075100 ",
@@ -1981,10 +1981,10 @@ monogatari.script({
     "Narration  <br><br> You clear your throat again, desperate to get out of this situation. <br><br> _Dialog Code:  Chapter_3_0075900 ",
     "Scene reconverges here  Chapter_3_0076000 Scene reconverges here ",
     "jump Chapter_3_after_choice_3",
-   ],
-   'Chapter_3_after_choice_3': [
+  ],
+  'Chapter_3_after_choice_3': [
     // end hardcoded dialog_code == 'Chapter_3_0074000
-   // Chapter_3_0074200 removed - covered in choice block above 
+    // Chapter_3_0074200 removed - covered in choice block above 
     // Chapter_3_0074400 removed - covered in choice block above 
     // Chapter_3_0074600 removed - covered in choice block above 
     // Chapter_3_0074900 removed - covered in choice block above 
@@ -1994,7 +1994,7 @@ monogatari.script({
     // Chapter_3_0075700 removed - covered in choice block above 
     // Chapter_3_0075900 removed - covered in choice block above 
     // Chapter_3_0076000 removed - covered in choice block above 
-     "character_object_player <br><br>Here he is! Y�all, I want you to meet Esme� I mean Esmeray, our school�s lovely playboy and the composer of our music for the Radio Club! Esmeray, meet the club  <br><br> _Dialog Code:  Chapter_3_0076300 ",
+    "character_object_player <br><br>Here he is! Y�all, I want you to meet Esme� I mean Esmeray, our school�s lovely playboy and the composer of our music for the Radio Club! Esmeray, meet the club  <br><br> _Dialog Code:  Chapter_3_0076300 ",
     "character_object_esmeray <br><br>Move Esmeray to righ  <br><br> _Dialog Code:  Chapter_3_0076500 ",
     "character_object_atria <br><br>Atria1_Happy and Skye_Smile on lef  <br><br> _Dialog Code:  Chapter_3_0076600 ",
     "character_object_narration <br><br>Atria waves shyly, while Skye pushes up her glasses further and gives a cool nod directed to Esmeray  <br><br> _Dialog Code:  Chapter_3_0076900 ",

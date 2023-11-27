@@ -63,6 +63,15 @@ def do_differently_given_code(row_in_csv):
  // end hardcoded dialog_code == 'Chapter_0_0011200
 
 '''
+
+
+
+
+
+
+
+
+
     if 'Chapter_0_0011200' < dialog_code    and   dialog_code <= 'Chapter_0_0013300'  :
         # print( '\n\n\n\n removed   '+ dialog_code)
         return '// %s removed - covered in choice block above \n ' %dialog_code 
@@ -127,22 +136,29 @@ def do_differently_given_code(row_in_csv):
  " Game end - joke ending. Restart from beginning of game  Chapter_0_0025200 Game end - joke ending. Restart from beginning of game ",
  "jump END",
 '''
+
+
+
+
+
+
+
+
+
     if 'Chapter_0_0015500' <= dialog_code    and   dialog_code <= 'Chapter_0_0025200'  :
         # print( '\n\n\n\n removed   '+ dialog_code)
         return '// %s removed - covered in choice block above \n ' %dialog_code 
-
-
     
     if dialog_code == 'Chapter_1_0008500':
         return '''
  // start hardcoded dialog_code == 'Chapter_1_0008500
- {  
-   'Choice': {    
+ {
+   'Choice': {
      'Chapter_1_Choice_1_Let_it_slide': {
        'Text': 'Let it slide',
        'Do': 'jump Chapter_1_Choice_1_Let_it_slide',
      },    
-     'Chapter_1_Choice_2_Try_proving_him_wrong': {
+     'Chapter_1_Choice_1_Try_proving_him_wrong': {
        'Text': 'Try Proving him wrong',
        'Do': 'jump Chapter_1_Choice_2_Try_proving_him_wrong',
      },
@@ -150,14 +166,14 @@ def do_differently_given_code(row_in_csv):
  },
 ],
 
-'Chapter_1_Choice_1_Let_it_slide': [    
+'Chapter_1_Choice_1_Let_it_slide': [
  " Narration  <br><br> Kyo snickers, tilting his head momentarily as if discreetly pointing somewhere.  <br><br> _Dialog Code:  Chapter_1_0009000 ",
  " character_object_kyo Chapter_1_0009300 I bet you anything if you actually listen you'll find someone immediately. ",
  " Narration  <br><br> Your eyes follow the direction of his nudge. <br><br> _Dialog Code:  Chapter_1_0009600 ",
  " Scene reconverges here  Chapter_1_0009800 Scene reconverges here ",
  "jump Chapter_1_after_choice_1",
 ],    
-'Chapter_1_Choice_2_Try_proving_him_wrong' : [    
+'Chapter_1_Choice_2_Try_proving_him_wrong' : [
  " Narration  <br><br> You glance around, searching for someone you can listen in on to make your point. <br><br> _Dialog Code:  Chapter_1_0010400 ",
  " Narration  <br><br> Your ears pick up on some commotion, and your attention drifts. <br><br> _Dialog Code:  Chapter_1_0010600 ",
  " Narration  <br><br> 		Scene reconverges here <br><br> _Dialog Code:  Chapter_1_0010700 ",
@@ -166,11 +182,56 @@ def do_differently_given_code(row_in_csv):
 'Chapter_1_after_choice_1': [
  // end hardcoded dialog_code == 'Chapter_1_0008500
 '''
+
+
+
+
+
+
     if 'Chapter_1_0008700' <= dialog_code    and   dialog_code <= 'Chapter_1_0010700'  : 
         return '// %s removed - covered in choice block above \n ' %dialog_code 
 
+    if dialog_code == 'Chapter_1_0029000':
+        return '''
+ // start hardcoded dialog_code == Chapter_1_0029000
+ {
+  'Choice': {
+     'Chapter_1_Choice_2_ignore_the_whole_incident': {
+       'Text': 'Ignore the whole incident',
+       'Do': 'jump Chapter_1_Choice_2_ignore_the_whole_incident',
+     },    
+     'Chapter_1_Choice_2_go_search_for_atria': {
+       'Text': 'Go search for Atria',
+       'Do': 'jump Chapter_1_Choice_2_go_search_for_atria',
+     },
+   }
+ },
+],
 
+'Chapter_1_Choice_2_ignore_the_whole_incident': [
+ " Choice 1 Ignore the whole incident  Chapter_1_0029200 Choice 1: Ignore the whole incident ",
+ " Player  <br><br> I really don't think I should interfere... <br><br> _Dialog Code:  Chapter_1_0029500 ",
+ " character_object_kyo Chapter_1_0029700 Kyo_FP_Bruh ",
+ " Narration  <br><br> Kyo stares at you with a tinge of concern. <br><br> _Dialog Code:  Chapter_1_0030000 ",
+ " character_object_kyo Chapter_1_0030300 ...Don't you think she would be a good candidate for the radio club? ...Can't you just... tell? ",
+ " Narration  <br><br> He clearly knows more than he\'s letting on... his consistently unsettling statements are starting to stand out more and more... <br><br> _Dialog Code:  Chapter_1_0030600 ",
+ " Narration  <br><br> Eh, surely it\'s nothing. There\'s no way this guy can do anything, anyways. <br><br> _Dialog Code:  Chapter_1_0030800 ",
+ " Player  <br><br> What is she, the 'chosen one' or something? <br><br> _Dialog Code:  Chapter_1_0031100 ",
+ " Narration  <br><br> You joke, rolling your eyes. <br><br> _Dialog Code:  Chapter_1_0031400 ",
+ " Scene reconverges here  Chapter_1_0031600 Scene reconverges here ",
+ "jump Chapter_1_after_choice_2",
+],    
+'Chapter_1_Choice_2_go_search_for_atria' : [    
+ " character_object_atria Chapter_1_0031800 Choice 2: Go search for Atria ",
+ " Scene reconverges here  Chapter_1_0031900 Scene reconverges here ",
+ "jump Chapter_1_after_choice_2",
+],
+'Chapter_1_after_choice_2': [
+ // end hardcoded dialog_code == 'Chapter_1_0029000
+'''
 
+    if 'Chapter_1_0029200' <= dialog_code    and   dialog_code <= 'Chapter_1_0031900'  : 
+        return '// %s removed - covered in choice block above \n ' %dialog_code 
 
 
     # end of choice rules 

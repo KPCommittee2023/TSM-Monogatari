@@ -156,7 +156,7 @@ def read_csv_return_txt_format(csv_filename, dir_path):
                     .replace("[", "")
                     .replace("]", "")
                     .replace(":", "")
-                    .replace("\n", " ")
+                    .replace("\n", "")
                 )
                 txt_file_write.write(" <br><br> ")
                 txt_file_write.write(

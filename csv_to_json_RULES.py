@@ -9,12 +9,12 @@ def do_differently_given_code(row_in_csv):
 
 
     # sprites rules here
-    if dialog_code == 'Chapter_0_0000300': return '\"show scene school_hallway_daylight\", // rule based \n '
-    if dialog_code == 'Chapter_0_0003300': return '\"show scene music_room_basic\", // rule based \n '  
-    if dialog_code == 'Chapter_0_0003500': return '\"show character character_object_kyo Kyo_BP_Default centered\", // rule based \n '
-    if dialog_code == 'Chapter_0_0005100': return '\"show character character_object_kyo Kyo_FP_Shocked normal\", // rule based \n '
-    if dialog_code == 'Chapter_0_0005700': return '\"show character character_object_kyo Kyo_FP_Bruh normal\", // rule based \n '
-    if dialog_code == 'Chapter_0_0006600': return '\"show character character_object_kyo FP_Default normal\", // rule based \n '
+    if dialog_code == 'Chapter_0_0000300': return ' \"show scene school_hallway_daylight\", // rule based \n'
+    if dialog_code == 'Chapter_0_0003300': return ' \"show scene music_room_basic\", // rule based \n'  
+    if dialog_code == 'Chapter_0_0003500': return ' \"show character character_object_kyo Kyo_BP_Default centered\", // rule based \n'
+    if dialog_code == 'Chapter_0_0005100': return ' \"show character character_object_kyo Kyo_FP_Shocked normal\", // rule based \n'
+    if dialog_code == 'Chapter_0_0005700': return ' \"show character character_object_kyo Kyo_FP_Bruh normal\", // rule based \n'
+    if dialog_code == 'Chapter_0_0006600': return ' \"show character character_object_kyo FP_Default normal\", // rule based \n'
     
     
 
@@ -30,42 +30,42 @@ def do_differently_given_code(row_in_csv):
     if dialog_code == 'Chapter_0_0011200':
         return '''
  // begin hardcoded dialog_code == 'Chapter_0_0011200
- {
-   'Choice': {
-     'Chapter_0_Choice_1_Sure_you_can_have_a_bit': {
-       'Text': 'Sure, you can have a bit.',
-       'Do': 'jump Chapter_0_Choice_1_Sure_you_can_have_a_bit',
-     },
-     'Chapter_0_Choice_1_No_this_is_mine_Get_your_own': {
-       'Text': 'No, this is mine. Get your own.',
-       'Do': 'jump Chapter_0_Choice_2_No_this_is_mine_Get_your_own',
-     },
-   }  
- },
+  {
+    'Choice': {
+      'Chapter_0_Choice_1_Sure_you_can_have_a_bit': {
+        'Text': 'Sure, you can have a bit.',
+        'Do': 'jump Chapter_0_Choice_1_Sure_you_can_have_a_bit',
+      },
+      'Chapter_0_Choice_1_No_this_is_mine_Get_your_own': {
+        'Text': 'No, this is mine. Get your own.',
+        'Do': 'jump Chapter_0_Choice_2_No_this_is_mine_Get_your_own',
+      },
+    }  
+  },
 ],
-'Chapter_0_Choice_1_Sure_you_can_have_a_bit': [
- "Choice 1 Sure, you can have a bit.  Chapter_0_0011400 Choice 1: Sure, you can have a bit. ",
- "character_object_kyo Chapter_0_0011700 Actually, never mind. There are probably some RAAAAAAAANCID germs in there. I don\'t want any of that. I refuuuuuuuuuuse. ",
- "Narration  <br><br> The nerve of this guy...!  <br><br> _Dialog Code:  Chapter_0_0012000 ",
- "Scene reconverges here  Chapter_0_0012200 Scene reconverges here ",
- "jump Chapter_0_after_choice_1",
-],
-'Chapter_0_Choice_2_No_this_is_mine_Get_your_own': [
- "Choice 2 No, this is mine. Get your own.  Chapter_0_0012500 Choice 2: No, this is mine. Get your own. ",
- "character_object_kyo Chapter_0_0012700 Kyo_FP_Bruh ",
- "Narration  <br><br> Kyo whines and pouts. <br><br> _Dialog Code:  Chapter_0_0013000 ",
- "Narration  <br><br> What is up with this guy? Yet, you find his pouting face a little cute. Like a puntable cat.  <br><br> _Dialog Code:  Chapter_0_0013200 ",   
- "Scene Reconverges Here  Chapter_0_0013300 Scene Reconverges Here ",
- "jump Chapter_0_after_choice_1"
-],
+  'Chapter_0_Choice_1_Sure_you_can_have_a_bit': [
+    "Choice 1 Sure, you can have a bit.  Chapter_0_0011400 Choice 1: Sure, you can have a bit. ",
+    "character_object_kyo Chapter_0_0011700 Actually, never mind. There are probably some RAAAAAAAANCID germs in there. I don\'t want any of that. I refuuuuuuuuuuse. ",
+    "Narration  <br><br> The nerve of this guy...!  <br><br> _Dialog Code:  Chapter_0_0012000 ",
+    "Scene reconverges here  Chapter_0_0012200 Scene reconverges here ",
+    "jump Chapter_0_after_choice_1",
+  ],
+  'Chapter_0_Choice_2_No_this_is_mine_Get_your_own': [
+  "Choice 2 No, this is mine. Get your own.  Chapter_0_0012500 Choice 2: No, this is mine. Get your own. ",
+  "character_object_kyo Chapter_0_0012700 Kyo_FP_Bruh ",
+  "Narration  <br><br> Kyo whines and pouts. <br><br> _Dialog Code:  Chapter_0_0013000 ",
+  "Narration  <br><br> What is up with this guy? Yet, you find his pouting face a little cute. Like a puntable cat.  <br><br> _Dialog Code:  Chapter_0_0013200 ",   
+  "Scene Reconverges Here  Chapter_0_0013300 Scene Reconverges Here ",
+  "jump Chapter_0_after_choice_1"
+  ],
 
-'Chapter_0_after_choice_1': [
- // end hardcoded dialog_code == 'Chapter_0_0011200
+  'Chapter_0_after_choice_1': [
+  // end hardcoded dialog_code == 'Chapter_0_0011200
 
 '''
     if 'Chapter_0_0011200' < dialog_code    and   dialog_code <= 'Chapter_0_0013300'  :
         # print( '\n\n\n\n removed   '+ dialog_code)
-        return '// %s removed - covered in choice block above \n ' %dialog_code 
+        return '  // %s removed - covered in choice block above \n ' %dialog_code 
     
 
 
@@ -137,7 +137,7 @@ def do_differently_given_code(row_in_csv):
 '''
     if 'Chapter_0_0015500' <= dialog_code    and   dialog_code <= 'Chapter_0_0025200'  :
         # print( '\n\n\n\n removed   '+ dialog_code)
-        return '// %s removed - covered in choice block above \n ' %dialog_code 
+        return '  // %s removed - covered in choice block above \n ' %dialog_code 
 
 
 
@@ -180,7 +180,7 @@ def do_differently_given_code(row_in_csv):
  // end hardcoded dialog_code == 'Chapter_1_0008500
 '''
     if 'Chapter_1_0008700' <= dialog_code    and   dialog_code <= 'Chapter_1_0010700'  : 
-        return '// %s removed - covered in choice block above \n ' %dialog_code 
+        return '  // %s removed - covered in choice block above \n ' %dialog_code 
 
 
 
@@ -231,7 +231,7 @@ def do_differently_given_code(row_in_csv):
  // end hardcoded dialog_code == 'Chapter_1_0029000
 '''
     if 'Chapter_1_0029200' <= dialog_code    and   dialog_code <= 'Chapter_1_0031900'  : 
-        return '// %s removed - covered in choice block above \n ' %dialog_code 
+        return '  // %s removed - covered in choice block above \n ' %dialog_code 
 
 
 
@@ -294,7 +294,7 @@ def do_differently_given_code(row_in_csv):
  // end hardcoded dialog_code == 'Chapter_1_0058600
 '''
     if 'Chapter_1_0058800' <= dialog_code    and   dialog_code <= 'Chapter_1_0063600'  : 
-        return '// %s removed - covered in choice block above \n ' %dialog_code 
+        return '  // %s removed - covered in choice block above \n ' %dialog_code 
 
 
 
@@ -350,7 +350,7 @@ def do_differently_given_code(row_in_csv):
  // end hardcoded dialog_code == 'Chapter_2_0011400
 '''
     if 'Chapter_2_0011600' <= dialog_code    and   dialog_code <= 'Chapter_2_0014700'  : 
-        return '// %s removed - covered in choice block above \n ' %dialog_code 
+        return '  // %s removed - covered in choice block above \n ' %dialog_code 
 
 
 
@@ -402,7 +402,7 @@ def do_differently_given_code(row_in_csv):
  // end hardcoded dialog_code == 'Chapter_2_0035300
 '''
     if 'Chapter_2_0035500' <= dialog_code    and   dialog_code <= 'Chapter_2_0037700'  : 
-        return '// %s removed - covered in choice block above \n ' %dialog_code 
+        return '  // %s removed - covered in choice block above \n ' %dialog_code 
 
 
 
@@ -451,7 +451,7 @@ def do_differently_given_code(row_in_csv):
  // end hardcoded dialog_code == 'Chapter_2_0086100
 '''
     if 'Chapter_2_0086300' <= dialog_code    and   dialog_code <= 'Chapter_2_0087900'  : 
-        return '// %s removed - covered in choice block above \n ' %dialog_code 
+        return '  // %s removed - covered in choice block above \n ' %dialog_code 
 
 
 
@@ -509,7 +509,7 @@ def do_differently_given_code(row_in_csv):
  // end hardcoded dialog_code == 'Chapter_3_0012100
 '''
     if 'Chapter_3_0012300' <= dialog_code    and   dialog_code <= 'Chapter_3_0015000'  : 
-        return '// %s removed - covered in choice block above \n ' %dialog_code 
+        return '  // %s removed - covered in choice block above \n ' %dialog_code 
 
 
 
@@ -602,7 +602,7 @@ def do_differently_given_code(row_in_csv):
  // end hardcoded dialog_code == 'Chapter_3_0036100
 '''
     if 'Chapter_3_0036300' <= dialog_code    and   dialog_code <= 'Chapter_3_0044600'  : 
-        return '// %s removed - covered in choice block above \n ' %dialog_code 
+        return '  // %s removed - covered in choice block above \n ' %dialog_code 
 
 
 
@@ -655,7 +655,7 @@ def do_differently_given_code(row_in_csv):
  // end hardcoded dialog_code == 'Chapter_3_0074000
 '''
     if 'Chapter_3_0074200' <= dialog_code    and   dialog_code <= 'Chapter_3_0076000'  : 
-        return '// %s removed - covered in choice block above \n ' %dialog_code 
+        return '  // %s removed - covered in choice block above \n ' %dialog_code 
 
 
 
@@ -710,7 +710,7 @@ def do_differently_given_code(row_in_csv):
 
 
     output_to_json = ''
-    output_to_json+=' "'
+    output_to_json+='    "'
     output_to_json+= char_name \
         .replace("[", "") \
         .replace("]", "") \

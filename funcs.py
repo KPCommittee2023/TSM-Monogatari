@@ -150,7 +150,7 @@ def read_csv_return_txt_format(csv_filename, dir_path):
 
 
             # end of csv-json parsing rules
-                txt_file_write.write(' " ')
+                txt_file_write.write('" ')
                 txt_file_write.write(
                     row[2]
                     .replace("[", "")

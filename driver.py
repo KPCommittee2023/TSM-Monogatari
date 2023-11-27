@@ -167,7 +167,7 @@ if __name__ == "__main__":
     print('\n\tchap_3_lines:', len(chap_3_lines))
     print('\n\tchap_E_lines:', len(chap_E_lines))
 
-    time.sleep(2)
+    time.sleep(1)
 
 
     print('=========== injecting ============')

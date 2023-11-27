@@ -63,19 +63,18 @@ def do_differently_given_code(row_in_csv):
  // end hardcoded dialog_code == 'Chapter_0_0011200
 
 '''
-
-
-
-
-
-
-
-
-
     if 'Chapter_0_0011200' < dialog_code    and   dialog_code <= 'Chapter_0_0013300'  :
         # print( '\n\n\n\n removed   '+ dialog_code)
         return '// %s removed - covered in choice block above \n ' %dialog_code 
     
+
+
+
+
+
+
+
+
     
     if dialog_code == 'Chapter_0_0015300':
         return '''
@@ -136,18 +135,16 @@ def do_differently_given_code(row_in_csv):
  " Game end - joke ending. Restart from beginning of game  Chapter_0_0025200 Game end - joke ending. Restart from beginning of game ",
  "jump END",
 '''
-
-
-
-
-
-
-
-
-
     if 'Chapter_0_0015500' <= dialog_code    and   dialog_code <= 'Chapter_0_0025200'  :
         # print( '\n\n\n\n removed   '+ dialog_code)
         return '// %s removed - covered in choice block above \n ' %dialog_code 
+
+
+
+
+
+
+
     
     if dialog_code == 'Chapter_1_0008500':
         return '''
@@ -172,7 +169,7 @@ def do_differently_given_code(row_in_csv):
  " Narration  <br><br> Your eyes follow the direction of his nudge. <br><br> _Dialog Code:  Chapter_1_0009600 ",
  " Scene reconverges here  Chapter_1_0009800 Scene reconverges here ",
  "jump Chapter_1_after_choice_1",
-],    
+],
 'Chapter_1_Choice_2_Try_proving_him_wrong' : [
  " Narration  <br><br> You glance around, searching for someone you can listen in on to make your point. <br><br> _Dialog Code:  Chapter_1_0010400 ",
  " Narration  <br><br> Your ears pick up on some commotion, and your attention drifts. <br><br> _Dialog Code:  Chapter_1_0010600 ",
@@ -182,14 +179,18 @@ def do_differently_given_code(row_in_csv):
 'Chapter_1_after_choice_1': [
  // end hardcoded dialog_code == 'Chapter_1_0008500
 '''
-
-
-
-
-
-
     if 'Chapter_1_0008700' <= dialog_code    and   dialog_code <= 'Chapter_1_0010700'  : 
         return '// %s removed - covered in choice block above \n ' %dialog_code 
+
+
+
+
+
+
+
+
+
+
 
     if dialog_code == 'Chapter_1_0029000':
         return '''
@@ -220,8 +221,8 @@ def do_differently_given_code(row_in_csv):
  " Narration  <br><br> You joke, rolling your eyes. <br><br> _Dialog Code:  Chapter_1_0031400 ",
  " Scene reconverges here  Chapter_1_0031600 Scene reconverges here ",
  "jump Chapter_1_after_choice_2",
-],    
-'Chapter_1_Choice_2_go_search_for_atria' : [    
+],
+'Chapter_1_Choice_2_go_search_for_atria': [    
  " character_object_atria Chapter_1_0031800 Choice 2: Go search for Atria ",
  " Scene reconverges here  Chapter_1_0031900 Scene reconverges here ",
  "jump Chapter_1_after_choice_2",
@@ -229,9 +230,83 @@ def do_differently_given_code(row_in_csv):
 'Chapter_1_after_choice_2': [
  // end hardcoded dialog_code == 'Chapter_1_0029000
 '''
-
     if 'Chapter_1_0029200' <= dialog_code    and   dialog_code <= 'Chapter_1_0031900'  : 
         return '// %s removed - covered in choice block above \n ' %dialog_code 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    if dialog_code == 'Chapter_1_0058600':
+        return '''
+ // start hardcoded dialog_code == Chapter_1_0058600
+ {
+  'Choice': {
+     'Chapter_1_Choice_3_ignore_the_whole_incident': {
+       'Text': 'Tell her to confront them',
+       'Do': 'jump Chapter_1_Choice_3_ignore_the_whole_incident',
+     },    
+     'Chapter_1_Choice_3_go_search_for_atria': {
+       'Text': 'Tell her to take her time',
+       'Do': 'jump Chapter_1_Choice_3_go_search_for_atria',
+     },
+   }
+ },
+],
+
+'Chapter_1_Choice_3_ignore_the_whole_incident': [
+ " Choice 1 Tell her to confront them  Chapter_1_0058800 Choice 1: Tell her to confront them ",
+ " Player  <br><br> Atria, I understand your attachment to them, but a lot of their actions that you've explained to me don't seem right in any way.. <br><br> _Dialog Code:  Chapter_1_0059100 ",
+ " Player  <br><br> If you think they are causing you hurt, the best thing to do is confront them as soon as possible. <br><br> _Dialog Code:  Chapter_1_0059300 ",
+ " Player  <br><br> If they disregard your feelings after you do so, they aren't worth your time. Let alone your pain. <br><br> _Dialog Code:  Chapter_1_0059500 ",
+ " Player  <br><br> I know it may be hard, but sometimes cutting people out of your life is the best decision. It can be the difference between differing sides of your mental stability. <br><br> _Dialog Code:  Chapter_1_0059700 ",
+ " Narration  <br><br> Atrias eyes widen at this, fearing the mere idea of confrontation. <br><br> _Dialog Code:  Chapter_1_0060000 ",
+ " character_object_atria Chapter_1_0060300 ...But what if they respond negatively...? ",
+ " character_object_atria Chapter_1_0060500 Atria2_Sad ",
+ " character_object_atria Chapter_1_0060800 What if they... ",
+ " Narration  <br><br> She flinches, seemingly reimagining older events. Taking a deep breath, she composes herself. It was a blatant lie, a response that seems like a natural reflex to recalling such things. <br><br> _Dialog Code:  Chapter_1_0061100 ",
+ " character_object_atria Chapter_1_0061300 Atria1_Timid ",
+ " character_object_atria Chapter_1_0061600 ...I... don't think that's a good idea. ",
+ " Scene reconverges here  Chapter_1_0061800 Scene reconverges here ",
+ "jump Chapter_1_after_choice_3",
+],
+'Chapter_1_Choice_3_go_search_for_atria': [
+ " Choice 2 Tell her to take her time  Chapter_1_0062000 Choice 2: Tell her to take her time ",
+ " Player  <br><br> Don't worry too much about it. I'll help you through this, and you can take as much time as you need. <br><br> _Dialog Code:  Chapter_1_0062300 ",
+ " Player  <br><br> It's a large step to take, and it can take a lot. I encourage you to take your time. <br><br> _Dialog Code:  Chapter_1_0062500 ",
+ " Player  <br><br> ...Just, think about what's best for you. Consider the idea of friends that allow you to just be yourself. <br><br> _Dialog Code:  Chapter_1_0062700 ",
+ " Narration  <br><br> Slowly, Atria nods in agreement. <br><br> _Dialog Code:  Chapter_1_0063000 ",
+ " character_object_atria Chapter_1_0063200 Atria1_Timid ",
+ " character_object_atria Chapter_1_0063500 I... I don't really know... I've known them for so long...",
+ " Scene reconverges here  Chapter_1_0063600 Scene reconverges here ",
+ "jump Chapter_1_after_choice_3",
+],
+'Chapter_1_after_choice_3': [
+ // end hardcoded dialog_code == 'Chapter_1_0058600
+'''
+    if 'Chapter_1_0058800' <= dialog_code    and   dialog_code <= 'Chapter_1_0063600'  : 
+        return '// %s removed - covered in choice block above \n ' %dialog_code 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     # end of choice rules 

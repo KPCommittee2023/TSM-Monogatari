@@ -91,7 +91,7 @@ def do_differently_given_code(row_in_csv):
         },
       }
     },
-    ],
+  ],
 
   'Chapter_0_Choice_2_Yes': [
     "Choice 1 Yes.  Chapter_0_0015500 Choice 1: Yes. ",
@@ -148,19 +148,19 @@ def do_differently_given_code(row_in_csv):
     
     if dialog_code == 'Chapter_1_0008500':
         return '''
-  // start hardcoded dialog_code == 'Chapter_1_0008500
-  {
-    'Choice': {
-      'Chapter_1_Choice_1_Let_it_slide': {
-        'Text': 'Let it slide',
-        'Do': 'jump Chapter_1_Choice_1_Let_it_slide',
-      },    
-      'Chapter_1_Choice_1_Try_proving_him_wrong': {
-        'Text': 'Try Proving him wrong',
-        'Do': 'jump Chapter_1_Choice_2_Try_proving_him_wrong',
-      },
-    }
-  },
+    // start hardcoded dialog_code == 'Chapter_1_0008500
+    {
+      'Choice': {
+        'Chapter_1_Choice_1_Let_it_slide': {
+          'Text': 'Let it slide',
+          'Do': 'jump Chapter_1_Choice_1_Let_it_slide',
+        },    
+        'Chapter_1_Choice_1_Try_proving_him_wrong': {
+          'Text': 'Try Proving him wrong',
+          'Do': 'jump Chapter_1_Choice_2_Try_proving_him_wrong',
+        },
+      }
+    },
   ],
 
   'Chapter_1_Choice_1_Let_it_slide': [
@@ -170,14 +170,14 @@ def do_differently_given_code(row_in_csv):
     "Scene reconverges here  Chapter_1_0009800 Scene reconverges here ",
     "jump Chapter_1_after_choice_1",
   ],
-  'Chapter_1_Choice_2_Try_proving_him_wrong' : [
+  'Chapter_1_Choice_2_Try_proving_him_wrong': [
     "Narration  <br><br> You glance around, searching for someone you can listen in on to make your point. <br><br> _Dialog Code:  Chapter_1_0010400 ",
     "Narration  <br><br> Your ears pick up on some commotion, and your attention drifts. <br><br> _Dialog Code:  Chapter_1_0010600 ",
     "Narration  <br><br> 		Scene reconverges here <br><br> _Dialog Code:  Chapter_1_0010700 ",
     "jump Chapter_1_after_choice_1",
   ],
   'Chapter_1_after_choice_1': [
-  // end hardcoded dialog_code == 'Chapter_1_0008500
+    // end hardcoded dialog_code == 'Chapter_1_0008500
 '''
     if 'Chapter_1_0008700' <= dialog_code    and   dialog_code <= 'Chapter_1_0010700'  : 
         return '    // %s removed - covered in choice block above \n' %dialog_code 
@@ -194,41 +194,41 @@ def do_differently_given_code(row_in_csv):
 
     if dialog_code == 'Chapter_1_0029000':
         return '''
- // start hardcoded dialog_code == Chapter_1_0029000
- {
-  'Choice': {
-     'Chapter_1_Choice_2_ignore_the_whole_incident': {
-       'Text': 'Ignore the whole incident',
-       'Do': 'jump Chapter_1_Choice_2_ignore_the_whole_incident',
-     },    
-     'Chapter_1_Choice_2_go_search_for_atria': {
-       'Text': 'Go search for Atria',
-       'Do': 'jump Chapter_1_Choice_2_go_search_for_atria',
-     },
-   }
- },
-],
+    // start hardcoded dialog_code == Chapter_1_0029000
+    {
+      'Choice': {
+        'Chapter_1_Choice_2_ignore_the_whole_incident': {
+          'Text': 'Ignore the whole incident',
+          'Do': 'jump Chapter_1_Choice_2_ignore_the_whole_incident',
+        },
+        'Chapter_1_Choice_2_go_search_for_atria': {
+          'Text': 'Go search for Atria',
+          'Do': 'jump Chapter_1_Choice_2_go_search_for_atria',
+        },
+      }
+    },
+  ],
 
-'Chapter_1_Choice_2_ignore_the_whole_incident': [
-  "Choice 1 Ignore the whole incident  Chapter_1_0029200 Choice 1: Ignore the whole incident ",
-  "Player  <br><br> I really don't think I should interfere... <br><br> _Dialog Code:  Chapter_1_0029500 ",
-  "character_object_kyo Chapter_1_0029700 Kyo_FP_Bruh ",
-  "Narration  <br><br> Kyo stares at you with a tinge of concern. <br><br> _Dialog Code:  Chapter_1_0030000 ",
-  "character_object_kyo Chapter_1_0030300 ...Don't you think she would be a good candidate for the radio club? ...Can't you just... tell? ",
-  "Narration  <br><br> He clearly knows more than he\'s letting on... his consistently unsettling statements are starting to stand out more and more... <br><br> _Dialog Code:  Chapter_1_0030600 ",
-  "Narration  <br><br> Eh, surely it\'s nothing. There\'s no way this guy can do anything, anyways. <br><br> _Dialog Code:  Chapter_1_0030800 ",
-  "Player  <br><br> What is she, the 'chosen one' or something? <br><br> _Dialog Code:  Chapter_1_0031100 ",
-  "Narration  <br><br> You joke, rolling your eyes. <br><br> _Dialog Code:  Chapter_1_0031400 ",
-  "Scene reconverges here  Chapter_1_0031600 Scene reconverges here ",
-  "jump Chapter_1_after_choice_2",
-],
-'Chapter_1_Choice_2_go_search_for_atria': [    
-  "character_object_atria Chapter_1_0031800 Choice 2: Go search for Atria ",
-  "Scene reconverges here  Chapter_1_0031900 Scene reconverges here ",
-  "jump Chapter_1_after_choice_2",
-],
-'Chapter_1_after_choice_2': [
- // end hardcoded dialog_code == 'Chapter_1_0029000
+  'Chapter_1_Choice_2_ignore_the_whole_incident': [
+    "Choice 1 Ignore the whole incident  Chapter_1_0029200 Choice 1: Ignore the whole incident ",
+    "Player  <br><br> I really don't think I should interfere... <br><br> _Dialog Code:  Chapter_1_0029500 ",
+    "character_object_kyo Chapter_1_0029700 Kyo_FP_Bruh ",
+    "Narration  <br><br> Kyo stares at you with a tinge of concern. <br><br> _Dialog Code:  Chapter_1_0030000 ",
+    "character_object_kyo Chapter_1_0030300 ...Don't you think she would be a good candidate for the radio club? ...Can't you just... tell? ",
+    "Narration  <br><br> He clearly knows more than he\'s letting on... his consistently unsettling statements are starting to stand out more and more... <br><br> _Dialog Code:  Chapter_1_0030600 ",
+    "Narration  <br><br> Eh, surely it\'s nothing. There\'s no way this guy can do anything, anyways. <br><br> _Dialog Code:  Chapter_1_0030800 ",
+    "Player  <br><br> What is she, the 'chosen one' or something? <br><br> _Dialog Code:  Chapter_1_0031100 ",
+    "Narration  <br><br> You joke, rolling your eyes. <br><br> _Dialog Code:  Chapter_1_0031400 ",
+    "Scene reconverges here  Chapter_1_0031600 Scene reconverges here ",
+    "jump Chapter_1_after_choice_2",
+  ],
+  'Chapter_1_Choice_2_go_search_for_atria': [
+    "character_object_atria Chapter_1_0031800 Choice 2: Go search for Atria ",
+    "Scene reconverges here  Chapter_1_0031900 Scene reconverges here ",
+    "jump Chapter_1_after_choice_2",
+  ],
+  'Chapter_1_after_choice_2': [
+    // end hardcoded dialog_code == 'Chapter_1_0029000
 '''
     if 'Chapter_1_0029200' <= dialog_code    and   dialog_code <= 'Chapter_1_0031900'  : 
         return '    // %s removed - covered in choice block above \n' %dialog_code 
@@ -248,50 +248,50 @@ def do_differently_given_code(row_in_csv):
 
     if dialog_code == 'Chapter_1_0058600':
         return '''
- // start hardcoded dialog_code == Chapter_1_0058600
- {
-  'Choice': {
-     'Chapter_1_Choice_3_ignore_the_whole_incident': {
-       'Text': 'Tell her to confront them',
-       'Do': 'jump Chapter_1_Choice_3_ignore_the_whole_incident',
-     },    
-     'Chapter_1_Choice_3_go_search_for_atria': {
-       'Text': 'Tell her to take her time',
-       'Do': 'jump Chapter_1_Choice_3_go_search_for_atria',
-     },
-   }
- },
-],
+    // start hardcoded dialog_code == Chapter_1_0058600
+    {
+    'Choice': {
+        'Chapter_1_Choice_3_ignore_the_whole_incident': {
+          'Text': 'Tell her to confront them',
+          'Do': 'jump Chapter_1_Choice_3_ignore_the_whole_incident',
+        },    
+        'Chapter_1_Choice_3_go_search_for_atria': {
+          'Text': 'Tell her to take her time',
+          'Do': 'jump Chapter_1_Choice_3_go_search_for_atria',
+        },
+      }
+    },
+  ],
 
-'Chapter_1_Choice_3_ignore_the_whole_incident': [
-  "Choice 1 Tell her to confront them  Chapter_1_0058800 Choice 1: Tell her to confront them ",
-  "Player  <br><br> Atria, I understand your attachment to them, but a lot of their actions that you've explained to me don't seem right in any way.. <br><br> _Dialog Code:  Chapter_1_0059100 ",
-  "Player  <br><br> If you think they are causing you hurt, the best thing to do is confront them as soon as possible. <br><br> _Dialog Code:  Chapter_1_0059300 ",
-  "Player  <br><br> If they disregard your feelings after you do so, they aren't worth your time. Let alone your pain. <br><br> _Dialog Code:  Chapter_1_0059500 ",
-  "Player  <br><br> I know it may be hard, but sometimes cutting people out of your life is the best decision. It can be the difference between differing sides of your mental stability. <br><br> _Dialog Code:  Chapter_1_0059700 ",
-  "Narration  <br><br> Atrias eyes widen at this, fearing the mere idea of confrontation. <br><br> _Dialog Code:  Chapter_1_0060000 ",
-  "character_object_atria Chapter_1_0060300 ...But what if they respond negatively...? ",
-  "character_object_atria Chapter_1_0060500 Atria2_Sad ",
-  "character_object_atria Chapter_1_0060800 What if they... ",
-  "Narration  <br><br> She flinches, seemingly reimagining older events. Taking a deep breath, she composes herself. It was a blatant lie, a response that seems like a natural reflex to recalling such things. <br><br> _Dialog Code:  Chapter_1_0061100 ",
-  "character_object_atria Chapter_1_0061300 Atria1_Timid ",
-  "character_object_atria Chapter_1_0061600 ...I... don't think that's a good idea. ",
-  "Scene reconverges here  Chapter_1_0061800 Scene reconverges here ",
-  "jump Chapter_1_after_choice_3",
-],
-'Chapter_1_Choice_3_go_search_for_atria': [
-  "Choice 2 Tell her to take her time  Chapter_1_0062000 Choice 2: Tell her to take her time ",
-  "Player  <br><br> Don't worry too much about it. I'll help you through this, and you can take as much time as you need. <br><br> _Dialog Code:  Chapter_1_0062300 ",
-  "Player  <br><br> It's a large step to take, and it can take a lot. I encourage you to take your time. <br><br> _Dialog Code:  Chapter_1_0062500 ",
-  "Player  <br><br> ...Just, think about what's best for you. Consider the idea of friends that allow you to just be yourself. <br><br> _Dialog Code:  Chapter_1_0062700 ",
-  "Narration  <br><br> Slowly, Atria nods in agreement. <br><br> _Dialog Code:  Chapter_1_0063000 ",
-  "character_object_atria Chapter_1_0063200 Atria1_Timid ",
-  "character_object_atria Chapter_1_0063500 I... I don't really know... I've known them for so long...",
-  "Scene reconverges here  Chapter_1_0063600 Scene reconverges here ",
-  "jump Chapter_1_after_choice_3",
-],
-'Chapter_1_after_choice_3': [
- // end hardcoded dialog_code == 'Chapter_1_0058600
+  'Chapter_1_Choice_3_ignore_the_whole_incident': [
+    "Choice 1 Tell her to confront them  Chapter_1_0058800 Choice 1: Tell her to confront them ",
+    "Player  <br><br> Atria, I understand your attachment to them, but a lot of their actions that you've explained to me don't seem right in any way.. <br><br> _Dialog Code:  Chapter_1_0059100 ",
+    "Player  <br><br> If you think they are causing you hurt, the best thing to do is confront them as soon as possible. <br><br> _Dialog Code:  Chapter_1_0059300 ",
+    "Player  <br><br> If they disregard your feelings after you do so, they aren't worth your time. Let alone your pain. <br><br> _Dialog Code:  Chapter_1_0059500 ",
+    "Player  <br><br> I know it may be hard, but sometimes cutting people out of your life is the best decision. It can be the difference between differing sides of your mental stability. <br><br> _Dialog Code:  Chapter_1_0059700 ",
+    "Narration  <br><br> Atrias eyes widen at this, fearing the mere idea of confrontation. <br><br> _Dialog Code:  Chapter_1_0060000 ",
+    "character_object_atria Chapter_1_0060300 ...But what if they respond negatively...? ",
+    "character_object_atria Chapter_1_0060500 Atria2_Sad ",
+    "character_object_atria Chapter_1_0060800 What if they... ",
+    "Narration  <br><br> She flinches, seemingly reimagining older events. Taking a deep breath, she composes herself. It was a blatant lie, a response that seems like a natural reflex to recalling such things. <br><br> _Dialog Code:  Chapter_1_0061100 ",
+    "character_object_atria Chapter_1_0061300 Atria1_Timid ",
+    "character_object_atria Chapter_1_0061600 ...I... don't think that's a good idea. ",
+    "Scene reconverges here  Chapter_1_0061800 Scene reconverges here ",
+    "jump Chapter_1_after_choice_3",
+  ],
+  'Chapter_1_Choice_3_go_search_for_atria': [
+    "Choice 2 Tell her to take her time  Chapter_1_0062000 Choice 2: Tell her to take her time ",
+    "Player  <br><br> Don't worry too much about it. I'll help you through this, and you can take as much time as you need. <br><br> _Dialog Code:  Chapter_1_0062300 ",
+    "Player  <br><br> It's a large step to take, and it can take a lot. I encourage you to take your time. <br><br> _Dialog Code:  Chapter_1_0062500 ",
+    "Player  <br><br> ...Just, think about what's best for you. Consider the idea of friends that allow you to just be yourself. <br><br> _Dialog Code:  Chapter_1_0062700 ",
+    "Narration  <br><br> Slowly, Atria nods in agreement. <br><br> _Dialog Code:  Chapter_1_0063000 ",
+    "character_object_atria Chapter_1_0063200 Atria1_Timid ",
+    "character_object_atria Chapter_1_0063500 I... I don't really know... I've known them for so long...",
+    "Scene reconverges here  Chapter_1_0063600 Scene reconverges here ",
+    "jump Chapter_1_after_choice_3",
+  ],
+  'Chapter_1_after_choice_3': [
+    // end hardcoded dialog_code == 'Chapter_1_0058600
 '''
     if 'Chapter_1_0058800' <= dialog_code    and   dialog_code <= 'Chapter_1_0063600'  : 
         return '    // %s removed - covered in choice block above \n' %dialog_code 
@@ -310,44 +310,44 @@ def do_differently_given_code(row_in_csv):
 
     if dialog_code == 'Chapter_2_0011400':
         return '''
- // start hardcoded dialog_code == Chapter_2_0011400
- {
-  'Choice': {
-     'Chapter_2_Choice_1_dont_invite_her_to_the_radio_club': {
-       'Text': "Don\'t invite her to the radio club",
-       'Do': 'jump Chapter_2_Choice_1_dont_invite_her_to_the_radio_club',
-     },    
-     'Chapter_2_Choice_1_invite_her_to_the_radio_club': {
-       'Text': 'Invite her to the radio club',
-       'Do': 'jump Chapter_2_Choice_1_invite_her_to_the_radio_club',
-     },
-   }
- },
-],
+  // start hardcoded dialog_code == Chapter_2_0011400
+  {
+    'Choice': {
+      'Chapter_2_Choice_1_dont_invite_her_to_the_radio_club': {
+        'Text': "Don\'t invite her to the radio club",
+        'Do': 'jump Chapter_2_Choice_1_dont_invite_her_to_the_radio_club',
+      },    
+      'Chapter_2_Choice_1_invite_her_to_the_radio_club': {
+        'Text': 'Invite her to the radio club',
+        'Do': 'jump Chapter_2_Choice_1_invite_her_to_the_radio_club',
+      },
+    }
+  },
+  ],
 
-'Chapter_2_Choice_1_dont_invite_her_to_the_radio_club': [
-  "Choice 1 Don't invite her to the radio club  Chapter_2_0011600 Choice 1: Don\'t invite her to the radio club ",
-  "Skye Sprite disappears  Chapter_2_0011800 Skye Sprite disappears ",
-  "character_object_kyo Chapter_2_0011900 Kyo _FP_Default Appears ",
-  "Narration  <br><br> You take a step back, standing side by side with Kyo once again. He looks at you with a raised brow, unsubtly gesturing towards Skye and muttering quietly. <br><br> _Dialog Code:  Chapter_2_0012200 ",
-  "character_object_kyo Chapter_2_0012500 You thinking of inviting her? ",
-  "Narration  <br><br> Surprised at Kyo's sudden interest, you look at him questioningly. <br><br> _Dialog Code:  Chapter_2_0012800 ",
-  "Player  <br><br> Think it\'s a good idea? We don\'t really know her... <br><br> _Dialog Code:  Chapter_2_0013100 ",
-  "character_object_kyo Chapter_2_0013400 Man, do you think we\'re in any position to be picky? Bet you\'re just too chicken to ask. ",
-  "character_object_kyo Chapter_2_0013600 Kyo sprite disappears ",
-  "Skye Default Sprite Appears  Chapter_2_0013700 Skye Default Sprite Appears ",
-  "Narration  <br><br> You roll your eyes at his obvious bait - he was the one pushing recruitment off onto you so it wasn\'t like he could talk.  <br><br> _Dialog Code:  Chapter_2_0014000 ",
-  "Narration  <br><br> With a grumble, you turn back to Skye, who blinks weirdly at you, looking strangely at the both of you muttering at each other. <br><br> _Dialog Code:  Chapter_2_0014200 ",
-  "Scene reconverges here  Chapter_2_0014400 Scene reconverges here ",
+  'Chapter_2_Choice_1_dont_invite_her_to_the_radio_club': [
+    "Choice 1 Don't invite her to the radio club  Chapter_2_0011600 Choice 1: Don\'t invite her to the radio club ",
+    "Skye Sprite disappears  Chapter_2_0011800 Skye Sprite disappears ",
+    "character_object_kyo Chapter_2_0011900 Kyo _FP_Default Appears ",
+    "Narration  <br><br> You take a step back, standing side by side with Kyo once again. He looks at you with a raised brow, unsubtly gesturing towards Skye and muttering quietly. <br><br> _Dialog Code:  Chapter_2_0012200 ",
+    "character_object_kyo Chapter_2_0012500 You thinking of inviting her? ",
+    "Narration  <br><br> Surprised at Kyo's sudden interest, you look at him questioningly. <br><br> _Dialog Code:  Chapter_2_0012800 ",
+    "Player  <br><br> Think it\'s a good idea? We don\'t really know her... <br><br> _Dialog Code:  Chapter_2_0013100 ",
+    "character_object_kyo Chapter_2_0013400 Man, do you think we\'re in any position to be picky? Bet you\'re just too chicken to ask. ",
+    "character_object_kyo Chapter_2_0013600 Kyo sprite disappears ",
+    "Skye Default Sprite Appears  Chapter_2_0013700 Skye Default Sprite Appears ",
+    "Narration  <br><br> You roll your eyes at his obvious bait - he was the one pushing recruitment off onto you so it wasn\'t like he could talk.  <br><br> _Dialog Code:  Chapter_2_0014000 ",
+    "Narration  <br><br> With a grumble, you turn back to Skye, who blinks weirdly at you, looking strangely at the both of you muttering at each other. <br><br> _Dialog Code:  Chapter_2_0014200 ",
+    "Scene reconverges here  Chapter_2_0014400 Scene reconverges here ",
+    "jump Chapter_2_after_choice_1",
+  ],
+  'Chapter_2_Choice_1_invite_her_to_the_radio_club': [
+  "Choice 2 Invite her to the radio club  Chapter_2_0014600 Choice 2: Invite her to the radio club ",
+  "Scene reconverges here  Chapter_2_0014700 Scene reconverges here ",
   "jump Chapter_2_after_choice_1",
-],
-'Chapter_2_Choice_1_invite_her_to_the_radio_club': [
- "Choice 2 Invite her to the radio club  Chapter_2_0014600 Choice 2: Invite her to the radio club ",
- "Scene reconverges here  Chapter_2_0014700 Scene reconverges here ",
- "jump Chapter_2_after_choice_1",
-],
-'Chapter_2_after_choice_1': [
- // end hardcoded dialog_code == 'Chapter_2_0011400
+  ],
+  'Chapter_2_after_choice_1': [
+  // end hardcoded dialog_code == 'Chapter_2_0011400
 '''
     if 'Chapter_2_0011600' <= dialog_code    and   dialog_code <= 'Chapter_2_0014700'  : 
         return '    // %s removed - covered in choice block above \n' %dialog_code 
@@ -367,39 +367,39 @@ def do_differently_given_code(row_in_csv):
 
     if dialog_code == 'Chapter_2_0035300':
         return '''
- // start hardcoded dialog_code == Chapter_2_0035300
- {
-  'Choice': {
-     'Chapter_2_Choice_2_dont_intervene': {
-       'Text': "Don\'t intervene",
-       'Do': 'jump Chapter_2_Choice_2_dont_intervene',
-     },    
-     'Chapter_2_Choice_2_intervene': {
-       'Text': 'Intervene',
-       'Do': 'jump Chapter_2_Choice_2_intervene',
-     },
-   }
- },
-],
+    // start hardcoded dialog_code == Chapter_2_0035300
+    {
+    'Choice': {
+        'Chapter_2_Choice_2_dont_intervene': {
+          'Text': "Don\'t intervene",
+          'Do': 'jump Chapter_2_Choice_2_dont_intervene',
+        },    
+        'Chapter_2_Choice_2_intervene': {
+          'Text': 'Intervene',
+          'Do': 'jump Chapter_2_Choice_2_intervene',
+        },
+      }
+    },
+  ],
 
-'Chapter_2_Choice_2_dont_intervene': [
- "Choice 1 Don't Intervene  Chapter_2_0035500 Choice 1: Don\'t Intervene ",
- "Narration  <br><br> You stay back a little longer. You\'re sure your schoolmates wouldn\'t resort to violence and you weren\'t sure Skye would appreciate a practical stranger stepping in on things they weren\'t fully informed on. <br><br> _Dialog Code:  Chapter_2_0035800 ",
- "character_object_student_a Chapter_2_0036100 You actually believe that crap. ",
- "Narration  <br><br> One of the trio scoffs, a derisive sneer on their face. <br><br> _Dialog Code:  Chapter_2_0036400 ",
- "character_object_student_a Chapter_2_0036700 Sensei has to be nice to you - you get the best grades, so of course she sucks up to you. Nobody here actually likes you. ",
- "Narration  <br><br> They move closer towards Skye, one of them bringing up a hand to give her a shove. Skye furrows her eyebrows, moving back to avoid the advancing group before her expression crumples when she realises there\'s no way for her to escape. <br><br> _Dialog Code:  Chapter_2_0037000 ",
- "Narration  <br><br> You frantically step forward, unsure how everything escalated so quickly. There\'s no way you can leave Skye alone on this. <br><br> _Dialog Code:  Chapter_2_0037200 ",
- "Scene reconverges here  Chapter_2_0037400 Scene reconverges here ",
- "jump Chapter_2_after_choice_2",
-],
-'Chapter_2_Choice_2_intervene': [
- "Choice 2 Intervene  Chapter_2_0037600 Choice 2: Intervene ",
- "Narration  <br><br> 	Scene reconverges here <br><br> _Dialog Code:  Chapter_2_0037700 ",
- "jump Chapter_2_after_choice_2",
-],
-'Chapter_2_after_choice_2': [
- // end hardcoded dialog_code == 'Chapter_2_0035300
+  'Chapter_2_Choice_2_dont_intervene': [
+    "Choice 1 Don't Intervene  Chapter_2_0035500 Choice 1: Don\'t Intervene ",
+    "Narration  <br><br> You stay back a little longer. You\'re sure your schoolmates wouldn\'t resort to violence and you weren\'t sure Skye would appreciate a practical stranger stepping in on things they weren\'t fully informed on. <br><br> _Dialog Code:  Chapter_2_0035800 ",
+    "character_object_student_a Chapter_2_0036100 You actually believe that crap. ",
+    "Narration  <br><br> One of the trio scoffs, a derisive sneer on their face. <br><br> _Dialog Code:  Chapter_2_0036400 ",
+    "character_object_student_a Chapter_2_0036700 Sensei has to be nice to you - you get the best grades, so of course she sucks up to you. Nobody here actually likes you. ",
+    "Narration  <br><br> They move closer towards Skye, one of them bringing up a hand to give her a shove. Skye furrows her eyebrows, moving back to avoid the advancing group before her expression crumples when she realises there\'s no way for her to escape. <br><br> _Dialog Code:  Chapter_2_0037000 ",
+    "Narration  <br><br> You frantically step forward, unsure how everything escalated so quickly. There\'s no way you can leave Skye alone on this. <br><br> _Dialog Code:  Chapter_2_0037200 ",
+    "Scene reconverges here  Chapter_2_0037400 Scene reconverges here ",
+    "jump Chapter_2_after_choice_2",
+  ],
+  'Chapter_2_Choice_2_intervene': [
+    "Choice 2 Intervene  Chapter_2_0037600 Choice 2: Intervene ",
+    "Narration  <br><br> 	Scene reconverges here <br><br> _Dialog Code:  Chapter_2_0037700 ",
+    "jump Chapter_2_after_choice_2",
+  ],
+  'Chapter_2_after_choice_2': [
+  // end hardcoded dialog_code == 'Chapter_2_0035300
 '''
     if 'Chapter_2_0035500' <= dialog_code    and   dialog_code <= 'Chapter_2_0037700'  : 
         return '    // %s removed - covered in choice block above \n' %dialog_code 
@@ -418,37 +418,37 @@ def do_differently_given_code(row_in_csv):
 
     if dialog_code == 'Chapter_2_0086100':
         return '''
- // start hardcoded dialog_code == Chapter_2_0086100
- {
-  'Choice': {
-     'Chapter_2_Choice_3_dont_invite_her_to_the_radio_club': {
-       'Text': "Don\'t invite her to the radio club",
-       'Do': 'jump Chapter_2_Choice_3_dont_invite_her_to_the_radio_club',
-     },    
-     'Chapter_2_Choice_3_invite_her_to_the_radio_club': {
-       'Text': 'Invite her to the radio club',
-       'Do': 'jump Chapter_2_Choice_3_invite_her_to_the_radio_club',
-     },
-   }
- },
-],
+    // start hardcoded dialog_code == Chapter_2_0086100
+    {
+    'Choice': {
+        'Chapter_2_Choice_3_dont_invite_her_to_the_radio_club': {
+          'Text': "Don\'t invite her to the radio club",
+          'Do': 'jump Chapter_2_Choice_3_dont_invite_her_to_the_radio_club',
+        },    
+        'Chapter_2_Choice_3_invite_her_to_the_radio_club': {
+          'Text': 'Invite her to the radio club',
+          'Do': 'jump Chapter_2_Choice_3_invite_her_to_the_radio_club',
+        },
+      }
+    },
+  ],
 
-'Chapter_2_Choice_3_dont_invite_her_to_the_radio_club': [
- "Choice 1 Don't invite her to the radio club  Chapter_2_0086300 Choice 1: Don\'t invite her to the radio club ",
- "Narration  <br><br> You aren\'t sure how appropriate it would be to bring up the subject again after such a charged exchange, especially considering that the tension was one started by you. You stay quiet, releasing your hold on her hand.  <br><br> _Dialog Code:  Chapter_2_0086600 ",
- "Narration  <br><br> To your surprise, a voice pipes up from beside Skye, finally approaching closer after your apologies were finished. <br><br> _Dialog Code:  Chapter_2_0086800 ",
- "character_object_atria Chapter_2_0087100 Skye? Would you maybe consider joining us? Maybe even if it's later on? ",
- "Narration  <br><br> You're surprised once again by the girl's boldness. Looks like she was the braver one out of the two of you. You smile at Skye, emboldened by your friend to ask again. <br><br> _Dialog Code:  Chapter_2_0087400 ",
- "Scene reconverges here  Chapter_2_0087600 Scene reconverges here ",
- "jump Chapter_2_after_choice_3",
-],
-'Chapter_2_Choice_3_invite_her_to_the_radio_club': [
- "Choice 2 Invite her to the radio club  Chapter_2_0087800 Choice 2: Invite her to the radio club ",
- "Narration  <br><br> 	Scene reconverges here <br><br> _Dialog Code:  Chapter_2_0087900 ",
- "jump Chapter_2_after_choice_3",
-],
-'Chapter_2_after_choice_3': [
- // end hardcoded dialog_code == 'Chapter_2_0086100
+  'Chapter_2_Choice_3_dont_invite_her_to_the_radio_club': [
+    "Choice 1 Don't invite her to the radio club  Chapter_2_0086300 Choice 1: Don\'t invite her to the radio club ",
+    "Narration  <br><br> You aren\'t sure how appropriate it would be to bring up the subject again after such a charged exchange, especially considering that the tension was one started by you. You stay quiet, releasing your hold on her hand.  <br><br> _Dialog Code:  Chapter_2_0086600 ",
+    "Narration  <br><br> To your surprise, a voice pipes up from beside Skye, finally approaching closer after your apologies were finished. <br><br> _Dialog Code:  Chapter_2_0086800 ",
+    "character_object_atria Chapter_2_0087100 Skye? Would you maybe consider joining us? Maybe even if it's later on? ",
+    "Narration  <br><br> You're surprised once again by the girl's boldness. Looks like she was the braver one out of the two of you. You smile at Skye, emboldened by your friend to ask again. <br><br> _Dialog Code:  Chapter_2_0087400 ",
+    "Scene reconverges here  Chapter_2_0087600 Scene reconverges here ",
+    "jump Chapter_2_after_choice_3",
+  ],
+  'Chapter_2_Choice_3_invite_her_to_the_radio_club': [
+    "Choice 2 Invite her to the radio club  Chapter_2_0087800 Choice 2: Invite her to the radio club ",
+    "Narration  <br><br> 	Scene reconverges here <br><br> _Dialog Code:  Chapter_2_0087900 ",
+    "jump Chapter_2_after_choice_3",
+  ],
+  'Chapter_2_after_choice_3': [
+  // end hardcoded dialog_code == 'Chapter_2_0086100
 '''
     if 'Chapter_2_0086300' <= dialog_code    and   dialog_code <= 'Chapter_2_0087900'  : 
         return '    // %s removed - covered in choice block above \n' %dialog_code 
@@ -470,43 +470,43 @@ def do_differently_given_code(row_in_csv):
 
     if dialog_code == 'Chapter_3_0012100':
         return '''
- // start hardcoded dialog_code == Chapter_3_0012100
- {
-  'Choice': {
-     'Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club': {
-       'Text': "Knock and try to invite Esmeray",
-       'Do': 'jump Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club',
-     },    
-     'Chapter_3_Choice_1_dont_knock_and_invite_esmeray': {
-       'Text': "Don\'t knock and invite Esmeray",
-       'Do': 'jump Chapter_3_Choice_1_dont_knock_and_invite_esmeray',
-     },
-   }
- },
-],
+    // start hardcoded dialog_code == Chapter_3_0012100
+    {
+    'Choice': {
+        'Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club': {
+          'Text': "Knock and try to invite Esmeray",
+          'Do': 'jump Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club',
+        },    
+        'Chapter_3_Choice_1_dont_knock_and_invite_esmeray': {
+          'Text': "Don\'t knock and invite Esmeray",
+          'Do': 'jump Chapter_3_Choice_1_dont_knock_and_invite_esmeray',
+        },
+      }
+    },
+  ],
 
-'Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club': [
- "character_object_esmeray Chapter_3_0012300 Choice 1: Knock and try to invite Esmeray to the Club ",
- "Narration  <br><br> You take a deep breath and knock quietly before walking into the classroom. <br><br> _Dialog Code:  Chapter_3_0012600 ",
- "character_object_esmeray Chapter_3_0012800 Esmeray Unamused ",
- "Narration  <br><br> Esmeray immediately stops playing, his face loses its smile, and he turns to you with a cold face. <br><br> _Dialog Code:  Chapter_3_0013000 ",
- "Scene reconverges here  Chapter_3_0013200 Scene reconverges here ",
- "jump Chapter_3_after_choice_1",
-],
-'Chapter_3_Choice_1_dont_knock_and_invite_esmeray': [
- "character_object_esmeray Chapter_3_0013400 Choice 2: Don't Knock and invite Esmeray ",
- "Narration  <br><br> You hesitate in asking Esmeray to join. <br><br> _Dialog Code:  Chapter_3_0013700 ",
- "Narration  <br><br> He's very high profile! Why would he want to join a club that no one knows about? <br><br> _Dialog Code:  Chapter_3_0013900 ",
- "Narration  <br><br> While you were deliberating, you accidentally shuffle in place, bumping into the classroom's door. <br><br> _Dialog Code:  Chapter_3_0014100 ",
- "Narration  <br><br> *CREAK* Door creak SFX <br><br> _Dialog Code:  Chapter_3_0014300 ",
- "character_object_esmeray Chapter_3_0014500 Esmeray Unamused ",
- "Narration  <br><br> Quickly, Esmeray stops playing, his face loses its smile, and he turns to the door with a cold face. <br><br> _Dialog Code:  Chapter_3_0014700 ",
- "Narration  <br><br> You laugh awkwardly, before slowly entering the room. <br><br> _Dialog Code:  Chapter_3_0014900 ",
- "Scene reconverges here  Chapter_3_0015000 Scene reconverges here ",
- "jump Chapter_3_after_choice_1",
-],
-'Chapter_3_after_choice_1': [
- // end hardcoded dialog_code == 'Chapter_3_0012100
+  'Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club': [
+    "character_object_esmeray Chapter_3_0012300 Choice 1: Knock and try to invite Esmeray to the Club ",
+    "Narration  <br><br> You take a deep breath and knock quietly before walking into the classroom. <br><br> _Dialog Code:  Chapter_3_0012600 ",
+    "character_object_esmeray Chapter_3_0012800 Esmeray Unamused ",
+    "Narration  <br><br> Esmeray immediately stops playing, his face loses its smile, and he turns to you with a cold face. <br><br> _Dialog Code:  Chapter_3_0013000 ",
+    "Scene reconverges here  Chapter_3_0013200 Scene reconverges here ",
+    "jump Chapter_3_after_choice_1",
+  ],
+  'Chapter_3_Choice_1_dont_knock_and_invite_esmeray': [
+    "character_object_esmeray Chapter_3_0013400 Choice 2: Don't Knock and invite Esmeray ",
+    "Narration  <br><br> You hesitate in asking Esmeray to join. <br><br> _Dialog Code:  Chapter_3_0013700 ",
+    "Narration  <br><br> He's very high profile! Why would he want to join a club that no one knows about? <br><br> _Dialog Code:  Chapter_3_0013900 ",
+    "Narration  <br><br> While you were deliberating, you accidentally shuffle in place, bumping into the classroom's door. <br><br> _Dialog Code:  Chapter_3_0014100 ",
+    "Narration  <br><br> *CREAK* Door creak SFX <br><br> _Dialog Code:  Chapter_3_0014300 ",
+    "character_object_esmeray Chapter_3_0014500 Esmeray Unamused ",
+    "Narration  <br><br> Quickly, Esmeray stops playing, his face loses its smile, and he turns to the door with a cold face. <br><br> _Dialog Code:  Chapter_3_0014700 ",
+    "Narration  <br><br> You laugh awkwardly, before slowly entering the room. <br><br> _Dialog Code:  Chapter_3_0014900 ",
+    "Scene reconverges here  Chapter_3_0015000 Scene reconverges here ",
+    "jump Chapter_3_after_choice_1",
+  ],
+  'Chapter_3_after_choice_1': [
+  // end hardcoded dialog_code == 'Chapter_3_0012100
 '''
     if 'Chapter_3_0012300' <= dialog_code    and   dialog_code <= 'Chapter_3_0015000'  : 
         return '    // %s removed - covered in choice block above \n' %dialog_code 
@@ -620,39 +620,39 @@ def do_differently_given_code(row_in_csv):
 
     if dialog_code == 'Chapter_3_0074000':
         return '''
- // start hardcoded dialog_code == Chapter_3_0074000
- {
-  'Choice': {
-     'Chapter_3_Choice_3_introduct_Esmeray': {
-       'Text': "Introduce Esmeray",
-       'Do': 'jump Chapter_3_Choice_3_introduct_Esmeray',
-     },    
-     'Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves': {
-       'Text': "Wait for Esmeray to introduce themselves",
-       'Do': 'jump Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves',
-     },
-   }
- },
-],
+    // start hardcoded dialog_code == Chapter_3_0074000
+    {
+    'Choice': {
+        'Chapter_3_Choice_3_introduct_Esmeray': {
+          'Text': "Introduce Esmeray",
+          'Do': 'jump Chapter_3_Choice_3_introduct_Esmeray',
+        },    
+        'Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves': {
+          'Text': "Wait for Esmeray to introduce themselves",
+          'Do': 'jump Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves',
+        },
+      }
+    },
+  ],
 
-'Chapter_3_Choice_3_introduct_Esmeray': [
- "character_object_esmeray Chapter_3_0074200 Choice 1: Introduce Esmeray ",
- "Scene reconverges here  Chapter_3_0074400 Scene reconverges here ",
- "jump Chapter_3_after_choice_3",
-],
-'Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves': [
- "character_object_esmeray Chapter_3_0074600 Choice 2: Wait for Esmeray to introduce themselves ",
- "Narration  <br><br> You want to let Esmeray introduce himself, and do jazz hands to start it off. <br><br> _Dialog Code:  Chapter_3_0074900 ",
- "Narration  <br><br> Really, you're just doing jazz hands in awkward silence... <br><br> _Dialog Code:  Chapter_3_0075100 ",
- "Narration  <br><br> ... <br><br> _Dialog Code:  Chapter_3_0075300 ",
- "Narration  <br><br> ...What are you doing right now? Lol. <br><br> _Dialog Code:  Chapter_3_0075500 ",
- "Narration  <br><br> You cough awkwardly at the silence before slowly putting your hands down. <br><br> _Dialog Code:  Chapter_3_0075700 ",
- "Narration  <br><br> You clear your throat again, desperate to get out of this situation. <br><br> _Dialog Code:  Chapter_3_0075900 ",
- "Scene reconverges here  Chapter_3_0076000 Scene reconverges here ",
- "jump Chapter_3_after_choice_3",
-],
-'Chapter_3_after_choice_3': [
- // end hardcoded dialog_code == 'Chapter_3_0074000
+  'Chapter_3_Choice_3_introduct_Esmeray': [
+    "character_object_esmeray Chapter_3_0074200 Choice 1: Introduce Esmeray ",
+    "Scene reconverges here  Chapter_3_0074400 Scene reconverges here ",
+    "jump Chapter_3_after_choice_3",
+  ],
+  'Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves': [
+    "character_object_esmeray Chapter_3_0074600 Choice 2: Wait for Esmeray to introduce themselves ",
+    "Narration  <br><br> You want to let Esmeray introduce himself, and do jazz hands to start it off. <br><br> _Dialog Code:  Chapter_3_0074900 ",
+    "Narration  <br><br> Really, you're just doing jazz hands in awkward silence... <br><br> _Dialog Code:  Chapter_3_0075100 ",
+    "Narration  <br><br> ... <br><br> _Dialog Code:  Chapter_3_0075300 ",
+    "Narration  <br><br> ...What are you doing right now? Lol. <br><br> _Dialog Code:  Chapter_3_0075500 ",
+    "Narration  <br><br> You cough awkwardly at the silence before slowly putting your hands down. <br><br> _Dialog Code:  Chapter_3_0075700 ",
+    "Narration  <br><br> You clear your throat again, desperate to get out of this situation. <br><br> _Dialog Code:  Chapter_3_0075900 ",
+    "Scene reconverges here  Chapter_3_0076000 Scene reconverges here ",
+    "jump Chapter_3_after_choice_3",
+  ],
+  'Chapter_3_after_choice_3': [
+  // end hardcoded dialog_code == 'Chapter_3_0074000
 '''
     if 'Chapter_3_0074200' <= dialog_code    and   dialog_code <= 'Chapter_3_0076000'  : 
         return '    // %s removed - covered in choice block above \n' %dialog_code 

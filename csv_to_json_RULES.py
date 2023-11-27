@@ -308,6 +308,62 @@ def do_differently_given_code(row_in_csv):
 
 
 
+    if dialog_code == 'Chapter_2_0011400':
+        return '''
+ // start hardcoded dialog_code == Chapter_2_0011400
+ {
+  'Choice': {
+     'Chapter_2_Choice_1_dont_invite_her_to_the_radio_club': {
+       'Text': "Don\'t invite her to the radio club",
+       'Do': 'jump Chapter_2_Choice_1_dont_invite_her_to_the_radio_club',
+     },    
+     'Chapter_2_Choice_1_invite_her_to_the_radio_club': {
+       'Text': 'Invite her to the radio club',
+       'Do': 'jump Chapter_2_Choice_1_invite_her_to_the_radio_club',
+     },
+   }
+ },
+],
+
+'Chapter_2_Choice_1_dont_invite_her_to_the_radio_club': [
+ " Choice 1 Don't invite her to the radio club  Chapter_2_0011600 Choice 1: Don\'t invite her to the radio club ",
+ " Skye Sprite disappears  Chapter_2_0011800 Skye Sprite disappears ",
+ " character_object_kyo Chapter_2_0011900 Kyo _FP_Default Appears ",
+ " Narration  <br><br> You take a step back, standing side by side with Kyo once again. He looks at you with a raised brow, unsubtly gesturing towards Skye and muttering quietly. <br><br> _Dialog Code:  Chapter_2_0012200 ",
+ " character_object_kyo Chapter_2_0012500 You thinking of inviting her? ",
+ " Narration  <br><br> Surprised at Kyo's sudden interest, you look at him questioningly. <br><br> _Dialog Code:  Chapter_2_0012800 ",
+ " Player  <br><br> Think it\'s a good idea? We don\'t really know her... <br><br> _Dialog Code:  Chapter_2_0013100 ",
+ " character_object_kyo Chapter_2_0013400 Man, do you think we\'re in any position to be picky? Bet you\'re just too chicken to ask. ",
+ " character_object_kyo Chapter_2_0013600 Kyo sprite disappears ",
+ " Skye Default Sprite Appears  Chapter_2_0013700 Skye Default Sprite Appears ",
+ " Narration  <br><br> You roll your eyes at his obvious bait - he was the one pushing recruitment off onto you so it wasn\'t like he could talk.  <br><br> _Dialog Code:  Chapter_2_0014000 ",
+ " Narration  <br><br> With a grumble, you turn back to Skye, who blinks weirdly at you, looking strangely at the both of you muttering at each other. <br><br> _Dialog Code:  Chapter_2_0014200 ",
+ " Scene reconverges here  Chapter_2_0014400 Scene reconverges here ",
+ "jump Chapter_2_after_choice_1",
+],
+'Chapter_2_Choice_1_invite_her_to_the_radio_club': [
+ " Choice 2 Invite her to the radio club  Chapter_2_0014600 Choice 2: Invite her to the radio club ",
+ " Scene reconverges here  Chapter_2_0014700 Scene reconverges here ",
+ "jump Chapter_2_after_choice_1",
+],
+'Chapter_2_after_choice_1': [
+ // end hardcoded dialog_code == 'Chapter_2_0011400
+'''
+    if 'Chapter_2_0011600' <= dialog_code    and   dialog_code <= 'Chapter_2_0014700'  : 
+        return '// %s removed - covered in choice block above \n ' %dialog_code 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     # end of choice rules 
 

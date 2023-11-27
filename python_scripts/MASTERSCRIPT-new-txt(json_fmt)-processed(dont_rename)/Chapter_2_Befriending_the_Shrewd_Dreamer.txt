@@ -173,18 +173,51 @@
  " Narration  <br><br> Skye’s bored expression finally cracks, vulnerability seeping through. She looks away, shifting uncomfortably before glaring back at the person speaking. <br><br> _Dialog Code:  Chapter_2_0034500 ",
  " character_object_skye Chapter_2_0034800 Sensei appreciates my contributions to the class, and they said so themself. They just wish that I give a chance to the rest of the class to express their opinions as well and I concurred. You three should stop talking about things that you don\'t understand. ",
  " Narration  <br><br> The atmosphere was slowly getting more tense. It might get bad for Skye if you don\'t intervene. <br><br> _Dialog Code:  Chapter_2_0035100 ",
- " Proceed to two choices <Don't intervene> or <Intervene>  Chapter_2_0035300 Proceed to two choices: <Don\'t intervene> or <Intervene> ",
- " Choice 1 Don't Intervene  Chapter_2_0035500 Choice 1: Don\'t Intervene ",
- " Narration  <br><br> You stay back a little longer. You\'re sure your schoolmates wouldn\'t resort to violence and you weren\'t sure Skye would appreciate a practical stranger stepping in on things they weren\'t fully informed on. <br><br> _Dialog Code:  Chapter_2_0035800 ",
+
+ // start hardcoded dialog_code == Chapter_2_0035300
+ {
+  'Choice': {
+     'Chapter_2_Choice_2_dont_intervene': {
+       'Text': "Don't intervene",
+       'Do': 'jump Chapter_2_Choice_2_dont_intervene',
+     },    
+     'Chapter_2_Choice_2_intervene': {
+       'Text': 'Intervene',
+       'Do': 'jump Chapter_2_Choice_2_intervene',
+     },
+   }
+ },
+],
+
+'Chapter_2_Choice_2_dont_intervene': [
+ " Choice 1 Don't Intervene  Chapter_2_0035500 Choice 1: Don't Intervene ",
+ " Narration  <br><br> You stay back a little longer. You're sure your schoolmates wouldn't resort to violence and you weren't sure Skye would appreciate a practical stranger stepping in on things they weren't fully informed on. <br><br> _Dialog Code:  Chapter_2_0035800 ",
  " character_object_student_a Chapter_2_0036100 You actually believe that crap. ",
  " Narration  <br><br> One of the trio scoffs, a derisive sneer on their face. <br><br> _Dialog Code:  Chapter_2_0036400 ",
- " character_object_student_a Chapter_2_0036700 Sensei has to be nice to you – you get the best grades, so of course she sucks up to you. Nobody here actually likes you. ",
- " Narration  <br><br> They move closer towards Skye, one of them bringing up a hand to give her a shove. Skye furrows her eyebrows, moving back to avoid the advancing group before her expression crumples when she realises there\'s no way for her to escape. <br><br> _Dialog Code:  Chapter_2_0037000 ",
- " Narration  <br><br> You frantically step forward, unsure how everything escalated so quickly. There\'s no way you can leave Skye alone on this. <br><br> _Dialog Code:  Chapter_2_0037200 ",
+ " character_object_student_a Chapter_2_0036700 Sensei has to be nice to you - you get the best grades, so of course she sucks up to you. Nobody here actually likes you. ",
+ " Narration  <br><br> They move closer towards Skye, one of them bringing up a hand to give her a shove. Skye furrows her eyebrows, moving back to avoid the advancing group before her expression crumples when she realises there's no way for her to escape. <br><br> _Dialog Code:  Chapter_2_0037000 ",
+ " Narration  <br><br> You frantically step forward, unsure how everything escalated so quickly. There's no way you can leave Skye alone on this. <br><br> _Dialog Code:  Chapter_2_0037200 ",
  " Scene reconverges here  Chapter_2_0037400 Scene reconverges here ",
+ "jump Chapter_2_after_choice_2",
+],
+'Chapter_2_Choice_2_intervene': [
  " Choice 2 Intervene  Chapter_2_0037600 Choice 2: Intervene ",
  " Narration  <br><br> 	Scene reconverges here <br><br> _Dialog Code:  Chapter_2_0037700 ",
- " Player  <br><br> Hey, that\'s enough! <br><br> _Dialog Code:  Chapter_2_0038000 ",
+ "jump Chapter_2_after_choice_2",
+],
+'Chapter_2_after_choice_2': [
+ // end hardcoded dialog_code == 'Chapter_2_0035300
+// Chapter_2_0035500 removed - covered in choice block above 
+ // Chapter_2_0035800 removed - covered in choice block above 
+ // Chapter_2_0036100 removed - covered in choice block above 
+ // Chapter_2_0036400 removed - covered in choice block above 
+ // Chapter_2_0036700 removed - covered in choice block above 
+ // Chapter_2_0037000 removed - covered in choice block above 
+ // Chapter_2_0037200 removed - covered in choice block above 
+ // Chapter_2_0037400 removed - covered in choice block above 
+ // Chapter_2_0037600 removed - covered in choice block above 
+ // Chapter_2_0037700 removed - covered in choice block above 
+  " Player  <br><br> Hey, that\'s enough! <br><br> _Dialog Code:  Chapter_2_0038000 ",
  " Narration  <br><br> You quickly make your way to the group. With them having parted in surprise at your exclamation, it\'s easy for you to take Skye by the hand, pulling her out of the circle that they surrounded her with. <br><br> _Dialog Code:  Chapter_2_0038300 ",
  " Player  <br><br> I don\'t know who you three are, but ganging up on someone is seriously low. From the little I\'ve heard, you don\'t even have a leg to stand on. Accusing somebody for something you have no proof of is ridiculous and mocking someone for participating in class is pathetic. <br><br> _Dialog Code:  Chapter_2_0038600 ",
  " character_object_student_c Chapter_2_0038900 Who– ",
@@ -362,16 +395,47 @@
  " Narration  <br><br> Skye smiles at you for the apology, moving towards you and extending an arm for you to grab. You gratefully take it, grasping onto her palm to shake. Her mouth quirks up in a rueful smirk. <br><br> _Dialog Code:  Chapter_2_0085300 ",
  " character_object_skye Chapter_2_0085600 I was getting too in my head, I think. I’m happy that you cared enough to try and snap me out of it. ",
  " Narration  <br><br> You smile at each other, relieved that your fight hadn’t caused irreparable damage to your new friendship. You think about the reason you fought in the first place. <br><br> _Dialog Code:  Chapter_2_0085900 ",
- " Proceed to two choices <Don't invite her to the radio club> or <Invite her to the radio club>  Chapter_2_0086100 Proceed to two choices: <Don\'t invite her to the radio club> or <Invite her to the radio club> ",
- " Choice 1 Don't invite her to the radio club  Chapter_2_0086300 Choice 1: Don\'t invite her to the radio club ",
- " Narration  <br><br> You aren\'t sure how appropriate it would be to bring up the subject again after such a charged exchange, especially considering that the tension was one started by you. You stay quiet, releasing your hold on her hand.  <br><br> _Dialog Code:  Chapter_2_0086600 ",
+
+ // start hardcoded dialog_code == Chapter_2_0086100
+ {
+  'Choice': {
+     'Chapter_2_Choice_3_dont_invite_her_to_the_radio_club': {
+       'Text': "Don't invite her to the radio club",
+       'Do': 'jump Chapter_2_Choice_3_dont_invite_her_to_the_radio_club',
+     },    
+     'Chapter_2_Choice_3_invite_her_to_the_radio_club': {
+       'Text': 'Invite her to the radio club',
+       'Do': 'jump Chapter_2_Choice_3_invite_her_to_the_radio_club',
+     },
+   }
+ },
+],
+
+'Chapter_2_Choice_3_dont_invite_her_to_the_radio_club': [
+ " Choice 1 Don't invite her to the radio club  Chapter_2_0086300 Choice 1: Don't invite her to the radio club ",
+ " Narration  <br><br> You aren't sure how appropriate it would be to bring up the subject again after such a charged exchange, especially considering that the tension was one started by you. You stay quiet, releasing your hold on her hand.  <br><br> _Dialog Code:  Chapter_2_0086600 ",
  " Narration  <br><br> To your surprise, a voice pipes up from beside Skye, finally approaching closer after your apologies were finished. <br><br> _Dialog Code:  Chapter_2_0086800 ",
- " character_object_atria Chapter_2_0087100 Skye? Would you maybe consider joining us? Maybe even if it’s later on? ",
- " Narration  <br><br> You’re surprised once again by the girl’s boldness. Looks like she was the braver one out of the two of you. You smile at Skye, emboldened by your friend to ask again. <br><br> _Dialog Code:  Chapter_2_0087400 ",
+ " character_object_atria Chapter_2_0087100 Skye? Would you maybe consider joining us? Maybe even if it's later on? ",
+ " Narration  <br><br> You're surprised once again by the girl's boldness. Looks like she was the braver one out of the two of you. You smile at Skye, emboldened by your friend to ask again. <br><br> _Dialog Code:  Chapter_2_0087400 ",
  " Scene reconverges here  Chapter_2_0087600 Scene reconverges here ",
+ "jump Chapter_2_after_choice_3",
+],
+'Chapter_2_Choice_3_invite_her_to_the_radio_club': [
  " Choice 2 Invite her to the radio club  Chapter_2_0087800 Choice 2: Invite her to the radio club ",
  " Narration  <br><br> 	Scene reconverges here <br><br> _Dialog Code:  Chapter_2_0087900 ",
- " Player  <br><br> Would you consider it? Joining us at the club? We’d love to have you. <br><br> _Dialog Code:  Chapter_2_0088200 ",
+ "jump Chapter_2_after_choice_3",
+],
+'Chapter_2_after_choice_3': [
+ // end hardcoded dialog_code == 'Chapter_2_0086100
+// Chapter_2_0086300 removed - covered in choice block above 
+ // Chapter_2_0086600 removed - covered in choice block above 
+ // Chapter_2_0086800 removed - covered in choice block above 
+ // Chapter_2_0087100 removed - covered in choice block above 
+ // Chapter_2_0087400 removed - covered in choice block above 
+ // Chapter_2_0087600 removed - covered in choice block above 
+ // Chapter_2_0087800 removed - covered in choice block above 
+ // Chapter_2_0087900 removed - covered in choice block above 
+  " Player  <br><br> Would you consider it? Joining us at the club? We’d love to have you. <br><br> _Dialog Code:  Chapter_2_0088200 ",
  " Narration  <br><br> You aren’t sure if the invite would be taken well, but Skye smiles softly at the two of you. She nods her head, one of her hands coming up to rest on her waist as the next words come out of her mouth. <br><br> _Dialog Code:  Chapter_2_0088500 ",
  " Skye Skye_Smile2  Chapter_2_0088800 Well, you two do look like you could use some help. Where do you think we should start? ",
  " Narration  <br><br> Atria smiles softly as she takes Skye’s hand in hers once more, dragging her to sit on the table as they start discussing ideas for the radio club, what they would prepare for the first broadcast, what news was popular in the school. <br><br> _Dialog Code:  Chapter_2_0089100 ",

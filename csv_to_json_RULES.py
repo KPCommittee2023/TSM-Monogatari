@@ -361,6 +361,313 @@ def do_differently_given_code(row_in_csv):
 
 
 
+#to be tested below
+
+
+
+    if dialog_code == 'Chapter_2_0035300':
+        return '''
+ // start hardcoded dialog_code == Chapter_2_0035300
+ {
+  'Choice': {
+     'Chapter_2_Choice_2_dont_intervene': {
+       'Text': "Don\'t intervene",
+       'Do': 'jump Chapter_2_Choice_2_dont_intervene',
+     },    
+     'Chapter_2_Choice_2_intervene': {
+       'Text': 'Intervene',
+       'Do': 'jump Chapter_2_Choice_2_intervene',
+     },
+   }
+ },
+],
+
+'Chapter_2_Choice_2_dont_intervene': [
+ " Choice 1 Don't Intervene  Chapter_2_0035500 Choice 1: Don\'t Intervene ",
+ " Narration  <br><br> You stay back a little longer. You\'re sure your schoolmates wouldn\'t resort to violence and you weren\'t sure Skye would appreciate a practical stranger stepping in on things they weren\'t fully informed on. <br><br> _Dialog Code:  Chapter_2_0035800 ",
+ " character_object_student_a Chapter_2_0036100 You actually believe that crap. ",
+ " Narration  <br><br> One of the trio scoffs, a derisive sneer on their face. <br><br> _Dialog Code:  Chapter_2_0036400 ",
+ " character_object_student_a Chapter_2_0036700 Sensei has to be nice to you - you get the best grades, so of course she sucks up to you. Nobody here actually likes you. ",
+ " Narration  <br><br> They move closer towards Skye, one of them bringing up a hand to give her a shove. Skye furrows her eyebrows, moving back to avoid the advancing group before her expression crumples when she realises there\'s no way for her to escape. <br><br> _Dialog Code:  Chapter_2_0037000 ",
+ " Narration  <br><br> You frantically step forward, unsure how everything escalated so quickly. There\'s no way you can leave Skye alone on this. <br><br> _Dialog Code:  Chapter_2_0037200 ",
+ " Scene reconverges here  Chapter_2_0037400 Scene reconverges here ",
+ "jump Chapter_2_after_choice_2",
+],
+'Chapter_2_Choice_2_intervene': [
+ " Choice 2 Intervene  Chapter_2_0037600 Choice 2: Intervene ",
+ " Narration  <br><br> 	Scene reconverges here <br><br> _Dialog Code:  Chapter_2_0037700 ",
+ "jump Chapter_2_after_choice_2",
+],
+'Chapter_2_after_choice_2': [
+ // end hardcoded dialog_code == 'Chapter_2_0035300
+'''
+    if 'Chapter_2_0035500' <= dialog_code    and   dialog_code <= 'Chapter_2_0037700'  : 
+        return '// %s removed - covered in choice block above \n ' %dialog_code 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    if dialog_code == 'Chapter_2_0086100':
+        return '''
+ // start hardcoded dialog_code == Chapter_2_0086100
+ {
+  'Choice': {
+     'Chapter_2_Choice_3_dont_invite_her_to_the_radio_club': {
+       'Text': "Don\'t invite her to the radio club",
+       'Do': 'jump Chapter_2_Choice_3_dont_invite_her_to_the_radio_club',
+     },    
+     'Chapter_2_Choice_3_invite_her_to_the_radio_club': {
+       'Text': 'Invite her to the radio club',
+       'Do': 'jump Chapter_2_Choice_3_invite_her_to_the_radio_club',
+     },
+   }
+ },
+],
+
+'Chapter_2_Choice_3_dont_invite_her_to_the_radio_club': [
+ " Choice 1 Don't invite her to the radio club  Chapter_2_0086300 Choice 1: Don\'t invite her to the radio club ",
+ " Narration  <br><br> You aren\'t sure how appropriate it would be to bring up the subject again after such a charged exchange, especially considering that the tension was one started by you. You stay quiet, releasing your hold on her hand.  <br><br> _Dialog Code:  Chapter_2_0086600 ",
+ " Narration  <br><br> To your surprise, a voice pipes up from beside Skye, finally approaching closer after your apologies were finished. <br><br> _Dialog Code:  Chapter_2_0086800 ",
+ " character_object_atria Chapter_2_0087100 Skye? Would you maybe consider joining us? Maybe even if it's later on? ",
+ " Narration  <br><br> You're surprised once again by the girl's boldness. Looks like she was the braver one out of the two of you. You smile at Skye, emboldened by your friend to ask again. <br><br> _Dialog Code:  Chapter_2_0087400 ",
+ " Scene reconverges here  Chapter_2_0087600 Scene reconverges here ",
+ "jump Chapter_2_after_choice_3",
+],
+'Chapter_2_Choice_3_invite_her_to_the_radio_club': [
+ " Choice 2 Invite her to the radio club  Chapter_2_0087800 Choice 2: Invite her to the radio club ",
+ " Narration  <br><br> 	Scene reconverges here <br><br> _Dialog Code:  Chapter_2_0087900 ",
+ "jump Chapter_2_after_choice_3",
+],
+'Chapter_2_after_choice_3': [
+ // end hardcoded dialog_code == 'Chapter_2_0086100
+'''
+    if 'Chapter_2_0086300' <= dialog_code    and   dialog_code <= 'Chapter_2_0087900'  : 
+        return '// %s removed - covered in choice block above \n ' %dialog_code 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    if dialog_code == 'Chapter_3_0012100':
+        return '''
+ // start hardcoded dialog_code == Chapter_3_0012100
+ {
+  'Choice': {
+     'Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club': {
+       'Text': "Knock and try to invite Esmeray",
+       'Do': 'jump Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club',
+     },    
+     'Chapter_3_Choice_1_dont_knock_and_invite_esmeray': {
+       'Text': "Don\'t knock and invite Esmeray",
+       'Do': 'jump Chapter_3_Choice_1_dont_knock_and_invite_esmeray',
+     },
+   }
+ },
+],
+
+'Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club': [
+" character_object_esmeray Chapter_3_0012300 Choice 1: Knock and try to invite Esmeray to the Club ",
+" Narration  <br><br> You take a deep breath and knock quietly before walking into the classroom. <br><br> _Dialog Code:  Chapter_3_0012600 ",
+" character_object_esmeray Chapter_3_0012800 Esmeray Unamused ",
+" Narration  <br><br> Esmeray immediately stops playing, his face loses its smile, and he turns to you with a cold face. <br><br> _Dialog Code:  Chapter_3_0013000 ",
+" Scene reconverges here  Chapter_3_0013200 Scene reconverges here ",
+ "jump Chapter_3_after_choice_1",
+],
+'Chapter_3_Choice_1_dont_knock_and_invite_esmeray': [
+" character_object_esmeray Chapter_3_0013400 Choice 2: Don't Knock and invite Esmeray ",
+" Narration  <br><br> You hesitate in asking Esmeray to join. <br><br> _Dialog Code:  Chapter_3_0013700 ",
+" Narration  <br><br> He's very high profile! Why would he want to join a club that no one knows about? <br><br> _Dialog Code:  Chapter_3_0013900 ",
+" Narration  <br><br> While you were deliberating, you accidentally shuffle in place, bumping into the classroom's door. <br><br> _Dialog Code:  Chapter_3_0014100 ",
+" Narration  <br><br> *CREAK* Door creak SFX <br><br> _Dialog Code:  Chapter_3_0014300 ",
+" character_object_esmeray Chapter_3_0014500 Esmeray Unamused ",
+" Narration  <br><br> Quickly, Esmeray stops playing, his face loses its smile, and he turns to the door with a cold face. <br><br> _Dialog Code:  Chapter_3_0014700 ",
+" Narration  <br><br> You laugh awkwardly, before slowly entering the room. <br><br> _Dialog Code:  Chapter_3_0014900 ",
+" Scene reconverges here  Chapter_3_0015000 Scene reconverges here ",
+ "jump Chapter_3_after_choice_1",
+],
+'Chapter_3_after_choice_1': [
+ // end hardcoded dialog_code == 'Chapter_3_0012100
+'''
+    if 'Chapter_3_0012300' <= dialog_code    and   dialog_code <= 'Chapter_3_0015000'  : 
+        return '// %s removed - covered in choice block above \n ' %dialog_code 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    if dialog_code == 'Chapter_3_0036100':
+        return '''
+ // start hardcoded dialog_code == Chapter_3_0036100
+ {
+  'Choice': {
+     'Chapter_3_Choice_2_invite_esmeray_to_the_club': {
+       'Text': "Invite Esmeray to the Club ",
+       'Do': 'jump Chapter_3_Choice_2_invite_esmeray_to_the_club',
+     },    
+     'Chapter_3_Choice_2_hesitate': {
+       'Text': "Hesitate",
+       'Do': 'jump Chapter_3_Choice_2_hesitate',
+     },
+     'Chapter_3_Choice_2_turn_around_and_go_back_down_the_stairs': {
+       'Text': "Turn around and go back down the stairs",
+       'Do': 'jump Chapter_3_Choice_2_turn_around_and_go_back_down_the_stairs',
+     },
+   }
+ },
+],
+
+'Chapter_3_Choice_2_invite_esmeray_to_the_club': [
+    " character_object_esmeray Chapter_3_0036300 Choice 1: Invite Esmeray to the Club ",
+    " Narration  <br><br> You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. <br><br> _Dialog Code:  Chapter_3_0036600 ",
+    " Narration  <br><br> But, you also remember the friends you made along the way, and the benefits of having Esmeray in the club. <br><br> _Dialog Code:  Chapter_3_0036800 ",
+    " Narration  <br><br> Like last time, you take a deep breath before pushing open the door to the rooftop boldly. <br><br> _Dialog Code:  Chapter_3_0037000 ",
+    " Narration  <br><br> *CREAK* Door creak SFX <br><br> _Dialog Code:  Chapter_3_0037200 ",
+    " character_object_esmeray Chapter_3_0037400 Esmeray Neutral ",
+    " Narration  <br><br> Esmeray stops singing and turns to the door, only to make eye contact with you. <br><br> _Dialog Code:  Chapter_3_0037600 ",
+    " character_object_esmeray Chapter_3_0037800 Esmeray Unamused ",
+    " Narration  <br><br> He immediately stops smiling. There\'s a long pause as Esmeray stares at you long and hard. <br><br> _Dialog Code:  Chapter_3_0038000 ",
+    " Narration  <br><br> But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him. <br><br> _Dialog Code:  Chapter_3_0038200 ",
+    " Narration  <br><br> Your eyes widen, but you don't want to let go of this opportunity, and go and sit next to him. <br><br> _Dialog Code:  Chapter_3_0038400 ",
+    " Scene reconverges here  Chapter_3_0038600 Scene reconverges here ",
+ "jump Chapter_3_after_choice_2",
+],
+'Chapter_3_Choice_2_hesitate': [
+    " Choice 2 Hesitate  Chapter_3_0038800 Choice 2: Hesitate ",
+    " Narration  <br><br> You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. <br><br> _Dialog Code:  Chapter_3_0039000 ",
+    " Narration  <br><br> What would be the difference now? <br><br> _Dialog Code:  Chapter_3_0039200 ",
+    " Narration  <br><br> Sure, you pestered him the last couple of days so maybe he'll consider it. <br><br> _Dialog Code:  Chapter_3_0039400 ",
+    " Narration  <br><br> But what if he doesn't? <br><br> _Dialog Code:  Chapter_3_0039600 ",
+    " Narration  <br><br> While deliberating and waving your arms around, trying to make a plan, your thoughts distract you so much to the point that you accidentally hit the door wide open. <br><br> _Dialog Code:  Chapter_3_0039800 ",
+    " Narration  <br><br> *CREAK* Door creak SFX <br><br> _Dialog Code:  Chapter_3_0040000 ",
+    " character_object_esmeray Chapter_3_0040200 Esmeray Neutral ",
+    " Narration  <br><br> Esmeray stops singing and turns to the door, only to make eye contact with you. <br><br> _Dialog Code:  Chapter_3_0040400 ",
+    " character_object_esmeray Chapter_3_0040600 Esmeray Unamused ",
+    " Narration  <br><br> He immediately stops smiling. There\'s a long pause. You can hardly breathe as Esmeray stares at you long and hard. <br><br> _Dialog Code:  Chapter_3_0040800 ",
+    " Narration  <br><br> But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him. <br><br> _Dialog Code:  Chapter_3_0041000 ",
+    " Narration  <br><br> Your eyes widen, but you don't want to let go of this opportunity, and go and sit next to him. <br><br> _Dialog Code:  Chapter_3_0041200 ",
+    " Scene reconverges here  Chapter_3_0041400 Scene reconverges here ",
+ "jump Chapter_3_after_choice_2",
+],
+'Chapter_3_Choice_2_turn_around_and_go_back_down_the_stairs': [
+    " Choice 3 Turn around and Go Back Down the Stairs  Chapter_3_0041600 Choice 3: Turn around and Go Back Down the Stairs ",
+    " Narration  <br><br> You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it. <br><br> _Dialog Code:  Chapter_3_0041900 ",
+    " Narration  <br><br> You remember how tiring it was to have the courage to face Esmeray and invite him over and over, only for him to brush you off. <br><br> _Dialog Code:  Chapter_3_0042100 ",
+    " Narration  <br><br> Maybe this was the time to finally give up. <br><br> _Dialog Code:  Chapter_3_0042300 ",
+    " Narration  <br><br> Thinking so, you turn around, getting ready to go down the stairs again. <br><br> _Dialog Code:  Chapter_3_0042500 ",
+    " Narration  <br><br> ...Unfortunately for you, you turn so quickly that your elbow slams into the door, making it creak loudly as it swings wide open. <br><br> _Dialog Code:  Chapter_3_0042700 ",
+    " Narration  <br><br> *CREAK* Door creak SFX <br><br> _Dialog Code:  Chapter_3_0042900 ",
+    " character_object_esmeray Chapter_3_0043100 Esmeray Neutral ",
+    " Narration  <br><br> Esmeray stops singing and turns to the door, only to make eye contact with you. <br><br> _Dialog Code:  Chapter_3_0043300 ",
+    " character_object_esmeray Chapter_3_0043500 Esmeray Unamused ",
+    " Narration  <br><br> He immediately stops smiling. There\'s a long pause. You can hardly breathe as Esmeray stares at you long and hard. <br><br> _Dialog Code:  Chapter_3_0043700 ",
+    " Player  <br><br> 	Is he gonna push me away again?... <br><br> _Dialog Code:  Chapter_3_0044000 ",
+    " Narration  <br><br> But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him. <br><br> _Dialog Code:  Chapter_3_0044300 ",
+    " Narration  <br><br> Your eyes widen, but you don't want to let go of this opportunity, and go and sit next to him. <br><br> _Dialog Code:  Chapter_3_0044500 ",
+    " Scene reconverges here  Chapter_3_0044600 Scene reconverges here ",
+ "jump Chapter_3_after_choice_2",
+],
+'Chapter_3_after_choice_2': [
+ // end hardcoded dialog_code == 'Chapter_3_0036100
+'''
+    if 'Chapter_3_0036300' <= dialog_code    and   dialog_code <= 'Chapter_3_0044600'  : 
+        return '// %s removed - covered in choice block above \n ' %dialog_code 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    if dialog_code == 'Chapter_3_0074000':
+        return '''
+ // start hardcoded dialog_code == Chapter_3_0074000
+ {
+  'Choice': {
+     'Chapter_3_Choice_3_introduct_Esmeray': {
+       'Text': "Introduce Esmeray",
+       'Do': 'jump Chapter_3_Choice_3_introduct_Esmeray',
+     },    
+     'Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves': {
+       'Text': "Wait for Esmeray to introduce themselves",
+       'Do': 'jump Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves',
+     },
+   }
+ },
+],
+
+'Chapter_3_Choice_3_introduct_Esmeray': [
+    " character_object_esmeray Chapter_3_0074200 Choice 1: Introduce Esmeray ",
+    " Scene reconverges here  Chapter_3_0074400 Scene reconverges here ",
+ "jump Chapter_3_after_choice_3",
+],
+'Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves': [
+    " character_object_esmeray Chapter_3_0074600 Choice 2: Wait for Esmeray to introduce themselves ",
+    " Narration  <br><br> You want to let Esmeray introduce himself, and do jazz hands to start it off. <br><br> _Dialog Code:  Chapter_3_0074900 ",
+    " Narration  <br><br> Really, you're just doing jazz hands in awkward silence... <br><br> _Dialog Code:  Chapter_3_0075100 ",
+    " Narration  <br><br> ... <br><br> _Dialog Code:  Chapter_3_0075300 ",
+    " Narration  <br><br> ...What are you doing right now? Lol. <br><br> _Dialog Code:  Chapter_3_0075500 ",
+    " Narration  <br><br> You cough awkwardly at the silence before slowly putting your hands down. <br><br> _Dialog Code:  Chapter_3_0075700 ",
+    " Narration  <br><br> You clear your throat again, desperate to get out of this situation. <br><br> _Dialog Code:  Chapter_3_0075900 ",
+    " Scene reconverges here  Chapter_3_0076000 Scene reconverges here ",
+ "jump Chapter_3_after_choice_3",
+],
+'Chapter_3_after_choice_3': [
+ // end hardcoded dialog_code == 'Chapter_3_0074000
+'''
+    if 'Chapter_3_0074200' <= dialog_code    and   dialog_code <= 'Chapter_3_0076000'  : 
+        return '// %s removed - covered in choice block above \n ' %dialog_code 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

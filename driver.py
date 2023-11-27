@@ -167,7 +167,7 @@ if __name__ == "__main__":
     print('\n\tchap_3_lines:', len(chap_3_lines))
     print('\n\tchap_E_lines:', len(chap_E_lines))
 
-    time.sleep(2)
+    time.sleep(1)
 
 
     print('=========== injecting ============')
@@ -190,7 +190,7 @@ if __name__ == "__main__":
             if 'end-of-CHAPTER-0-mark' in new_script_js_lines[line_index+1] :
                 print('end-of-CHAPTER-0-mark ... INJECTING')
                 for single_line in chap_0_lines:
-                    new_script_js_lines.insert(line_index+1, single_line)
+                    new_script_js_lines.insert(line_index+1, ''+single_line)
                     total_n_lines += 1
                     line_index += 1
                 line_index += 1
@@ -202,7 +202,7 @@ if __name__ == "__main__":
             if 'end-of-CHAPTER-1-mark' in new_script_js_lines[line_index+1] :
                 print('end-of-CHAPTER-1-mark ... INJECTING')
                 for single_line in chap_1_lines:
-                    new_script_js_lines.insert(line_index+1, single_line)
+                    new_script_js_lines.insert(line_index+1, ''+single_line)
                     total_n_lines += 1
                     line_index += 1
                 line_index += 1
@@ -214,7 +214,7 @@ if __name__ == "__main__":
             if 'end-of-CHAPTER-2-mark' in new_script_js_lines[line_index+1] :
                 print('end-of-CHAPTER-2-mark ... INJECTING')
                 for single_line in chap_2_lines:
-                    new_script_js_lines.insert(line_index+1, single_line)
+                    new_script_js_lines.insert(line_index+1, ''+single_line)
                     total_n_lines += 1
                     line_index += 1
                 line_index += 1
@@ -226,7 +226,7 @@ if __name__ == "__main__":
             if  'end-of-CHAPTER-3-mark' in new_script_js_lines[line_index+1] :
                 print('end-of-CHAPTER-3-mark ... INJECTING')
                 for single_line in chap_3_lines:
-                    new_script_js_lines.insert(line_index+1, single_line)
+                    new_script_js_lines.insert(line_index+1, ''+single_line)
                     total_n_lines += 1
                     line_index += 1
                 line_index += 1
@@ -238,7 +238,7 @@ if __name__ == "__main__":
             if  'end-of-CHAPTER-E-mark' in new_script_js_lines[line_index+1] :
                 print('end-of-CHAPTER-E-mark ... INJECTING')
                 for single_line in chap_E_lines:
-                    new_script_js_lines.insert(line_index+1, single_line)
+                    new_script_js_lines.insert(line_index+1, ''+single_line)
                     total_n_lines += 1
                     line_index += 1
                 line_index += 1

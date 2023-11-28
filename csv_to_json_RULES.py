@@ -16,6 +16,14 @@ def do_differently_given_code(row_in_csv):
     if dialog_code == 'Chapter_0_0005700': return '    \"show character character_object_kyo Kyo_FP_Bruh normal\", // rule based \n'
     if dialog_code == 'Chapter_0_0006600': return '    \"show character character_object_kyo FP_Default normal\", // rule based \n'
     
+
+    # to RubySweetie. please write code between this area. Nov 28
+
+
+
+
+
+    # to RubySweetie. please write code between this area. Nov 28
     
 
 

@@ -40,6 +40,16 @@ def read_txt_write_to_csv(txt_file_name, csv_file_directory_path):
         txt_lines = txt_open.readlines()
 
         for single_line in txt_lines:
+            # replacing special characters to work with utf-8 encoding
+            single_line = single_line \
+                    .replace("“", '"') \
+                    .replace("”", '"') \
+                    .replace("‘", "'") \
+                    .replace("’", "'") \
+                    .replace("—", "&mdash;") \
+                    .replace("–", "&mdash;") \
+                    .replace("…", "...")
+            
             if single_line.strip() == "":
                 pass
             elif re.match("^.+[:]$", single_line):

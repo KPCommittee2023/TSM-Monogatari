@@ -405,7 +405,7 @@ monogatari.script({
     // start-of-CHAPTER-0-mark
     "_Name <br><br>_Tex  <br><br> _Dialog Code:  _DialogCode ",
     " <br><br>Prologue: Waxing Iridescen  <br><br> _Dialog Code:  Chapter_0_0000100 ",
-    "show scene school_hallway_daylight", // rule based 
+    "School hallway day <br><br>School hallway da  <br><br> _Dialog Code:  Chapter_0_0000300 ",
     "Intro Music <br><br>Intro Musi  <br><br> _Dialog Code:  Chapter_0_0000400 ",
     "character_object_narration <br><br>It\'s lunch break at school, but the atmosphere is livelier than usual. Oh right, it\'s Club Day today. You still can\'t decide which club you want to join this year.  <br><br> _Dialog Code:  Chapter_0_0000700 ",
     "character_object_narration <br><br>You stop walking the hallways to look at the board of various club posters. Oh man, you\'ve never joined one before, so the amount of options overwhelm you a little. You think of just joining multiple clubs at a time, but you quickly brush off that thought. Clubs are supposed to be a good break from the humdrum of academics. Don\'t get ahead of yourself  <br><br> _Dialog Code:  Chapter_0_0000900 ",
@@ -420,20 +420,20 @@ monogatari.script({
     "Radio club poster (wall poster). Allow toggle for zoom in to the RadioClub.png in Art folder. <br><br>Radio club poster (wall poster). Allow toggle for zoom in to the RadioClub.png in Art folder  <br><br> _Dialog Code:  Chapter_0_0002700 ",
     "character_object_narration <br><br>It advertises... a radio club? Interesting. Teachers love to praise your diction and confidence in your class presentations. This could be worth a try.  <br><br> _Dialog Code:  Chapter_0_0002900 ",
     "character_object_narration <br><br>You enter a nearby room with the radio club sign on its door.  <br><br> _Dialog Code:  Chapter_0_0003100 ",
-    "show scene music_room_basic", // rule based 
-    "show character character_object_kyo Kyo_BP_Default centered", // rule based 
+    "Music_Room_Basic <br><br>Music_Room_Basi  <br><br> _Dialog Code:  Chapter_0_0003300 ",
+    "character_object_kyo <br><br>Kyo_BP_Defaul  <br><br> _Dialog Code:  Chapter_0_0003500 ",
     "Centered <br><br>Centere  <br><br> _Dialog Code:  Chapter_0_0003600 ",
     "character_object_narration <br><br>There\'s only one student here. Yet, you can tell that you\'re in the right place. Her appearance is just as colorful as the poster, and the graffiti beside her only emphasizes that  <br><br> _Dialog Code:  Chapter_0_0003800 ",
     "character_object_narration <br><br>The microphone on the other side of the room looks too high for her to reach. That\'s a bit weird  <br><br> _Dialog Code:  Chapter_0_0004000 ",
     "character_object_narration <br><br>It looks like the girl\'s still on her phone. You decide to get her attention  <br><br> _Dialog Code:  Chapter_0_0004200 ",
     "character_object_player <br><br>Hi, I wanna join the radio club  <br><br> _Dialog Code:  Chapter_0_0004500 ",
     "character_object_narration <br><br>She puts her phone away and turns around  <br><br> _Dialog Code:  Chapter_0_0004800 ",
-    "show character character_object_kyo Kyo_FP_Shocked normal", // rule based 
+    "character_object_kyo <br><br>AAAAAAAAAAAAAAAAAAAAH!!  <br><br> _Dialog Code:  Chapter_0_0005100 ",
     "character_object_narration <br><br>The student\'s voice then drops a few octaves lower than you expect her to have  <br><br> _Dialog Code:  Chapter_0_0005400 ",
-    "show character character_object_kyo Kyo_FP_Bruh normal", // rule based 
+    "character_object_kyo <br><br>You fucking scared the shit out of me! My god.  <br><br> _Dialog Code:  Chapter_0_0005700 ",
     "character_object_narration <br><br>Well, you now know two things. One, this girl is actually a guy. Two, this dude\'s language is as colorful as his hair. What a bombastic impression you\'ve left on each other. It only goes uphill from here  <br><br> _Dialog Code:  Chapter_0_0006000 ",
     "character_object_player <br><br>Sorry, I just walked in. Is this the wrong room? I think I\'m in the wrong ro&mdash  <br><br> _Dialog Code:  Chapter_0_0006300 ",
-    "show character character_object_kyo FP_Default normal", // rule based 
+    "character_object_kyo <br><br>No no, wait. I made sure that the door had a sign on it. You\'re here for the radio club, right  <br><br> _Dialog Code:  Chapter_0_0006600 ",
     "character_object_player <br><br>Yeah, that\'s kinda what I said before you started freaking out.  <br><br> _Dialog Code:  Chapter_0_0006900 ",
     "character_object_kyo <br><br>Okay, okay, my bad. I literally didn\'t hear you walk in. Anyways, hi, I\'m Kyo Kaneko. What\'s your name  <br><br> _Dialog Code:  Chapter_0_0007200 ",
     "character_object_player <br><br>I\'m Player.  <br><br> _Dialog Code:  Chapter_0_0007500 ",

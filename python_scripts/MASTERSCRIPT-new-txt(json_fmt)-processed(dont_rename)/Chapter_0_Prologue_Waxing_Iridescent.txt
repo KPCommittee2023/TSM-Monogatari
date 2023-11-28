@@ -6,8 +6,8 @@
     "character_object_narration <br><br>You stop walking the hallways to look at the board of various club posters. Oh man, you\'ve never joined one before, so the amount of options overwhelm you a little. You think of just joining multiple clubs at a time, but you quickly brush off that thought. Clubs are supposed to be a good break from the humdrum of academics. Don\'t get ahead of yourself  <br><br> _Dialog Code:  Chapter_0_0000900 ",
     "character_object_narration <br><br>There\'s an art club poster. That\'s a hard no. The most artistic you\'ve ever been was when you colored the sky a solid green and the ground magenta. Only because the other crayons were missing. And that was in a coloring book. Not fun at all  <br><br> _Dialog Code:  Chapter_0_0001100 ",
     "character_object_narration <br><br>There are also a few posters advertising different sports clubs. No thanks. P.E. class already tires you out daily. There\'s no way you have the endurance to do that kind of stuff in your precious free time.  <br><br> _Dialog Code:  Chapter_0_0001300 ",
-    "character_object_narration <br><br>Oh god, there\'s also the paranormal activity club. No way. Nope. You don\'t take the supernatural as seriously as its club members do. You know this because earlier at brunch today, the club advertised by telling ghost stories that were, in their own words, �real, not clickbait.  <br><br> _Dialog Code:  Chapter_0_0001500 ",
-    "character_object_narration <br><br>One of them even said, �In fact, there\'s a ghost in this school right now, giving bad luck to people who are about to do presentations!� Nonsense. You\'re a junior and you are damn sure that there were no ghosts the entire time you attended school  <br><br> _Dialog Code:  Chapter_0_0001700 ",
+    "character_object_narration <br><br>Oh god, there\'s also the paranormal activity club. No way. Nope. You don\'t take the supernatural as seriously as its club members do. You know this because earlier at brunch today, the club advertised by telling ghost stories that were, in their own words, \"real, not clickbait.\  <br><br> _Dialog Code:  Chapter_0_0001500 ",
+    "character_object_narration <br><br>One of them even said, \"In fact, there\'s a ghost in this school right now, giving bad luck to people who are about to do presentations!\" Nonsense. You\'re a junior and you are damn sure that there were no ghosts the entire time you attended school  <br><br> _Dialog Code:  Chapter_0_0001700 ",
     "character_object_narration <br><br>It would be fine if the club was interested in ghosts just for fun, but their fervent attitude says otherwise. You shudder at the thought of even talking to them.  <br><br> _Dialog Code:  Chapter_0_0001900 ",
     "character_object_narration <br><br>Ooh, a debate club poster. You don\'t consider yourself a chatterbox, but it\'s always fascinating to listen to other people\'s perspectives and find ways to decimate their arguments. It\'s basically a fun way to talk shit to others. Well, for the most part, save for some annoyingly serious people..  <br><br> _Dialog Code:  Chapter_0_0002100 ",
     "character_object_narration <br><br>Damn, besides the debate club, it looks like you don\'t have many good options here  <br><br> _Dialog Code:  Chapter_0_0002300 ",
@@ -19,15 +19,15 @@
     "show character character_object_kyo Kyo_BP_Default centered", // rule based 
     "Centered <br><br>Centere  <br><br> _Dialog Code:  Chapter_0_0003600 ",
     "character_object_narration <br><br>There\'s only one student here. Yet, you can tell that you\'re in the right place. Her appearance is just as colorful as the poster, and the graffiti beside her only emphasizes that  <br><br> _Dialog Code:  Chapter_0_0003800 ",
-    "character_object_narration <br><br>The microphone on the other side of the room looks too high for her to reach. That�s a bit weird  <br><br> _Dialog Code:  Chapter_0_0004000 ",
-    "character_object_narration <br><br>It looks like the girl�s still on her phone. You decide to get her attention  <br><br> _Dialog Code:  Chapter_0_0004200 ",
+    "character_object_narration <br><br>The microphone on the other side of the room looks too high for her to reach. That\'s a bit weird  <br><br> _Dialog Code:  Chapter_0_0004000 ",
+    "character_object_narration <br><br>It looks like the girl\'s still on her phone. You decide to get her attention  <br><br> _Dialog Code:  Chapter_0_0004200 ",
     "character_object_player <br><br>Hi, I wanna join the radio club  <br><br> _Dialog Code:  Chapter_0_0004500 ",
     "character_object_narration <br><br>She puts her phone away and turns around  <br><br> _Dialog Code:  Chapter_0_0004800 ",
     "show character character_object_kyo Kyo_FP_Shocked normal", // rule based 
     "character_object_narration <br><br>The student\'s voice then drops a few octaves lower than you expect her to have  <br><br> _Dialog Code:  Chapter_0_0005400 ",
     "show character character_object_kyo Kyo_FP_Bruh normal", // rule based 
-    "character_object_narration <br><br>Well, you now know two things. One, this girl is actually a guy. Two, this dude�s language is as colorful as his hair. What a bombastic impression you�ve left on each other. It only goes uphill from here  <br><br> _Dialog Code:  Chapter_0_0006000 ",
-    "character_object_player <br><br>Sorry, I just walked in. Is this the wrong room? I think I\'m in the wrong ro  <br><br> _Dialog Code:  Chapter_0_0006300 ",
+    "character_object_narration <br><br>Well, you now know two things. One, this girl is actually a guy. Two, this dude\'s language is as colorful as his hair. What a bombastic impression you\'ve left on each other. It only goes uphill from here  <br><br> _Dialog Code:  Chapter_0_0006000 ",
+    "character_object_player <br><br>Sorry, I just walked in. Is this the wrong room? I think I\'m in the wrong ro&mdash  <br><br> _Dialog Code:  Chapter_0_0006300 ",
     "show character character_object_kyo FP_Default normal", // rule based 
     "character_object_player <br><br>Yeah, that\'s kinda what I said before you started freaking out.  <br><br> _Dialog Code:  Chapter_0_0006900 ",
     "character_object_kyo <br><br>Okay, okay, my bad. I literally didn\'t hear you walk in. Anyways, hi, I\'m Kyo Kaneko. What\'s your name  <br><br> _Dialog Code:  Chapter_0_0007200 ",
@@ -87,9 +87,9 @@
     // Chapter_0_0013000 removed - covered in choice block above 
     // Chapter_0_0013200 removed - covered in choice block above 
     // Chapter_0_0013300 removed - covered in choice block above 
-    "character_object_kyo <br><br>Anyways, since this club requires confident people, I\'d say you\'re a pretty good candidate so far. Most people don�t have the balls to approach me  <br><br> _Dialog Code:  Chapter_0_0013600 ",
+    "character_object_kyo <br><br>Anyways, since this club requires confident people, I\'d say you\'re a pretty good candidate so far. Most people don\'t have the balls to approach me  <br><br> _Dialog Code:  Chapter_0_0013600 ",
     "character_object_narration <br><br>You look up and down at Kyo incredulously  <br><br> _Dialog Code:  Chapter_0_0013900 ",
-    "character_object_player <br><br>Really? You�re not even tall enough to reach the mic over there  <br><br> _Dialog Code:  Chapter_0_0014200 ",
+    "character_object_player <br><br>Really? You\'re not even tall enough to reach the mic over there  <br><br> _Dialog Code:  Chapter_0_0014200 ",
     "character_object_kyo <br><br>Hey hey, shut up. Shut the fuck up  <br><br> _Dialog Code:  Chapter_0_0014500 ",
     "character_object_narration <br><br>Kyo looks up at the classroom clock  <br><br> _Dialog Code:  Chapter_0_0014800 ",
     "character_object_kyo <br><br>Lunch\'s almost over. So, whaddya say, you wanna join the club or not  <br><br> _Dialog Code:  Chapter_0_0015100 ",

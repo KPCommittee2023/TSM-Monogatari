@@ -40,6 +40,7 @@ monogatari.component ('main-screen').template (() => {
 
 
 
+
 // BEGIN: make the buttons at settings-screen
 
 // END: make the buttons at settings-screen

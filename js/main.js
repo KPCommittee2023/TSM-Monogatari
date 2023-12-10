@@ -37,7 +37,8 @@ monogatari.component ('main-screen').template (() => {
 // BEGIN: make the buttons at main-menu(landing page)
 
 // END: make the buttons at main-menu(landing page)
-  
+
+
 
 // BEGIN: make the buttons at settings-screen
 

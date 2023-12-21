@@ -30,9 +30,9 @@ monogatari.component ('main-screen').template (() => {
 	return `
 
 	
-<div style="position:relative;"> 
+<div style="position:relative; overflow:hidden; "> 
 <div
-	style="width: 1920px; height: 1080px; position: relative; background: #2E72C1; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"; overflow:hidden;  >
+	style="width: 1920px; height: 1080px; position: relative; background: #2E72C1; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)";   >
 	<div style="width: 2158px; height: 1450px; left: -238px; top: -7px; position: absolute";>
 		<div
 			style="width: 2158px; height: 1114px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #A5DFF3 9%, #268BFF 100%)">
@@ -2271,12 +2271,12 @@ monogatari.component ('main-screen').template (() => {
 		<div
 			style="width: 276px; height: 58px; left: 1551px; top: 510px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">
 			Gallery<br /></div>
-		<div
+		<div  data-action="open-screen" data-open="settings"
 			style="width: 276px; height: 58px; left: 1551px; top: 576px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">
 			Settings<br /></div>
-		<div
+		<div data-action="open-screen" data-open="help" 
 			style="width: 276px; height: 58px; left: 1551px; top: 642px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">
-			Quit<br /><br /><br /></div>
+			Help<br /><br /><br /></div>
 		<div
 			style="width: 678px; height: 1356px; left: 761px; top: 561px; position: absolute; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
 			<img style="width: 678px; height: 1356px" src=" ./assets/fromfigma/893af70dcdcc7dccae6bd9b63726d428.png " />
@@ -2284,7 +2284,8 @@ monogatari.component ('main-screen').template (() => {
 		<div
 			style="width: 270.03px; height: 280.06px; left: 1825.74px; top: 818px; position: absolute; transform: rotate(45.79deg); transform-origin: 0 0; background: #C1E6FF; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 5px white solid">
 		</div>
-		<div style="width: 183px; height: 42px; left: 1482px; top: 378px; position: absolute">
+		<div data-action="start" 
+			style="width: 183px; height: 42px; left: 1482px; top: 378px; position: absolute">
 			<div
 				style="width: 29.24px; height: 30.33px; left: 40.07px; top: 0px; position: absolute; transform: rotate(45.64deg); transform-origin: 0 0; background: #2E72C1; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid">
 			</div>
@@ -2303,7 +2304,7 @@ monogatari.component ('main-screen').template (() => {
 		<div
 			style="width: 356.13px; height: 74.84px; left: 1665px; top: 991.82px; position: absolute; transform: rotate(-45deg); transform-origin: 0 0; color: white; font-size: 48px; font-family: Nunito; font-weight: 900; letter-spacing: 4.08px; word-wrap: break-word">
 			Credits</div>
-		<div
+		<div  data-action="open-screen" data-open="load" 
 			style="width: 139px; height: 77px; left: 1683px; top: 378px; position: absolute; color: white; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 3.06px; word-wrap: break-word">
 			/ Load</div>
 		
@@ -2328,8 +2329,7 @@ monogatari.component ('main-screen').template (() => {
 // END: make the buttons at settings-screen
 monogatari.component('main-menu').template(() => {
 	return `
-
-	
+<!--	
 	<button data-action="start" icon="undefined" string="Start" tabindex="0">
 		<span class="undefined"></span>
 		<span data-string="Start">Start</span>
@@ -2349,7 +2349,7 @@ monogatari.component('main-menu').template(() => {
 		<span class="undefined"></span>
 		<span data-string="Help">Help</span>
 	</button>
-
+-->
 		`
 });
 

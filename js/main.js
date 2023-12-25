@@ -2319,7 +2319,6 @@ monogatari.component ('main-screen').template (() => {
 
 
 
-
 monogatari.component('settings-screen').template(() => {
 	return `
 

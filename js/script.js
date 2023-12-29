@@ -391,9 +391,9 @@ monogatari.script({
           'Text': 'CHAPTER_E',
           'Do': 'jump CHAPTER_E'
         },
-        'end': {
-          'Text': 'end',
-          'Do': 'jump end'
+        'END': {
+          'Text': 'END',
+          'Do': 'jump END'
         }
       }
     },
@@ -2216,10 +2216,11 @@ monogatari.script({
     // end-of-CHAPTER-E-mark
     'end'
   ],
-
+  
   // placeholder here
   'END': [
-
+    
+    'end'
   ],
 
 });

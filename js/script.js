@@ -619,7 +619,6 @@ monogatari.script({
 
 
 
-    "character_object_kyo Chapter_0_0024200 Kyo_BP_Sad ",
     "Narration  <br><br> You feel a little guilty seeing his dejected expression as you leave the classroom. But it's too late now; you stick to your decision and go to your next class.  ",
     "Empty black screen.  Chapter_0_0024700 Empty black screen. ",
     "Narration  <br><br> The next day, you try to find Kyo in the radio club room. But the room is empty. You try asking people about Kyo's whereabouts, but people don't even know who he is. What the hell. That's weird. Eh, whatever. Life continues to be lonely as usual. <br><br> _Dialog Code:  Chapter_0_0025000 ",
@@ -668,7 +667,6 @@ monogatari.script({
   'CHAPTER_1': [
     'chap 1',
     // start-of-CHAPTER-1-mark
-    "_Name <br><br>_Tex ",
     " <br><br>Chapter 1: Healing the Conditioned Puppe ",
     "School Rooftop Day <br><br>School Rooftop Da ",
     "character_object_atria <br><br>Atria\'s BG ",
@@ -1116,7 +1114,6 @@ monogatari.script({
   'CHAPTER_2': [
     'chap 2',
     // start-of-CHAPTER-2-mark
-    "_Name <br><br>_Tex ",
     " <br><br>Chapter 2: Befriending the Shrewd Dreame ",
     "Background School Hallway <br><br>Background: School Hallwa ",
     "Skye's BGM <br><br>Skye\'s BG ",
@@ -1572,7 +1569,6 @@ monogatari.script({
   'CHAPTER_3': [
     'chap 3',
     // start-of-CHAPTER-3-mark
-    "_Name <br><br>_Tex ",
     " <br><br>Chapter 3: Confronting the Moon Princ ",
     "Radio Club Basic + Printer + Mic + Laptop <br><br>Radio Club Basic + Printer + Mic + Lapto ",
     "character_object_esmeray <br><br>Esmeray\'s BG ",
@@ -2128,7 +2124,6 @@ monogatari.script({
   'CHAPTER_E': [
     'chap E',
     // start-of-CHAPTER-E-mark
-    "_Name <br><br>_Tex ",
     " <br><br>Epilogue: Waning Iridescent ",
     "Music Room Basic All <br><br>Music Room Basic Al ",
     "Outro BGM <br><br>Outro BG ",

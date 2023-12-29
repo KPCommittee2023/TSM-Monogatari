@@ -160,7 +160,7 @@ monogatari.component ('main-screen').template (() => {
 
 
 
-monogatari.component('main-menu').template(() => {
+monogatari.component('quick-menu').template(() => {
 	return `
 <!--	
 	<button data-action="start" icon="undefined" string="Start" tabindex="0">

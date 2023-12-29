@@ -252,6 +252,29 @@ monogatari.component('text-box').template(() => {
 
 
 
+monogatari.component('choice-container').template(() => {
+	const choices = this.props.choices.map ((choice) => {
+		if (typeof choice.Clickable === 'function') {
+			return new Promise ((resolve, reject) => {
+				this.engine.assertAsync (choice.Clickable, this.engine).then (() => {
+					resolve (`<button data-do="${choice.Do}" ${ choice.Class ? `class="${choice.Class}"`: ''} data-choice="${choice._key}">${choice.Text}</button>`);
+				}).catch (() => {
+					resolve (`<button data-do="${choice.Do}" ${ choice.Class ? `class="${choice.Class}"`: ''} data-choice="${choice._key}" disabled>${choice.Text}</button>`);
+				});
+	
+			});
+		}
+		return Promise.resolve (`<button data-do="${choice.Do}" ${ choice.Class ? `class="${choice.Class}"`: ''} data-choice="${choice._key}">${choice.Text}</button>`);
+	});
+	
+	return Promise.all (choices).then ((choices) => `
+		<div data-content="wrapper">
+			${ choices.join('') }
+		</div>`
+	)
+});
+
+
 
 
 $_ready (() => {

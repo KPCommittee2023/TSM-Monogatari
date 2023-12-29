@@ -34,7 +34,22 @@ monogatari.configuration("credits", {});
 monogatari.assets("gallery", {});
 
 // Define the music used in the game.
-monogatari.assets("music", {});
+monogatari.assets("music", {
+
+  
+  'EsmerayMaster_1' : 'assets/music/aefen/EsmerayMaster_1.wav', 
+  'Opening_closing_VINTAGE' : 'assets/music/aefen/Opening_closing_VINTAGE.wav', 
+  'SkyeMaster' : 'assets/music/aefen/SkyeMaster.wav',
+
+  'Atria_intro' :'assets/music/stickthefigure/Atria_intro.wav' ,
+  'Atria_loop' :'assets/music/stickthefigure/Atria_loop.wav' ,
+  'intro_intro' :'assets/music/stickthefigure/intro_intro.wav' ,
+  'intro_loop' :'assets/music/stickthefigure/intro_loop.wav' ,
+  'sad_loop' :'assets/music/stickthefigure/sad_loop.wav',
+  'sad_intro' :'assets/music/stickthefigure/sad_intro.wav',
+
+
+});
 
 // Define the voice files used in the game.
 monogatari.assets("voices", {});

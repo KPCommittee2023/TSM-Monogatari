@@ -275,6 +275,10 @@ monogatari.script({
     // 'showing character character_object_atria atria1_timid normal',
 
 
+
+
+
+
     // 'show character character_object_atria atria2_happy normal',
     // 'showing character character_object_atria atria2_happy normal',
 
@@ -286,6 +290,8 @@ monogatari.script({
 
     // 'show character character_object_atria atria2_timid normal',
     // 'showing character character_object_atria atria2_timid normal',
+
+
 
 
 
@@ -317,6 +323,8 @@ monogatari.script({
     // 'show character character_object_kyo Kyo_BP_Default normal',
     // 'showing character character_object_kyo Kyo_BP_Default normal',
 
+
+
     // 'show character character_object_kyo Kyo_FP_Bruh normal',
     // 'showing character character_object_kyo Kyo_FP_Bruh normal',
 
@@ -334,6 +342,9 @@ monogatari.script({
 
     // 'show character character_object_kyo Kyo_FP_Smiling normal',
     // 'showing character character_object_kyo Kyo_FP_Smiling normal',
+
+
+
 
     // 'show character character_object_kyo Kyo_SP_Bruh normal',
     // 'showing character character_object_kyo Kyo_SP_Bruh normal',
@@ -668,35 +679,80 @@ monogatari.script({
     'chap 1',
     // start-of-CHAPTER-1-mark
     " <br><br>Chapter 1: Healing the Conditioned Puppe ",
-    "School Rooftop Day <br><br>School Rooftop Da ",
+
+
+    // "School Rooftop Day <br><br>School Rooftop Da ",
+    "show scene Rooftop_bg_day",
+
+
     "character_object_atria <br><br>Atria\'s BG ",
+
+
+
+
     "character_object_narration <br><br>.. ",
     "character_object_narration <br><br>The fresh air really is relaxing when there\'s so much going on. Having to recruit members for a radio club of all things, and so suddenly too... as if that isn\'t crazy enough, the amount of drama at the school has been...irritating, to say the least ",
     "character_object_narration <br><br>Hell, it\'s insane. ...Those damn rumors that the school is haunted are... unnerving, to say the least ",
     "character_object_player <br><br>...People are so desperate to just get a reaction out of people, huh... at this point I don\'t doubt this school\'s going to digress into chaos ",
+   
+   
+    'show character character_object_kyo Kyo_FP_Smiling normal',
     "character_object_kyo <br><br>Chaos? I call it fun ",
+
+
+
     "character_object_player <br><br>WHAT TH&mdash ",
     "character_object_kyo <br><br>Have you found any recruits yet ",
     "character_object_player <br><br>...Warn me next time before sneaking up on me, will you? ",
+
+
+    'show character character_object_kyo Kyo_FP_Cheerful normal',
     "character_object_kyo <br><br>No thanks ",
+
+
+
+
     "character_object_narration <br><br>Kyo leans forward, his hands on his hips. His expression screams nothing but smug mockery, plainly amused at your annoyance ",
     "character_object_kyo <br><br>Now, you\'ve found someone, right? Surely it can\'t be so hard to evaluate who here is a good candidate. Not when there are very few people who stand out amongst the rest ",
     "character_object_narration <br><br>He speaks as if he already has certain people in mind. If so, why is he so insistent on you recruiting members as opposed to him ",
     "character_object_player <br><br>No, Kyo, it has quite literally only been a couple hours ",
+
+
+
+    'show character character_object_kyo Kyo_FP_Bruh normal',
     "character_object_kyo <br><br>Mhm... from the way you\'re acting now, I\'ve most likely put too much faith in you... I guarantee you\'re just too introverted to go up and ask someone to join ",
+    
+    
+    
+    
     "character_object_player <br><br>...Actually, I genuinely haven\'t seen anyone who looks suitable. A radio club requires someone who is willing to... well, talk. Right ",
     "character_object_kyo <br><br>Right.. ",
     "character_object_kyo <br><br>You sure you\'re not just scared to interact with people ",
     "character_object_player <br><br>Shut up ",
     "character_object_narration <br><br>Jeez. For someone he just met, Kyo sure has some nerve ",
     "character_object_player <br><br>I hate to break it to you, Mr. know-it-all, but I have yet to see anybody who seems talkative. If anything, I\'m the most extroverted person here ",
+    
+    
+    
+    'show character character_object_kyo Kyo_FP_Cheerful normal',
     "character_object_narration <br><br>Kyo just shoots you a cocky grin, rolling his eyes playfully. ",
+
+
+
+
     "character_object_kyo <br><br>Mhm, very believable. Just be a bit more observant, will you? It really can\'t be that difficult to find someone ",
     "character_object_player <br><br>But ",
     "character_object_kyo <br><br>Yeah, yeah. I get it. Your short attention span won\'t allow you to tune into one person for more than 15 seconds ",
     "character_object_narration <br><br>You scowl at his remark, but your reaction only further enables him to keep poking at you. You didn\'t really mind his banter, but at the very least you wish you could have the ability to snap back ",
     "character_object_player <br><br>What do you want me to do? Just sit and observe as someone goes about their day?? Just stand menacingly in some corner and watch them ",
+    
+    
+    
+    'show character character_object_kyo Kyo_SP_Default normal',
     "character_object_kyo <br><br>No need to make it sound so creepy. Listen, you gotta do what you gotta do. Just don\'t make it too obvious. ",
+   
+   
+   
     "character_object_kyo <br><br>Though, from what I\'ve seen, I\'m starting to even question whether you\'re capable of that much ",
 
     // start hardcoded dialog_code == 'Chapter_1_0008500
@@ -738,15 +794,35 @@ monogatari.script({
     // Chapter_1_0010400 removed - covered in choice block above 
     // Chapter_1_0010600 removed - covered in choice block above 
     // Chapter_1_0010700 removed - covered in choice block above 
-    "character_object_kyo <br><br>Remove Ky ",
-    "character_object_atria <br><br>Atria1_Happy. Darken by 50%, centere ",
+
+
+
+    // "character_object_kyo <br><br>Remove Ky ",
+    'hide character character_object_kyo',
+
+    'show character character_object_atria atria1_happy normal',
+    // "character_object_atria <br><br>Atria1_Happy. Darken by 50%, centere ",
+
+
+
+
     "character_object_narration <br><br>At that moment, you see a group of girls across the courtyard. They all seem rather silent&mdash;bored, even&mdash; but one of them in particular stands out to you ",
     "??? <br><br>Anyways! About the person I was talking about earlier, the one that I frequently watch. They did this one stream recently, it was a collaboration with some of my favorite streamers! When I saw the waiting room for it, I got really excited ",
     "??? <br><br>I sent it to you guys a while back, though I\'m not sure if you saw it? Neither of you responded... Do you think there\'s a possibility we could watch it together sometime ",
     "character_object_narration <br><br>The two other girls look at each other before faking a smile towards her direction ",
     "character_object_girl_a <br><br>...You\'re ranting about these streamers every two seconds, you expect us to know which one you are talking about ",
+    
+    
+
+    'show character character_object_atria atria1_nervous normal',
     "character_object_atria <br><br>Oh&mdash; ...Yeah. Sorry. I guess sometimes I just say stuff without really thinking ",
+
+
+    'show character character_object_atria atria2_happy normal',
     "character_object_atria <br><br>The one with... let\'s see, I\'m trying to think of a way to describe this to someone who doesn\'t watch them. They have... blue hair. It\'s short, around shoulder length. Does that ring a bell ",
+    
+    
+    
     "character_object_narration <br><br>Wait.. ",
     "character_object_narration <br><br>Short... blue hair...? That\'s.. ",
     "character_object_narration <br><br>Kind of silly ",
@@ -754,7 +830,13 @@ monogatari.script({
     "??? <br><br>Oh! Yeah, the one I was talking about yesterday! Surely you remember th&mdash ",
     "character_object_girl_a <br><br>Hello? Earth to Atria? Atria Aiyashi ",
     "character_object_girl_a <br><br>You know, the Atria that thinks before she goes on meaningless tangents? We\'re tired of you constantly bothering us about stuff we aren\'t interested in ",
-    "character_object_atria <br><br>Atria2_Nervou ",
+    
+    
+    // "character_object_atria <br><br>Atria2_Nervou ",
+    'show character character_object_atria atria2_nervous normal',
+
+
+
     "character_object_narration <br><br>The small yellow haired girl, supposedly named Atria, tenses at the others\' remark. She had been rambling excitedly about her interests just a moment ago and yet... her tone suddenly falters ",
     "character_object_atria <br><br>...A-Ah.. was I too much?. ",
     "character_object_girl_b <br><br>Atria, you can\'t keep forgetting we raised you to be silent ",
@@ -762,12 +844,26 @@ monogatari.script({
     "character_object_girl_b <br><br>It\'s the same answer every single time. No matter how much we remind you, you go back to your annoying little \'hyperfixations\' ",
     "character_object_girl_b <br><br>Surely you can try a bit harder? You\'ve been like this for years now. Is there really something stopping you from just... realizing we don\'t care ",
     "character_object_girl_b <br><br>Take your silly little blue guy and talk about him to yourself, yeah ",
+
+
+
+    'show character character_object_atria atria1_nervous normal',
     "character_object_atria <br><br>Genuinely, I didn\'t mean to do anything.. ",
+
+
+
+
     "character_object_girl_b <br><br>Do you want us to help you or not ",
     "character_object_atria <br><br>I\'m sorry, okay ",
     "character_object_girl_b <br><br>We at least had some sort of faith in you. We thought we could change you to stop you from constantly babbling on...but you haven\'t even made any ounce of progress ",
     "character_object_girl_a <br><br>The only reason we even tolerate you is because we feel bad ",
-    "character_object_atria <br><br>Atria1_Sa ",
+    
+    
+    
+    // "character_object_atria <br><br>Atria1_Sa ",
+    'show character character_object_atria atria1_sad normal',
+
+
     "character_object_narration <br><br>Atria opens her mouth, as if to speak, but no sound escape ",
     "character_object_narration <br><br>her ",
     "character_object_narration <br><br>Her voice is caught, suffocated by the others words and the fear of the repercussions of standing up for herself. Her body language speaks volumes, clearly burdened by the weight of the expectations placed upon her ",
@@ -779,26 +875,56 @@ monogatari.script({
     "character_object_girl_b <br><br>We\'re nice enough to give you advice, and you can\'t even shut up and take it? You\'re lucky we even waste our effort on you. ",
     "character_object_girl_b <br><br>What happened to the promise you made us? That you\'d do what we ask of you? Do you really want a repeat of what happened last time ",
     "character_object_narration <br><br>The third individual reaches upwards, placing a hand on Atria\'s shoulder \'comfortingly\'. ",
-    "character_object_atria <br><br>Atria2_Sad. Make sprite jump in surpris ",
+  
+  
+  
+    // "character_object_atria <br><br>Atria2_Sad. Make sprite jump in surpris ",
+    'show character character_object_atria atria2_sad normal',
+
+
     "character_object_narration <br><br>This only causes Atria to flinch and instinctively put her hand ",
+
+
+
     "character_object_narration <br><br>up in defense ",
     "character_object_girl_a <br><br>...We\'ll take that reaction as a no ",
     "character_object_girl_a <br><br>Remember, we\'re your only friends. We\'re really just trying t ",
     "character_object_girl_a <br><br>do you a favor ",
     "character_object_atria <br><br>.. ",
     "character_object_narration <br><br>There is a hesitation that lasts for what seems like an eternity, as Atria\'s expression fades. Her emotion is lacking in comparison to mere seconds ago. It seems forced, for sure, yet it\'s clear she\'s putting significant effort into holding this mask ",
+    
+    
+    'show character character_object_atria atria2_timid normal',
     "character_object_atria <br><br>...Yeah, thank you for reminding me ",
+
+
+
     "character_object_narration <br><br>She lowers her gaze, attempting with all her will to keep a strong, emotionless veil. This would have been manageable for the time being, but the two others don\'t even respond to her submission ",
     "character_object_narration <br><br>They just... stare. ",
     "character_object_narration <br><br>Stare as she attempts to keep her composure ",
     "character_object_atria <br><br>.. ",
     "character_object_atria <br><br>.. ",
-    "character_object_atria <br><br>Atria2_Sad &mdash; only shown momentarily before she disappear ",
+
+
+    'show character character_object_atria atria2_sad normal',
+    // "character_object_atria <br><br>Atria2_Sad &mdash; only shown momentarily before she disappear ",
+
+
+
     "Footstep SFX <br><br>Footstep SF ",
+
+    'show character character_object_kyo Kyo_FP_Shocked normal',
+
     "character_object_kyo <br><br>.. ",
     "character_object_kyo <br><br>Das crazy ",
     "character_object_player <br><br>...That\'s really all you have to say ",
-    "character_object_kyo <br><br>Kyo_FP_Smilin ",
+
+
+    // "character_object_kyo <br><br>Kyo_FP_Smilin ",
+    'show character character_object_kyo Kyo_FP_Smiling normal',
+
+
+
     "character_object_narration <br><br>Kyo looks at you with an obvious smugness, outwardly unphased by... whatever had just happened between those three. ",
     "character_object_kyo <br><br>I told you if you actually took the time to tune into a conversation, it wouldn\'t be so hard to find someone ",
     "character_object_player <br><br>What, do you want me to go get her and ask her to join a radio club after that ",
@@ -827,7 +953,12 @@ monogatari.script({
   'Chapter_1_Choice_2_ignore_the_whole_incident': [
     "Choice 1 Ignore the whole incident  Chapter_1_0029200 Choice 1: Ignore the whole incident ",
     "Player  <br><br> I really don't think I should interfere...  ",
-    "character_object_kyo Chapter_1_0029700 Kyo_FP_Bruh ",
+
+
+    // "character_object_kyo Chapter_1_0029700 Kyo_FP_Bruh ",
+    'show character character_object_kyo Kyo_FP_Bruh normal',
+
+
     "Narration  <br><br> Kyo stares at you with a tinge of concern.  ",
     "character_object_kyo Chapter_1_0030300 ...Don't you think she would be a good candidate for the radio club? ...Can't you just... tell? ",
     "Narration  <br><br> He clearly knows more than he's letting on... his consistently unsettling statements are starting to stand out more and more...  ",
@@ -857,29 +988,50 @@ monogatari.script({
     // Chapter_1_0031800 removed - covered in choice block above 
     // Chapter_1_0031900 removed - covered in choice block above 
     "character_object_player <br><br>Fine, fine. Let\'s go find her, alright ",
-    "character_object_kyo <br><br>...Actually, I think you should go on your own. I... will only ge ",
-    "character_object_kyo <br><br>in the way ",
+
+    'show character character_object_kyo Kyo_FP_Bruh normal',
+    "character_object_kyo <br><br>...Actually, I think you should go on your own. I... will only get in the way ",
+
+
+
+
     "character_object_narration <br><br>He speaks in an eerie tone, as if he\'s admitting to something ",
     "character_object_narration <br><br>What on earth is up with him ",
     "character_object_player <br><br>...Okay? So... you just want me to convince her to join ",
     "character_object_player <br><br>Wait, what do you mean by \'get in the way\'?? ",
     "character_object_player <br><br>.. ",
     "character_object_player <br><br>Actually, nevermind. I can see it ",
-    "character_object_kyo <br><br>Kyo sprite is remove ",
+
+
+    // "character_object_kyo <br><br>Kyo sprite is remove ",
+    'hide character character_object_kyo',
+    
+    
     "character_object_narration <br><br>You look at the school building momentarily, sighing. It\'s an irritating reality, but the longer you wait, the harder it will be to find her ",
     "character_object_player <br><br>I guess I\'ll see you later then ",
     "character_object_narration <br><br>You look back to where Kyo had stood just a moment ago, your eyes only meeting blank space ",
     "character_object_player <br><br>Huh ",
     "character_object_narration <br><br>...He never fails to do something strange, does he ",
     "character_object_narration <br><br>You figure you should just get moving ",
-    "Transition to School Classroom Day <br><br>Transition to School Classroom Da ",
+
+    "show scene generic_classroom_bg",
+    // "Transition to School Classroom Day <br><br>Transition to School Classroom Da ",
+
+
+
+
     "character_object_narration <br><br>.. ",
     "character_object_narration <br><br>Alright then, she has to be somewhere around here ",
     "character_object_player <br><br>Atria? Hello ",
     "character_object_narration <br><br>... ",
     "character_object_narration <br><br>Silence ",
     "character_object_player <br><br>Atria? Don\'t worry... I\'m not gonna yell ",
-    "character_object_atria <br><br>Atria1_Sa ",
+
+
+    // "character_object_atria <br><br>Atria1_Sa ",
+    'show character character_object_atria atria1_sad normal',
+
+
     "Centered <br><br>Centere ",
     "character_object_narration <br><br>You glance around, scanning the room, your eyes spotting a fragile figure hunched in the corner. The eye contact causes her body to tense, as if she were expecting judgment, or ridicule ",
     "character_object_atria <br><br>...W-why do you... know my name... ",
@@ -901,7 +1053,13 @@ monogatari.script({
     "character_object_atria <br><br>...As long as I remember. Really, I\'m serious... they\'re jus ",
     "character_object_atria <br><br>trying to deal with me ",
     "character_object_player <br><br>Don\'t you think they are being a bit... ah, harsh ",
-    "character_object_atria <br><br>Atria2_Sa ",
+
+
+
+    // "character_object_atria <br><br>Atria2_Sa ",
+    'show character character_object_atria atria2_sad normal',
+
+
     "character_object_narration <br><br>You observe Atria closely, noticing the conflict within her as she struggles with her loyalty to her \'friends\' and their effect on her emotional stability. She seems torn, caught between the conflicting beliefs instilled by her \'friends\' and the flickers of doubt emerging within her ",
     "character_object_narration <br><br>She speaks, her voice laced with a forced conviction ",
     "character_object_atria <br><br>It\'s... fine. I\'m used to it ",
@@ -909,7 +1067,13 @@ monogatari.script({
     "character_object_narration <br><br>You struggle for a good moment, before a realization hits you; her perception of reality has been shaped by years of... whatever they had done to her ",
     "character_object_narration <br><br>Comforting and giving advice wasn\'t exactly your strong suit.. ",
     "character_object_player <br><br>Atria... that\'s not normal ",
+
+
+
     "character_object_atria <br><br>Huh ",
+'show character character_object_atria atria2_timid normal',
+
+
     "character_object_narration <br><br>She takes a few seconds to herself, a mix of confusion and curiosity seeping through her expression. You take the silence as an opportunity to explain and clear up any possible questions ",
     "character_object_player <br><br>What I mean is, friends are meant to encourage your hobbies, and allow you to open up about yourself. What I saw back there wasn\'t healthy... nor acceptable ",
     "character_object_narration <br><br>You speak with a confident tone, pushing aside your own uncertainties on how to navigate such a sensitive conversation. The more you speak, however, the more confusion crosses Atrias face ",
@@ -919,7 +1083,15 @@ monogatari.script({
     "character_object_narration <br><br>The dynamics you had witnessed between her and her so-called \'friends\' seem to be ingrained in her entire understanding of relationships. It blurs the line of what she depicts as acceptable or not. ",
     "character_object_player <br><br>Do you mind explaining to me what your friends have been like towards you? Perhaps I can get a better insight on what exactly is going on ",
     "character_object_player <br><br>I... understand if you don\'t want to share. Though it really could help me evaluate who\'s in the wrong ",
+    
+    
+    
+    'show character character_object_atria atria1_timid normal',
     "character_object_atria <br><br>...I would, but... they don\'t really like me talking to othe ",
+
+
+
+
     "character_object_atria <br><br>people.. ",
     "character_object_atria <br><br>...But... the way you are talking to me completely contradicts the things that they have said would happen if I did.. ",
     "character_object_narration <br><br>Atria mumbles, taking in a deep breath as she contemplates whether or not she should open up ",
@@ -929,13 +1101,28 @@ monogatari.script({
     "character_object_narration <br><br>Atria visibly relaxes, her tense posture softening slightly as she starts to consider sharing her experiences. It\'s a step into the unknown for her. ",
     "character_object_atria <br><br>Okay, just... give me a moment. ",
     "character_object_narration <br><br>She takes a deep breath, steadying herself as she gathers the courage to break the chains of silence that have bound her for so long ",
-    "character_object_atria <br><br>Atria1_Nervou ",
+    
+    
+    
+    // "character_object_atria <br><br>Atria1_Nervou ",
+    'show character character_object_atria atria1_nervous normal',
+
+
+
+
     "character_object_narration <br><br>A weak smile forms as she reminisces ",
     "character_object_atria <br><br>I met them in 2nd grade, and they were the first people in my life that would actually call me a friend. ...They never really liked me hanging out with others. So, since then, I\'ve just kind of stuck with them ",
     "character_object_atria <br><br>They helped me, and they still help me to this day. The least I can do for them is follow a couple orders here and there. ...I don\'t exactly know what would happen if I didn\'t do as they asked, anyways. There\'s no use putting up too much of a fight ",
     "character_object_narration <br><br>A small, breathless laugh leaves her, but it seems rather simulated ",
     "character_object_atria <br><br>They remind me when I speak too much, and push me to improve myself. They put up with me, even now, after years of not being able to keep to myself ",
-    "character_object_atria <br><br>Atria1_Timi ",
+   
+   
+   
+    // "character_object_atria <br><br>Atria1_Timi ",
+    'show character character_object_atria atria1_timid normal',
+
+
+
     "character_object_narration <br><br>Atria\'s expression fades as she takes a moment to think about what she had just said. Quietly, she repeats her words to herself ",
     "character_object_atria <br><br>...Years ",
     "character_object_atria <br><br>I\'m... lucky they even stick around ",
@@ -944,13 +1131,25 @@ monogatari.script({
     "character_object_player <br><br>I can understand it\'s difficult to accept this, especially since you haven\'t been exposed to kinder relationships ",
     "character_object_player <br><br>However, isolating you from others and demanding obedience is not a healthy dynamic. You have individuality, and it shouldn\'t be suppressed ",
     "character_object_narration <br><br>You emphasize the qualities of healthy relationships, hoping your words impact her twisted definition of a friend ",
-    "character_object_atria <br><br>Atria2_Timi ",
+    
+    
+    
+    // "character_object_atria <br><br>Atria2_Timi ",
+    'show character character_object_atria atria2_timid normal',
+
+
+
     "character_object_narration <br><br>She looks up in thought, finding it difficult to grasp the foreign concept that her \'friends\' actions may not align with true friendship ",
     "character_object_atria <br><br>But... they\'ve always said it\'s for my own good. That their guidance and control are necessary to make me better. Isn\'t... that how friends are supposed to be ",
     "character_object_narration <br><br>You look at her questioningly, wondering how exactly you could explain this to her when her thought process had been so warped and muddled ",
     "character_object_player <br><br>...Here, imagine this; a friendship where you are allowed to express yourself freely, and your thoughts and feelings are valued. ",
     "character_object_narration <br><br>Atria\'s eyes widen, fascinated in the allure of this alternate reality ",
-    "character_object_atria <br><br>Atria1_Timi ",
+    
+    
+    // "character_object_atria <br><br>Atria1_Timi ",
+    'show character character_object_atria atria1_timid normal',
+
+
     "character_object_atria <br><br>...Are you sure... that\'s really possible ",
     "character_object_narration <br><br>You nod, offering her your hand. She reluctantly takes it, standing ",
     "character_object_player <br><br>...I understand if you don\'t believe me, but hey, why not try it out ",
@@ -982,10 +1181,25 @@ monogatari.script({
     "Player  <br><br> I know it may be hard, but sometimes cutting people out of your life is the best decision. It can be the difference between differing sides of your mental stability.  ",
     "Narration  <br><br> Atrias eyes widen at this, fearing the mere idea of confrontation.  ",
     "character_object_atria Chapter_1_0060300 ...But what if they respond negatively...? ",
-    "character_object_atria Chapter_1_0060500 Atria2_Sad ",
+
+
+
+    // "character_object_atria Chapter_1_0060500 Atria2_Sad ",
+    'show character character_object_atria atria2_sad normal',
+
+
+
     "character_object_atria Chapter_1_0060800 What if they... ",
     "Narration  <br><br> She flinches, seemingly reimagining older events. Taking a deep breath, she composes herself. It was a blatant lie, a response that seems like a natural reflex to recalling such things.  ",
-    "character_object_atria Chapter_1_0061300 Atria1_Timid ",
+   
+   
+   
+    // "character_object_atria Chapter_1_0061300 Atria1_Timid ",
+    'show character character_object_atria atria1_timid normal',
+
+
+
+
     "character_object_atria Chapter_1_0061600 ...I... don't think that's a good idea. ",
     "Scene reconverges here  Chapter_1_0061800 Scene reconverges here ",
     "jump Chapter_1_after_choice_3",
@@ -996,7 +1210,14 @@ monogatari.script({
     "Player  <br><br> It's a large step to take, and it can take a lot. I encourage you to take your time.  ",
     "Player  <br><br> ...Just, think about what's best for you. Consider the idea of friends that allow you to just be yourself.  ",
     "Narration  <br><br> Slowly, Atria nods in agreement.  ",
-    "character_object_atria Chapter_1_0063200 Atria1_Timid ",
+
+
+
+    // "character_object_atria Chapter_1_0063200 Atria1_Timid ",
+    'show character character_object_atria atria1_timid normal',
+
+
+
     "character_object_atria Chapter_1_0063500 I... I don't really know... I've known them for so long...",
     "Scene reconverges here  Chapter_1_0063600 Scene reconverges here ",
     "jump Chapter_1_after_choice_3",
@@ -1025,17 +1246,43 @@ monogatari.script({
     // Chapter_1_0063500 removed - covered in choice block above 
     // Chapter_1_0063600 removed - covered in choice block above 
     "character_object_atria <br><br>But.. ",
-    "character_object_atria <br><br>Atria1_Nervou ",
+
+
+
+
+    // "character_object_atria <br><br>Atria1_Nervou ",
+    'show character character_object_atria atria1_nervous normal',
+
+
+
+
     "character_object_atria <br><br>I can try ",
     "character_object_narration <br><br>You smile at her efforts ",
     "character_object_player <br><br>I\'ll be here whenever you need me, okay ",
     "character_object_player <br><br>Well... of course I\'m not always here but- My point is, if you need help, don\'t worry about asking for it ",
-    "character_object_atria <br><br>Atria2_Nervou ",
+   
+   
+   
+    // "character_object_atria <br><br>Atria2_Nervou ",
+    'show character character_object_atria atria2_sad normal',
+
+
+
     "character_object_narration <br><br>Atria nods, which you take as a cue to leave ",
     "character_object_narration <br><br>.. ",
     "character_object_narration <br><br>But upon turning around.. ",
-    "character_object_atria <br><br>Atria sprite is remove ",
-    "character_object_kyo <br><br>Kyo_FP_Bruh - Appears before dialogue bo ",
+
+
+    // "character_object_atria <br><br>Atria sprite is remove ",
+    'hide character character_object_atria',
+
+
+    
+    // "character_object_kyo <br><br>Kyo_FP_Bruh - Appears before dialogue bo ",
+    'show character character_object_kyo Kyo_FP_Bruh normal',
+
+
+
     "character_object_player <br><br>K&mdash ",
     "character_object_player <br><br>Holy BONKERS will you stop doing that&mdash ",
     "character_object_kyo <br><br>Oh, come on. I\'m not that scary ",
@@ -1046,26 +1293,70 @@ monogatari.script({
     "character_object_player <br><br>Sounds like an excuse to me. You\'re pretty good a ",
     "character_object_player <br><br>blabbering, you two could get along ",
     "character_object_narration <br><br>Kyo reaches his hand out to push you back towards Atria, but stops mid-way, pulling his hand back, and letting out a long sigh before gesturing to her ",
+    
+    
+
+     'show character character_object_kyo Kyo_FP_Default normal',
     "character_object_kyo <br><br>Go on ",
+
+    'show character character_object_atria atria2_nervous normal',
     "character_object_atria <br><br>Atria2_Nervou ",
+
+
+
     "character_object_kyo <br><br>Kyo left, Atria righ ",
     "character_object_player <br><br>...Sorry about that ",
     "character_object_narration <br><br>Atria looks towards you with blatant confusion ",
     "character_object_player <br><br>I was just wondering if you\'re interested in clubs at all? It\'ll be a perfect opportunity to get yourself out there and make new friends ",
     "character_object_player <br><br>I was hoping to recruit you to the radio club. There, you\'ll be able to go on tangents without being judged. I think you\'ll fit the role perfectly, and hey, you could maybe help recruit some new members too... ",
-    "character_object_atria <br><br>Atria2_Timi ",
+   
+   
+   
+   
+    // "character_object_atria <br><br>Atria2_Timi ",
+    'show character character_object_atria atria2_timid normal',
+
+
+
     "character_object_atria <br><br>Ah... you\'re sure I won\'t come off as annoying? Y\'know... talking and such ",
     "character_object_player <br><br>Of course not. The entire point of a radio club is to speak into a microphone. You can even take it for a little test run, if you\'d like ",
     "character_object_atria <br><br>.. ",
     "character_object_atria <br><br>W-well... I suppose it\'s the least I can do... you\'ve kind of helped me consider possibilities I would have never even imagined otherwise.. ",
     "character_object_narration <br><br>There\'s a brief pause before Atria clings to your sleeve, allowing you to lead the way ",
     "Sprites are removed - momentarily for background transition <br><br>Sprites are removed - momentarily for background transitio ",
+    
+    
+    
+    
     "Music_Room_Basic + Music_Printer <br><br>Music_Room_Basic + Music_Printe ",
-    "character_object_kyo <br><br>Kyo_SP_Defaul ",
-    "character_object_atria <br><br>Atria1_Timi ",
-    "character_object_kyo <br><br>Kyo left, Atria righ ",
+
+
+
+
+    // "character_object_kyo <br><br>Kyo_SP_Defaul ",
+    'show character character_object_kyo Kyo_SP_Default normal',
+
+
+
+    // "character_object_atria <br><br>Atria1_Timi ",
+    'show character character_object_atria atria1_timid normal',
+
+
+    "character_object_kyo <br><br>Kyo left, Atria right ",
+
+
+
+
     "character_object_player <br><br>Here\'s the club room! Cozy, isn\'t it ",
-    "character_object_kyo <br><br>Kyo_FP_Smilin ",
+
+
+
+
+    // "character_object_kyo <br><br>Kyo_FP_Smilin ",
+    'show character character_object_kyo Kyo_FP_Smiling normal',
+
+
+
     "character_object_narration <br><br>Kyo speaks, his tone strung with an obvious sarcasm ",
     "character_object_kyo <br><br>Wooow... 32/10 persuasive skills ",
     "character_object_kyo <br><br>Narration: ",
@@ -1078,18 +1369,46 @@ monogatari.script({
     "character_object_narration <br><br>You look at Kyo for an answer, but you only receive a shrug in response ",
     "character_object_player <br><br>...I guess whatever you feel like. It\'s just a test, so, how about something you\'re passionate about ",
     "character_object_kyo <br><br>Yeah, that works. Just whatever is easy to talk about ",
-    "character_object_kyo <br><br>Kyo sprite is remove ",
-    "character_object_atria <br><br>Atria2_Timi ",
-    "Centered <br><br>Centere ",
+
+
+
+    // "character_object_kyo <br><br>Kyo sprite is remove ",
+    'hide character character_object_kyo',
+
+    
+    // "character_object_atria <br><br>Atria2_Timi ",
+    'show character character_object_atria atria2_timid normal',
+
+
+
+    // "Centered <br><br>Centere ",
+
+
+
+
+    
     "character_object_narration <br><br>Atria approaches the mic, a bit tense. She starts off very reluctant, stuttering over her sentences ",
     "character_object_atria <br><br>...Hello, I-I\'m Atria... um. ",
     "character_object_atria <br><br>.. ",
     "character_object_atria <br><br>.. ",
     "character_object_player <br><br>Hey, it\'s alright. Just say whatever comes naturally, it doesn\'t have to be thought out like some perfect script ",
     "character_object_narration <br><br>Her eyes shift towards your direction, and she takes a deep breath before continuing ",
-    "character_object_atria <br><br>Atria2_Nervou ",
+  
+  
+  
+    // "character_object_atria <br><br>Atria2_Nervou ",
+    'show character character_object_atria atria2_nervous normal',
+
+
+
+
     "character_object_narration <br><br>Slowly, her body relaxes a little, as she lets go of her worries for a fleeting moment. It takes a little longer for her to grow comfortable with purposely being so outspoken like this ",
-    "character_object_atria <br><br>Atria sprite is remove ",
+    
+    
+    // "character_object_atria <br><br>Atria sprite is remove ",
+    'hide character character_object_atria',
+
+
     "Black screen <br><br>Black scree ",
     "character_object_narration <br><br>She continues speaking, slowly but surely becoming more confident as she speaks her mind, whatever small bits of information or passion that come to her ",
     "character_object_narration <br><br>Some time passes, and not long later, she begins speaking like she had been waiting for this opportunity for years ",
@@ -1729,7 +2048,7 @@ monogatari.script({
     "character_object_narration <br><br>	Atria looks around ",
     "character_object_narration <br><br>Although they\'re a lot less intimidated of their \"friends\" than before, they\'re still cautious while walking down the halls with you, Kyo, and Skye ",
     "character_object_narration <br><br>Speaking of Kyo, he\'s not here, AGAIN. He did tell you that he had a lot of work going on lately, but if the Radio Club\'s one of his major commitments, how important must those other things be ",
-    "character_object_atria <br><br>	W-Well, it seems like we\'re close to the club room! By th ",
+    "character_object_atria <br><br>	W-Well, it seems like we\'re close to the club room! By the ",
     "character_object_atria <br><br>way, w-were we able to register officially yet ",
     "character_object_player <br><br>We still need one more member, I think. That\'s what Kyo told me, anyways ",
     "character_object_skye <br><br>Mm mm, I see. How\'s he, by the way? He seems to not be around lately ",

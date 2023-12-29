@@ -165,8 +165,40 @@ monogatari.component('main-menu').template(() => {
 
 
 
-monogatari.component('quick-menu').template(() => {
+monogatari.component('text-box').template(() => {
 	return `
+
+  <div style="width: 100%; height: 100%; position: relative" data-content="name">
+	<div style="width: 384px; height: 78.7px; left: 0px; top: 0px; position: absolute">
+	  <div style="width: 47.73px; height: 49.5px; left: 47.33px; top: 0px; position: absolute; transform: rotate(45.79deg); transform-origin: 0 0; background: #2e72c1; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid"></div>
+	  <div style="width: 19.4px; height: 20.12px; left: 14.42px; top: 20.7px; position: absolute; transform: rotate(45.79deg); transform-origin: 0 0; background: #498fcd; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid"></div>
+	  <div style="width: 343px; height: 75px; left: 41px; top: 3.7px; position: absolute">
+		<div style="width: 333.04px; height: 62.17px; left: 9.96px; top: 12.83px; position: absolute; background: #76bde0; box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25); border-radius: 30px"></div>
+		<div style="width: 333.82px; height: 62.59px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 31.3px; border: 4px #478dcc solid"></div>
+	  </div>
+	</div>
+	<div style="width: 207px; height: 41px; left: 121px; top: 12.7px; position: absolute; color: #2e72c1; font-size: 32px; font-family: Nunito; font-weight: 800; word-wrap: break-word">
+	
+    <span data-ui="who" data-content="character-name"></span>
+	
+	</div>
+  </div>
+  
+
+
+  <div data-content="side-image">
+
+
+    <img data-ui="face" alt="" data-content="character-expression" src="" style="display: none" />
+  </div>
+
+  <div data-content="text">
+  
+	<img style="width: 1920px; height: 1080px; left: -1px; top: 0px; position: absolute; opacity: 0.50; mix-blend-mode: luminosity"
+	src="https://via.placeholder.com/1920x1080" />
+
+    <p data-ui="say" data-content="dialog">chap 0,</p>
+  </div>
 
 `});
 

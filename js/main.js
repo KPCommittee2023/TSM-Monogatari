@@ -196,20 +196,29 @@ monogatari.component('text-box').template(() => {
   <div style="  margin: 0px auto;  padding-left: 100px;  padding-right: 100px;   width: 90%; height: 214px; left: 41px; top: 12px;  opacity: 0.9; background: linear-gradient(0deg, #10588a 0%, #2d6cb5 79%, #22a2ff 100%); box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25)">
   
   	<p data-ui="say" data-content="dialog"></p>
-  
+	  
+	  <img style="width: 100%; height: 214px; left: 41px; top: 12px; position: absolute; opacity: 0.2; mix-blend-mode: soft-light; border-radius: 11px" src="./assets/fromfigma/overlay.png" />
+	  
+	  <div style = "display: inline-block" >
+		<span  data-action="auto-play"  
+			style="width: 65px; height: 6px; left:  30%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Auto</span>
+		<span  data-action="open-screen" data-open="save" 
+			style="width: 65px; height: 6px; left:  35%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Save</span>
+		<span  data-action="open-screen" data-open="load"  
+			style="width: 59px; height: 9px; left:  40%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Load</span>
+		<span  data-action="back"  
+			style="width: 65px; height: 18px; left: 45%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Back</span>
+		<span  data-action="end"  
+			style="width: 55px; height: 29px; left: 50%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Quit</span>
+		<span  data-action="dialog-log"          
+			style="width: 45px; height: 12px; left: 55%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Log</span>
+		<span  data-action="distraction-free" 
+			style="width: 45px; height: 12px; left: 60%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Hide</span>
+		<span  data-action="open-screen" data-open="settings" 
+			style="width: 87px; height: 11px; left: 65%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Settings</span>
+			
+	  </div>
   </div>
-  <img style="width: 100%; height: 214px; left: 41px; top: 12px; position: absolute; opacity: 0.2; mix-blend-mode: soft-light; border-radius: 11px" src="./assets/fromfigma/overlay.png" />
-  
-  
-		<div  data-action="open-screen" data-open="save" style="width: 65px; height: 6px; left:  35%; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Save</div>
-		<div  data-action="open-screen" data-open="load"  style="width: 59px; height: 9px; left:  40%; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Load</div>
-		<div  data-action="back"  style="width: 65px; height: 18px; left: 45%; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Back</div>
-		<div  data-action="end"  style="width: 55px; height: 29px; left: 50%; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Quit</div>
-		<div  data-action="dialog-log"          style="width: 45px; height: 12px; left: 55%; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Log</div>
-		<div  data-action="distraction-free" style="width: 45px; height: 12px; left: 60%; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Hide<br /></div>
-		<div  data-action="auto-play"  style="width: 65px; height: 6px; left:  30%; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Auto</div>
-		<div  data-action="open-screen" data-open="settings" style="width: 87px; height: 11px; left: 65%; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Settings</div>
-	
 </div>
 
 

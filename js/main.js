@@ -150,6 +150,13 @@ monogatari.component ('main-screen').template (() => {
 
 
 
+monogatari.component('main-menu').template(() => {
+	return `
+
+	
+`});
+
+
 // monogatari.component('settings-screen').template(() => {
 // 	return `
 
@@ -158,33 +165,13 @@ monogatari.component ('main-screen').template (() => {
 
 
 
-
-
 monogatari.component('quick-menu').template(() => {
 	return `
-<!--	
-	<button data-action="start" icon="undefined" string="Start" tabindex="0">
-		<span class="undefined"></span>
-		<span data-string="Start">Start</span>
-	</button>
-	
-	<button data-action="open-screen" data-open="load" icon="undefined" string="Load" tabindex="0">
-		<span class="undefined"></span>
-		<span data-string="Load">Load</span>
-	</button> 
-	
-	<button data-action="open-screen" data-open="settings" icon="undefined" string="Settings" tabindex="0">
-		<span class="undefined"></span>
-		<span data-string="Settings">Settings</span>
-	</button> 
-	
-	<button data-action="open-screen" data-open="help" icon="undefined" string="Help" tabindex="0">
-		<span class="undefined"></span>
-		<span data-string="Help">Help</span>
-	</button>
--->
-		`
-});
+
+`});
+
+
+
 
 
 $_ready (() => {

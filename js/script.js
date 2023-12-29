@@ -37,16 +37,16 @@ monogatari.assets("gallery", {});
 monogatari.assets("music", {
 
   
-  'EsmerayMaster_1' : 'assets/music/aefen/EsmerayMaster_1.wav', 
-  'Opening_closing_VINTAGE' : 'assets/music/aefen/Opening_closing_VINTAGE.wav', 
-  'SkyeMaster' : 'assets/music/aefen/SkyeMaster.wav',
+  'EsmerayMaster_1' : '/aefen/EsmerayMaster_1.wav', 
+  'Opening_closing_VINTAGE' : '/aefen/Opening_closing_VINTAGE.wav', 
+  'SkyeMaster' : '/aefen/SkyeMaster.wav',
 
-  'Atria_intro' :'assets/music/stickthefigure/Atria_intro.wav' ,
-  'Atria_loop' :'assets/music/stickthefigure/Atria_loop.wav' ,
-  'intro_intro' :'assets/music/stickthefigure/intro_intro.wav' ,
-  'intro_loop' :'assets/music/stickthefigure/intro_loop.wav' ,
-  'sad_loop' :'assets/music/stickthefigure/sad_loop.wav',
-  'sad_intro' :'assets/music/stickthefigure/sad_intro.wav',
+  'Atria_intro' :'/stickthefigure/Atria_intro.wav' ,
+  // 'Atria_loop' :'/stickthefigure/Atria_loop.wav' ,
+  'intro_intro' :'/stickthefigure/intro_intro.wav' ,
+  // 'intro_loop' :'/stickthefigure/intro_loop.wav' ,
+  'sad_intro' :'/stickthefigure/sad_intro.wav'
+  // 'sad_loop' :'music/stickthefigure/sad_loop.wav',
 
 
 });
@@ -388,7 +388,19 @@ monogatari.script({
 
 
 
+// 'play music Atria_intro  with loop',
+// 'play music intro_intro  with loop',
+// 'play music sad_intro with loop', 
+// 'play music EsmerayMaster_1  with loop',
+// 'play music Opening_closing_VINTAGE with loop', 
+// 'play music SkyeMaster with loop',
 
+// 'stop music Atria_intro  with loop',
+// 'stop music intro_intro  with loop',
+// 'stop music sad_intro with loop', 
+// 'stop music EsmerayMaster_1  with loop',
+// 'stop music Opening_closing_VINTAGE with loop', 
+// 'stop music SkyeMaster with loop', 
 
 
 
@@ -700,8 +712,8 @@ monogatari.script({
     "show scene Rooftop_bg_day",
 
 
-    "character_object_atria <br><br>Atria\'s BG ",
-
+    // "character_object_atria <br><br>Atria\'s BGM ",
+    'play music Atria_intro  with loop  ',
 
 
 
@@ -1442,6 +1454,12 @@ monogatari.script({
     "character_object_narration <br><br>She shakes her head, clearing her mind before nodding with a newfound assurance ",
     "character_object_atria <br><br>I think I\'d like that ",
     // end-of-CHAPTER-1-mark
+
+
+    'stop music Atria_intro',
+
+
+
     'jump CHAPTER_2',
   ],
 
@@ -1455,8 +1473,8 @@ monogatari.script({
     "show scene school_hallway_daylight",
 
 
-    "Skye's BGM <br><br>Skye\'s BG ",
-
+    // "Skye's BGM <br><br>Skye\'s BG ",
+    'play music SkyeMaster with loop',
 
 
     'show character character_object_kyo Kyo_FP_Default normal',
@@ -2219,6 +2237,11 @@ monogatari.script({
     "character_object_narration <br><br>You nod your head at the blue haired boy, returning to look once more at your new friends fondly. You definitely don\'t want to interrupt their bonding either ",
     "character_object_narration <br><br>You\'ll have time for more proper introductions later ",
     // end-of-CHAPTER-2-mark
+
+
+    'stop music SkyeMaster with loop', 
+
+
     'jump CHAPTER_3'
   ],
 
@@ -2233,9 +2256,8 @@ monogatari.script({
     "show scene music_room_basic",
 
 
-    "character_object_esmeray <br><br>Esmeray\'s BG ",
-
-
+    // "character_object_esmeray <br><br>Esmeray\'s BGM ",
+    'play music EsmerayMaster_1  with loop',
 
 
 
@@ -3250,6 +3272,12 @@ monogatari.script({
     "character_object_narration <br><br>Atria and Skye continue to talk loudly, and eventually the three of them start to converse about their interests and such ",
     "character_object_narration <br><br>You watch the scene fondly. Finally, the club is complete ",
     // end-of-CHAPTER-3-mark
+
+
+    'stop music EsmerayMaster_1  with loop',
+
+
+
     'jump CHAPTER_E'
   ],
 
@@ -3257,8 +3285,14 @@ monogatari.script({
     'chap E',
     // start-of-CHAPTER-E-mark
     " <br><br>Epilogue: Waning Iridescent ",
-    "Music Room Basic All <br><br>Music Room Basic Al ",
-    "Outro BGM <br><br>Outro BG ",
+    
+    // "Music Room Basic All <br><br>Music Room Basic Al ",
+    "show scene music_room_basic_ALL",
+    
+    // "Outro BGM <br><br>Outro BGM ",
+    'play music Opening_closing_VINTAGE with loop', 
+
+
     "character_object_narration <br><br>After finally registering the club last week, you walk into the radio club classroom with a little bounce in your steps. It\'s the first official radio club meeting today, and you\'re excited! ",
     "character_object_narration <br><br>You look at the notes you wrote on your phone to remember what you\'re discussing with all the club members. It\'s simple enough: assign roles to the club members and finalize the plan for future activities ",
     "character_object_narration <br><br>Now you just need to wait for them to show up. They didn\'t forget about you telling them earlier in the day to meet you at lunch, right? You hope not ",
@@ -3514,6 +3548,7 @@ monogatari.script({
 'show scene kyo_cg',
 
 
+'stop music Opening_closing_VINTAGE with loop', 
 
     "Game end <br><br>Game en ",
     "Go to credits <br><br>Go to credit ",

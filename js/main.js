@@ -196,24 +196,24 @@ monogatari.component('text-box').template(() => {
 
 
 <div style="width: 100%; height: 100%; position: relative; margin-top: 90px;"    data-content="text">
-  <div style="width: 90%; height: 214px; left: 41px; top: 12px; position: absolute; opacity: 0.9; background: linear-gradient(0deg, #10588a 0%, #2d6cb5 79%, #22a2ff 100%); box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25)">
+  <div style="  margin: 0px auto;  padding-left: 100px;  padding-right: 100px;   width: 90%; height: 214px; left: 41px; top: 12px;  opacity: 0.9; background: linear-gradient(0deg, #10588a 0%, #2d6cb5 79%, #22a2ff 100%); box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25)">
   
-  <p data-ui="say" data-content="dialog"></p>
+  	<p data-ui="say" data-content="dialog"></p>
   
   </div>
-  <img style="width: 1391px; height: 214px; left: 41px; top: 12px; position: absolute; opacity: 0.2; mix-blend-mode: soft-light; border-radius: 11px" src="./assets/fromfigma/overlay.png" />
+  <img style="width: 100%; height: 214px; left: 41px; top: 12px; position: absolute; opacity: 0.2; mix-blend-mode: soft-light; border-radius: 11px" src="./assets/fromfigma/overlay.png" />
   
- 
-  <div style="width: 29.3px; height: 33.27px; left: 1382px; top: 175px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)">
-  </div>
-  <div style="width: 65px; height: 6px; left: 705px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Save</div>
-  <div style="width: 59px; height: 9px; left: 769px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Load</div>
-  <div style="width: 87px; height: 11px; left: 833px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Settings</div>
-  <div style="width: 55px; height: 29px; left: 924px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Quit</div>
-  <div style="width: 45px; height: 12px; left: 597px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Log</div>
-  <div style="width: 45px; height: 12px; left: 542px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Hide<br /></div>
-  <div style="width: 65px; height: 18px; left: 471px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Back</div>
-  <div style="width: 65px; height: 6px; left: 644px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Auto</div>
+	<div style=" width: 455px; text-align: center;" >
+		<div style="width: 65px; height: 6px; left: 705px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Save</div>
+		<div style="width: 59px; height: 9px; left: 769px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Load</div>
+		<div style="width: 87px; height: 11px; left: 833px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Settings</div>
+		<div style="width: 55px; height: 29px; left: 924px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Quit</div>
+		<div style="width: 45px; height: 12px; left: 597px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Log</div>
+		<div style="width: 45px; height: 12px; left: 542px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Hide<br /></div>
+		<div style="width: 65px; height: 18px; left: 471px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Back</div>
+		<div style="width: 65px; height: 6px; left: 644px; top: 181px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Auto</div>
+	</div>
+	
 </div>
 
 

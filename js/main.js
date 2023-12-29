@@ -118,26 +118,23 @@ monogatari.component ('main-screen').template (() => {
 		<div data-action="start" 
 			style="width: 183px; height: 42px; left: 1482px; top: 378px; position: absolute">
 			<div
-				style="width: 29.24px; height: 30.33px; left: 40.07px; top: 0px; position: absolute; transform: rotate(45.64deg); transform-origin: 0 0; background: #2E72C1; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid">
+				style="width: 29.24px; height: 30.33px; left: 40.07px; top: 0px; position: absolute; transform: rotate(45.64deg); transform-origin: 0 0;  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid">
 			</div>
 			<div
 				style="width: 11.89px; height: 12.33px; left: 19.86px; top: 12.65px; position: absolute; transform: rotate(45.64deg); transform-origin: 0 0; background: #498FCD; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid">
 			</div>
-			<div style="width: 118.05px; height: 39.58px; left: 64.95px; top: 0px; position: absolute">
-				<div
-					style="width: 110.63px; height: 32.20px; left: 3.71px; top: 3.69px; position: absolute; background: #2E72C1; border: 1px #2E72C1 solid">
-				</div>
-				<div
-					style="width: 118.05px; height: 39.58px; left: 0px; top: 0px; position: absolute; background: white; border: 2px #2E72C1 solid">
-				</div>
+			<div style="width: 118.05px; height: 39.58px; left: 64.95px; top: 0px; position: absolute;
+			color: white; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 3.06px; word-wrap: break-word
+			">
+				Start
 			</div>
 		</div>
 		<div
 			style="width: 356.13px; height: 74.84px; left: 1665px; top: 991.82px; position: absolute; transform: rotate(-45deg); transform-origin: 0 0; color: white; font-size: 48px; font-family: Nunito; font-weight: 900; letter-spacing: 4.08px; word-wrap: break-word">
 			Credits</div>
 		<div  data-action="open-screen" data-open="load" 
-			style="width: 139px; height: 77px; left: 1683px; top: 378px; position: absolute; color: white; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 3.06px; word-wrap: break-word">
-			/ Load</div>
+			style="width: 139px; height: 77px; left: 1683px; top: 378px; position: absolute; color: white; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 3.06px; word-wrap: break-word"
+			>/ Load</div>
 		
 </div>
 </div>

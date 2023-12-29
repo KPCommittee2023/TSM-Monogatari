@@ -506,9 +506,9 @@ monogatari.script({
     // 'show character character_object_kyo Kyo_FP_Bruh normal',
     'show character character_object_kyo Kyo_FP_Bruh normal',
 
-    "character_object_kyo Chapter_0_0011700 Actually, never mind. There are probably some RAAAAAAAANCID germs in there. I don't want any of that. I refuuuuuuuuuuse. ",
+    "character_object_kyo  Actually, never mind. There are probably some RAAAAAAAANCID germs in there. I don't want any of that. I refuuuuuuuuuuse. ",
     "Narration  <br><br> The nerve of this guy...!  ",
-    "Scene reconverges here  Chapter_0_0012200 Scene reconverges here ",
+    // "Scene reconverges here  Chapter_0_0012200 Scene reconverges here ",
     "jump Chapter_0_after_choice_1",
   ],
   'Chapter_0_Choice_2_No_this_is_mine_Get_your_own': [
@@ -569,46 +569,46 @@ monogatari.script({
 
 
     "Narration  <br><br> Kyo claps his hands. <br><br>  ",
-    "character_object_kyo Chapter_0_0016300 Yeah, let's go! Finally, there's a second member. ",
+    "character_object_kyo  Yeah, let's go! Finally, there's a second member. ",
     "Player  <br><br> Wait, nobody else is in this club yet?   ",
-    "character_object_kyo Chapter_0_0016900 Oh shit, I forgot to tell you. Yeah, you're the only one who joined so far. But here's where you come in. ",
-    "character_object_kyo Chapter_0_0017200 To officially register the club, I'm gonna need you to recruit 3 more people by the end of the month. You can do it, you're charismatic enough. ",
+    "character_object_kyo  Oh shit, I forgot to tell you. Yeah, you're the only one who joined so far. But here's where you come in. ",
+    "character_object_kyo  To officially register the club, I'm gonna need you to recruit 3 more people by the end of the month. You can do it, you're charismatic enough. ",
     "Player  <br><br> Hold on, I didn't agree to do free labor. Why don't you do it yourself' ",
     "Narration  <br><br> The lunch bell rings. <br><br>  ",
-    "character_object_kyo Chapter_0_0018100 Too late, gotta go. ",
+    "character_object_kyo  Too late, gotta go. ",
     "Player  <br><br> Hey, wait! <br><br>  ",
     "Narration  <br><br> You catch a glimpse of Kyo grinning as he bolts past you and out the door. He sings as he escapes into the hallways, cracking his voice.  ",
-    "character_object_kyo Chapter_0_0019000 Running through the halls so fast, something something dash' ",
+    "character_object_kyo  Running through the halls so fast, something something dash' ",
     "Narration  <br><br> And just like that, he makes a left and disappears. The nerve of this dude to leave you hanging like that. . .   ",
     "Narration  <br><br> You go in the opposite direction to your class. As you make your way there, you think about his request. It's a lot of work, but it's not like you have other plans or commitments this year. Eh, fuck it, you ball.  ",
-    "Fade to black  Chapter_0_0019700 Fade to black ",
-    "Proceed to Chapter 1  Chapter_0_0019800 Proceed to Chapter 1 ",
+    "Fade to black   Fade to black ",
+    "Proceed to Chapter 1   Proceed to Chapter 1 ",
     "jump CHAPTER_1",
   ],
   'Chapter_0_Choice_2_No': [
     "Choice 2 No.  Chapter_0_0020100 Choice 2: No. ",
 
     'show character character_object_kyo Kyo_FP_Sad normal',
-    "character_object_kyo Chapter_0_0020400 Oh, why not?  ",
+    "character_object_kyo  Oh, why not?  ",
 
 
 
     "Player  <br><br> Oh, don't take this the wrong way. It's just that I wanna consider my other options.   ",
-    "character_object_kyo Chapter_0_0021000 Like what? ",
+    "character_object_kyo  Like what? ",
     "Player  <br><br> Hm? Isn't it normal to do that?   ",
-    "character_object_kyo Chapter_0_0021600 What other clubs were you thinking of joining? Because this club can do better than all of them. ",
+    "character_object_kyo  What other clubs were you thinking of joining? Because this club can do better than all of them. ",
     "Narration  <br><br> Where did this sudden pushiness and big ego come from?   ",
     "Player  <br><br> I was thinking of joining the debate club'  ",
 
 
     'show character character_object_kyo Kyo_FP_Bruh normal',
-    "character_object_kyo Chapter_0_0022500 Bro, I am right here. I am THE debate master. I'm not all business all the time you know. I can do other things outside of club meetings.  ",
+    "character_object_kyo  Bro, I am right here. I am THE debate master. I'm not all business all the time you know. I can do other things outside of club meetings.  ",
    
    
    
    
     "Player  <br><br> Okay, but I have to ask. You're cool and all, but are you the only club member?   ",
-    "character_object_kyo Chapter_0_0023100 Yes, but I'm gonna get more soon' ",
+    "character_object_kyo  Yes, but I'm gonna get more soon' ",
     "Player  <br><br> Look, I'll go check out other clubs later this week. If I don't like any of them, I'll come back here. Okay?  ",
     "Narration  <br><br> The lunch bell rings.  ",
 

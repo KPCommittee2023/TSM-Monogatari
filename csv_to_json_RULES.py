@@ -735,7 +735,7 @@ def do_differently_given_code(row_in_csv):
         .replace("'", "\\'") \
         .replace("\"", "\\\"") \
         .replace("\n", "")[:-1]
-    output_to_json+="  <br><br> _Dialog Code:  " + dialog_code    # del this line in actual release
+    # output_to_json+="  <br><br> _Dialog Code:  " + dialog_code    # del this line in actual release
     output_to_json+=' "'
     output_to_json+=",\n"
     

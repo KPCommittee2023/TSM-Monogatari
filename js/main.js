@@ -199,23 +199,47 @@ monogatari.component('text-box').template(() => {
 	  
 	  <img style="width: 100%; height: 214px; left: 41px; top: 12px; position: absolute; opacity: 0.2; mix-blend-mode: soft-light; border-radius: 11px" src="./assets/fromfigma/overlay.png" />
 	  
-	  <div style = "display: inline-block" >
+	  <div style = "display: inline-block; bottom: 5%; position: fixed; text-align: center; width: 80%" >
 		<span  data-action="auto-play"  
-			style="width: 65px; height: 6px; left:  30%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Auto</span>
+			style="width: 65px; height: 6px; 
+			
+			margin: 15px;
+			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Auto</span>
 		<span  data-action="open-screen" data-open="save" 
-			style="width: 65px; height: 6px; left:  35%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Save</span>
+			style="width: 65px; height: 6px; 
+			
+			margin: 15px;
+			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Save</span>
 		<span  data-action="open-screen" data-open="load"  
-			style="width: 59px; height: 9px; left:  40%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Load</span>
+			style="width: 59px; height: 9px; 
+			
+			margin: 15px;
+			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Load</span>
 		<span  data-action="back"  
-			style="width: 65px; height: 18px; left: 45%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Back</span>
+			style="width: 65px; height: 18px; 
+			
+			margin: 15px;
+			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Back</span>
 		<span  data-action="end"  
-			style="width: 55px; height: 29px; left: 50%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Quit</span>
+			style="width: 55px; height: 29px; 
+			
+			margin: 15px;
+			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Quit</span>
 		<span  data-action="dialog-log"          
-			style="width: 45px; height: 12px; left: 55%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Log</span>
+			style="width: 45px; height: 12px; 
+			
+			margin: 15px;
+			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Log</span>
 		<span  data-action="distraction-free" 
-			style="width: 45px; height: 12px; left: 60%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Hide</span>
+			style="width: 45px; height: 12px; 
+			
+			margin: 15px;
+			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Hide</span>
 		<span  data-action="open-screen" data-open="settings" 
-			style="width: 87px; height: 11px; left: 65%; top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Settings</span>
+			style="width: 87px; height: 11px; 
+			
+			margin: 15px;
+			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Settings</span>
 			
 	  </div>
   </div>

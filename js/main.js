@@ -262,29 +262,7 @@ $_ready (() => {
 	monogatari.init ('#monogatari').then (() => {
 		// 3. Inside the init function:
 
-		const choices = this.props.choices.map ((choice) => {
-			if (typeof choice.Clickable === 'function') {
-					return new Promise ((resolve, reject) => {
-						this.engine.assertAsync (choice.Clickable, this.engine).then (() => {
-							resolve (`<button data-do="${choice.Do}" ${ choice.Class ? `class="${choice.Class}"`: ''} data-choice="${choice._key}">${choice.Text}</button>`);
-						}).catch (() => {
-							resolve (`<button data-do="${choice.Do}" ${ choice.Class ? `class="${choice.Class}"`: ''} data-choice="${choice._key}" disabled>${choice.Text}</button>`);
-						});
-			
-					});
-				}
-				return Promise.resolve (`<button data-do="${choice.Do}" ${ choice.Class ? `class="${choice.Class}"`: ''} data-choice="${choice._key}">${choice.Text}</button>`);
-			});
-			
-		monogatari.component('choice-container').template(() => {
-			return Promise.all (choices).then ((choices) => `
-				<div data-content="wrapper">
-					${ choices.join('') }
-				</div>`
-			)
-		});
-
-
+		
 
 
 

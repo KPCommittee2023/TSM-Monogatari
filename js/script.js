@@ -629,8 +629,13 @@ monogatari.script({
     "show scene black_screen",
 
 
-    "Proceed to Chapter 1   Proceed to Chapter 1 ",
-    "jump CHAPTER_1",
+    // "Proceed to Chapter 1   Proceed to Chapter 1 ",
+
+    // "jump CHAPTER_1",
+    "jump END",
+
+
+
   ],
   'Chapter_0_Choice_2_No': [
     // "Choice 2 No.  Chapter_0_0020100 Choice 2: No. ",

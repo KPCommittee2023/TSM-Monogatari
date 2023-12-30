@@ -451,6 +451,7 @@ monogatari.script({
     "show scene school_hallway_daylight",
 
     // "Intro Music <br><br>Intro Musi ",
+    'play music intro_intro  with loop',
 
 
     "character_object_narration <br><br>It\'s lunch break at school, but the atmosphere is livelier than usual. Oh right, it\'s Club Day today. You still can\'t decide which club you want to join this year. ",
@@ -699,6 +700,9 @@ monogatari.script({
     // Chapter_0_0025000 removed - covered in choice block above 
     // Chapter_0_0025200 removed - covered in choice block above 
     // end-of-CHAPTER-0-mark
+
+    'stop music intro_intro',
+
     'jump CHAPTER_1',
   ],
 

@@ -193,9 +193,14 @@ monogatari.component('text-box').template(() => {
 
 
 <div style="width: 100%; height: 100%; position: relative; margin-top: 90px;"    data-content="text">
-  <div style="  margin: 0px auto;  padding-left: 100px;  padding-right: 100px;   width: 90%; height: 214px; left: 41px; top: 12px;  opacity: 0.9; background: linear-gradient(0deg, #10588a 0%, #2d6cb5 79%, #22a2ff 100%); box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25)">
+  <div style="  margin: 0px auto;  padding-left: 100px;  padding-right: 100px;  
+   width: 90%; height: 214px; left: 41px; top: 12px;  opacity: 0.9; 
+   background: linear-gradient(0deg, #10588a 0%, #2d6cb5 79%, #22a2ff 100%); 
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25)">
   
-  	<p data-ui="say" data-content="dialog"></p>
+   <p data-ui="say" data-content="dialog" style="  overflow: scroll;></p>
+   <br></br>
+   <br></br>
 	  
 	  <img style="width: 100%; height: 214px; left: 41px; top: 12px; position: absolute; opacity: 0.2; mix-blend-mode: soft-light; border-radius: 11px" src="./assets/fromfigma/overlay.png" />
 	  

@@ -445,6 +445,10 @@ monogatari.script({
 
   'CHAPTER_0': [
     'chap 0,',
+
+
+
+
     // start-of-CHAPTER-0-mark
     " Prologue: Waxing Iridescen ",
 
@@ -481,12 +485,12 @@ monogatari.script({
     // "character_object_kyo Kyo_BP_Defaul ",
     'show character character_object_kyo Kyo_BP_Default normal',
 
-    "Centered Centere ",
+    // "Centered Centere ",
     "character_object_narration There\'s only one student here. Yet, you can tell that you\'re in the right place. Her appearance is just as colorful as the poster, and the graffiti beside her only emphasizes that ",
-    "character_object_narration The microphone on the other side of the room looks too high for her to reach. That\'s a bit weird ",
+    "character_object_narration The microphone on the other side of the room looks too high for her to reach. That\'s a bit weird. ",
     "character_object_narration It looks like the girl\'s still on her phone. You decide to get her attention ",
-    "character_object_player Hi, I wanna join the radio club ",
-    "character_object_narration She puts her phone away and turns around ",
+    "character_object_player Hi, I wanna join the radio club. ",
+    "character_object_narration She puts her phone away and turns around. ",
 
 
     // 'show character character_object_kyo Kyo_FP_Shocked normal',
@@ -511,8 +515,17 @@ monogatari.script({
     "character_object_kyo No no, wait. I made sure that the door had a sign on it. You\'re here for the radio club, right ",
     "character_object_player Yeah, that\'s kinda what I said before you started freaking out. ",
     "character_object_kyo Okay, okay, my bad. I literally didn\'t hear you walk in. Anyways, hi, I\'m Kyo Kaneko. What\'s your name ",
-    "character_object_player I\'m Player. ",
-    "character_object_player Player. Alright, here\'s how the club works. ",
+
+      //Allows player to add custom name to the player character
+
+  
+      // Using player's custom name in dialogue --> {{playerName}}
+
+
+
+    // "character_object_player I\'m {{playerName}}. ",
+    // "character_object_player . Alright, here\'s how the club works. ",
+    "character_object_player . Alright, here\'s how the club works. ",
     "character_object_player Wait, you\'re not gonna be writing anything on the board or something like that? ",
     "character_object_kyo Nah. It\'s not that complicated. ",
     "character_object_narration Is that his way of saying that he\'s not prepared。 ",

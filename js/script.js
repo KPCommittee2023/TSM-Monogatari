@@ -512,18 +512,18 @@ monogatari.script({
     "character_object_player Yeah, that\'s kinda what I said before you started freaking out. ",
     "character_object_kyo Okay, okay, my bad. I literally didn\'t hear you walk in. Anyways, hi, I\'m Kyo Kaneko. What\'s your name ",
     "character_object_player I\'m Player. ",
-    "character_object_player Player. Alright, here\'s how the club works ",
-    "character_object_player Wait, you\'re not gonna be writing anything on the board or something like that ",
+    "character_object_player Player. Alright, here\'s how the club works. ",
+    "character_object_player Wait, you\'re not gonna be writing anything on the board or something like that? ",
     "character_object_kyo Nah. It\'s not that complicated. ",
-    "character_object_narration Is that his way of saying that he\'s not prepared ",
+    "character_object_narration Is that his way of saying that he\'s not prepared。 ",
     "character_object_kyo For now, this club mainly does school announcements, but I plan to make it so that we also do podcasting too. ",
-    "character_object_narration You reach into your backpack ",
-    "character_object_narration Kyo looks at you in confusion ",
-    "character_object_player Oh don\'t mind me, I\'m just gonna eat my lunch ",
-    "character_object_kyo Ooh, what are you having ",
-    "character_object_player Butter croissants ",
-    "character_object_narration Kyo stares at your bread a little longer than you want him to ",
-    "character_object_kyo Can I have some ",
+    "character_object_narration You reach into your backpack. ",
+    "character_object_narration Kyo looks at you in confusion. ",
+    "character_object_player Oh don\'t mind me, I\'m just gonna eat my lunch. ",
+    "character_object_kyo Ooh, what are you having. ",
+    "character_object_player Butter croissants. ",
+    "character_object_narration Kyo stares at your bread a little longer than you want him to. ",
+    "character_object_kyo Can I have some? ",
 
     // begin hardcoded dialog_code == 'Chapter_0_0011200
     {
@@ -561,7 +561,7 @@ monogatari.script({
 
     "Narration   Kyo whines and pouts. 0 ",
     "Narration   What is up with this guy? Yet, you find his pouting face a little cute. Like a puntable cat.   ",
-    "Scene Reconverges Here  Chapter_0_0013300 Scene Reconverges Here ",
+    // "Scene Reconverges Here  Chapter_0_0013300 Scene Reconverges Here ",
     "jump Chapter_0_after_choice_1"
   ],
 
@@ -581,12 +581,12 @@ monogatari.script({
 
 
     'show character character_object_kyo Kyo_FP_Default normal',
-    "character_object_kyo Anyways, since this club requires confident people, I\'d say you\'re a pretty good candidate so far. Most people don\'t have the balls to approach me ",
+    "character_object_kyo Anyways, since this club requires confident people, I\'d say you\'re a pretty good candidate so far. Most people don\'t have the balls to approach me。 ",
     "character_object_narration You look up and down at Kyo incredulously ",
-    "character_object_player Really? You\'re not even tall enough to reach the mic over there ",
-    "character_object_kyo Hey hey, shut up. Shut the fuck up ",
-    "character_object_narration Kyo looks up at the classroom clock ",
-    "character_object_kyo Lunch\'s almost over. So, whaddya say, you wanna join the club or not ",
+    "character_object_player Really? You\'re not even tall enough to reach the mic over there。 ",
+    "character_object_kyo Hey hey, shut up. Shut the fuck up。 ",
+    "character_object_narration Kyo looks up at the classroom clock。 ",
+    "character_object_kyo Lunch\'s almost over. So, whaddya say, you wanna join the club or not。 ",
 
     // start hardcoded dialog_code == 'CXhapter_0_0015300
     {
@@ -679,7 +679,7 @@ monogatari.script({
     "show scene black_screen",
 
 
-    "Narration   The next day, you try to find Kyo in the radio club room. But the room is empty. You try asking people about Kyo's whereabouts, but people don't even know who he is. What the hell. That's weird. Eh, whatever. Life continues to be lonely as usual.  _Dialog Code:  Chapter_0_0025000 ",
+    "Narration   The next day, you try to find Kyo in the radio club room. But the room is empty. You try asking people about Kyo's whereabouts, but people don't even know who he is. What the hell. That's weird. Eh, whatever. Life continues to be lonely as usual.   ",
     // "Game end - joke ending. Restart from beginning of game  Chapter_0_0025200 Game end - joke ending. Restart from beginning of game ",
     "jump END",
     // Chapter_0_0015500 removed - covered in choice block above 
@@ -722,7 +722,7 @@ monogatari.script({
 
     'stop music intro_intro',
 
-    'jump CHAPTER_1',
+    // 'jump CHAPTER_1',
   ],
 
   'CHAPTER_1': [

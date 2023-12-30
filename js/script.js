@@ -101,6 +101,7 @@ monogatari.assets("scenes", {
   'school_hallway_evening': 'Backgrounds/Final/School_Hallway/school_hallway_evening.png',
 
   'generic_classroom_bg': 'Backgrounds/Final/generic_classroom_bg_daylight.png',
+  'black_screen': 'Backgrounds/Final/black_screen.png',
 
 });
 
@@ -539,7 +540,8 @@ monogatari.script({
     },
   ],
   'Chapter_0_Choice_1_Sure_you_can_have_a_bit': [
-    "Choice 1 Sure, you can have a bit.  Chapter_0_0011400 Choice 1: Sure, you can have a bit. ",
+    // "Choice 1 Sure, you can have a bit.  Chapter_0_0011400 Choice 1: Sure, you can have a bit. ",
+    " Choice 1: Sure, you can have a bit. ",
 
     
     // 'show character character_object_kyo Kyo_FP_Bruh normal',
@@ -551,7 +553,8 @@ monogatari.script({
     "jump Chapter_0_after_choice_1",
   ],
   'Chapter_0_Choice_2_No_this_is_mine_Get_your_own': [
-    "Choice 2 No, this is mine. Get your own.  Chapter_0_0012500 Choice 2: No, this is mine. Get your own. ",
+    // "Choice 2 No, this is mine. Get your own.  Chapter_0_0012500 Choice 2: No, this is mine. Get your own. ",
+    "Choice 2: No, this is mine. Get your own. ",
 
     // "character_object_kyo Chapter_0_0012700 Kyo_FP_Bruh ",
     'show character character_object_kyo Kyo_FP_Bruh normal',
@@ -601,7 +604,8 @@ monogatari.script({
   ],
 
   'Chapter_0_Choice_2_Yes': [
-    "Choice 1 Yes.  Chapter_0_0015500 Choice 1: Yes. ",
+    // "Choice 1 Yes.  Chapter_0_0015500 Choice 1: Yes. ",
+    "Choice 1: Yes. ",
     
     // "character_object_kyo Chapter_0_0015700 Kyo_FP_Cheerful ",
     'show character character_object_kyo Kyo_FP_Cheerful normal',
@@ -620,12 +624,17 @@ monogatari.script({
     "character_object_kyo  Running through the halls so fast, something something dash' ",
     "Narration   And just like that, he makes a left and disappears. The nerve of this dude to leave you hanging like that. . .   ",
     "Narration   You go in the opposite direction to your class. As you make your way there, you think about his request. It's a lot of work, but it's not like you have other plans or commitments this year. Eh, fuck it, you ball.  ",
-    "Fade to black   Fade to black ",
+
+    // "Fade to black   Fade to black ",
+    "show scene black_screen",
+
+
     "Proceed to Chapter 1   Proceed to Chapter 1 ",
     "jump CHAPTER_1",
   ],
   'Chapter_0_Choice_2_No': [
-    "Choice 2 No.  Chapter_0_0020100 Choice 2: No. ",
+    // "Choice 2 No.  Chapter_0_0020100 Choice 2: No. ",
+    " Choice 2: No. ",
 
     'show character character_object_kyo Kyo_FP_Sad normal',
     "character_object_kyo  Oh, why not?  ",
@@ -659,9 +668,14 @@ monogatari.script({
 
 
     "Narration   You feel a little guilty seeing his dejected expression as you leave the classroom. But it's too late now; you stick to your decision and go to your next class.  ",
-    "Empty black screen.  Chapter_0_0024700 Empty black screen. ",
+
+
+    // "Empty black screen.  Chapter_0_0024700 Empty black screen. ",
+    "show scene black_screen",
+
+
     "Narration   The next day, you try to find Kyo in the radio club room. But the room is empty. You try asking people about Kyo's whereabouts, but people don't even know who he is. What the hell. That's weird. Eh, whatever. Life continues to be lonely as usual.  _Dialog Code:  Chapter_0_0025000 ",
-    "Game end - joke ending. Restart from beginning of game  Chapter_0_0025200 Game end - joke ending. Restart from beginning of game ",
+    // "Game end - joke ending. Restart from beginning of game  Chapter_0_0025200 Game end - joke ending. Restart from beginning of game ",
     "jump END",
     // Chapter_0_0015500 removed - covered in choice block above 
     // Chapter_0_0015700 removed - covered in choice block above 
@@ -805,13 +819,13 @@ monogatari.script({
     "Narration   Kyo snickers, tilting his head momentarily as if discreetly pointing somewhere.   ",
     "character_object_kyo  I bet you anything if you actually listen you'll find someone immediately. ",
     "Narration   Your eyes follow the direction of his nudge.  ",
-    "Scene reconverges here   Scene reconverges here ",
+    // "Scene reconverges here   Scene reconverges here ",
     "jump Chapter_1_after_choice_1",
   ],
   'Chapter_1_Choice_2_Try_proving_him_wrong': [
     "Narration   You glance around, searching for someone you can listen in on to make your point.  ",
     "Narration   Your ears pick up on some commotion, and your attention drifts.  ",
-    "Narration   		Scene reconverges here  ",
+    // "Narration   		Scene reconverges here  ",
     "jump Chapter_1_after_choice_1",
   ],
   'Chapter_1_after_choice_1': [
@@ -982,7 +996,7 @@ monogatari.script({
   ],
 
   'Chapter_1_Choice_2_ignore_the_whole_incident': [
-    "Choice 1 Ignore the whole incident  Chapter_1_0029200 Choice 1: Ignore the whole incident ",
+    // "Choice 1 Ignore the whole incident  Chapter_1_0029200 Choice 1: Ignore the whole incident ",
     "Player   I really don't think I should interfere...  ",
 
 
@@ -996,12 +1010,12 @@ monogatari.script({
     "Narration   Eh, surely it's nothing. There's no way this guy can do anything, anyways.  ",
     "Player   What is she, the 'chosen one' or something?  ",
     "Narration   You joke, rolling your eyes.  ",
-    "Scene reconverges here   Scene reconverges here ",
+    // "Scene reconverges here   Scene reconverges here ",
     "jump Chapter_1_after_choice_2",
   ],
   'Chapter_1_Choice_2_go_search_for_atria': [
     "character_object_atria  Choice 2: Go search for Atria ",
-    "Scene reconverges here   Scene reconverges here ",
+    // "Scene reconverges here   Scene reconverges here ",
     "jump Chapter_1_after_choice_2",
   ],
   'Chapter_1_after_choice_2': [
@@ -1440,7 +1454,9 @@ monogatari.script({
     'hide character character_object_atria',
 
 
-    "Black screen Black scree ",
+    // "Black screen Black scree ",
+    "show scene black_screen",
+
     "character_object_narration She continues speaking, slowly but surely becoming more confident as she speaks her mind, whatever small bits of information or passion that come to her ",
     "character_object_narration Some time passes, and not long later, she begins speaking like she had been waiting for this opportunity for years ",
     "character_object_atria Atrias club room C ",

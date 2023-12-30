@@ -30,7 +30,7 @@ monogatari.component ('main-screen').template (() => {
 	return `
 
 	
-<div style="position:relative; overflow:hidden; "> 
+<div style="position:relative; overflow:hidden;  margin: auto; " id = "zoom_to_fit"> 
 <div
 	style="width: 1920px; height: 1080px; position: relative; background: #2E72C1; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)";   >
 	<div style="width: 2158px; height: 1450px; left: -238px; top: -7px; position: absolute";>

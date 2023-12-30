@@ -85,6 +85,9 @@ button:hover {
  * ===========================
 **/
 
+[data-component="message-modal"] {
+	background-color: black;
+}
 /* Choice Buttons style */
 [data-component="choice-container"] button {
 
@@ -97,7 +100,7 @@ button:hover {
 
 /* Text Box styling */
 [data-component="text-box"] {
-
+	background-color: transparent;
 }
 
 /* Character Name Style */
@@ -112,7 +115,8 @@ button:hover {
 
 /* Character Images Styles */
 [data-screen="game"] [data-character] {
-
+	bottom: -60%;
+	max-height: 150%;
 }
 
 /* Other Images Styles */
@@ -130,7 +134,7 @@ button:hover {
 
 /* Quick Menu Style */
 [data-component="quick-menu"] {
-
+	display: none;
 }
 
 /* Quick Menu Buttons Style */

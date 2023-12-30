@@ -10,6 +10,14 @@ monogatari.action("message").messages({
 			<p><a href='https://monogatari.io/demo/'>Demo</a> - A simple Demo.</p>
 		`,
   },
+  Content_Warnings: {
+    title: "Content Warnings",
+    body: `
+      <p>The characters in this visual novel have gone through experiences that may be sensitive or triggering to others.</p>
+      <p>This includes: <b>toxic relationships, bullying, mentions of abuse, mentions of emotional manipulation, and references to suicide</b>.</p>
+      <p>These topics are not explicitly described, but are mentioned in the characters' backstories. If you are uncomfortable with these topics, then please proceed with caution and ensure that your own comfort and safety is prioritized.</p>
+    `,
+  }
 });
 
 // Define the notifications used in the game
@@ -42,11 +50,11 @@ monogatari.assets("music", {
   'SkyeMaster' : '/aefen/SkyeMaster.wav',
 
   'Atria_intro' :'/stickthefigure/Atria_intro.wav' ,
-  // 'Atria_loop' :'/stickthefigure/Atria_loop.wav' ,
+  'Atria_loop' :'/stickthefigure/Atria_loop.wav' ,
   'intro_intro' :'/stickthefigure/intro_intro.wav' ,
-  // 'intro_loop' :'/stickthefigure/intro_loop.wav' ,
-  'sad_intro' :'/stickthefigure/sad_intro.wav'
-  // 'sad_loop' :'music/stickthefigure/sad_loop.wav',
+  'intro_loop' :'/stickthefigure/intro_loop.wav' ,
+  'sad_intro' :'/stickthefigure/sad_intro.wav',
+  'sad_loop' :'music/stickthefigure/sad_loop.wav',
 
 
 });
@@ -122,6 +130,15 @@ monogatari.characters({
       atria2_timid: 'atria2_timid.png',
     }
   },
+  'character_object_???_atria': {
+    name: "???",
+    color: "#912756",
+    directory: 'Atria',
+    sprites: {
+      atria1_nervous: 'atria1_nervous.png',
+      atria2_happy: 'atria2_happy.png',
+    }
+  },
   'character_object_esmeray': {
     name: "Esmeray",
     color: "#274554",
@@ -143,7 +160,7 @@ monogatari.characters({
     sprites: {
       Kyo_BP_Default: 'Kyo_BP_Default.png',
       Kyo_FP_Bruh: 'FrontPose/Kyo_FP_Bruh.png',
-      Kyo_FP_Cheerful: 'FrontPose/Kyo_BP_Kyo_FP_Cheerful.png',
+      Kyo_FP_Cheerful: 'FrontPose/Kyo_FP_Cheerful.png',
       Kyo_FP_Default: 'FrontPose/Kyo_FP_Default.png',
       Kyo_FP_Sad: 'FrontPose/Kyo_FP_Sad.png',
       Kyo_FP_Shocked: 'FrontPose/Kyo_FP_Shocked.png',
@@ -151,6 +168,13 @@ monogatari.characters({
       Kyo_SP_Bruh: 'SidePose/Kyo_SP_Bruh.png',
       Kyo_SP_Default: 'SidePose/Kyo_SP_Default.png',
       Kyo_SP_Sad: 'SidePose/Kyo_SP_Sad.png',
+    }
+  },
+  'character_object_???_kyo': {
+    name: "???",
+    color: "#005766",
+    directory: 'Kyo',
+    sprites: {
     }
   },
   'character_object_skye': {
@@ -162,6 +186,27 @@ monogatari.characters({
       skye_sad: "skye_sad.png",
       skye_smile: "skye_smile.png",
       skye_smile2: "skye_smile2.png",
+    }
+  },
+  'character_object_???_skye': {
+    name: "???",
+    color: "#890F0F",
+    directory: 'Skye',
+    sprites: {
+    }
+  },
+  'character_object_closet_skye': {
+    name: "Girl in the Closet",
+    color: "#890F0F",
+    directory: 'Skye',
+    sprites: {
+    }
+  },
+  'character_object_no_closet_skye': {
+    name: "Girl No Longer in Closet",
+    color: "#890F0F",
+    directory: 'Skye',
+    sprites: {
     }
   },
   'character_object_player': {
@@ -205,6 +250,9 @@ monogatari.characters({
 monogatari.script({
   // The game starts here.
   'Start': [
+
+    // Content warnings
+    'show message Content_Warnings',
 
     // 'show scene Atria_CG',
     // 'test speical scene Atria_CG',
@@ -444,34 +492,73 @@ monogatari.script({
   ],
 
   'CHAPTER_0': [
-    'chap 0,',
-
-
-
-
+    
     // start-of-CHAPTER-0-mark
-    " Prologue: Waxing Iridescen ",
+    " Prologue: Waxing Iridescent ",
 
     // "School hallway day School hallway da ",
     "show scene school_hallway_daylight",
 
     // "Intro Music Intro Musi ",
-    'play music intro_intro  with loop',
+    'play music intro_loop  with loop',
 
+    {
+			'Input': {
+				'Text': 'What is your name?',
+				'Validation': function (input) {
+					if (input.trim().toUpperCase() == "KYO") {
+						alert("Sorry there can only be one Kyo, and it ain't you buddy");
+						return false;
+					}
+					return input.trim ().length > 0;
+				},
+				'Save': function (input) {
+					this.storage ({
+						player: {
+							name: input
+						}
+					});
+					return true;
+				},
+				'Revert': function () {
+					this.storage ({
+						player: {
+							name: ''
+						}
+					});
+				},
+				'Warning': 'You must enter a valid name!'
+			}
+		},
+    {'Function': {
+      'Apply': function () {
+        monogatari.characters({
+          'character_object_player': {
+            name: monogatari.storage('player').name,
+            color: "#2E72C1",
+          }
+        });
+        return true;
+      },
+
+      'Reverse': function () {
+        
+      }
+    }},
 
     "character_object_narration It\'s lunch break at school, but the atmosphere is livelier than usual. Oh right, it\'s Club Day today. You still can\'t decide which club you want to join this year. ",
-    "character_object_narration You stop walking the hallways to look at the board of various club posters. Oh man, you\'ve never joined one before, so the amount of options overwhelm you a little. You think of just joining multiple clubs at a time, but you quickly brush off that thought. Clubs are supposed to be a good break from the humdrum of academics. Don\'t get ahead of yourself ",
-    "character_object_narration There\'s an art club poster. That\'s a hard no. The most artistic you\'ve ever been was when you colored the sky a solid green and the ground magenta. Only because the other crayons were missing. And that was in a coloring book. Not fun at all ",
+    "character_object_narration You stop walking the hallways to look at the board of various club posters. Oh man, you\'ve never joined one before, so the amount of options overwhelm you a little. You think of just joining multiple clubs at a time, but you quickly brush off that thought. Clubs are supposed to be a good break from the humdrum of academics. Don\'t get ahead of yourself. ",
+    "character_object_narration There\'s an art club poster. That\'s a hard no. The most artistic you\'ve ever been was when you colored the sky a solid green and the ground magenta. Only because the other crayons were missing. And that was in a coloring book. Not fun at all. ",
     "character_object_narration There are also a few posters advertising different sports clubs. No thanks. P.E. class already tires you out daily. There\'s no way you have the endurance to do that kind of stuff in your precious free time. ",
-    "character_object_narration Oh god, there\'s also the paranormal activity club. No way. Nope. You don\'t take the supernatural as seriously as its club members do. You know this because earlier at brunch today, the club advertised by telling ghost stories that were, in their own words, \"real, not clickbait.\ ",
-    "character_object_narration One of them even said, \"In fact, there\'s a ghost in this school right now, giving bad luck to people who are about to do presentations!\" Nonsense. You\'re a junior and you are damn sure that there were no ghosts the entire time you attended school ",
+    "character_object_narration Oh god, there\'s also the paranormal activity club. No way. Nope. You don\'t take the supernatural as seriously as its club members do. You know this because earlier at brunch today, the club advertised by telling ghost stories that were, in their own words, \"real, not clickbait.\" ",
+    "character_object_narration One of them even said, \"In fact, there\'s a ghost in this school right now, giving bad luck to people who are about to do presentations!\" Nonsense. You\'re a junior and you are damn sure that there were no ghosts the entire time you attended school. ",
     "character_object_narration It would be fine if the club was interested in ghosts just for fun, but their fervent attitude says otherwise. You shudder at the thought of even talking to them. ",
-    "character_object_narration Ooh, a debate club poster. You don\'t consider yourself a chatterbox, but it\'s always fascinating to listen to other people\'s perspectives and find ways to decimate their arguments. It\'s basically a fun way to talk shit to others. Well, for the most part, save for some annoyingly serious people.. ",
-    "character_object_narration Damn, besides the debate club, it looks like you don\'t have many good options here ",
+    "character_object_narration Ooh, a debate club poster. You don\'t consider yourself a chatterbox, but it\'s always fascinating to listen to other people\'s perspectives and find ways to decimate their arguments. It\'s basically a fun way to talk shit to others. Well, for the most part, save for some annoyingly serious people... ",
+    "character_object_narration Damn, besides the debate club, it looks like you don\'t have many good options here. ",
     "character_object_narration Wait, what\'s with that poster over there? ",
     
     // "Radio club poster (wall poster). ",
-    'show image wallposter center with fadeIn',
+    'show image radio_club_poster center with fadeIn',
     // Allow toggle for zoom in to the RadioClub.png in Art folder. Radio club poster (wall poster). Allow toggle for zoom in to the RadioClub.png in Art folder ",
     
     
@@ -480,41 +567,41 @@ monogatari.script({
 
 
     // "Music_Room_Basic Music_Room_Basi ",
-    "show scene music_room_basic",
+    "show scene music_room_basic with fadeIn",
     
     // "character_object_kyo Kyo_BP_Defaul ",
     'show character character_object_kyo Kyo_BP_Default normal',
 
     // "Centered Centere ",
-    "character_object_narration There\'s only one student here. Yet, you can tell that you\'re in the right place. Her appearance is just as colorful as the poster, and the graffiti beside her only emphasizes that ",
+    "character_object_narration There\'s only one student here. Yet, you can tell that you\'re in the right place. Her appearance is just as colorful as the poster, and the graffiti beside her only emphasizes that. ",
     "character_object_narration The microphone on the other side of the room looks too high for her to reach. That\'s a bit weird. ",
-    "character_object_narration It looks like the girl\'s still on her phone. You decide to get her attention ",
+    "character_object_narration It looks like the girl\'s still on her phone. You decide to get her attention. ",
     "character_object_player Hi, I wanna join the radio club. ",
     "character_object_narration She puts her phone away and turns around. ",
 
 
     // 'show character character_object_kyo Kyo_FP_Shocked normal',
     'show character character_object_kyo Kyo_FP_Shocked normal',
-            "character_object_kyo AAAAAAAAAAAAAAAAAAAAH!!   ", // rule based 
+            "character_object_???_kyo AAAAAAAAAAAAAAAAAAAAH!!!   ", // rule based 
    
             "show character character_object_kyo Kyo_FP_Shocked normal", // rule based 
  
-                "character_object_narration The student\'s voice then drops a few octaves lower than you expect her to have ",
+                "character_object_narration The student\'s voice then drops a few octaves lower than you expect her to have. ",
     
     
     // 'show character character_object_kyo Kyo_FP_Bruh normal',
     'show character character_object_kyo Kyo_FP_Bruh normal',
-    "character_object_kyo You fucking scared the shit out of me! My god. ",
+    "character_object_???_kyo You fucking scared the shit out of me! My god. ",
 
     
-    "character_object_narration Well, you now know two things. One, this girl is actually a guy. Two, this dude\'s language is as colorful as his hair. What a bombastic impression you\'ve left on each other. It only goes uphill from here ",
-    "character_object_player Sorry, I just walked in. Is this the wrong room? I think I\'m in the wrong ro&mdash ",
+    "character_object_narration Well, you now know two things. One, this girl is actually a guy. Two, this dude\'s language is as colorful as his hair. What a bombastic impression you\'ve left on each other. It only goes uphill from here. ",
+    "character_object_player Sorry, I just walked in. Is this the wrong room? I think I\'m in the wrong ro&mdash; ",
 
     'show character character_object_kyo Kyo_FP_Default normal',
 
-    "character_object_kyo No no, wait. I made sure that the door had a sign on it. You\'re here for the radio club, right ",
+    "character_object_kyo No no, wait. I made sure that the door had a sign on it. You\'re here for the radio club, right? ",
     "character_object_player Yeah, that\'s kinda what I said before you started freaking out. ",
-    "character_object_kyo Okay, okay, my bad. I literally didn\'t hear you walk in. Anyways, hi, I\'m Kyo Kaneko. What\'s your name ",
+    "character_object_kyo Okay, okay, my bad. I literally didn\'t hear you walk in. Anyways, hi, I\'m Kyo Kaneko. What\'s your name? ",
 
       //Allows player to add custom name to the player character
 
@@ -523,17 +610,16 @@ monogatari.script({
 
 
 
-    // "character_object_player I\'m {{playerName}}. ",
-    // "character_object_player . Alright, here\'s how the club works. ",
-    "character_object_player . Alright, here\'s how the club works. ",
+    "character_object_player I\'m {{player.name}}. ",
+    "character_object_player {{player.name}}. Alright, here\'s how the club works. ",
     "character_object_player Wait, you\'re not gonna be writing anything on the board or something like that? ",
     "character_object_kyo Nah. It\'s not that complicated. ",
-    "character_object_narration Is that his way of saying that he\'s not prepared。 ",
+    "character_object_narration Is that his way of saying that he\'s not prepared? ",
     "character_object_kyo For now, this club mainly does school announcements, but I plan to make it so that we also do podcasting too. ",
     "character_object_narration You reach into your backpack. ",
     "character_object_narration Kyo looks at you in confusion. ",
     "character_object_player Oh don\'t mind me, I\'m just gonna eat my lunch. ",
-    "character_object_kyo Ooh, what are you having. ",
+    "character_object_kyo Ooh, what are you having? ",
     "character_object_player Butter croissants. ",
     "character_object_narration Kyo stares at your bread a little longer than you want him to. ",
     "character_object_kyo Can I have some? ",
@@ -554,26 +640,24 @@ monogatari.script({
   ],
   'Chapter_0_Choice_1_Sure_you_can_have_a_bit': [
     // "Choice 1 Sure, you can have a bit.  Chapter_0_0011400 Choice 1: Sure, you can have a bit. ",
-    " Choice 1: Sure, you can have a bit. ",
 
     
     // 'show character character_object_kyo Kyo_FP_Bruh normal',
     'show character character_object_kyo Kyo_FP_Bruh normal',
 
     "character_object_kyo  Actually, never mind. There are probably some RAAAAAAAANCID germs in there. I don't want any of that. I refuuuuuuuuuuse. ",
-    "Narration   The nerve of this guy...!  ",
+    "character_object_narration   The nerve of this guy...!  ",
     // "Scene reconverges here  Chapter_0_0012200 Scene reconverges here ",
     "jump Chapter_0_after_choice_1",
   ],
   'Chapter_0_Choice_2_No_this_is_mine_Get_your_own': [
     // "Choice 2 No, this is mine. Get your own.  Chapter_0_0012500 Choice 2: No, this is mine. Get your own. ",
-    "Choice 2: No, this is mine. Get your own. ",
 
     // "character_object_kyo Chapter_0_0012700 Kyo_FP_Bruh ",
     'show character character_object_kyo Kyo_FP_Bruh normal',
 
-    "Narration   Kyo whines and pouts. 0 ",
-    "Narration   What is up with this guy? Yet, you find his pouting face a little cute. Like a puntable cat.   ",
+    "character_object_narration   Kyo whines and pouts. ",
+    "character_object_narration   What is up with this guy? Yet, you find his pouting face a little cute. Like a puntable cat.   ",
     // "Scene Reconverges Here  Chapter_0_0013300 Scene Reconverges Here ",
     "jump Chapter_0_after_choice_1"
   ],
@@ -594,12 +678,12 @@ monogatari.script({
 
 
     'show character character_object_kyo Kyo_FP_Default normal',
-    "character_object_kyo Anyways, since this club requires confident people, I\'d say you\'re a pretty good candidate so far. Most people don\'t have the balls to approach me。 ",
-    "character_object_narration You look up and down at Kyo incredulously ",
-    "character_object_player Really? You\'re not even tall enough to reach the mic over there。 ",
-    "character_object_kyo Hey hey, shut up. Shut the fuck up。 ",
-    "character_object_narration Kyo looks up at the classroom clock。 ",
-    "character_object_kyo Lunch\'s almost over. So, whaddya say, you wanna join the club or not。 ",
+    "character_object_kyo Anyways, since this club requires confident people, I\'d say you\'re a pretty good candidate so far. Most people don\'t have the balls to approach me. ",
+    "character_object_narration You look up and down at Kyo incredulously. ",
+    "character_object_player Really? You\'re not even tall enough to reach the mic over there. ",
+    "character_object_kyo Hey hey, shut up. Shut the fuck up. ",
+    "character_object_narration Kyo looks up at the classroom clock. ",
+    "character_object_kyo Lunch\'s almost over. So, whaddya say, you wanna join the club or not? ",
 
     // start hardcoded dialog_code == 'CXhapter_0_0015300
     {
@@ -618,53 +702,53 @@ monogatari.script({
 
   'Chapter_0_Choice_2_Yes': [
     // "Choice 1 Yes.  Chapter_0_0015500 Choice 1: Yes. ",
-    "Choice 1: Yes. ",
     
     // "character_object_kyo Chapter_0_0015700 Kyo_FP_Cheerful ",
     'show character character_object_kyo Kyo_FP_Cheerful normal',
 
 
-    "Narration   Kyo claps his hands.   ",
+    "character_object_narration   Kyo claps his hands.   ",
     "character_object_kyo  Yeah, let's go! Finally, there's a second member. ",
-    "Player   Wait, nobody else is in this club yet?   ",
+    "character_object_player   Wait, nobody else is in this club yet?   ",
     "character_object_kyo  Oh shit, I forgot to tell you. Yeah, you're the only one who joined so far. But here's where you come in. ",
     "character_object_kyo  To officially register the club, I'm gonna need you to recruit 3 more people by the end of the month. You can do it, you're charismatic enough. ",
-    "Player   Hold on, I didn't agree to do free labor. Why don't you do it yourself' ",
-    "Narration   The lunch bell rings.   ",
+    "character_object_player   Hold on, I didn't agree to do free labor. Why don't you do it yourself&mdash; ",
+    "character_object_narration   The lunch bell rings.   ",
     "character_object_kyo  Too late, gotta go. ",
-    "Player   Hey, wait!   ",
-    "Narration   You catch a glimpse of Kyo grinning as he bolts past you and out the door. He sings as he escapes into the hallways, cracking his voice.  ",
-    "character_object_kyo  Running through the halls so fast, something something dash' ",
-    "Narration   And just like that, he makes a left and disappears. The nerve of this dude to leave you hanging like that. . .   ",
-    "Narration   You go in the opposite direction to your class. As you make your way there, you think about his request. It's a lot of work, but it's not like you have other plans or commitments this year. Eh, fuck it, you ball.  ",
+    "character_object_player   Hey, wait!   ",
+    "character_object_narration   You catch a glimpse of Kyo grinning as he bolts past you and out the door. He sings as he escapes into the hallways, cracking his voice.  ",
+    "character_object_kyo  Running through the halls so fast, something something dash&mdash; ",
+    "character_object_narration   And just like that, he makes a left and disappears. The nerve of this dude to leave you hanging like that...   ",
+    "character_object_narration   You go in the opposite direction to your class. As you make your way there, you think about his request. It's a lot of work, but it's not like you have other plans or commitments this year.  ",
+    "character_object_narration   Eh, fuck it, you ball.  ",
 
+    'stop music intro_loop',
     // "Fade to black   Fade to black ",
-    "show scene black_screen",
+    "show scene black_screen with fadeOut duration 10s",
 
 
     // "Proceed to Chapter 1   Proceed to Chapter 1 ",
 
-    // "jump CHAPTER_1",
-    "jump END",
+    "jump CHAPTER_1",
+    //"jump END",
 
 
 
   ],
   'Chapter_0_Choice_2_No': [
     // "Choice 2 No.  Chapter_0_0020100 Choice 2: No. ",
-    " Choice 2: No. ",
 
     'show character character_object_kyo Kyo_FP_Sad normal',
     "character_object_kyo  Oh, why not?  ",
 
 
 
-    "Player   Oh, don't take this the wrong way. It's just that I wanna consider my other options.   ",
+    "character_object_player   Oh, don't take this the wrong way. It's just that I wanna consider my other options.   ",
     "character_object_kyo  Like what? ",
-    "Player   Hm? Isn't it normal to do that?   ",
+    "character_object_player   Hm? Isn't it normal to do that?   ",
     "character_object_kyo  What other clubs were you thinking of joining? Because this club can do better than all of them. ",
-    "Narration   Where did this sudden pushiness and big ego come from?   ",
-    "Player   I was thinking of joining the debate club'  ",
+    "character_object_narration   Where did this sudden pushiness and big ego come from?   ",
+    "character_object_player   I was thinking of joining the debate club&mdash;  ",
 
 
     'show character character_object_kyo Kyo_FP_Bruh normal',
@@ -673,26 +757,23 @@ monogatari.script({
    
    
    
-    "Player   Okay, but I have to ask. You're cool and all, but are you the only club member?   ",
-    "character_object_kyo  Yes, but I'm gonna get more soon' ",
-    "Player   Look, I'll go check out other clubs later this week. If I don't like any of them, I'll come back here. Okay?  ",
-    "Narration   The lunch bell rings.  ",
-
+    "character_object_player   Okay, but I have to ask. You're cool and all, but are you the only club member?   ",
+    "character_object_kyo  Yes, but I'm gonna get more soon&mdash; ",
+    "character_object_player   Look, I'll go check out other clubs later this week. If I don't like any of them, I'll come back here. Okay?  ",
+    "character_object_narration   The lunch bell rings.  ",
+    "character_object_player   Don't wanna be late to class. See ya.  ",
 
     'show character character_object_kyo Kyo_SP_Sad normal',
-    "Player   Don't wanna be late to class. See ya.  ",
 
 
-
-
-    "Narration   You feel a little guilty seeing his dejected expression as you leave the classroom. But it's too late now; you stick to your decision and go to your next class.  ",
+    "character_object_narration   You feel a little guilty seeing his dejected expression as you leave the classroom. But it's too late now; you stick to your decision and go to your next class.  ",
 
 
     // "Empty black screen.  Chapter_0_0024700 Empty black screen. ",
-    "show scene black_screen",
+    "show scene black_screen with fadeIn",
 
 
-    "Narration   The next day, you try to find Kyo in the radio club room. But the room is empty. You try asking people about Kyo's whereabouts, but people don't even know who he is. What the hell. That's weird. Eh, whatever. Life continues to be lonely as usual.   ",
+    "character_object_narration   The next day, you try to find Kyo in the radio club room. But the room is empty. You try asking people about Kyo's whereabouts, but people don't even know who he is. What the hell. That's weird. Eh, whatever. Life continues to be lonely as usual.   ",
     // "Game end - joke ending. Restart from beginning of game  Chapter_0_0025200 Game end - joke ending. Restart from beginning of game ",
     "jump END",
     // Chapter_0_0015500 removed - covered in choice block above 
@@ -733,8 +814,6 @@ monogatari.script({
     // Chapter_0_0025200 removed - covered in choice block above 
     // end-of-CHAPTER-0-mark
 
-    'stop music intro_intro',
-
     // 'jump CHAPTER_1',
   ],
 
@@ -764,7 +843,7 @@ monogatari.script({
 
 
 
-    "character_object_player WHAT TH&mdash ",
+    "character_object_player WHAT TH&mdash; ",
     "character_object_kyo Have you found any recruits yet ",
     "character_object_player ...Warn me next time before sneaking up on me, will you? ",
 
@@ -870,27 +949,27 @@ monogatari.script({
 
 
     "character_object_narration At that moment, you see a group of girls across the courtyard. They all seem rather silent&mdash;bored, even&mdash; but one of them in particular stands out to you ",
-    "??? Anyways! About the person I was talking about earlier, the one that I frequently watch. They did this one stream recently, it was a collaboration with some of my favorite streamers! When I saw the waiting room for it, I got really excited ",
-    "??? I sent it to you guys a while back, though I\'m not sure if you saw it? Neither of you responded... Do you think there\'s a possibility we could watch it together sometime ",
+    "character_object_???_atria Anyways! About the person I was talking about earlier, the one that I frequently watch. They did this one stream recently, it was a collaboration with some of my favorite streamers! When I saw the waiting room for it, I got really excited ",
+    "charater_object_???_atria I sent it to you guys a while back, though I\'m not sure if you saw it? Neither of you responded... Do you think there\'s a possibility we could watch it together sometime ",
     "character_object_narration The two other girls look at each other before faking a smile towards her direction ",
     "character_object_girl_a ...You\'re ranting about these streamers every two seconds, you expect us to know which one you are talking about ",
     
     
 
     'show character character_object_atria atria1_nervous normal',
-    "character_object_atria Oh&mdash; ...Yeah. Sorry. I guess sometimes I just say stuff without really thinking ",
+    "character_object_???_atria Oh&mdash; ...Yeah. Sorry. I guess sometimes I just say stuff without really thinking ",
 
 
     'show character character_object_atria atria2_happy normal',
-    "character_object_atria The one with... let\'s see, I\'m trying to think of a way to describe this to someone who doesn\'t watch them. They have... blue hair. It\'s short, around shoulder length. Does that ring a bell ",
+    "character_object_???_atria The one with... let\'s see, I\'m trying to think of a way to describe this to someone who doesn\'t watch them. They have... blue hair. It\'s short, around shoulder length. Does that ring a bell ",
     
     
     
     "character_object_narration Wait.. ",
     "character_object_narration Short... blue hair...? That\'s.. ",
     "character_object_narration Kind of silly ",
-    "??? I understand if you guys don\'t remember! I know I can speak a bit quickly at times ",
-    "??? Oh! Yeah, the one I was talking about yesterday! Surely you remember th&mdash ",
+    "character_object_???_atria I understand if you guys don\'t remember! I know I can speak a bit quickly at times ",
+    "character_object_???_atria Oh! Yeah, the one I was talking about yesterday! Surely you remember th&mdash; ",
     "character_object_girl_a Hello? Earth to Atria? Atria Aiyashi ",
     "character_object_girl_a You know, the Atria that thinks before she goes on meaningless tangents? We\'re tired of you constantly bothering us about stuff we aren\'t interested in ",
     
@@ -992,9 +1071,9 @@ monogatari.script({
     "character_object_kyo I told you if you actually took the time to tune into a conversation, it wouldn\'t be so hard to find someone ",
     "character_object_player What, do you want me to go get her and ask her to join a radio club after that ",
     "character_object_narration His eyes flicker, looking at the school door where Atria had run off to, then back at you ",
-    "character_object_narration Back... and forth... and back... and&mdash ",
+    "character_object_narration Back... and forth... and back... and&mdash; ",
     "character_object_kyo So... are you gonna just sit there? Seriously ",
-    "character_object_player Wh&mdash ",
+    "character_object_player Wh&mdash; ",
     "character_object_kyo Are you even gonna do something? Or nah ",
     "character_object_narration Kyo looks at you, like he wants you to go run after her. It\'s... oddly ominous. Like he just wants an excuse to make you speak with Atria. ...Does he know her or something? Is that what this was all about? ",
 
@@ -1346,8 +1425,8 @@ monogatari.script({
 
 
 
-    "character_object_player K&mdash ",
-    "character_object_player Holy BONKERS will you stop doing that&mdash ",
+    "character_object_player K&mdash; ",
+    "character_object_player Holy BONKERS will you stop doing that&mdash; ",
     "character_object_kyo Oh, come on. I\'m not that scary ",
     "character_object_kyo Anyways, will you stop forgetting why you even talked to her in the first place? ",
     "character_object_narration Oh, right. The radio club ",
@@ -1487,7 +1566,7 @@ monogatari.script({
     "character_object_kyo ...Damn she\'s traumatized ",
     "character_object_narration You try to nudge Kyo, as this was most definitely *not* the time, but he ducks away ",
     "character_object_player Of course it\'s alright. So, what do you say? Why don\'t you try making some friends by helping start up a club ",
-    "character_object_atria ...I&mdash ",
+    "character_object_atria ...I&mdash; ",
     "character_object_narration Atria ponders this suggestion, taking a while to push away any troubles with her \'friends\' ",
     "character_object_narration She shakes her head, clearing her mind before nodding with a newfound assurance ",
     "character_object_atria I think I\'d like that ",
@@ -1520,7 +1599,7 @@ monogatari.script({
     "character_object_kyo Yawn.. ",
 
 
-    "character_object_narration You and Kyo sleepily make your way down through the quiet school corridor to the radio club room. Neither of you were fit to stand, let alone walk, but&mdash ",
+    "character_object_narration You and Kyo sleepily make your way down through the quiet school corridor to the radio club room. Neither of you were fit to stand, let alone walk, but&mdash; ",
     "character_object_player Why are we here this early again? School hasn\'t even started yet.. ",
     "character_object_kyo I\'m not happy about this either, but someone needs to prep the club equipment. S\'not like we got a tonna members to figure this shit out yet ",
     "character_object_player We\'d have more members if you actually helped with recruitment y\'know ",
@@ -1536,7 +1615,7 @@ monogatari.script({
 
 
 
-    "??? &mdash;so with some struggle, you are able to ingest the Baia Bamare figure that is now inside your stomach&mdash ",
+    "character_object_???_skye &mdash;so with some struggle, you are able to ingest the Baia Bamare figure that is now inside your stomach&mdash; ",
 
 
 
@@ -1545,7 +1624,7 @@ monogatari.script({
 
 
     "character_object_narration A muffled but excited voice catches your attention, stopping you in your tracks. The odd words are inescapable even to your drowsy heads ",
-    "??? &mdash;Arkillia goes ahead and grabs the letter opener and puts it in their pocket.. ",
+    "character_object_???_skye &mdash;Arkillia goes ahead and grabs the letter opener and puts it in their pocket.. ",
     "character_object_player .. ",
     "character_object_narration The voice continues to excitedly narrate, small mutters and giggles leaking from a small janitor\'s closet stuffed away in the corner of the school corridor. ",
     "character_object_narration Both you and Kyo look at each other baffled ",
@@ -1556,11 +1635,11 @@ monogatari.script({
     'hide character character_object_kyo',
 
 
-    "??? &mdash;You hear the doorknob turning. As the door swings open, Eliza reenters. Alright! Let\'s wrap things up here! She pops into her chair, reorganising her papers, unaware that you\'ve been searching through them&mdash ",
+    "character_object_???_skye &mdash;You hear the doorknob turning. As the door swings open, Eliza reenters. Alright! Let\'s wrap things up here! She pops into her chair, reorganising her papers, unaware that you\'ve been searching through them&mdash; ",
     "character_object_narration You approach the door, giving it a tentative knock that abruptly silences the voice ",
     "character_object_player .. ",
     "character_object_narration You bring your hand forward to knock again when the door slowly creaks open ",
-    "Girl in the Closet C-Can I help you ",
+    "character_object_closet_skye C-Can I help you ",
 
 
 
@@ -1572,16 +1651,16 @@ monogatari.script({
     "character_object_narration A slight flush climbs her face at her stumble, but she stubbornly continues to try and fake disinterest. She\'s failing miserably, but you could say she was attempting it with an almost admirable persistence ",
     "character_object_player Uhhh... I heard you talking, and... was wondering what you were doing in the closet... ",
     "character_object_narration The flush on the girl\'s face only grew, her flusteredness leaking into her words, making her ramble slightly ",
-    "Girl in the Closet Well if you must know, I was conducting a very important meeting with my friends. The closet just happens to be a very convenient place for us to do so without any disturbance or without inadvertently disturbing anyone else ",
+    "character_object_closet_skye Well if you must know, I was conducting a very important meeting with my friends. The closet just happens to be a very convenient place for us to do so without any disturbance or without inadvertently disturbing anyone else ",
     "character_object_narration She pushes the closet door open further, stepping out into the hallway. She dusts her skirt off primly, not at all subtly looking away in embarrassment. The closet, left open as it was, shows no one else inside. ",
     "character_object_narration You look back at Kyo in confusion, receiving an equally confused look from the blue haired boy. ",
     "character_object_narration You turn back to the girl who in turn looks at you strangely, darting her eyes towards Kyo questioningly ",
     "character_object_narration You shrug off the girl\'s still strange choice of meeting location and lack of other people to have a meeting with. Not that you could really judge people on their social choices. After all, most would probably call you crazy for befriending Kyo.. ",
     "character_object_player I heard you narrating? I think? You speak really well ",
     "character_object_narration A surprised expression flickers through her face before her attempt at a cool expression slides back into place. Her expressiveness, still not hiding her feelings, allows a small bit of smug pride to shine through ",
-    "Girl no longer in Closet Of course! I love playing as my party\'s Game Master, and I work hard to make every game enjoyable ",
+    "character_object_no_closet_skye Of course! I love playing as my party\'s Game Master, and I work hard to make every game enjoyable ",
     "character_object_narration A shy expression flickers on her face before she extends her hand towards you in a handshake ",
-    "Girl no Longer in Closet My name\'s Skye, Skye Oriana, what\'s your name ",
+    "character_object_no_closet_skye My name\'s Skye, Skye Oriana, what\'s your name ",
     "character_object_player I\'m Player. Nice to meet you. ",
     "character_object_narration You take her hand with a smile, receiving a small smile back ",
     "character_object_narration Kyo coughs behind you, reminding you that you were in school this early for a reason. At this rate, class would start before you could finish your duties for the radio club ",
@@ -1683,7 +1762,7 @@ monogatari.script({
 
 
     "character_object_narration You and Kyo look at her bewilderedly as silence meets Skye\'s question, but Skye only continues talking to the air, nodding and humming, responding as if someone was talking back to her ",
-    "character_object_skye &mdash;you\'re right, I\'m not in any other clubs right now but what about our campaigns? We usually conduct them right after school, we&mdash ",
+    "character_object_skye &mdash;you\'re right, I\'m not in any other clubs right now but what about our campaigns? We usually conduct them right after school, we&mdash; ",
     "character_object_player .. ",
     "character_object_narration Skye continues talking to nothing. You\'re starting to get concerned that staying in the chemical and dust filled janitor\'s closet is having a more detrimental effect on her than one would expect ",
     "character_object_player Uhhh... Skye ",
@@ -1787,7 +1866,7 @@ monogatari.script({
     "character_object_narration Skye\'s exasperated answer seems to only spur them on, with another member stepping up to batter at her unwavering stance ",
     "character_object_student_b Who else would\'ve done it? You\'ve always been attention seeking. Just the other day you were talking to thin air again! God, you\'re annoying on a good day but now you\'re actually destroying public property? Can you get any worse ",
     "character_object_narration Skye scoffs at their accusations, squinting at her classmates incredulously ",
-    "character_object_skye No one knows who did it. The classroom doors are locked every night and they\'re only opened in the mornings, minutes before class starts. I wasn\'t even the first person to arrive today. Your accusations have no merit and exactly zero people have come to tell me their thoughts of otherwise besides you three. This is the third time you\'ve accused me of shit I didn\'t do and it\'s honestly getting out of hand. You&mdash ",
+    "character_object_skye No one knows who did it. The classroom doors are locked every night and they\'re only opened in the mornings, minutes before class starts. I wasn\'t even the first person to arrive today. Your accusations have no merit and exactly zero people have come to tell me their thoughts of otherwise besides you three. This is the third time you\'ve accused me of shit I didn\'t do and it\'s honestly getting out of hand. You&mdash; ",
     "character_object_student_c Oh my god, can you just stop talking? No one wants to hear you yap all day! It\'s enough that you run your mouth in class all the time ",
     "character_object_narration Rolling her eyes, Skye seems done with the whole interaction. She waves the person off, already moving to leave ",
     "character_object_skye I\'m sorry that you\'re incapable of understanding anything higher than the most basic levels of communication, let me clear it up for you. I don\'t have time for your bs, get the fuck out of my way ",
@@ -1853,7 +1932,7 @@ monogatari.script({
     "character_object_player Hey, that\'s enough ",
     "character_object_narration You quickly make your way to the group. With them having parted in surprise at your exclamation, it\'s easy for you to take Skye by the hand, pulling her out of the circle that they surrounded her with ",
     "character_object_player I don\'t know who you three are, but ganging up on someone is seriously low. From the little I\'ve heard, you don\'t even have a leg to stand on. Accusing somebody for something you have no proof of is ridiculous and mocking someone for participating in class is pathetic ",
-    "character_object_student_c Who&mdash ",
+    "character_object_student_c Who&mdash; ",
     "character_object_narration You interrupt whatever response they were about to make, not really willing to hear what these assholes have to say ",
     "character_object_player You three should really take up some self awareness, seems like it\'s in short fucking supply around here ",
     "character_object_narration You quickly remove yourself from the situation while tugging a quiet Skye along behind you, moving to try and find a quiet place to give her some privacy ",
@@ -1866,10 +1945,10 @@ monogatari.script({
     "character_object_skye No no, it\'s fine, they\'re not&mdash; they don\'t even bother me usually ",
     "character_object_narration A heavy silence settles between the two of you. You\'re not really sure what to say; you don\'t think you really know Skye well enough to comfort her ",
     "character_object_narration Skye suddenly starts talking again, finally looking at you directly ",
-    "character_object_skye People like the discussions that I bring up in class. They say that my insight helps them learn more about the subject we\'re learning about while simultaneously allowing them to not have to be called on unexpectedly when they\'re not willing to. I&mdash ",
+    "character_object_skye People like the discussions that I bring up in class. They say that my insight helps them learn more about the subject we\'re learning about while simultaneously allowing them to not have to be called on unexpectedly when they\'re not willing to. I&mdash; ",
     "character_object_narration Skye cuts herself off before she finishes her sudden explanation, frustration leaking into her voice. A shuddering breath leaves her before she closes her mouth, pursing her lips ",
     "character_object_skye I&mdash; never mind, sorry for interrupting your break, I should really be getting back to class. ",
-    "character_object_player Skye&mdash ",
+    "character_object_player Skye&mdash; ",
 
 
 
@@ -1970,8 +2049,8 @@ monogatari.script({
     "character_object_narration You sigh in exasperation, finally standing up to go and find Skye, wherever it is she could be. ",
     "character_object_narration You make your way to the door, opening it before noticing something in the corner of your eye ",
     "character_object_narration You snap your head in surprise, chasing the glimpse of bright neon shapes before it disappears behind the blink of your eyelids ",
-    "character_object_narration You stare at where you thought you saw... whatever it was you thought you saw, furrowing your brows at the wall. You could\'ve sworn&mdash ",
-    "??? Player ",
+    "character_object_narration You stare at where you thought you saw... whatever it was you thought you saw, furrowing your brows at the wall. You could\'ve sworn&mdash; ",
+    "character_object_???_skye Player ",
     "character_object_narration A voice calls out to you from the hallway right outside the door you just opened, snapping you out of your thoughts ",
    
    
@@ -2862,7 +2941,7 @@ monogatari.script({
     "character_object_player .. ",
     "character_object_esmeray .. ",
     "character_object_esmeray Player: ",
-    "character_object_esmeray So&mdash ",
+    "character_object_esmeray So&mdash; ",
     "character_object_esmeray Esmeray: ",
     "character_object_esmeray Why me ",
     "character_object_narration You pause as Esmeray looks at you with a blank face ",
@@ -2894,7 +2973,7 @@ monogatari.script({
    
    
     'show character character_object_esmeray Esmeray_amused normal',
-    "character_object_esmeray 	Pfft&mdash ",
+    "character_object_esmeray 	Pfft&mdash; ",
 
 
 
@@ -3053,7 +3132,7 @@ monogatari.script({
 
 
     'show character character_object_esmeray Esmeray_smile normal',
-    "character_object_esmeray 	...W-wait, Esme? I did NOT agree to this, what the f&mdash ",
+    "character_object_esmeray 	...W-wait, Esme? I did NOT agree to this, what the f&mdash; ",
 
 
     'show character character_object_esmeray Esmeray_teeth_smile normal',
@@ -3223,7 +3302,7 @@ monogatari.script({
 
 
     "character_object_kyo Lmao, you said that, Player? You\'re a weirdo too, hahaha ",
-    "character_object_player What? I-I didn\'t say that, I think?? I&mdash ",
+    "character_object_player What? I-I didn\'t say that, I think?? I&mdash; ",
    
    
    
@@ -3353,7 +3432,7 @@ monogatari.script({
    
    
     "character_object_skye And so am I ",
-    "character_object_player Now, where the heck is Esme&mdash ",
+    "character_object_player Now, where the heck is Esme&mdash; ",
 
 
 
@@ -3436,7 +3515,7 @@ monogatari.script({
    
    
     'show character character_object_esmeray Esmeray_amused normal',
-    "character_object_esmeray Wait, we\'re actually doing this? Hold on a minute&mdash ",
+    "character_object_esmeray Wait, we\'re actually doing this? Hold on a minute&mdash; ",
 
 
 
@@ -3530,7 +3609,7 @@ monogatari.script({
     "character_object_narration You remember the confused faces of the club members from last week ",
     "character_object_player Kyo, you\'re... real, right ",
     "character_object_narration Kyo busts out a quick laugh ",
-    "character_object_kyo Nah you\'re just imagining me in your head. Wake up. It\'s been years since the accident&mdash ",
+    "character_object_kyo Nah you\'re just imagining me in your head. Wake up. It\'s been years since the accident&mdash; ",
     "character_object_player Kyo, I\'m serious. None of the club members see or hear you except me. They don\'t even know who you are. Why? Are you a ghost? Who and what even are you ",
     "character_object_narration Kyo lets out a deep sigh ",
     "character_object_kyo I don\'t actually go here. I used to, but it was a long time ago ",

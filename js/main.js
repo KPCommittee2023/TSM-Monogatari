@@ -48,7 +48,7 @@ monogatari.component ('main-screen').template (() => {
 		</div>
 	</div>
 	<img style="width: 1920px; height: 1080px; left: -1px; top: 0px; position: absolute; opacity: 0.50; mix-blend-mode: luminosity"
-		src="https://via.placeholder.com/1920x1080" />
+		src="./assets/scenes/Backgrounds/Final/School_Hallway/school_hallway_daylight.png" />
 	<div
 		style="width: 423.46px; height: 838.14px; left: 182.78px; top: 253px; position: absolute; transform: rotate(45.79deg); transform-origin: 0 0; background: linear-gradient(180deg, white 0%, #A5DFF4 44%); box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 5px white solid">
 	</div>
@@ -167,12 +167,12 @@ monogatari.component('text-box').template(() => {
 
   <div style="width: 100%; height: 100%; position: relative; left: 10%;" data-content="name">
 	<div style="width: 384px; height: 78.7px; left: 0px; top: 0px; position: absolute">
-	  <div style="width: 47.73px; height: 49.5px; left: 47.33px; top: 0px; position: absolute; transform: rotate(45.79deg); transform-origin: 0 0; background: #2e72c1; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid"></div>
-	  <div style="width: 19.4px; height: 20.12px; left: 14.42px; top: 20.7px; position: absolute; transform: rotate(45.79deg); transform-origin: 0 0; background: #498fcd; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid"></div>
-	  <div style="width: 343px; height: 75px; left: 41px; top: 3.7px; position: absolute">
-		<div style="width: 333.04px; height: 62.17px; left: 9.96px; top: 12.83px; position: absolute; background: #76bde0; box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25); border-radius: 30px"></div>
-		<div style="width: 333.82px; height: 62.59px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 31.3px; border: 4px #478dcc solid">
-			<div style="width: 100%; height: 100%; position: absolute; color: #2e72c1; font-size: 32px; font-family: Nunito; font-weight: 800; word-wrap: break-word; text-align: center;">
+	  <div class="big-bullet-point"></div>
+	  <div class="small-bullet-point"></div>
+	  <div class="name-box-total" style="width: 343px; height: 75px; top: 3.7px; position: absolute">
+		<div class="name-box-shadow" ></div>
+		<div class="name-box" >
+			<div style="width: 100%; height: 100%; position: absolute; color: #2e72c1; font-family: Nunito; font-weight: 800; word-wrap: break-word; text-align: center;">
 		
 			<span data-ui="who" data-content="character-name"></span>
 			
@@ -193,9 +193,9 @@ monogatari.component('text-box').template(() => {
 
 
 
-<div style="width: 100%; height: 100%; position: relative; margin-top: 80px; margin-bottom: 20px; padding-top: 12px;"    data-content="text">
-  <div style="  position: relative; display: flex; justify-content: center; margin: 0px auto;  padding-top: calc(8px + 1vw); padding-left: 100px;  padding-right: 100px; padding-bottom: calc(8px + 1vw); 
-   width: 80%; height: 22vh; opacity: 0.9; border-radius: 10px;
+<div class="dialog-box" style="width: 100%; height: 100%; position: relative; margin-bottom: 20px; padding-top: 12px;"    data-content="text">
+  <div style="  position: relative; display: flex; justify-content: center; margin: 0px auto;  padding-top: calc(5px + 1vw); padding-left: 3%;  padding-right: 3%; padding-bottom: calc(5px + 1vw); 
+   width: 80%; height: 20vh; opacity: 0.9; border-radius: 10px;
    background: linear-gradient(0deg, #10588a 0%, #2d6cb5 79%, #22a2ff 100%); 
    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0 0 0 2px #2E72C1, 0 0 0 5px white, 0 0 0 2px #2E72C1">
 	
@@ -205,47 +205,47 @@ monogatari.component('text-box').template(() => {
 		overflow: scroll;"></p>
 		
 	
-	<div style="display: inline-block; bottom: 6.5%; position: fixed; text-align: center; width: 80%" >
-		<span  data-action="auto-play"  
+	<div style="display: inline-block; bottom: 5%; position: fixed; text-align: center; width: 80%" >
+		<span  data-action="auto-play"  class="quick-menu-button"
 			style="width: 65px; height: 6px; 
 			
 			margin: 15px;
-			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Auto</span>
-		<span  data-action="open-screen" data-open="save" 
+			top: 11%; position: relative; text-align: center; color: white; font-family: Nunito; font-weight: 700; word-wrap: break-word">Auto</span>
+		<span  data-action="open-screen" data-open="save"  class="quick-menu-button"
 			style="width: 65px; height: 6px; 
 			
 			margin: 15px;
-			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Save</span>
-		<span  data-action="open-screen" data-open="load"  
+			top: 11%; position: relative; text-align: center; color: white; font-family: Nunito; font-weight: 700; word-wrap: break-word">Save</span>
+		<span  data-action="open-screen" data-open="load"  class="quick-menu-button"
 			style="width: 59px; height: 9px; 
 			
 			margin: 15px;
-			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Load</span>
-		<span  data-action="back"  
+			top: 11%; position: relative; text-align: center; color: white; font-family: Nunito; font-weight: 700; word-wrap: break-word">Load</span>
+		<span  data-action="back"  class="quick-menu-button"
 			style="width: 65px; height: 18px; 
 			
 			margin: 15px;
-			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Back</span>
-		<span  data-action="end"  
+			top: 11%; position: relative; text-align: center; color: white; font-family: Nunito; font-weight: 700; word-wrap: break-word">Back</span>
+		<span  data-action="end"  class="quick-menu-button"
 			style="width: 55px; height: 29px; 
 			
 			margin: 15px;
-			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Quit</span>
-		<span  data-action="dialog-log"          
+			top: 11%; position: relative; text-align: center; color: white; font-family: Nunito; font-weight: 700; word-wrap: break-word">Quit</span>
+		<span  data-action="dialog-log"  class="quick-menu-button"        
 			style="width: 45px; height: 12px; 
 			
 			margin: 15px;
-			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Log</span>
-		<span  data-action="distraction-free" 
+			top: 11%; position: relative; text-align: center; color: white; font-family: Nunito; font-weight: 700; word-wrap: break-word">Log</span>
+		<span  data-action="distraction-free" class="quick-menu-button"
 			style="width: 45px; height: 12px; 
 			
 			margin: 15px;
-			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Hide</span>
-		<span  data-action="open-screen" data-open="settings" 
+			top: 11%; position: relative; text-align: center; color: white; font-family: Nunito; font-weight: 700; word-wrap: break-word">Hide</span>
+		<span  data-action="open-screen" data-open="settings" class="quick-menu-button"
 			style="width: 87px; height: 11px; 
 			
 			margin: 15px;
-			top: 11%; position: relative; text-align: center; color: white; font-size: 20px; font-family: Nunito; font-weight: 700; word-wrap: break-word">Settings</span>
+			top: 11%; position: relative; text-align: center; color: white; font-family: Nunito; font-weight: 700; word-wrap: break-word">Settings</span>
 			
 	</div>
   </div>

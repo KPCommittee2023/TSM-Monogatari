@@ -93,14 +93,47 @@ button:hover {
 	overflow: hidden;
 }
 
+[data-component="choice-container"] {
+	width: 100%;
+	top: 45%;
+}
+
 /* Choice Buttons style */
 [data-component="choice-container"] button {
+	margin: 0.5em;
+	position: relative;
+	padding: 0;
+	color: #2e72c1;
+	text-align: center;
+	text-shadow: 0px 2px 3px rgba(0,0,0,0.25), 1px 1px 0 white, -1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white;
+	font-family: 'Nunito';
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 0.18px;
+	border: 3px solid #2E72C1;
+	background: white;
+	/* box-shadow: 25.41px 12.21px #2E72C1, 25.41px 12.21px 0px 2px white; */
+}
 
+[data-component="choice-container"] button:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	background: #2E72C1;
+	border: 3px solid white;
+	box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
 }
 
 /* Choice Button Style on Hover */
 [data-component="choice-container"] button:hover {
+	color: #E8A0D4;
+	border: 3px solid #FD84DC;
+	background: #EFF4FF;
+}
 
+[data-component="choice-container"] button:hover:before {
+	background: linear-gradient(275deg, #7FD6FA 12.42%, #FE82DB 78.53%);
+	border: none;
 }
 
 /* Text Box styling */
@@ -108,6 +141,7 @@ button:hover {
 	background-color: transparent;
 	min-height: 30%;
 	max-height: 35%;
+	bottom: 1.5rem;
 }
 
 /* Character Name Style */
@@ -217,14 +251,172 @@ input[type=range]::-ms-fill-upper {
 /** Medium Devices, Tablets (992px)**/
 @media screen and (min-width: 62em) {
 	[data-ui="say"] {
+		font-size: 20px;
+	}
+
+	[data-ui="who"] {
 		font-size: 24px;
+	}
+
+	[data-component="choice-container"] button {
+		height: 56px;
+		width: 610px;
+		font-size: 26px;
+		border-radius: 20px;
+	}
+
+	[data-component="choice-container"] button:before {
+		height: 56px;
+		width: 610px;
+		font-size: 26px;
+		inset: 6px 14px;
+		border-radius: 20px;
+	}
+
+	.dialog-box {
+		margin-top: 70px;
+	}
+
+	.big-bullet-point {
+		width: 35px; 
+		height: 35px; 
+		left: 35px; 
+		top: 5px; 
+		position: absolute; 
+		transform: rotate(45.79deg); 
+		transform-origin: 0 0; 
+		background: #2e72c1; 
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); 
+		border: 3px white solid;
+	}
+
+	.small-bullet-point {
+		width: 12px; 
+		height: 12px; 
+		left: 12px; 
+		top: 19.7px; 
+		position: absolute; 
+		transform: rotate(45.79deg); 
+		transform-origin: 0 0; 
+		background: #498fcd; 
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); 
+		border: 3px white solid;
+	}
+
+	.name-box-shadow {
+		width: 245px; 
+		height: 50px; 
+		left: 8px; 
+		top: 15px; 
+		position: absolute; 
+		background: #76bde0; 
+		box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25); 
+		border-radius: 30px;
+	}
+
+	.name-box {
+		width: 245px; 
+		height: 50px; 
+		left: 0px; 
+		top: 5px; 
+		position: absolute; 
+		background: white; 
+		border-radius: 31.3px; 
+		border: 4px #478dcc solid;
+	}
+
+	.name-box-total {
+		left: 30px;
+	}
+
+	.quick-menu-button {
+		font-size: 18px;
 	}
 }
 
 /** HD Screen, Large Devices, Wide Screens, Desktop (1200px) **/
 @media screen and (min-width: 75em) {
 	[data-ui="say"] {
+		font-size: 20px;
+	}
+
+	[data-ui="who"] {
 		font-size: 24px;
+	}
+
+	[data-component="choice-container"] button {
+		height: 56px;
+		width: 610px;
+		font-size: 26px;
+		border-radius: 20px;
+	}
+
+	[data-component="choice-container"] button:before {
+		height: 56px;
+		width: 610px;
+		font-size: 26px;
+		inset: 6px 14px;
+		border-radius: 20px;
+	}
+
+	.dialog-box {
+		margin-top: 70px;
+	}
+
+	.big-bullet-point {
+		width: 35px; 
+		height: 35px; 
+		left: 35px; 
+		top: 5px; 
+		position: absolute; 
+		transform: rotate(45.79deg); 
+		transform-origin: 0 0; 
+		background: #2e72c1; 
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); 
+		border: 3px white solid;
+	}
+
+	.small-bullet-point {
+		width: 12px; 
+		height: 12px; 
+		left: 12px; 
+		top: 19.7px; 
+		position: absolute; 
+		transform: rotate(45.79deg); 
+		transform-origin: 0 0; 
+		background: #498fcd; 
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); 
+		border: 3px white solid;
+	}
+
+	.name-box-shadow {
+		width: 245px; 
+		height: 50px; 
+		left: 8px; 
+		top: 15px; 
+		position: absolute; 
+		background: #76bde0; 
+		box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25); 
+		border-radius: 30px;
+	}
+
+	.name-box {
+		width: 245px; 
+		height: 50px; 
+		left: 0px; 
+		top: 5px; 
+		position: absolute; 
+		background: white; 
+		border-radius: 31.3px; 
+		border: 4px #478dcc solid;
+	}
+
+	.name-box-total {
+		left: 30px;
+	}
+
+	.quick-menu-button {
+		font-size: 18px;
 	}
 }
 
@@ -232,6 +424,85 @@ input[type=range]::-ms-fill-upper {
 @media screen and (min-width: 120em) {
 	[data-ui="say"] {
 		font-size: 28px;
+	}
+
+	[data-ui="who"] {
+		font-size: 32px;
+	}
+
+	[data-component="choice-container"] button {
+		height: 73px;
+		width: 890px;
+		font-size: 30px;
+		border-radius: 30px;
+	}
+
+	[data-component="choice-container"] button:before {
+		height: 73px;
+		width: 890px;
+		font-size: 30px;
+		inset: 12.3px 25.4px;
+		border-radius: 30px;
+	}
+
+	.dialog-box {
+		margin-top: 80px;
+	}
+
+	.big-bullet-point {
+		width: 47.73px; 
+		height: 49.5px; 
+		left: 47.33px; 
+		top: 0px; 
+		position: absolute; 
+		transform: rotate(45.79deg); 
+		transform-origin: 0 0; 
+		background: #2e72c1; 
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); 
+		border: 3px white solid;
+	}
+
+	.small-bullet-point {
+		width: 19.4px; 
+		height: 20.12px; 
+		left: 14.42px; 
+		top: 20.7px; 
+		position: absolute; 
+		transform: rotate(45.79deg); 
+		transform-origin: 0 0; 
+		background: #498fcd; 
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); 
+		border: 3px white solid;
+	}
+
+	.name-box-shadow {
+		width: 333.04px; 
+		height: 62.17px; 
+		left: 9.96px; 
+		top: 12.83px; 
+		position: absolute; 
+		background: #76bde0; 
+		box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25); 
+		border-radius: 30px;
+	}
+
+	.name-box {
+		width: 333.82px; 
+		height: 62.59px; 
+		left: 0px; 
+		top: 0px; 
+		position: absolute; 
+		background: white; 
+		border-radius: 31.3px; 
+		border: 4px #478dcc solid;
+	}
+
+	.name-box-total {
+		left: 41px;
+	}
+
+	.quick-menu-button {
+		font-size: 20px;
 	}
 }
 

@@ -151,13 +151,38 @@ button:hover {
 
 /* Style for Centered Text */
 [data-component="centered-dialog"] {
-
+	/* color: #FFF;
+	font-family: 'Nunito';
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	letter-spacing: 3.4px; */
 }
 
 /* Character Images Styles */
 [data-screen="game"] [data-character] {
 	bottom: -60%;
 	max-height: 150%;
+}
+
+[data-screen="game"] [data-character="character_object_atria"] {
+	max-height: 175%;
+	bottom: -90%;
+}
+
+.atria-darken {
+	filter: brightness(0.8);
+}
+
+[data-screen="game"] [data-character].kyo-left {
+	left: 5%;
+	right: auto;
+}
+
+[data-screen="game"] [data-character].atria-right {
+	left: auto;
+	right: 10%;
 }
 
 /* Other Images Styles */

@@ -187,8 +187,9 @@ monogatari.component('settings-screen').template(() => {
 	<div style="width: 657px; height: 61.05px; left: 843px; top: 162.13px; position: absolute">
 
 	  	<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="music"
+			id = "input_range_volume_music"
+			class = "input_range"
 			style="
-	
 				padding: 0px;
 				width: 630px; 
 				height: 52px; 
@@ -196,6 +197,9 @@ monogatari.component('settings-screen').template(() => {
 				top: -25px; 
 				position: absolute;
 		">
+
+		<div class="input_range_cover" ></div>
+		<div class="bar_fill" id = "bar_fill_volume_music"></div>
 
 
 	  <div style="width: 60.05px; height: 61.05px; left: 0px; top: 0px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)">
@@ -216,8 +220,9 @@ monogatari.component('settings-screen').template(() => {
     <div style="width: 657px; height: 61.05px; left: 843px; top: 292.13px; position: absolute">
 
 		<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="voice"
+			id = "input_range_volume_voice"
+			class = "input_range"
 			style="
-	
 				padding: 0px;
 				width: 630px; 
 				height: 52px; 
@@ -225,6 +230,9 @@ monogatari.component('settings-screen').template(() => {
 				top: -25px; 
 				position: absolute;
 		">
+
+		<div class="input_range_cover" ></div>
+		<div class="bar_fill" id = "bar_fill_volume_voice"></div>
 	 
 	  <div style="width: 60.05px; height: 61.05px; left: 0px; top: 0px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)">
         <div style="width: 53.16px; height: 54.05px; left: 3.44px; top: 3.50px; position: absolute; background: #2E72C1"></div>
@@ -244,8 +252,9 @@ monogatari.component('settings-screen').template(() => {
     <div style="width: 657px; height: 61.05px; left: 843px; top: 421.13px; position: absolute">
 
 		<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="sound"
+			id = "input_range_volume_sound"
+			class = "input_range"
 			style="
-
 				padding: 0px;
 				width: 630px; 
 				height: 52px; 
@@ -253,6 +262,9 @@ monogatari.component('settings-screen').template(() => {
 				top: -25px; 
 				position: absolute;
 		">
+
+		<div class="input_range_cover" ></div>
+		<div class="bar_fill" id = "bar_fill_volume_sound"></div>
 
 
 
@@ -274,8 +286,9 @@ monogatari.component('settings-screen').template(() => {
 	<div style="width: 657px; height: 61.05px; left: 843px; top: 553.13px; position: absolute">
 
 		<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="video"
+			id = "input_range_volume_video"
+			class = "input_range"
 			style="
-
 				padding: 0px;
 				width: 630px; 
 				height: 52px; 
@@ -283,6 +296,9 @@ monogatari.component('settings-screen').template(() => {
 				top: -25px; 
 				position: absolute;
 		">
+
+		<div class="input_range_cover" ></div>
+		<div class="bar_fill" id = "bar_fill_volume_video"></div>
 
 
 	  <div style="width: 60.05px; height: 61.05px; left: 0px; top: 0px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)">
@@ -308,8 +324,9 @@ monogatari.component('settings-screen').template(() => {
  
 	  <div style="width: 612.40px; height: 49px; left: 34.91px; top: 111px; position: absolute">
 		<input type="range" min="1" max="50" step="1" data-action="set-text-speed"
+			id = "input_range_speed_text"
+			class = "input_range"
 			style="
-
 				padding: 0px;
 				width: 580px; 
 				height: 52px; 
@@ -317,12 +334,17 @@ monogatari.component('settings-screen').template(() => {
 				top: -25px; 
 				position: absolute;
 		">
+
+		<div class="input_range_cover_speed" ></div>
+		<div class="bar_fill_speed" id = "bar_fill_speed_text"></div>
+
       </div>
     
 	  <div style="width: 612.40px; height: 49px; left: 34.91px; top: 234px; position: absolute">
 		<input type="range" min="0" max="60" step="1" data-action="set-auto-play-speed" data-content="auto-play-speed-controller"
+			id = "input_range_speed_autoPlay"
+			class = "input_range"
 			style="
-
 				padding: 0px;
 				width: 580px; 
 				height: 52px; 
@@ -330,6 +352,10 @@ monogatari.component('settings-screen').template(() => {
 				top: -25px; 
 				position: absolute;
 		">
+
+		<div class="input_range_cover_speed" ></div>
+		<div class="bar_fill_speed" id = "bar_fill_speed_autoPlay"></div>
+
       </div>
 
     </div>
@@ -494,7 +520,52 @@ $_ready (() => {
 	monogatari.init ('#monogatari').then (() => {
 		// 3. Inside the init function:
 
-		
+		const input_range_volume_music	 = document.querySelector("#input_range_volume_music");
+		const input_range_volume_voice	 = document.querySelector("#input_range_volume_voice");
+		const input_range_volume_sound	 = document.querySelector("#input_range_volume_sound");
+		const input_range_volume_video	 = document.querySelector("#input_range_volume_video");
+		const input_range_speed_text	 = document.querySelector("#input_range_speed_text");
+		const input_range_speed_autoPlay = document.querySelector("#input_range_speed_autoPlay");
+
+		const bar_fill_volume_music	 	= document.querySelector("#bar_fill_volume_music");
+		const bar_fill_volume_voice	 	= document.querySelector("#bar_fill_volume_voice");
+		const bar_fill_volume_sound	 	= document.querySelector("#bar_fill_volume_sound");
+		const bar_fill_volume_video	 	= document.querySelector("#bar_fill_volume_video");
+		const bar_fill_speed_text	 	= document.querySelector("#bar_fill_speed_text");
+		const bar_fill_speed_autoPlay 	= document.querySelector("#bar_fill_speed_autoPlay");
+
+		input_range_volume_music  .addEventListener("input", (event)=>{
+			console.log(event.target.value)
+			bar_fill_volume_music .style.width = event.target.value * 630 + 20 + 'px';
+			// chagne mute icon
+		});
+		input_range_volume_voice  .addEventListener("input", (event)=>{
+			console.log(event.target.value)
+			bar_fill_volume_voice .style.width = event.target.value * 630 + 20 + 'px';
+			// chagne mute icon
+		});
+		input_range_volume_sound  .addEventListener("input", (event)=>{
+			console.log(event.target.value)
+			bar_fill_volume_sound .style.width = event.target.value * 630 + 20 + 'px';
+			// chagne mute icon
+		});
+		input_range_volume_video  .addEventListener("input", (event)=>{
+			console.log(event.target.value)
+			bar_fill_volume_video .style.width = event.target.value * 630 + 20 + 'px';
+			// chagne mute icon
+		});
+		input_range_speed_text	  .addEventListener("input", (event)=>{
+			console.log(event.target.value)
+			bar_fill_speed_text   .style.width = event.target.value * 12 + 'px';
+			// chagne mute icon
+		});
+		input_range_speed_autoPlay.addEventListener("input", (event)=>{
+			console.log(event.target.value)
+			bar_fill_speed_autoPlay.style.width = event.target.value * 10 + 'px';
+			// chagne mute icon
+		});
+
+
 
 
 

@@ -226,31 +226,38 @@ button:hover {
 
 /* Use the background property to set a color for these */
 input[type=range]:focus::-webkit-slider-runnable-track {
-
+	-webkit-appearance: none;
+	appearance: none;
 }
 
 input[type=range]::-webkit-slider-runnable-track {
-
+	-webkit-appearance: none;
+	appearance: none;
 }
 
 input[type=range]:focus::-ms-fill-upper {
-
+	-webkit-appearance: none;
+	appearance: none;
 }
 
 input[type=range]:focus::-ms-fill-lower {
-
+	-webkit-appearance: none;
+	appearance: none;
 }
 
 input[type=range]::-moz-range-track {
-
+	-webkit-appearance: none;
+	appearance: none;
 }
 
 input[type=range]::-ms-fill-lower {
-
+	-webkit-appearance: none;
+	appearance: none;
 }
 
 input[type=range]::-ms-fill-upper {
-
+	-webkit-appearance: none;
+	appearance: none;
 }
 
 /** Medium Screens, Phablets (601px) **/

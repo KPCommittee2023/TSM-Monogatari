@@ -163,6 +163,36 @@
 				top: 15px;
 			}
 			/* if you see this, you are good. */
+			
+			.slider-container_kouzie {
+				background-color: transparent;
+				color: #87C9E5;
+				padding: 10px;
+				overflow: hidden;
+				width: 1563px;
+				position: relative;
+				left: 100px;
+				top: -10px;
+			}
+
+			.slider_kouzie {
+				white-space: nowrap;
+				animation: tickerMove_kouzie 20s linear infinite; /*speed of animation*/
+			}
+
+			.slider_kouzie span {
+				color: #2E72C1;
+				padding-right: 740px; /*distance of each message from each other, adjust as needed*/
+			}
+
+			@keyframes tickerMove_kouzie {
+				0% {
+					transform: translateX(100%);
+				}
+				100% {
+					transform: translateX(-100%);
+				}
+			}
 
 		</style>
 		<!-- Monogatari CSS Libraries -->

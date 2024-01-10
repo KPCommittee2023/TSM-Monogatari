@@ -125,8 +125,9 @@ monogatari.component ('main-screen').template (() => {
 			style="width: 678px; height: 1356px; left: 761px; top: 561px; position: absolute; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
 			<img style="width: 678px; height: 1356px" src=" ./assets/fromfigma/893af70dcdcc7dccae6bd9b63726d428.png " />
 		</div>
-		<div
-			style="width: 270.03px; height: 280.06px; left: 1825.74px; top: 818px; position: absolute; transform: rotate(45.79deg); transform-origin: 0 0; background: #C1E6FF; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 5px white solid">
+		<div data-action="open-screen" data-open="credits"
+			style="width: 270.03px; height: 280.06px; bottom: -19.5%; right: 1%; position: absolute; transform: rotate(-45.79deg); transform-origin: 0 0; background: #C1E6FF; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 5px white solid; color: white; font-size: 48px; font-family: Nunito; font-weight: 900; letter-spacing: 4.08px; word-wrap: break-word;">
+			Credits
 		</div>
 		<div data-action="start" 
 			style="width: 183px; height: 42px; left: 1482px; top: 378px; position: absolute">
@@ -142,9 +143,7 @@ monogatari.component ('main-screen').template (() => {
 				Start
 			</div>
 		</div>
-		<div
-			style="width: 356.13px; height: 74.84px; left: 1665px; top: 991.82px; position: absolute; transform: rotate(-45deg); transform-origin: 0 0; color: white; font-size: 48px; font-family: Nunito; font-weight: 900; letter-spacing: 4.08px; word-wrap: break-word">
-			Credits</div>
+		
 		<div  data-action="open-screen" data-open="load" 
 			style="width: 139px; height: 77px; left: 1683px; top: 378px; position: absolute; color: white; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 3.06px; word-wrap: break-word"
 			>/ Load</div>
@@ -521,7 +520,121 @@ monogatari.component('text-box').template(() => {
 
 `});
 
+monogatari.component('credits-screen').template(() => {
+	return `
 
+	<div  class="zoom_to_fit" style="margin: auto; background: linear-gradient(0deg, rgba(205, 222, 255, 0.80) 0%, rgba(205, 222, 255, 0.80) 100%), linear-gradient(180deg, rgba(127, 214, 250, 0.90) 78.62%, rgba(254, 130, 219, 0.90) 101.65%); width: 1920px; height: 1080px; background-size: cover; display: flex; align-items: center; justify-content: center; padding: 5% 2%; overflow: hidden; position: relative;
+	">
+		<div style="width: 1557px; border-radius: 11px; border: 3px solid white; height: 856px; box-shadow: 0px 0px 0px 3px #2E72C1 inset; outline: 3px solid #2E72C1; background: linear-gradient(180deg, #2596FF 0%, rgba(144, 202, 255, 0.86) 100%); position: relative; padding: 4% 2% 5% 2%; display: flex; flex-direction: row; ">
+			<div style="width: 424.614px; height: 79px; flex-shrink: 0; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); position: absolute; top: -3%; left: 40%;">
+				<div style="width: 47.731px; height: 49.504px; transform: rotate(45.791deg); flex-shrink: 0; border: 3px solid #FFF; background: #2E72C1; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: -5%;"></div>
+				<div style="width: 19.4px; height: 20.121px; transform: rotate(45.791deg); flex-shrink: 0; border: 3px solid #FFF; background: #498FCD; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: -11%; top: 20%"></div>
+				<div style="width: 47.731px; height: 49.504px; transform: rotate(-134.209deg); flex-shrink: 0; border: 3px solid #FFF; background: #2E72C1; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: 74%;"></div>
+				<div style="width: 19.4px; height: 20.121px; transform: rotate(-134.209deg); flex-shrink: 0; border: 3px solid #FFF; background: #498FCD; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: 86%; top: 20%;"></div>
+				<div style="width: 318px; height: 62px; flex-shrink: 0; border-radius: 30px; background: #76BDE0; position: absolute; top: 20%; left: 2.5%;"></div>
+				<div style="width: 333.817px; height: 62.594px; flex-shrink: 0; border-radius: 31.297px;
+			border: 4px solid transparent; background: linear-gradient(white, white) padding-box, linear-gradient(#478DCC, #83CBE5) border-box; position: relative; top: -7%;">
+					<p style="color: #2E72C1; text-align: center; font-family: Nunito; font-size: 32px; font-style: normal; font-weight: 800; line-height: normal; position: absolute; top: 10%; left: 35%; margin: 0;">Credits</p>
+				</div>
+				</div>
+			<div style="width: 50%; padding: 1rem; display: flex; flex-direction: column; align-items: flex-start; row-gap: 1rem;">
+				<div style="display: flex; width: 100%;">
+					<div style="width: 65%; padding: 1rem; position: relative;">
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Project Organiser:</p>
+					</div>
+					<div style="padding: 1rem; padding-top: 0.5rem;">
+					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Rizimu</p>
+					</div>
+				</div>
+				<div style="display: flex; width: 100%;">
+					<div style="width: 65%; padding: 1rem; position: relative;">
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Project Managers:</p>
+					</div>
+					<div style="padding: 1rem; padding-top: 0.5rem;">
+					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Bloom<br>Valya</p>
+					</div>
+				</div>
+				<div style="display: flex; width: 100%;">
+					<div style="width: 65%; padding: 1rem; position: relative;">
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Writers:</p>
+					</div>
+					<div style="padding: 1rem; padding-top: 0.5rem;">
+					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Liang<br>Izuroi<br>Rue<br>Usahino Geum</p>
+					</div>
+				</div>
+				<div style="display: flex; width: 100%;">
+					<div style="width: 65%; padding: 1rem; position: relative;">
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Editor:</p>
+					</div>
+					<div style="padding: 1rem; padding-top: 0.5rem;">
+					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Aku</p>
+					</div>
+				</div>
+				<div style="display: flex; width: 100%;">
+					<div style="width: 65%; padding: 1rem; position: relative;">
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Programmers:</p>
+					</div>
+					<div style="padding: 1rem; padding-top: 0.5rem;">
+					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">AlphaBud<br>Fili<br>Lisbeth Arias<br>StolasHoliday<br>weepymice</p>
+					</div>
+				</div>
+				<div style="display: flex; width: 100%;">
+					<div style="width: 65%; padding: 1rem; position: relative;">
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Music Composers:</p>
+					</div>
+					<div style="padding: 1rem; padding-top: 0.5rem;">
+					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Aefen<br>SticktheFigure</p>
+					</div>
+				</div>
+			</div>
+			<div style="width: 50%; padding: 1rem; display: flex; flex-direction: column; align-items: flex-start; row-gap: 1rem;">
+				<div style="display: flex; width: 100%;">
+					<div style="width: 65%; padding: 1rem; position: relative;">
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Sprite Artists:</p>
+					</div>
+					<div style="padding: 1rem; padding-top: 0.5rem;">
+					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Eirena<br>Otoke<br>Roz<br>tejing</p>
+					</div>
+				</div>
+				<div style="display: flex; width: 100%;">
+					<div style="width: 65%; padding: 1rem; position: relative;">
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-align: left;">Background Artists:</p>
+					</div>
+					<div style="padding: 1rem; padding-top: 0.5rem; width: 35%;">
+					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">kimsugi<br>Niko (ShibeDraws)<br>Yuji Sakura</p>
+					</div>
+				</div>
+				<div style="display: flex; width: 100%;">
+					<div style="width: 65%; padding: 1rem; position: relative;">
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-align: left;">Special Scene Artists:</p>
+					</div>
+					<div style="padding: 1rem; padding-top: 0.5rem;">
+					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Jian<br>Korichii<br>Var<br>夜記Giselle</p>
+					</div>
+				</div>
+				<div style="display: flex; width: 100%;">
+					<div style="width: 65%; padding: 1rem; position: relative;">
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">UI Artist:</p>
+					</div>
+					<div style="padding: 1rem; padding-top: 0.5rem;">
+					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">angelisdoodlin</p>
+					</div>
+				</div>
+			</div>
+			<div style="width: 340.069px; height: 350.614px; transform: rotate(72.664deg); flex-shrink: 0; border: 5px solid #FFF;
+		background: linear-gradient(4deg, #FD84DC -0.94%, #D0F1FE 98.3%);
+		box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; bottom: -17%; right: 5%;">
+			</div>
+			<div style="width: 277px; height: 185px; transform: rotate(341.5deg); flex-shrink: 0; position: absolute; bottom: 2%; right: 8.5%;">
+				<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);font-family: Nunito; font-size: 28px; font-style: normal; font-weight: 600; line-height: 125.4%; /* 35.112px */">Check out the making of TSM here! real not clickbait!</p>
+			</div>
+		</div>
+		<button data-action="back" style="width: 270.026px; height: 280.057px; transform: rotate(-45.791deg); flex-shrink: 0; border: 5px solid #FFF; background: #C1E6FF; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; bottom: -8%; right: -3%; color: #FFF; text-align: center; font-family: Nunito; font-size: 48px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 4.08px; border-radius: 0; align-items: flex-start;">
+			BACK
+		</button>
+	</div>
+	
+`});
 
 
 

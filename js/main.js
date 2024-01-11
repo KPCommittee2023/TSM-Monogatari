@@ -109,18 +109,84 @@ monogatari.component ('main-screen').template (() => {
 		<div
 			style="width: 1135px; height: 939px; left: 1993px; top: 1601px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; mix-blend-mode: hard-light; background: radial-gradient(97.29% 97.28% at 144.48% -13.60%, #7FD6FA 0%, rgba(255, 255, 255, 0) 100%)">
 		</div>
-		<div
-			style="width: 276px; height: 58px; left: 1551px; top: 442px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">
-			Continue</div>
-		<div
-			style="width: 276px; height: 58px; left: 1551px; top: 510px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">
-			Gallery<br /></div>
-		<div  data-action="open-screen" data-open="settings"
-			style="width: 276px; height: 58px; left: 1551px; top: 576px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">
-			Settings<br /></div>
-		<div data-action="open-screen" data-open="help" 
-			style="width: 276px; height: 58px; left: 1551px; top: 642px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">
-			Help<br /><br /><br /></div>
+		<div class="main-button"
+			style="width: 276px; height: 58px; left: 1485px; top: 510px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word; text-align: left; display: flex;">
+			<div style="width: 70px; height: 100%;">
+				<svg class="cursor" xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62" fill="none">
+					<g filter="url(#filter0_d_260_3595)">
+					<rect width="29.2406" height="30.3311" transform="matrix(0.699126 0.714999 -0.718598 0.695426 39.0728 6)" fill="#2E72C1"/>
+					<rect x="-0.0292085" y="2.11564" width="26.2406" height="27.3311" transform="matrix(0.699126 0.714999 -0.718598 0.695426 40.5843 6.66525)" stroke="white" stroke-width="3"/>
+					</g>
+					<g filter="url(#filter1_d_260_3595)">
+					<rect width="11.885" height="12.3283" transform="matrix(0.699126 0.714999 -0.718598 0.695426 18.8589 18.6504)" fill="#498FCD"/>
+					<rect x="-0.0292085" y="2.11564" width="8.88502" height="9.32827" transform="matrix(0.699126 0.714999 -0.718598 0.695426 20.3704 19.3156)" stroke="white" stroke-width="3"/>
+					</g>
+					<defs>
+					<filter id="filter0_d_260_3595" x="7.27686" y="0" width="62.2388" height="62" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+						<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+						<feOffset dy="4"/>
+						<feGaussianBlur stdDeviation="5"/>
+						<feComposite in2="hardAlpha" operator="out"/>
+						<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+						<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_260_3595"/>
+						<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_260_3595" result="shape"/>
+					</filter>
+					<filter id="filter1_d_260_3595" x="0" y="12.6504" width="37.168" height="37.0712" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+						<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+						<feOffset dy="4"/>
+						<feGaussianBlur stdDeviation="5"/>
+						<feComposite in2="hardAlpha" operator="out"/>
+						<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+						<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_260_3595"/>
+						<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_260_3595" result="shape"/>
+					</filter>
+					</defs>
+				</svg>
+			</div>
+			<img class="selected" src="./assets/fromfigma/gallery_selected.png" style="height: 102%; object-fit: contain; margin: 4px 0 0 0; ">
+			<img class="normal" src="./assets/fromfigma/gallery.png" style="height: 100%; object-fit: contain; padding: 5px 0 1px 0; ">
+		</div>
+		<div class="main-button" data-action="open-screen" data-open="settings"
+			style="width: 304px; height: 58px; left: 1485px; top: 576px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word; text-align: left; display: flex;">
+			<div style="width: 70px; height: 100%;">
+				<svg class="cursor" xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62" fill="none">
+					<g filter="url(#filter0_d_260_3595)">
+					<rect width="29.2406" height="30.3311" transform="matrix(0.699126 0.714999 -0.718598 0.695426 39.0728 6)" fill="#2E72C1"/>
+					<rect x="-0.0292085" y="2.11564" width="26.2406" height="27.3311" transform="matrix(0.699126 0.714999 -0.718598 0.695426 40.5843 6.66525)" stroke="white" stroke-width="3"/>
+					</g>
+					<g filter="url(#filter1_d_260_3595)">
+					<rect width="11.885" height="12.3283" transform="matrix(0.699126 0.714999 -0.718598 0.695426 18.8589 18.6504)" fill="#498FCD"/>
+					<rect x="-0.0292085" y="2.11564" width="8.88502" height="9.32827" transform="matrix(0.699126 0.714999 -0.718598 0.695426 20.3704 19.3156)" stroke="white" stroke-width="3"/>
+					</g>
+					<defs>
+					<filter id="filter0_d_260_3595" x="7.27686" y="0" width="62.2388" height="62" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+						<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+						<feOffset dy="4"/>
+						<feGaussianBlur stdDeviation="5"/>
+						<feComposite in2="hardAlpha" operator="out"/>
+						<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+						<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_260_3595"/>
+						<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_260_3595" result="shape"/>
+					</filter>
+					<filter id="filter1_d_260_3595" x="0" y="12.6504" width="37.168" height="37.0712" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+						<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+						<feOffset dy="4"/>
+						<feGaussianBlur stdDeviation="5"/>
+						<feComposite in2="hardAlpha" operator="out"/>
+						<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+						<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_260_3595"/>
+						<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_260_3595" result="shape"/>
+					</filter>
+					</defs>
+				</svg>
+			</div>
+			<img class="selected" src="./assets/fromfigma/settings_selected.png" style="height: 110%; object-fit: contain; margin: 3px 0 0 0; ">
+			<img class="normal" src="./assets/fromfigma/settings.png" style="height: 100%; object-fit: contain; padding: 5px 0 0 0; ">
+		</div>
 		<div
 			style="width: 678px; height: 1356px; left: 761px; top: 561px; position: absolute; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
 			<img style="width: 678px; height: 1356px" src=" ./assets/fromfigma/893af70dcdcc7dccae6bd9b63726d428.png " />
@@ -129,24 +195,86 @@ monogatari.component ('main-screen').template (() => {
 			style="width: 270.03px; height: 280.06px; bottom: -19.5%; right: 1%; position: absolute; transform: rotate(-45.79deg); transform-origin: 0 0; background: #C1E6FF; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 5px white solid; color: white; font-size: 48px; font-family: Nunito; font-weight: 900; letter-spacing: 4.08px; word-wrap: break-word;">
 			Credits
 		</div>
-		<div data-action="start" 
-			style="width: 183px; height: 42px; left: 1482px; top: 378px; position: absolute">
-			<div
-				style="width: 29.24px; height: 30.33px; left: 40.07px; top: 0px; position: absolute; transform: rotate(45.64deg); transform-origin: 0 0;  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid">
+		<div class="main-button" data-action="start" 
+			style="width: 276px; height: 58px; left: 1485px; top: 378px; position: absolute; text-align: left; display: flex;">
+			<div style="width: 70px; height: 100%;">
+				<svg class="cursor" xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62" fill="none">
+					<g filter="url(#filter0_d_260_3595)">
+					<rect width="29.2406" height="30.3311" transform="matrix(0.699126 0.714999 -0.718598 0.695426 39.0728 6)" fill="#2E72C1"/>
+					<rect x="-0.0292085" y="2.11564" width="26.2406" height="27.3311" transform="matrix(0.699126 0.714999 -0.718598 0.695426 40.5843 6.66525)" stroke="white" stroke-width="3"/>
+					</g>
+					<g filter="url(#filter1_d_260_3595)">
+					<rect width="11.885" height="12.3283" transform="matrix(0.699126 0.714999 -0.718598 0.695426 18.8589 18.6504)" fill="#498FCD"/>
+					<rect x="-0.0292085" y="2.11564" width="8.88502" height="9.32827" transform="matrix(0.699126 0.714999 -0.718598 0.695426 20.3704 19.3156)" stroke="white" stroke-width="3"/>
+					</g>
+					<defs>
+					<filter id="filter0_d_260_3595" x="7.27686" y="0" width="62.2388" height="62" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+						<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+						<feOffset dy="4"/>
+						<feGaussianBlur stdDeviation="5"/>
+						<feComposite in2="hardAlpha" operator="out"/>
+						<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+						<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_260_3595"/>
+						<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_260_3595" result="shape"/>
+					</filter>
+					<filter id="filter1_d_260_3595" x="0" y="12.6504" width="37.168" height="37.0712" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+						<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+						<feOffset dy="4"/>
+						<feGaussianBlur stdDeviation="5"/>
+						<feComposite in2="hardAlpha" operator="out"/>
+						<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+						<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_260_3595"/>
+						<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_260_3595" result="shape"/>
+					</filter>
+					</defs>
+				</svg>
 			</div>
-			<div
-				style="width: 11.89px; height: 12.33px; left: 19.86px; top: 12.65px; position: absolute; transform: rotate(45.64deg); transform-origin: 0 0; background: #498FCD; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid">
-			</div>
-			<div style="width: 118.05px; height: 39.58px; left: 64.95px; top: 0px; position: absolute;
-			color: white; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 3.06px; word-wrap: break-word
-			">
-				Start
-			</div>
+			<img class="selected" src="./assets/fromfigma/start_selected.png" style="height: 100%; object-fit: contain; margin: 1px 0 0 0; ">
+			<img class="normal" src="./assets/fromfigma/start.png" style="height: 100%; object-fit: contain; padding: 5px 0 8px 0; ">
 		</div>
 		
-		<div  data-action="open-screen" data-open="load" 
-			style="width: 139px; height: 77px; left: 1683px; top: 378px; position: absolute; color: white; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 3.06px; word-wrap: break-word"
-			>/ Load</div>
+		<div class="main-button" data-action="open-screen" data-open="load" 
+			style="width: 276px; height: 62px; left: 1485px; top: 444px; position: absolute; color: white; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 3.06px; word-wrap: break-word; text-align: left; display: flex;"
+			>
+			<div style="width: 70px; height: 100%;">
+				<svg class="cursor" xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62" fill="none">
+					<g filter="url(#filter0_d_260_3595)">
+					<rect width="29.2406" height="30.3311" transform="matrix(0.699126 0.714999 -0.718598 0.695426 39.0728 6)" fill="#2E72C1"/>
+					<rect x="-0.0292085" y="2.11564" width="26.2406" height="27.3311" transform="matrix(0.699126 0.714999 -0.718598 0.695426 40.5843 6.66525)" stroke="white" stroke-width="3"/>
+					</g>
+					<g filter="url(#filter1_d_260_3595)">
+					<rect width="11.885" height="12.3283" transform="matrix(0.699126 0.714999 -0.718598 0.695426 18.8589 18.6504)" fill="#498FCD"/>
+					<rect x="-0.0292085" y="2.11564" width="8.88502" height="9.32827" transform="matrix(0.699126 0.714999 -0.718598 0.695426 20.3704 19.3156)" stroke="white" stroke-width="3"/>
+					</g>
+					<defs>
+					<filter id="filter0_d_260_3595" x="7.27686" y="0" width="62.2388" height="62" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+						<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+						<feOffset dy="4"/>
+						<feGaussianBlur stdDeviation="5"/>
+						<feComposite in2="hardAlpha" operator="out"/>
+						<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+						<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_260_3595"/>
+						<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_260_3595" result="shape"/>
+					</filter>
+					<filter id="filter1_d_260_3595" x="0" y="12.6504" width="37.168" height="37.0712" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+						<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+						<feOffset dy="4"/>
+						<feGaussianBlur stdDeviation="5"/>
+						<feComposite in2="hardAlpha" operator="out"/>
+						<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+						<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_260_3595"/>
+						<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_260_3595" result="shape"/>
+					</filter>
+					</defs>
+				</svg>
+			</div>
+			<img class="selected" src="./assets/fromfigma/load_selected.png" style="height: 100%; object-fit: contain; padding: 1px 0 0 0;">
+			<img class="normal" src="./assets/fromfigma/load.png" style="height: 100%; object-fit: contain; padding: 5px 0 12px 2px;">
+		</div>
 		
 </div>
 </div>
@@ -469,7 +597,7 @@ monogatari.component('text-box').template(() => {
 		overflow: scroll;"></p>
 		
 	
-	<div style="display: inline-block; bottom: 5%; position: fixed; text-align: center; width: 80%" >
+	<div style="display: inline-block; bottom: 5%; position: absolute; text-align: center; width: 80%" >
 		<span  data-action="auto-play"  class="quick-menu-button"
 			style="width: 65px; height: 6px; 
 			
@@ -540,7 +668,7 @@ monogatari.component('credits-screen').template(() => {
 			<div style="width: 50%; padding: 1rem; display: flex; flex-direction: column; align-items: flex-start; row-gap: 1rem;">
 				<div style="display: flex; width: 100%;">
 					<div style="width: 65%; padding: 1rem; position: relative;">
-					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Project Organiser:</p>
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Project Organiser:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Rizimu</p>
@@ -548,7 +676,7 @@ monogatari.component('credits-screen').template(() => {
 				</div>
 				<div style="display: flex; width: 100%;">
 					<div style="width: 65%; padding: 1rem; position: relative;">
-					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Project Managers:</p>
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Project Managers:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Bloom<br>Valya</p>
@@ -556,7 +684,7 @@ monogatari.component('credits-screen').template(() => {
 				</div>
 				<div style="display: flex; width: 100%;">
 					<div style="width: 65%; padding: 1rem; position: relative;">
-					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Writers:</p>
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Writers:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Liang<br>Izuroi<br>Rue<br>Usahino Geum</p>
@@ -564,7 +692,7 @@ monogatari.component('credits-screen').template(() => {
 				</div>
 				<div style="display: flex; width: 100%;">
 					<div style="width: 65%; padding: 1rem; position: relative;">
-					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Editor:</p>
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Editor:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Aku</p>
@@ -572,7 +700,7 @@ monogatari.component('credits-screen').template(() => {
 				</div>
 				<div style="display: flex; width: 100%;">
 					<div style="width: 65%; padding: 1rem; position: relative;">
-					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Programmers:</p>
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Programmers:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">AlphaBud<br>Fili<br>Lisbeth Arias<br>StolasHoliday<br>weepymice</p>
@@ -580,7 +708,7 @@ monogatari.component('credits-screen').template(() => {
 				</div>
 				<div style="display: flex; width: 100%;">
 					<div style="width: 65%; padding: 1rem; position: relative;">
-					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Music Composers:</p>
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Music Composers:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Aefen<br>SticktheFigure</p>
@@ -590,7 +718,7 @@ monogatari.component('credits-screen').template(() => {
 			<div style="width: 50%; padding: 1rem; display: flex; flex-direction: column; align-items: flex-start; row-gap: 1rem;">
 				<div style="display: flex; width: 100%;">
 					<div style="width: 65%; padding: 1rem; position: relative;">
-					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">Sprite Artists:</p>
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Sprite Artists:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Eirena<br>Otoke<br>Roz<br>tejing</p>
@@ -598,7 +726,7 @@ monogatari.component('credits-screen').template(() => {
 				</div>
 				<div style="display: flex; width: 100%;">
 					<div style="width: 65%; padding: 1rem; position: relative;">
-					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-align: left;">Background Artists:</p>
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-align: left; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Background Artists:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem; width: 35%;">
 					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">kimsugi<br>Niko (ShibeDraws)<br>Yuji Sakura</p>
@@ -606,7 +734,7 @@ monogatari.component('credits-screen').template(() => {
 				</div>
 				<div style="display: flex; width: 100%;">
 					<div style="width: 65%; padding: 1rem; position: relative;">
-					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-align: left;">Special Scene Artists:</p>
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-align: left; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Special Scene Artists:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Jian<br>Korichii<br>Var<br>夜記Giselle</p>
@@ -614,7 +742,7 @@ monogatari.component('credits-screen').template(() => {
 				</div>
 				<div style="display: flex; width: 100%;">
 					<div style="width: 65%; padding: 1rem; position: relative;">
-					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0;">UI Artist:</p>
+					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">UI Artist:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">angelisdoodlin</p>

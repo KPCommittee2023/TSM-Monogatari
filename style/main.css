@@ -53,6 +53,26 @@ button:hover {
 
 }
 
+.cursor {
+	display: none;
+}
+
+.selected {
+	display: none;
+}
+
+.main-button:hover .cursor{
+	display: block;
+}
+
+.main-button:hover .selected{
+	display: block;
+}
+
+.main-button:hover .normal{
+	display: none;
+}
+
 /**
  * ===========================
  * Save and Load Menus Styling

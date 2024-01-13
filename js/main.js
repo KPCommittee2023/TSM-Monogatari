@@ -87,13 +87,12 @@ monogatari.component ('main-screen').template (() => {
 			<!-- kouzie's work -->
 			<div class="slider-container_kouzie">
 					<div class="slider_kouzie">
-						<span>... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾ ⁽⁽ 〪ɾ( ˘ω˘ 〫ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀*)/</span>
-			
+						<span>... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾&#755;⁽⁽ ɾ( ˘ω˘ ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀&#42;)ヾ&#40;´︶*&#41;ﾉ&#9835; &#603;≡ﾍ&#40; &#884;∀\`&#41;ﾉ =≡Σ((( つ•̀ω•́)=&#62;一ω<)) ヾ&#40;´︶\`*&#41;ﾉ</span>
 						<!--duplicated messages to make animation smoother-->
-						<span class="duplicate_kouzie">... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾ ⁽⁽ 〪ɾ( ˘ω˘ 〫ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀*)/</span> 
-						<span class="duplicate_kouzie">... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾ ⁽⁽ 〪ɾ( ˘ω˘ 〫ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀*)/</span>
-						<span class="duplicate_kouzie">... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾ ⁽⁽ 〪ɾ( ˘ω˘ 〫ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀*)/</span>
-						<span class="duplicate_kouzie">... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾ ⁽⁽ 〪ɾ( ˘ω˘ 〫ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀*)/</span>
+						<span class="duplicate_kouzie">... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾&#755;⁽⁽ ɾ( ˘ω˘ ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀&#42;)ヾ&#40;´︶*&#41;ﾉ&#9835; &#603;≡ﾍ&#40; &#884;∀\`&#41;ﾉ =≡Σ((( つ•̀ω•́)=&#62;一ω<)) ヾ&#40;´︶\`*&#41;ﾉ</span> 
+						<span class="duplicate_kouzie">... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾&#755;⁽⁽ ɾ( ˘ω˘ ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀&#42;)ヾ&#40;´︶*&#41;ﾉ&#9835; &#603;≡ﾍ&#40; &#884;∀\`&#41;ﾉ =≡Σ((( つ•̀ω•́)=&#62;一ω<)) ヾ&#40;´︶\`*&#41;ﾉ</span>
+						<span class="duplicate_kouzie">... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾&#755;⁽⁽ ɾ( ˘ω˘ ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀&#42;)ヾ&#40;´︶*&#41;ﾉ&#9835; &#603;≡ﾍ&#40; &#884;∀\`&#41;ﾉ =≡Σ((( つ•̀ω•́)=&#62;一ω<)) ヾ&#40;´︶\`*&#41;ﾉ</span>
+						<span class="duplicate_kouzie">... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾&#755;⁽⁽ ɾ( ˘ω˘ ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀&#42;)ヾ&#40;´︶*&#41;ﾉ&#9835; &#603;≡ﾍ&#40; &#884;∀\`&#41;ﾉ =≡Σ((( つ•̀ω•́)=&#62;一ω<)) ヾ&#40;´︶\`*&#41;ﾉ</span>
 					</div>
 				</div>
 			</div>
@@ -192,7 +191,7 @@ monogatari.component ('main-screen').template (() => {
 			<img style="width: 678px; height: 1356px" src=" ./assets/fromfigma/893af70dcdcc7dccae6bd9b63726d428.png " />
 		</div>
 		<div data-action="open-screen" data-open="credits"
-			style="width: 270.03px; height: 280.06px; bottom: -19.5%; right: 1%; position: absolute; transform: rotate(-45.79deg); transform-origin: 0 0; background: #C1E6FF; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 5px white solid; color: white; font-size: 48px; font-family: Nunito; font-weight: 900; letter-spacing: 4.08px; word-wrap: break-word;">
+			style="width: 270.03px; height: 280.06px; bottom: -19.5%; right: 1%; position: absolute; transform: rotate(-45.79deg); transform-origin: 0 0; background: #C1E6FF; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 5px white solid; color: white; font-size: 48px; font-family: Nunito; font-weight: 900; letter-spacing: 4.08px; word-wrap: break-word; text-shadow: 2px 6px 1px #7FD6FA, -2px 6px 1px #7FD6FA, 1.5px 1.5px 0 #7FD6FA, -1.5px 1.5px 0px #7FD6FA, -1.5px -1.5px 0px #7FD6FA, 1.5px -1.5px 0px #7FD6FA;">
 			Credits
 		</div>
 		<div class="main-button" data-action="start" 
@@ -653,13 +652,13 @@ monogatari.component('credits-screen').template(() => {
 
 	<div  class="zoom_to_fit" style="margin: auto; background: linear-gradient(0deg, rgba(205, 222, 255, 0.80) 0%, rgba(205, 222, 255, 0.80) 100%), linear-gradient(180deg, rgba(127, 214, 250, 0.90) 78.62%, rgba(254, 130, 219, 0.90) 101.65%); width: 1920px; height: 1080px; background-size: cover; display: flex; align-items: center; justify-content: center; padding: 5% 2%; overflow: hidden; position: relative;
 	">
-		<div style="width: 1557px; border-radius: 11px; border: 3px solid white; height: 856px; box-shadow: 0px 0px 0px 3px #2E72C1 inset; outline: 3px solid #2E72C1; background: linear-gradient(180deg, #2596FF 0%, rgba(144, 202, 255, 0.86) 100%); position: relative; padding: 4% 2% 5% 2%; display: flex; flex-direction: row; ">
+		<div style="width: 1557px; border-radius: 11px; border: 3px solid white; height: 856px; box-shadow: 0px 0px 0px 3px #2E72C1 inset; outline: 3px solid #2E72C1; background-image: url(./assets/fromfigma/credits_bg.png); position: relative; padding: 4% 2% 5% 2%; display: flex; flex-direction: row; ">
 			<div style="width: 424.614px; height: 79px; flex-shrink: 0; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); position: absolute; top: -3%; left: 40%;">
 				<div style="width: 47.731px; height: 49.504px; transform: rotate(45.791deg); flex-shrink: 0; border: 3px solid #FFF; background: #2E72C1; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: -5%;"></div>
 				<div style="width: 19.4px; height: 20.121px; transform: rotate(45.791deg); flex-shrink: 0; border: 3px solid #FFF; background: #498FCD; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: -11%; top: 20%"></div>
 				<div style="width: 47.731px; height: 49.504px; transform: rotate(-134.209deg); flex-shrink: 0; border: 3px solid #FFF; background: #2E72C1; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: 74%;"></div>
 				<div style="width: 19.4px; height: 20.121px; transform: rotate(-134.209deg); flex-shrink: 0; border: 3px solid #FFF; background: #498FCD; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: 86%; top: 20%;"></div>
-				<div style="width: 318px; height: 62px; flex-shrink: 0; border-radius: 30px; background: #76BDE0; position: absolute; top: 20%; left: 2.5%;"></div>
+				<div style="width: 318px; height: 62px; flex-shrink: 0; border-radius: 30px; background: #76BDE0; position: absolute; top: 10%; left: 2.5%;"></div>
 				<div style="width: 333.817px; height: 62.594px; flex-shrink: 0; border-radius: 31.297px;
 			border: 4px solid transparent; background: linear-gradient(white, white) padding-box, linear-gradient(#478DCC, #83CBE5) border-box; position: relative; top: -7%;">
 					<p style="color: #2E72C1; text-align: center; font-family: Nunito; font-size: 32px; font-style: normal; font-weight: 800; line-height: normal; position: absolute; top: 10%; left: 35%; margin: 0;">Credits</p>
@@ -757,7 +756,7 @@ monogatari.component('credits-screen').template(() => {
 				<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);font-family: Nunito; font-size: 28px; font-style: normal; font-weight: 600; line-height: 125.4%; /* 35.112px */">Check out the making of TSM here! real not clickbait!</p>
 			</div>
 		</div>
-		<button data-action="back" style="width: 270.026px; height: 280.057px; transform: rotate(-45.791deg); flex-shrink: 0; border: 5px solid #FFF; background: #C1E6FF; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; bottom: -8%; right: -3%; color: #FFF; text-align: center; font-family: Nunito; font-size: 48px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 4.08px; border-radius: 0; align-items: flex-start;">
+		<button data-action="back" style="width: 270.026px; height: 280.057px; transform: rotate(-45.791deg); flex-shrink: 0; border: 5px solid #FFF; background: #C1E6FF; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; bottom: -8%; right: -3%; color: #FFF; text-align: center; font-family: Nunito; font-size: 48px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 4.08px; border-radius: 0; align-items: flex-start; text-shadow: 2px 6px 1px #7FD6FA, -2px 6px 1px #7FD6FA, 1.5px 1.5px 0 #7FD6FA, -1.5px 1.5px 0px #7FD6FA, -1.5px -1.5px 0px #7FD6FA, 1.5px -1.5px 0px #7FD6FA;">
 			BACK
 		</button>
 	</div>
@@ -765,6 +764,93 @@ monogatari.component('credits-screen').template(() => {
 `});
 
 
+monogatari.component('load-screen').template(() => {
+	return `
+
+	<div  class="zoom_to_fit" style="margin: auto; background: linear-gradient(0deg, rgba(205, 222, 255, 0.80) 0%, rgba(205, 222, 255, 0.80) 100%), linear-gradient(180deg, rgba(127, 214, 250, 0.90) 78.62%, rgba(254, 130, 219, 0.90) 101.65%); width: 1920px; height: 1080px; background-size: cover; display: flex; align-items: center; justify-content: center; padding: 5% 2%; overflow: hidden; position: relative;
+	">
+	<div style="width: 1557px; border-radius: 11px; border: 3px solid white; height: 856px; box-shadow: 0px 0px 0px 3px #2E72C1 inset; outline: 3px solid #2E72C1; background-image: url(./assets/fromfigma/load_bg.png); position: relative; padding: 4% 5% 4% 6%; display: flex; flex-direction: column; row-gap: 45px;">
+			<div style="width: 424.614px; height: 79px; flex-shrink: 0; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); position: absolute; top: -3%; left: 40%;">
+				<div style="width: 47.731px; height: 49.504px; transform: rotate(45.791deg); flex-shrink: 0; border: 3px solid #FFF; background: #2E72C1; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: -5%;"></div>
+				<div style="width: 19.4px; height: 20.121px; transform: rotate(45.791deg); flex-shrink: 0; border: 3px solid #FFF; background: #498FCD; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: -11%; top: 20%"></div>
+				<div style="width: 47.731px; height: 49.504px; transform: rotate(-134.209deg); flex-shrink: 0; border: 3px solid #FFF; background: #2E72C1; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: 74%;"></div>
+				<div style="width: 19.4px; height: 20.121px; transform: rotate(-134.209deg); flex-shrink: 0; border: 3px solid #FFF; background: #498FCD; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: 86%; top: 20%;"></div>
+				<div style="width: 318px; height: 62px; flex-shrink: 0; border-radius: 30px; background: #76BDE0; position: absolute; top: 10%; left: 2.5%;"></div>
+				<div style="width: 333.817px; height: 62.594px; flex-shrink: 0; border-radius: 31.297px;
+			border: 4px solid transparent; background: linear-gradient(white, white) padding-box, linear-gradient(#478DCC, #83CBE5) border-box; position: relative; top: -7%;">
+					<p style="color: #2E72C1; text-align: center; font-family: Nunito; font-size: 32px; font-style: normal; font-weight: 800; line-height: normal; position: absolute; top: 10%; left: 37.5%; margin: 0;">Load</p>
+				</div>
+			</div>
+			<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 28px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 10px 0 0 0; text-align: left;">Select the slot to load.</p>
+			<div data-ui="slots" style="overflow: auto; height: 610px;">
+				<slot-container label="Save" type="load" data-component="slot-container" style="justify-content: start; display: grid; column-gap: 29px; row-gap: 46px; grid-template-columns: repeat(3, 420px);">
+				</slot-container>
+			</div>
+			
+		</div>
+		<button data-action="back" style="width: 270.026px; height: 280.057px; transform: rotate(-45.791deg); flex-shrink: 0; border: 5px solid #FFF; background: #C1E6FF; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; bottom: -8%; right: -3%; color: #FFF; text-align: center; font-family: Nunito; font-size: 48px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 4.08px; border-radius: 0; align-items: flex-start; text-shadow: 2px 6px 1px #7FD6FA, -2px 6px 1px #7FD6FA, 1.5px 1.5px 0 #7FD6FA, -1.5px 1.5px 0px #7FD6FA, -1.5px -1.5px 0px #7FD6FA, 1.5px -1.5px 0px #7FD6FA;">
+			BACK
+		</button>
+	</div>
+	
+`});
+
+monogatari.component('save-screen').template(() => {
+	return `
+
+	<div  class="zoom_to_fit" style="margin: auto; background: linear-gradient(0deg, rgba(205, 222, 255, 0.80) 0%, rgba(205, 222, 255, 0.80) 100%), linear-gradient(180deg, rgba(127, 214, 250, 0.90) 78.62%, rgba(254, 130, 219, 0.90) 101.65%); width: 1920px; height: 1080px; background-size: cover; display: flex; align-items: center; justify-content: center; padding: 5% 2%; overflow: hidden; position: relative;
+	">
+		<div style="width: 1557px; border-radius: 11px; border: 3px solid white; height: 856px; box-shadow: 0px 0px 0px 3px #2E72C1 inset; outline: 3px solid #2E72C1; background-image: url(./assets/fromfigma/load_bg.png); position: relative; padding: 4% 5% 4% 6%; display: flex; flex-direction: column; row-gap: 30px;">
+			<div style="width: 424.614px; height: 79px; flex-shrink: 0; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); position: absolute; top: -3%; left: 40%;">
+				<div style="width: 47.731px; height: 49.504px; transform: rotate(45.791deg); flex-shrink: 0; border: 3px solid #FFF; background: #2E72C1; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: -5%;"></div>
+				<div style="width: 19.4px; height: 20.121px; transform: rotate(45.791deg); flex-shrink: 0; border: 3px solid #FFF; background: #498FCD; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: -11%; top: 20%"></div>
+				<div style="width: 47.731px; height: 49.504px; transform: rotate(-134.209deg); flex-shrink: 0; border: 3px solid #FFF; background: #2E72C1; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: 74%;"></div>
+				<div style="width: 19.4px; height: 20.121px; transform: rotate(-134.209deg); flex-shrink: 0; border: 3px solid #FFF; background: #498FCD; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: 86%; top: 20%;"></div>
+				<div style="width: 318px; height: 62px; flex-shrink: 0; border-radius: 30px; background: #76BDE0; position: absolute; top: 10%; left: 2.5%;"></div>
+				<div style="width: 333.817px; height: 62.594px; flex-shrink: 0; border-radius: 31.297px;
+			border: 4px solid transparent; background: linear-gradient(white, white) padding-box, linear-gradient(#478DCC, #83CBE5) border-box; position: relative; top: -7%;">
+					<p style="color: #2E72C1; text-align: center; font-family: Nunito; font-size: 32px; font-style: normal; font-weight: 800; line-height: normal; position: absolute; top: 10%; left: 37.5%; margin: 0;">Save</p>
+				</div>
+			</div>
+			<div style="display: flex;align-items: center; justify-content: flex-start; column-gap: 30px;">
+				<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 28px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Select the slot to save or create a new one.</p>
+				<div style="display: flex; column-gap: 10px; align-items: center;">
+					<input type="text" placeholder="Save Slot Name" data-input="slotName" data-content="slot-name" required="" style="
+						font-size: 24px;
+						font-family: 'Nunito';
+						border-radius: 11px;
+						box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+						font-weight: 400;
+						height: 54px;
+						width: 397px;
+						border: none;
+					">
+					<button data-string="Save" data-action="save" style="
+						font-family: 'Nunito';
+						font-size: 24px;
+						font-weight: 900;
+						margin: 0;
+						height: 60px;
+						width: 124px;
+						border-radius: 21px;
+						border: 3px solid #FFF;
+						background: #2567B2;
+						box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+					">Save</button>
+				</div>
+			</div>
+			<div data-ui="slots" style="overflow: auto; height: 610px;">
+				<slot-container label="Save" type="save" data-component="slot-container" style="justify-content: start; display: grid; column-gap: 29px; row-gap: 46px; grid-template-columns: repeat(3, 420px);">
+				</slot-container>
+			</div>
+			
+		</div>
+		<button data-action="back" style="width: 270.026px; height: 280.057px; transform: rotate(-45.791deg); flex-shrink: 0; border: 5px solid #FFF; background: #C1E6FF; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; bottom: -8%; right: -3%; color: #FFF; text-align: center; font-family: Nunito; font-size: 48px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 4.08px; border-radius: 0; align-items: flex-start; text-shadow: 2px 6px 1px #7FD6FA, -2px 6px 1px #7FD6FA, 1.5px 1.5px 0 #7FD6FA, -1.5px 1.5px 0px #7FD6FA, -1.5px -1.5px 0px #7FD6FA, 1.5px -1.5px 0px #7FD6FA;">
+			BACK
+		</button>
+	</div>
+	
+`});
 
 
 

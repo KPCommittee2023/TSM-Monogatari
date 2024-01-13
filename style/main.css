@@ -80,6 +80,26 @@ button:hover {
 **/
 
 /* Slots Style */
+
+save-slot.animated.row__column.row_column--6.row__column--tablet--4.row__column--desktop--3.row__column--desktop-large--2 {
+    vertical-align: middle;
+    cursor: pointer;
+    flex-flow: column;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+    height: 268px;
+    border-radius: 60px;
+    border: 5px solid #FFF;
+    background: linear-gradient(347deg, rgba(144, 205, 255, 0.7) 5.85%, rgba(127, 214, 250, 0.7) 92.46%);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+}
+
 [data-component="save-slot"] figure {
 
 }
@@ -91,12 +111,48 @@ button:hover {
 
 /* Slots Title Style */
 [data-component="save-slot"] figcaption {
-
+	position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Slots Delete Button Style */
 [data-component="save-slot"] button {
+	background-color: white;
+    color: #2E72C1;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    z-index: 2;
+}
 
+save-slot .badge {
+    position: absolute;
+    padding: 0.5rem 2rem;
+    background: rgba(205, 222, 255, 0.80);
+    color: #2E72C1;
+    font-style: italic;
+    font-weight: 700;
+    z-index: 1;
+    width: 100%;
+    text-align: left;
+    top: 65%;
+    height: 15%;
+    font-size: 22px;
+}
+
+save-slot [data-content=background] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 0;
+}
+
+.animated.row__column.row_column--6.row__column--tablet--4.row__column--desktop--3.row__column--desktop-large--2 {
+	all: unset;
 }
 
 /**
@@ -125,7 +181,6 @@ button:hover {
 	padding: 0;
 	color: #2e72c1;
 	text-align: center;
-	text-shadow: 0px 2px 3px rgba(0,0,0,0.25), 1px 1px 0 white, -1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white;
 	font-family: 'Nunito';
 	font-size: 30px;
 	font-weight: 900;
@@ -171,13 +226,19 @@ button:hover {
 
 /* Style for Centered Text */
 [data-component="centered-dialog"] {
-	/* color: #FFF;
+	color: #FFF;
 	font-family: 'Nunito';
 	font-size: 40px;
 	font-style: normal;
 	font-weight: 900;
 	line-height: normal;
-	letter-spacing: 3.4px; */
+	letter-spacing: 3.4px;
+	z-index: 1;
+	width: 100%;
+}
+
+centered-dialog [data-content=wrapper] {
+	text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;
 }
 
 /* Character Images Styles */

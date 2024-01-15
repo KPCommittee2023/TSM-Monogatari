@@ -37,6 +37,22 @@ button:hover {
 
 }
 
+@keyframes fadeInDownAnim {
+	0% {
+	   opacity: 0;
+	   transform: translateY(-20px);
+	}
+	100% {
+	   opacity: 1;
+	   transform: translateY(0);
+	}
+ } 
+
+ @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+
 /**
  * ===========================
  * Main Menu Styling
@@ -160,9 +176,9 @@ save-slot [data-content=background] {
  * Game Elements Styling
  * ===========================
 **/
-
-[data-component="message-modal"] {
-	background-color: black;
+[data-screen="game"] {
+	animation: fadeIn;
+	animation-duration: 500ms;
 }
 
 [data-content=visuals] {
@@ -221,14 +237,14 @@ save-slot [data-content=background] {
 
 /* Character Name Style */
 [data-ui="who"] {
-
+	padding: 0;
 }
 
 /* Style for Centered Text */
 [data-component="centered-dialog"] {
 	color: #FFF;
 	font-family: 'Nunito';
-	font-size: 40px;
+	font-size: 2vw;
 	font-style: normal;
 	font-weight: 900;
 	line-height: normal;
@@ -239,6 +255,101 @@ save-slot [data-content=background] {
 
 centered-dialog [data-content=wrapper] {
 	text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;
+	width: 100vw;
+    height: 100vh;
+	animation: fadeIn;
+	animation-duration: 500ms;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-img {
+	width: 50vw;
+    height: 75%;
+    object-fit: contain;
+    left: 25%;
+    top: 0;
+	animation: fadeInDownAnim 500ms linear forwards;
+	animation-delay: 0s;
+}
+
+.chapter-title {
+	font-size: 2.25vw;
+	margin: 0;
+}
+
+.chapter-title-wrapper {
+	position: relative;
+    top: 72%;
+    display: inline-block;
+}
+
+.chapter-title-wrapper-1 {
+	position: relative;
+    top: 35%;
+	width: max-content;
+}
+
+.chapter-title-wrapper-2 {
+	position: relative;
+    top: 40%;
+	width: max-content;
+}
+
+.typed {
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0;
+	animation: typing;
+	animation-duration: 2s;
+	animation-timing-function: steps(30, end);
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+}
+
+.typed-1 {
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0;
+	animation: typing;
+	animation-duration: 0.75s;
+	animation-timing-function: steps(30, end);
+	animation-fill-mode: forwards;
+	animation-delay: 0s;
+}
+
+.typed-2 {
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0;
+	animation: typing;
+	animation-duration: 2s;
+	animation-timing-function: steps(30, end);
+	animation-fill-mode: forwards;
+	animation-delay: 0.75s;
+}
+
+.click-to-start {
+	opacity: 0;
+	position: relative;
+    top: 75%;
+	font-size: 2vw;
+    letter-spacing: 2.72px;
+	margin: 0;
+	animation: fadeInDownAnim 500ms linear forwards;
+	animation-delay: 2.5s;
+}
+
+.click-to-continue {
+	opacity: 0;
+	position: relative;
+    top: 55%;
+	font-size: 2vw;
+    letter-spacing: 2.72px;
+	margin: 0;
+	animation: fadeInDownAnim 500ms linear forwards;
+	animation-delay: 2.75s;
 }
 
 /* Character Images Styles */
@@ -403,7 +514,7 @@ input[type=range]::-ms-fill-upper {
 	}
 
 	.name-box-shadow {
-		width: 245px; 
+		width: 300px; 
 		height: 50px; 
 		left: 8px; 
 		top: 15px; 
@@ -414,7 +525,7 @@ input[type=range]::-ms-fill-upper {
 	}
 
 	.name-box {
-		width: 245px; 
+		width: 300px; 
 		height: 50px; 
 		left: 0px; 
 		top: 5px; 
@@ -489,7 +600,7 @@ input[type=range]::-ms-fill-upper {
 	}
 
 	.name-box-shadow {
-		width: 245px; 
+		width: 300px; 
 		height: 50px; 
 		left: 8px; 
 		top: 15px; 
@@ -500,7 +611,7 @@ input[type=range]::-ms-fill-upper {
 	}
 
 	.name-box {
-		width: 245px; 
+		width: 300px; 
 		height: 50px; 
 		left: 0px; 
 		top: 5px; 
@@ -526,7 +637,7 @@ input[type=range]::-ms-fill-upper {
 	}
 
 	[data-ui="who"] {
-		font-size: 32px;
+		font-size: 30px;
 	}
 
 	[data-component="choice-container"] button {
@@ -575,7 +686,7 @@ input[type=range]::-ms-fill-upper {
 	}
 
 	.name-box-shadow {
-		width: 333.04px; 
+		width: 385px; 
 		height: 62.17px; 
 		left: 9.96px; 
 		top: 12.83px; 
@@ -586,7 +697,7 @@ input[type=range]::-ms-fill-upper {
 	}
 
 	.name-box {
-		width: 333.82px; 
+		width: 385px; 
 		height: 62.59px; 
 		left: 0px; 
 		top: 0px; 

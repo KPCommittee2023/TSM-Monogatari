@@ -70,7 +70,10 @@ monogatari.assets("sounds", {
 });
 
 // Define the videos used in the game.
-monogatari.assets("videos", {});
+monogatari.assets("videos", {
+
+  'background_loop' : 'background_loop.mp4'
+});
 
 // Define the images used in the game.
 monogatari.assets("images", {
@@ -257,8 +260,70 @@ monogatari.script({
   // The game starts here.
   'Start': [
 
+    "show video background_loop background loop animate__animated animate__fadeIn animate__faster",
+
     // Content warnings
+    // to remove the text box in the background temporarily
+    {'Function':{
+			'Apply': function () {
+				const textbox = document.querySelector('[data-component="text-box"]');
+				textbox.style.display = "none";
+				return true;
+			},
+			'Reverse': function () {
+				const textbox = document.querySelector('[data-component="text-box"]');
+				textbox.style.removeProperty("display");
+			}
+		}},
     'show message Content_Warnings',
+    // input name
+    {
+			'Input': {
+				'Text': 'What is your name?',
+				'Validation': function (input) {
+					if (input.trim().toUpperCase() == "KYO") {
+						alert("Sorry there can only be one Kyo, and it ain't you buddy");
+						return false;
+					}
+					return input.trim ().length > 0;
+				},
+				'Save': function (input) {
+					this.storage ({
+						player: {
+							name: input
+						}
+					});
+					return true;
+				},
+				'Revert': function () {
+					this.storage ({
+						player: {
+							name: ''
+						}
+					});
+				},
+				'Warning': 'You must enter a valid name!'
+			}
+		},
+    {'Function': {
+      'Apply': function () {
+        monogatari.characters({
+          'character_object_player': {
+            name: monogatari.storage('player').name,
+            color: "#2E72C1",
+          }
+        });
+        return true;
+      },
+
+      'Reverse': function () {
+        
+      }
+    }},
+    // chapter title
+    "centered <img class=\"logo-img\" src=\"assets/fromfigma/logo.png\"><div class=\"chapter-title-wrapper\"><p class=\"chapter-title typed\">Prologue: Waxing Iridescent</p></div><p class=\"click-to-start\">Click anywhere to start</p>",
+
+    "hide video background_loop animate__animated animate__fadeOut animate__faster",
 
     // 'show scene Atria_CG',
     // 'test speical scene Atria_CG',
@@ -501,59 +566,12 @@ monogatari.script({
   'CHAPTER_0': [
     
     // start-of-CHAPTER-0-mark
-    //"centered Prologue: Waxing Iridescent ",
-    " Prologue: Waxing Iridescent ",
 
     // "School hallway day School hallway da ",
-    "show scene school_hallway_daylight",
+    "show scene school_hallway_daylight with fadeIn duration 500ms",
 
     // "Intro Music Intro Musi ",
     'play music intro_loop  with loop',
-
-    {
-			'Input': {
-				'Text': 'What is your name?',
-				'Validation': function (input) {
-					if (input.trim().toUpperCase() == "KYO") {
-						alert("Sorry there can only be one Kyo, and it ain't you buddy");
-						return false;
-					}
-					return input.trim ().length > 0;
-				},
-				'Save': function (input) {
-					this.storage ({
-						player: {
-							name: input
-						}
-					});
-					return true;
-				},
-				'Revert': function () {
-					this.storage ({
-						player: {
-							name: ''
-						}
-					});
-				},
-				'Warning': 'You must enter a valid name!'
-			}
-		},
-    {'Function': {
-      'Apply': function () {
-        monogatari.characters({
-          'character_object_player': {
-            name: monogatari.storage('player').name,
-            color: "#2E72C1",
-          }
-        });
-        return true;
-      },
-
-      'Reverse': function () {
-        
-      }
-    }},
-
 
     "character_object_narration It\'s lunch break at school, but the atmosphere is livelier than usual. Oh right, it\'s Club Day today. You still can\'t decide which club you want to join this year. ",
     "character_object_narration You stop walking the hallways to look at the board of various club posters. Oh man, you\'ve never joined one before, so the amount of options overwhelm you a little. ",
@@ -832,8 +850,11 @@ monogatari.script({
 
   'CHAPTER_1': [
     // start-of-CHAPTER-1-mark
-    " Chapter 1: Healing the Conditioned Puppet ",
-
+    // chapter index
+    "show video background_loop background loop animate__animated animate__fadeIn animate__faster",
+    //" Chapter 1: Healing the Conditioned Puppet ",
+    "centered <div class=\"chapter-title-wrapper-1\"><p class=\"chapter-title typed-1\">Chapter 1:</p></div><div class=\"chapter-title-wrapper-2\"><p class=\"chapter-title typed-2\">Healing the Conditioned Puppet</p></div><p class=\"click-to-continue\">Click anywhere to continue</p>",
+    "hide video background_loop animate__animated animate__fadeOut animate__faster",
 
     // "School Rooftop Day School Rooftop Da ",
     "show scene Rooftop_bg_day",
@@ -1582,8 +1603,10 @@ monogatari.script({
   'CHAPTER_2': [
     // 'chap 2',
     // start-of-CHAPTER-2-mark
-    " Chapter 2: Befriending the Shrewd Dreame ",
-
+    "show video background_loop background loop animate__animated animate__fadeIn animate__faster",
+    //" Chapter 2: Befriending the Shrewd Dreame ",
+    "centered <div class=\"chapter-title-wrapper-1\"><p class=\"chapter-title typed-1\">Chapter 2:</p></div><div class=\"chapter-title-wrapper-2\"><p class=\"chapter-title typed-2\">Befriending the Shrewd Dreamer</p></div><p class=\"click-to-continue\">Click anywhere to continue</p>",
+    "hide video background_loop animate__animated animate__fadeOut animate__faster",
 
     // "Background School Hallway Background: School Hallwa ",
     "show scene school_hallway_daylight",
@@ -2364,8 +2387,10 @@ monogatari.script({
   'CHAPTER_3': [
     // 'chap 3',
     // start-of-CHAPTER-3-mark
-    " Chapter 3: Confronting the Moon Princ ",
-
+    //" Chapter 3: Confronting the Moon Princ ",
+    "show video background_loop background loop animate__animated animate__fadeIn animate__faster",
+    "centered <div class=\"chapter-title-wrapper-1\"><p class=\"chapter-title typed-1\">Chapter 3:</p></div><div class=\"chapter-title-wrapper-2\"><p class=\"chapter-title typed-2\">Confronting the Moon Prince</p></div><p class=\"click-to-continue\">Click anywhere to continue</p>",
+    "hide video background_loop animate__animated animate__fadeOut animate__faster",
 
 
     // "Radio Club Basic + Printer + Mic + Laptop Radio Club Basic + Printer + Mic + Lapto ",
@@ -3399,9 +3424,12 @@ monogatari.script({
   ],
 
   'CHAPTER_E': [
-    'chap E',
+    //'chap E',
     // start-of-CHAPTER-E-mark
-    " Epilogue: Waning Iridescent ",
+    //" Epilogue: Waning Iridescent ",
+    "show video background_loop background loop animate__animated animate__fadeIn animate__faster",
+    "centered <div class=\"chapter-title-wrapper-1\"><p class=\"chapter-title typed-1\">Epilogue:</p></div><div class=\"chapter-title-wrapper-2\"><p class=\"chapter-title typed-2\">Waning Iridescent</p></div><p class=\"click-to-continue\">Click anywhere to continue</p>",
+    "hide video background_loop animate__animated animate__fadeOut animate__faster",
     
     // "Music Room Basic All Music Room Basic Al ",
     "show scene music_room_basic_ALL",

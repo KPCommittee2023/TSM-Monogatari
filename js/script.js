@@ -263,16 +263,20 @@ monogatari.script({
     "show video background_loop background loop animate__animated animate__fadeIn animate__faster",
 
     // Content warnings
-    // to remove the text box in the background temporarily
+    // to remove the text box in the background temporarily + frame
     {'Function':{
 			'Apply': function () {
 				const textbox = document.querySelector('[data-component="text-box"]');
 				textbox.style.display = "none";
+        const frame = document.querySelector('.frame-game');
+        frame.style.display = "none";
 				return true;
 			},
 			'Reverse': function () {
 				const textbox = document.querySelector('[data-component="text-box"]');
 				textbox.style.removeProperty("display");
+        const frame = document.querySelector('.frame-game');
+        frame.style.removeProperty("display");
 			}
 		}},
     'show message Content_Warnings',
@@ -320,6 +324,18 @@ monogatari.script({
         
       }
     }},
+    // put back frame
+    {'Function':{
+			'Apply': function () {
+				const frame = document.querySelector('.frame-game');
+        frame.style.removeProperty("display");
+				return true;
+			},
+			'Reverse': function () {
+				const frame = document.querySelector('.frame-game');
+        frame.style.display = "none";
+			}
+		}},
     // chapter title
     "centered <img class=\"logo-img\" src=\"assets/fromfigma/logo.png\"><div class=\"chapter-title-wrapper\"><p class=\"chapter-title typed\">Prologue: Waxing Iridescent</p></div><p class=\"click-to-start\">Click anywhere to start</p>",
 
@@ -1593,9 +1609,11 @@ monogatari.script({
     // end-of-CHAPTER-1-mark
 
     'stop music Atria_intro with fade 5',
-    "show scene black_screen with fadeIn",
+    "show scene black_screen with fadeIn duration 2s",
 
-
+    // TEMPORARY END FOR DEMO
+    'to be continued...',
+    "jump END",
 
     'jump CHAPTER_2',
   ],

@@ -254,7 +254,7 @@ save-slot [data-content=background] {
 }
 
 centered-dialog [data-content=wrapper] {
-	text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;
+	text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1, 0px 4px 4px rgba(0, 0, 0, 0.25);
 	width: 100vw;
     height: 100vh;
 	animation: fadeIn;
@@ -275,7 +275,7 @@ centered-dialog [data-content=wrapper] {
 }
 
 .chapter-title {
-	font-size: 2.25vw;
+	font-size: 3vw;
 	margin: 0;
 }
 

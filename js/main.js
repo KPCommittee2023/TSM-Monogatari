@@ -109,7 +109,7 @@ monogatari.component ('main-screen').template (() => {
 			style="width: 1135px; height: 939px; left: 1993px; top: 1601px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; mix-blend-mode: hard-light; background: radial-gradient(97.29% 97.28% at 144.48% -13.60%, #7FD6FA 0%, rgba(255, 255, 255, 0) 100%)">
 		</div>
 		<div class="main-button"
-			style="width: 276px; height: 58px; left: 1485px; top: 510px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word; text-align: left; display: flex;">
+			style="width: 276px; height: 58px; left: 1485px; top: 510px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word; text-align: left; display: flex; z-index: 1;">
 			<div style="width: 70px; height: 100%;">
 				<svg class="cursor" xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62" fill="none">
 					<g filter="url(#filter0_d_260_3595)">
@@ -148,7 +148,7 @@ monogatari.component ('main-screen').template (() => {
 			<img class="normal" src="./assets/fromfigma/gallery.png" style="height: 100%; object-fit: contain; padding: 5px 0 1px 0; ">
 		</div>
 		<div class="main-button" data-action="open-screen" data-open="settings"
-			style="width: 304px; height: 58px; left: 1485px; top: 576px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word; text-align: left; display: flex;">
+			style="width: 304px; height: 58px; left: 1485px; top: 576px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word; text-align: left; display: flex; z-index: 1;">
 			<div style="width: 70px; height: 100%;">
 				<svg class="cursor" xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62" fill="none">
 					<g filter="url(#filter0_d_260_3595)">
@@ -194,8 +194,12 @@ monogatari.component ('main-screen').template (() => {
 			style="width: 270.03px; height: 280.06px; bottom: -19.5%; right: 1%; position: absolute; transform: rotate(-45.79deg); transform-origin: 0 0; background: #C1E6FF; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 5px white solid; color: white; font-size: 48px; font-family: Nunito; font-weight: 900; letter-spacing: 4.08px; word-wrap: break-word; text-shadow: 2px 6px 1px #7FD6FA, -2px 6px 1px #7FD6FA, 1.5px 1.5px 0 #7FD6FA, -1.5px 1.5px 0px #7FD6FA, -1.5px -1.5px 0px #7FD6FA, 1.5px -1.5px 0px #7FD6FA;">
 			Credits
 		</div>
+		<div data-action="open-screen" data-open="credits"
+			style="width: 270.03px; height: 280.06px; bottom: -19.5%; right: 1%; position: absolute; transform: rotate(-45.79deg); transform-origin: 0 0; background: transparent; z-index: 1; color: white; font-size: 48px; font-family: Nunito; font-weight: 900; letter-spacing: 4.08px; word-wrap: break-word; text-shadow: 2px 6px 1px #7FD6FA, -2px 6px 1px #7FD6FA, 1.5px 1.5px 0 #7FD6FA, -1.5px 1.5px 0px #7FD6FA, -1.5px -1.5px 0px #7FD6FA, 1.5px -1.5px 0px #7FD6FA;">
+			Credits
+		</div>
 		<div class="main-button" data-action="start" 
-			style="width: 276px; height: 58px; left: 1485px; top: 378px; position: absolute; text-align: left; display: flex;">
+			style="width: 276px; height: 58px; left: 1485px; top: 378px; position: absolute; text-align: left; display: flex; z-index: 1;">
 			<div style="width: 70px; height: 100%;">
 				<svg class="cursor" xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62" fill="none">
 					<g filter="url(#filter0_d_260_3595)">
@@ -235,7 +239,7 @@ monogatari.component ('main-screen').template (() => {
 		</div>
 		
 		<div class="main-button" data-action="open-screen" data-open="load" 
-			style="width: 276px; height: 62px; left: 1485px; top: 444px; position: absolute; color: white; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 3.06px; word-wrap: break-word; text-align: left; display: flex;"
+			style="width: 276px; height: 62px; left: 1485px; top: 444px; position: absolute; color: white; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 3.06px; word-wrap: break-word; text-align: left; display: flex; z-index: 1;"
 			>
 			<div style="width: 70px; height: 100%;">
 				<svg class="cursor" xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62" fill="none">
@@ -274,6 +278,36 @@ monogatari.component ('main-screen').template (() => {
 			<img class="selected" src="./assets/fromfigma/load_selected.png" style="height: 100%; object-fit: contain; padding: 1px 0 0 0;">
 			<img class="normal" src="./assets/fromfigma/load.png" style="height: 100%; object-fit: contain; padding: 5px 0 12px 2px;">
 		</div>
+		<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" preserveAspectRatio="none" style="position: absolute; height: 100%; width: 100%; left: 0; top: 0;">
+			<mask id="path-1-inside-1_260_1987" fill="white">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M1930.67 -6H-10.6667V1086H1930.67V-6ZM40 27C32.268 27 26 33.268 26 41V1039C26 1046.73 32.268 1053 40 1053H1880C1887.73 1053 1894 1046.73 1894 1039V41C1894 33.268 1887.73 27 1880 27H40Z"/>
+			</mask>
+			<g filter="url(#filter0_i_260_1987)">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M1930.67 -6H-10.6667V1086H1930.67V-6ZM40 27C32.268 27 26 33.268 26 41V1039C26 1046.73 32.268 1053 40 1053H1880C1887.73 1053 1894 1046.73 1894 1039V41C1894 33.268 1887.73 27 1880 27H40Z" fill="url(#paint0_linear_260_1987)" fill-opacity="0.6"/>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M1930.67 -6H-10.6667V1086H1930.67V-6ZM40 27C32.268 27 26 33.268 26 41V1039C26 1046.73 32.268 1053 40 1053H1880C1887.73 1053 1894 1046.73 1894 1039V41C1894 33.268 1887.73 27 1880 27H40Z" fill="#CDDEFF" fill-opacity="0.62"/>
+			</g>
+			<path d="M-10.6667 -6V-10H-14.6667V-6H-10.6667ZM1930.67 -6H1934.67V-10H1930.67V-6ZM-10.6667 1086H-14.6667V1090H-10.6667V1086ZM1930.67 1086V1090H1934.67V1086H1930.67ZM-10.6667 -2H1930.67V-10H-10.6667V-2ZM-6.66675 1086V-6H-14.6667V1086H-6.66675ZM1930.67 1082H-10.6667V1090H1930.67V1082ZM1926.67 -6V1086H1934.67V-6H1926.67ZM30 41C30 35.4772 34.4772 31 40 31V23C30.0589 23 22 31.0589 22 41H30ZM30 1039V41H22V1039H30ZM40 1049C34.4771 1049 30 1044.52 30 1039H22C22 1048.94 30.0588 1057 40 1057V1049ZM1880 1049H40V1057H1880V1049ZM1890 1039C1890 1044.52 1885.52 1049 1880 1049V1057C1889.94 1057 1898 1048.94 1898 1039H1890ZM1890 41V1039H1898V41H1890ZM1880 31C1885.52 31 1890 35.4771 1890 41H1898C1898 31.0589 1889.94 23 1880 23V31ZM40 31H1880V23H40V31Z" fill="url(#paint1_linear_260_1987)" mask="url(#path-1-inside-1_260_1987)"/>
+			<defs>
+				<filter id="filter0_i_260_1987" x="-10.6667" y="-6" width="1941.33" height="1096" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+				<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+				<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+				<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+				<feOffset dy="4"/>
+				<feGaussianBlur stdDeviation="2"/>
+				<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+				<feColorMatrix type="matrix" values="0 0 0 0 0.513726 0 0 0 0 0.796078 0 0 0 0 0.898039 0 0 0 1 0"/>
+				<feBlend mode="normal" in2="shape" result="effect1_innerShadow_260_1987"/>
+				</filter>
+				<linearGradient id="paint0_linear_260_1987" x1="960" y1="-6" x2="960" y2="1104" gradientUnits="userSpaceOnUse">
+				<stop offset="0.773449" stop-color="#7FD6FA"/>
+				<stop offset="1" stop-color="#FE82DB"/>
+				</linearGradient>
+				<linearGradient id="paint1_linear_260_1987" x1="960" y1="-6" x2="960" y2="1086" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#2E72C1"/>
+				<stop offset="1" stop-color="#7D66AE"/>
+				</linearGradient>
+			</defs>
+		</svg>
 		
 </div>
 </div>
@@ -563,7 +597,9 @@ monogatari.component('text-box').template(() => {
 	  <div class="name-box-total" style="width: 343px; height: 75px; top: 3.7px; position: absolute">
 		<div class="name-box-shadow" ></div>
 		<div class="name-box" >
-			<div style="width: 100%; height: 100%; position: absolute; color: #2e72c1; font-family: Nunito; font-weight: 800; word-wrap: break-word; text-align: center;">
+			<div style="width: 100%; height: 100%; position: absolute; color: #2e72c1; font-family: Nunito; font-weight: 800; word-wrap: break-word; text-align: center; display: flex;
+			align-items: center;
+			justify-content: center;">
 		
 			<span data-ui="who" data-content="character-name"></span>
 			
@@ -588,12 +624,12 @@ monogatari.component('text-box').template(() => {
   <div style="  position: relative; display: flex; justify-content: center; margin: 0px auto;  padding-top: calc(5px + 1vw); padding-left: 3%;  padding-right: 3%; padding-bottom: calc(5px + 1vw); 
    width: 80%; height: 20vh; opacity: 0.9; border-radius: 10px;
    background: linear-gradient(0deg, #10588a 0%, #2d6cb5 79%, #22a2ff 100%); 
-   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0 0 0 2px #2E72C1, 0 0 0 5px white, 0 0 0 2px #2E72C1">
+   box-shadow: 0px 0px 0px 3px #2E72C1 inset; outline: 3px solid #2E72C1; border: solid white 3px;">
 	
     <img src="./assets/fromfigma/overlay2.png" style="opacity: 0.2; position: absolute; width: 100%">
 	<p data-ui="say" data-content="dialog" style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); 
 		font-family: Nunito; font-style: normal; font-weight: 400; line-height: 125.4%;  
-		overflow: scroll;"></p>
+	"></p>
 		
 	
 	<div style="display: inline-block; bottom: 5%; position: absolute; text-align: center; width: 80%" >

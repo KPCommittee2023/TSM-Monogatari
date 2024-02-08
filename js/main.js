@@ -375,17 +375,8 @@ monogatari.component('settings-screen').template(() => {
 		<div class="bar_fill" id = "bar_fill_volume_music"></div>
 
 
-	  <div style="width: 60.05px; height: 61.05px; left: 0px; top: 0px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)">
-        <div style="width: 53.16px; height: 54.05px; left: 3.44px; top: 3.50px; position: absolute; background: #2E72C1"></div>
-        <div style="width: 63.98px; height: 65.05px; left: -1.97px; top: -2px; position: absolute">
-          <div style="width: 16.71px; height: 31.64px; left: 16.65px; top: 16.71px; position: absolute; background: white"></div>
-          <div style="width: 10.48px; height: 19.77px; left: 36.85px; top: 22.64px; position: absolute">
-            <div style="width: 6.83px; height: 12.35px; left: -0px; top: 3.71px; position: absolute; background: white"></div>
-            <div style="width: 10.48px; height: 19.77px; left: 0px; top: 0px; position: absolute; background: white"></div>
-          </div>
-          <div style="width: 63.98px; height: 65.05px; left: 0px; top: 0px; position: absolute; background: #2E72C1"></div>
-          <div style="width: 60.05px; height: 61.05px; left: 1.97px; top: 2px; position: absolute; background: white"></div>
-        </div>
+	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute;">
+	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;">
       </div>
     </div>
 
@@ -407,17 +398,8 @@ monogatari.component('settings-screen').template(() => {
 		<div class="input_range_cover" ></div>
 		<div class="bar_fill" id = "bar_fill_volume_voice"></div>
 	 
-	  <div style="width: 60.05px; height: 61.05px; left: 0px; top: 0px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)">
-        <div style="width: 53.16px; height: 54.05px; left: 3.44px; top: 3.50px; position: absolute; background: #2E72C1"></div>
-        <div style="width: 63.98px; height: 65.05px; left: -1.97px; top: -2px; position: absolute">
-          <div style="width: 16.71px; height: 31.64px; left: 16.65px; top: 16.71px; position: absolute; background: white"></div>
-          <div style="width: 10.48px; height: 19.77px; left: 36.85px; top: 22.64px; position: absolute">
-            <div style="width: 6.83px; height: 12.35px; left: -0px; top: 3.71px; position: absolute; background: white"></div>
-            <div style="width: 10.48px; height: 19.77px; left: 0px; top: 0px; position: absolute; background: white"></div>
-          </div>
-          <div style="width: 63.98px; height: 65.05px; left: 0px; top: 0px; position: absolute; background: #2E72C1"></div>
-          <div style="width: 60.05px; height: 61.05px; left: 1.97px; top: 2px; position: absolute; background: white"></div>
-        </div>
+	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute; ">
+	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;">
       </div>
     </div>
 
@@ -440,18 +422,8 @@ monogatari.component('settings-screen').template(() => {
 		<div class="bar_fill" id = "bar_fill_volume_sound"></div>
 
 
-
-	  <div style="width: 60.05px; height: 61.05px; left: 0px; top: 0px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)">
-        <div style="width: 53.16px; height: 54.05px; left: 3.44px; top: 3.50px; position: absolute; background: #2E72C1"></div>
-        <div style="width: 63.98px; height: 65.05px; left: -1.97px; top: -2px; position: absolute">
-          <div style="width: 16.71px; height: 31.64px; left: 16.65px; top: 16.71px; position: absolute; background: white"></div>
-          <div style="width: 10.48px; height: 19.77px; left: 36.85px; top: 22.64px; position: absolute">
-            <div style="width: 6.83px; height: 12.35px; left: -0px; top: 3.71px; position: absolute; background: white"></div>
-            <div style="width: 10.48px; height: 19.77px; left: 0px; top: 0px; position: absolute; background: white"></div>
-          </div>
-          <div style="width: 63.98px; height: 65.05px; left: 0px; top: 0px; position: absolute; background: #2E72C1"></div>
-          <div style="width: 60.05px; height: 61.05px; left: 1.97px; top: 2px; position: absolute; background: white"></div>
-        </div>
+	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute;">
+	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;">
       </div>
     </div>
     
@@ -474,17 +446,8 @@ monogatari.component('settings-screen').template(() => {
 		<div class="bar_fill" id = "bar_fill_volume_video"></div>
 
 
-	  <div style="width: 60.05px; height: 61.05px; left: 0px; top: 0px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)">
-        <div style="width: 53.16px; height: 54.05px; left: 3.44px; top: 3.50px; position: absolute; background: #2E72C1"></div>
-        <div style="width: 60.05px; height: 61.05px; left: 0px; top: -0px; position: absolute">
-          <div style="width: 16.71px; height: 31.64px; left: 14.68px; top: 14.71px; position: absolute; background: white"></div>
-          <div style="width: 10.48px; height: 19.77px; left: 34.88px; top: 20.64px; position: absolute">
-            <div style="width: 6.83px; height: 12.35px; left: -0px; top: 3.71px; position: absolute; background: white"></div>
-            <div style="width: 10.48px; height: 19.77px; left: 0px; top: 0px; position: absolute; background: white"></div>
-          </div>
-          <div style="width: 58.98px; height: 4.96px; left: 11.36px; top: 6.96px; position: absolute; transform: rotate(46.22deg); transform-origin: 0 0; background: white; border: 2px #2E72C1 solid"></div>
-          <div style="width: 60.05px; height: 61.05px; left: 0px; top: 0px; position: absolute; background: white; border: 2px #2E72C1 solid"></div>
-        </div>
+	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute;">
+	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;">
       </div>
     </div>
 

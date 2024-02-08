@@ -342,7 +342,6 @@ monogatari.component('settings-screen').template(() => {
 
   <div style="width: 1585px; height: 100%; position: relative; margin: auto;"  class = "setting-menu-zoom_to_fit">
     <div style="width: 1557.13px; height: 100%; left: 27.87px; top: 0px; position: absolute; background: rgba(46, 114, 193, 0.90)"></div>
-    <img style="width: 1553.76px; height: 100%; left: 31.24px; top: 0.84px; position: absolute; opacity: 0.20; mix-blend-mode: soft-light; border-radius: 11px" src="https://via.placeholder.com/1554x855" />
     <div style="width: 1174.61px; height: 100%; left: 0px; top: 68.40px; position: absolute; opacity: 0.20; mix-blend-mode: soft-light; border-radius: 11px"></div>
 
 
@@ -376,7 +375,7 @@ monogatari.component('settings-screen').template(() => {
 
 
 	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute;">
-	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;">
+	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;" id="setting_menu_buton_MUSIC">
       </div>
     </div>
 
@@ -399,7 +398,7 @@ monogatari.component('settings-screen').template(() => {
 		<div class="bar_fill" id = "bar_fill_volume_voice"></div>
 	 
 	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute; ">
-	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;">
+	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;" id="setting_menu_buton_VOICE">
       </div>
     </div>
 
@@ -423,7 +422,7 @@ monogatari.component('settings-screen').template(() => {
 
 
 	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute;">
-	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;">
+	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;" id="setting_menu_buton_SOUND">
       </div>
     </div>
     
@@ -447,7 +446,7 @@ monogatari.component('settings-screen').template(() => {
 
 
 	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute;">
-	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;">
+	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;" id="setting_menu_buton_VIDEO">
       </div>
     </div>
 
@@ -873,35 +872,43 @@ $_ready (() => {
 		const bar_fill_speed_text	 	= document.querySelector("#bar_fill_speed_text");
 		const bar_fill_speed_autoPlay 	= document.querySelector("#bar_fill_speed_autoPlay");
 
+		const setting_menu_buton_MUSIC = document.querySelector("#setting_menu_buton_MUSIC"); 
+		const setting_menu_buton_VOICE = document.querySelector("#setting_menu_buton_VOICE");
+		const setting_menu_buton_SOUND = document.querySelector("#setting_menu_buton_SOUND");
+		const setting_menu_buton_VIDEO = document.querySelector("#setting_menu_buton_VIDEO");
+
+
 		input_range_volume_music  .addEventListener("input", (event)=>{
-			console.log(event.target.value)
 			bar_fill_volume_music .style.width = event.target.value * 630 + 20 + 'px';
 			// chagne mute icon
+			if (event.target.value == 0) setting_menu_buton_MUSIC.src = "./assets/fromfigma/setting_menu_button_mute.png"
+			else setting_menu_buton_MUSIC.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_volume_voice  .addEventListener("input", (event)=>{
-			console.log(event.target.value)
 			bar_fill_volume_voice .style.width = event.target.value * 630 + 20 + 'px';
 			// chagne mute icon
+			if (event.target.value == 0) setting_menu_buton_VOICE.src = "./assets/fromfigma/setting_menu_button_mute.png"
+			else setting_menu_buton_VOICE.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_volume_sound  .addEventListener("input", (event)=>{
-			console.log(event.target.value)
 			bar_fill_volume_sound .style.width = event.target.value * 630 + 20 + 'px';
 			// chagne mute icon
+			if (event.target.value == 0) setting_menu_buton_SOUND.src = "./assets/fromfigma/setting_menu_button_mute.png"
+			else setting_menu_buton_SOUND.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_volume_video  .addEventListener("input", (event)=>{
-			console.log(event.target.value)
 			bar_fill_volume_video .style.width = event.target.value * 630 + 20 + 'px';
 			// chagne mute icon
+			if (event.target.value == 0) setting_menu_buton_VIDEO.src = "./assets/fromfigma/setting_menu_button_mute.png"
+			else setting_menu_buton_VIDEO.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_speed_text	  .addEventListener("input", (event)=>{
 			console.log(event.target.value)
 			bar_fill_speed_text   .style.width = event.target.value * 12 + 'px';
-			// chagne mute icon
 		});
 		input_range_speed_autoPlay.addEventListener("input", (event)=>{
 			console.log(event.target.value)
 			bar_fill_speed_autoPlay.style.width = event.target.value * 10 + 'px';
-			// chagne mute icon
 		});
 
 

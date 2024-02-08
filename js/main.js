@@ -622,7 +622,7 @@ monogatari.component('text-box').template(() => {
 
 <div class="dialog-box" style="width: 100%; height: 100%; position: relative; margin-bottom: 20px; padding-top: 12px;"    data-content="text">
   <div style="  position: relative; display: flex; justify-content: center; margin: 0px auto;  padding-top: calc(5px + 1vw); padding-left: 3%;  padding-right: 3%; padding-bottom: calc(5px + 1vw); 
-   width: 80%; height: 20vh; opacity: 0.9; border-radius: 10px;
+   width: 80%; height: 22vh; opacity: 0.9; border-radius: 10px;
    background: linear-gradient(0deg, #10588a 0%, #2d6cb5 79%, #22a2ff 100%); 
    box-shadow: 0px 0px 0px 3px #2E72C1 inset; outline: 3px solid #2E72C1; border: solid white 3px;">
 	

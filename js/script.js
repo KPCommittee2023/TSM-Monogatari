@@ -67,6 +67,7 @@ monogatari.assets("sounds", {
 
   'Running_SFX_Atria' : 'Running_SFX_Atria.mp3',
   'Walking_SFX_Esme' : 'Walking_SFX_Esme.mp3',
+  'school_bell_sfx' : 'school_bell_sfx_2.mp3',
 });
 
 // Define the videos used in the game.
@@ -95,7 +96,7 @@ monogatari.assets("scenes", {
   'kyo_cg2': 'special_scenes/Final/Kyo_CG/kyo-cg2.png',
   'kyo_sparkle': 'special_scenes/Final/Kyo_CG/kyo-sparkle.png',
 
-  'Tak_berjudul85_20230701211359': 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211359.png',
+  'skye_cg': 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211359.png',
   'Tak_berjudul85_20230701211403': 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211403.png',
   'Tak_berjudul85_20230701211407': 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211407.png',
   'Tak_berjudul85_20230701211442': 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211442.png',
@@ -1611,10 +1612,6 @@ monogatari.script({
     'stop music Atria_intro with fade 5',
     "show scene black_screen with fadeIn duration 2s",
 
-    // TEMPORARY END FOR DEMO
-    'to be continued...',
-    "jump END",
-
     'jump CHAPTER_2',
   ],
 
@@ -1635,37 +1632,38 @@ monogatari.script({
 
 
     'show character character_object_kyo Kyo_FP_Default normal',
-    "character_object_player Yawn... ",
-    "character_object_kyo Yawn... ",
+    "character_object_player <i>Yawn</i>... ",
+    "character_object_kyo <i>Yawn</i>... ",
 
 
     "character_object_narration You and Kyo sleepily make your way down through the quiet school corridor to the radio club room. Neither of you were fit to stand, let alone walk, but&mdash; ",
     "character_object_player Why are we here this early again? School hasn\'t even started yet... ",
     "character_object_kyo I\'m not happy about this either, but someone needs to prep the club equipment. S\'not like we got a tonna members to figure this shit out yet. ",
     "character_object_player We\'d have more members if you actually helped with recruitment y\'know. ",
-    "character_object_kyo Hey, that\'s what you\'re for. I have very important club president things to deal with. ",
+    "character_object_kyo Hey, that\'s what <i>you\'re</i> for. <i>I</i> have very important club president things to deal with. ",
     "character_object_narration You grumble, but the both of you continue to make your way down the hall. Even if you lumbered the whole way like a zombie who had already lost its head, only the empty corridors and a snickering Kyo would witness such a scene. ",
    
    
    
     //"character_object_kyo Kyo sprite moves to left ",
-    'show character character_object_kyo Kyo_FP_Default normal',
+    'show character character_object_kyo Kyo_FP_Default kyo-left with fadeIn',
 
     //"Skye_Smile at right, darkened Skye_Smile at right, darkene ",
-    // not sure how to do this - rubysweetie
+    'show character character_object_skye skye_smile atria-darken atria-right with fadeIn',
 
 
-    "character_object_???_skye &mdash;so with some struggle, you are able to ingest the Baia Bamare figure that is now inside your stomach&mdash; ",
+    "character_object_???_skye <i>&mdash;so with some struggle, you are able to ingest the Baia Bamare figure that is now inside your stomach&mdash;</i> ",
 
 
 
     // "character_object_kyo Kyo_FP_Shocke ",
-    'show character character_object_kyo Kyo_FP_Shocked normal',
+    'show character character_object_kyo Kyo_FP_Shocked kyo-left',
 
 
     "character_object_narration A muffled but excited voice catches your attention, stopping you in your tracks. The odd words are inescapable even to your drowsy heads. ",
-    "character_object_???_skye &mdash;Arkillia goes ahead and grabs the letter opener and puts it in their pocket... ",
+    "character_object_???_skye <i>&mdash;Arkillia goes ahead and grabs the letter opener and puts it in their pocket...</i> ",
     "character_object_player ... ",
+    "character_object_kyo ... ",
     "character_object_narration The voice continues to excitedly narrate, small mutters and giggles leaking from a small janitor\'s closet stuffed away in the corner of the school corridor. ",
     "character_object_narration Both you and Kyo look at each other baffled. ",
     
@@ -1673,9 +1671,10 @@ monogatari.script({
 
     // "character_object_kyo Kyo sprite disappear ",
     'hide character character_object_kyo',
+    'show character character_object_skye skye_smile at center with fadeIn atria-darken',
 
 
-    "character_object_???_skye &mdash;You hear the doorknob turning. As the door swings open, Eliza reenters. Alright! Let\'s wrap things up here! She pops into her chair, reorganising her papers, unaware that you\'ve been searching through them&mdash; ",
+    "character_object_???_skye <i>&mdash;You hear the doorknob turning. As the door swings open, Eliza reenters. Alright! Let\'s wrap things up here! She pops into her chair, reorganising her papers, unaware that you\'ve been searching through them&mdash;</i> ",
     "character_object_narration You approach the door, giving it a tentative knock that abruptly silences the voice. ",
     "character_object_player ... ",
     "character_object_narration You bring your hand forward to knock again when the door slowly creaks open. ",
@@ -1689,7 +1688,7 @@ monogatari.script({
     
     "character_object_narration The girl that meets you as the door opens has a cold look firmly set on her face, flinty eyes glaring at you imperiously. Had she not stuttered, her attempt at intimidation might\'ve actually worked... well, probably. ",
     "character_object_narration A slight flush climbs her face at her stumble, but she stubbornly continues to try and fake disinterest. She\'s failing miserably, but you could say she was attempting it with an almost admirable persistence. ",
-    "character_object_player Uhhh... I heard you talking, and... was wondering what you were doing in the closet... ",
+    "character_object_player Uhhh... I heard you talking, and... was wondering what you were doing in the closet...? ",
     "character_object_narration The flush on the girl\'s face only grew, her flusteredness leaking into her words, making her ramble slightly. ",
     "character_object_closet_skye Well if you must know, I was conducting a very important meeting with my friends. The closet just happens to be a very convenient place for us to do so without any disturbance or without inadvertently disturbing anyone else. ",
     "character_object_narration She pushes the closet door open further, stepping out into the hallway. She dusts her skirt off primly, not at all subtly looking away in embarrassment. The closet, left open as it was, shows no one else inside. ",
@@ -1750,7 +1749,7 @@ monogatari.script({
 
 
 
-    "character_object_narration   You roll your eyes at his obvious bait - he was the one pushing recruitment off onto you so it wasn't like he could talk.  ",
+    "character_object_narration   You roll your eyes at his obvious bait &mdash; he was the one pushing recruitment off onto you so it wasn't like he could talk.  ",
     "character_object_narration   With a grumble, you turn back to Skye, who blinks weirdly at you, looking strangely at the both of you muttering at each other. ",
     //"Scene reconverges here  Chapter_2_0014400 Scene reconverges here ",
     "jump Chapter_2_after_choice_1",
@@ -1795,12 +1794,14 @@ monogatari.script({
 
 
     // "character_object_kyo Kyo_FP_Shocked sprite appear to the left ",
-    'show character character_object_kyo Kyo_FP_Shocked normal kyo-left',
+    'show character character_object_kyo Kyo_FP_Shocked kyo-left',
+    'show character character_object_skye skye_smile atria-right',
 
 
     "character_object_narration You and Kyo look at her bewilderedly as silence meets Skye\'s question, but Skye only continues talking to the air, nodding and humming, responding as if someone was talking back to her. ",
     "character_object_skye &mdash;you\'re right, I\'m not in any other clubs right now but what about our campaigns? We usually conduct them right after school, we&mdash; ",
     "character_object_player ... ",
+    "character_object_kyo ... ",
     "character_object_narration Skye continues talking to nothing. You\'re starting to get concerned that staying in the chemical and dust filled janitor\'s closet is having a more detrimental effect on her than one would expect. ",
     "character_object_player Uhhh... Skye? ",
     "character_object_narration Skye only hums at you, looking like she was only half listening to you as she continues to nod at the thin air near her. ",
@@ -1811,8 +1812,9 @@ monogatari.script({
 
 
 
-    'show character character_object_kyo Kyo_FP_Bruh normal kyo-left',
+    'show character character_object_kyo Kyo_FP_Bruh kyo-left',
     "character_object_player ... ",
+    "character_object_kyo ... ",
 
 
 
@@ -1832,7 +1834,8 @@ monogatari.script({
    
     // "character_object_kyo Kyo Sprite becomes not the focus of scene, Skye Sprite centre ",
     // "Skye_Smile2 Skye_Smile ",
-    'show character character_object_skye skye_smile2 normal',
+    'show character character_object_kyo Kyo_FP_Bruh kyo-left atria-darken',
+    'show character character_object_skye skye_smile2 atria-right',
 
 
 
@@ -1844,9 +1847,9 @@ monogatari.script({
     "character_object_narration Skye\'s expression only brightens further, her thick glasses not nearly covering her delight ",
     "character_object_skye You\'re pretty nice. ",
     "character_object_narration She looks consideringly to the side again, her smile turning contemplative. ",
-    "character_object_skye I actually might consider visiting your club after all. After classes, of course. I\'m pretty sure I can help you with things even without joining the club. ",
+    "character_object_skye I actually might consider visiting your club after all. After classes, of course. I\'m pretty sure I can help you with things even without joining the club! ",
     "character_object_narration She suddenly rushes to grab your hand, making you stumble back in surprise. She quickly gives the limb a firm, decisive shake, before backing away just as quickly. ",
-    "character_object_skye I\'m looking at a very busy day ahead, so I\'ll be taking my leave now. It was nice to meet you, {{player.name}}. ",
+    "character_object_skye I\'m looking at a very busy day ahead, so I\'ll be taking my leave now. It was nice to meet you, {{player.name}}! ",
     "character_object_narration Skye cheerfully skips off down the school hallways, quickly disappearing through the corridors. ",
     
     
@@ -1869,21 +1872,22 @@ monogatari.script({
    
    
     // "Scene Change Scene Chang ",
-    "character_object_narration Lunch Time ",
+    "character_object_narration <i><u>[Lunch Time]</u></i> ",
 
 
 
-    "show scene school_hallway_daylight",
+    "show scene school_hallway_daylight with fadeIn",
     // "School Hallway School Hallwa ",
 
 
 
-
-    "character_object_narration ** RING ** Bell SF ",
+    //TODO: insert Bell SFX here
+    "play sound school_bell_sfx",
+    "character_object_narration ** <i>RING</i> **",
     "character_object_narration You eagerly leave your class for your break &mdash; your early start to the day didn\'t leave you much time for breakfast, and the little you did eat didn\'t sustain you \'til lunch. You\'ve been starving all day and your stomach has been trying to make itself known. ",
     "character_object_narration Encouraged by its angry rumblings, you make your way to the school store. Hopefully you weren\'t too late to grab something. No one should have to handle the angry yowling that you know your stomach would continue to make if the beast wasn\'t fed. ",
     "character_object_narration You hum thoughtfully as you think about what you\'re going to buy when the sounds of particularly loud discussion catches your attention. ",
-    "character_object_student_a &mdash;just admit it, you were the one who sprayed that ugly thing on the back of the classroom, didn\'t you. Everyone knows it was you. ",
+    "character_object_student_a &mdash;just admit it, you were the one who sprayed that ugly thing on the back of the classroom, didn\'t you. <i>Everyone</i> knows it was you. ",
     
     
     
@@ -1897,17 +1901,18 @@ monogatari.script({
     "character_object_narration You notice a group of four gathered in a quiet corner. You aren\'t sure what\'s going on, but you recognize Skye standing with her back against the wall. ",
     "character_object_narration Three others were surrounding her, blocking her from any sort of way out. The interaction doesn\'t seem like it\'s going well. You quietly duck behind a nearby wall, wondering what\'s going on. ",
     "character_object_narration Skye sighs heavily, annoyance clear in her tone and expression. ",
-    "character_object_skye Why would I graffiti the classroom? You\'re accusing me out of nowhere. Again. ",
+    "character_object_skye Why would I graffiti the classroom? You\'re accusing me out of nowhere. <i>Again.</i> ",
     "character_object_narration Skye\'s exasperated answer seems to only spur them on, with another member stepping up to batter at her unwavering stance. ",
-    "character_object_student_b Who else would\'ve done it? You\'ve always been attention seeking. Just the other day you were talking to thin air again! God, you\'re annoying on a good day but now you\'re actually destroying public property? Can you get any worse? ",
+    "character_object_student_b Who else would\'ve done it? You\'ve always been attention seeking. Just the other day you were talking to thin air <i>again</i>! God, you\'re annoying on a good day but now you\'re actually destroying public property? Can you get any worse? ",
     "character_object_narration Skye scoffs at their accusations, squinting at her classmates incredulously. ",
-    "character_object_skye No one knows who did it. The classroom doors are locked every night and they\'re only opened in the mornings, minutes before class starts. I wasn\'t even the first person to arrive today. Your accusations have no merit and exactly zero people have come to tell me their thoughts of otherwise besides you three. This is the third time you\'ve accused me of shit I didn\'t do and it\'s honestly getting out of hand. You&mdash; ",
-    "character_object_student_c Oh my god, can you just stop talking? No one wants to hear you yap all day! It\'s enough that you run your mouth in class all the time. ",
+    "character_object_skye No one knows who did it. The classroom doors are locked every night and they\'re only opened in the mornings, minutes before class starts. I wasn\'t even the first person to arrive today. ",
+    "character_object_skye Your accusations have no merit and exactly zero people have come to tell me their thoughts of otherwise besides you three. This is the third time you\'ve accused me of shit I didn\'t do and it\'s honestly getting out of hand. You&mdash; ",
+    "character_object_student_c Oh my god, can you just stop talking? No one wants to hear you yap all day! It\'s enough that you run your mouth in class all the time! ",
     "character_object_narration Rolling her eyes, Skye seems done with the whole interaction. She waves the person off, already moving to leave. ",
     "character_object_skye I\'m sorry that you\'re incapable of understanding anything higher than the most basic levels of communication, let me clear it up for you. I don\'t have time for your bs, get the fuck out of my way. ",
     "character_object_narration Skye attempts to sidestep her way out of the people surrounding her, but the increasingly angered trio move to block her way. ",
-    "character_object_student_d You sure do know how to talk, you think people like you interrupting the class every time to spout whatever bullshit opinion you have? Everyone\'s tired of you! ",
-    "character_object_student_b Yeah, I mean come on, even Sensei had to take you to the side the other day. You might be a teacher\'s pet but even they know you\'re a lunatic! ",
+    "character_object_student_d You sure do know how to talk, you think people <i>like</i> you interrupting the class every time to spout whatever bullshit opinion you have? Everyone\'s tired of you. ",
+    "character_object_student_b Yeah, I mean come on, even Sensei had to take you to the side the other day. You might be a teacher\'s pet but even they know you\'re a lunatic. ",
    
    
    
@@ -1941,7 +1946,7 @@ monogatari.script({
     "character_object_narration   You stay back a little longer. You're sure your schoolmates wouldn't resort to violence and you weren't sure Skye would appreciate a practical stranger stepping in on things they weren't fully informed on.  ",
     "character_object_student_a  You actually believe that crap. ",
     "character_object_narration   One of the trio scoffs, a derisive sneer on their face.  ",
-    "character_object_student_a  Sensei has to be nice to you - you get the best grades, so of course she sucks up to you. Nobody here actually likes you. ",
+    "character_object_student_a  Sensei <i>has</i> to be nice to you &mdash; you get the best grades, so of course she sucks up to you. Nobody here actually <i>likes</i> you. ",
     "character_object_narration   They move closer towards Skye, one of them bringing up a hand to give her a shove. Skye furrows her eyebrows, moving back to avoid the advancing group before her expression crumples when she realises there's no way for her to escape.  ",
     "character_object_narration   You frantically step forward, unsure how everything escalated so quickly. There's no way you can leave Skye alone on this.  ",
    // "Scene reconverges here   Scene reconverges here ",
@@ -1997,7 +2002,7 @@ monogatari.script({
 
 
     "character_object_narration Your attempt at talking to her fails as Skye ignores you, making another quick exit before you could really react. This time, you didn\'t feel as optimistic about your interactions as the first time you met her. ",
-    "character_object_narration ** RING * ",
+    "character_object_narration ** <i>RING</i> ** ",
     "character_object_narration The bell rings, signifying the end of your break time. It\'s a good thing your stomach had long since curdled at the thought of food after the bitter situation you just experienced. ",
     "character_object_narration Your face scrunches in worry, but you hurry yourself to your classroom. There isn\'t much you can do. Maybe Skye needs some time to herself. ",
     
@@ -2005,11 +2010,13 @@ monogatari.script({
     
     // "Scene Change Scene Chang ",
     // "After School After Schoo ",
-    "show scene school_hallway_daylight",
+    "character_object_narration <i><u>[After School]</u></i>",
+    "show scene school_hallway_daylight with fadeIn",
     // "School Hallway Day School Hallway Da ",
 
-
-    "character_object_narration *RING* School bell SFX ",
+    // TODO: insert school bell sfx
+    "play sound school_bell_sfx",
+    "character_object_narration ** <i>RING</i> ** ",
 
 
 
@@ -2021,7 +2028,7 @@ monogatari.script({
     
     
     // "Background Change Radio Clubroom Basic + Printer + Mic Background Change: Radio Clubroom Basic + Printer + Mi ",
-    "show scene music_room_basic",
+    "show scene music_room_basic_printer_mic_laptop with fadeIn",
 
 
     // "character_object_kyo Kyo_FP_Defaul ",
@@ -2029,7 +2036,7 @@ monogatari.script({
     
     
     "character_object_narration You enter the clubroom to see that Kyo has already made himself comfortable. Game console in hand, his feet casually settled on the clubroom\'s table, and his chair perched precariously on its back legs. ",
-    "character_object_player Do you ever leave this room? Why are you here already, classes just ended? ",
+    "character_object_player Do you ever leave this room? Why are you here already, classes <i>just</i> ended. ",
     "character_object_kyo \'Ey, don\'t blame me for you being slow, running through the halls ain\'t nothin\'. ",
     "character_object_narration You roll your eyes at the shorter boy, settling your bag on the table and slumping yourself on one of the chairs, heaving out a deep sigh. ",
     "character_object_narration Kyo looks up at your dramatics, raising an eyebrow at the long face you were pulling. ",
@@ -2037,7 +2044,7 @@ monogatari.script({
     "character_object_narration You scratch your head, not looking up at him, not sure how you should answer the question. ",
     "character_object_player I met up with Skye during lunch break. Some people were bothering her, and she really wasn\'t having a good time. ",
     "character_object_narration Kyo\'s eyebrows rise further at the mention of your new acquaintance, not expecting you to meet her so soon after your meeting this morning. ",
-    "character_object_kyo Yeah. ",
+    "character_object_kyo Yeah? ",
     "character_object_player Yeah, they were talking about someone graffitiing their classroom? Something crazy like that, been hearing rumours about stuff like that happening all over school lately. ",
     
     
@@ -2064,7 +2071,7 @@ monogatari.script({
     "character_object_kyo What? No, I just remembered I got shit to do, hold down the fort for me will you? ",
     "character_object_player Aren\'t you gonna help me convince Skye to join the club? ",
     "character_object_narration Kyo raises an eyebrow at you, stopping before opening the clubroom door, face set in a deadpan. ",
-    "character_object_kyo You think my caustic ass\'ll help convince her to join? ",
+    "character_object_kyo You think my caustic ass\'ll help convince her to <i>join</i>? ",
     "character_object_narration You wince slightly, remembering Kyo impulsively ribbing Skye just this morning. She didn\'t seem to take offence, but maybe exposing her too much to Kyo\'s sharp tongue too early would be ill-advised. ",
     "character_object_player Don\'t you wanna stick around to at least greet her? ",
     "character_object_kyo When\'s she coming? Does she even know where the clubroom is? ",
@@ -2099,7 +2106,7 @@ monogatari.script({
 
 
 
-    "character_object_player Skye! You\'re here! ",
+    "character_object_player Skye! You\'re here? ",
     "character_object_narration You blurt out her name in surprise, instinctively opening the clubroom door further and stepping back to allow the dark haired girl to step inside. She looks around the room, raising her brow curiously. ",
     "character_object_skye Of course, I did promise I would come. ",
     "character_object_player How\'d you find the clubroom? I forgot to tell you where it was this morning... ",
@@ -2133,10 +2140,10 @@ monogatari.script({
   
   
     // "character_object_atria Atria1_Happy appear ",
-    'show character character_object_atria atria1_happy normal atria-right',
+    'show character character_object_atria atria1_happy atria-right',
 
 
-    'show character character_object_skye fix_skye_default normal',
+    'show character character_object_skye fix_skye_default skye-left',
 
 
 
@@ -2146,7 +2153,7 @@ monogatari.script({
 
 
     // "character_object_atria Atria1_Timi ",
-    'show character character_object_atria atria1_timid normal atria-right',
+    'show character character_object_atria atria1_timid atria-right',
     
     
     
@@ -2165,14 +2172,14 @@ monogatari.script({
     "character_object_narration Skye flushes brightly, before turning back to the now confused but still shyly smiling Atria. She coughs awkwardly, bringing the discussion back to focus. ",
     "character_object_skye Anyway, like I said, I\'m not sure if joining the club would be beneficial for everyone involved. I\'d be happy to help y\'all out in general though, you seem like really nice people, mhm. ",
     "character_object_atria O-Oh, that\'s too bad. I\'m sure you\'d be a great new member. ",
-    "character_object_player I agree, that\'s kinda why I invited you in the first place. I\'m happy that you\'re willing to help us generally, but honestly, I\'d like you to stick around. I think we\'d all get along great! ",
+    "character_object_player I agree, that\'s kinda why I invited you in the first place. I\'m happy that you\'re willing to help us generally, but honestly, I\'d like you to stick around. I think we\'d all get along great. ",
    
    
    
    
    
     // "Skye_Sad  Skye_Sad ",
-    'show character character_object_skye skye_sad normal',
+    'show character character_object_skye skye_sad skye-left',
 
 
 
@@ -2183,63 +2190,44 @@ monogatari.script({
 
     "character_object_narration Skye seems to flinch at your words, her previous light-hearted expression disappearing in an instant. She looks away from you and Atria, clearly uncomfortable. ",
     "character_object_narration Your eyebrows furrow with worry, you share a glance with Atria, who is now frowning as well. ",
-    "character_object_player Can I ask why you... don\'t want to join us? You did mention you hadn\'t signed up for any other club yet, and you don\'t seem to be against the idea in general. ",
+    "character_object_player Can I ask why you... <i>don\'t</i> want to join us? You did mention you hadn\'t signed up for any other club yet, and you don\'t seem to be against the idea in general. ",
     "character_object_skye I-I\'m a very busy woman. I can\'t just start up a new club out of nowhere! After all, who would conduct my campaigns, and... ",
-    "character_object_narration Skye doesn\'t sound convincing, even to herself. She slumps in her chair, sighing tiredly, running her hand through her hair nervousl,y ",
+    "character_object_narration Skye doesn\'t sound convincing, even to herself. She slumps in her chair, sighing tiredly, running her hand through her hair nervously. ",
     "character_object_skye I-It\'d just be easier for all of us. You wouldn\'t have to deal with me too regularly, and we get to go our own ways. ",
     "character_object_narration A short silence comes after her words. You\'re shocked that the cheerful girl from this morning had given you such a self-depreciating answer. Atria, having no basis for the girl\'s personality, shyly answers, noticing the tense mood. ",
     "character_object_atria I understand, I never really got on with people very easily either. ",
     "character_object_narration Atria smiles awkwardly, trying to reassure the clearly struggling Skye. ",
     "character_object_narration You appreciate her support in this situation. It helps ground you a little, having someone else\'s perspective on this. Skye shakes her head, dismissing the notion. ",
-    "character_object_skye No no, you\'re both really nice, I tend to not work well with others. People tend to be really uncomfortable around me, and even if you didn\'t mind tolerating me, I\'ll just bring the mood down. Clubwork and community stuff like this never really suited me. ",
+    "character_object_skye No no, you\'re both really nice, <i>I</i> tend to not work well with others. People tend to be really uncomfortable around me, and even if you didn\'t mind tolerating me, I\'ll just bring the mood down. Clubwork and community stuff like this never really suited me. ",
     
     
     
     // "character_object_atria Atria1_Sad Sprite ",
-    'show character character_object_atria atria1_sad normal atria-right',
+    'show character character_object_atria atria1_sad atria-right',
 
 
     "character_object_narration Your face scrunches at hearing the familiar narrative from this afternoon, discomfort growing at hearing Skye parroting her aggressors. ",
-    "character_object_player Is this about what those people said on break? If it is, I think we should be able to find out on our own whether or not we get along. I know we just met this morning, but I think you\'re pretty great! ",
-    "character_object_skye You don\'t get it, everyone gets tired of me eventually. This isn\'t about what those idiots think, it\'s just a fact. I like to keep whatever amicable acquaintances I have and I do that by keeping some distance. ",
+    "character_object_player Is this about what those people said on break? If it is, I think we should be able to find out on our own whether or not we get along. I know we just met this morning, but I think you\'re pretty great. ",
+    "character_object_skye You don\'t get it, <i>everyone</i> gets tired of me eventually. This isn\'t about what those idiots think, it\'s just a fact. I like to keep whatever amicable acquaintances I have and I do that by keeping some distance. ",
     "character_object_narration Her voice is wrought with agitation and yours, unfortunately, rises in return. Your discomfort turns to upset at the thought of your possible friend thinking so poorly of herself, and by extension, of everyone else around her. ",
     "character_object_player I think you\'re being a little unfair here. I\'d be more comfortable with your decision if you just weren\'t sure of the club itself, or if you\'re not comfortable with interacting too closely with what would be veritable strangers. ",
-    "character_object_player But, what\'s happening is that you\'re refusing to give us any credit! You\'re so sure we\'re like those assholes that you won\'t give us a chance to even form our own opinions. ",
+    "character_object_player But, what\'s happening is that you\'re refusing to give us any credit! You\'re so sure we\'re like those assholes that you won\'t give us a chance to even form our own opinions! ",
     "character_object_skye That\'s not what I\'m saying at all! I\'m just telling you it\'s not gonna work out! ",
     "character_object_skye Maybe it is about those guys, but didn\'t you hear them? I talk weird, I talk too much, I\'m annoying, people can\'t see Pio-chan and the others and they hate it when I talk to \'em. This stuff isn\'t just a them thing! ",
     "character_object_narration Skye\'s arguments, having reached a fever pitch, suddenly tapers off. She looks to your side where Atria is before blowing out a huge sigh, agitation slowly bleeding out of her. ",
     
     
 
-    'show character character_object_atria atria2_timid normal atria-right',
+    'show character character_object_atria atria2_timid atria-right',
     // "character_object_atria Atria2_Timi ",
-
-
 
 
     "character_object_narration You turn to look at Atria, who looks almost frozen in panic. The blonde was not at all prepared to see her possible new friends fighting, especially so close after her own falling out with her previous awful friends not that long ago. ",
     "character_object_narration Skye looks away, still perturbed by your argument but no longer so fired up, leaving her sounding just... painfully tired. ",
    
    
-   
-   
-   
-   
-   
-   
-   
     // "Skye_Default Skye_Defaul ",
-    'show character character_object_skye fix_skye_default normal',
-
-
-
-
-
-
-
-
-
-
+    'show character character_object_skye fix_skye_default skye-left',
 
 
     "character_object_skye Things are just way simpler if I\'m not around most other people. I\'m easier to digest in small doses, so you\'ll get tired of me too, sooner or later. I\'m better off spending time with my friends anyway, and I can\'t do that with other people around. They look at me like I\'m crazy. ",
@@ -2249,38 +2237,21 @@ monogatari.script({
     "character_object_narration You whip your head back to her, eyes widening.  You open your mouth to call out and clear things up, but a voice stops you from doing so. ",
     
     
-    
-    
-    
-    
-    
     // "character_object_atria Atria2_Sa ",
     'show character character_object_atria atria2_sad normal atria-right',
 
 
-
-
-
     "character_object_atria W-wait! ",
     "character_object_narration Atria quickly gets up from her chair, grabbing Skye\'s hand to prevent her from leaving. The timid girl holds the limb, trembling, lips pursed tightly as tears prick her eyes. ",
-    "character_object_atria Player\'s just worried about you. I-I am too. It\'s not right that people\'ve made you think that you don\'t get to have friends, j-just because you\'re a little different. ",
+    "character_object_atria {{player.name}}\'s just worried about you. I-I am too. It\'s not right that people\'ve made you think that you don\'t get to have friends, j-just because you\'re a little different. ",
     "character_object_narration Atria smiles uncertainly down at their clasped palms, tears still pricking her vision. ",
     "character_object_atria I know the feeling... ",
     "character_object_narration Skye\'s eyes widened in surprise at the girl\'s sudden willfulness. Yours were too at this point. You knew she had some spunk to her from the way she stood up to her former friends, but you weren\'t expecting this from her. ",
     "character_object_atria You know what I think? ",
 
 
-
-
-
-
     // "character_object_atria Atria2_Nervous Sprit ",
-    'show character character_object_atria atria2_nervous normal atria-right',
-
-
-
-
-
+    'show character character_object_atria atria2_nervous atria-right',
 
 
     "character_object_narration Atria speaks up once more, looking up at Skye\'s eyes. Her smile quirks, awkwardly but genuinely, trying to reassure the taller girl. ",
@@ -2289,24 +2260,12 @@ monogatari.script({
     "character_object_atria But, maybe you\'d like some help with it? I think we both could use some practice with this friend thing. Why don\'t we try this out together? ",
    
    
-   
-   
-   
-   
-   
     // "Skye_Smile1 Skye_Smile ",
-    'show character character_object_skye skye_smile normal',
-
-
-
-
-
-
-
+    'show character character_object_skye skye_smile skye-left',
 
 
     // "character_object_atria Atria1_Happ ",
-    'show character character_object_atria atria1_happy normal atria-right',
+    'show character character_object_atria atria1_happy atria-right',
 
 
 
@@ -2337,8 +2296,11 @@ monogatari.script({
     //"Choice 1 Don't invite her to the radio club  Chapter_2_0086300 Choice 1: Don't invite her to the radio club ",
     "character_object_narration   You aren't sure how appropriate it would be to bring up the subject again after such a charged exchange, especially considering that the tension was one started by you. You stay quiet, releasing your hold on her hand.  ",
     "character_object_narration   To your surprise, a voice pipes up from beside Skye, finally approaching closer after your apologies were finished. ",
+
+    "show character character_object_atria atria2_happy atria-right",
+
     "character_object_atria  Skye? Would you maybe consider joining us? Maybe even if it's later on? ",
-    "character_object_narration   You're surprised once again by the girl's boldness. Looks like she was the braver one out of the two of you. You smile at Skye, emboldened by your friend to ask again. ",
+    "character_object_narration   You're surprised once again by the girl's boldness. Looks like <i>she</i> was the braver one out of the two of you. You smile at Skye, emboldened by your friend to ask again. ",
     //"Scene reconverges here   Scene reconverges here ",
     "jump Chapter_2_after_choice_3",
   ],
@@ -2361,25 +2323,17 @@ monogatari.script({
     "character_object_narration You aren\'t sure if the invite would be taken well, but Skye smiles softly at the two of you. She nods her head, one of her hands coming up to rest on her waist as the next words come out of her mouth. ",
    
    
-   
-   
-   
-   
-   
-   
-    'show character character_object_skye skye_smile2 normal skye-left',
-    "Skye Skye_Smile2 Well, you two do look like you could use some help. Where do you think we should start? ",
-
-
-
-
-
+    "show character character_object_skye skye_smile2 skye-left",
+    "character_object_skye Well, you two do look like you could use some help. Where do you think we should start? ",
 
 
     "character_object_narration Atria smiles softly as she takes Skye\'s hand in hers once more, dragging her to sit on the table as they start discussing ideas for the radio club, what they would prepare for the first broadcast, what news was popular in the school. ",
     "character_object_narration Whatever it is, it seems like they\'re having fun. You can hear Skye snorting with laughter, Atria\'s quieter giggles interspersed a little more rarely in the conversation. ",
     "character_object_narration You smile at them as you move to settle on the table. ",
-    "Skye CG Skye C ",
+
+    // Skye CG
+    "show scene skye_cg with fadeIn",
+
     "character_object_narration Kyo slips into the room in the middle of all the excitement, quietly sneaking into the corner of the room, settling for looking at what was going on. ",
     "character_object_narration You move to greet him &mdash; and maybe grill him for missing yet another certified moment with your new club members &mdash; when Kyo motions for you to stop. ",
     "character_object_narration He moves his hands in a shushing motion, gesturing for you to be quiet. The two girls continue their excited discussion, completely unaware of Kyo\'s entrance. ",
@@ -2388,8 +2342,12 @@ monogatari.script({
     // end-of-CHAPTER-2-mark
 
 
-    'stop music SkyeMaster with loop', 
+    'stop music SkyeMaster with fade 5', 
 
+    // TEMPORARY END FOR DEMO
+    "show scene black_screen with fadeIn duration 2s",
+    'to be continued...',
+    "jump END",
 
     'jump CHAPTER_3'
   ],

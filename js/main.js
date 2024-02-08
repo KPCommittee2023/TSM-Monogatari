@@ -344,6 +344,19 @@ monogatari.component('main-menu').template(() => {
 monogatari.component('settings-screen').template(() => {
 	return `
 
+	<div style="
+	width: 100%;
+	height: 100%;
+	position: sticky;
+	background: #2E72C1;
+	opacity: 0.6;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0; 
+	z-index: 0;"></div>
+
     <button class="top left" data-action="back">
         <svg class="svg-inline--fa fa-arrow-left fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas"
             data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
@@ -353,8 +366,12 @@ monogatari.component('settings-screen').template(() => {
         </svg> <!-- <span class="fas fa-arrow-left"></span> Font Awesome fontawesome.com --></button>
 
 
-  <div style="width: 1585px; height: 100%; position: relative; margin: auto;"  class = "setting-menu-zoom_to_fit">
-    <div style="width: 1557.13px; height: 100%; left: 27.87px; top: 0px; position: absolute; background: rgba(46, 114, 193, 0.90)"></div>
+  <div style=" overflow: hidden; width: 1585px; height: 100%; position: relative; margin: auto;"  class = "setting-menu-zoom_to_fit">
+    <div style="width: 1557.13px; height: 100%; left: 27.87px; top: 0px; position: absolute; background: rgba(46, 114, 193, 0.90)">
+		<button id="setting-menu-back-btn" data-action="back" style=" opacity: 0.4; width: 270.026px; height: 280.057px; transform: rotate(-45.791deg); flex-shrink: 0; border: 5px solid #FFF; background: #C1E6FF; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; bottom: -8%; right: -3%; color: #FFF; text-align: center; font-family: Nunito; font-size: 48px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 4.08px; border-radius: 0; align-items: flex-start; text-shadow: 2px 6px 1px #7FD6FA, -2px 6px 1px #7FD6FA, 1.5px 1.5px 0 #7FD6FA, -1.5px 1.5px 0px #7FD6FA, -1.5px -1.5px 0px #7FD6FA, 1.5px -1.5px 0px #7FD6FA;">
+			BACK
+		</button>
+	</div>
     <div style="width: 1174.61px; height: 100%; left: 0px; top: 68.40px; position: absolute; opacity: 0.20; mix-blend-mode: soft-light; border-radius: 11px"></div>
 
 
@@ -555,6 +572,8 @@ monogatari.component('settings-screen').template(() => {
       <div style="width: 29.24px; height: 30.33px; left: 29.07px; top: 0px; position: absolute; transform: rotate(45.64deg); transform-origin: 0 0; background: #2E72C1; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid"></div>
       <div style="width: 11.89px; height: 12.33px; left: 8.86px; top: 12.65px; position: absolute; transform: rotate(45.64deg); transform-origin: 0 0; background: #498FCD; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid"></div>
     </div>
+
+	
 
   </div>
 
@@ -778,6 +797,19 @@ monogatari.component('credits-screen').template(() => {
 monogatari.component('load-screen').template(() => {
 	return `
 
+	<div style="
+	width: 100%;
+	height: 100%;
+	position: sticky;
+	background: #2E72C1;
+	opacity: 0.6;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0; 
+	z-index: 0;"></div>
+	
 	<div  class="zoom_to_fit" style="margin: auto; background: linear-gradient(0deg, rgba(205, 222, 255, 0.80) 0%, rgba(205, 222, 255, 0.80) 100%), linear-gradient(180deg, rgba(127, 214, 250, 0.90) 78.62%, rgba(254, 130, 219, 0.90) 101.65%); width: 1920px; height: 1080px; background-size: cover; display: flex; align-items: center; justify-content: center; padding: 5% 2%; overflow: hidden; position: relative;
 	">
 	<div style="width: 1557px; border-radius: 11px; border: 3px solid white; height: 856px; box-shadow: 0px 0px 0px 3px #2E72C1 inset; outline: 3px solid #2E72C1; background-image: url(./assets/fromfigma/load_bg.png); position: relative; padding: 4% 5% 4% 6%; display: flex; flex-direction: column; row-gap: 45px;">

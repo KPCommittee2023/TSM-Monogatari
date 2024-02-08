@@ -957,3 +957,7 @@ input[type=range]::-ms-fill-upper {
 		font-size: 28px;
 	}
 }
+
+#setting-menu-back-btn:hover{
+	opacity: 1 !important; 
+}

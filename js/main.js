@@ -340,10 +340,10 @@ monogatari.component('settings-screen').template(() => {
         </svg> <!-- <span class="fas fa-arrow-left"></span> Font Awesome fontawesome.com --></button>
 
 
-  <div style="width: 1585px; height: 925.13px; position: relative; margin: auto;"  class = "setting-menu-zoom_to_fit">
-    <div style="width: 1557.13px; height: 856.25px; left: 27.87px; top: 0px; position: absolute; background: rgba(46, 114, 193, 0.90)"></div>
-    <img style="width: 1553.76px; height: 855.41px; left: 31.24px; top: 0.84px; position: absolute; opacity: 0.20; mix-blend-mode: soft-light; border-radius: 11px" src="https://via.placeholder.com/1554x855" />
-    <div style="width: 1174.61px; height: 180.71px; left: 0px; top: 68.40px; position: absolute; opacity: 0.20; mix-blend-mode: soft-light; border-radius: 11px"></div>
+  <div style="width: 1585px; height: 100%; position: relative; margin: auto;"  class = "setting-menu-zoom_to_fit">
+    <div style="width: 1557.13px; height: 100%; left: 27.87px; top: 0px; position: absolute; background: rgba(46, 114, 193, 0.90)"></div>
+    <img style="width: 1553.76px; height: 100%; left: 31.24px; top: 0.84px; position: absolute; opacity: 0.20; mix-blend-mode: soft-light; border-radius: 11px" src="https://via.placeholder.com/1554x855" />
+    <div style="width: 1174.61px; height: 100%; left: 0px; top: 68.40px; position: absolute; opacity: 0.20; mix-blend-mode: soft-light; border-radius: 11px"></div>
 
 
 

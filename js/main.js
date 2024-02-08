@@ -30,9 +30,22 @@ monogatari.component ('main-screen').template (() => {
 	return `
 
 	
-<div style="position:relative; overflow:hidden;  margin: auto; " class = "zoom_to_fit"> 
-<div
-	style="width: 1920px; height: 1080px; position: relative; background: #2E72C1; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)";   >
+<div style="position:relative; overflow:hidden;  margin: auto; " class = "zoom_to_fit">
+
+<div style="
+	width: 100%;
+	height: 100%;
+	position: sticky;
+	background: #2E72C1;
+	opacity: 0.6;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0; 
+	z-index: 0;"></div>
+
+<div style="width: 1920px; height: 1080px; position: relative; background: #2E72C1; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)";   >
 	<div style="width: 2158px; height: 1450px; left: -238px; top: -7px; position: absolute";>
 		<div
 			style="width: 2158px; height: 1114px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #A5DFF3 9%, #268BFF 100%)">

@@ -501,7 +501,7 @@ monogatari.component('settings-screen').template(() => {
 			class = "input_range"
 			style="
 				padding: 0px;
-				width: 580px; 
+				width: 578px; 
 				height: 52px; 
 				left: -15px; 
 				top: -25px; 
@@ -519,10 +519,10 @@ monogatari.component('settings-screen').template(() => {
 			class = "input_range"
 			style="
 				padding: 0px;
-				width: 580px; 
+				width: 578px; 
 				height: 52px; 
 				left: -15px; 
-				top: -25px; 
+				top: -24px; 
 				position: absolute;
 		">
 

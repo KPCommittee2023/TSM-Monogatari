@@ -340,7 +340,7 @@ monogatari.component('settings-screen').template(() => {
         </svg> <!-- <span class="fas fa-arrow-left"></span> Font Awesome fontawesome.com --></button>
 
 
-  <div style="width: 1585px; height: 925.13px; position: relative; margin: auto;"  class = "zoom_to_fit">
+  <div style="width: 1585px; height: 925.13px; position: relative; margin: auto;"  class = "setting-menu-zoom_to_fit">
     <div style="width: 1557.13px; height: 856.25px; left: 27.87px; top: 0px; position: absolute; background: rgba(46, 114, 193, 0.90)"></div>
     <img style="width: 1553.76px; height: 855.41px; left: 31.24px; top: 0.84px; position: absolute; opacity: 0.20; mix-blend-mode: soft-light; border-radius: 11px" src="https://via.placeholder.com/1554x855" />
     <div style="width: 1174.61px; height: 180.71px; left: 0px; top: 68.40px; position: absolute; opacity: 0.20; mix-blend-mode: soft-light; border-radius: 11px"></div>
@@ -491,7 +491,7 @@ monogatari.component('settings-screen').template(() => {
 
     <div style="width: 686px; height: 371px; left: 82px; top: 324.13px; position: absolute">
       <div style="width: 686px; height: 301px; left: 0px; top: 31px; position: absolute; opacity: 0.70; background: linear-gradient(348deg, #90CAFF 0%, #7FD6FA 100%); box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50); border-radius: 60px; border: 5px white solid"></div>
-      <div style="width: 218.92px; height: 185px; left: 44.91px; top: 56px; position: absolute; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Text Speed:</div>
+      <div style="width: 318.92px; height: 185px; left: 44.91px; top: 56px; position: absolute; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Text Speed:</div>
       <div style="width: 479.35px; height: 185px; left: 44.91px; top: 186px; position: absolute; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Auto-Forward Speed:</div>
       <div style="width: 545.40px; height: 85px; left: 46.14px; top: 0px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">Text settings</div>
  

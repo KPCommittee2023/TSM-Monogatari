@@ -95,6 +95,12 @@ button:hover {
  * ===========================
 **/
 
+/* Save Screen Style */
+
+save-screen {
+    background: rgba(46, 114, 193, 0.6);
+}
+
 /* Slots Style */
 
 save-slot.animated.row__column.row_column--6.row__column--tablet--4.row__column--desktop--3.row__column--desktop-large--2 {
@@ -169,6 +175,11 @@ save-slot [data-content=background] {
 
 .animated.row__column.row_column--6.row__column--tablet--4.row__column--desktop--3.row__column--desktop-large--2 {
 	all: unset;
+}
+
+/* Credits Screen Styling */
+credits-screen {
+    background: rgba(46, 114, 193, 0.6);
 }
 
 /**
@@ -459,16 +470,163 @@ centered-dialog [data-content=wrapper] {
     display: none;
 }
 
-/* Quit style */
+/* Alert modals styles */
+
+alert-modal.animated.modal.modal--active {
+    background: linear-gradient(0deg, rgba(205, 222, 255, 0.50) 0%, rgba(205, 222, 255, 0.5) 100%), linear-gradient(180deg, rgba(127, 214, 250, 0.50) 78.62%, rgba(254, 130, 219, 0.50) 101.65%);
+}
+
 alert-modal.modal .modal__content {
-    background-color: #2E72C1;
-    box-shadow: none;
-    outline: none;
+    background-color: white;
     border-radius: 14px;
+	padding-top: 2%;
+    padding-bottom: 1.5%;
+	display: flex;
+	align-items: center;
+	overflow: visible;
+}
+
+alert-modal div[data-content="actions"] {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    overflow: visible;
+	position: relative;
 }
 
 alert-modal .modal__content p {
+    color: #2E72C1;
+    font-family: 'Nunito';
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+alert-modal input[type=text] {
+    margin-bottom: 2rem;
+    text-align: center;
+    background-color: #2E72C1;
+    font-family: 'Nunito';
     color: white;
+    border-radius: 11px;
+    font-style: italic;
+}
+
+/* Overwrite slote and delete slot style */
+
+button[data-action="overwrite-slot"] {
+    position: absolute;
+    font-family: 'Nunito';
+    font-weight: 900;
+    color: #2E72C1;
+    background: url(../assets/fromfigma/quit_hover_button.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 7px;
+    left: -12px;
+}
+
+button[data-action="dismiss-alert"] {
+    position: absolute;
+    font-family: 'Nunito';
+    font-weight: 900;
+    color: #2E72C1;
+    background: url(../assets/fromfigma/quit_hover_button.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 7px;
+    right: -12px;
+}
+
+alert-modal small[data-content="context"] {
+    font-family: 'Nunito';
+    font-style: italic;
+    color: #2E72C1;
+    font-weight: 500;
+}
+
+button[data-action="delete-slot"] {
+    position: absolute;
+    font-family: 'Nunito';
+    font-weight: 900;
+    background: transparent;
+    color: #2E72C1;
+    background: url(../assets/fromfigma/quit_hover_button.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 7px;
+    left: -12px;
+}
+
+/* Quit style */
+
+alert-modal[message="Confirm"] .modal__content {
+    background: url(../assets/fromfigma/quit_box_bg.png);
+    background-size: cover;
+	box-shadow: none;
+    outline: none;
+}
+
+alert-modal[message="Confirm"] .modal__content p {
+    color: transparent;
+}
+
+alert-modal[message="Confirm"] .modal__content {
+    display: block;
+}
+
+p[data-string="Confirm"][data-content="message"] {
+    line-height: 0;
+    color: transparent;
+    font-family: 'Nunito';
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p[data-string="Confirm"][data-content="message"]:after {
+    content: "Are you sure you want to quit?";
+    display: block;
+    line-height: initial;
+    text-indent: 0;
+    color: white;
+}
+
+button[data-action="quit"] {
+    font-family: 'Nunito';
+    font-weight: 900;
+    background: transparent;
+    position: absolute;
+	top: 0;
+}
+
+button[data-action="quit"]:hover {
+    background: url(../assets/fromfigma/quit_hover_button.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    color: #2E72C1;
+}
+
+alert-modal[message="Confirm"] button[data-action="dismiss-alert"][data-string="Cancel"] {
+    color: white;
+    font-family: 'Nunito';
+    font-weight: 900;
+    background: transparent;
+    position: absolute;
+	top: 0;
+}
+
+alert-modal[message="Confirm"] button[data-action="dismiss-alert"][data-string="Cancel"]:hover {
+	background: url(../assets/fromfigma/quit_hover_button.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    color: #2E72C1;
 }
 
 /* Character Images Styles */
@@ -696,6 +854,63 @@ input[type=range]::-ms-fill-upper {
 		width: 322.15px;
 		height: 80px;
 	}
+	
+	alert-modal.modal .modal__content {
+		width: 40%;
+	}
+
+	p[data-string="Confirm"][data-content="message"] {
+		font-size: 24px;
+	}
+
+	alert-modal[message="Confirm"] div[data-content="actions"] {
+		height: 85px;
+	}
+	
+	button[data-action="quit"] {
+		font-size: 28px;
+		width: 300px;
+		height: 75px;
+		right: -60px;
+	}
+
+	alert-modal[message="Confirm"] button[data-action="dismiss-alert"][data-string="Cancel"] {
+		font-size: 28px;
+		width: 300px;
+		left: -60px;
+		height: 75px;
+	}
+
+	alert-modal .modal__content p {
+		font-size: 20px;
+	}
+
+	alert-modal input[type=text] {
+		width: 350px;
+		height: 40px;
+		font-size: 20px;
+	}
+
+	button[data-action="overwrite-slot"] {
+		width: 275px;
+		height: 70px;
+		top: -20px;
+		font-size: 20px;
+	}
+
+	button[data-action="dismiss-alert"] {
+		width: 275px;
+		height: 70px;
+		top: -20px;
+		font-size: 20px;
+	}
+
+	button[data-action="delete-slot"] {
+		width: 275px;
+		height: 70px;
+		top: 5px;
+		font-size: 20px;
+	}
 }
 
 /** HD Screen, Large Devices, Wide Screens, Desktop (1200px) **/
@@ -812,6 +1027,79 @@ input[type=range]::-ms-fill-upper {
 		width: 322.15px;
 		height: 80px;
 	}
+
+	alert-modal.modal .modal__content {
+		width: 40%;
+	}
+
+	p[data-string="Confirm"][data-content="message"] {
+		font-size: 24px;
+	}
+
+	alert-modal[message="Confirm"] div[data-content="actions"] {
+		height: 85px;
+	}
+	
+	button[data-action="quit"] {
+		font-size: 28px;
+		width: 300px;
+		height: 75px;
+		right: -60px;
+	}
+
+	alert-modal[message="Confirm"] button[data-action="dismiss-alert"][data-string="Cancel"] {
+		font-size: 28px;
+		width: 300px;
+		left: -60px;
+		height: 75px;
+	}
+
+	alert-modal .modal__content p {
+		font-size: 20px;
+	}
+
+	alert-modal input[type=text] {
+		width: 350px;
+		height: 40px;
+		font-size: 20px;
+	}
+
+	button[data-action="overwrite-slot"] {
+		width: 275px;
+		height: 70px;
+		top: -20px;
+		font-size: 20px;
+	}
+
+	button[data-action="dismiss-alert"] {
+		width: 275px;
+		height: 70px;
+		top: -20px;
+		font-size: 20px;
+	}
+
+	alert-modal small[data-content="context"] {
+		font-family: 'Nunito';
+		font-size: 26px;
+		font-style: italic;
+		color: #2E72C1;
+		font-weight: 500;
+	}
+
+	alert-modal[message="SlotDeletion"] div[data-content="actions"] {
+		height: 20px;
+	}
+	
+	alert-modal[message="SlotDeletion"] button[data-action="dismiss-alert"] {
+		top: 5px;
+	}
+
+	button[data-action="delete-slot"] {
+		width: 275px;
+		height: 70px;
+		top: 5px;
+		font-size: 20px;
+	}
 }
 
 /** Full HD Screen, Large Devices, Wide Screens, Large Desktops (1920px) **/
@@ -927,6 +1215,83 @@ input[type=range]::-ms-fill-upper {
 		bottom: -300%;
 		width: 489.15px;
 		height: 93.2px;
+	}
+
+	alert-modal.modal .modal__content {
+		width: 37.5%;
+	}
+
+	p[data-string="Confirm"][data-content="message"] {
+		font-size: 28px;
+	}
+
+	alert-modal div[data-content="actions"] {
+		height: 10px;
+	}
+
+	alert-modal[message="Confirm"] div[data-content="actions"] {
+		height: 100px;
+	}
+	
+	button[data-action="quit"] {
+		font-size: 36px;
+		width: 400px;
+		height: 90px;
+		right: -82px;
+	}
+
+	alert-modal[message="Confirm"] button[data-action="dismiss-alert"][data-string="Cancel"] {
+		font-size: 36px;
+		width: 400px;
+		left: -82px;
+		height: 90px;
+	}
+
+	alert-modal .modal__content p {
+		font-size: 28px;
+	}
+
+	alert-modal input[type=text] {
+		width: 450px;
+		height: 54px;
+		font-size: 28px;
+	}
+
+	button[data-action="overwrite-slot"] {
+		width: 375px;
+		height: 86px;
+		top: -12px;
+		font-size: 28px;
+	}
+
+	button[data-action="dismiss-alert"] {
+		width: 375px;
+		height: 86px;
+		top: -12px;
+		font-size: 28px;
+	}
+
+	alert-modal small[data-content="context"] {
+		font-family: 'Nunito';
+		font-size: 36px;
+		font-style: italic;
+		color: #2E72C1;
+		font-weight: 500;
+	}
+
+	alert-modal[message="SlotDeletion"] div[data-content="actions"] {
+		height: 40px;
+	}
+	
+	alert-modal[message="SlotDeletion"] button[data-action="dismiss-alert"] {
+		top: 20px;
+	}
+
+	button[data-action="delete-slot"] {
+		width: 375px;
+		height: 86px;
+		top: 20px;
+		font-size: 28px;
 	}
 }
 

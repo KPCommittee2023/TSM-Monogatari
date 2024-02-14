@@ -204,13 +204,30 @@ monogatari.component ('main-screen').template (() => {
 			<img style="width: 678px; height: 1356px" src=" ./assets/fromfigma/893af70dcdcc7dccae6bd9b63726d428.png " />
 		</div>
 		<div data-action="open-screen" data-open="credits"
+			class = "credit_button_tooltip_trigger"
 			style="width: 270.03px; height: 280.06px; bottom: -19.5%; right: 1%; position: absolute; transform: rotate(-45.79deg); transform-origin: 0 0; background: #C1E6FF; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 5px white solid; color: white; font-size: 48px; font-family: Nunito; font-weight: 900; letter-spacing: 4.08px; word-wrap: break-word; text-shadow: 2px 6px 1px #7FD6FA, -2px 6px 1px #7FD6FA, 1.5px 1.5px 0 #7FD6FA, -1.5px 1.5px 0px #7FD6FA, -1.5px -1.5px 0px #7FD6FA, 1.5px -1.5px 0px #7FD6FA;">
 			Credits
 		</div>
 		<div data-action="open-screen" data-open="credits"
+			class = "credit_button_tooltip_trigger"
 			style="width: 270.03px; height: 280.06px; bottom: -19.5%; right: 1%; position: absolute; transform: rotate(-45.79deg); transform-origin: 0 0; background: transparent; z-index: 1; color: white; font-size: 48px; font-family: Nunito; font-weight: 900; letter-spacing: 4.08px; word-wrap: break-word; text-shadow: 2px 6px 1px #7FD6FA, -2px 6px 1px #7FD6FA, 1.5px 1.5px 0 #7FD6FA, -1.5px 1.5px 0px #7FD6FA, -1.5px -1.5px 0px #7FD6FA, 1.5px -1.5px 0px #7FD6FA;">
 			Credits
 		</div>
+		
+		<div 
+			data-action="open-screen" data-open="credits"
+			class="credit_button_tooltip credit_button_tooltip_trigger">
+			Artists, Music Composers, Writers, Project Managers, Developers open for commissions!
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+
 		<div class="main-button" data-action="start" 
 			style="width: 276px; height: 58px; left: 1485px; top: 378px; position: absolute; text-align: left; display: flex; z-index: 1;">
 			<div style="width: 70px; height: 100%;">
@@ -732,7 +749,7 @@ monogatari.component('credits-screen').template(() => {
 					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Programmers:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
-					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">AlphaBud<br>Fili<br>Lisbeth Arias<br>StolasHoliday<br>weepymice</p>
+					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Alpaka<br>Fili<br>Lisbeth Arias<br>StolasHoliday<br>weepymice<br>rubysweetie</p>
 					</div>
 				</div>
 				<div style="display: flex; width: 100%;">

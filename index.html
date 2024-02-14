@@ -255,6 +255,39 @@
 				}
 			}
 
+			.credit_button_tooltip:hover{
+				opacity: 1;
+			}
+			
+		
+			.credit_button_tooltip {
+				opacity: 0;
+				width: 400px;
+				background-color: black;
+				color: #fff;
+				text-align: center;
+				border-radius: 6px;
+				padding: 5px 0;
+
+				/* Position the tooltip */
+				position: absolute;
+				bottom: -17.5%;
+				right: 1%; 
+				z-index: 999;
+				transform: rotate(-45.79deg); 
+				transform-origin: 0 0; 
+				background: transparent; 
+				color: white; 
+				font-size: 18px; 
+				font-family: Nunito; 
+				font-weight: 900; 
+				letter-spacing: 4.08px; 
+				word-wrap: break-word; 
+				text-shadow: 2px 2px 2px #fa7fe7, 1.5px 1.5px 0 #fa7fde;
+				/* border: 2px solid red; */
+			}
+
+
 		</style>
 		<!-- Monogatari CSS Libraries -->
 		<link rel="stylesheet" href="./engine/core/monogatari.css">

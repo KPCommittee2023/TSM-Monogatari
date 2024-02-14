@@ -542,40 +542,40 @@ monogatari.script({
 
 
 
-    // {
-    //   'Choice': {
-    //     'Dialog': 'Jump to certain chapter? \
-		// 		<br>\
-		// 		 (This for developer to use. Delete in actual relesase.)\
-		// 		<br>\
-		// 		 (top of script.js)',
+    {
+      'Choice': {
+        'Dialog': 'Jump to certain chapter? \
+				<br>\
+				 (This for developer to use. Delete in actual relesase.)\
+				<br>\
+				 (top of script.js)',
 
-    //     'CHAPTER_0': {
-    //       'Text': 'CHAPTER_0',
-    //       'Do': 'jump CHAPTER_0'
-    //     },
-    //     'CHAPTER_1': {
-    //       'Text': 'CHAPTER_1',
-    //       'Do': 'jump CHAPTER_1'
-    //     },
-    //     'CHAPTER_2': {
-    //       'Text': 'CHAPTER_2',
-    //       'Do': 'jump CHAPTER_2'
-    //     },
-    //     'CHAPTER_3': {
-    //       'Text': 'CHAPTER_3',
-    //       'Do': 'jump CHAPTER_3'
-    //     },
-    //     'CHAPTER_E': {
-    //       'Text': 'CHAPTER_E',
-    //       'Do': 'jump CHAPTER_E'
-    //     },
-    //     'END': {
-    //       'Text': 'END',
-    //       'Do': 'jump END'
-    //     }
-    //   }
-    // },
+        'CHAPTER_0': {
+          'Text': 'CHAPTER_0',
+          'Do': 'jump CHAPTER_0'
+        },
+        'CHAPTER_1': {
+          'Text': 'CHAPTER_1',
+          'Do': 'jump CHAPTER_1'
+        },
+        'CHAPTER_2': {
+          'Text': 'CHAPTER_2',
+          'Do': 'jump CHAPTER_2'
+        },
+        'CHAPTER_3': {
+          'Text': 'CHAPTER_3',
+          'Do': 'jump CHAPTER_3'
+        },
+        'CHAPTER_E': {
+          'Text': 'CHAPTER_E',
+          'Do': 'jump CHAPTER_E'
+        },
+        'END': {
+          'Text': 'END',
+          'Do': 'jump END'
+        }
+      }
+    },
     
     'jump CHAPTER_0'
   ],
@@ -617,7 +617,7 @@ monogatari.script({
     "show scene music_room_basic with fadeIn",
     
     // "character_object_kyo Kyo_BP_Defaul ",
-    'show character character_object_kyo Kyo_BP_Default normal',
+    'show character character_object_kyo Kyo_BP_Default normal with fadeIn',
 
     // "Centered Centere ",
     "character_object_narration There\'s only one student here. Yet, you can tell that you\'re in the right place. Her appearance is just as colorful as the poster, and the graffiti beside her only emphasizes that. ",
@@ -1624,7 +1624,7 @@ monogatari.script({
     "hide video background_loop animate__animated animate__fadeOut animate__faster",
 
     // "Background School Hallway Background: School Hallwa ",
-    "show scene school_hallway_daylight",
+    "show scene school_hallway_daylight with fadeIn",
 
 
     // "Skye's BGM Skye\'s BG ",
@@ -2100,7 +2100,7 @@ monogatari.script({
    
    
     // "Skye_Default Skye_Defaul ",
-    'show character character_object_skye fix_skye_default normal',
+    'show character character_object_skye fix_skye_default normal with fadeIn',
 
 
 
@@ -2153,7 +2153,7 @@ monogatari.script({
 
 
     // "character_object_atria Atria1_Timi ",
-    'show character character_object_atria atria1_timid atria-right',
+    'show character character_object_atria atria1_timid atria-right with fadeIn',
     
     
     
@@ -2370,19 +2370,19 @@ monogatari.script({
 
 
 
-    "character_object_narration It\'s been a couple of days since Skye joined the group ",
-    "character_object_narration The Radio Club is now livelier than ever, much to Kyo\'s playful dismay, as you, Atria, and Skye chat loudly and often in the club room ",
-    "character_object_narration Now, all you need is one more member to make the club official. But who ",
+    "character_object_narration It\'s been a couple of days since Skye joined the group. ",
+    "character_object_narration The Radio Club is now livelier than ever, much to Kyo\'s playful dismay, as you, Atria, and Skye chat loudly and often in the club room. ",
+    "character_object_narration Now, all you need is one more member to make the club official. But who? ",
 
 
 
     // "Transition to School Hallway Day Transition to School Hallway Da ",
-    "show scene school_hallway_daylight",
+    "show scene school_hallway_daylight with fadeIn",
 
 
 
 
-    "character_object_narration As you\'re deep in thought and walking down the hallways of ILUNA Academy, you snap to attention when you hear loud giggles, flirts, and cheers coming from a crowd in front of you ",
+    "character_object_narration As you\'re deep in thought and walking down the hallways of ILUNA Academy, you snap to attention when you hear loud giggles, flirts, and cheers coming from a crowd in front of you. ",
    
    
    
@@ -2393,21 +2393,21 @@ monogatari.script({
 
 
 
-    "character_object_narration In the center of the crowd is a tall dude with dark turquoise hair, lots of black and shiny bling, and pretty turquoise-gold eyes ",
-    "character_object_narration Some of the people in the crowd have signs in their hands ",
-    "character_object_narration \"We love you, Esmeray!\" says the one in the hands of an enthusiastically cheering girl ",
-    "character_object_narration \"The Prince of the Dark Moon, and my heart <3\" says another in the hands of a tall, totally smitten boy ",
-    "character_object_narration The person in the center winks at the two of them, a lax smile on his face as he does so ",
-    "character_object_narration The two start squealing before the girl faints in the boy\'s arms, making him drop his sign ",
-    "character_object_player That must be the popular guy of the school I heard about. Esmeray Regulus, I think ",
-    "character_object_narration You don\'t really pay too much attention to the crowd. If anything, it\'s a little annoying ",
-    "character_object_narration The bell rings, meaning most students will be late to their class if they don\'t get going, including yourself ",
-    "character_object_student 	See you later, Esmeray ",
-    "character_object_narration You walk past the crowd, hearing Esmeray laugh at the random person and wave at them ",
-    "character_object_narration 	You slow down your pace. Something about that laugh is weird ",
-    "character_object_narration 	You turn around, looking closely at Esmeray ",
-    "character_object_narration Sure enough, although Esmeray\'s face is smiling, his eyes look empty ",
-    "character_object_narration You move so that you\'re partially hidden by a nearby trash can, continuing to observe Esmeray ",
+    "character_object_narration In the center of the crowd is a tall dude with dark turquoise hair, lots of black and shiny bling, and pretty turquoise-gold eyes. ",
+    "character_object_narration Some of the people in the crowd have signs in their hands. ",
+    "character_object_narration \"We love you, Esmeray!\" says the one in the hands of an enthusiastically cheering girl. ",
+    "character_object_narration \"The Prince of the Dark Moon, and my heart <3\" says another in the hands of a tall, totally smitten boy. ",
+    "character_object_narration The person in the center winks at the two of them, a lax smile on his face as he does so. ",
+    "character_object_narration The two start squealing before the girl faints in the boy\'s arms, making him drop his sign. ",
+    "character_object_player That must be the popular guy of the school I heard about. Esmeray Regulus, I think. ",
+    "character_object_narration You don\'t really pay too much attention to the crowd. If anything, it\'s a little annoying. ",
+    "character_object_narration The bell rings, meaning most students will be late to their class if they don\'t get going, including yourself. ",
+    "character_object_student 	See you later, Esmeray! ",
+    "character_object_narration You walk past the crowd, hearing Esmeray laugh at the random person and wave at them. ",
+    "character_object_narration 	You slow down your pace. Something about that laugh is weird. ",
+    "character_object_narration 	You turn around, looking closely at Esmeray. ",
+    "character_object_narration Sure enough, although Esmeray\'s face is smiling, his eyes look empty. ",
+    "character_object_narration You move so that you\'re partially hidden by a nearby trash can, continuing to observe Esmeray. ",
 
 
 
@@ -2416,14 +2416,14 @@ monogatari.script({
 
 
 
-    "character_object_narration Once the crowd is gone, you see Esmeray\'s smile fall, and his entire face becomes cold. He then starts trudging to his class ",
-    "character_object_narration Your eyes widen at what you\'ve just seen, but your thoughts will have to wait. You\'re late to class ",
+    "character_object_narration Once the crowd is gone, you see Esmeray\'s smile fall, and his entire face becomes cold. He then starts trudging to his class. ",
+    "character_object_narration Your eyes widen at what you\'ve just seen, but your thoughts will have to wait. You\'re late to class! ",
    
    
    
    
     // "Transition to Hallway BG Transition to Hallway B ",
-    "show scene school_hallway_daylight",
+    "show scene school_hallway_daylight with fadeIn",
 
 
 
@@ -2434,15 +2434,15 @@ monogatari.script({
 
 
 
-    "character_object_narration The day is finally over, and you\'re heading to the Radio Club. You need to strategize with Kyo on how to gain your last member ",
-    "character_object_narration On your way there, you hear the faint sounds of guitar chords accompanied by a muffled voice ",
-    "character_object_player I shouldn\'t peek... I\'m a little busy.. ",
-    "character_object_narration But your curiosity is winning today ",
-    "character_object_narration Quietly, you walk towards the source of the noise ",
-    "character_object_narration As you get closer, the guitar chord sounds morph into a soft melody, and with it the muffled voice is now distinct and clear ",
-    "character_object_narration The voice leads you to the entrance of an empty classroom, door slightly ajar, enough to hear the song ",
-    "character_object_narration The lovely tenor voice makes you almost breathless. You have to see who\'s making that song ",
-    "character_object_narration You creep up closer to the crack of the door and carefully pull it wider. Your eyes open in shock ",
+    "character_object_narration The day is finally over, and you\'re heading to the Radio Club. You need to strategize with Kyo on how to gain your last member. ",
+    "character_object_narration On your way there, you hear the faint sounds of guitar chords accompanied by a muffled voice. ",
+    "character_object_player I shouldn\'t peek... I\'m a little busy... ",
+    "character_object_narration But your curiosity is winning today. ",
+    "character_object_narration Quietly, you walk towards the source of the noise. ",
+    "character_object_narration As you get closer, the guitar chord sounds morph into a soft melody, and with it the muffled voice is now distinct and clear. ",
+    "character_object_narration The voice leads you to the entrance of an empty classroom, door slightly ajar, enough to hear the song. ",
+    "character_object_narration The lovely tenor voice makes you almost breathless. You have to see who\'s making that song. ",
+    "character_object_narration You creep up closer to the crack of the door and carefully pull it wider. Your eyes open in shock. ",
 
 
     // "character_object_esmeray Esmeray CG ",
@@ -2450,20 +2450,20 @@ monogatari.script({
 
 
 
-    "character_object_esmeray 	Don\'t need the plastic smiles all up in my fac ",
-    "character_object_esmeray 	Just wanna be a moonchild and stay in outer space ",
-    "character_object_esmeray 	Don\'t wanna keep on going on like thi ",
-    "character_object_esmeray 	These people all really like to mis ",
-    "character_object_esmeray 	The fact that I don\'t care.. ",
-    "character_object_esmeray 	A fact that they can\'t bear.. ",
-    "character_object_esmeray 	.. ",
-    "character_object_esmeray 	...Someday I will travel fa ",
-    "character_object_esmeray 	Riding on a shooting sta ",
-    "character_object_esmeray 	Leaving won\'t give me a sca ",
-    "character_object_esmeray Cause all I need is me and my guitar~ ",
+    "character_object_esmeray 	Don\'t need the plastic smiles all up in my face ",
+    "character_object_esmeray 	Just wanna be a moonchild and stay in outer space~ ",
+    "character_object_esmeray 	Don\'t wanna keep on going on like this ",
+    "character_object_esmeray 	These people all really like to miss ",
+    "character_object_esmeray 	The fact that I don\'t care... ",
+    "character_object_esmeray 	A fact that they can\'t bear... ",
+    "character_object_esmeray 	... ",
+    "character_object_esmeray 	...Someday I will travel far ",
+    "character_object_esmeray 	Riding on a shooting star ",
+    "character_object_esmeray 	Leaving won\'t give me a scar ",
+    "character_object_esmeray   Cause all I need is me and my guitar~ ",
 
 
-    "END CG END CG ",
+    //"END CG END CG ",
 
 
 
@@ -2472,13 +2472,15 @@ monogatari.script({
 
 
 
-    "Generic Classroom background Generic Classroom backgroun ",
-    "character_object_narration 	You\'re in awe, to say the least ",
-    "character_object_narration Who would\'ve thought that the school\'s resident popular guy is also a musical talent ",
-    "character_object_player 	...How amazing would it be if he joined the Radio Club ",
-    "character_object_player ...Yeah! Wouldn\'t he be a good person to arrange music to broadcast? His voice is perfect ",
-    "character_object_player .. ",
-    "character_object_player Should I try to invite him ",
+    //"Generic Classroom background Generic Classroom background ",
+    "show scene generic_classroom_bg with fadeIn",
+
+    "character_object_narration 	You\'re in awe, to say the least. ",
+    "character_object_narration Who would\'ve thought that the school\'s resident popular guy is also a musical talent! ",
+    "character_object_player 	...How amazing would it be if he joined the Radio Club? ",
+    "character_object_player ...Yeah! Wouldn\'t he be a good person to arrange music to broadcast? His voice is perfect! ",
+    "character_object_player ... ",
+    "character_object_player Should I try to invite him? ",
 
     // start hardcoded dialog_code == Chapter_3_0012100
     {
@@ -2496,8 +2498,8 @@ monogatari.script({
   ],
 
   'Chapter_3_Choice_1_knock_and_try_to_invite_esmeray_to_the_club': [
-    "character_object_esmeray Chapter_3_0012300 Choice 1: Knock and try to invite Esmeray to the Club ",
-    "Narration   You take a deep breath and knock quietly before walking into the classroom.  ",
+    //"character_object_esmeray Chapter_3_0012300 Choice 1: Knock and try to invite Esmeray to the Club ",
+    "character_object_narration   You take a deep breath and knock quietly before walking into the classroom.  ",
 
 
 
@@ -2507,25 +2509,25 @@ monogatari.script({
 
 
 
-    "Narration   Esmeray immediately stops playing, his face loses its smile, and he turns to you with a cold face.  ",
-    "Scene reconverges here  Chapter_3_0013200 Scene reconverges here ",
+    "character_object_narration   Esmeray immediately stops playing, his face loses its smile, and he turns to you with a cold face.  ",
+    //"Scene reconverges here  Chapter_3_0013200 Scene reconverges here ",
     "jump Chapter_3_after_choice_1",
   ],
   'Chapter_3_Choice_1_dont_knock_and_invite_esmeray': [
-    "character_object_esmeray Chapter_3_0013400 Choice 2: Don't Knock and invite Esmeray ",
-    "Narration   You hesitate in asking Esmeray to join.  ",
-    "Narration   He's very high profile! Why would he want to join a club that no one knows about?  ",
-    "Narration   While you were deliberating, you accidentally shuffle in place, bumping into the classroom's door.  ",
-    "Narration   *CREAK* Door creak SFX  ",
+    //"character_object_esmeray Chapter_3_0013400 Choice 2: Don't Knock and invite Esmeray ",
+    "character_object_narration   You hesitate in asking Esmeray to join.  ",
+    "character_object_narration   He's very high profile! Why would he want to join a club that no one knows about?  ",
+    "character_object_narration   While you were deliberating, you accidentally shuffle in place, bumping into the classroom's door.  ",
+    //"character_object_narration   *CREAK* Door creak SFX  ", //? idk what to do with this...
     
     
     // "character_object_esmeray Chapter_3_0014500 Esmeray Unamused ",
     'show character character_object_esmeray Esmeray_unamused normal',
 
 
-    "Narration   Quickly, Esmeray stops playing, his face loses its smile, and he turns to the door with a cold face.  ",
-    "Narration   You laugh awkwardly, before slowly entering the room.  ",
-    "Scene reconverges here  Chapter_3_0015000 Scene reconverges here ",
+    "character_object_narration   Quickly, Esmeray stops playing, his face loses its smile, and he turns to the door with a cold face.  ",
+    "character_object_narration   You laugh awkwardly, before slowly entering the room.  ",
+    //"Scene reconverges here  Chapter_3_0015000 Scene reconverges here ",
     "jump Chapter_3_after_choice_1",
   ],
   'Chapter_3_after_choice_1': [
@@ -2544,11 +2546,11 @@ monogatari.script({
     // Chapter_3_0014700 removed - covered in choice block above 
     // Chapter_3_0014900 removed - covered in choice block above 
     // Chapter_3_0015000 removed - covered in choice block above 
-    "character_object_player 	...Hey! That\'s some amazing playing, you\'re really talented ",
-    "character_object_player Esmeray: ",
-    "character_object_player .. ",
-    "character_object_player So, I, uh, I\'m part of the Radio Club, and we\'re currently recruiting members. I think you\'d be an amazing fit for it ",
-    "character_object_player So, what do you say? Would you like to join the Radio Club ",
+    "character_object_player 	...Hey! That\'s some amazing playing, you\'re really talented. ",
+    "character_object_esmeray ...",
+    "character_object_player ... ",
+    "character_object_player So, I, uh, I\'m part of the Radio Club, and we\'re currently recruiting members. I think you\'d be an amazing fit for it! ",
+    "character_object_player So, what do you say? Would you like to join the Radio Club? ",
 
 
 
@@ -2557,7 +2559,7 @@ monogatari.script({
 
 
 
-    "character_object_esmeray Nah, if it\'s full of eavesdroppers like you, then hell, I definitely don\'t want to be in any part of it ",
+    "character_object_esmeray Nah, if it\'s full of eavesdroppers like you, then hell, I definitely don\'t want to be in any part of it. ",
 
 
 
@@ -2566,8 +2568,8 @@ monogatari.script({
 
 
     
-    "character_object_narration Esmeray walks out, leaving you speechless and watching his shrinking figure as he walks down the hallway ",
-    "character_object_narration Gone was the smile from before ",
+    "character_object_narration Esmeray walks out, leaving you speechless and watching his shrinking figure as he walks down the hallway. ",
+    "character_object_narration Gone was the smile from before. ",
 
 
 
@@ -2577,20 +2579,19 @@ monogatari.script({
 
 
     // "School Hallway Day School Hallway Da ",
-    "show scene school_hallway_daylight",
+    "show scene school_hallway_daylight with fadeIn",
     // "character_object_esmeray Esmeray Neutra ",
     'show character character_object_esmeray Esmeray_neutral normal',
 
 
 
-
-    "character_object_narration The next day, you spot Esmeray in the hallway on the way to the Radio Club. Luckily, he was alone ",
-    "character_object_narration Although he rejected you last time, you won\'t give up ",
-    "character_object_narration You know that with his talent in music, he would definitely be a great addition to the club ",
-    "character_object_narration He is a hidden gem! Not only could he use his talent in music to compose soundtracks for the club, but his voice also fits that of a charming broadcaster perfectly ",
-    "character_object_narration And, who knows? He could be as good a friend as Atria, Skye, or Kyo ",
-    "character_object_narration With conviction, you decide that this moment in the hallway would be a good time to try and get him to join the Radio Club ",
-    "character_object_narration You try to get his attention and wave at him ",
+    "character_object_narration The next day, you spot Esmeray in the hallway on the way to the Radio Club. Luckily, he was alone. ",
+    "character_object_narration Although he rejected you last time, you won\'t give up! ",
+    "character_object_narration You know that with his talent in music, he would definitely be a great addition to the club. ",
+    "character_object_narration He is a hidden gem! Not only could he use his talent in music to compose soundtracks for the club, but his voice also fits that of a charming broadcaster perfectly. ",
+    "character_object_narration And, who knows? He could be as good a friend as Atria, Skye, or Kyo. ",
+    "character_object_narration With conviction, you decide that this moment in the hallway would be a good time to try and get him to join the Radio Club. ",
+    "character_object_narration You try to get his attention and wave at him. ",
 
 
 
@@ -2599,7 +2600,7 @@ monogatari.script({
     'show character character_object_esmeray Esmeray_unamused normal',
 
 
-    "character_object_player .. ",
+    "character_object_esmeray ... ",
     //"Footstep SFX Footstep SFX ",
     "play sound Walking_SFX_Esme.mp3",
 
@@ -2610,22 +2611,20 @@ monogatari.script({
 
 
 
-    "Hallway BG Hallway BG ",
+    //"Hallway BG Hallway BG ",
 
 
 
 
-    "character_object_narration You sigh, thinking you\'ll try again ",
-    "character_object_narration You wish Kyo was with you, but you couldn\'t find him anywhere, and you don\'t have his phone number ",
-    "character_object_narration It\'s at times like this where frustration is high that you wish you could contact him, but this frustration is overtaken by your realization that really you haven\'t seen him much these past couple of days ",
-    "character_object_narration Where is he ",
-    "character_object_narration *BLACK SCREEN TRANSITION ",
+    "character_object_narration You sigh, thinking you\'ll try again. ",
+    "character_object_narration You wish Kyo was with you, but you couldn\'t find him anywhere, and you don\'t have his phone number. ",
+    "character_object_narration It\'s at times like this where frustration is high that you wish you could contact him, but this frustration is overtaken by your realization that really you haven\'t seen him much these past couple of days. ",
+    "character_object_narration Where is he? ",
 
 
 
-
-    "Transition to School Hallway Day Transition to School Hallway Da ",
-
+    // "Transition to School Hallway Day Transition to School Hallway Day ",
+    "show scene school_hallway_daylight with fadeIn",
 
 
 
@@ -2634,8 +2633,8 @@ monogatari.script({
 
 
 
-    "character_object_narration After gym class, as you walk to the restroom, you find Esmeray walking out from the unisex restroom door ",
-    "character_object_narration You try waving at him again, but before you can get within a 10 foot radius of his location, he swiftly walks away in the other direction ",
+    "character_object_narration After gym class, as you walk to the restroom, you find Esmeray walking out from the unisex restroom door. ",
+    "character_object_narration You try waving at him again, but before you can get within a 10 foot radius of his location, he swiftly walks away in the other direction. ",
    
    
    
@@ -2646,95 +2645,90 @@ monogatari.script({
 
 
 
-    "character_object_narration Groaning, you just go into the restroom ",
-    "character_object_narration *BLACK SCREEN TRANSITION ",
+    "character_object_narration Groaning, you just go into the restroom. ",
 
 
 
 
-    "Transition to School Hallway Day Transition to School Hallway Da ",
+    // "Transition to School Hallway Day Transition to School Hallway Day ",
+    "show scene school_hallway_daylight with fadeIn",
 
 
 
 
-
-    "character_object_narration A couple days have passed since you first tried to get Esmeray into the Radio Club, each day being met with more glares and avoidance from Esmeray ",
-    "character_object_narration Kyo, on the few days you would see him, just made fun of you. Whenever you got irritated and asked him where he had been, he\'d change the subject or say he had things going on at home ",
-    "character_object_narration You would just huff in response and walk with him to the Radio Club classroom ",
-    "character_object_narration As if receiving Kyo\'s lack of help wasn\'t enough, you also dealt with more people trying to accuse Skye of the increasing incidences of vandalism going on, as well as Atria\'s old friends lurking around and glaring at your club ",
+    "character_object_narration A couple days have passed since you first tried to get Esmeray into the Radio Club, each day being met with more glares and avoidance from Esmeray. ",
+    "character_object_narration Kyo, on the few days you would see him, just made fun of you. Whenever you got irritated and asked him where he had been, he\'d change the subject or say he had things going on at home. ",
+    "character_object_narration You would just huff in response and walk with him to the Radio Club classroom. ",
+    "character_object_narration As if receiving Kyo\'s lack of help wasn\'t enough, you also dealt with more people trying to accuse Skye of the increasing incidences of vandalism going on, as well as Atria\'s old \"friends\" lurking around and glaring at your club. ",
    
    
    
    
     // "character_object_atria Skye_Default and Atria2_Nervou ",
+    'show character character_object_skye fix_skye_default kyo-left',
+    'show character character_object_atria atria2_nervous atria-right',
+
+   
+   
+   
+    "character_object_skye Tch, they\'re just jealous they don\'t have what we have, right y\'all? ",
+    "character_object_narration Skye gestures to you, Atria, and the air next to her while walking down the halls. ",
+    "character_object_narration 	Atria looks around. ",
+    "character_object_narration Although they\'re a lot less intimidated of their \"friends\" than before, they\'re still cautious while walking down the halls with you, Kyo, and Skye. ",
+    "character_object_narration Speaking of Kyo, he\'s not here, AGAIN. He did tell you that he had a lot of work going on lately, but if the Radio Club\'s one of his major commitments, how important must those other things be? ",
+    "character_object_atria 	W-Well, it seems like we\'re close to the club room! By the way, w-were we able to register officially yet? ",
+    "character_object_player We still need one more member, I think. That\'s what Kyo told me, anyways. ",
+    "character_object_skye Mm mm, I see. How\'s he, by the way? He seems to not be around lately. ",
+    "character_object_player 	*Sigh* I don\'t know, Skye... ",
+    "character_object_narration There is silence between you three, until Atria clears their throat. ",
+
+
+    'show character character_object_atria atria2_timid atria-right',
+    "character_object_atria 	So, who... who are we trying to recruit? ",
+
+
+
+
+    "character_object_narration 	Skye and Atria turn to you, curiosity shining on their faces. ",
+    "character_object_narration 	You sheepishly grin at them. ",
+    "character_object_player 	Uh... have you heard of Esmeray Regulus? ",
+    "character_object_narration 	Atria\'s and Skye\'s eyes widen in shock. ",
+    "character_object_atria 	WHAT?? ",
+
+
     'show character character_object_atria atria2_nervous normal',
-   
-   
-   
-    "character_object_skye Tch, they\'re just jealous they don\'t have what we have, right y\'all ",
-    "character_object_narration Skye gestures to you, Atria, and the air next to her while walking down the halls ",
-    "character_object_narration 	Atria looks around ",
-    "character_object_narration Although they\'re a lot less intimidated of their \"friends\" than before, they\'re still cautious while walking down the halls with you, Kyo, and Skye ",
-    "character_object_narration Speaking of Kyo, he\'s not here, AGAIN. He did tell you that he had a lot of work going on lately, but if the Radio Club\'s one of his major commitments, how important must those other things be ",
-    "character_object_atria 	W-Well, it seems like we\'re close to the club room! By the ",
-    "character_object_atria way, w-were we able to register officially yet ",
-    "character_object_player We still need one more member, I think. That\'s what Kyo told me, anyways ",
-    "character_object_skye Mm mm, I see. How\'s he, by the way? He seems to not be around lately ",
-    "character_object_player 	*Sigh* I don\'t know, Skye.. ",
-    "character_object_narration There is silence between you three, until Atria clears their throat ",
-
-
-    'show character character_object_atria atria2_timid normal',
-    "character_object_atria 	So, who... who are we trying to recruit ",
-
-
-
-
-    "character_object_narration 	Skye and Atria turn to you, curiosity shining on their faces ",
-    "character_object_narration 	You sheepishly grin at them ",
-    "character_object_player 	Uh... have you heard of Esmeray Regulus ",
-    "character_object_narration 	Atria\'s and Skye\'s eyes widen in shock ",
-    "character_object_atria 	WHAT? ",
-
-
-    'show character character_object_atria atria2_nervous normal',
-    "character_object_atria T-That really, r-really high profile person?! The so-called charming f-boy of the school who\'s so handsome no one really cares if he flirts with everyone? ",
+    "character_object_atria T-That really, r-really high profile person?! The so-called charming f-boy of the school who\'s so handsome no one really cares if he flirts with everyone??? ",
     
     
     
-    "character_object_skye 	Why would he want to join us? Can we even trust him ",
-    "character_object_player 	Hold on, y\'all. I haven\'t brought him in yet. I\'m just thinkin ",
-    "character_object_player about bringing him ",
-    "character_object_player 	There are some reasons.. ",
-    "character_object_narration 	You pause ",
-    "character_object_narration 	You don\'t know if it\'s okay to share with them about Esmera ",
-    "character_object_narration being a musical talent yet ",
-    "character_object_narration 	It\'d be best to get his consent first ",
-    "character_object_player A-Anyways, I think he would fit right in. If&mdash; I mean, when I bring him in, you\'ll see why. Can you trust me ",
-    "character_object_narration 	With some hesitation, they both nod at you ",
-    "character_object_narration 	Atria has a wary smile on their face, while Skye pushes u ",
-    "character_object_narration her glasses ",
-    "character_object_narration 	You smile, happy to have them as your friends ",
-    "character_object_player 	Thanks, y\'all ",
+    "character_object_skye 	Why would he want to join us? Can we even trust him? ",
+    "character_object_player 	Hold on, y\'all. I haven\'t brought him in yet. I\'m just thinking about bringing him. ",
+    "character_object_player 	There are some reasons... ",
+    "character_object_narration 	You pause. ",
+    "character_object_narration 	You don\'t know if it\'s okay to share with them about Esmeray being a musical talent yet. ",
+    "character_object_narration 	It\'d be best to get his consent first. ",
+    "character_object_player A-Anyways, I think he would fit right in. If&mdash; I mean, when I bring him in, you\'ll see why. Can you trust me? ",
+    "character_object_narration 	With some hesitation, they both nod at you. ",
+    "character_object_narration 	Atria has a wary smile on their face, while Skye pushes up her glasses. ",
+    "character_object_narration 	You smile, happy to have them as your friends. ",
+    "character_object_player 	Thanks, y\'all. ",
 
 
 
 
-    "character_object_player *BLACK SCREEN TRANSITION ",
 
 
-
-    "show scene school_hallway_daylight",
-    "School Hallway Day School Hallway Da ",
+    "show scene school_hallway_daylight with fadeIn",
+    //"School Hallway Day School Hallway Day ",
 
 
 
 
-    "character_object_narration Although you said that you would bring Esmeray to them, it\'s proving to be harder than you thought ",
-    "character_object_narration It\'s been a couple of days since you told Atria and Skye to trust you. You were at the point of giving up on pursuing Esmeray, and going back to Atria and Skye in defeat ",
-    "character_object_narration Before you do so, you decide to trudge up the steps that lead to the rooftop, hoping to just have a quiet lunch ",
-    "character_object_narration As you get closer to the door of the rooftop, you hear the sound of familiar singing ",
-    "character_object_narration When you get to the slightly open door (Again?? You think to yourself.), you stop and peek through the crack, only to see Esmeray sitting on a bench as he sways to the melody he is singing ",
+    "character_object_narration Although you said that you would bring Esmeray to them, it\'s proving to be harder than you thought. ",
+    "character_object_narration It\'s been a couple of days since you told Atria and Skye to trust you. You were at the point of giving up on pursuing Esmeray, and going back to Atria and Skye in defeat. ",
+    "character_object_narration Before you do so, you decide to trudge up the steps that lead to the rooftop, hoping to just have a quiet lunch. ",
+    "character_object_narration As you get closer to the door of the rooftop, you hear the sound of familiar singing. ",
+    "character_object_narration When you get to the slightly open door (Again?? You think to yourself.), you stop and peek through the crack, only to see Esmeray sitting on a bench as he sways to the melody he is singing. ",
    
    
    
@@ -2742,27 +2736,28 @@ monogatari.script({
    
     // "Transition to Rooftop Day Transition to Rooftop Da ",
     // "character_object_esmeray Esmeray Genuin ",
-    "show scene Rooftop_bg_day",
+    "show scene Rooftop_bg_day with fadeIn",
     'show character character_object_esmeray Esmeray_genuine normal',
 
 
 
 
 
-    "character_object_esmeray What if I could fly to the blue sugar sky ",
-    "character_object_esmeray Wouldn\'t that be swee ",
-    "character_object_esmeray .. ",
-    "character_object_esmeray Don\'t wanna deal with a li ",
-    "character_object_esmeray Just wanna move to the rhythm of the bea ",
-    "character_object_esmeray If only they could see.. ",
-    "character_object_esmeray I just wanna go fa ",
-    "character_object_esmeray That could be my remed ",
-    "character_object_esmeray .. ",
-    "character_object_esmeray But all I got is me and my guitar.. ",
-    "character_object_narration 	Esmeray continues to sing and hum, while you start to think ",
-    "character_object_narration How long has it been since you started trying to get him to join the club ",
-    "character_object_narration 	If you go to him now, would it make a difference ",
-    "character_object_player 	Should I... have one more go ",
+    "character_object_esmeray What if I could fly to the blue sugar sky, ",
+    "character_object_esmeray Wouldn\'t that be sweet ",
+    "character_object_esmeray ... ",
+    "character_object_esmeray Don\'t wanna deal with a lie ",
+    "character_object_esmeray Just wanna move to the rhythm of the beat ",
+    "character_object_esmeray If only they could see... ",
+    "character_object_esmeray I just wanna go far ",
+    "character_object_esmeray That could be my remedy ",
+    "character_object_esmeray ... ",
+    "character_object_esmeray But all I got is me and my guitar... ",
+
+    "character_object_narration 	Esmeray continues to sing and hum, while you start to think. ",
+    "character_object_narration How long has it been since you started trying to get him to join the club? ",
+    "character_object_narration 	If you go to him now, would it make a difference? ",
+    "character_object_player 	Should I... have one more go? ",
 
     // start hardcoded dialog_code == Chapter_3_0036100
     {
@@ -2784,11 +2779,11 @@ monogatari.script({
   ],
 
   'Chapter_3_Choice_2_invite_esmeray_to_the_club': [
-    "character_object_esmeray Chapter_3_0036300 Choice 1: Invite Esmeray to the Club ",
-    "Narration   You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it.  ",
-    "Narration   But, you also remember the friends you made along the way, and the benefits of having Esmeray in the club.  ",
-    "Narration   Like last time, you take a deep breath before pushing open the door to the rooftop boldly.  ",
-    "Narration   *CREAK* Door creak SFX  ",
+    //"character_object_esmeray Chapter_3_0036300 Choice 1: Invite Esmeray to the Club ",
+    "character_object_narration   You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it.  ",
+    "character_object_narration   But, you also remember the friends you made along the way, and the benefits of having Esmeray in the club.  ",
+    "character_object_narration   Like last time, you take a deep breath before pushing open the door to the rooftop boldly.  ",
+    //"character_object_narration   *CREAK* Door creak SFX  ", lol i still dk how to do this-
 
 
 
@@ -2799,7 +2794,7 @@ monogatari.script({
 
 
 
-    "Narration   Esmeray stops singing and turns to the door, only to make eye contact with you.  ",
+    "character_object_narration   Esmeray stops singing and turns to the door, only to make eye contact with you.  ",
 
 
 
@@ -2810,22 +2805,20 @@ monogatari.script({
 
 
 
-
-
-    "Narration   He immediately stops smiling. There's a long pause as Esmeray stares at you long and hard.  ",
-    "Narration   But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him.  ",
-    "Narration   Your eyes widen, but you don't want to let go of this opportunity, and go and sit next to him.  ",
-    "Scene reconverges here  Chapter_3_0038600 Scene reconverges here ",
+    "character_object_narration   He immediately stops smiling. There's a long pause as Esmeray stares at you long and hard.  ",
+    "character_object_narration   But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him.  ",
+    "character_object_narration   Your eyes widen, but you don't want to let go of this opportunity, and go and sit next to him.  ",
+    //"Scene reconverges here  Chapter_3_0038600 Scene reconverges here ",
     "jump Chapter_3_after_choice_2",
   ],
   'Chapter_3_Choice_2_hesitate': [
-    "Choice 2 Hesitate  Chapter_3_0038800 Choice 2: Hesitate ",
-    "Narration   You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it.  ",
-    "Narration   What would be the difference now?  ",
-    "Narration   Sure, you pestered him the last couple of days so maybe he'll consider it.  ",
-    "Narration   But what if he doesn't?  ",
-    "Narration   While deliberating and waving your arms around, trying to make a plan, your thoughts distract you so much to the point that you accidentally hit the door wide open.  ",
-    "Narration   *CREAK* Door creak SFX  ",
+   // "Choice 2 Hesitate  Chapter_3_0038800 Choice 2: Hesitate ",
+    "character_object_narration   You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it.  ",
+    "character_object_narration   What would be the difference now?  ",
+    "character_object_narration   Sure, you pestered him the last couple of days so maybe he'll consider it.  ",
+    "character_object_narration   But what if he doesn't?  ",
+    "character_object_narration   While deliberating and waving your arms around, trying to make a plan, your thoughts distract you so much to the point that you accidentally hit the door wide open.  ",
+    //"character_object_narration   *CREAK* Door creak SFX  ", idk......
 
 
 
@@ -2835,8 +2828,7 @@ monogatari.script({
 
 
 
-
-    "Narration   Esmeray stops singing and turns to the door, only to make eye contact with you.  ",
+    "character_object_narration   Esmeray stops singing and turns to the door, only to make eye contact with you.  ",
 
 
 
@@ -2846,20 +2838,20 @@ monogatari.script({
 
 
 
-    "Narration   He immediately stops smiling. There's a long pause. You can hardly breathe as Esmeray stares at you long and hard.  ",
-    "Narration   But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him.  ",
-    "Narration   Your eyes widen, but you don't want to let go of this opportunity, and go and sit next to him.  ",
-    "Scene reconverges here  Chapter_3_0041400 Scene reconverges here ",
+    "character_object_narration   He immediately stops smiling. There's a long pause. You can hardly breathe as Esmeray stares at you long and hard.  ",
+    "character_object_narration   But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him.  ",
+    "character_object_narration   Your eyes widen, but you don't want to let go of this opportunity, and go and sit next to him.  ",
+   // "Scene reconverges here  Chapter_3_0041400 Scene reconverges here ",
     "jump Chapter_3_after_choice_2",
   ],
   'Chapter_3_Choice_2_turn_around_and_go_back_down_the_stairs': [
-    "Choice 3 Turn around and Go Back Down the Stairs  Chapter_3_0041600 Choice 3: Turn around and Go Back Down the Stairs ",
-    "Narration   You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it.  ",
-    "Narration   You remember how tiring it was to have the courage to face Esmeray and invite him over and over, only for him to brush you off.  ",
-    "Narration   Maybe this was the time to finally give up.  ",
-    "Narration   Thinking so, you turn around, getting ready to go down the stairs again.  ",
-    "Narration   ...Unfortunately for you, you turn so quickly that your elbow slams into the door, making it creak loudly as it swings wide open.  ",
-    "Narration   *CREAK* Door creak SFX  ",
+    //"Choice 3 Turn around and Go Back Down the Stairs  Chapter_3_0041600 Choice 3: Turn around and Go Back Down the Stairs ",
+    "character_object_narration   You remember how it went the last time you had found Esmeray sitting alone and singing to himself, as well as the stinging rejection that came with it.  ",
+    "character_object_narration   You remember how tiring it was to have the courage to face Esmeray and invite him over and over, only for him to brush you off.  ",
+    "character_object_narration   Maybe this was the time to finally give up.  ",
+    "character_object_narration   Thinking so, you turn around, getting ready to go down the stairs again.  ",
+    "character_object_narration   ...Unfortunately for you, you turn so quickly that your elbow slams into the door, making it creak loudly as it swings wide open.  ",
+    //"character_object_narration   *CREAK* Door creak SFX  ", idk :D
 
 
 
@@ -2868,7 +2860,7 @@ monogatari.script({
 
 
 
-    "Narration   Esmeray stops singing and turns to the door, only to make eye contact with you.  ",
+    "character_object_narration   Esmeray stops singing and turns to the door, only to make eye contact with you.  ",
 
 
 
@@ -2878,11 +2870,11 @@ monogatari.script({
 
 
 
-    "Narration   He immediately stops smiling. There's a long pause. You can hardly breathe as Esmeray stares at you long and hard.  ",
-    "Player   	Is he gonna push me away again?...  ",
-    "Narration   But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him.  ",
-    "Narration   Your eyes widen, but you don't want to let go of this opportunity, and go and sit next to him.  ",
-    "Scene reconverges here  Chapter_3_0044600 Scene reconverges here ",
+    "character_object_narration   He immediately stops smiling. There's a long pause. You can hardly breathe as Esmeray stares at you long and hard.  ",
+    "character_object_player   	Is he gonna push me away again?...  ",
+    "character_object_narration   But, rather than pushing you away for the umpteenth time, he rolls his eyes and shifts to the side, making room for you to sit next to him.  ",
+    "character_object_narration   Your eyes widen, but you don't want to let go of this opportunity, and go and sit next to him.  ",
+    //"Scene reconverges here  Chapter_3_0044600 Scene reconverges here ",
     "jump Chapter_3_after_choice_2",
   ],
   'Chapter_3_after_choice_2': [
@@ -2928,40 +2920,37 @@ monogatari.script({
     // Chapter_3_0044300 removed - covered in choice block above 
     // Chapter_3_0044500 removed - covered in choice block above 
     // Chapter_3_0044600 removed - covered in choice block above 
-    "character_object_player  ...Hi, Esmeray ",
-    "character_object_esmeray Esmeray Neutral ",
-    "character_object_narration Esmeray nods, looking down at the lunch in his lap and shifting the food around with the fork absentmindedly ",
-    "character_object_player .. ",
-    "character_object_esmeray .. ",
-    "character_object_esmeray Player: ",
-    "character_object_esmeray So&mdash; ",
-    "character_object_esmeray Esmeray: ",
-    "character_object_esmeray Why me ",
-    "character_object_narration You pause as Esmeray looks at you with a blank face ",
-    "character_object_narration Player: ",
-    "character_object_narration Excuse me ",
-    "character_object_narration Esmeray: ",
-    "character_object_narration Why me? Don\'t you have, like, other friends? What about those multicolored-haired weirdos&mdash; I mean, friends in your club already ",
-    "character_object_narration He pauses ",
-    "character_object_narration You side-eye Esmeray ",
-    "character_object_narration He looks blankly back at you ",
-    "character_object_player 	I heard that ",
-    "character_object_esmeray 	Nah, you didn\'t ",
-    "character_object_narration You playfully glare at him before turning to your own lunch and shifting in your seat ",
-    "character_object_player I\'ll be blunt. I just think you would make a good addition to the club ",
+    "character_object_player  ...Hi, Esmeray. ",
+    'show character character_object_esmeray Esmeray_neutral normal',
+    "character_object_narration Esmeray nods, looking down at the lunch in his lap and shifting the food around with the fork absentmindedly. ",
+    "character_object_player ... ",
+    "character_object_esmeray ... ",
+    "character_object_player ... ",
+    "character_object_player So&mdash; ",
+    "character_object_esmeray Why me? ",
+    "character_object_narration You pause as Esmeray looks at you with a blank face. ",
+    "character_object_player Excuse me? ",
+    "character_object_esmeray Why me? Don\'t you have, like, other friends? What about those multicolored-haired weirdos&mdash; I mean, friends in your club already? ",
+    "character_object_narration He pauses. ",
+    "character_object_narration You side-eye Esmeray. ",
+    "character_object_narration He looks blankly back at you. ",
+    "character_object_player 	I heard that. ",
+    "character_object_esmeray 	Nah, you didn\'t. ",
+    "character_object_narration You playfully glare at him before turning to your own lunch and shifting in your seat. ",
+    "character_object_player I\'ll be blunt. I just think you would make a good addition to the club. ",
 
 
 
 
     'show character character_object_esmeray Esmeray_unamused normal',
-    "character_object_narration Esmeray raises his eyebrow at you in disbelief, and his eyes look at you as if asking you, \"Seriously?\ ",
+    "character_object_narration Esmeray raises his eyebrow at you in disbelief, and his eyes look at you as if asking you, \"Seriously?\" ",
    
    
    
    
-    "character_object_player Not only are you very talented in music &mdash; which would be helpful to use whenever we do broadcasts &mdash; but I think your presence alone would be good publicity for the club ",
-    "character_object_narration 	Esmeray scoffs at this, but continues to listen regardless ",
-    "character_object_player And also, I would like to be friends with you. You seem interesting, and nicer than you show. Although, you need to fix that playboy personality of yours ",
+    "character_object_player Not only are you very talented in music &mdash; which would be helpful to use whenever we do broadcasts &mdash; but I think your presence alone would be good publicity for the club. ",
+    "character_object_narration 	Esmeray scoffs at this, but continues to listen regardless. ",
+    "character_object_player And also, I would like to be friends with you. You seem interesting, and nicer than you show. Although, you need to fix that playboy personality of yours... ",
    
    
    
@@ -2972,22 +2961,22 @@ monogatari.script({
 
 
 
-    "character_object_narration You quickly turn to Esmeray in disbelief, only to find his face contorted into a laughing, genuine smile ",
-    "character_object_esmeray 	Playboy? Me? Nah, das crazy, what do you mean ",
-    "character_object_esmeray Like, I thought that\'s how you\'re supposed to act when you want to make friends ",
-    "character_object_narration 	Now it\'s your turn to laugh ",
-    "character_object_player Hah, what? Really? You really thought the best way to socialize with people was to rizz them up? HAHA, that\'s HILARIOUS ",
+    "character_object_narration You quickly turn to Esmeray in disbelief, only to find his face contorted into a laughing, genuine smile. ",
+    "character_object_esmeray 	Playboy? Me? Nah, das crazy, what do you mean? ",
+    "character_object_esmeray Like, I thought that\'s how you\'re supposed to act when you want to make friends. ",
+    "character_object_narration 	Now it\'s your turn to laugh. ",
+    "character_object_player Haha, what? Really? You really thought the best way to socialize with people was to rizz them up? HAHA, that\'s HILARIOUS! ",
     
     
     
     'show character character_object_esmeray Esmeray_teeth_smile normal',
-    "character_object_esmeray Wh-WHAT?! NO! I was NOT&mdash; rizzing ANYONE! You\'re just weird to interpret it that way ",
+    "character_object_esmeray Wh-WHAT?! NO! I was NOT&mdash; rizzing ANYONE! You\'re just weird to interpret it that way! ",
 
 
 
 
-    "character_object_narration 	You two continue to laugh and talk more on the rooftop ",
-    "character_object_narration After you finish laughing, you look past the iron fence of the rooftop and at the sky ",
+    "character_object_narration 	You two continue to laugh and talk more on the rooftop. ",
+    "character_object_narration After you finish laughing, you look past the iron fence of the rooftop and at the sky. ",
 
 
 
@@ -2995,133 +2984,127 @@ monogatari.script({
     'show character character_object_esmeray Esmeray_genuine normal',
 
 
-    "character_object_player The sky does look like blue sugar ",
+    "character_object_player The sky does look like blue sugar. ",
 
 
     'show character character_object_esmeray Esmeray_neutral normal',
-    "character_object_narration 	Esmeray\'s eyes widen, and he whips his head towards you ",
+    "character_object_narration 	Esmeray\'s eyes widen, and he whips his head towards you. ",
 
 
 
 
 
-    "character_object_esmeray H-Huh ",
-    "character_object_player I overheard you singing earlier, and also before.. ",
+    "character_object_esmeray H-Huh? ",
+    "character_object_player I overheard you singing earlier, and also before... ",
     "character_object_player ...Wanna talk about it? ",
-    "character_object_player I-I mean, you don\'t have to, of course ",
-    "character_object_player I was just thinking, I mean, we are friends now, so.. ",
-    "character_object_player B-But of course, you don\'t have to, a-and if you want to then feel free to take all the time you need, and stuff.. ",
-    "character_object_player Esmeray: ",
-    "character_object_player 	.. ",
-    "character_object_player 	.. ",
-    "character_object_player F...friends ",
-    "character_object_player .. ",
-    "character_object_player Okay, I do want to say this to someone, at least.. ",
-    "character_object_narration You patiently wait for him to keep talking ",
-    "character_object_narration After a couple moments of silence, Esmeray clears his throat ",
-    "character_object_esmeray Ahem... When...... when I was in elementary school, I had a lot of people who thought I was like an alien because I was shorter than the average height and had weird looking ears ",
-    "character_object_esmeray 	And s-so, in middle school, I decided to change things up a bit ",
-    "character_object_esmeray Grew my hair out, changed my style, learned how to accessorize ",
-    "character_object_esmeray I learned about social cues, read some comics, watched some movies where the main character undergoes a transformation and suddenly they know how to talk to people, and how to get them to like them ",
-    "character_object_esmeray 	So, I tried some of the lines from the movies and comics out ",
-    "character_object_esmeray 	A-And it worked! People... They started to like me ",
-    "character_object_esmeray My growth spurt helped me out too &mdash; I stood out from the crowd, in a good way ",
-    "character_object_esmeray All of a sudden, people stopped calling me names like alien boy, weirdo, and bozo, and they called me things like a prince, a cool guy ",
-    "character_object_esmeray 	.. ",
-    "character_object_esmeray 	And I liked it, my changes ",
-    "character_object_esmeray 	And I thought it would stay that way, but.. ",
-    "character_object_player 	.. ",
+    "character_object_player I-I mean, you don\'t have to, of course. ",
+    "character_object_player I was just thinking, I mean, we are friends now, so... ",
+    "character_object_player B-But of course, you don\'t have to, a-and if you want to then feel free to take all the time you need, and stuff... ",
+    "character_object_esmeray 	... ",
+    "character_object_esmeray F...friends? ",
+    "character_object_esmeray ... ",
+    "character_object_esmeray Okay, I do want to say this to someone, at least... ",
+    "character_object_narration You patiently wait for him to keep talking. ",
+    "character_object_narration After a couple moments of silence, Esmeray clears his throat. ",
+    "character_object_esmeray Ahem... When...... when I was in elementary school, I had a lot of people who thought I was like an alien because I was shorter than the average height and had weird looking ears. ",
+    "character_object_esmeray 	And s-so, in middle school, I decided to change things up a bit. ",
+    "character_object_esmeray Grew my hair out, changed my style, learned how to accessorize. ",
+    "character_object_esmeray I learned about social cues, read some comics, watched some movies where the main character undergoes a transformation and suddenly they know how to talk to people, and how to get them to like them. ",
+    "character_object_esmeray 	So, I tried some of the lines from the movies and comics out. ",
+    "character_object_esmeray 	A-And it worked! People... They started to like me! ",
+    "character_object_esmeray My growth spurt helped me out too &mdash; I stood out from the crowd, in a good way. ",
+    "character_object_esmeray All of a sudden, people stopped calling me names like alien boy, weirdo, and bozo, and they called me things like a prince, a cool guy. ",
+    "character_object_esmeray 	... ",
+    "character_object_esmeray 	And I liked it, my changes. ",
+    "character_object_esmeray 	And I thought it would stay that way, but... ",
+    "character_object_player 	... ",
     "character_object_esmeray 	So, I started going out with some people ",
     "character_object_esmeray At first, it was crazy to me: people actually liked me, I was actually someone attractive to them. My ways of communication were working, and stuff. ",
-    "character_object_esmeray 	Like, whoa, intimate connection? Me ",
-    "character_object_esmeray And it was okay, but like, some people ended up ending our relationship because I wasn\'t who they thought I was ",
-    "character_object_esmeray 	I mean, who wanted a dinosaur-loving, closete ",
-    "character_object_esmeray emo-musician guy ",
-    "character_object_esmeray 	But others gave me hope ",
-    "character_object_esmeray There was a guy I went out with, and he really appreciated me. I felt seen, and loved, genuinely. For the first time in a while ",
-    "character_object_esmeray We ended up breaking it off because he said his parents were strict ",
-    "character_object_esmeray 	Or at least, that\'s what he said to my face ",
-    "character_object_esmeray 	.. ",
-    "character_object_player 	.. ",
+    "character_object_esmeray 	Like, whoa, intimate connection? Me? ",
+    "character_object_esmeray And it was okay, but like, some people ended up ending our relationship because I wasn\'t who they thought I was. ",
+    "character_object_esmeray 	I mean, who wanted a dinosaur-loving, closeted emo-musician guy? ",
+    "character_object_esmeray 	But others gave me hope. ",
+    "character_object_esmeray There was a guy I went out with, and he really appreciated me. I felt seen, and loved, genuinely. For the first time in a while. ",
+    "character_object_esmeray We ended up breaking it off because he said his parents were strict. ",
+    "character_object_esmeray 	Or at least, that\'s what he said to my face. ",
+    "character_object_esmeray 	... ",
+    "character_object_player 	... ",
 
 
 
     'show character character_object_esmeray Esmeray_angry normal',
-    "character_object_esmeray ...Turns out he was making fun of me to his friends the entire time we were dating. I found out because this girl I knew showed me a video of him talking to her and their other friends ",
+    "character_object_esmeray ...Turns out he was making fun of me to his friends the entire time we were dating. I found out because this girl I knew showed me a video of him talking to her and their other friends. ",
     
     
     
     
-    "character_object_esmeray I was heartbroken, angry... I mean, how could he blatantly lie to me like that and still be okay? Why... Why was I left with all the negatives ",
-    "character_object_narration You begin to pat Esmeray on the back, seeing him so sad and agitated. He calms down, thanking you quietly ",
+    "character_object_esmeray I was heartbroken, angry... I mean, how could he blatantly lie to me like that and still be okay? Why... Why was I left with all the negatives? ",
+    "character_object_narration You begin to pat Esmeray on the back, seeing him so sad and agitated. He calms down, thanking you quietly. ",
    
    
    
    
    
     'show character character_object_esmeray Esmeray_neutral normal',
-    "character_object_esmeray *inhale* Anyways, that girl and I ended up getting close because she told me about how she left the friend group and she was there for me ",
+    "character_object_esmeray *inhale* Anyways, that girl and I ended up getting close because she told me about how she left the friend group and she was there for me. ",
    
    
    
-   
-   
-   
-   
-    "character_object_esmeray I healed, and then I thought that maybe she was the one, ya know ",
+    "character_object_esmeray I healed, and then I thought that maybe she was the one, ya know? ",
 
 
 
 
     'show character character_object_esmeray Esmeray_angry normal',
-    "character_object_esmeray 	But then, it went to shit ",
+    "character_object_esmeray 	But then, it went to shit. ",
 
 
 
 
 
 
-    "character_object_esmeray This girl, she was really toxic. As in she didn\'t let me see other people, but she could see a lot of others ",
-    "character_object_esmeray And she gaslit me often, made me emotionally dependent on her, and my mental health tanked ",
-    "character_object_esmeray I felt choked, and scared, and honestly, I was really disappointed: in her, myself, and just the humans around me for being so... inhumane ",
+    "character_object_esmeray This girl, she was really toxic. As in she didn\'t let me see other people, but she could see a lot of others. ",
+    "character_object_esmeray And she gaslit me often, made me emotionally dependent on her, and my mental health tanked. ",
+    "character_object_esmeray I felt choked, and scared, and honestly, I was really disappointed: in her, myself, and just the humans around me for being so... inhumane. ",
    
    
    
    
     'show character character_object_esmeray Esmeray_unamused normal',
-    "character_object_esmeray I just... wanted to breathe again. So, I left her, left the school I was at, and transferred here. Blocked everyone I knew, and I hoped that I could start anew ",
+    "character_object_esmeray I just... wanted to breathe again. So, I left her, left the school I was at, and transferred here. Blocked everyone I knew, and I hoped that I could start anew. ",
    
    
    
    
     'show character character_object_esmeray Esmeray_neutral normal',
-    "character_object_esmeray And I think I did, at least. No one seems to hate me here &mdash; just a lot of admiration. ...But you never know ",
-    "character_object_esmeray So I wanted to hide everything: never get close to anyone here, never tell anyone my story... but you.. ",
+    "character_object_esmeray And I think I did, at least. No one seems to hate me here &mdash; just a lot of admiration. ...But you never know. ",
+    "character_object_esmeray So I wanted to hide everything: never get close to anyone here, never tell anyone my story... but you... ",
    
    
    
    
     'show character character_object_esmeray Esmeray_genuine normal',
-    "character_object_esmeray 	You... actually seem to care for me.. ",
+    "character_object_esmeray 	You... actually seem to care for me... ",
 
 
 
-    "character_object_esmeray 	...Thanks, for listening.. ",
-    "character_object_narration Looks like you were right: Esmeray didn\'t really have genuine friends of his own, so you decided it was time to change that ",
-    "character_object_narration 	You make direct eye contact with Esmeray ",
+    "character_object_esmeray 	...Thanks, for listening... ",
+    "character_object_narration Looks like you were right: Esmeray didn\'t really have genuine friends of his own, so you decided it was time to change that. ",
+    "character_object_narration 	You make direct eye contact with Esmeray. ",
 
 
 
     'show character character_object_esmeray Esmeray_unamused normal',
-    "character_object_esmeray W-What? Are you gonna accuse me of being too edgy now, or something ",
-    "character_object_player 	Nah. I just wanted to invite you again to the Radio Club ",
+    "character_object_esmeray W-What? Are you gonna accuse me of being too edgy now, or something? ",
+    "character_object_player 	Nah. I just wanted to invite you again to the Radio Club. ",
+    "character_object_narration He scoffs softly, but continues to listen regardless.",
     "character_object_player I promise we\'re all nice people, and I guarantee that we\'re not like those people from your past. ",
     "character_object_player You can leave if you don\'t feel like staying with us, no strings attached. I think it would be amazing if you join us. ",
-    "character_object_player Wanna give it a try ",
-    "character_object_narration You hold out your hand, ready to receive a handshake in agreement from Esmeray ",
-    "character_object_narration Esmeray stares at your hand, before his own twitches and lifts up to shake it ",
-    "character_object_narration Your face breaks out into a large smile. The mood immediately becomes more lighthearted ",
-    "character_object_player 	Great! Welcome aboard, Esme ",
+    "character_object_player Wanna give it a try? ",
+    "character_object_narration You hold out your hand, ready to receive a handshake in agreement from Esmeray .",
+    "character_object_narration Esmeray stares at your hand, before his own twitches and lifts up to shake it. ",
+    "character_object_narration Your face breaks out into a large smile. The mood immediately becomes more lighthearted. ",
+    "character_object_player 	Great! Welcome aboard, Esme! ",
 
 
     'show character character_object_esmeray Esmeray_smile normal',
@@ -3129,7 +3112,7 @@ monogatari.script({
 
 
     'show character character_object_esmeray Esmeray_teeth_smile normal',
-    "character_object_narration While laughing at him, you give him a set day and time for him to come to the Radio Club, as he continues to protest against your silly, stupid nickname ",
+    "character_object_narration While laughing at him, you give him a set day and time for him to come to the Radio Club, as he continues to protest against your silly, stupid nickname. ",
     
    
    
@@ -3140,36 +3123,39 @@ monogatari.script({
    
    
     // "Music Room Basic + Printer + Mic + Laptop Music Room Basic + Printer + Mic + Lapto ",
-    "show scene music_room_basic",
+    "show scene music_room_basic with fadeIn",
 
 
     'show character character_object_atria atria2_nervous normal',
-    "character_object_kyo Kyo_FP_Bruh, Atria2_Nervous, and Skye_Defaul ",
+    'show character character_object_skye fix_skye_default atria-right',
+    'show character character_object_kyo Kyo_FP_Bruh kyo-left',
    
    
    
    
-    "character_object_narration Today\'s finally the day ",
-    "character_object_narration You take a deep breath, anxiously looking at the door, trying to spot the familiar shade of dark turquoise hair ",
-    "character_object_narration Atria and Skye are just as nervous: Atria is fiddling with their star clips while Skye pushes up her glasses, the light reflecting off of them and covering her eyes ",
-    "character_object_narration In the corner stands Kyo, looking at the clock\'s second hand as it moves in its consistent rhythm ",
+    "character_object_narration Today\'s finally the day. ",
+    "character_object_narration You take a deep breath, anxiously looking at the door, trying to spot the familiar shade of dark turquoise hair. ",
+    "character_object_narration Atria and Skye are just as nervous: Atria is fiddling with their star clips while Skye pushes up her glasses, the light reflecting off of them and covering her eyes. ",
+    "character_object_narration In the corner stands Kyo, looking at the clock\'s second hand as it moves in its consistent rhythm. ",
     "character_object_narration *tick tick tick tick... ",
-    "character_object_narration Kyo sighs ",
-    "character_object_kyo 	When\'s this guy gonna be here ",
-    "character_object_player 	He\'ll be here soon, y\'all. Don\'t worry ",
-    "character_object_narration Atria and Skye turn to look at you with relieved faces, the tense silence of the room finally broken ",
-    "character_object_skye 	W-We\'re not worried! Y-you are ",
-    "character_object_narration 	You laugh at Skye\'s poor excuse ",
-    "character_object_player 	Haha, yeah, I am ",
-    "character_object_narration Before you can elaborate, you hear footsteps approaching the door ",
-    "character_object_narration 	All heads in the room turn to the door ",
-    "character_object_narration 	There it is: that dark turquoise hair ",
+    "character_object_narration Kyo sighs. ",
+    "character_object_kyo 	When\'s this guy gonna be here? ",
+    "character_object_player 	He\'ll be here soon, y\'all. Don\'t worry. ",
+    "character_object_narration Atria and Skye turn to look at you with relieved faces, the tense silence of the room finally broken. ",
+    "character_object_skye 	W-We\'re not worried! Y-you are! ",
+    "character_object_narration 	You laugh at Skye\'s poor excuse. ",
+    "character_object_player 	Haha, yeah, I am. ",
+    "character_object_narration Before you can elaborate, you hear footsteps approaching the door. ",
+    "character_object_narration 	All heads in the room turn to the door. ",
+    "character_object_narration 	There it is: that dark turquoise hair. ",
    
    
    
-   'hide character character_object_atria',
-    "Remove all sprites Remove all sprite ",
-   
+   // "Remove all sprites Remove all sprite ",
+    'hide character character_object_atria',
+    'hide character character_object_skye',
+    'hide character character_object_kyo',
+
    
    
    
@@ -3178,8 +3164,8 @@ monogatari.script({
    
    
    
-    "character_object_narration In walks Esmeray, his face blank, scanning the room before his eyes land on you ",
-    "character_object_narration Immediately, you stand up and go to his side, before making jazz hands in his direction while facing the rest of your group ",
+    "character_object_narration In walks Esmeray, his face blank, scanning the room before his eyes land on you. ",
+    "character_object_narration Immediately, you stand up and go to his side, before making jazz hands in his direction while facing the rest of your group. ",
 
     // start hardcoded dialog_code == Chapter_3_0074000
     {
@@ -3197,19 +3183,19 @@ monogatari.script({
   ],
 
   'Chapter_3_Choice_3_introduct_Esmeray': [
-    "character_object_esmeray Chapter_3_0074200 Choice 1: Introduce Esmeray ",
-    "Scene reconverges here  Chapter_3_0074400 Scene reconverges here ",
+    //"character_object_esmeray Chapter_3_0074200 Choice 1: Introduce Esmeray ",
+    //"Scene reconverges here  Chapter_3_0074400 Scene reconverges here ",
     "jump Chapter_3_after_choice_3",
   ],
   'Chapter_3_Choice_3_wait_for_esmeray_to_intreoduce_themselves': [
-    "character_object_esmeray Chapter_3_0074600 Choice 2: Wait for Esmeray to introduce themselves ",
-    "Narration   You want to let Esmeray introduce himself, and do jazz hands to start it off. ",
-    "Narration   Really, you're just doing jazz hands in awkward silence... ",
-    "Narration   ... ",
-    "Narration   ...What are you doing right now? Lol. ",
-    "Narration   You cough awkwardly at the silence before slowly putting your hands down. ",
-    "Narration   You clear your throat again, desperate to get out of this situation. ",
-    "Scene reconverges here  Chapter_3_0076000 Scene reconverges here ",
+    //"character_object_esmeray Chapter_3_0074600 Choice 2: Wait for Esmeray to introduce themselves ",
+    "character_object_narration   You want to let Esmeray introduce himself, and do jazz hands to start it off. ",
+    "character_object_narration   Really, you're just doing jazz hands in awkward silence... ",
+    "character_object_narration   ... ",
+    "character_object_narration   ...What are you doing right now? Lol. ",
+    "character_object_narration   You cough awkwardly at the silence before slowly putting your hands down. ",
+    "character_object_narration   You clear your throat again, desperate to get out of this situation. ",
+    //"Scene reconverges here  Chapter_3_0076000 Scene reconverges here ",
     "jump Chapter_3_after_choice_3",
   ],
   'Chapter_3_after_choice_3': [
@@ -3224,23 +3210,27 @@ monogatari.script({
     // Chapter_3_0075700 removed - covered in choice block above 
     // Chapter_3_0075900 removed - covered in choice block above 
     // Chapter_3_0076000 removed - covered in choice block above 
-    "character_object_player Here he is! Y\'all, I want you to meet Esme&mdash; I mean Esmeray, our school\'s lovely playboy and the composer of our music for the Radio Club! Esmeray, meet the club ",
+    "character_object_player Here he is! Y\'all, I want you to meet Esme&mdash; I mean Esmeray, our school\'s lovely playboy and the composer of our music for the Radio Club! Esmeray, meet the club. ",
    
    
    
    
     // "character_object_esmeray Move Esmeray to righ ",
-    'show character character_object_skye skye_smile2 normal',
-    "character_object_atria Atria1_Happy and Skye_Smile on lef ",
+    'show character character_object_esmeray Esmeray_neutral kyo-left',
+    'show character character_object_skye fix_skye_default normal',
+    'show character character_object_atria atria2_nervous atria-right',
    
    
    
    
-    "character_object_narration Atria waves shyly, while Skye pushes up her glasses further and gives a cool nod directed to Esmeray ",
-    "character_object_atria Remove Atria and Sky ",
-    "character_object_kyo Kyo_FP_Neutral on righ ",
-    "character_object_narration Kyo scans Esmeray up and down before looking at the chalkboard in the classroom, eyeing the UFO and smiling fondly ",
-    "character_object_kyo Remove Ky ",
+    "character_object_narration Atria waves shyly, while Skye pushes up her glasses further and gives a cool nod directed to Esmeray. ",
+    
+    'hide character character_object_atria',
+    'hide character character_object_skye',
+
+    'show character character_object_kyo Kyo_FP_Bruh atria-right',
+    "character_object_narration Kyo scans Esmeray up and down before looking at the chalkboard in the classroom, eyeing the UFO and smiling fondly. ",
+    'hide character character_object_kyo',
     
     
     
@@ -3249,19 +3239,19 @@ monogatari.script({
 
 
 
-    "character_object_narration 	Esmeray raises his hand in greeting ",
-    "character_object_esmeray 	Yo. Esmeray, he/they ",
-    "character_object_narration 	The room goes quiet again ",
-    "character_object_narration You\'re really sick of trying to be an extrovert in these awkward situations ",
-    "character_object_narration Before you can say another word, however, Atria suddenly stands up ",
+    "character_object_narration 	Esmeray raises his hand in greeting. ",
+    "character_object_esmeray 	Yo. Esmeray, he/they. ",
+    "character_object_narration 	The room goes quiet again. ",
+    "character_object_narration You\'re really sick of trying to be an extrovert in these awkward situations. ",
+    "character_object_narration Before you can say another word, however, Atria suddenly stands up. ",
 
 
 
     // "character_object_esmeray Move Esmeray to righ ",
+    'show character character_object_esmeray Esmeray_genuine kyo-left',
    
    
-   
-    'show character character_object_skye skye_smile2 normal',
+    'show character character_object_skye skye_smile2 atria-right',
     'show character character_object_atria atria2_happy normal',
     // "character_object_atria Atria2_Happy and Skye_Smile2 on lef ",
    
@@ -3269,21 +3259,20 @@ monogatari.script({
    
    
     "character_object_atria 	*Ahem ",
-    "character_object_atria 	W-WELCOME, ESMERAY, TO THE RADIO CLUB! I-I\'M ATRIA, THEY/SHE ",
-    "character_object_skye I-I\'M SKYE, SHE/THEY, AND THESE ARE MY OTHER FRIENDS AND MEMBERS OF THE CLUB. T-TREAT THEM WELL, D-DUDE ",
-    "character_object_narration 	Skye gestures to the air next to her ",
-    "character_object_narration Esmeray looks at the air, then at you, with a confused expression ",
-    "character_object_narration 	He looks back at the air, and slowly nods in greeting ",
-    "character_object_narration 	Skye\'s face brightens up ",
-    "character_object_atria N-Now that we\'re all introduced, we will now start the induction ceremony. {{player.name}} said that you would be a great ally to our cause to save humanity as we know it ",
+    "character_object_atria 	W-WELCOME, ESMERAY, TO THE RADIO CLUB! I-I\'M ATRIA, THEY/SHE! ",
+    "character_object_skye I-I\'M SKYE, SHE/THEY, AND THESE ARE MY OTHER FRIENDS AND MEMBERS OF THE CLUB. T-TREAT THEM WELL, D-DUDE! ",
+    "character_object_narration 	Skye gestures to the air next to her. ",
+    "character_object_narration Esmeray looks at the air, then at you, with a confused expression. ",
+    "character_object_narration 	He looks back at the air, and slowly nods in greeting. ",
+    "character_object_narration 	Skye\'s face brightens up. ",
+    "character_object_atria N-Now that we\'re all introduced, we will now start the induction ceremony. {{player.name}} said that you would be a great ally to our cause to save humanity as we know it. ",
    
    
    
    
    
-   
-   
-    "character_object_atria Remove Atria and Sky ",
+    'hide character character_object_atria',
+    'hide character character_object_skye',
 
 
 
@@ -3300,24 +3289,24 @@ monogatari.script({
    
    
    
-    "character_object_kyo Remove Ky ",
+    'hide character character_object_kyo',
    
    
    
-    'show character character_object_skye skye_smile2 normal',
-    "character_object_atria Atria2_Happy and Skye_Smile2 on lef ",
+    'show character character_object_skye skye_smile2 atria-right',
+    'show character character_object_atria atria2_happy normal',
    
    
    
-   
-    "character_object_narration You\'re cut off by Atria, who is too busy immersing in their role right now ",
-    "character_object_narration Atria: ",
-    "character_object_narration Therefore, we have to ask you.. ",
-    "character_object_skye Esmeray, do you solemnly swear to  promise to uphold the values of honor, truth, and transparency between fellow members? To join the club and fight the dark souls of corruption of the students through the power of voice and music? To not rest, until humanity is purified of evil, deceit, and misinformation ",
-    "character_object_narration 	The room becomes silent again after the two of them speak up ",
-    "character_object_narration You sweatdrop, looking at Esmeray cautiously while trying not to burst out laughing ",
-    "character_object_atria Remove Atria and Sky ",
-
+    "character_object_narration You\'re cut off by Atria, who is too busy immersing in their role right now. ",
+    "character_object_atria Therefore, we have to ask you... ",
+    "character_object_skye Esmeray, do you solemnly swear to  promise to uphold the values of honor, truth, and transparency between fellow members? To join the club and fight the dark souls of corruption of the students through the power of voice and music? To not rest, until humanity is purified of evil, deceit, and misinformation? ",
+    "character_object_narration 	The room becomes silent again after the two of them speak up. ",
+    "character_object_narration You sweatdrop, looking at Esmeray cautiously while trying not to burst out laughing. ",
+    
+    //"character_object_atria Remove Atria and Sky ",
+    'hide character character_object_atria',
+    'hide character character_object_skye',
 
 
     // "character_object_esmeray Esmeray Neutral (centered ",
@@ -3327,8 +3316,8 @@ monogatari.script({
     
     
     
-    "character_object_narration 	Esmeray\'s face is blank, eyeing the two in front of him ",
-    "character_object_narration Suddenly, he lets out a low chuckle, which gradually becomes louder until he\'s almost cackling ",
+    "character_object_narration 	Esmeray\'s face is blank, eyeing the two in front of him, ",
+    "character_object_narration Suddenly, he lets out a low chuckle, which gradually becomes louder until he\'s almost cackling. ",
 
 
 
@@ -3344,13 +3333,13 @@ monogatari.script({
     'show character character_object_esmeray Esmeray_teeth_smile normal',
     "character_object_esmeray 	AHAhaAHahaha ",
     "character_object_esmeray 	...Pft ",
-    "character_object_esmeray 	.. ",
+    "character_object_esmeray 	... ",
 
 
 
 
     'show character character_object_esmeray Esmeray_smile normal',
-    "character_object_esmeray S-Sure, I\'ll join the club and fight the dark souls of corruption of the students through the power of the club or whatever. This\'ll be fun ",
+    "character_object_esmeray S-Sure, I\'ll join the club and fight the dark souls of corruption of the students through the power of the club or whatever. This\'ll be fun. ",
    
    
    
@@ -3359,28 +3348,29 @@ monogatari.script({
     'show character character_object_esmeray Esmeray_teeth_smile normal',
 
 
-    "character_object_narration On Esmeray\'s face is a wide, genuine smile as he continues to laugh ",
-    "character_object_narration Atria and Skye are in shock, while Kyo starts to laugh along with Esmeray ",
+    "character_object_narration On Esmeray\'s face is a wide, genuine smile as he continues to laugh. ",
+    "character_object_narration Atria and Skye are in shock, while Kyo starts to laugh along with Esmeray. ",
    
    
    
    
     // "character_object_esmeray Move Esmeray to righ ",
-
+    'show character character_object_esmeray Esmeray_teeth_smile atria-right',
 
 
     // "character_object_atria Skye_Smile2 and Atria2_Smile on left ",
-    'show character character_object_skye skye_smile2 normal',
+    'show character character_object_skye skye_smile2 kyo-left',
+    'show character character_object_atria atria2_happy normal',
    
    
    
    
-    "character_object_skye H-Hey! It\'s true, the dark souls exist and need to be taken down ",
-    "character_object_narration 	As she talks, Skye motions a punch into her palm ",
-    "character_object_atria Y-Yeah! Don\'t underestimate our drive to help the poor students of ILUNA Academy ",
-    "character_object_narration 	Esmeray just nods, as if he is in total agreement ",
-    "character_object_narration Atria and Skye continue to talk loudly, and eventually the three of them start to converse about their interests and such ",
-    "character_object_narration You watch the scene fondly. Finally, the club is complete ",
+    "character_object_skye H-Hey! It\'s true, the dark souls exist and need to be taken down! ",
+    "character_object_narration 	As she talks, Skye motions a punch into her palm. ",
+    "character_object_atria Y-Yeah! Don\'t underestimate our drive to help the poor students of ILUNA Academy. ",
+    "character_object_narration 	Esmeray just nods, as if he is in total agreement. ",
+    "character_object_narration Atria and Skye continue to talk loudly, and eventually the three of them start to converse about their interests and such. ",
+    "character_object_narration You watch the scene fondly. Finally, the club is complete! ",
     // end-of-CHAPTER-3-mark
 
 

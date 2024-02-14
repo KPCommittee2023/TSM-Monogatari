@@ -717,7 +717,9 @@ monogatari.component('credits-screen').template(() => {
 					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Project Organiser:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
-					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Rizimu</p>
+						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
+							Rizimu
+						</p>
 					</div>
 				</div>
 				<div style="display: flex; width: 100%;">
@@ -725,7 +727,10 @@ monogatari.component('credits-screen').template(() => {
 					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Project Managers:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
-					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Bloom<br>Valya</p>
+						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
+							Bloom<br>
+							Valya
+						</p>
 					</div>
 				</div>
 				<div style="display: flex; width: 100%;">
@@ -733,7 +738,12 @@ monogatari.component('credits-screen').template(() => {
 					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Writers:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
-					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Liang<br>Izuroi<br>Rue<br>Usahino Geum</p>
+						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
+							Liang<br>
+							Izuroi<br>
+							Rue<br>
+							Usahino Geum
+						</p>
 					</div>
 				</div>
 				<div style="display: flex; width: 100%;">
@@ -741,7 +751,9 @@ monogatari.component('credits-screen').template(() => {
 					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Editor:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
-					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Aku</p>
+						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
+							Aku
+						</p>
 					</div>
 				</div>
 				<div style="display: flex; width: 100%;">
@@ -749,7 +761,14 @@ monogatari.component('credits-screen').template(() => {
 					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Programmers:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
-					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Alpaka<br>Fili<br>Lisbeth Arias<br>StolasHoliday<br>weepymice<br>rubysweetie</p>
+						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
+							Alpaka<br>
+							Fili<br>
+							Lisbeth Arias<br>
+							StolasHoliday<br>
+							weepymice<br>
+							rubysweetie
+						</p>
 					</div>
 				</div>
 				<div style="display: flex; width: 100%;">
@@ -757,7 +776,10 @@ monogatari.component('credits-screen').template(() => {
 					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Music Composers:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
-					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Aefen<br>SticktheFigure</p>
+						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
+							Aefen<br>
+							SticktheFigure
+						</p>
 					</div>
 				</div>
 			</div>
@@ -767,7 +789,12 @@ monogatari.component('credits-screen').template(() => {
 					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Sprite Artists:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
-					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Eirena<br>Otoke<br>Roz<br>tejing</p>
+						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
+							Eirena<br>
+							Otoke<br>
+							Roz<br>
+							tejing
+						</p>
 					</div>
 				</div>
 				<div style="display: flex; width: 100%;">
@@ -775,7 +802,11 @@ monogatari.component('credits-screen').template(() => {
 					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-align: left; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Background Artists:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem; width: 35%;">
-					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">kimsugi<br>Niko (ShibeDraws)<br>Yuji Sakura</p>
+						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
+							kimsugi<br>
+							Niko (ShibeDraws)<br>
+							Yuji Sakura
+						</p>
 					</div>
 				</div>
 				<div style="display: flex; width: 100%;">
@@ -783,7 +814,12 @@ monogatari.component('credits-screen').template(() => {
 					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-align: left; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">Special Scene Artists:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
-					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">Jian<br>Korichii<br>Var<br>夜記Giselle</p>
+						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
+							Jian<br>
+							Korichii<br>
+							Var<br>
+							夜記Giselle
+						</p>
 					</div>
 				</div>
 				<div style="display: flex; width: 100%;">
@@ -791,7 +827,9 @@ monogatari.component('credits-screen').template(() => {
 					<p style="color: #FFF; font-family: Nunito; font-size: 36px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 3.4px; position: absolute; top: 0; margin: 0; text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;">UI Artist:</p>
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
-					<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">angelisdoodlin</p>
+						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
+							angelisdoodlin
+						</p>
 					</div>
 				</div>
 			</div>

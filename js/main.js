@@ -728,13 +728,8 @@ monogatari.component('credits-screen').template(() => {
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
-<<<<<<< HEAD
 							Bloom
 							<br>Valya
-=======
-							Bloom<br>
-							Valya
->>>>>>> 9ed3b0aea9e2a44fd029fb70ac6ce1b179ed7070
 						</p>
 					</div>
 				</div>
@@ -744,17 +739,10 @@ monogatari.component('credits-screen').template(() => {
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
-<<<<<<< HEAD
 							Liang
 							<br>Izuroi
 							<br>Rue
 							<br>Usahino Geum
-=======
-							Liang<br>
-							Izuroi<br>
-							Rue<br>
-							Usahino Geum
->>>>>>> 9ed3b0aea9e2a44fd029fb70ac6ce1b179ed7070
 						</p>
 					</div>
 				</div>
@@ -802,7 +790,7 @@ monogatari.component('credits-screen').template(() => {
 					</div>
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
-							Eirena
+							Eirena <img src="https://carrd.co/assets/docs/images/brand/svg/icon-color.svg">
 							<br>Otoke
 							<br>Roz
 							<br>tejing

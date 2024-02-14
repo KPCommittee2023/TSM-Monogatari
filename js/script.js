@@ -54,7 +54,7 @@ monogatari.assets("music", {
   'intro_intro' :'/stickthefigure/intro_intro.wav' ,
   'intro_loop' :'/stickthefigure/intro_loop.wav' ,
   'sad_intro' :'/stickthefigure/sad_intro.wav',
-  'sad_loop' :'music/stickthefigure/sad_loop.wav',
+  // 'sad_loop' :'music/stickthefigure/sad_loop.wav',
 
 
 });

@@ -542,40 +542,40 @@ monogatari.script({
 
 
 
-    {
-      'Choice': {
-        'Dialog': 'Jump to certain chapter? \
-				<br>\
-				 (This for developer to use. Delete in actual relesase.)\
-				<br>\
-				 (top of script.js)',
+    // {
+    //   'Choice': {
+    //     'Dialog': 'Jump to certain chapter? \
+		// 		<br>\
+		// 		 (This for developer to use. Delete in actual relesase.)\
+		// 		<br>\
+		// 		 (top of script.js)',
 
-        'CHAPTER_0': {
-          'Text': 'CHAPTER_0',
-          'Do': 'jump CHAPTER_0'
-        },
-        'CHAPTER_1': {
-          'Text': 'CHAPTER_1',
-          'Do': 'jump CHAPTER_1'
-        },
-        'CHAPTER_2': {
-          'Text': 'CHAPTER_2',
-          'Do': 'jump CHAPTER_2'
-        },
-        'CHAPTER_3': {
-          'Text': 'CHAPTER_3',
-          'Do': 'jump CHAPTER_3'
-        },
-        'CHAPTER_E': {
-          'Text': 'CHAPTER_E',
-          'Do': 'jump CHAPTER_E'
-        },
-        'END': {
-          'Text': 'END',
-          'Do': 'jump END'
-        }
-      }
-    },
+    //     'CHAPTER_0': {
+    //       'Text': 'CHAPTER_0',
+    //       'Do': 'jump CHAPTER_0'
+    //     },
+    //     'CHAPTER_1': {
+    //       'Text': 'CHAPTER_1',
+    //       'Do': 'jump CHAPTER_1'
+    //     },
+    //     'CHAPTER_2': {
+    //       'Text': 'CHAPTER_2',
+    //       'Do': 'jump CHAPTER_2'
+    //     },
+    //     'CHAPTER_3': {
+    //       'Text': 'CHAPTER_3',
+    //       'Do': 'jump CHAPTER_3'
+    //     },
+    //     'CHAPTER_E': {
+    //       'Text': 'CHAPTER_E',
+    //       'Do': 'jump CHAPTER_E'
+    //     },
+    //     'END': {
+    //       'Text': 'END',
+    //       'Do': 'jump END'
+    //     }
+    //   }
+    // },
     
     'jump CHAPTER_0'
   ],

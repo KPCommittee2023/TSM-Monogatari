@@ -1840,7 +1840,7 @@ monogatari.script({
 
 
 
-    "character_object_player Kyo\'s exclamation of annoyance is drowned out by Skye\'s reaction. She doesn\'t react negatively to Kyo\'s ribbing. Instead, a bright smile suddenly breaks out on her face. ",
+    "character_object_narration Kyo\'s exclamation of annoyance is drowned out by Skye\'s reaction. She doesn\'t react negatively to Kyo\'s ribbing. Instead, a bright smile suddenly breaks out on her face. ",
     "character_object_skye It\'s nice to know someone like me! A person who knows the pros to our more unusual friends... ",
     "character_object_player Huh? ",
     "character_object_kyo The fuck, did she just call me unusual? ",

@@ -658,7 +658,7 @@ monogatari.script({
 
 
     "character_object_player I\'m {{player.name}}. ",
-    "character_object_player {{player.name}}. Alright, here\'s how the club works. ",
+    "character_object_kyo {{player.name}}. Alright, here\'s how the club works. ",
     "character_object_player Wait, you\'re not gonna be writing anything on the board or something like that? ",
     "character_object_kyo Nah. It\'s not that complicated. ",
     "character_object_narration Is that his way of saying that he\'s not prepared? ",

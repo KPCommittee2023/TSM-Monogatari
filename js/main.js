@@ -404,8 +404,8 @@ monogatari.component('settings-screen').template(() => {
 		<div class="bar_fill" id = "bar_fill_volume_music"></div>
 
 
-	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute;">
-	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;" id="setting_menu_buton_MUSIC">
+	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute; pointer-events: none;">
+	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%; pointer-events: none;" id="setting_menu_buton_MUSIC">
       </div>
     </div>
 
@@ -427,8 +427,8 @@ monogatari.component('settings-screen').template(() => {
 		<div class="input_range_cover" ></div>
 		<div class="bar_fill" id = "bar_fill_volume_voice"></div>
 	 
-	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute; ">
-	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;" id="setting_menu_buton_VOICE">
+	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute;  pointer-events: none;">
+	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%; pointer-events: none;" id="setting_menu_buton_VOICE">
       </div>
     </div>
 
@@ -451,8 +451,8 @@ monogatari.component('settings-screen').template(() => {
 		<div class="bar_fill" id = "bar_fill_volume_sound"></div>
 
 
-	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute;">
-	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;" id="setting_menu_buton_SOUND">
+	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute; pointer-events: none;">
+	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%; pointer-events: none;" id="setting_menu_buton_SOUND">
       </div>
     </div>
     
@@ -475,8 +475,8 @@ monogatari.component('settings-screen').template(() => {
 		<div class="bar_fill" id = "bar_fill_volume_video"></div>
 
 
-	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute;">
-	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%;" id="setting_menu_buton_VIDEO">
+	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute; pointer-events: none;">
+	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%; pointer-events: none;" id="setting_menu_buton_VIDEO">
       </div>
     </div>
 

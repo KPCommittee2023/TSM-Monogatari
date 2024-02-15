@@ -719,7 +719,7 @@ monogatari.component('credits-screen').template(() => {
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
 							Rizimu &nbsp;
-								<a href="https://rizimuwinn.carrd.co/">
+								<a href="https://rizimuwinn.carrd.co/" target="_blank">
 									<img style="width: 30px; vertical-align: middle;" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
 								</a>
 						</p>
@@ -732,11 +732,11 @@ monogatari.component('credits-screen').template(() => {
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
 							Bloom &nbsp;
-								<a href="https://lucid-dreaming.carrd.co/">
+								<a href="https://lucid-dreaming.carrd.co/" target="_blank">
 									<img style="width: 30px; vertical-align: middle;" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
 								</a>
 							<br>Valya &nbsp;&nbsp;&nbsp;
-								<a href="https://twitter.com/valyamini">
+								<a href="https://twitter.com/valyamini" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 						</p>
@@ -749,19 +749,19 @@ monogatari.component('credits-screen').template(() => {
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
 							Liang &nbsp;
-								<a href="https://yunliang.carrd.co/">
+								<a href="https://yunliang.carrd.co/" target="_blank">
 									<img style="width: 30px; vertical-align: middle;" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
 								</a>
 							<br>Izuroi &nbsp;&nbsp;
-								<a href="https://x.com/izuroivastain ">
+								<a href="https://x.com/izuroivastain" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 							<br>Rue &nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="https://twitter.com/Rue_Romaritime">
+								<a href="https://twitter.com/Rue_Romaritime" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 							<br>Usahino Geum 
-								<a href="https://twitter.com/geumusahino">
+								<a href="https://twitter.com/geumusahino" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 						</p>
@@ -784,27 +784,27 @@ monogatari.component('credits-screen').template(() => {
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
 							Fili &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="https://sunfilisdev.carrd.co/">
+								<a href="https://sunfilisdev.carrd.co/" target="_blank">
 									<img style="width: 30px; vertical-align: middle;" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
 								</a>
 							<br>Alpaka &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="https://twitter.com/Stephen42166653">
+								<a href="https://twitter.com/Stephen42166653" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 							<br>weepymice &nbsp;&nbsp;&nbsp;
-								<a href="https://www.tumblr.com/weepymice">
+								<a href="https://www.tumblr.com/weepymice" target="_blank">
 									<img style="width: 30px; vertical-align: middle;" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
 								</a>
 							<br>Lisbeth Arias &nbsp;
-								<a href="https://instagram.com/lizzyariasdejesus">
+								<a href="https://instagram.com/lizzyariasdejesus" target="_blank">
 									<img style="width: 30px; vertical-align: middle;" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
 								</a>
 							<br>rubysweetie &nbsp;&nbsp;
-								<a href="https://github.com/SeonJaeY">
+								<a href="https://github.com/SeonJaeY" target="_blank">
 									<img style="width: 30px; vertical-align: middle;" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
 								</a>
 							<br>StolasHoliday 
-								<a href="https://twitter.com/StolasHoliday">
+								<a href="https://twitter.com/StolasHoliday" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 						</p>
@@ -817,11 +817,11 @@ monogatari.component('credits-screen').template(() => {
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
 							Aefen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="https://twitter.com/OfficialAefen">
+								<a href="https://twitter.com/OfficialAefen" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 							<br>SticktheFigure 
-								<a href="https://twitter.com/SticktheFigure">
+								<a href="https://twitter.com/SticktheFigure" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 						</p>
@@ -836,19 +836,19 @@ monogatari.component('credits-screen').template(() => {
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
 							Eirena &nbsp;
-								<a href="https://twitter.com/eirenadraws">
+								<a href="https://twitter.com/eirenadraws" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 							<br>Otoke &nbsp;
-								<a href="https://otokeneko.carrd.co/">
+								<a href="https://otokeneko.carrd.co/" target="_blank">
 									<img style="width: 30px; vertical-align: middle;" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
 								</a>
 							<br>Roz &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="https://twitter.com/nritermi">
+								<a href="https://twitter.com/nritermi" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 							<br>tejing &nbsp;&nbsp;
-								<a href="https://twitter.com/bblanckett">
+								<a href="https://twitter.com/bblanckett" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 						</p>
@@ -861,15 +861,15 @@ monogatari.component('credits-screen').template(() => {
 					<div style="padding-left: 1rem; padding-top: 0.5rem; width: 40%;">
 						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
 							kimsugi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="https://twitter.com/_kimsugi">
+								<a href="https://twitter.com/_kimsugi" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 							<br>Niko(ShibeDraws) 
-								<a href="https://twitter.com/ShibeDraws">
+								<a href="https://twitter.com/ShibeDraws" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 							<br>Yuji Sakura 
-								<a href="https://twitter.com/blossomxbloom">
+								<a href="https://twitter.com/blossomxbloom" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 						</p>
@@ -882,19 +882,19 @@ monogatari.component('credits-screen').template(() => {
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
 							Jian &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="https://sincerelyoursji.carrd.co/">
+								<a href="https://sincerelyoursji.carrd.co/" target="_blank">
 									<img style="width: 30px; vertical-align: middle;" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
 								</a>
 							<br>Korichii 
-								<a href="defahttps://www.instagram.com/korichii_ult">
+								<a href="https://korichii.carrd.co/" target="_blank">
 									<img style="width: 30px; vertical-align: middle;" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
 								</a>
 							<br>Var &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a href="https://twitter.com/_Varietale_">
+								<a href="https://twitter.com/_Varietale_" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 							<br>夜記Giselle 
-								<a href="https://twitter.com/yakigiselle">
+								<a href="https://twitter.com/yakigiselle" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 						</p>
@@ -907,7 +907,7 @@ monogatari.component('credits-screen').template(() => {
 					<div style="padding: 1rem; padding-top: 0.5rem;">
 						<p style="color: #FFF; text-shadow: 0px 4px 4px rgba(0, 36, 78, 0.22); font-family: Nunito; font-size: 25px; font-style: normal; font-weight: 600; line-height: 125.4%; margin: 0; text-align: left;">
 							angelisdoodlin 
-								<a href="https://twitter.com/angelisdoodlin">
+								<a href="https://twitter.com/angelisdoodlin" target="_blank">
 									<img style="width: 24px; vertical-align: middle;" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
 								</a>
 						</p>

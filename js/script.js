@@ -290,6 +290,9 @@ monogatari.script({
 						alert("Sorry there can only be one Kyo, and it ain't you buddy");
 						return false;
 					}
+          if (input.trim().length > 19) {  
+            return false;
+          }
 					return input.trim ().length > 0;
 				},
 				'Save': function (input) {
@@ -307,7 +310,7 @@ monogatari.script({
 						}
 					});
 				},
-				'Warning': 'You must enter a valid name!'
+				'Warning': 'You must enter a valid name! (1-19 characters)'
 			}
 		},
     {'Function': {

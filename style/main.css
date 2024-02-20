@@ -262,7 +262,9 @@ text-input form div button {
     background-repeat: no-repeat;
     color: transparent;
 	position: absolute;
-	left: 12.5%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
     bottom: -300%;
     width: 489.15px;
     height: 93.2px;
@@ -849,8 +851,7 @@ input[type=range]::-ms-fill-upper {
 	}
 
 	text-input form div button {
-		left: 12.5%;
-		bottom: -230%;
+		bottom: -210%;
 		width: 322.15px;
 		height: 80px;
 	}
@@ -1022,8 +1023,7 @@ input[type=range]::-ms-fill-upper {
 	}
 
 	text-input form div button {
-		left: 12.5%;
-		bottom: -230%;
+		bottom: -225%;
 		width: 322.15px;
 		height: 80px;
 	}
@@ -1211,8 +1211,7 @@ input[type=range]::-ms-fill-upper {
 	}
 
 	text-input form div button {
-		left: 12.5%;
-		bottom: -300%;
+		bottom: -285%;
 		width: 489.15px;
 		height: 93.2px;
 	}

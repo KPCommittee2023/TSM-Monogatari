@@ -213,20 +213,6 @@ monogatari.component ('main-screen').template (() => {
 			style="width: 270.03px; height: 280.06px; bottom: -19.5%; right: 1%; position: absolute; transform: rotate(-45.79deg); transform-origin: 0 0; background: transparent; z-index: 1; color: white; font-size: 48px; font-family: Nunito; font-weight: 900; letter-spacing: 4.08px; word-wrap: break-word; text-shadow: 2px 6px 1px #7FD6FA, -2px 6px 1px #7FD6FA, 1.5px 1.5px 0 #7FD6FA, -1.5px 1.5px 0px #7FD6FA, -1.5px -1.5px 0px #7FD6FA, 1.5px -1.5px 0px #7FD6FA;">
 			Credits
 		</div>
-		
-		<div 
-			data-action="open-screen" data-open="credits"
-			class="credit_button_tooltip credit_button_tooltip_trigger">
-			Artists, Music Composers, Writers, Project Managers, Developers open for commissions!
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-		</div>
 
 		<div class="main-button" data-action="start" 
 			style="width: 276px; height: 58px; left: 1485px; top: 378px; position: absolute; text-align: left; display: flex; z-index: 1;">

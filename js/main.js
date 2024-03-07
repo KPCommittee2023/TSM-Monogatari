@@ -591,11 +591,12 @@ monogatari.component('text-box').template(() => {
 	<div style="width: 384px; height: 78.7px; left: 0px; top: 0px; position: absolute">
 	  <div class="big-bullet-point"></div>
 	  <div class="small-bullet-point"></div>
-	  <div class="name-box-total" style="width: 343px; height: 75px; top: 3.7px; position: absolute">
+	  <div class="name-box-total" style="height: 125px; top: 3.7px; position: absolute; display: flex; flex-direction: column-reverse; justify-content: flex-end;">
 		<div class="name-box-shadow" ></div>
 		<div class="name-box" >
-			<div style="width: 100%; height: 100%; position: absolute; color: #2e72c1; font-family: Nunito; font-weight: 800; word-wrap: break-word; text-align: center; display: flex;
-			align-items: center;
+			<div style="width: fit-content; height: 100%; color: #2e72c1; 
+			font-family: Nunito; font-weight: 800; word-wrap: break-word; text-align: center; display: flex;
+			align-items: center; padding: 5px;
 			justify-content: center;">
 		
 			<span data-ui="who" data-content="character-name"></span>

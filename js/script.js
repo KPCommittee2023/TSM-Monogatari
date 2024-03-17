@@ -622,7 +622,7 @@ monogatari.script({
           console.log('line 622 : 12.5 sec has passed, loop playing intro_loop.wav ');
           intro_loop_audioElement.play();
           intro_intro_audioElement.pause();
-        }, 16500);
+        }, 12500);
 
         console.log('627 end off Apply');
         return true;

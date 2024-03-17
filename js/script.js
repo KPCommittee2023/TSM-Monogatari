@@ -591,7 +591,46 @@ monogatari.script({
     "show scene school_hallway_daylight with fadeIn duration 500ms",
 
     // "Intro Music Intro Musi ",
-    'play music intro_loop  with loop',
+    // 'play music intro_loop  with loop',
+
+    
+    {'Function':{
+			'Apply': function () {
+        
+        const audioContext = new AudioContext();
+        
+        // get the audio element
+        const intro_intro_audioElement = document.querySelector("#intro_intro");
+        const intro_loop_audioElement = document.querySelector("#intro_loop");
+        intro_loop_audioElement.loop = true;
+        console.log(' 606 intro_loop_audioElement.loop = true;');
+
+        intro_intro_audioElement.crossOrigin = "anonymous";
+        intro_loop_audioElement.crossOrigin = "anonymous";
+
+        // pass it into the audio context
+        const intro_intro_track = audioContext.createMediaElementSource(intro_intro_audioElement);
+        const intro_loop_track = audioContext.createMediaElementSource(intro_loop_audioElement);
+
+        intro_intro_track.connect(audioContext.destination);
+        intro_loop_track.connect(audioContext.destination);
+
+        console.log('618 play intro_intro first');
+        intro_intro_audioElement.play();
+                
+        this.setTimeoutID2 = setTimeout(() => {
+          console.log('line 622 : 12.5 sec has passed, loop playing intro_loop.wav ');
+          intro_loop_audioElement.play();
+          intro_intro_audioElement.pause();
+        }, 16500);
+
+        console.log('627 end off Apply');
+        return true;
+			},
+			'Reverse': function () {
+        console.log('631 hope user dont reverse here');
+			}
+		}},
 
     "character_object_narration It\'s lunch break at school, but the atmosphere is livelier than usual. Oh right, it\'s Club Day today. You still can\'t decide which club you want to join this year. ",
     "character_object_narration You stop walking the hallways to look at the board of various club posters. Oh man, you\'ve never joined one before, so the amount of options overwhelm you a little. ",
@@ -773,7 +812,30 @@ monogatari.script({
     "character_object_narration   You go in the opposite direction to your class. As you make your way there, you think about his request. It's a lot of work, but it's not like you have other plans or commitments this year.  ",
     "character_object_narration   Eh, fuck it, you ball.  ",
 
-    'stop music intro_loop with fade 5',
+    // 'stop music intro_loop with fade 5',
+    {'Function':{
+			'Apply': function () {
+        
+        const audioContext = new AudioContext();
+        
+        // get the audio element
+        const intro_intro_audioElement = document.querySelector("#intro_intro");
+        const intro_loop_audioElement = document.querySelector("#intro_loop");
+        intro_intro_audioElement.crossOrigin = "anonymous";
+        intro_loop_audioElement.crossOrigin = "anonymous";
+
+        // pass it into the audio context
+
+        console.log('829 ending all playing');
+        intro_intro_audioElement.pause();
+        intro_loop_audioElement.pause();
+        return true;
+			},
+			'Reverse': function () {
+        console.log('835 no Reverse callback');
+			}
+		}},
+
     // "Fade to black   Fade to black ",
     "show scene black_screen with fadeIn duration 2s",
 
@@ -819,6 +881,28 @@ monogatari.script({
 
     "character_object_narration   You feel a little guilty seeing his dejected expression as you leave the classroom. But it's too late now; you stick to your decision and go to your next class.  ",
 
+    {'Function':{
+			'Apply': function () {
+        
+        const audioContext = new AudioContext();
+        
+        // get the audio element
+        const intro_intro_audioElement = document.querySelector("#intro_intro");
+        const intro_loop_audioElement = document.querySelector("#intro_loop");
+        intro_intro_audioElement.crossOrigin = "anonymous";
+        intro_loop_audioElement.crossOrigin = "anonymous";
+
+        // pass it into the audio context
+
+        console.log('899 ending all playing');
+        intro_intro_audioElement.pause();
+        intro_loop_audioElement.pause();
+        return true;
+			},
+			'Reverse': function () {
+        console.log('905 no Reverse callback');
+			}
+		}},
 
     // "Empty black screen.  Chapter_0_0024700 Empty black screen. ",
     "show scene black_screen with fadeIn",

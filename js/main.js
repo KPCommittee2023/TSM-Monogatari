@@ -360,225 +360,183 @@ monogatari.component('settings-screen').template(() => {
 	top: 0; 
 	z-index: 0;"></div>
 
-    <button class="top left" data-action="back">
-        <svg class="svg-inline--fa fa-arrow-left fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas"
-            data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-            <path fill="currentColor"
-                d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z">
-            </path>
-        </svg> <!-- <span class="fas fa-arrow-left"></span> Font Awesome fontawesome.com --></button>
+    <div  class="zoom_to_fit" style="margin: auto; background: linear-gradient(0deg, rgba(205, 222, 255, 0.80) 0%, rgba(205, 222, 255, 0.80) 100%), linear-gradient(180deg, rgba(127, 214, 250, 0.90) 78.62%, rgba(254, 130, 219, 0.90) 101.65%); width: 1920px; height: 1080px; background-size: cover; display: flex; align-items: center; justify-content: center; padding: 5% 2%; overflow: hidden; position: relative;">
 
+    <div style="width: 1557px;border-radius: 11px;border: 3px solid white;height: 856px;box-shadow: 0px 0px 0px 3px #2E72C1 inset;outline: 3px solid #2E72C1;background-image: url(./assets/fromfigma/load_bg.png);position: absolute;padding: 4% 5% 4% 6%;display: flex;flex-direction: column;row-gap: 30px;">
 
-  <div style=" overflow: hidden; width: 1585px; height: 100%; position: relative; margin: auto;"  class = "setting-menu-zoom_to_fit">
-    <div style="width: 1557.13px; height: 100%; left: 27.87px; top: 0px; position: absolute; background: rgba(46, 114, 193, 0.90)">
-		<button id="setting-menu-back-btn" data-action="back" style=" opacity: 0.4; width: 270.026px; height: 280.057px; transform: rotate(-45.791deg); flex-shrink: 0; border: 5px solid #FFF; background: #C1E6FF; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; bottom: -8%; right: -3%; color: #FFF; text-align: center; font-family: Nunito; font-size: 48px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 4.08px; border-radius: 0; align-items: flex-start; text-shadow: 2px 6px 1px #7FD6FA, -2px 6px 1px #7FD6FA, 1.5px 1.5px 0 #7FD6FA, -1.5px 1.5px 0px #7FD6FA, -1.5px -1.5px 0px #7FD6FA, 1.5px -1.5px 0px #7FD6FA;">
+		<div style="width: 424.614px; height: 79px; flex-shrink: 0; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); position: absolute; top: -3%; left: 40%;">
+		<div style="width: 47.731px; height: 49.504px; transform: rotate(45.791deg); flex-shrink: 0; border: 3px solid #FFF; background: #2E72C1; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: -5%;"></div>
+		<div style="width: 19.4px; height: 20.121px; transform: rotate(45.791deg); flex-shrink: 0; border: 3px solid #FFF; background: #498FCD; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: -11%; top: 20%"></div>
+		<div style="width: 47.731px; height: 49.504px; transform: rotate(-134.209deg); flex-shrink: 0; border: 3px solid #FFF; background: #2E72C1; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: 74%;"></div>
+		<div style="width: 19.4px; height: 20.121px; transform: rotate(-134.209deg); flex-shrink: 0; border: 3px solid #FFF; background: #498FCD; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; left: 86%; top: 20%;"></div>
+		<div style="width: 318px; height: 62px; flex-shrink: 0; border-radius: 30px; background: #76BDE0; position: absolute; top: 10%; left: 2.5%;"></div>
+		
+		<div style="width: 333.817px; height: 62.594px; flex-shrink: 0; border-radius: 31.297px; border: 4px solid transparent; background: linear-gradient(white, white) padding-box, linear-gradient(#478DCC, #83CBE5) border-box; position: relative; top: -7%; display: flex; justify-content: center; align-items: center;">
+			<p style="color: #2E72C1; text-align: center; font-family: Nunito; font-size: 32px; font-style: normal; font-weight: 800; line-height: normal; position: absolute; margin: 0;">Settings</p>
+		</div>
+		
+		</div>
+		<button data-action="back" style="width: 270.026px; height: 280.057px; transform: rotate(-45.791deg); flex-shrink: 0; border: 5px solid #FFF; background: #C1E6FF; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); position: absolute; bottom: -24%; right: -16%; color: #FFF; text-align: center; font-family: Nunito; font-size: 48px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 4.08px; border-radius: 0; align-items: flex-start; text-shadow: 2px 6px 1px #7FD6FA, -2px 6px 1px #7FD6FA, 1.5px 1.5px 0 #7FD6FA, -1.5px 1.5px 0px #7FD6FA, -1.5px -1.5px 0px #7FD6FA, 1.5px -1.5px 0px #7FD6FA;">
 			BACK
 		</button>
 	</div>
-    <div style="width: 1174.61px; height: 100%; left: 0px; top: 68.40px; position: absolute; opacity: 0.20; mix-blend-mode: soft-light; border-radius: 11px"></div>
+
+	<div class="setting_screen_container" style="display: flex; flex-direction: row; justify_content: space-evenly;">
+
+		<div class="text_settings_item">
+			<p style="color: #FFF;font-family: Nunito;font-size: 36px;font-style: normal;font-weight: 900;line-height: normal;letter-spacing: 3.4px; text-align: left; margin: 0;text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1; position: relative; padding-left: 50px;">Text settings</p>
+
+			<div style="width: 600px; height: 561px; position: relative; background: linear-gradient(348deg, rgba(144, 202, 255, 0.7) 0%, rgba(127, 214, 250, 0.7) 100%); box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50); border-radius: 60px; border: 5px white solid">
+
+				<div style="display: flex; justify-content: center; padding-top: 100px; padding-left: 20px; padding-right: 20px; flex-direction: column;">
+
+					<div style="text-align: left; position: relative; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word; order: 1;">Text Speed:</div>
+
+				
+					<div style="width: 550px; height: 49px; position: relative; order: 2;">
+						<input type="range" min="1" max="50" step="1" data-action="set-text-speed"
+							id = "input_range_speed_text"
+							class = "input_range"
+							style="
+								padding: 0px;
+								width: 540px; 
+								position: absolute;
+								top: 25px;
+								left: 4px;
+						">
+
+						<div class="input_range_cover_speed" ></div>
+						<div class="bar_fill_speed" id = "bar_fill_speed_text"></div>
+
+					</div>
+				
+					<div style="text-align: left; position: relative; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word; order: 3; padding-top: 75px;">Auto-Forward Speed:</div>
+
+					<div style="width: 550px; height: 49px; position: relative; order: 4;">
+						<input type="range" min="0" max="50" step="1" data-action="set-auto-play-speed" data-content="auto-play-speed-controller"
+							id = "input_range_speed_autoPlay"
+							class = "input_range"
+							style="
+								padding: 0px;
+								width: 540px; 
+								position: absolute;
+								top: 25px;
+								left: 4px;
+						">
+
+						<div class="input_range_cover_speed" ></div>
+						<div class="auto_bar_fill_speed" id = "bar_fill_speed_autoPlay"></div>
+
+					</div>
+
+				</div>
+
+			</div>
+			
+		</div>
+
+		<div class="volume_settings_item" style="padding-left: 125px;">
+			<p style="color: #FFF;font-family: Nunito;font-size: 36px;font-style: normal;font-weight: 900;line-height: normal;letter-spacing: 3.4px; text-align: left; margin: 0;text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1; position: relative; padding-left: 50px;">Volume</p>
+			<div style="width: 600px; height: 561px; position: relative; background: linear-gradient(348deg, rgba(144, 202, 255, 0.7) 0%, rgba(127, 214, 250, 0.7) 100%); box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50); border-radius: 60px; border: 5px white solid">
+
+				<div style="display: flex; justify-content: center; padding-top: 50px; padding-left: 20px; padding-right: 20px; flex-direction: column;">
+
+					<div style="text-align:left; height: 34px; position: relative; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word;">Music:</div>
+
+					<div style="width: 657px; height: 61.05px; position: relative">
+
+						<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="music"
+							id = "input_range_volume_music"
+							class = "input_range"
+							style="
+								padding: 0px;
+								width: 540px;
+    							height: 50px;
+    							left: 4px;
+    							top: 8px;
+    							position: absolute;
+						">
+
+						<div class="input_range_cover" ></div>
+						<div class="bar_fill" id = "bar_fill_volume_music"></div>
+
+					</div>
+
+					<br>
+
+					<div style="text-align: left; height: 34px; position: relative; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Voice:</div>
+
+					<div style="width: 657px; height: 61.05px; position: relative;">
+
+						<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="voice"
+							id = "input_range_volume_voice"
+							class = "input_range"
+							style="
+								padding: 0px;
+								width: 540px;
+								height: 50px;
+								left: 4px;
+								top: 8px;
+								position: absolute;
+						">
+
+						<div class="input_range_cover" ></div>
+						<div class="bar_fill" id = "bar_fill_volume_voice"></div>
+					
+					</div>
+
+					<br>
+
+					<div style="text-align: left; height: 34px; position: relative; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Sound:</div>
 
 
+					<div style="width: 657px; height: 61.05px; position: relative">
 
-	<div style="width: 29.30px; height: 33.27px; left: 1527px; top: 798.13px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)">
-      <div style="width: 26.32px; height: 22.35px; left: 25.83px; top: 3.48px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #E5E5E5; border: 1px #A2A2A2 solid"></div>
-      <div style="width: 33.27px; height: 29.30px; left: 29.30px; top: 0px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #2E72C1; border: 1px #E5E5E5 solid"></div>
-    </div>
+						<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="sound"
+							id = "input_range_volume_sound"
+							class = "input_range"
+							style="
+								padding: 0px;
+								width: 540px;
+								height: 50px;
+								left: 4px;
+								top: 8px;
+								position: absolute;
+						">
 
-	<div style="width: 688px; height: 232px; left: 86px; top: 88.13px; position: absolute; opacity: 0.70; background: linear-gradient(348deg, #90CAFF 0%, #7FD6FA 100%); box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50); border-radius: 60px; border: 5px white solid"></div>
-    <div style="width: 727px; height: 561px; left: 806px; top: 88.13px; position: absolute; opacity: 0.70; background: linear-gradient(348deg, #90CAFF 0%, #7FD6FA 100%); box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50); border-radius: 60px; border: 5px white solid"></div>
-    <div style="width: 578px; height: 85px; left: 123px; top: 56.13px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">Language</div>
-    <div style="width: 578px; height: 85px; left: 860px; top: 54.13px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">Volume</div>
+						<div class="input_range_cover" ></div>
+						<div class="bar_fill" id = "bar_fill_volume_sound"></div>
 
-	<div style="width: 657px; height: 61.05px; left: 843px; top: 162.13px; position: absolute">
+					</div>
 
-	  	<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="music"
-			id = "input_range_volume_music"
-			class = "input_range"
-			style="
-				padding: 0px;
-				width: 630px; 
-				height: 52px; 
-				left: -15px; 
-				top: -25px; 
-				position: absolute;
-		">
+					<br>
 
-		<div class="input_range_cover" ></div>
-		<div class="bar_fill" id = "bar_fill_volume_music"></div>
+					<div style="text-align: left; height: 34px; position: relative; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Video:</div>
+					
+					
+					<div style="width: 657px; height: 61.05px; position: relative">
 
+						<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="video"
+							id = "input_range_volume_video"
+							class = "input_range"
+							style="
+								padding: 0px;
+								width: 540px;
+								height: 50px;
+								left: 4px;
+								top: 8px;
+								position: absolute;
+						">
 
-	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute; pointer-events: none;">
-	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%; pointer-events: none;" id="setting_menu_buton_MUSIC">
+						<div class="input_range_cover" ></div>
+						<div class="bar_fill" id = "bar_fill_volume_video"></div>
+
+					</div>
+				<div>
+			</div>
       </div>
-    </div>
-
-	
-    <div style="width: 657px; height: 61.05px; left: 843px; top: 292.13px; position: absolute">
-
-		<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="voice"
-			id = "input_range_volume_voice"
-			class = "input_range"
-			style="
-				padding: 0px;
-				width: 630px; 
-				height: 52px; 
-				left: -15px; 
-				top: -25px; 
-				position: absolute;
-		">
-
-		<div class="input_range_cover" ></div>
-		<div class="bar_fill" id = "bar_fill_volume_voice"></div>
-	 
-	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute;  pointer-events: none;">
-	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%; pointer-events: none;" id="setting_menu_buton_VOICE">
-      </div>
-    </div>
-
-
-    <div style="width: 657px; height: 61.05px; left: 843px; top: 421.13px; position: absolute">
-
-		<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="sound"
-			id = "input_range_volume_sound"
-			class = "input_range"
-			style="
-				padding: 0px;
-				width: 630px; 
-				height: 52px; 
-				left: -15px; 
-				top: -25px; 
-				position: absolute;
-		">
-
-		<div class="input_range_cover" ></div>
-		<div class="bar_fill" id = "bar_fill_volume_sound"></div>
-
-
-	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute; pointer-events: none;">
-	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%; pointer-events: none;" id="setting_menu_buton_SOUND">
-      </div>
-    </div>
-    
-	
-	<div style="width: 657px; height: 61.05px; left: 843px; top: 553.13px; position: absolute">
-
-		<input type="range" min="0.0" max="1.0" step="0.1" data-action="set-volume" data-target="video"
-			id = "input_range_volume_video"
-			class = "input_range"
-			style="
-				padding: 0px;
-				width: 630px; 
-				height: 52px; 
-				left: -15px; 
-				top: -25px; 
-				position: absolute;
-		">
-
-		<div class="input_range_cover" ></div>
-		<div class="bar_fill" id = "bar_fill_volume_video"></div>
-
-
-	  <div style="width: 86px; height: 61.05px; left: -7px; top: 0px; position: absolute; pointer-events: none;">
-	  	<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="width: 100%; pointer-events: none;" id="setting_menu_buton_VIDEO">
-      </div>
-    </div>
-
-
-    <div style="width: 686px; height: 371px; left: 82px; top: 324.13px; position: absolute">
-      <div style="width: 686px; height: 301px; left: 0px; top: 31px; position: absolute; opacity: 0.70; background: linear-gradient(348deg, #90CAFF 0%, #7FD6FA 100%); box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50); border-radius: 60px; border: 5px white solid"></div>
-      <div style="width: 318.92px; height: 185px; left: 44.91px; top: 56px; position: absolute; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Text Speed:</div>
-      <div style="width: 479.35px; height: 185px; left: 44.91px; top: 186px; position: absolute; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Auto-Forward Speed:</div>
-      <div style="width: 545.40px; height: 85px; left: 46.14px; top: 0px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">Text settings</div>
- 
-	  <div style="width: 612.40px; height: 49px; left: 34.91px; top: 111px; position: absolute">
-		<input type="range" min="1" max="50" step="1" data-action="set-text-speed"
-			id = "input_range_speed_text"
-			class = "input_range"
-			style="
-				padding: 0px;
-				width: 578px; 
-				height: 52px; 
-				left: -15px; 
-				top: -25px; 
-				position: absolute;
-		">
-
-		<div class="input_range_cover_speed" ></div>
-		<div class="bar_fill_speed" id = "bar_fill_speed_text"></div>
-
-      </div>
-    
-	  <div style="width: 612.40px; height: 49px; left: 34.91px; top: 234px; position: absolute">
-		<input type="range" min="0" max="60" step="1" data-action="set-auto-play-speed" data-content="auto-play-speed-controller"
-			id = "input_range_speed_autoPlay"
-			class = "input_range"
-			style="
-				padding: 0px;
-				width: 578px; 
-				height: 52px; 
-				left: -15px; 
-				top: -24px; 
-				position: absolute;
-		">
-
-		<div class="input_range_cover_speed" ></div>
-		<div class="bar_fill_speed" id = "bar_fill_speed_autoPlay"></div>
-
-      </div>
-
-    </div>
-    
-	<div style="width: 1433px; height: 135px; left: 65px; top: 669.13px; position: absolute">
-      <div style="width: 690px; height: 112px; left: 0px; top: 23px; position: absolute; opacity: 0.90; mix-blend-mode: soft-light; background: linear-gradient(4deg, #2E72C1 0%, #7FD6FA 100%); box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50); border-radius: 60px; border: 5px white solid"></div>
-      <div style="width: 690px; height: 112px; left: 743px; top: 23px; position: absolute; opacity: 0.90; mix-blend-mode: soft-light; background: linear-gradient(4deg, #2E72C1 0%, #7FD6FA 100%); box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50); border-radius: 60px; border: 5px white solid"></div>
-      <div style="width: 578px; height: 85px; left: 45px; top: 0px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">Orientation</div>
-    
-	  <div style="width: 33px; height: 33px; left: 1342px; top: 72px; position: absolute">
-        <div style="width: 33px; height: 33px; left: 0px; top: 0px; position: absolute; background: #2E72C1; border-radius: 9999px; border: 3px white solid"></div>
-        <div style="width: 23px; height: 23px; left: 5px; top: 5px; position: absolute; background: white; border-radius: 9999px"></div>
-      </div>
-    
-	  <div style="width: 33px; height: 33px; left: 1039px; top: 72px; position: absolute">
-        <div style="width: 33px; height: 33px; left: 0px; top: 0px; position: absolute; background: #2E72C1; border-radius: 9999px; border: 3px white solid"></div>
-      </div>
-    
-	  <div style="width: 609.08px; height: 85px; left: 795px; top: 0px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word">Resolution</div>
-      <div style="width: 618px; height: 35px; left: 35px; top: 70px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 43px; display: inline-flex">
-        <div style="height: 35px; justify-content: flex-start; align-items: flex-end; display: flex">
-          <div style="flex: 1 1 0; height: 35px; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Mobile/Portrait: </div>
-          <div style="width: 33px; height: 33px; position: relative">
-            <div style="width: 33px; height: 33px; left: 0px; top: 0px; position: absolute; background: #2E72C1; border-radius: 9999px; border: 3px white solid"></div>
-            <div style="width: 23px; height: 23px; left: 5px; top: 5px; position: absolute; background: white; border-radius: 9999px"></div>
-          </div>
-        </div>
-        <div style="height: 35px; justify-content: flex-start; align-items: flex-end; display: flex">
-          <div style="flex: 1 1 0; height: 35px; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Desktop/landscape:</div>
-          <div style="width: 33px; height: 33px; position: relative">
-            <div style="width: 33px; height: 33px; left: 0px; top: 0px; position: absolute; background: #2E72C1; border-radius: 9999px; border: 3px white solid"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div style="width: 416px; height: 85px; left: 158px; top: 124.13px; position: absolute; color: #2E72C1; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 0.18px; word-wrap: break-word">English</div>
-    <div style="width: 416px; height: 85px; left: 158px; top: 185.13px; position: absolute; color: #2E72C1; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 0.18px; word-wrap: break-word">中文</div>
-    <div style="width: 416px; height: 85px; left: 158px; top: 247.13px; position: absolute; color: #2E72C1; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 0.18px; word-wrap: break-word">日本語</div>
-    <div style="width: 416px; height: 85px; left: 423px; top: 123.13px; position: absolute; color: #2E72C1; font-size: 36px; font-family: Nunito; font-weight: 900; letter-spacing: 0.18px; word-wrap: break-word">...</div>
-    <div style="width: 232px; height: 34px; left: 846px; top: 114.13px; position: absolute; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Music:</div>
-    <div style="width: 232px; height: 34px; left: 843px; top: 241.13px; position: absolute; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Voice:</div>
-    <div style="width: 232px; height: 34px; left: 846px; top: 369.13px; position: absolute; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Sound:</div>
-    <div style="width: 232px; height: 34px; left: 846px; top: 505.13px; position: absolute; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Video:</div>
-    <div style="width: 244.48px; height: 185px; left: 890px; top: 739.13px; position: absolute; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Window:</div>
-    <div style="width: 244.48px; height: 185px; left: 1208px; top: 740.13px; position: absolute; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Fullscreen:</div>
-    
-	<div style="width: 49.52px; height: 42px; left: 97px; top: 125.13px; position: absolute">
-      <div style="width: 29.24px; height: 30.33px; left: 29.07px; top: 0px; position: absolute; transform: rotate(45.64deg); transform-origin: 0 0; background: #2E72C1; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid"></div>
-      <div style="width: 11.89px; height: 12.33px; left: 8.86px; top: 12.65px; position: absolute; transform: rotate(45.64deg); transform-origin: 0 0; background: #498FCD; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); border: 3px white solid"></div>
-    </div>
-
-	
-
   </div>
+
 
 	
 `});
@@ -591,11 +549,12 @@ monogatari.component('text-box').template(() => {
 	<div style="width: 384px; height: 78.7px; left: 0px; top: 0px; position: absolute">
 	  <div class="big-bullet-point"></div>
 	  <div class="small-bullet-point"></div>
-	  <div class="name-box-total" style="width: 343px; height: 75px; top: 3.7px; position: absolute">
+	  <div class="name-box-total" style="height: 125px; top: 3.7px; position: absolute; display: flex; flex-direction: column-reverse; justify-content: flex-end;">
 		<div class="name-box-shadow" ></div>
 		<div class="name-box" >
-			<div style="width: 100%; height: 100%; position: absolute; color: #2e72c1; font-family: Nunito; font-weight: 800; word-wrap: break-word; text-align: center; display: flex;
-			align-items: center;
+			<div style="width: fit-content; height: 100%; color: #2e72c1; 
+			font-family: Nunito; font-weight: 800; word-wrap: break-word; text-align: center; display: flex;
+			align-items: center; padding: 5px;
 			justify-content: center;">
 		
 			<span data-ui="who" data-content="character-name"></span>
@@ -1046,36 +1005,36 @@ $_ready (() => {
 
 
 		input_range_volume_music  .addEventListener("input", (event)=>{
-			bar_fill_volume_music .style.width = event.target.value * 630 + 20 + 'px';
+			bar_fill_volume_music .style.width = event.target.value * 530 + 20 + 'px';
 			// chagne mute icon
 			if (event.target.value == 0) setting_menu_buton_MUSIC.src = "./assets/fromfigma/setting_menu_button_mute.png"
 			else setting_menu_buton_MUSIC.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_volume_voice  .addEventListener("input", (event)=>{
-			bar_fill_volume_voice .style.width = event.target.value * 630 + 20 + 'px';
+			bar_fill_volume_voice .style.width = event.target.value * 530 + 20 + 'px';
 			// chagne mute icon
 			if (event.target.value == 0) setting_menu_buton_VOICE.src = "./assets/fromfigma/setting_menu_button_mute.png"
 			else setting_menu_buton_VOICE.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_volume_sound  .addEventListener("input", (event)=>{
-			bar_fill_volume_sound .style.width = event.target.value * 630 + 20 + 'px';
+			bar_fill_volume_sound .style.width = event.target.value * 530 + 20 + 'px';
 			// chagne mute icon
 			if (event.target.value == 0) setting_menu_buton_SOUND.src = "./assets/fromfigma/setting_menu_button_mute.png"
 			else setting_menu_buton_SOUND.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_volume_video  .addEventListener("input", (event)=>{
-			bar_fill_volume_video .style.width = event.target.value * 630 + 20 + 'px';
+			bar_fill_volume_video .style.width = event.target.value * 530 + 20 + 'px';
 			// chagne mute icon
 			if (event.target.value == 0) setting_menu_buton_VIDEO.src = "./assets/fromfigma/setting_menu_button_mute.png"
 			else setting_menu_buton_VIDEO.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_speed_text	  .addEventListener("input", (event)=>{
 			console.log(event.target.value)
-			bar_fill_speed_text   .style.width = event.target.value * 12 + 'px';
+			bar_fill_speed_text   .style.width = event.target.value * 11 + 'px';
 		});
 		input_range_speed_autoPlay.addEventListener("input", (event)=>{
 			console.log(event.target.value)
-			bar_fill_speed_autoPlay.style.width = event.target.value * 10 + 'px';
+			bar_fill_speed_autoPlay.style.width = event.target.value * 11 + 'px';
 		});
 
 

@@ -1688,7 +1688,7 @@ monogatari.script({
     "character_object_atria ...Are you sure this is okay?.. Not suppressing the urge to talk... it feels so different. ",
     "character_object_kyo ... ",
     "character_object_kyo ...Damn she\'s traumatized. ",
-    "character_object_narration You try to nudge Kyo, as this was most definitely *not* the time, but he ducks away. ",
+    "character_object_narration You try to nudge Kyo, as this was most definitely <i>not</i> the time, but he ducks away. ",
     "character_object_player Of course it\'s alright. So, what do you say? Why don\'t you try making some friends by helping start up a club? ",
     "character_object_atria ...I&mdash; ",
     "character_object_narration Atria ponders this suggestion, taking a while to push away any troubles with her \'friends\'. ",

@@ -384,16 +384,27 @@ monogatari.component('settings-screen').template(() => {
 	<div class="setting_screen_container" style="display: flex; flex-direction: row; justify_content: space-evenly;">
 
 		<div class="text_settings_item">
-			<p style="color: #FFF;font-family: Nunito;font-size: 36px;font-style: normal;font-weight: 900;line-height: normal;letter-spacing: 3.4px; text-align: left; margin: 0;text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1; position: relative; padding-left: 50px;">Text settings</p>
+			<div class="icon_text" style="    
+				display: flex;
+				flex-direction: row;
+				padding-left: 20px;
+				column-gap: 15px;
+				padding-bottom: 5px;">
+				<img src="./assets/fromfigma/next.png" style="
+					z-index: 1;
+					height: 55px;
+					position: relative;
+					top: 5px;">
+				<p style="color: #FFF;font-family: Nunito;font-size: 48px;font-style: normal;font-weight: 900;line-height: normal;letter-spacing: 3.4px; text-align: left; margin: 0;text-shadow: 3px 3px 0 #2E72C1, -2px -2px 0 #2E72C1, 2px -2px 0 #2E72C1, -2px 2px 0 #2E72C1, 2px 2px 0 #2E72C1; position: relative;">Text settings</p>
+			</div>
+			<div style="width: 650px; height: 561px; position: relative; background: linear-gradient(348deg, rgba(144, 202, 255, 0.7) 0%, rgba(127, 214, 250, 0.7) 100%); box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50); border-radius: 60px; border: 5px white solid; z-index: 0;">
 
-			<div style="width: 600px; height: 561px; position: relative; background: linear-gradient(348deg, rgba(144, 202, 255, 0.7) 0%, rgba(127, 214, 250, 0.7) 100%); box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50); border-radius: 60px; border: 5px white solid">
+				<div style="display: flex; justify-content: center; padding-top: 100px; padding-left: 30px; padding-right: 45px; flex-direction: column;">
 
-				<div style="display: flex; justify-content: center; padding-top: 100px; padding-left: 20px; padding-right: 20px; flex-direction: column;">
-
-					<div style="text-align: left; position: relative; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word; order: 1;">Text Speed:</div>
+					<div style="text-align: left; position: relative; color: white; font-size: 36px; font-family: Nunito; font-weight: 700; line-height: 35.11px; word-wrap: break-word; order: 1;     text-shadow: 2px 3px 1px #2E72C1, -2px -1px 1px #2E72C1, 2px -1px 1px #2E72C1, -2px 1px 1px #2E72C1, 2px 0px 1px #2E72C1;">Text Speed:</div>
 
 				
-					<div style="width: 550px; height: 49px; position: relative; order: 2;">
+					<div style="width: 550px; height: 75px; position: relative; order: 2;">
 						<input type="range" min="1" max="50" step="1" data-action="set-text-speed"
 							id = "input_range_speed_text"
 							class = "input_range"
@@ -401,8 +412,10 @@ monogatari.component('settings-screen').template(() => {
 								padding: 0px;
 								width: 540px; 
 								position: absolute;
-								top: 25px;
+								top: 22px;
 								left: 4px;
+								height: 42px;
+    							border-radius: 50px;
 						">
 
 						<div class="input_range_cover_speed" ></div>
@@ -410,9 +423,9 @@ monogatari.component('settings-screen').template(() => {
 
 					</div>
 				
-					<div style="text-align: left; position: relative; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word; order: 3; padding-top: 75px;">Auto-Forward Speed:</div>
+					<div style="text-align: left; position: relative; color: white; font-size: 36px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word; order: 3; padding-top: 75px;     text-shadow: 2px 3px 1px #2E72C1, -2px -1px 1px #2E72C1, 2px -1px 1px #2E72C1, -2px 1px 1px #2E72C1, 2px 0px 1px #2E72C1;">Auto-Forward Speed:</div>
 
-					<div style="width: 550px; height: 49px; position: relative; order: 4;">
+					<div style="width: 550px; height: 75px; position: relative; order: 4;">
 						<input type="range" min="0" max="50" step="1" data-action="set-auto-play-speed" data-content="auto-play-speed-controller"
 							id = "input_range_speed_autoPlay"
 							class = "input_range"
@@ -420,8 +433,10 @@ monogatari.component('settings-screen').template(() => {
 								padding: 0px;
 								width: 540px; 
 								position: absolute;
-								top: 25px;
+								top: 22px;
 								left: 4px;
+								height: 42px;
+    							border-radius: 50px;
 						">
 
 						<div class="input_range_cover_speed" ></div>
@@ -435,13 +450,25 @@ monogatari.component('settings-screen').template(() => {
 			
 		</div>
 
-		<div class="volume_settings_item" style="padding-left: 125px;">
-			<p style="color: #FFF;font-family: Nunito;font-size: 36px;font-style: normal;font-weight: 900;line-height: normal;letter-spacing: 3.4px; text-align: left; margin: 0;text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1; position: relative; padding-left: 50px;">Volume</p>
-			<div style="width: 600px; height: 561px; position: relative; background: linear-gradient(348deg, rgba(144, 202, 255, 0.7) 0%, rgba(127, 214, 250, 0.7) 100%); box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50); border-radius: 60px; border: 5px white solid">
+		<div class="volume_settings_item" style="padding-left: 70px;">
+			<div class="icon_text" style="    
+					display: flex;
+					flex-direction: row;
+					padding-left: 20px;
+					column-gap: 15px;
+					padding-bottom: 5px;">
+				<img src="./assets/fromfigma/setting_menu_buton_sound.png" style="
+						z-index: 1;
+						height: 60px;
+						position: relative;
+						top: 2px;">
+				<p style="color: #FFF;font-family: Nunito;font-size: 48px;font-style: normal;font-weight: 900;line-height: normal;letter-spacing: 3.4px; text-align: left; margin: 0;text-shadow: 3px 3px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1; position: relative;">Volume</p>
+			</div>
+			<div style="width: 650px; height: 561px; position: relative; background: linear-gradient(348deg, rgba(144, 202, 255, 0.7) 0%, rgba(127, 214, 250, 0.7) 100%); box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.50); border-radius: 60px; border: 5px white solid; z-index: 0;">
 
-				<div style="display: flex; justify-content: center; padding-top: 50px; padding-left: 20px; padding-right: 20px; flex-direction: column;">
+				<div style="display: flex; justify-content: center; padding-top: 35px; padding-left: 45px; padding-right: 45px; flex-direction: column;">
 
-					<div style="text-align:left; height: 34px; position: relative; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word;">Music:</div>
+					<div style="text-align:left; height: 34px; position: relative; color: white; font-size: 36px; font-family: Nunito; font-weight: 700; line-height: 35.11px; word-wrap: break-word; text-shadow: 2px 3px 1px #2E72C1, -2px -1px 1px #2E72C1, 2px -1px 1px #2E72C1, -2px 1px 1px #2E72C1, 2px 0px 1px #2E72C1;">Music:</div>
 
 					<div style="width: 657px; height: 61.05px; position: relative">
 
@@ -450,7 +477,7 @@ monogatari.component('settings-screen').template(() => {
 							class = "input_range"
 							style="
 								padding: 0px;
-								width: 540px;
+								width: 530px;
     							height: 50px;
     							left: 4px;
     							top: 8px;
@@ -464,7 +491,7 @@ monogatari.component('settings-screen').template(() => {
 
 					<br>
 
-					<div style="text-align: left; height: 34px; position: relative; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Voice:</div>
+					<div style="text-align: left; height: 34px; position: relative; color: white; font-size: 36px; font-family: Nunito; font-weight: 700; line-height: 35.11px; word-wrap: break-word; text-shadow: 2px 3px 1px #2E72C1, -2px -1px 1px #2E72C1, 2px -1px 1px #2E72C1, -2px 1px 1px #2E72C1, 2px 0px 1px #2E72C1;">Voice:</div>
 
 					<div style="width: 657px; height: 61.05px; position: relative;">
 
@@ -473,7 +500,7 @@ monogatari.component('settings-screen').template(() => {
 							class = "input_range"
 							style="
 								padding: 0px;
-								width: 540px;
+								width: 530px;
 								height: 50px;
 								left: 4px;
 								top: 8px;
@@ -487,7 +514,7 @@ monogatari.component('settings-screen').template(() => {
 
 					<br>
 
-					<div style="text-align: left; height: 34px; position: relative; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Sound:</div>
+					<div style="text-align: left; height: 34px; position: relative; color: white; font-size: 36px; font-family: Nunito; font-weight: 700; line-height: 35.11px; word-wrap: break-word; text-shadow: 2px 3px 1px #2E72C1, -2px -1px 1px #2E72C1, 2px -1px 1px #2E72C1, -2px 1px 1px #2E72C1, 2px 0px 1px #2E72C1;">Sound:</div>
 
 
 					<div style="width: 657px; height: 61.05px; position: relative">
@@ -497,7 +524,7 @@ monogatari.component('settings-screen').template(() => {
 							class = "input_range"
 							style="
 								padding: 0px;
-								width: 540px;
+								width: 530px;
 								height: 50px;
 								left: 4px;
 								top: 8px;
@@ -511,7 +538,7 @@ monogatari.component('settings-screen').template(() => {
 
 					<br>
 
-					<div style="text-align: left; height: 34px; position: relative; color: white; font-size: 28px; font-family: Nunito; font-weight: 600; line-height: 35.11px; word-wrap: break-word">Video:</div>
+					<div style="text-align: left; height: 34px; position: relative; color: white; font-size: 36px; font-family: Nunito; font-weight: 700; line-height: 35.11px; word-wrap: break-word; text-shadow: 2px 3px 1px #2E72C1, -2px -1px 1px #2E72C1, 2px -1px 1px #2E72C1, -2px 1px 1px #2E72C1, 2px 0px 1px #2E72C1;">Video:</div>
 					
 					
 					<div style="width: 657px; height: 61.05px; position: relative">
@@ -521,7 +548,7 @@ monogatari.component('settings-screen').template(() => {
 							class = "input_range"
 							style="
 								padding: 0px;
-								width: 540px;
+								width: 530px;
 								height: 50px;
 								left: 4px;
 								top: 8px;
@@ -1005,25 +1032,51 @@ $_ready (() => {
 
 
 		input_range_volume_music  .addEventListener("input", (event)=>{
-			bar_fill_volume_music .style.width = event.target.value * 530 + 20 + 'px';
+			console.log(event.target.value);
+			bar_fill_volume_music .style.width = event.target.value * 530 + 10 + 'px';
+			if (event.target.value < 0.1) {
+				bar_fill_volume_music.style.outline = "none";
+			}
+			else {
+				bar_fill_volume_music.style.outline = "4px solid #2E72C1";
+			}
 			// chagne mute icon
 			if (event.target.value == 0) setting_menu_buton_MUSIC.src = "./assets/fromfigma/setting_menu_button_mute.png"
 			else setting_menu_buton_MUSIC.src = "./assets/fromfigma/setting_menu_buton_sound.png"
+			
 		});
 		input_range_volume_voice  .addEventListener("input", (event)=>{
-			bar_fill_volume_voice .style.width = event.target.value * 530 + 20 + 'px';
+			bar_fill_volume_voice .style.width = event.target.value * 530 + 10 + 'px';
+			if (event.target.value < 0.1) {
+				bar_fill_volume_voice.style.outline = "none";
+			}
+			else {
+				bar_fill_volume_voice.style.outline = "4px solid #2E72C1";
+			}
 			// chagne mute icon
 			if (event.target.value == 0) setting_menu_buton_VOICE.src = "./assets/fromfigma/setting_menu_button_mute.png"
 			else setting_menu_buton_VOICE.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_volume_sound  .addEventListener("input", (event)=>{
-			bar_fill_volume_sound .style.width = event.target.value * 530 + 20 + 'px';
+			bar_fill_volume_sound .style.width = event.target.value * 530 + 10 + 'px';
+			if (event.target.value < 0.1) {
+				bar_fill_volume_sound.style.outline = "none";
+			}
+			else {
+				bar_fill_volume_sound.style.outline = "4px solid #2E72C1";
+			}
 			// chagne mute icon
 			if (event.target.value == 0) setting_menu_buton_SOUND.src = "./assets/fromfigma/setting_menu_button_mute.png"
 			else setting_menu_buton_SOUND.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_volume_video  .addEventListener("input", (event)=>{
-			bar_fill_volume_video .style.width = event.target.value * 530 + 20 + 'px';
+			bar_fill_volume_video .style.width = event.target.value * 530 + 10 + 'px';
+			if (event.target.value < 0.1) {
+				bar_fill_volume_video.style.outline = "none";
+			}
+			else {
+				bar_fill_volume_video.style.outline = "4px solid #2E72C1";
+			}
 			// chagne mute icon
 			if (event.target.value == 0) setting_menu_buton_VIDEO.src = "./assets/fromfigma/setting_menu_button_mute.png"
 			else setting_menu_buton_VIDEO.src = "./assets/fromfigma/setting_menu_buton_sound.png"
@@ -1031,10 +1084,22 @@ $_ready (() => {
 		input_range_speed_text	  .addEventListener("input", (event)=>{
 			console.log(event.target.value)
 			bar_fill_speed_text   .style.width = event.target.value * 11 + 'px';
+			if (event.target.value < 2) {
+				bar_fill_speed_text.style.outline = "none";
+			}
+			else {
+				bar_fill_speed_text.style.outline = "4px solid #2E72C1";
+			}
 		});
 		input_range_speed_autoPlay.addEventListener("input", (event)=>{
 			console.log(event.target.value)
 			bar_fill_speed_autoPlay.style.width = event.target.value * 11 + 'px';
+			if (event.target.value < 2) {
+				bar_fill_speed_autoPlay.style.outline = "none";
+			}
+			else {
+				bar_fill_speed_autoPlay.style.outline = "4px solid #2E72C1";
+			}
 		});
 
 

@@ -646,6 +646,7 @@ alert-modal[message="Confirm"] button[data-action="dismiss-alert"][data-string="
 [data-screen="game"] [data-character="character_object_atria"] {
 	max-height: 175%;
 	bottom: -90%;
+	z-index: 1;
 }
 
 .atria-darken {
@@ -665,6 +666,10 @@ alert-modal[message="Confirm"] button[data-action="dismiss-alert"][data-string="
 [data-screen="game"] [data-character].atria-right {
 	left: auto;
 	right: 10%;
+}
+
+[data-screen="game"] [data-character="character_object_esmeray"] {
+	z-index: 1;
 }
 
 /* Other Images Styles */

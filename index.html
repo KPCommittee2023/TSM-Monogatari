@@ -183,53 +183,78 @@
 			@media screen and (max-height: 324px) { .setting-menu-zoom_to_fit { zoom: 0.38 } }
 
 			.input_range_cover {
-				width: 550px;
-				height: 24px;
+				width: 540px;
+				height: 42px;
 				background: white;
-				border-radius: 13px;
+				border-radius: 50px;
 				position: absolute;
 				pointer-events: none;
-				top: 22px;
-				box-shadow: 5px 6px rgb(74, 115, 182);
-				border: 3px solid rgb(74, 115, 182);
+				top: 15px;
+				outline: 5px solid #2E72C1;
+			}
+			.input_range_cover:before {
+				width: 550px;
+				height: 42px;
+				background: #2E72C1;
+				border-radius: 50px;
+				inset: 10px 3px;
+				outline: 4px solid white;
+				content: '';
+				z-index: -1;
+				position: absolute;
 			}
 			.input_range_cover_speed {
 				width: 550px;
-				height: 24px;
+				height: 42px;
 				background: white;
-				border-radius: 13px;
+				border-radius: 50px;
 				position: absolute;
 				pointer-events: none;
 				top: 22px;
-				box-shadow: 5px 6px rgb(74, 115, 182);
-				border: 3px solid rgb(74, 115, 182);
+				outline: 5px solid #2E72C1;
+			}
+			.input_range_cover_speed:before {
+				width: 560px;
+				height: 42px;
+				background: #2E72C1;
+				border-radius: 50px;
+				inset: 10px 3px;
+				outline: 4px solid white;
+				content: '';
+				z-index: -1;
+				position: absolute;
 			}
 			.bar_fill {
-				width: 550px;
-				height: 20px;
-				background: linear-gradient(to right, rgb(75,116,183), rgb(128,176,220));
-				border-radius: 10px;
+				width: 540px;
+				height: 42px;
+				background: linear-gradient(to right,  #2E72C1, #4F9BD8 54%, #7FD6FA);
+				border-radius: 50px;
 				position: absolute;
 				pointer-events: none;
-				top: 24px;
+				top: 15px;
+				left: -1px;
+				outline: #2E72C1 solid 4px;
 			}
 			.bar_fill_speed {
 				width: 220px;
-				height: 20px;
-				background: linear-gradient(to right,  rgb(75,116,183), rgb(128,176,220));
-				border-radius: 10px;
+				height: 42px;
+				background: linear-gradient(to right,  #2E72C1, #4F9BD8 54%, #7FD6FA);
+				border-radius: 50px;
 				position: absolute;
 				pointer-events: none;
-				top: 24px;
+				top: 22px;
+    			left: -1px;
+				outline: #2E72C1 solid 4px;
 			}
 			.auto_bar_fill_speed {
 				width: 55px;
-				height: 20px;
-				background: linear-gradient(to right,  rgb(75,116,183), rgb(128,176,220));
-				border-radius: 10px;
+				height: 42px;
+				background: linear-gradient(to right,  #2E72C1, #4F9BD8 54%, #7FD6FA);
+				border-radius: 50px;
 				position: absolute;
 				pointer-events: none;
-				top: 24px;
+				top: 22px;
+				outline: #2E72C1 solid 4px;
 			}
 			/* if you see this, you are good. */
 			

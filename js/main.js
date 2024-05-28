@@ -589,6 +589,11 @@ monogatari.component('text-box').template(() => {
 			</div>
 		</div>
 	  </div>
+	  <div class="auto-div" style="display: none; border-radius: 31.3px; box-shadow: 0px 4px 4px rgba(2, 0, 79, 0.25); position: absolute;
+		border: double 4px transparent; background-image: linear-gradient(white, white), linear-gradient(to bottom, #478DCC, #83CBE5); 
+		background-origin: border-box; background-clip: content-box, border-box; text-align: center;">
+	  		<span class="auto-text" style="font-family: 'Nunito'; font-weight: 800; color: #2E72C1;">Auto</span>
+	  </div>
 	</div>
   </div>
   
@@ -616,7 +621,7 @@ monogatari.component('text-box').template(() => {
 		
 	
 	<div style="display: inline-block; bottom: 5%; position: absolute; text-align: center; width: 80%" >
-		<span  data-action="auto-play"  class="quick-menu-button"
+		<span id="auto-button" data-action="auto-play"  class="quick-menu-button"
 			style="width: 65px; height: 6px; 
 			
 			margin: 15px;
@@ -646,8 +651,8 @@ monogatari.component('text-box').template(() => {
 			
 			margin: 15px;
 			top: 11%; position: relative; text-align: center; color: white; font-family: Nunito; font-weight: 700; word-wrap: break-word">Log</span>
-		<span  data-action="distraction-free" class="quick-menu-button"
-			style="display:none; width: 45px; height: 12px; 
+		<span id="hide-button" data-action="distraction-free" class="quick-menu-button"
+			style="width: 45px; height: 12px; 
 			
 			margin: 15px;
 			top: 11%; position: relative; text-align: center; color: white; font-family: Nunito; font-weight: 700; word-wrap: break-word">Hide</span>
@@ -1025,10 +1030,10 @@ $_ready (() => {
 		const bar_fill_speed_text	 	= document.querySelector("#bar_fill_speed_text");
 		const bar_fill_speed_autoPlay 	= document.querySelector("#bar_fill_speed_autoPlay");
 
-		const setting_menu_buton_MUSIC = document.querySelector("#setting_menu_buton_MUSIC"); 
-		const setting_menu_buton_VOICE = document.querySelector("#setting_menu_buton_VOICE");
-		const setting_menu_buton_SOUND = document.querySelector("#setting_menu_buton_SOUND");
-		const setting_menu_buton_VIDEO = document.querySelector("#setting_menu_buton_VIDEO");
+		// const setting_menu_buton_MUSIC = document.querySelector("#setting_menu_buton_MUSIC"); 
+		// const setting_menu_buton_VOICE = document.querySelector("#setting_menu_buton_VOICE");
+		// const setting_menu_buton_SOUND = document.querySelector("#setting_menu_buton_SOUND");
+		// const setting_menu_buton_VIDEO = document.querySelector("#setting_menu_buton_VIDEO");
 
 
 		input_range_volume_music  .addEventListener("input", (event)=>{
@@ -1040,9 +1045,9 @@ $_ready (() => {
 			else {
 				bar_fill_volume_music.style.outline = "4px solid #2E72C1";
 			}
-			// chagne mute icon
-			if (event.target.value == 0) setting_menu_buton_MUSIC.src = "./assets/fromfigma/setting_menu_button_mute.png"
-			else setting_menu_buton_MUSIC.src = "./assets/fromfigma/setting_menu_buton_sound.png"
+			// // chagne mute icon
+			// if (event.target.value == 0) setting_menu_buton_MUSIC.src = "./assets/fromfigma/setting_menu_button_mute.png"
+			// else setting_menu_buton_MUSIC.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 			
 		});
 		input_range_volume_voice  .addEventListener("input", (event)=>{
@@ -1054,8 +1059,8 @@ $_ready (() => {
 				bar_fill_volume_voice.style.outline = "4px solid #2E72C1";
 			}
 			// chagne mute icon
-			if (event.target.value == 0) setting_menu_buton_VOICE.src = "./assets/fromfigma/setting_menu_button_mute.png"
-			else setting_menu_buton_VOICE.src = "./assets/fromfigma/setting_menu_buton_sound.png"
+			// if (event.target.value == 0) setting_menu_buton_VOICE.src = "./assets/fromfigma/setting_menu_button_mute.png"
+			// else setting_menu_buton_VOICE.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_volume_sound  .addEventListener("input", (event)=>{
 			bar_fill_volume_sound .style.width = event.target.value * 530 + 10 + 'px';
@@ -1066,8 +1071,8 @@ $_ready (() => {
 				bar_fill_volume_sound.style.outline = "4px solid #2E72C1";
 			}
 			// chagne mute icon
-			if (event.target.value == 0) setting_menu_buton_SOUND.src = "./assets/fromfigma/setting_menu_button_mute.png"
-			else setting_menu_buton_SOUND.src = "./assets/fromfigma/setting_menu_buton_sound.png"
+			// if (event.target.value == 0) setting_menu_buton_SOUND.src = "./assets/fromfigma/setting_menu_button_mute.png"
+			// else setting_menu_buton_SOUND.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_volume_video  .addEventListener("input", (event)=>{
 			bar_fill_volume_video .style.width = event.target.value * 530 + 10 + 'px';
@@ -1078,8 +1083,8 @@ $_ready (() => {
 				bar_fill_volume_video.style.outline = "4px solid #2E72C1";
 			}
 			// chagne mute icon
-			if (event.target.value == 0) setting_menu_buton_VIDEO.src = "./assets/fromfigma/setting_menu_button_mute.png"
-			else setting_menu_buton_VIDEO.src = "./assets/fromfigma/setting_menu_buton_sound.png"
+			// if (event.target.value == 0) setting_menu_buton_VIDEO.src = "./assets/fromfigma/setting_menu_button_mute.png"
+			// else setting_menu_buton_VIDEO.src = "./assets/fromfigma/setting_menu_buton_sound.png"
 		});
 		input_range_speed_text	  .addEventListener("input", (event)=>{
 			console.log(event.target.value)
@@ -1103,8 +1108,40 @@ $_ready (() => {
 		});
 
 
+		// auto indicator
+		const auto_button = document.querySelector("#auto-button");
+		const auto_indicator = document.querySelector(".auto-div")
 
+		auto_button.addEventListener("click", toggleAuto);
+		function toggleAuto() {
+			if (auto_indicator.style.display == "none") {
+				auto_indicator.style.display = "block";
+			}
+			else {
+				auto_indicator.style.display = "none";
+			}
+		}
 
+		// show unhide fading message when pressing hide button
+		const unhide_div = document.querySelector(".unhide");
+		const hide_button = document.querySelector("#hide-button");
+		
+		hide_button.addEventListener("click", showUnhide);
+		function showUnhide() {
+			unhide_div.style.display = "block";
+			setTimeout(function() {
+				// hide message after a few seconds
+				unhide_div.classList.add("animate__animated");
+				unhide_div.classList.add("animate__fadeOut");
+				setTimeout(function () {
+					unhide_div.style.display = "none";
+				}, 1000);
+			}, 3000); // disappears after 3 secs
+			// reset
+			unhide_div.classList.remove("animate__animated");
+			unhide_div.classList.remove("animate__fadeOut");
+			
+		}
 
 	});
 });

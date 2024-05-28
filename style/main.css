@@ -837,6 +837,23 @@ input[type=range]::-ms-fill-upper {
 		left: 30px;
 	}
 
+	.auto-div {
+		left: 345px;
+		top: 25px;
+		width: 87px;
+		height: 36px;
+	}
+
+	.auto-text {
+		font-size: 20px;
+	}
+
+	.unhide {
+		width: 345px;
+		right: 40px;
+		bottom: 30px;
+	}
+
 	.quick-menu-button {
 		font-size: 18px;
 	}
@@ -1010,6 +1027,23 @@ input[type=range]::-ms-fill-upper {
 
 	.name-box-total {
 		left: 30px;
+	}
+
+	.auto-div {
+		left: 345px;
+		top: 25px;
+		width: 87px;
+		height: 38px;
+	}
+
+	.auto-text {
+		font-size: 20px;
+	}
+
+	.unhide {
+		width: 345px;
+		right: 40px;
+		bottom: 30px;
 	}
 
 	.quick-menu-button {
@@ -1203,6 +1237,22 @@ input[type=range]::-ms-fill-upper {
 		left: 41px;
 	}
 
+	.auto-div {
+		width: 107px; 
+		height: 41.49px; 
+		left: 450px;
+		top: 30px;
+	}
+
+	.auto-text {
+		font-size: 24px;
+	}
+
+	.unhide {
+		width: 418px;
+		right: 45px;
+        bottom: 35px;
+	}
 	.quick-menu-button {
 		font-size: 20px;
 	}

@@ -26,6 +26,19 @@
 const { $_ready, $_ } = Monogatari;
 
 // 1. Outside the $_ready function:
+monogatari.component('loading-screen').template(() => {
+	return `
+			<video id="bg-loading" autoplay loop muted>
+				<source src="./assets/videos/background_loop.mp4" type="video/mp4">
+			</video>
+			<div data-content="wrapper">
+				<h2 data-string="Loading" data-content="title" class="loading-text">Loading...</h2>
+				<progress value="0" max="100" data-content="progress"></progress>
+				
+			</div>
+		`;
+})
+
 monogatari.component ('main-screen').template (() => {
 	return `
 

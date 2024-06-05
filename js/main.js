@@ -32,7 +32,7 @@ monogatari.component('loading-screen').template(() => {
 				<source src="./assets/videos/background_loop.mp4" type="video/mp4">
 			</video>
 			<div data-content="wrapper">
-				<h2 data-string="Loading" data-content="title" class="loading-text">Loading...</h2>
+				<h2 data-string="Loading..." data-content="title" class="loading-text">Loading...</h2>
 				<progress value="0" max="100" data-content="progress"></progress>
 				
 			</div>

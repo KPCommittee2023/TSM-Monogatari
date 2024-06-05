@@ -75,7 +75,6 @@ button:hover {
 	font-family: 'Nunito';
 	color: white;
 	font-weight: 900;
-	font-size: 64px;
 	text-shadow: 4px 4px 1px #2E72C1, 0px 4px 4px rgba(0, 0, 0, 0.25), 1.5px 1.5px 0 #2E72C1, -1.5px 1.5px 0px #2E72C1, -1.5px -1.5px 0px #2E72C1, 1.5px -1.5px 0px #2E72C1;
 	
 }
@@ -88,24 +87,30 @@ loading-screen div {
     width: 100%;
 }
 
+loading-screen [data-content=wrapper] {
+    top: 45%;
+}
+
 loading-screen [data-content=progress] {
+	border-radius: 60px;
+	box-shadow: none;
+	background: white;
+}
+
+progress {
+	height: 2.5vw;
+}
+
+[data-content="progress"]::-webkit-progress-bar {
+	background: white;
+	outline: 5px solid #2E72C1;
 	border-radius: 60px;
 	box-shadow: none;
 }
 
-progress {
-	height: 2em;
-}
-
-::-webkit-progress-bar {
-	background: white;
-	outline: 5px solid #2E72C1;
-	border-radius: 60px;
-}
-
-::-webkit-progress-bar:before {
+[data-content="progress"]::-webkit-progress-bar:before {
 	background: #2E72C1;
-    border-radius: 50px;
+    border-radius: 60px;
     inset: 10px 10px;
     outline: 4px solid white;
     content: '';
@@ -113,7 +118,7 @@ progress {
     position: absolute;
 }
 
-::-webkit-progress-value {
+[data-content="progress"]::-webkit-progress-value {
 	background: linear-gradient(to right, #2E72C1, #4F9BD8 54%, #7FD6FA);
 	border-radius: 60px;
 	outline: #2E72C1 solid 4px;
@@ -828,6 +833,10 @@ input[type=range]::-ms-fill-upper {
 
 /** Medium Devices, Tablets (992px)**/
 @media screen and (min-width: 62em) {
+	.loading-text {
+		font-size: 45px;
+	}
+	
 	[data-ui="say"] {
 		font-size: 20px;
 	}
@@ -1020,6 +1029,10 @@ input[type=range]::-ms-fill-upper {
 
 /** HD Screen, Large Devices, Wide Screens, Desktop (1200px) **/
 @media screen and (min-width: 75em) {
+	.loading-text {
+		font-size: 45px;
+	}
+
 	[data-ui="say"] {
 		font-size: 20px;
 	}
@@ -1228,6 +1241,10 @@ input[type=range]::-ms-fill-upper {
 
 /** Full HD Screen, Large Devices, Wide Screens, Large Desktops (1920px) **/
 @media screen and (min-width: 120em) {
+	.loading-text {
+		font-size: 64px;
+	}
+
 	[data-ui="say"] {
 		font-size: 28px;
 	}

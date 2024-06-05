@@ -33,7 +33,23 @@ monogatari.component('loading-screen').template(() => {
 			</video>
 			<div data-content="wrapper">
 				<h2 data-string="Loading" data-content="title" class="loading-text">Loading...</h2>
-				<progress value="0" max="100" data-content="progress"></progress>
+				<div style="
+					text-align: center;
+				">
+					<div style="
+						position: absolute;
+						width: 61%;
+						height: 2.5vw;
+						margin: 1em auto;
+						left: 20%;
+						bottom: -5%;
+						background: #2E72C1;
+						border-radius: 50px;
+						outline: 3px solid white;
+						z-index: -1;
+					"></div>
+					<progress value="0" max="100" data-content="progress"></progress>
+				</div>
 				
 			</div>
 		`;

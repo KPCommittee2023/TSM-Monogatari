@@ -75,6 +75,7 @@ button:hover {
 	font-family: 'Nunito';
 	color: white;
 	font-weight: 900;
+	letter-spacing: 0.3rem;
 	text-shadow: 4px 4px 1px #2E72C1, 0px 4px 4px rgba(0, 0, 0, 0.25), 1.5px 1.5px 0 #2E72C1, -1.5px 1.5px 0px #2E72C1, -1.5px -1.5px 0px #2E72C1, 1.5px -1.5px 0px #2E72C1;
 }
 
@@ -95,7 +96,7 @@ loading-screen div {
 
 loading-screen [data-content=wrapper] {
 	position: absolute;
-    top: 45%;
+    top: 42.5%;
 }
 
 loading-screen [data-content=progress] {
@@ -128,13 +129,13 @@ loading-screen [data-content="progress"]::-webkit-progress-bar {
 loading-screen [data-content="progress"]::-webkit-progress-value {
 	background: linear-gradient(to right, #2E72C1, #4F9BD8 54%, #7FD6FA);
 	border-radius: 60px;
-	outline: #2E72C1 solid 4px;
+	outline: #2E72C1 solid 3px;
 }
 
 loading-screen [data-content="progress"]::-moz-progress-bar {
 	background: linear-gradient(to right, #2E72C1, #4F9BD8 54%, #7FD6FA);
 	border-radius: 60px;
-	outline: #2E72C1 solid 4px;
+	outline: #2E72C1 solid 3px;
 }
 
 @media screen and (min-width: 37.56255em) {

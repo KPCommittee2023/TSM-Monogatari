@@ -68,7 +68,7 @@ button:hover {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	z-index: -1;
+	z-index: -2;
 }
 
 .loading-text {
@@ -76,7 +76,8 @@ button:hover {
 	color: white;
 	font-weight: 900;
 	font-size: 64px;
-	text-shadow: 4px 4px 1px #2E72C1, 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-shadow: 4px 4px 1px #2E72C1, 0px 4px 4px rgba(0, 0, 0, 0.25), 1.5px 1.5px 0 #2E72C1, -1.5px 1.5px 0px #2E72C1, -1.5px -1.5px 0px #2E72C1, 1.5px -1.5px 0px #2E72C1;
+	
 }
 
 loading-screen {
@@ -88,7 +89,7 @@ loading-screen div {
 }
 
 loading-screen [data-content=progress] {
-	border-radius: 50px;
+	border-radius: 60px;
 	box-shadow: none;
 }
 
@@ -99,13 +100,13 @@ progress {
 ::-webkit-progress-bar {
 	background: white;
 	outline: 5px solid #2E72C1;
-	border-radius: 50px;
+	border-radius: 60px;
 }
 
 ::-webkit-progress-bar:before {
 	background: #2E72C1;
     border-radius: 50px;
-    inset: 10px 3px;
+    inset: 10px 10px;
     outline: 4px solid white;
     content: '';
     z-index: -1;
@@ -114,8 +115,14 @@ progress {
 
 ::-webkit-progress-value {
 	background: linear-gradient(to right, #2E72C1, #4F9BD8 54%, #7FD6FA);
-	border-radius: 50px;
+	border-radius: 60px;
 	outline: #2E72C1 solid 4px;
+}
+
+@media screen and (min-width: 37.56255em) {
+    loading-screen [data-content=progress] {
+        width: 60%;
+    }
 }
 
 /**

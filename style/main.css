@@ -94,6 +94,7 @@ loading-screen div {
 }
 
 loading-screen [data-content=wrapper] {
+	position: absolute;
     top: 45%;
 }
 

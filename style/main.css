@@ -76,7 +76,13 @@ button:hover {
 	color: white;
 	font-weight: 900;
 	text-shadow: 4px 4px 1px #2E72C1, 0px 4px 4px rgba(0, 0, 0, 0.25), 1.5px 1.5px 0 #2E72C1, -1.5px 1.5px 0px #2E72C1, -1.5px -1.5px 0px #2E72C1, 1.5px -1.5px 0px #2E72C1;
-	
+}
+
+.loading-text:after {
+	content: '...';
+	color: white;
+	font-weight: 900;
+	text-shadow: 4px 4px 1px #2E72C1, 0px 4px 4px rgba(0, 0, 0, 0.25), 1.5px 1.5px 0 #2E72C1, -1.5px 1.5px 0px #2E72C1, -1.5px -1.5px 0px #2E72C1, 1.5px -1.5px 0px #2E72C1;
 }
 
 loading-screen {
@@ -836,7 +842,7 @@ input[type=range]::-ms-fill-upper {
 	.loading-text {
 		font-size: 45px;
 	}
-	
+
 	[data-ui="say"] {
 		font-size: 20px;
 	}

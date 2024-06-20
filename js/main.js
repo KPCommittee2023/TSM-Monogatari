@@ -129,7 +129,7 @@ monogatari.component ('main-screen').template (() => {
 			<!-- kouzie's work -->
 			<div class="slider-container_kouzie">
 					<div class="slider_kouzie">
-						<span>... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾&#755;⁽⁽ ɾ( ˘ω˘ ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀&#42;)ヾ&#40;´︶*&#41;ﾉ&#9835; &#603;≡ﾍ&#40; &#884;∀\`&#41;ﾉ =≡Σ((( つ•̀ω•́)=&#62;一ω<)) ヾ&#40;´︶\`*&#41;ﾉ</span>
+						<span>~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾&#755;⁽⁽ ɾ( ˘ω˘ ɩ ) ₎₎ｽﾞｲ ~~~ Welcome to the radio club, here to make some friends? Fan game made by the Kyomies ヾ(´︶｀&#42;)ヾ&#40;´︶*&#41;ﾉ&#9835; &#603;≡ﾍ&#40; &#884;∀\`&#41;ﾉ =≡Σ((( つ•̀ω•́)=&#62;一ω<)) ヾ&#40;´︶\`*&#41;ﾉ</span>
 						<!--duplicated messages to make animation smoother-->
 						<span class="duplicate_kouzie">... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾&#755;⁽⁽ ɾ( ˘ω˘ ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀&#42;)ヾ&#40;´︶*&#41;ﾉ&#9835; &#603;≡ﾍ&#40; &#884;∀\`&#41;ﾉ =≡Σ((( つ•̀ω•́)=&#62;一ω<)) ヾ&#40;´︶\`*&#41;ﾉ</span> 
 						<span class="duplicate_kouzie">... Radio club...~~~ ｽﾞｲ₍₍ (ง ˘ω˘ )ว ⁾⁾&#755;⁽⁽ ɾ( ˘ω˘ ɩ ) ₎₎ｽﾞｲ ~~~ Happy birthday Kyo! Fan game made by the Kyomies tbc ヾ(´︶｀&#42;)ヾ&#40;´︶*&#41;ﾉ&#9835; &#603;≡ﾍ&#40; &#884;∀\`&#41;ﾉ =≡Σ((( つ•̀ω•́)=&#62;一ω<)) ヾ&#40;´︶\`*&#41;ﾉ</span>
@@ -150,7 +150,7 @@ monogatari.component ('main-screen').template (() => {
 		<div
 			style="width: 1135px; height: 939px; left: 1993px; top: 1601px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; mix-blend-mode: hard-light; background: radial-gradient(97.29% 97.28% at 144.48% -13.60%, #7FD6FA 0%, rgba(255, 255, 255, 0) 100%)">
 		</div>
-		<div class="main-button"
+		<div class="main-button" data-action="open-screen" data-open="gallery"
 			style="width: 276px; height: 58px; left: 1485px; top: 510px; position: absolute; color: white; font-size: 40px; font-family: Nunito; font-weight: 900; letter-spacing: 3.40px; word-wrap: break-word; text-align: left; display: flex; z-index: 1;">
 			<div style="width: 70px; height: 100%;">
 				<svg class="cursor" xmlns="http://www.w3.org/2000/svg" width="70" height="62" viewBox="0 0 70 62" fill="none">
@@ -358,7 +358,7 @@ monogatari.component ('main-screen').template (() => {
 </div>
 
 
-		<main-menu></main-menu>
+		
 		`;
 	});
 	
@@ -367,7 +367,7 @@ monogatari.component ('main-screen').template (() => {
 
 monogatari.component('main-menu').template(() => {
 	return `
-
+		
 	
 `});
 

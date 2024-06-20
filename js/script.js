@@ -39,7 +39,15 @@ monogatari.action("canvas").objects({});
 monogatari.configuration("credits", {});
 
 // Define the images that will be available on your game's image gallery
-monogatari.assets("gallery", {});
+monogatari.assets("gallery", {
+
+  'cg_atria' : 'Atria_CG.jpg',
+  'cg_skye' : 'Tak_berjudul85_20230701211407.png',
+  'cg_esmeray' : 'Esmeray_CG.png',
+  'cg_group' : 'Radio_Club_CG.png',
+  'cg_kyo' : 'kyo-cg2.png',
+
+});
 
 // Define the music used in the game.
 monogatari.assets("music", {
@@ -97,11 +105,12 @@ monogatari.assets("scenes", {
   'kyo_cg2': 'special_scenes/Final/Kyo_CG/kyo-cg2.png',
   'kyo_sparkle': 'special_scenes/Final/Kyo_CG/kyo-sparkle.png',
 
-  'skye_cg': 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211359.png',
+  'Tak_berjudul85_20230701211359': 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211359.png',
   'Tak_berjudul85_20230701211403': 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211403.png',
-  'Tak_berjudul85_20230701211407': 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211407.png',
+  'skye_cg': 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211407.png',
   'Tak_berjudul85_20230701211442': 'special_scenes/Final/Skye_CG/Tak_berjudul85_20230701211442.png',
 
+  'group_hug_cg' : 'special_scenes/Final/Radio_Club_CG.png',
 
   'music_GUITAR': 'Backgrounds/Final/Music_Room_BG_assets/music_GUITAR.png',
   'music_LAPTOP': 'Backgrounds/Final/Music_Room_BG_assets/music_LAPTOP.png',
@@ -1598,6 +1607,22 @@ monogatari.script({
     "character_object_narration She continues speaking, slowly but surely becoming more confident as she speaks her mind, whatever small bits of information or passion that come to her. ",
     "character_object_narration Some time passes, and not long later, she begins speaking like she had been waiting for this opportunity for years. ",
     "show scene Atria_CG with fadeIn",
+
+
+    // unlock atria cg
+    "gallery unlock cg_atria",
+    // {'Function':{
+		// 	'Apply': function () {
+    //     atriaUnlock.set(true);
+		// 		// const atria_figure = document.querySelector('#cg_atria_figure');
+		// 		// atria_figure.style.removeProperty("display");
+    //     // const figure1 = document.querySelector('#figure_1');
+    //     // figure1.style.display = "none";
+		// 		return true;
+		// 	},
+			
+		// }},
+
     "character_object_narration Her face lights up with the most genuine smile you have seen from her since the two of you met. You and Kyo give each other accomplished glances, allowing her to ramble without being ridiculed for what seems like the first time in her life. ",
     "character_object_narration She seems like an entirely different person, babbling about whatever comes to her mind, in a world of her own. ",
     "character_object_narration Even a few giddy sounding giggles manage to leave Atria. It was clear as day that she found enjoyment in this. ",
@@ -2337,6 +2362,8 @@ monogatari.script({
 
     // Skye CG
     "show scene skye_cg with fadeIn",
+    // unlock skye cg
+    "gallery unlock cg_skye",
 
     "character_object_narration Kyo slips into the room in the middle of all the excitement, quietly sneaking into the corner of the room, settling for looking at what was going on. ",
     "character_object_narration You move to greet him &mdash; and maybe grill him for missing yet another certified moment with your new club members &mdash; when Kyo motions for you to stop. ",
@@ -2452,7 +2479,8 @@ monogatari.script({
 
     // "character_object_esmeray Esmeray CG ",
     'show scene Esmeray_CG',
-
+    // unlock esmeray cg
+    "gallery unlock cg_esmeray",
 
 
     "character_object_esmeray 	Don\'t need the plastic smiles all up in my face ",
@@ -3529,14 +3557,16 @@ monogatari.script({
 
 
     // "Group hug CG  Group hug CG ",
-    'show scene Tak_berjudul85_20230701211442',
+    'show scene group_hug_cg',
+    // unlock group hug cg
+    "gallery unlock cg_group",
 
 
     "character_object_player Hehe, thanks y\'all. If only Kyo was here to join in the hug too. He\'s the one who started the club, after all ",
     
     
     // "Group hug CG ends. Group hug CG ends ",
-    'hide scene Tak_berjudul85_20230701211442',
+    "show scene music_room_basic_ALL",
 
 
 
@@ -3621,7 +3651,12 @@ monogatari.script({
     "character_object_narration Kyo lets out a deep sigh ",
     "character_object_kyo I don\'t actually go here. I used to, but it was a long time ago ",
     "character_object_player Why are you here then ",
-    "character_object_kyo Kyo C ",
+
+    // Kyo CG scene
+    "show scene kyo_cg2",
+    // unlock kyo cg
+    "gallery unlock cg_kyo",
+
     "character_object_kyo To help you make friends ",
     "character_object_narration Your eyes widen ",
     "character_object_player How\'d you know I wanted to... ",
@@ -3658,6 +3693,7 @@ monogatari.script({
     "character_object_kyo By the moon. Who also gave me my powers. I think that\'s why you\'re also the only person who can see and hear me. Consider yourself lucky. ",
     "character_object_player I was chosen? Wow.. ",
     "character_object_kyo But I\'m running out of time. Now, I won\'t exist in this reality again. For real this time ",
+    // insert school bell sfx
     "character_object_narration The school bell rings. School Bell SF ",
     "character_object_kyo Go. Your friends are waiting for you ",
     "character_object_narration Kyo sets up his exit ",
@@ -3669,13 +3705,13 @@ monogatari.script({
 
     // "character_object_kyo Fade out Kyo, use the Kyo_BG in his special scene folde ",
     'hide character character_object_kyo',
-'show scene kyo_cg',
+    'show scene kyo_bg',
 
 
-'stop music Opening_closing_VINTAGE with loop', 
+    'stop music Opening_closing_VINTAGE with loop', 
 
-    "Game end Game en ",
-    "Go to credits Go to credit ",
+    //"Game end Game en ",
+    //"Go to credits Go to credit ",
     // end-of-CHAPTER-E-mark
     'end'
   ],

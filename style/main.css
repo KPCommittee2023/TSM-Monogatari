@@ -146,10 +146,77 @@ loading-screen [data-content="progress"]::-moz-progress-bar {
 
 /**
  * ===========================
+ * Gallery Screen Styling
+ * ===========================
+**/
+[data-string="Gallery"] {
+	display: none;
+}
+
+[data-ui="gallery"] {
+	margin: auto;
+	width: 1557px;
+	border-radius: 11px; 
+	border: 3px solid white; 
+	height: 856px; 
+	box-shadow: 0px 0px 0px 3px #2E72C1 inset; 
+	outline: 3px solid #2E72C1; 
+	background-image: url(../assets/fromfigma/load_bg.png); 
+	position: relative; 
+	padding: 7% 5% 3% 5%; 
+	row-gap: 45px;
+	justify-content: center;
+    column-gap: 29px;
+	display: grid;
+	grid-template-columns: repeat(3, 420px);
+}
+
+figure.card--depth--2.row__column.row__column--6.row__column--tablet--4.row__column--desktop--3.row__column--retina--2 {
+	height: 268px;
+    border-radius: 60px;
+    border: 5px solid #FFF;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+	background-image: url(../assets/fromfigma/locked.png);
+	z-index: 2;
+}
+
+.svg-inline--fa.fa-lock {
+	display: none;
+}
+
+svg.svg-inline--fa.fa-arrow-left.fa-w-14.top.left {
+	display: none;
+}
+
+[data-ui="image-viewer"] {
+    background: linear-gradient(0deg, rgba(205, 222, 255, 0.62) 0%, rgba(205, 222, 255, 0.62) 100%), linear-gradient(180deg, rgba(127, 214, 250, 1) 77%, rgba(254, 130, 219, 1) 100%);
+}
+
+.modal figure.modal__content {
+    border-radius: 20px;
+}
+
+gallery-screen .modal figure {
+    background-color: transparent;
+    background-size: cover;
+    height: 90%;
+    width: 90%;
+    margin: 0;
+    overflow: hidden;
+}
+
+/**
+ * ===========================
  * Main Menu Styling
  * ===========================
 **/
 
+main-menu {
+	display: none;
+}
 
 /* Main Menu Styling */
 [data-screen="main"] {
@@ -158,7 +225,7 @@ loading-screen [data-content="progress"]::-moz-progress-bar {
 
 /* Main Menu Buttons Styling */
 [data-screen="main"] button {
-
+	display: none;
 }
 
 .cursor {

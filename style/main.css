@@ -53,6 +53,20 @@ button:hover {
 	to { width: 100% }
   }
 
+@keyframes scrollDown {
+	0% {
+		top: 0;
+		transform: translateY(0);
+	}
+	100% {
+		bottom: 0;
+		transform: translateY(-100%);
+	}
+} 
+
+@keyframes hide-scroll {
+	from, to { overflow: hidden; } 
+}
 /**
  * ===========================
  * Loading Screen Styling
@@ -458,6 +472,88 @@ button:focus {
 	top: 45%;
 }
 
+message-modal[title="Credits"] {
+	background-color: transparent;
+}
+
+message-modal[title="Credits"] [data-ui=message-content] {
+    position: relative;
+    animation: scrollDown 35s 2s linear;
+}
+
+message-modal[title="Credits"] h3{
+	color: #2E72C1;
+    text-shadow: 2px 2px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    text-align: center;
+}
+
+message-modal[title="Credits"] .modal__content {
+    /* background: linear-gradient(rgba(46, 114, 193, 0.6), rgba(46, 114, 193, 0.6)), linear-gradient(180deg, rgba(163, 204, 244, 0.5), rgba(190, 186, 238, 0.5)); */
+	background: url(../assets/fromfigma/creds-bg.png);
+	background-size: contain;
+	width: 80%;
+	height: 80%;
+	border-radius: 30px;
+	animation: hide-scroll 37s ease-in-out;
+}
+
+message-modal[title="Credits"] .modal__content::-webkit-scrollbar-track {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.scrolling {
+    text-align: center;
+	padding-top: 1%;
+}
+
+p.creds-subtitle {
+	font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;
+}
+
+p.creds-name {
+	font-weight: 600;
+    color: white;
+	line-height: 160%;
+}
+
+p.X {
+    color: white;
+	font-size: 25px;
+    text-shadow: 2px 2px 0 #2E72C1, -1px -1px 0 #2E72C1, 1px -1px 0 #2E72C1, -1px 1px 0 #2E72C1, 1px 1px 0 #2E72C1;
+}
+
+.blank-space {
+	height: 150px;
+}
+
+.creds-cg {
+	position: absolute;
+	width: 33%;
+}
+
+img.creds-cg-1 {
+    right: 1%;
+    top: 10%;
+}
+
+img.creds-cg-2 {
+    left: 1%;
+    top: 30%;
+}
+
+img.creds-cg-5 {
+    right: 1%;
+    top: 50%;
+}
+
+img.creds-cg-4 {
+    left: 1%;
+    top: 70%;
+}
+
 /* Choice Buttons style */
 [data-component="choice-container"] button {
 	margin: 0.5em;
@@ -617,6 +713,11 @@ centered-dialog [data-content=wrapper] {
 	margin: 0;
 	animation: fadeInDownAnim 500ms linear forwards;
 	animation-delay: 2.75s;
+}
+
+img.bg-img {
+	width: 100%;
+	max-height: 100%;
 }
 
 /*Log Style*/

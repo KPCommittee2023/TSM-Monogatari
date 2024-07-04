@@ -17,6 +17,180 @@ monogatari.action("message").messages({
       <p>This includes: <b>toxic relationships, bullying, mentions of abuse, mentions of emotional manipulation, and references to suicide</b>.</p>
       <p>These topics are not explicitly described, but are mentioned in the characters' backstories. If you are uncomfortable with these topics, then please proceed with caution and ensure that your own comfort and safety is prioritized.</p>
     `,
+  },
+  Credits: {
+    title: "Credits",
+    body: `
+      <div class="scrolling">
+        <img class="creds-cg creds-cg-1" src="./assets/fromfigma/cg1(placeholder).png"></img>
+        <img class="creds-cg creds-cg-2" src="./assets/fromfigma/cg2(placeholder).png"></img>
+        <img class="creds-cg creds-cg-5" src="./assets/fromfigma/cg5(placeholder).png"></img>
+        <img class="creds-cg creds-cg-4" src="./assets/fromfigma/cg4(placeholder).png"></img>
+        <p class="creds-subtitle">Project Organizer</p>
+        <p class="creds-name">
+          Rizimu &nbsp;
+                <a href="https://rizimuwinn.carrd.co/" target="_blank">
+                    <img class="zoom_to_fit" style="width: 30px; padding-top: 4px; vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
+								</a><br>
+        </p>
+        <p class="X">X</p>
+        <p class="creds-subtitle">Project Managers</p>
+        <p class="creds-name">
+          Bloom &nbsp;
+								<a href="https://lucid-dreaming.carrd.co/" target="_blank">
+									<img class="zoom_to_fit" style="width: 30px; padding-top: 4px; vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
+								</a><br>
+          Valya &nbsp;&nbsp;&nbsp;
+								<a href="https://twitter.com/valyamini" target="_blank">
+									<img class="zoom_to_fit" style="width: 24px; padding-top: 8px; vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+								</a>
+        </p>
+        <p class="X">X</p>
+        <p class="creds-subtitle">Writers</p>
+        <p class="creds-name">
+          
+          Liang &nbsp;
+            <a href="https://yunliang.carrd.co/" target="_blank">
+              <img class="zoom_to_fit" style="width: 30px; padding-top: 4px; vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
+            </a>
+          <br>Izuroi &nbsp;&nbsp;
+            <a href="https://x.com/izuroivastain" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+          <br>Rue &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com/Rue_Romaritime" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+          <br>Usahino Geum &nbsp;
+            <a href="https://twitter.com/geumusahino" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+						
+        </p>
+        <p class="X">X</p>
+        <p class="creds-subtitle">Editor</p>
+        <p class="creds-name">
+          Aku &nbsp;
+        </p>
+        <p class="X">X</p>
+        <p class="creds-subtitle">Programmers</p>
+        <p class="creds-name">
+          
+          Fili &nbsp;&nbsp;&nbsp;
+            <a href="https://sunfilisdev.carrd.co/" target="_blank">
+              <img class="zoom_to_fit" style="width: 30px; padding-top: 4px; vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
+            </a>
+          <br>Alpaka &nbsp;&nbsp;
+            <a href="https://twitter.com/Stephen42166653" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+          <br>weepymice &nbsp;&nbsp;
+            <a href="https://www.tumblr.com/weepymice" target="_blank">
+              <img class="zoom_to_fit" style="width: 30px; padding-top: 4px; vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
+            </a>
+          <br>Lisbeth Arias &nbsp;
+            <a href="https://instagram.com/lizzyariasdejesus" target="_blank">
+              <img class="zoom_to_fit" style="width: 30px; padding-top: 4px; vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
+            </a>
+					<br>rubysweetie &nbsp;
+            <a href="https://github.com/SeonJaeY" target="_blank">
+              <img class="zoom_to_fit" style="width: 30px; padding-top: 4px; vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
+            </a>	
+          <br>StolasHoliday &nbsp;
+            <a href="https://twitter.com/StolasHoliday" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+
+        </p>
+        <p class="X">X</p>
+        <p class="creds-subtitle">Music Composers</p>
+        <p class="creds-name">
+          
+          Aefen &nbsp;&nbsp;
+           <a href="https://twitter.com/OfficialAefen" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+          <br>SticktheFigure &nbsp;
+            <a href="https://twitter.com/SticktheFigure" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+          
+        </p>
+        <p class="X">X</p>
+        <p class="creds-subtitle">Sprite Artists</p>
+        <p class="creds-name">
+          
+          Eirena &nbsp;
+            <a href="https://twitter.com/eirenadraws" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+          <br>Otoke &nbsp;
+            <a href="https://otokeneko.carrd.co/" target="_blank">
+              <img class="zoom_to_fit" style="width: 30px; padding-top: 4px; vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
+            </a>
+          <br>Roz &nbsp;&nbsp;
+            <a href="https://twitter.com/nritermi" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+          <br>tejing &nbsp;
+            <a href="https://twitter.com/bblanckett" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+					
+        </p>
+        <p class="X">X</p>
+        <p class="creds-subtitle">Background Artists</p>
+        <p class="creds-name">
+          
+          kimsugi &nbsp;
+            <a href="https://twitter.com/_kimsugi" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+          <br>Niko(ShibeDraws) &nbsp;
+            <a href="https://twitter.com/ShibeDraws" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+          <br>Yuji Sakura &nbsp;
+            <a href="https://twitter.com/blossomxbloom" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+          
+        </p>
+        <p class="X">X</p>
+        <p class="creds-subtitle">Special Scene Artists</p>
+        <p class="creds-name">
+          
+          Jian &nbsp;&nbsp;
+            <a href="https://sincerelyoursji.carrd.co/" target="_blank">
+              <img class="zoom_to_fit" style="width: 30px; padding-top: 4px; vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
+            </a>
+          <br>Korichii &nbsp;
+            <a href="https://korichii.carrd.co/" target="_blank">
+              <img class="zoom_to_fit" style="width: 30px; padding-top: 4px; vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://carrd.co/assets/docs/images/brand/svg/symbol-light.svg">
+            </a>
+          <br>Var &nbsp;&nbsp;
+            <a href="https://twitter.com/_Varietale_" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+          <br>夜記Giselle &nbsp;
+            <a href="https://twitter.com/yakigiselle" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+					
+        </p>
+        <p class="X">X</p>
+        <p class="creds-subtitle">UI Artist</p>
+        <p class="creds-name">
+          
+          angelisdoodlin &nbsp;&nbsp;
+           <a href="https://twitter.com/angelisdoodlin" target="_blank">
+              <img class="zoom_to_fit" style="width: 24px; padding-top: 8px;  vertical-align: middle; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(25deg) brightness(103%) contrast(101%);" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+            </a>
+          
+        </p>
+        <div class="blank-space"></div>
+      </div>
+    `,
   }
 });
 
@@ -3619,6 +3793,7 @@ monogatari.script({
     "character_object_narration That is the only sign you\'ve seen of him in school all week. What the hell is he up to? ",
     "character_object_narration Looking up ahead, you see more graffiti symbols in the distance, scattered far apart in a way that beckons you to follow them. When you try to get near the symbols, they disappear as well. Oh boy, do you have some questions to ask him when you see him ",
     "School Rooftop Night School Rooftop Nigh ",
+    "show scene Rooftop_bg_night",
     "character_object_narration You follow the path until you arrive at the school\'s rooftop. ",
     "character_object_narration There he is, spray painting symbols on the ground all around him in a circle. They vanish into thin air ",
     "character_object_narration You call out to him.  ",
@@ -3635,6 +3810,9 @@ monogatari.script({
     "character_object_narration Kyo turns around. ",
     "character_object_kyo Oh shit, hi {{player.name}} ",
     "character_object_player Where have you been? I haven\'t seen you in school all week ",
+
+    'show character character_object_kyo Kyo_FP_Default normal',
+
     "character_object_kyo Um, about that.. ",
     "character_object_narration He shakes his spray paint can but doesn\'t use it. He looks back and forth between his spray can, the moon above, and you as if he\'s contemplating his next move. He sighs ",
     "character_object_kyo You weren\'t supposed to come here. ",
@@ -3652,6 +3830,7 @@ monogatari.script({
     "character_object_kyo I don\'t actually go here. I used to, but it was a long time ago ",
     "character_object_player Why are you here then ",
 
+    'hide character character_object_kyo',
     // Kyo CG scene
     "show scene kyo_cg2",
     // unlock kyo cg
@@ -3704,21 +3883,36 @@ monogatari.script({
 
 
     // "character_object_kyo Fade out Kyo, use the Kyo_BG in his special scene folde ",
-    'hide character character_object_kyo',
-    'show scene kyo_bg',
-
-
-    'stop music Opening_closing_VINTAGE with loop', 
-
+    "centered <img class=\"bg-img\" src=\"assets/scenes/special_scenes/Final/Kyo_CG/kyo-bg.png\">",
+    'stop music Opening_closing_VINTAGE with fade 5', 
+    "show scene black_screen with fadeIn duration 2s",
+    'wait 2000',
     //"Game end Game en ",
     //"Go to credits Go to credit ",
     // end-of-CHAPTER-E-mark
-    'end'
+    'jump END'
   ],
   
   // placeholder here
   'END': [
-    
+    "show video background_loop background loop animate__animated animate__fadeIn animate__faster",
+    {'Function':{
+			'Apply': function () {
+				const textbox = document.querySelector('[data-component="text-box"]');
+				textbox.style.display = "none";
+        const frame = document.querySelector('.frame-game');
+        frame.style.display = "none";
+				return true;
+			},
+			'Reverse': function () {
+				const textbox = document.querySelector('[data-component="text-box"]');
+				textbox.style.removeProperty("display");
+        const frame = document.querySelector('.frame-game');
+        frame.style.removeProperty("display");
+			}
+		}},
+    'wait 1000',
+    'show message Credits with fadeIn',
     'end'
   ],
 

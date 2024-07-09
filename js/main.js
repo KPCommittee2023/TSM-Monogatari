@@ -1037,7 +1037,35 @@ monogatari.component('save-screen').template(() => {
 	
 `});
 
+monogatari.component('dialog-log').template(() => {
+    return `
+		<div class="modal__content">
+			<div class="log-wrapper">
+				<div class="bar-wrapper">
+					<div class="progress"></div>
+					<div class="progress-cursor">
+						<div style="width: 26px;height: 26px;transform: rotate(45.791deg);flex-shrink: 0;border: 3px solid #FFF;background: #2E72C1;box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);position: relative;left: 8%;"></div>
+						<div style="width: 11px;height: 11px;transform: rotate(45.791deg);flex-shrink: 0;border: 3px solid #FFF;background: #498FCD;box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);position: relative;left: -7px;top: -19px"></div>
+					</div>
+					
+				</div>
+				<div data-content="log" class="log" style="font-family: Nunito;">
+					<div class="text--center padded"; data-string="NoDialogsAvailable"; data-content="placeholder">No dialogs available. Dialogs will appear here as they show up.</div>
+				</div>
+			</div>
 
+			<div class="zoom_to_fit" style="width: 484.614px;height: 81px;flex-shrink: 0;filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
+				<div style="width: 47.731px;height: 49.504px;transform: rotate(45.791deg);flex-shrink: 0;border: 3px solid #FFF;background: #2E72C1;box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);position: absolute;left: 11%;"></div>
+				<div style="width: 19.4px;height: 20.121px;transform: rotate(45.791deg);flex-shrink: 0;border: 3px solid #FFF;background: #498FCD;box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);position: absolute;left: 7%;top: 20%"></div>
+				<div style="width: 47.731px;height: 49.504px;transform: rotate(45.791deg);flex-shrink: 0;border: 3px solid #FFF;background: #2E72C1;box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);position: absolute;left: 79%;"></div>
+				<div style="width: 19.4px;height: 20.121px;transform: rotate(45.791deg);flex-shrink: 0;border: 3px solid #FFF;background: #498FCD;box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);position: absolute;left: 89%;top: 20%"></div>
+				<div style="width: 326.45px;height: 67.3px;flex-shrink: 0;border-radius: 41.297px;background: #76BDE0;position: absolute;top: 5%;left: 17.5%;"></div>
+				<button data-string="Close" data-action="dialog-log" style="width: 336.45px;height: 67.3px;flex-shrink: 0;border-radius: 41.297px;border: 5px solid transparent;background: linear-gradient(white, white) padding-box, linear-gradient(#478DCC, #83CBE5) border-box;position: relative;top: -18%;color:#2E72C1;font-family: Nunito;font-weight: 800;font-size: 32px;">Close</button>
+			</div>
+		</div>
+
+        `;
+});
 
 $_ready (() => {
 	// 2. Inside the $_ready function:
@@ -1170,6 +1198,36 @@ $_ready (() => {
 			unhide_div.classList.remove("animate__animated");
 			unhide_div.classList.remove("animate__fadeOut");
 			
+		}
+
+		// // dialog log scroll progress bar
+		const progress = document.querySelector(".progress");
+		const log = document.querySelector(".log");
+		const cursor = document.querySelector(".progress-cursor");
+		log.onscroll = function() {scrolling()};
+
+		function scrolling() {
+			console.log("scrolling");
+			var logScroll = document.body.scrollTop || log.scrollTop;
+			console.log(logScroll);
+			var height = log.scrollHeight - log.clientHeight;
+			console.log(height);
+			if (height == 0) {
+				progress.style.height = "0%";
+				cursor.style.top = "0%";
+			}
+			else {
+				var scrolled = (logScroll / height) * 100;
+				console.log(scrolled);
+				if (scrolled == 0) {
+					cursor.style.top = "0%";
+				}
+				else {
+					cursor.style.top = "-4%";
+				}
+				progress.style.height = scrolled + "%";
+			}
+
 		}
 
 	});

@@ -236,7 +236,7 @@ monogatari.assets("music", {
   'intro_intro' :'/stickthefigure/intro_intro.wav' ,
   'intro_loop' :'/stickthefigure/intro_loop.wav' ,
   'sad_intro' :'/stickthefigure/sad_intro.wav',
-  // 'sad_loop' :'music/stickthefigure/sad_loop.wav',
+  'sad_loop' :'/stickthefigure/sad_loop.wav',
 
 
 });
@@ -775,7 +775,7 @@ monogatari.script({
     "show scene school_hallway_daylight with fadeIn duration 500ms",
 
     // "Intro Music Intro Musi ",
-    'play music intro_loop  with loop',
+    'play music intro_loop with loop',
 
     "character_object_narration It\'s lunch break at school, but the atmosphere is livelier than usual. Oh right, it\'s Club Day today. You still can\'t decide which club you want to join this year. ",
     "character_object_narration You stop walking the hallways to look at the board of various club posters. Oh man, you\'ve never joined one before, so the amount of options overwhelm you a little. ",
@@ -1065,7 +1065,8 @@ monogatari.script({
 
 
     // "character_object_atria Atria\'s BGM ",
-    'play music Atria_intro  with loop  ',
+    'play music Atria_loop with loop',
+
 
 
 
@@ -2628,7 +2629,6 @@ monogatari.script({
    
    
     // "Transition to Hallway BG Transition to Hallway B ",
-    "show scene black_screen with fadeIn duration 1s",
     "show scene school_hallway_daylight with fadeIn",
 
 
@@ -2657,17 +2657,17 @@ monogatari.script({
     "gallery unlock cg_esmeray",
 
 
-    "character_object_esmeray 	Don\'t need the plastic smiles all up in my face ",
-    "character_object_esmeray 	Just wanna be a moonchild and stay in outer space~ ",
-    "character_object_esmeray 	Don\'t wanna keep on going on like this ",
-    "character_object_esmeray 	These people all really like to miss ",
-    "character_object_esmeray 	The fact that I don\'t care... ",
-    "character_object_esmeray 	A fact that they can\'t bear... ",
-    "character_object_esmeray 	... ",
-    "character_object_esmeray 	...Someday I will travel far ",
-    "character_object_esmeray 	Riding on a shooting star ",
-    "character_object_esmeray 	Leaving won\'t give me a scar ",
-    "character_object_esmeray   Cause all I need is me and my guitar~ ",
+    "character_object_esmeray 	<i>Don\'t need the plastic smiles all up in my face</i> ",
+    "character_object_esmeray 	<i>Just wanna be a moonchild and stay in outer space~</i> ",
+    "character_object_esmeray 	<i>Don\'t wanna keep on going on like this</i> ",
+    "character_object_esmeray 	<i>These people all really like to miss</i> ",
+    "character_object_esmeray 	<i>The fact that I don\'t care...</i> ",
+    "character_object_esmeray 	<i>A fact that they can\'t bear...</i> ",
+    "character_object_esmeray 	<i>...</i> ",
+    "character_object_esmeray 	<i>...Someday I will travel far</i> ",
+    "character_object_esmeray 	<i>Riding on a shooting star</i> ",
+    "character_object_esmeray 	<i>Leaving won\'t give me a scar</i> ",
+    "character_object_esmeray   <i>Cause all I need is me and my guitar~!</i> ",
 
 
     //"END CG END CG ",
@@ -2877,7 +2877,7 @@ monogatari.script({
    
    
     // "character_object_atria Skye_Default and Atria2_Nervou ",
-    'show character character_object_skye fix_skye_default kyo-left',
+    'show character character_object_skye fix_skye_default skye-left',
     'show character character_object_atria atria2_nervous atria-right',
 
    
@@ -2950,7 +2950,6 @@ monogatari.script({
    
     // "Transition to Rooftop Day Transition to Rooftop Da ",
     // "character_object_esmeray Esmeray Genuin ",
-    "show scene black_screen with fadeIn duration 1s",
     "show scene Rooftop_bg_day with fadeIn",
     'show character character_object_esmeray Esmeray_genuine normal',
 
@@ -2958,16 +2957,16 @@ monogatari.script({
 
 
 
-    "character_object_esmeray What if I could fly to the blue sugar sky? ",
-    "character_object_esmeray Wouldn\'t that be sweet ",
-    "character_object_esmeray ... ",
-    "character_object_esmeray Don\'t wanna deal with a lie ",
-    "character_object_esmeray Just wanna move to the rhythm of the beat ",
-    "character_object_esmeray If only they could see... ",
-    "character_object_esmeray I just wanna go far ",
-    "character_object_esmeray That could be my remedy ",
-    "character_object_esmeray ... ",
-    "character_object_esmeray But all I got is me and my guitar... ",
+    "character_object_esmeray <i>What if I could fly to the blue sugar sky?</i> ",
+    "character_object_esmeray <i>Wouldn\'t that be sweet</i> ",
+    "character_object_esmeray <i>...</i> ",
+    "character_object_esmeray <i>Don\'t wanna deal with a lie</i> ",
+    "character_object_esmeray <i>Just wanna move to the rhythm of the beat</i> ",
+    "character_object_esmeray <i>If only they could see...</i> ",
+    "character_object_esmeray <i>I just wanna go far</i> ",
+    "character_object_esmeray <i>That could be my remedy</i> ",
+    "character_object_esmeray <i>...</i> ",
+    "character_object_esmeray <i>But all I got is me and my guitar...</i> ",
 
     "character_object_narration 	Esmeray continues to sing and hum, while you start to think. ",
     "character_object_narration How long has it been since you started trying to get him to join the club? ",
@@ -3339,7 +3338,6 @@ monogatari.script({
    
    
    // "Proceed to next scene Proceed to next scen ",
-   "show scene black_screen with fadeIn duration 1s",
    
    
    
@@ -3614,8 +3612,8 @@ monogatari.script({
     "hide video background_loop animate__animated animate__fadeOut animate__faster",
     
     // "Music Room Basic All Music Room Basic Al ",
-    "show scene black_screen with fadeIn duration 1s",
-    "show scene music_room_basic_ALL",
+    //"show scene black_screen with fadeIn duration 1s",
+    "show scene music_room_basic_ALL with fadeIn",
     
     // "Outro BGM Outro BGM ",
     'play music Opening_closing_VINTAGE with loop', 
@@ -3630,7 +3628,7 @@ monogatari.script({
 
 
     // "character_object_atria Atria1_happy, lef ",
-    'show character character_object_atria atria1_happy normal',
+    'show character character_object_atria atria1_happy kyo-left',
 
 
     "character_object_atria I\'m here. ",
@@ -3648,7 +3646,7 @@ monogatari.script({
 
 
     // "character_object_esmeray Esmeray_neutral, righ ",
-    'show character character_object_esmeray Esmeray_neutral normal',
+    'show character character_object_esmeray Esmeray_neutral atria-right',
 
 
 
@@ -3661,7 +3659,7 @@ monogatari.script({
 
 
 
-    'show character character_object_esmeray Esmeray_amused normal',
+    'show character character_object_esmeray Esmeray_amused atria-right',
     "character_object_esmeray Okay, okay, I\'m just kidding. I was a little late finishing my classwork. I\'ll be early next time. ",
     "character_object_player I\'ll hold you to that. ",
 
@@ -3684,7 +3682,7 @@ monogatari.script({
     "character_object_player Now, Esmeray... ",
 
 
-    'show character character_object_esmeray Esmeray_neutral normal',
+    'show character character_object_esmeray Esmeray_neutral atria-right',
     "character_object_esmeray Hm? ",
 
 
@@ -3693,11 +3691,14 @@ monogatari.script({
     "character_object_esmeray You got it. ",
     "character_object_narration Esmeray takes out a small notebook. He starts writing and humming to himself. ",
     "character_object_player And finally, Atria, you\'ll be the one on the speakers! ",
+
+    'show character character_object_atria atria1_nervous kyo-left',
+
     "character_object_atria Um, are you sure? I\'m not that loud and confident yet... ",
     "character_object_player You don\'t have to be the only speaker of course. We can do it together. ",
     "character_object_narration Atria slowly regains her smile. ",
 
-    'show character character_object_atria atria1_happy normal',
+    'show character character_object_atria atria1_happy kyo-left',
     "character_object_atria That\'d be easier for me. Thank you. ",
 
 
@@ -3711,21 +3712,21 @@ monogatari.script({
     "character_object_player Alright, we\'re done then. ",
     "character_object_narration Happiness feels like it\'s going to burst out of your chest. It really feels like an actual club now. No wait, it\'s not just a club. It feels like you have a friend group for real too. You wonder if everyone\'s down for a group hug before they leave. ",
     "character_object_narration You open your arms wide. ",
-    "character_object_player I know this is out of nowhere but... Who\'s down for a group hug? ",
+    "character_object_player I know this is out of nowhere but... Who\'s down for a group hug?! ",
 
 
 
-    'show character character_object_atria atria1_nervous normal',
+    'show character character_object_atria atria1_nervous kyo-left',
     "character_object_atria Huh? ",
    
    
    
     'show character character_object_skye skye_smile2 normal',
-    "Skye Skye_smile2 Heh, sure, why not. Come on, get over here, Atria! ",
+    "character_object_skye Heh, sure, why not. Come on, get over here, Atria! ",
    
    
    
-    'show character character_object_esmeray Esmeray_amused normal',
+    'show character character_object_esmeray Esmeray_amused atria-right',
     "character_object_esmeray Wait, we\'re actually doing this? Hold on a minute&mdash; ",
 
 
@@ -3733,7 +3734,7 @@ monogatari.script({
 
 
     // "Group hug CG  Group hug CG ",
-    'show scene group_hug_cg',
+    'show scene group_hug_cg with fadeIn',
     // unlock group hug cg
     "gallery unlock cg_group",
 
@@ -3742,20 +3743,28 @@ monogatari.script({
     
     
     // "Group hug CG ends. Group hug CG ends ",
-    "show scene music_room_basic_ALL",
-
+    "show scene music_room_basic_ALL with fadeIn",
+    'show character character_object_atria atria1_nervous kyo-left',
+    'show character character_object_skye skye_smile2 normal',
+    'show character character_object_esmeray Esmeray_amused atria-right',
 
 
     "character_object_narration All of the club members back up and stare at you in confusion. ",
+
+    'show character character_object_esmeray Esmeray_neutral atria-right',
+
     "character_object_esmeray Who\'s Kyo? ",
     "character_object_player Kyo. You know, the radio club president before I took over his role? Bright blue hair like cotton candy. Very munchable. It\'s hard to miss. ",
+    
+    'show character character_object_atria atria1_timid kyo-left',
+
     "character_object_atria I\'ve never heard of him. ",
     "character_object_player But you all met him before! You all talked to him and everything. Are you all messing with me?? ",
    
    
    
     'show character character_object_skye skye_smile normal',
-    "Skye Skye_smile Oh, I get it. He\'s the friend you were talking to before. ",
+    "character_object_skye Oh, I get it. He\'s the friend you were talking to before. ",
    
    
    
@@ -3766,36 +3775,36 @@ monogatari.script({
    
    
     'show character character_object_skye fix_skye_default normal',
-    "Skye Skye_default Like the ones I used to talk to inside the locker, right? ",
+    "character_object_skye Like the ones I used to talk to inside the locker, right? ",
    
    
    
     "character_object_player Yeah, yeah&mdash; wait, no! What the hell, do you guys genuinely not know? ",
     "character_object_narration You don\'t get much of a response. ",
-    "character_object_player Never mind, forget it. I\'m imagining things, hehe ",
+    "character_object_player Never mind, forget it. I\'m imagining things, hehe. ",
     "character_object_narration The lunch bell rings, and all of you part ways as you wave to each other. Your smile then fades. What do they mean, they don\'t know who Kyo is? You walk to your next class with a resting bitch face to mask your casual existential crisis. ",
     
     
     
     
     //"Scene ends Scene end ",
-    "show scene black_screen with fadeIn duration 1s",
+    'stop music Opening_closing_VINTAGE with fade 3',    
 
 
     // "School Hallway Night School Hallway Nigh ",
     "show scene school_hallway_evening with fadeIn",
-
+    'play music sad_loop with loop fade 3', 
 
 
 
     "character_object_narration It\'s Back To School Night. You go back and forth from your mom\'s car to carry water bottles to the venue. It takes just a few trips but the weight tires out your arms. Thank god that you\'re not in any of the sports clubs. ",
     "character_object_narration As you rest on a nearby bench, you see something colorful faintly glowing bright on the ground. It looks like a poorly drawn hand doing a peace sign. The pain is real. Hands are the bane of every artist\'s existence. ",
-    "character_object_narration ...Wait, this looks like the work of Kyo. ",
+    "character_object_narration ...Wait, this looks like the work of Kyo! ",
     "character_object_narration As quickly as you notice the symbol, it disappears. ",
     "character_object_narration That is the only sign you\'ve seen of him in school all week. What the hell is he up to? ",
-    "character_object_narration Looking up ahead, you see more graffiti symbols in the distance, scattered far apart in a way that beckons you to follow them. When you try to get near the symbols, they disappear as well. Oh boy, do you have some questions to ask him when you see him! ",
+    "character_object_narration Looking up ahead, you see more graffiti symbols in the distance, scattered far apart in a way that beckons you to follow them. When you try to get near the symbols, they disappear as well. Oh boy, do you have some questions to ask him when you see him. ",
    // "School Rooftop Night School Rooftop Nigh ",
-    "show scene Rooftop_bg_night",
+    "show scene Rooftop_bg_night with fadeIn",
     "character_object_narration You follow the path until you arrive at the school\'s rooftop. ",
     "character_object_narration There he is, spray painting symbols on the ground all around him in a circle. They vanish into thin air. ",
     "character_object_narration You call out to him.  ",
@@ -3810,7 +3819,7 @@ monogatari.script({
 
 
     "character_object_narration Kyo turns around. ",
-    "character_object_kyo Oh shit, hi {{player.name}}. ",
+    "character_object_kyo Oh shit, hi {{player.name}}! ",
     "character_object_player Where have you been? I haven\'t seen you in school all week. ",
 
     'show character character_object_kyo Kyo_FP_Default normal',
@@ -3834,13 +3843,13 @@ monogatari.script({
 
     'hide character character_object_kyo',
     // Kyo CG scene
-    "show scene kyo_cg2",
+    "show scene kyo_cg2 with fadeIn",
     // unlock kyo cg
     "gallery unlock cg_kyo",
 
     "character_object_kyo To help you make friends. ",
     "character_object_narration Your eyes widen. ",
-    "character_object_player How\'d you know I wanted to... ",
+    "character_object_player How\'d you know I wanted to...? ",
     "character_object_kyo You\'re the reason I opened up the radio club in the first place. ",
     "character_object_player Huh?! Wait, then you were the only club member on purpose? ",
     "character_object_kyo Haha, yup. ",
@@ -3859,9 +3868,9 @@ monogatari.script({
     "character_object_kyo Give me a high-five. ",
     "character_object_player For what? ",
     "character_object_kyo For being able to keep up with me. You know, since I speak so fast. ",
-    "character_object_player O...kay ",
+    "character_object_player O...kay. ",
     "character_object_narration When you go high-five Kyo, your hand goes through his like air. You don\'t feel him at all. ",
-    "character_object_narration You stand there in silence, flabbergasted. A realization hits you ",
+    "character_object_narration You stand there in silence, flabbergasted. A realization hits you. ",
     "character_object_player So you\'re the one haunting this school! ",
     "character_object_kyo Wait, what? ",
     "character_object_player Dude, did you not know? The paranormal activity club has been obsessed with you for a long time now. They\'ve been trying to contact you and everything. ",
@@ -3876,19 +3885,18 @@ monogatari.script({
     "character_object_kyo But I\'m running out of time. Now, I won\'t exist in this reality again. For real this time. ",
     // insert school bell sfx
     "play sound school_bell_sfx",
-    "character_object_narration ** <i>RING</i> ** ",
     "character_object_narration The school bell rings. ",
     "character_object_kyo Go. Your friends are waiting for you. ",
     "character_object_narration Kyo sets up his exit. ",
-    "character_object_player Wait! Before you go.,. ",
-    "character_object_player Thank you. For everything, ",
+    "character_object_player Wait! Before you go... ",
+    "character_object_player Thank you. For everything. ",
     "character_object_narration Kyo looks back one last time and smiles. ",
 
 
 
     // "character_object_kyo Fade out Kyo, use the Kyo_BG in his special scene folde ",
     "centered <img class=\"bg-img\" src=\"assets/scenes/special_scenes/Final/Kyo_CG/kyo-bg.png\">",
-    'stop music Opening_closing_VINTAGE with fade 5', 
+    'stop music sad_loop with fade 5', 
     "show scene black_screen with fadeIn duration 2s",
     'wait 2000',
     //"Game end Game en ",

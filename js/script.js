@@ -3595,7 +3595,7 @@ monogatari.script({
     'stop music EsmerayMaster_1 with fade 5', 
 
     // TEMPORARY END FOR DEMO
-    //"show scene black_screen with fadeIn duration 2s",
+    "show scene black_screen with fadeIn duration 2s",
     //'to be continued...',
     //"jump END",
 

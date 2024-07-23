@@ -1813,7 +1813,7 @@ monogatari.script({
     "character_object_atria I think I\'d like that. ",
     // end-of-CHAPTER-1-mark
 
-    'stop music Atria_intro with fade 5',
+    'stop music Atria_loop with fade 5',
     "show scene black_screen with fadeIn duration 2s",
 
     'jump CHAPTER_2',

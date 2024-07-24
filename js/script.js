@@ -2657,16 +2657,16 @@ monogatari.script({
     "gallery unlock cg_esmeray",
 
 
-    "character_object_esmeray 	<i>Don\'t need the plastic smiles all up in my face</i> ",
+    "character_object_esmeray 	<i>Don\'t need the plastic smiles all up in my face,</i> ",
     "character_object_esmeray 	<i>Just wanna be a moonchild and stay in outer space~</i> ",
-    "character_object_esmeray 	<i>Don\'t wanna keep on going on like this</i> ",
-    "character_object_esmeray 	<i>These people all really like to miss</i> ",
+    "character_object_esmeray 	<i>Don\'t wanna keep on going on like this,</i> ",
+    "character_object_esmeray 	<i>These people all really like to miss,</i> ",
     "character_object_esmeray 	<i>The fact that I don\'t care...</i> ",
     "character_object_esmeray 	<i>A fact that they can\'t bear...</i> ",
     "character_object_esmeray 	<i>...</i> ",
-    "character_object_esmeray 	<i>...Someday I will travel far</i> ",
-    "character_object_esmeray 	<i>Riding on a shooting star</i> ",
-    "character_object_esmeray 	<i>Leaving won\'t give me a scar</i> ",
+    "character_object_esmeray 	<i>...Someday I will travel far,</i> ",
+    "character_object_esmeray 	<i>Riding on a shooting star,</i> ",
+    "character_object_esmeray 	<i>Leaving won\'t give me a scar,</i> ",
     "character_object_esmeray   <i>Cause all I need is me and my guitar~!</i> ",
 
 
@@ -2958,13 +2958,13 @@ monogatari.script({
 
 
     "character_object_esmeray <i>What if I could fly to the blue sugar sky?</i> ",
-    "character_object_esmeray <i>Wouldn\'t that be sweet</i> ",
+    "character_object_esmeray <i>Wouldn\'t that be sweet,</i> ",
     "character_object_esmeray <i>...</i> ",
-    "character_object_esmeray <i>Don\'t wanna deal with a lie</i> ",
-    "character_object_esmeray <i>Just wanna move to the rhythm of the beat</i> ",
+    "character_object_esmeray <i>Don\'t wanna deal with a lie,</i> ",
+    "character_object_esmeray <i>Just wanna move to the rhythm of the beat,</i> ",
     "character_object_esmeray <i>If only they could see...</i> ",
-    "character_object_esmeray <i>I just wanna go far</i> ",
-    "character_object_esmeray <i>That could be my remedy</i> ",
+    "character_object_esmeray <i>I just wanna go far,</i> ",
+    "character_object_esmeray <i>That could be my remedy,</i> ",
     "character_object_esmeray <i>...</i> ",
     "character_object_esmeray <i>But all I got is me and my guitar...</i> ",
 
